@@ -1,0 +1,92 @@
+---
+import SearchForm from './SearchForm.astro';
+
+interface Props {
+  id: string;
+  modal?: boolean;
+}
+const { id, modal = false } = Astro.props;
+---
+
+<publication-search lang="vi" data-modal={modal?"true":undefined}>
+  <SearchForm id={id} />
+  <p class="search-status" role="status" aria-live="polite"></p>
+  <ol class="search-results"></ol>
+  <button type="button" class="search-more" hidden>Xem thêm kết quả</button>
+  <noscript><p>Bật JavaScript để tìm kiếm, hoặc <a href="/archives">xem kho bài viết</a>.</p></noscript>
+</publication-search>
+
+<script>
+  import './search';
+</script>
+
+<style>
+  publication-search {
+    display: block;
+    min-width: 0;
+  }
+  .search-status {
+    margin-block: var(--s-4);
+    color: var(--muted);
+    font-family: var(--font-sans);
+    font-stretch: var(--sans-width);
+    font-size: var(--t-meta);
+    font-weight: 600;
+    letter-spacing: var(--caps-tracking);
+    text-transform: uppercase;
+  }
+  .search-status:empty {
+    margin: 0;
+  }
+  .search-results {
+    list-style: none;
+  }
+  .search-results :global(li) {
+    border-bottom: 1px solid var(--rule);
+  }
+  .search-results :global(a) {
+    display: block;
+    padding-block: var(--s-4);
+    color: var(--ink);
+    text-decoration: none;
+  }
+  .search-results :global(h3) {
+    font-family: var(--font-text);
+    font-weight: 500;
+    font-size: var(--t-title-s);
+    line-height: 1.25;
+    text-wrap: pretty;
+  }
+  :where(:root:not([data-resting])) .search-results :global(a:hover h3),
+  .search-results :global(a:focus-visible h3) {
+    text-decoration: underline;
+    text-decoration-thickness: 1px;
+    text-underline-offset: 0.18em;
+  }
+  .search-results :global(p) {
+    margin-top: var(--s-2);
+    color: var(--muted);
+    font-size: var(--t-small);
+    line-height: 1.55;
+  }
+  .search-results :global(mark) {
+    padding-inline: 1px;
+    border-radius: 2px;
+    background: color-mix(in oklab, var(--ink) 14%, var(--paper));
+    color: inherit;
+  }
+  .search-more {
+    display: inline-flex;
+    align-items: center;
+    min-height: 44px;
+    margin-top: var(--s-4);
+    color: var(--ink);
+    font-family: var(--font-sans);
+    font-size: var(--t-meta);
+    text-decoration: underline;
+    text-underline-offset: 0.3em;
+  }
+  [hidden] {
+    display: none;
+  }
+</style>

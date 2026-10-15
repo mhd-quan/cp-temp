@@ -1,0 +1,272 @@
+{
+  "rater": "B",
+  "block": "B20",
+  "items": {
+    "foreign.force.2": {
+      "0": "PC TE CIN SDD",
+      "1": "IA NOA RC POC CO DI SC TR RET EC BK MO IS EM AP NDL CF RE SR GE JR NR WC NM PSD FA ID IM LS CRA",
+      "2": "GA DC UJ CST UT EU MDS LT GS US ETS MC LIF GM DE ELP SL PR LL RS PIP",
+      "3": "AC AS MU CA GAN LU CC TW SF RF ES DEG EB",
+      "-1": "NLS TP COA STC SMCD NC ML BC ONC PA GC LC PM XC NS DIR DS CH PER CL NEO OR AL COL ANC PAL TI GOC CM LEG CN LN SN CT BN IB AD NP TAR THW BL TRA",
+      "-2": "NA BA SU CAE AUC PE SUL PG HS HES MA GU ARC AMC CR NAC GAU BIC ME LI LF MI AM EA EN PN KE LZ VEF HI WA CLR JA PP COR CI RT NEOR",
+      "-3": "MR ST JU HO ACK TH NE LE KS IF NAZ NATC JM NAS OB IR REZ RZ HF EUR",
+      "split": "TR PC CO PA IA SDD WC NOA",
+      "why": "Splits anti-militarist and welfare-first camps (anarchists, Gandhians, greens, feminists, left) from camps that treat armed force as the core of state or nation (fascists, military rulers, hawkish conservatives, Legalists, Kautilya). Libertarians and anarcho-capitalists favour cutting the military but reject the welfare purpose, so land in mild opposition or mild agreement.",
+      "notes": {
+        "GAN": "Gandhi's nonviolence and the Ahimsa creed make military cuts a doctrinal commitment: 3.",
+        "LU": "Luxemburg's anti-militarism and her opposition to the 1914 war credits: 3.",
+        "TH": "Thatcher ring-fenced defence and policing while cutting welfare budgets: -3.",
+        "KS": "Arthashastra makes the army and treasury the two pillars of the state (danda): -3.",
+        "ANC": "Rothbard-style anarcho-capitalists want military and welfare both abolished, but reject welfare as the purpose: -1.",
+        "CST": "Gaudium et Spes 81 calls the arms race a 'treacherous trap' harming the poor: 2.",
+        "LI": "Liberal interventionism (Kosovo, Libya doctrine) depends on a capable military: -2.",
+        "TW": "Laozi ch. 31: weapons are instruments of ill omen; wuwei favours the minimal state: 3."
+      }
+    },
+    "change.means.3": {
+      "0": "NLS TP UJ NOA POC TE SMCD DI NC SC UT ML GU PA GC LC RET US EC TW MO IS EM CH PER CL LI LF PAL RS LS LZ IB CN AD CLR SDD NP PSD THW FA BL TRA",
+      "1": "AC AS MU GA DC CO CST TR EU LU CC CR MDS GS MC BK LIF SF RF GM ES DEG ELP AP SL NDL CF RE SR MI ANC GE LL CIN LN REZ SN ID IM RZ JR NR TAR NM CRA PIP PC RC",
+      "2": "IA LT ETS DE PR EB",
+      "3": "GAN CA",
+      "-1": "NA BA SU PG MA BC ARC ONC AMC NE NAC GAU PM XC ME NS DIR NEO OR COL OB TI GOC CM EN IR PN KE CT BN HI JA WC CI RT",
+      "-2": "CAE MR AUC PE COA SUL STC HS HES ST JU HO ACK TH BIC KS DS AL EA LEG VEF WA HF PP COR NEOR EUR NATC NAS",
+      "-3": "LE IF NAZ JM AM",
+      "split": "CR ML SC UT LZ",
+      "why": "Public, penalty-accepting law-breaking is the core of Gandhian, Thoreauvian and Christian-pacifist practice and is welcomed by rights-minded liberals and the left, while order-first, authoritarian, fascist and legalist camps see any deliberate breach as illegitimate. Revolutionary and armed-struggle camps see it as too mild rather than wrong, so sit near 0.",
+      "notes": {
+        "GAN": "Satyagraha and the Salt March: open breach of an unjust law with acceptance of the penalty is Gandhi's method: 3.",
+        "IA": "Thoreau's 'Civil Disobedience' (1849) is the founding text, and his night in jail the model: 2.",
+        "CA": "Tolstoy and Dorothy Day (repeatedly jailed) treat refusal of unjust law as discipleship: 3.",
+        "LE": "Han Fei: law is the ruler's instrument and punishment must be certain; a breach of law is never righteous: -3.",
+        "CR": "Operation Rescue and refusals such as Kim Davis's invoke obedience to God over unjust law, but many Christian-right figures stress order: 1, split.",
+        "TAR": "Tax resisters from Thoreau's poll tax to modern refusal campaigns openly refuse and accept penalty: 1.",
+        "ML": "Leninists prize mass action and discipline over individual symbolic breaches, and many dismiss it as bourgeois gesture: 0.",
+        "HS": "Hobbes: the sovereign's law is the measure of justice and no private judgment may override it: -2."
+      }
+    },
+    "class.4": {
+      "0": "RE IA GA CA SUL PC RC POC TE CST DI NC PG HS UT ACK CR TH MC EC LE TW PM BK MO XC KS LIF GM DE DEG EM ELP AP CL SL NEO PR NDL LI OR AL SR LF MI ANC GE LL VEF ID CT WA IB IM EB SDD JR NR TAR NM PSD FA TRA CRA PIP CI RT NEOR",
+      "1": "DIR NLS GAN UJ NOA CAE AUC PE COA CO SMCD ARC AMC NE GC LC RET CH COL PAL AM EA CM LEG LZ AD CLR HF PP THW BL",
+      "2": "TP NA BA SU MR STC HES JU BC ONC PA BIC ME DS IS PER CIN BN HI RZ JA NP WC COR EUR",
+      "3": "NAC GAU CN EN LN IR PN KE REZ SN NAZ IF NATC JM NAS NS",
+      "-1": "MU DC SC MDS LT GS US ETS CF OB RS TI LS GOC",
+      "-2": "AC AS ST MA EU HO GU SF RF ES",
+      "-3": "ML TR LU CC",
+      "split": "NLS LZ ST TP ACK",
+      "why": "Nation versus class as the engine of history: nationalists, fascists and organic conservatives answer yes; Marxists, council communists and anarchist communists answer no because class struggle is central. Liberals, libertarians and most religious or classical schemes treat the item as outside their concerns, and kin variants split (Stalinism and Maoism are nationalist in practice but doctrinally class-based).",
+      "notes": {
+        "NS": "Friedrich List's 'National System of Political Economy' makes the nation the unit of economic development, above individual or class: 3.",
+        "ML": "Communist Manifesto: 'the history of all hitherto existing society is the history of class struggles': -3.",
+        "ST": "Stalin's 'socialism in one country' and wartime patriotic turn lean national in practice, but doctrine still says class: -2, split.",
+        "NAZ": "Mein Kampf replaces class with race-nation (Volk) as the historical subject, mocking Marxist class war: 3.",
+        "LZ": "Labour Zionism (Borochov, Ben-Gurion) fuses class and national construction without placing the nation wholly above class: 1, split.",
+        "SF": "Socialist feminism adds gender to class analysis and never swaps class for nation: -2.",
+        "OB": "Rand's individualism rejects collective historical subjects of either kind: -1."
+      }
+    },
+    "legitimacy.4": {
+      "0": "TP NOA RC POC SMCD HES CR NE PA NAC GC LC RET TW PM NS DIR IS IF NAZ JM NAS EM PER NEO OR LF MI PAL GOC CM CN EN IR PN KE LZ BN HI EUR ST",
+      "1": "NA BA SU PE COA SUL STC PC TE BC ARC ONC TH GAU BIC UT AL COL AM EA ME DS WA HF PP COR NEOR MO",
+      "2": "CAE MR AUC LE XC KS",
+      "3": "HS",
+      "-1": "NLS GAN UJ CO CST DI NC PG SC JU ACK AMC EC BK NATC LIF SF GM DE DEG CH ELP AP CL SL PR NDL LI CF RE SR GE RS TI LS LEG CIN LN REZ SN ID IM EB CLR NP WC TAR NM PSD THW FA BL TRA CI RT",
+      "-2": "AS MU GA CA DC ML MA TR EU LU CC HO GU MDS LT GS US ETS MC RF ES OB LL CT IB RZ AD JA SDD JR NR CRA PIP",
+      "-3": "AC IA ANC VEF",
+      "split": "WA CR HES TP",
+      "why": "Whether peace itself is the ground of obedience: Hobbesian, authoritarian, Legalist, Xunzian and Kautilyan camps say yes, while anarchists, democrats, republicans, socialists, Mencians and divine-right or religious camps ground legitimacy in consent, justice, virtue or God instead.",
+      "notes": {
+        "HS": "Leviathan: obligation to the sovereign exists to escape the war of all against all and lasts as long as he can protect: 3.",
+        "XC": "Xunzi, 'Discourse on Ritual': rites and rulers arise to end strife and disorder: 2.",
+        "KS": "Arthashastra: without the rod (danda) the strong devour the weak, 'matsya nyaya'; the king exists to prevent it: 2.",
+        "MC": "Mencius 1B8: a ruler who ruins benevolence is a mere fellow, and killing him is no regicide, so peace alone grants no title: -2.",
+        "WA": "Salafi-Wahhabi quietism tells subjects to obey even unjust Muslim rulers to avoid fitna (strife), though the reason is religious: 1, split.",
+        "ANC": "Rothbard-style anarcho-capitalism denies any obligation to rulers and sees the state as the chief aggressor: -3.",
+        "CA": "Romans 13 and Sermon on the Mount, read by Tolstoy, ground obedience in God's will and love, not state-kept peace: -2.",
+        "VEF": "Velayat-e-faqih rests rule on the jurist's divine deputyship, not on keeping order: -3."
+      }
+    },
+    "army.4": {
+      "0": "GE TP GAN NOA PC DI NC SC ARC TH NE LC MA DE MC TW MO US CH PER TI LZ CIN EN CT WC PIP RT NEOR GA HF COL RE NEO",
+      "1": "AC AS MU DC NLS LL AD NR SDD JA AP LF CL NAC REZ SN RZ CRA PP GU LU CC",
+      "2": "MI OB JR CLR AMC CR TAR NP PA TR",
+      "3": "IA ANC PAL",
+      "-1": "NA UJ BA SU RC POC CO SMCD CST UT BC ONC GC GAU RET MDS LT GS ETS EC BK ME NS DIR IS LIF RF ES DEG CM LEG RS LS CN LN IR PN ID BN HI IB IM SL NDL LI OR CF SR BL TRA COR CI",
+      "-2": "CAE MR AUC PE COA SUL STC TE PG HES ML EU HO ACK BIC PM XC KS DS NATC SF GM EM ELP GOC KE VEF WA PR AL NM PSD THW FA EUR NAS",
+      "-3": "HS ST JU LE IF NAZ JM AM EA CA EB",
+      "split": "GU PA SDD CL NEO LZ",
+      "why": "An armed-citizenry right against tyranny is a core of American-style conservatism, libertarianism, classical republicanism and individualist anarchism, while pacifist, statist, Marxist-Leninist, fascist and monarchist camps want the monopoly of force held by the state or party. Most social democrats and progressives oppose it on policy grounds.",
+      "notes": {
+        "IA": "Individualist anarchists such as Lysander Spooner and Tucker treat armed self-defence as part of self-ownership against any government: 3.",
+        "CLR": "Machiavelli's Discourses: free republics rest on armed citizens, mercenaries and unarmed populaces invite tyranny: 2.",
+        "JR": "Jefferson: 'the tree of liberty must be refreshed from time to time' and a well-regulated armed militia of citizens: 2.",
+        "HS": "Leviathan: subjects keep a right to self-defence against personal attack but give up armed resistance to the sovereign: -3.",
+        "CA": "Sermon on the Mount, as read by Tolstoy, forbids any lethal resistance, even against abuse: -3.",
+        "TR": "Trotsky's Transitional Program calls for workers' defence guards and arming the workers against reaction: 2.",
+        "LE": "Shang Yang and Han Fei: a populace with its own arms and judgement is a threat to order, the state holds all force: -3.",
+        "GAN": "Gandhi condemned the Arms Act as a blackest crime of British rule, yet counselled nonviolence: 0."
+      }
+    },
+    "class.2": {
+      "0": "MU IA CA DC TP NA NOA BA CAE MR AUC PE COA SUL STC PC RC POC TE CO SMCD CST DI NC PG SC HS HES UT JU BC ARC ONC AMC CR TH NE PA NAC GC LC GAU BIC RET MDS GS US ETS MC EC LE TW PM BK MO XC KS ME NS DIR DS IS IF NAZ NATC JM NAS LIF SF RF GM ES DE DEG EM CH ELP CL SL NEO PR NDL LI OR CF AL RE COL SR LF MI OB ANC GE PAL LL RS TI LS GOC AM EA CM LEG CN CIN EN LN IR PN KE LZ REZ SN VEF ID CT BN HI WA IB IM RZ EB AD CLR JA SDD JR NR HF NP WC PP TAR NM PSD THW FA BL TRA CRA PIP COR CI RT NEOR EUR",
+      "1": "UJ GAN GA AC LT",
+      "2": "GU NLS AP SU",
+      "3": "MA ACK",
+      "-1": "ML ST HO PER",
+      "-2": "LU CC EU AS",
+      "-3": "TR",
+      "split": "ML ST UJ",
+      "why": "A question of Marxist strategy: Maoists, Khmer agrarian communists, peasant-populists and guerrilla or national-liberation camps put the peasantry first in poor countries, while Trotskyists, Luxemburgists, council communists and syndicalists insist the proletariat leads even there. Most variants have no stake in revolutionary agency.",
+      "notes": {
+        "MA": "Mao, Report on the Peasant Movement in Hunan (1927): peasants are the main force and the urban worker secondary in China: 3.",
+        "TR": "Trotsky, Theory of Permanent Revolution: in backward countries only the proletariat can lead the peasantry to complete the revolution: -3.",
+        "ACK": "Khmer Rouge made the peasantry the sole revolutionary class and treated urban workers and cities as suspect: 3.",
+        "SU": "Sukarno Marhaenism takes the small peasant (Marhaen) as the typical exploited Indonesian: 2.",
+        "GU": "Guevara foco theory (Guerrilla Warfare, 1960) bases revolution on the rural guerrilla and peasantry: 2.",
+        "ML": "Lenin kept the worker-peasant alliance with the proletarian party as vanguard, so he rejects peasant primacy: -1, split.",
+        "AS": "Anarcho-syndicalism (Rocker, CNT) rests revolution on organised industrial workers and the general strike: -2."
+      }
+    },
+    "class.6": {
+      "0": "SUL SC CR PA LC LT GS LI CF GE MA TI LIF GM DE EM AP IR PN LZ SN WA AD SDD NR PP TRA PIP NEOR NOA NLS",
+      "1": "NC NAZ THW TE PC RC PE CH MR AUC COA IS ME NS UT HS BC ARC NAC GC MDS US LE PM MO PR AL RE COL RS LS GOC LEG CN CIN EN LN REZ VEF ID CT BN HI IB IM RZ EB JA HF NP WC COR RT EUR GAN UJ BA SU JU",
+      "2": "NATC CST DI RET POC SL NDL PSD NM FA CO CAE DIR DS ETS MC EC BK XC KS JM OR TP NA BL AM EA CM CLR CI",
+      "3": "STC IF NAS SMCD ONC BIC SR PER GAU HES PG KE",
+      "-1": "AMC NE TW CL NEO MI PAL LL EU DEG ELP JR",
+      "-2": "LF OB ANC TH MU IA GA CA DC ML ST HO GU ACK SF RF ES TAR CRA",
+      "-3": "AC AS TR LU CC",
+      "split": "MA JU TP EU",
+      "why": "Whether the state should arbitrate between classes for social peace: corporatists, fascists, solidarists, Christian democrats, Hegelians and organic conservatives say yes; Marxists, anarchists and radical libertarians reject it because the state is class rule or an aggressor, and market liberals say it distorts the market.",
+      "notes": {
+        "STC": "State corporatism organises capital and labour into state-supervised bodies to prevent class conflict: 3.",
+        "HES": "Hegel, Philosophy of Right: the state and its corporations reconcile particular interests into the universal: 3.",
+        "SR": "Leon Bourgeois' solidarism makes the state the guarantor of a social debt and class cooperation: 3.",
+        "LU": "Luxemburg treats the bourgeois state as the instrument of class rule, and the class struggle as the only road: -3.",
+        "ML": "Lenin, State and Revolution: the state is an organ of class domination that cannot reconcile classes: -2.",
+        "TH": "Thatcher denied that society or class interests needed a state arbiter, and broke the corporatist tripartite bargaining: -2.",
+        "TP": "Sun Yat-sen rejected Marxist class struggle in favour of class harmony under Min-sheng, but with strong party tutelage: 2, split.",
+        "ANC": "Rothbard saw the state as itself a ruling class, not an arbiter: -2."
+      }
+    },
+    "elites.trust.4": {
+      "0": "NLS NA UJ NOA BA SU CAE PE COA SUL RC DI ML EU HO TH NE RET MDS GS US IF JM NAS SF ES DEG RE NEO GE TI GOC CN CIN LN IR PN LZ REZ SN ID BN HI IB IM RZ CLR JA NR EUR RT",
+      "1": "MC TP MR STC CO NC SC HS UT ST JU CST GC GAU LIF GM ETS BK MO ME NS IS NATC LI CF COL SR RS SL AM CM LEG VEF CT WA KE TRA",
+      "2": "EC XC AUC PC POC BC ARC ONC LC SMCD CI HES BIC KS LE HF EA OR AL PR NDL EM LS DIR DS NM PSD THW",
+      "3": "TE PG PM FA",
+      "-1": "GAN AMC CR PA NAC LT TW NAZ RF DE CH PER ELP CL LF MI OB LL EB AD SDD JR WC BL PIP COR NEOR LU TR GU MU DC EN",
+      "-2": "AC AS GA CA MA CC ACK AP ANC PAL NP PP TAR CRA",
+      "-3": "IA",
+      "split": "RC TH AMC CL ML",
+      "why": "Whether blanket distrust of experts and officials is dangerous: technocrats, meritocrats, Confucian examination and Xunzian camps, Burkeans and Fabians say yes, while anarchists, individualist libertarians, populists and the Cultural-Revolution Maoists treat suspicion of authority as healthy or required.",
+      "notes": {
+        "TE": "Technocracy rests on rule by qualified specialists, so reflexive distrust of them is the opposite of its creed: 3.",
+        "PM": "Daniel Bell's political meritocracy selects and trusts the competent, and warns against one-person-one-vote populism: 3.",
+        "FA": "The Webbs and Fabian Society built social reform on expert investigation and a trained civil service: 3.",
+        "IA": "Stirner and Tucker reject all external authority as a matter of principle, so trusting it by default is the error: -3.",
+        "MA": "Mao's Cultural Revolution slogan 'to rebel is justified' and attacks on bourgeois experts and bureaucrats: -2.",
+        "ACK": "Khmer Rouge purged teachers, doctors and officials, treating expertise as class enemy: -2.",
+        "CL": "Hayek's knowledge-problem warns against deference to planners, though classical liberals also respect rule of law and expertise: -1, split.",
+        "ML": "Vanguard-party discipline asks trust in party authority, but Leninists also attack bourgeois specialists and officials: 0, split."
+      }
+    },
+    "violence.3": {
+      "0": "GAN EB",
+      "1": "SC TW BK BN GA DE DEG GM EC",
+      "2": "AC AS MU NLS TP NA UJ NOA BA SU CAE MR AUC PE COA SUL STC PC RC POC TE CO SMCD DI NC PG HES UT ML ST MA TR JU EU LU CC HO GU ACK BC ARC ONC CR TH NE PA NAC GC LC GAU BIC RET MDS LT GS US ETS MC LE PM MO XC ME NS DIR DS IS IF NAZ NATC JM NAS LIF SF RF ES EM CH PER ELP AP SL NEO PR NDL LI OR CF AL RE COL SR LF GE RS TI LS GOC AM EA CM LEG CN CIN EN LN IR PN KE LZ REZ SN VEF ID CT HI WA IB IM RZ AD CLR JA SDD JR NR HF NP WC PP TAR NM PSD THW FA BL TRA CRA PIP COR CI RT NEOR EUR",
+      "3": "HS CL MI OB ANC IA PAL AMC DC KS CST LL",
+      "-3": "CA",
+      "split": "GAN EB BK TW SC GA",
+      "why": "Near-consensus that bodily self-defence is permissible. Only absolute pacifists (Tolstoyan Christian anarchists, strict Gandhian or Buddhist nonviolence) dissent or hedge, while Hobbesian, Lockean, libertarian and natural-law camps treat it as a core natural right.",
+      "notes": {
+        "CA": "Tolstoy, The Kingdom of God Is Within You: Matthew 5:39 forbids resisting evil by violence, even in self-defence: -3.",
+        "HS": "Leviathan ch. 14: the right of nature, self-preservation, can never be laid down, so even a convict may resist: 3.",
+        "CST": "Catechism 2265: legitimate defence is not only a right but a grave duty for those responsible for others: 3.",
+        "GAN": "Gandhi preferred nonviolence but wrote that violence in self-defence is better than cowardly flight, so he hedges: 0, split.",
+        "DC": "Rojava YPG/YPJ and Ocalan make organised self-defence a founding principle, alongside jineology women defence units: 3.",
+        "EB": "Thich Nhat Hanh and engaged Buddhists urge nonviolence and protection of life, giving no ready licence to injure an attacker: 0, split.",
+        "MO": "Mozi condemned aggression but trained defenders in fortification and force against attackers: 2."
+      }
+    },
+    "environment.technology.6": {
+      "0": "AS IA NLS NOA BA SU CAE MR PE COA SUL STC POC SMCD NC PG HS HES MA EU LU CC GU ACK BC ARC ONC CR PA NAC GAU BIC MDS GS US ETS MC EC LE XC KS ME IS NAZ NATC NAS LIF RF CH PER ELP CL LI OR CF AL COL SR LF MI ANC GE PAL LL RS TI LS GOC AM EA CM LEG CN CIN EN LN IR PN REZ SN VEF ID CT BN HI WA IB IM RZ AD CLR JA SDD JR NR NP WC PP TAR NM PSD CRA PIP COR NEOR EUR",
+      "1": "NEO LC NE AMC TH PR SL NDL PC RC ML JM IF ST JU HO TR FA THW PM NS DIR KE NA TP HF UT LZ OB RE",
+      "2": "TRA TE DS AUC",
+      "3": "EM",
+      "-1": "ES GM CA CO GC RET AC MU DC UJ EB BK DI SF AP LT BL CI RT SC",
+      "-2": "GAN TW MO CST",
+      "-3": "DEG DE GA",
+      "split": "GM ES CL OB CST",
+      "why": "Tech-fix versus behaviour change on pollution: ecomodernists, technocrats and developmentalist or modernising camps back public money for cleaner technology, while degrowth, deep and green anarchist, Gandhian, Daoist and Catholic-social-teaching camps hold that consumption and the technocratic mindset themselves must change.",
+      "notes": {
+        "EM": "Ecomodernist Manifesto (2015): decoupling through advanced technology, not austerity or persuasion, is the path: 3.",
+        "DEG": "Degrowth (Latouche, Kallis) holds that technology alone cannot offset consumption, so sufficiency and lifestyle change are central: -3.",
+        "CST": "Laudato Si (2015) criticises the technocratic paradigm and calls for ecological conversion and lower consumption: -2.",
+        "GAN": "Hind Swaraj and the charkha: simple living and critique of machine civilisation over a technological fix: -2.",
+        "GA": "Zerzan and Jensen see technology as part of the problem, so funding it is no answer: -3.",
+        "MO": "Mozi frugality (jieyong) and condemnation of luxury favour curbing consumption: -2.",
+        "TRA": "Transhumanists look to engineering and innovation to solve pollution rather than nudging habits: 2."
+      }
+    },
+    "lifestyle.gender.3": {
+      "0": "PM DE EM PC RC TE CO SMCD SC HS TP NA NOA BA SU AUC PE COA LE TW MO ME NS DIR DS IS AP LI OR TI LS GOC LT GS GAU ST JU CC HO GU CM CIN LN SN ID IM AD CLR JA SDD HF TRA GE LL",
+      "1": "DEG SL NDL PSD THW POC ML MA TR LU NLS GAN UJ PG UT CH PER CF RE SR RS US ETS FA KE LZ EB NR PIP",
+      "2": "LIF RF PR MDS ES GM ELP EU",
+      "3": "SF NM DC",
+      "-1": "AC AS MU GA CA CL NEO ONC NE GC LC RET WC ACK CAE SUL STC CST DI HES MC EC BK XC KS AL COL BL EA CN IR PN BN HI JR CRA",
+      "-2": "IA MI OB PAL LF BC ARC AMC TH NAC BIC NP PP TAR NAS MR NC AM LEG EN REZ VEF CT IB RZ COR CI NEOR RT EUR",
+      "-3": "ANC CR PA IF NAZ NATC JM WA",
+      "split": "CR GAU AC LL DEG ML",
+      "why": "Whether the state should use concrete measures such as quotas or targets for women leaders: feminists, Nordic social democrats, greens and the left say yes, while libertarians and anarchists object to state action, and traditionalist, religious-conservative, fascist and ethnonationalist camps reject the premise of promoting women into command.",
+      "notes": {
+        "NM": "Norway legislated a 40 percent board quota in 2003 and Nordic parties use internal quotas: 3.",
+        "DC": "Rojava and Ocalan's jineology require a co-chair system with a woman in every office and a 40 percent minimum: 3.",
+        "SF": "Socialist feminism treats unequal access to power as structural and wants state remedies: 3.",
+        "ANC": "Rothbard-type anarcho-capitalists oppose state coercion in any form and treat quotas as aggression against property rights: -3.",
+        "CR": "Christian right holds male headship in family and church and opposes affirmative-action preferences: -3, split.",
+        "TH": "Thatcher, the first female PM, opposed positive discrimination and promoted women by merit alone: -2.",
+        "CAE": "Strongman rule rests on a martial, male-coded model of authority and on no mandated quota: -1.",
+        "AC": "Anarchist-communists back gender equality, but reject the state as the instrument: -1, split."
+      }
+    },
+    "trade.selfreliance.2": {
+      "0": "AS MU SUL PC SMCD NC SC UT TR EU LU CC CR LC RET MDS LT GS ETS BK SF RF SL PR NDL COL SR RS LS GOC AM CM CIN LN CT WA IM RZ NR PP TAR PSD FA NEOR",
+      "1": "AUC DS WC CAE MR PE COA RC TE CO CST DI HS HES GU US MC EC PM MO XC TI ELP LEG CN PN LZ REZ SN ID BN EB AD CLR JA SDD JR BL COR CI TP NOA ARC ONC BC AMC NE AC CA DC GM",
+      "2": "UJ MA ST ML NA IF NATC JM NAS NAC PA NP GAU HF BIC DIR STC GA ES DE DEG GC PG LE TW KS CH PER AP EA EN IR KE VEF HI IB EUR RT NLS BA SU",
+      "3": "ME NS IS JU GAN HO ACK NAZ",
+      "-1": "TH IA PAL LL CL OR LI CF AL RE LIF POC NM THW TRA CRA PIP EM",
+      "-2": "MI OB ANC NEO GE",
+      "-3": "LF",
+      "split": "CL PAL GE SC AD DI",
+      "why": "Strategic self-sufficiency in food and medicine versus comparative advantage: mercantilists, economic nationalists, juche and autarkic regimes, Gandhian swadeshi and localist greens say yes, while free-trade liberals, libertarians and cosmopolitan camps say stockpiles and trade cost less than autarky.",
+      "notes": {
+        "JU": "Juche makes economic self-reliance (jarip) one of its three pillars, treating import dependence as subjugation: 3.",
+        "GAN": "Swadeshi and the charkha: India should produce its own cloth and necessities rather than import them: 3.",
+        "LF": "Laissez-faire doctrine (Bastiat, Manchester School) holds that free trade lowers costs and that protection impoverishes: -3.",
+        "CL": "Adam Smith, Wealth of Nations IV.2, accepts the Navigation Acts because defence is more important than opulence, yet generally defends free trade: -1, split.",
+        "HF": "Hamilton, Report on Manufactures (1791): arms, food and military supplies must be made at home despite cost: 2.",
+        "ME": "Mercantilism seeks a favourable balance and domestic supply of vital goods for power: 3.",
+        "EUR": "Eurasianism (Dugin, Savitsky) seeks autarkic large-space economy insulated from Atlantic markets: 2.",
+        "IS": "Import-substitution industrialisation (Prebisch) is built on domestic production of strategic goods: 3."
+      }
+    },
+    "religion.law.6": {
+      "0": "GA CA NA GAN UJ NOA CAE MR AUC PE COA SUL STC TE CO CST ML ST MA TR JU LU CC HO GU ACK ONC TH NE GC LC BIC LT GS US ETS MC EC LE TW PM XC KS ME NS DIR DS IS IF NAZ JM NAS DE DEG CH PER AP NEO AL SR PAL RS TI LS GOC CM CN EN IR PN REZ SN IM AD CLR HF NP WC PP TAR BL CRA",
+      "1": "AC AS MU IA NLS TP BA SU PC RC SMCD EU GAU MDS SF RF GM ES EM ELP EA LN LZ ID EB JA SDD NM PSD THW FA TRA PIP SC COL OR LI LF ANC GE HES",
+      "2": "LIF CL SL PR NDL CF RE NR LL JR KE CIN DC UT POC MI OB",
+      "-1": "HS PG DI NC BC ARC AMC PA NAC RET BK MO HI NEOR",
+      "-2": "CR AM LEG BN IB COR EUR",
+      "-3": "NATC VEF CT WA RZ CI RT",
+      "split": "CST GAN LT IM CN HES",
+      "why": "A public-reason test of legitimacy (Rawls, Locke on toleration, Mill) versus laws grounded in revelation or tradition: liberals, laicist republicans and secular nationalists accept it, while theocratic, integralist, divine-right and confessional-conservative camps hold that a law grounded in God or tradition is legitimate even if unbelievers cannot share its reasons. Most secular-authoritarian and technocratic camps have no stake.",
+      "notes": {
+        "CI": "Catholic integralism holds the state must be ordered to the Church and to the common good known by faith; law need not be justified to non-Catholics: -3.",
+        "VEF": "Khomeini velayat-e-faqih makes divine law as interpreted by the jurist the source of legitimacy: -3.",
+        "WA": "Wahhabi doctrine makes sharia the only legitimate law irrespective of the consent or reasons of non-Muslims: -3.",
+        "KE": "Kemalist laicism (secularism principle) bars religious grounds from state law and asks justification in reason and national interest: 2.",
+        "JR": "Jefferson, Virginia Statute for Religious Freedom (1786) and the wall of separation: civil rights do not depend on religious opinion: 2.",
+        "CST": "Natural law claims to be accessible to reason of all, yet the Church holds law legitimate by conformity to it rather than by acceptance: 0, split.",
+        "CR": "The Christian right argues law may rest on biblical morality and rejects a secular-neutrality test: -2.",
+        "GAN": "Gandhi favoured laws acceptable to all faiths (sarva dharma sambhava) but also wanted religion to inform politics: 0, split."
+      }
+    }
+  }
+}

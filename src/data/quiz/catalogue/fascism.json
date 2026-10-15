@@ -1,0 +1,319 @@
+{
+  "parties": [
+    {
+      "id": "pnf",
+      "name": "Đảng Phát xít Quốc gia",
+      "abbr": "PNF",
+      "country": "Ý",
+      "period": "1921–1943",
+      "variants": [
+        "italian-fascism"
+      ],
+      "emblem": {
+        "shape": "disc",
+        "field": "#111111",
+        "ink": "#f2f2f2",
+        "motif": "fasces"
+      }
+    },
+    {
+      "id": "buf",
+      "name": "Liên minh Phát xít Anh",
+      "abbr": "BUF",
+      "country": "Anh",
+      "period": "1932–1940",
+      "variants": [
+        "italian-fascism"
+      ],
+      "emblem": {
+        "shape": "disc",
+        "field": "#c8102e",
+        "ink": "#ffffff",
+        "motif": "lightning",
+        "ring": "#012169"
+      }
+    },
+    {
+      "id": "nsdap",
+      "name": "Đảng Quốc xã",
+      "abbr": "NSDAP",
+      "country": "Đức",
+      "period": "1920–1945",
+      "variants": [
+        "nazism"
+      ],
+      "emblem": {
+        "shape": "disc",
+        "field": "#707070",
+        "ink": "#e8e8e8",
+        "motif": "ring"
+      }
+    },
+    {
+      "id": "fet-jons",
+      "name": "Đảng Falange",
+      "abbr": "FET y de las JONS",
+      "country": "Tây Ban Nha",
+      "period": "1937–1977",
+      "variants": [
+        "national-catholicism",
+        "italian-fascism"
+      ],
+      "emblem": {
+        "shape": "shield",
+        "field": "#c8102e",
+        "ink": "#111111",
+        "motif": "yoke-arrows"
+      }
+    },
+    {
+      "id": "uniao-nacional",
+      "name": "Liên minh Quốc gia",
+      "country": "Bồ Đào Nha",
+      "period": "1930–1974",
+      "variants": [
+        "national-catholicism"
+      ],
+      "emblem": {
+        "shape": "shield",
+        "field": "#006600",
+        "ink": "#ffff00",
+        "motif": "castle-turret"
+      }
+    },
+    {
+      "id": "vaterlaendische-front",
+      "name": "Mặt trận Tổ quốc Áo",
+      "abbr": "VF",
+      "country": "Áo",
+      "period": "1933–1938",
+      "variants": [
+        "national-catholicism"
+      ],
+      "emblem": {
+        "shape": "disc",
+        "field": "#c8102e",
+        "ink": "#ffffff",
+        "motif": "cross-potent"
+      }
+    },
+    {
+      "id": "taisei-yokusankai",
+      "name": "Hiệp hội Hỗ trợ Đế chính",
+      "country": "Nhật Bản",
+      "period": "1940–1945",
+      "variants": [
+        "japanese-militarism"
+      ],
+      "emblem": {
+        "shape": "disc",
+        "field": "#ffffff",
+        "ink": "#bc002d",
+        "motif": "sun",
+        "ring": "#bc002d"
+      }
+    },
+    {
+      "id": "fe-de-las-jons",
+      "name": "Falange Tây Ban Nha của các JONS",
+      "abbr": "FE de las JONS",
+      "country": "Tây Ban Nha",
+      "period": "1934–1937",
+      "variants": [
+        "national-syndicalism"
+      ],
+      "emblem": {
+        "shape": "disc",
+        "field": "#111111",
+        "ink": "#c8102e",
+        "motif": "yoke-arrows",
+        "ring": "#c8102e"
+      }
+    },
+    {
+      "id": "mns-portugal",
+      "name": "Phong trào Công đoàn Quốc gia (Áo sơ mi xanh)",
+      "abbr": "MNS",
+      "country": "Bồ Đào Nha",
+      "period": "1932–1934",
+      "variants": [
+        "national-syndicalism"
+      ],
+      "emblem": {
+        "shape": "shield",
+        "field": "#ffffff",
+        "ink": "#c8102e",
+        "motif": "cross",
+        "ring": "#1f3a68"
+      }
+    }
+  ],
+  "states": [
+    {
+      "id": "italy-1922-1943",
+      "name": "Ý",
+      "period": "1922–1943",
+      "note": "Chế độ phát xít của Mussolini",
+      "variants": [
+        "italian-fascism"
+      ],
+      "flag": "kingdom-of-italy"
+    },
+    {
+      "id": "germany-1933-1945",
+      "name": "Đức Quốc xã",
+      "period": "1933–1945",
+      "note": "Chế độ Hitler",
+      "variants": [
+        "nazism"
+      ],
+      "seal": true
+    },
+    {
+      "id": "spain-1939-1975",
+      "name": "Tây Ban Nha",
+      "period": "1939–1975",
+      "note": "Chế độ Franco",
+      "variants": [
+        "national-catholicism",
+        "catholic-integralism"
+      ],
+      "flag": "spain-francoist"
+    },
+    {
+      "id": "portugal-1933-1974",
+      "name": "Bồ Đào Nha",
+      "period": "1933–1974",
+      "note": "Estado Novo của Salazar",
+      "variants": [
+        "national-catholicism",
+        "catholic-integralism"
+      ],
+      "flag": "portugal"
+    },
+    {
+      "id": "japan-1931-1945",
+      "name": "Đế quốc Nhật Bản",
+      "period": "1931–1945",
+      "note": "Quân đội chi phối chính trường; Thần đạo quốc gia",
+      "variants": [
+        "japanese-militarism"
+      ],
+      "flag": "japan"
+    }
+  ],
+  "figures": [
+    {
+      "id": "benito-mussolini",
+      "name": "Benito Mussolini",
+      "life": "1883–1945",
+      "role": "Lãnh tụ phát xít, Thủ tướng Ý (1922–1943)",
+      "variant": "italian-fascism",
+      "wiki": "Benito Mussolini"
+    },
+    {
+      "id": "giovanni-gentile",
+      "name": "Giovanni Gentile",
+      "life": "1875–1944",
+      "role": "Triết gia của chủ nghĩa phát xít Ý",
+      "variant": "italian-fascism",
+      "wiki": "Giovanni Gentile"
+    },
+    {
+      "id": "oswald-mosley",
+      "name": "Oswald Mosley",
+      "life": "1896–1980",
+      "role": "Sáng lập Liên minh Phát xít Anh",
+      "variant": "italian-fascism",
+      "wiki": "Oswald Mosley"
+    },
+    {
+      "id": "adolf-hitler",
+      "name": "Adolf Hitler",
+      "life": "1889–1945",
+      "role": "Lãnh tụ Quốc xã, nhà độc tài Đức",
+      "variant": "nazism",
+      "wiki": "Adolf Hitler"
+    },
+    {
+      "id": "alfred-rosenberg",
+      "name": "Alfred Rosenberg",
+      "life": "1893–1946",
+      "role": "Nhà lý luận chủng tộc của Đảng Quốc xã",
+      "variant": "nazism",
+      "wiki": "Alfred Rosenberg"
+    },
+    {
+      "id": "francisco-franco",
+      "name": "Francisco Franco",
+      "life": "1892–1975",
+      "role": "Nhà độc tài Tây Ban Nha (1939–1975)",
+      "variant": "national-catholicism",
+      "wiki": "Francisco Franco"
+    },
+    {
+      "id": "antonio-de-oliveira-salazar",
+      "name": "António de Oliveira Salazar",
+      "life": "1889–1970",
+      "role": "Thủ tướng Bồ Đào Nha (1932–1968)",
+      "variant": "national-catholicism",
+      "wiki": "António de Oliveira Salazar"
+    },
+    {
+      "id": "engelbert-dollfuss",
+      "name": "Engelbert Dollfuss",
+      "life": "1892–1934",
+      "role": "Thủ tướng Áo (1932–1934)",
+      "variant": "national-catholicism",
+      "wiki": "Engelbert Dollfuss"
+    },
+    {
+      "id": "hideki-tojo",
+      "name": "Tōjō Hideki",
+      "life": "1884–1948",
+      "role": "Tướng, Thủ tướng Nhật Bản (1941–1944)",
+      "variant": "japanese-militarism",
+      "wiki": "Hideki Tojo"
+    },
+    {
+      "id": "ikki-kita",
+      "name": "Kita Ikki",
+      "life": "1883–1937",
+      "role": "Nhà tư tưởng quốc gia cực đoan Nhật Bản",
+      "variant": "japanese-militarism",
+      "axes": {
+        "economy": 20,
+        "distribution": 25,
+        "change": 85
+      },
+      "wiki": "Ikki Kita"
+    },
+    {
+      "id": "jose-antonio-primo-de-rivera",
+      "name": "José Antonio Primo de Rivera",
+      "life": "1903–1936",
+      "role": "Người sáng lập Falange Tây Ban Nha (1933)",
+      "variant": "national-syndicalism",
+      "wiki": "José Antonio Primo de Rivera"
+    },
+    {
+      "id": "ramiro-ledesma-ramos",
+      "name": "Ramiro Ledesma Ramos",
+      "life": "1905–1936",
+      "role": "Sáng lập JONS, nhà lý luận công đoàn quốc gia Tây Ban Nha",
+      "variant": "national-syndicalism",
+      "axes": {
+        "religion": 35
+      },
+      "wiki": "Ramiro Ledesma Ramos"
+    },
+    {
+      "id": "francisco-rolao-preto",
+      "name": "Francisco Rolão Preto",
+      "life": "1893–1977",
+      "role": "Thủ lĩnh phong trào Công đoàn Quốc gia Bồ Đào Nha (Áo sơ mi xanh)",
+      "variant": "national-syndicalism",
+      "wiki": "Francisco Rolão Preto"
+    }
+  ]
+}

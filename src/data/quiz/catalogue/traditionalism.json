@@ -1,0 +1,178 @@
+{
+  "parties": [
+    {
+      "id": "ultra-royalists",
+      "name": "Phái Bảo hoàng cực đoan (Ultras)",
+      "country": "Pháp",
+      "period": "1815–1830",
+      "variants": [
+        "counter-revolution",
+        "legitimism"
+      ],
+      "emblem": {
+        "shape": "shield",
+        "field": "#1a3a8f",
+        "ink": "#f2c230",
+        "motif": "fleur-de-lis"
+      }
+    },
+    {
+      "id": "carlism",
+      "name": "Phong trào Carlist",
+      "country": "Tây Ban Nha",
+      "period": "1833–nay",
+      "variants": [
+        "counter-revolution",
+        "catholic-integralism",
+        "legitimism"
+      ],
+      "emblem": {
+        "shape": "shield",
+        "field": "#ffffff",
+        "ink": "#c8102e",
+        "motif": "burgundy-cross",
+        "ring": "#c8102e"
+      }
+    },
+    {
+      "id": "action-francaise",
+      "name": "Hành động Pháp (Action française)",
+      "abbr": "AF",
+      "country": "Pháp",
+      "period": "1899–nay",
+      "variants": [
+        "counter-revolution"
+      ],
+      "emblem": {
+        "shape": "disc",
+        "field": "#ffffff",
+        "ink": "#1a3a8f",
+        "motif": "fleur-de-lis",
+        "ring": "#1a3a8f"
+      }
+    }
+  ],
+  "states": [
+    {
+      "id": "france-1824-1830",
+      "name": "Vương quốc Pháp",
+      "period": "1824–1830",
+      "note": "Charles X: ngai vàng và bàn thờ, luật chống báng bổ",
+      "variants": [
+        "counter-revolution"
+      ],
+      "flag": "bourbon-restoration"
+    },
+    {
+      "id": "ecuador-1869-1875",
+      "name": "Ecuador",
+      "period": "1869–1875",
+      "note": "García Moreno: chỉ người Công giáo được là công dân",
+      "variants": [
+        "catholic-integralism"
+      ],
+      "flag": "ecuador"
+    }
+  ],
+  "figures": [
+    {
+      "id": "joseph-de-maistre",
+      "name": "Joseph de Maistre",
+      "life": "1753–1821",
+      "role": "Nhà tư tưởng phản cách mạng xứ Savoie",
+      "variant": "counter-revolution",
+      "wiki": "Joseph de Maistre"
+    },
+    {
+      "id": "juan-donoso-cortes",
+      "name": "Juan Donoso Cortés",
+      "life": "1809–1853",
+      "role": "Nhà ngoại giao, nhà tư tưởng Tây Ban Nha",
+      "variant": "counter-revolution",
+      "wiki": "Juan Donoso Cortés"
+    },
+    {
+      "id": "pius-ix",
+      "name": "Giáo hoàng Piô IX",
+      "life": "1792–1878",
+      "role": "Giáo hoàng (1846–1878)",
+      "variant": "catholic-integralism",
+      "wiki": "Pope Pius IX"
+    },
+    {
+      "id": "gabriel-garcia-moreno",
+      "name": "Gabriel García Moreno",
+      "life": "1821–1875",
+      "role": "Tổng thống Ecuador",
+      "variant": "catholic-integralism",
+      "wiki": "Gabriel García Moreno"
+    },
+    {
+      "id": "ngo-dinh-thuc",
+      "name": "Ngô Đình Thục",
+      "life": "1897–1984",
+      "role": "Tổng Giám mục Huế, anh ruột Ngô Đình Diệm",
+      "variant": "catholic-integralism",
+      "wiki": "Pierre Martin Ngô Đình Thục"
+    },
+    {
+      "id": "julius-evola",
+      "name": "Julius Evola",
+      "life": "1898–1974",
+      "role": "Triết gia bí truyền Ý",
+      "variant": "radical-traditionalism",
+      "wiki": "Julius Evola"
+    },
+    {
+      "id": "aleksandr-dugin",
+      "name": "Aleksandr Dugin",
+      "life": "s. 1962",
+      "role": "Triết gia Nga, lý thuyết gia chủ nghĩa Á–Âu",
+      "variant": "radical-traditionalism",
+      "wiki": "Aleksandr Dugin"
+    },
+    {
+      "id": "curtis-yarvin",
+      "name": "Curtis Yarvin",
+      "life": "s. 1973",
+      "role": "Lập trình viên, blogger Mỹ (Mencius Moldbug)",
+      "variant": "neoreaction",
+      "wiki": "Curtis Yarvin"
+    },
+    {
+      "id": "nick-land",
+      "name": "Nick Land",
+      "life": "s. 1962",
+      "role": "Triết gia Anh, tác giả Khai sáng Đen tối",
+      "variant": "neoreaction",
+      "wiki": "Nick Land"
+    },
+    {
+      "id": "nikolai-trubetzkoy",
+      "name": "Nikolai Trubetskoy",
+      "life": "1890–1938",
+      "role": "Nhà ngôn ngữ học Nga lưu vong, tác giả Châu Âu và nhân loại (1920)",
+      "variant": "eurasianism",
+      "wiki": "Nikolai Trubetzkoy"
+    },
+    {
+      "id": "lev-gumilyov",
+      "name": "Lev Gumilyov",
+      "life": "1912–1992",
+      "role": "Sử gia, nhà dân tộc học Xô viết, thuyết sinh thành tộc người",
+      "variant": "eurasianism",
+      "axes": {
+        "identity": 20
+      },
+      "wiki": "Lev Gumilev"
+    },
+    {
+      "id": "george-vernadsky",
+      "name": "George Vernadsky",
+      "life": "1887–1973",
+      "role": "Sử gia Nga–Mỹ của phái Á–Âu, tác giả Người Mông Cổ và nước Nga (1953)",
+      "variant": "eurasianism",
+      "wiki": "George Vernadsky"
+    }
+  ]
+}

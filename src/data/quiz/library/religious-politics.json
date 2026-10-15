@@ -1,0 +1,131 @@
+{
+  "family": {
+    "id": "religious-politics",
+    "name": "Chính trị tôn giáo",
+    "en": "Religious politics",
+    "summary": "Luật pháp và đời sống công phải theo giáo lý của một tôn giáo; giáo sĩ hay cộng đồng tín đồ có vai trò chính trị trực tiếp."
+  },
+  "variants": [
+    {
+      "id": "velayat-e-faqih",
+      "name": "Thần quyền Hồi giáo",
+      "en": "Islamic theocracy (guardianship of the jurist)",
+      "summary": "Một nhà luật học Hồi giáo tối cao giám hộ nhà nước, luật Sharia là nền tảng; có bầu cử nhưng ứng viên do giáo sĩ sàng lọc.",
+      "exemplars": ["Ruhollah Khomeini", "Cộng hoà Hồi giáo Iran (1979)"],
+      "period": "1979–nay",
+      "axes": { "economy": 30, "distribution": 35, "trade": 30, "power": 15, "liberty": 10, "elites": 35, "lifestyle": 3, "religion": 100, "identity": 25, "environment": 35, "foreign": 20, "change": 75 },
+      "status": "draft",
+      "raters": ["claude"]
+    },
+    {
+      "id": "islamic-democracy",
+      "name": "Dân chủ Hồi giáo",
+      "en": "Islamic democracy",
+      "summary": "Giá trị Hồi giáo trong đời sống công, nhưng qua bầu cử cạnh tranh và nhà nước pháp quyền; tương tự Dân chủ Kitô giáo ở châu Âu.",
+      "exemplars": ["Rached Ghannouchi (Ennahda)", "Anwar Ibrahim"],
+      "period": "1980–nay",
+      "axes": { "economy": 60, "distribution": 45, "trade": 65, "power": 75, "liberty": 55, "elites": 50, "lifestyle": 20, "religion": 75, "identity": 45, "environment": 45, "foreign": 60, "change": 25 },
+      "status": "draft",
+      "raters": ["claude"]
+    },
+    {
+      "id": "calvinist-theocracy",
+      "name": "Thần quyền Tin Lành",
+      "en": "Calvinist theocracy (Christian reconstructionism)",
+      "summary": "Thành phố hay quốc gia sống theo Kinh Thánh, hội đồng trưởng lão giám sát đạo đức công dân, lấy luật Môsê làm khuôn mẫu.",
+      "exemplars": ["Jean Calvin (Genève)", "Rousas J. Rushdoony"],
+      "period": "1541–nay",
+      "axes": { "economy": 70, "distribution": 65, "trade": 60, "power": 40, "liberty": 15, "elites": 30, "lifestyle": 3, "religion": 100, "identity": 40, "environment": 35, "foreign": 40, "change": 45 },
+      "facets": { "power.pluralism": 25, "power.checks": 30, "power.local": 70 },
+      "status": "draft",
+      "raters": ["claude"]
+    },
+    {
+      "id": "buddhist-nationalism",
+      "name": "Dân tộc Phật giáo",
+      "en": "Buddhist nationalism",
+      "summary": "Quốc gia là thành trì của Phật giáo; phải bảo vệ đạo và dân tộc đa số trước các tôn giáo và cộng đồng khác.",
+      "exemplars": ["Anagarika Dharmapala (Sri Lanka)", "Phong trào 969 (Myanmar)"],
+      "period": "1890–nay",
+      "axes": { "economy": 40, "distribution": 45, "trade": 35, "power": 45, "liberty": 30, "elites": 55, "lifestyle": 15, "religion": 85, "identity": 5, "environment": 50, "foreign": 30, "change": 40 },
+      "status": "draft",
+      "raters": ["claude"]
+    },
+    {
+      "id": "hindutva",
+      "name": "Dân tộc Ấn giáo",
+      "en": "Hindu nationalism (Hindutva)",
+      "summary": "Ấn Độ là quốc gia của người Hindu; văn hoá Hindu là nền tảng của bản sắc quốc gia, đi cùng kinh tế thị trường và nhà nước mạnh.",
+      "exemplars": ["V. D. Savarkar", "M. S. Golwalkar", "Tổ chức RSS"],
+      "period": "1923–nay",
+      "axes": { "economy": 60, "distribution": 60, "trade": 50, "power": 55, "liberty": 45, "elites": 55, "lifestyle": 25, "religion": 80, "identity": 5, "environment": 35, "foreign": 30, "change": 40 },
+      "status": "draft",
+      "raters": ["claude"]
+    },
+    {
+      "id": "wahhabism",
+      "name": "Chủ nghĩa Wahhabi",
+      "en": "Wahhabism (Saudi–Wahhabi state)",
+      "summary": "Một vương triều liên minh với giới giáo sĩ Salafi thanh giáo: luật Sharia nghiêm ngặt, cảnh sát tôn giáo giám sát đạo đức nơi công cộng, không đảng phái, không bầu cử; tiền dầu mỏ nuôi nhà nước.",
+      "exemplars": ["Muhammad ibn Abd al-Wahhab", "Ibn Saud", "Ả Rập Xê Út (1932–2016)"],
+      "period": "1744–nay",
+      "axes": { "economy": 35, "distribution": 55, "trade": 55, "power": 5, "liberty": 5, "elites": 10, "lifestyle": 2, "religion": 95, "identity": 20, "environment": 15, "foreign": 30, "change": 20 },
+      "facets": { "economy.ownership": 30, "economy.planning": 60, "economy.steering": 20, "distribution.tax": 70, "distribution.welfare": 30, "distribution.labour": 85, "trade.goods": 70, "trade.capital": 35, "trade.selfreliance": 60, "power.pluralism": 0, "power.checks": 10, "power.local": 10, "liberty.expression": 0, "identity.nation": 45, "identity.culture": 5, "identity.migration": 10, "foreign.rules": 35, "foreign.intervention": 20 },
+      "sd": { "change": 15 },
+      "status": "draft",
+      "raters": ["claude"]
+    },
+    {
+      "id": "islamism-brotherhood",
+      "name": "Hồi giáo chính trị (Anh em Hồi giáo)",
+      "en": "Islamism (Muslim Brotherhood)",
+      "summary": "Hồi giáo là hệ thống toàn diện cho cá nhân, gia đình và nhà nước; phong trào quần chúng với trường học, bệnh xá rồi đảng phái; Sharia là nguồn luật pháp; chống chủ nghĩa thế tục phương Tây.",
+      "exemplars": ["Hassan al-Banna", "Sayyid Qutb", "Tổ chức Anh em Hồi giáo (Ai Cập, 1928)"],
+      "period": "1928–nay",
+      "axes": { "economy": 45, "distribution": 35, "trade": 35, "power": 30, "liberty": 25, "elites": 55, "lifestyle": 8, "religion": 90, "identity": 35, "environment": 35, "foreign": 30, "change": 60 },
+      "facets": { "economy.ownership": 55, "economy.planning": 50, "economy.steering": 30, "distribution.tax": 40, "distribution.welfare": 40, "distribution.labour": 45, "power.pluralism": 25, "power.checks": 35, "power.local": 35, "liberty.expression": 20, "liberty.justice": 30, "elites.decision": 45, "elites.rank": 70, "elites.trust": 75, "lifestyle.family": 5, "lifestyle.gender": 10, "lifestyle.autonomy": 5, "identity.nation": 55, "identity.culture": 15, "identity.migration": 40, "foreign.force": 25, "foreign.rules": 35, "foreign.intervention": 25, "change.pace": 40, "change.means": 45, "change.depth": 95 },
+      "sd": { "environment": 15 },
+      "status": "draft",
+      "raters": ["claude"]
+    },
+    {
+      "id": "islamic-modernism",
+      "name": "Hồi giáo canh tân",
+      "en": "Islamic modernism",
+      "summary": "Mở lại cửa ijtihad, dùng lý trí diễn giải lại giáo lý; Hồi giáo không mâu thuẫn với khoa học; canh tân giáo dục, đòi chính thể lập hiến và đoàn kết thế giới Hồi giáo chống đế quốc.",
+      "exemplars": ["Jamal al-Din al-Afghani", "Muhammad Abduh", "Muhammad Iqbal"],
+      "period": "1870–1940",
+      "axes": { "economy": 55, "distribution": 45, "trade": 45, "power": 65, "liberty": 55, "elites": 40, "lifestyle": 35, "religion": 70, "identity": 55, "environment": 35, "foreign": 50, "change": 40 },
+      "facets": { "power.pluralism": 60, "power.checks": 70, "power.local": 55, "elites.decision": 20, "elites.rank": 65, "elites.trust": 55, "lifestyle.family": 30, "lifestyle.gender": 50, "lifestyle.autonomy": 25, "religion.law": 60, "religion.public": 85, "identity.nation": 50, "identity.culture": 70, "identity.migration": 50, "change.pace": 35, "change.means": 25, "change.depth": 70 },
+      "sd": { "economy": 15, "distribution": 15, "trade": 15, "foreign": 15 },
+      "status": "draft",
+      "raters": ["claude"]
+    },
+    {
+      "id": "religious-zionism",
+      "name": "Phục quốc Do Thái tôn giáo",
+      "en": "Religious Zionism",
+      "summary": "Sự trở về Đất Israel là một giai đoạn của công cuộc cứu chuộc; định cư trên mảnh đất ấy là bổn phận tôn giáo; luật Halakha phải có chỗ trong đời sống công của nhà nước Do Thái.",
+      "exemplars": ["Rav Abraham Isaac Kook", "Zvi Yehuda Kook", "Phong trào Gush Emunim"],
+      "period": "1902–nay",
+      "axes": { "economy": 50, "distribution": 45, "trade": 50, "power": 65, "liberty": 45, "elites": 45, "lifestyle": 15, "religion": 80, "identity": 10, "environment": 35, "foreign": 20, "change": 50 },
+      "facets": { "power.pluralism": 80, "power.checks": 45, "power.local": 60, "liberty.expression": 60, "liberty.justice": 40, "lifestyle.family": 10, "lifestyle.gender": 25, "religion.state": 85, "religion.law": 70, "religion.public": 90, "identity.nation": 5, "identity.culture": 15, "identity.migration": 15, "foreign.force": 15, "foreign.rules": 15, "foreign.intervention": 35, "change.means": 45, "change.depth": 60 },
+      "sd": { "economy": 15, "trade": 15 },
+      "status": "draft",
+      "raters": ["claude"]
+    },
+    {
+      "id": "engaged-buddhism",
+      "name": "Phật giáo dấn thân",
+      "en": "Engaged Buddhism",
+      "summary": "Đem từ bi và chánh niệm vào đời sống xã hội: bất bạo động, chống chiến tranh và chế độ đẳng cấp, vì công bằng xã hội và môi trường; chuyển hoá cả con người lẫn cơ cấu.",
+      "exemplars": ["Thích Nhất Hạnh", "B. R. Ambedkar (Navayana)", "Sulak Sivaraksa"],
+      "period": "1956–nay",
+      "axes": { "economy": 35, "distribution": 20, "trade": 35, "power": 80, "liberty": 75, "elites": 75, "lifestyle": 55, "religion": 50, "identity": 80, "environment": 85, "foreign": 95, "change": 45 },
+      "facets": { "distribution.tax": 25, "distribution.labour": 25, "trade.goods": 40, "trade.selfreliance": 20, "power.local": 85, "elites.decision": 70, "elites.rank": 95, "elites.trust": 70, "lifestyle.gender": 75, "lifestyle.autonomy": 45, "religion.state": 30, "religion.law": 20, "religion.public": 85, "identity.nation": 85, "environment.nature": 90, "environment.technology": 70, "foreign.rules": 90, "change.pace": 40, "change.means": 5, "change.depth": 85 },
+      "sd": { "economy": 15 },
+      "status": "draft",
+      "raters": ["claude"]
+    }
+  ]
+}

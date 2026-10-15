@@ -1,0 +1,1256 @@
+{
+  "rater": "A",
+  "block": "A13",
+  "items": {
+    "power.checks.1": {
+      "0": "IS CRA",
+      "1": "SF RF",
+      "2": "CO TRA PIP",
+      "3": "LIF HF",
+      "-2": "COA STC NAS EUR",
+      "-3": "SUL",
+      "split": "SF",
+      "why": "Independent courts that can rule against rulers: liberal and constitutional camps endorse, personalist and captured-state regimes reject, and anti-state or purely economic doctrines have little stake.",
+      "notes": {
+        "HF": "Federalist 78 makes the judiciary the independent guardian of the constitution: 3.",
+        "SUL": "Courts are the ruler's household instrument in Trujillo or Marcos style rule: -3.",
+        "EUR": "Dugin follows Schmitt: the sovereign, not a court, decides: -2.",
+        "COA": "Fujimori and Milosevic packed or purged courts to keep the field tilted: -2."
+      }
+    },
+    "power.checks.2": {
+      "0": "IS",
+      "2": "COA STC NAS HF EUR",
+      "3": "SUL",
+      "-1": "TRA",
+      "-2": "CO LIF SF RF PIP",
+      "-3": "CRA",
+      "split": "HF",
+      "why": "Open-ended rule for a talented leader: personal, corporatist and fascist regimes say yes, democrats and feminists no; Hamilton is the odd republican case.",
+      "notes": {
+        "HF": "Federalist 72 argues re-eligibility of the executive is wise and term limits harmful: 2.",
+        "STC": "Salazar ruled 36 years as Council president with no term limit: 2.",
+        "SUL": "Rule for life, then dynastic succession, is the model (Trujillo, Somoza, Mobutu): 3.",
+        "CRA": "Cypherpunks reject any ruler, tenure is beside the point: -3."
+      }
+    },
+    "power.checks.3": {
+      "0": "IS RF",
+      "1": "SF CRA",
+      "2": "CO TRA PIP",
+      "3": "LIF HF",
+      "-1": "COA",
+      "-2": "STC NAS EUR",
+      "-3": "SUL",
+      "split": "SF",
+      "why": "Separation of powers: constitutional liberals and Madisonian Federalists are doctrinally for it; unitary-leader regimes against; others have little stake.",
+      "notes": {
+        "HF": "Federalist 47-51 defend separated, mutually checking departments: 3.",
+        "NAS": "Falange: the state as a totalitarian instrument of unity, rejecting Montesquieu: -2.",
+        "EUR": "Dugin attacks liberal separation of powers in favour of sovereign unity: -2.",
+        "COA": "Constitutions keep the form of separation while the executive controls courts and legislature: -1."
+      }
+    },
+    "power.checks.4": {
+      "0": "IS",
+      "1": "HF",
+      "2": "COA STC",
+      "3": "SUL NAS EUR",
+      "-1": "CO",
+      "-2": "LIF SF RF TRA CRA",
+      "-3": "PIP",
+      "split": "HF CO",
+      "why": "Emergency rule outside parliament and courts: Schmittian and strongman camps endorse it, rights-centred camps refuse, Hamilton accepts energetic executive action but within a constitution.",
+      "notes": {
+        "EUR": "Dugin borrows Schmitt: sovereign is he who decides the state of exception: 3.",
+        "COA": "Fujimori's 1992 self-coup and Mugabe's emergency decrees: 2.",
+        "HF": "Federalist 23 and 70 want energy and unity in the executive, though under the constitution: 1.",
+        "PIP": "Pirate programmes make transparency and civil liberties non-suspendable: -3."
+      }
+    },
+    "power.checks.5": {
+      "1": "IS HF",
+      "2": "COA STC",
+      "3": "SUL NAS EUR",
+      "-1": "SF TRA",
+      "-2": "CO LIF RF PIP",
+      "-3": "CRA",
+      "split": "HF",
+      "why": "Concentrated power for speed: personalist, corporatist, fascist and Eurasianist camps like it, liberals and communitarians prefer dispersal.",
+      "notes": {
+        "EUR": "Dugin demands a vertical of power and a strong sovereign: 3.",
+        "IS": "State-led planning needs a capable central executive, though the school is not about regime form: 1.",
+        "HF": "Federalist 70 wants unity in the executive but wants power divided overall: 1.",
+        "CRA": "Concentration of power is exactly the threat cryptography answers: -3."
+      }
+    },
+    "power.checks.6": {
+      "0": "IS",
+      "1": "CO LIF SF RF TRA PIP",
+      "2": "CRA",
+      "-2": "COA STC NAS EUR",
+      "-3": "SUL HF",
+      "split": "LIF CO",
+      "why": "Two-term cap even against voters' will: Hamilton explicitly opposes it, strongmen evade it, democrats mildly favour it.",
+      "notes": {
+        "HF": "Federalist 72 argues term limits remove the incentive for good conduct and bar able men: -3.",
+        "COA": "Fujimori third term, Mugabe and Milosevic all got around limits: -2.",
+        "LIF": "Mill-style liberals dislike restricting voters' choice, others like the cap: 1.",
+        "CRA": "Any brake on rulers is welcome to anarchists: 2."
+      }
+    },
+    "power.checks.7": {
+      "0": "IS SF CRA",
+      "1": "CO RF TRA",
+      "2": "LIF PIP",
+      "3": "HF",
+      "-2": "COA STC NAS EUR",
+      "-3": "SUL",
+      "split": "CO SF",
+      "why": "Judicial review of statutes: Federalist 78 is its founding text, liberals and digital-rights groups use courts, authoritarians cannot allow it.",
+      "notes": {
+        "HF": "Federalist 78 and Marshall in Marbury v. Madison: 3.",
+        "PIP": "Pirate parties fought data-retention laws in constitutional courts: 2.",
+        "CO": "Sandel and Etzioni prefer democratic deliberation to judicial supremacy, but accept review: 1.",
+        "STC": "Estado Novo left constitutionality to the executive-friendly Assembly: -2."
+      }
+    },
+    "power.checks.8": {
+      "0": "IS",
+      "2": "COA STC NAS EUR",
+      "3": "SUL",
+      "-1": "SF RF TRA",
+      "-2": "CO LIF HF CRA PIP",
+      "split": "IS SF",
+      "why": "A winning government should not be blocked by courts or independent bodies: majoritarian-leader regimes agree, liberal and republican camps do not.",
+      "notes": {
+        "HF": "Federalist 10 and 78: constitutional limits exist to restrain majorities: -2.",
+        "COA": "Winners tilt courts and agencies to their side, so independent bodies are an obstacle: 2.",
+        "LIF": "Rights are trumps against majorities in Mill and Friedan's rights-based agenda: -2.",
+        "IS": "Developmental states prize insulated technocratic agencies as well as executive drive: 0."
+      }
+    },
+    "power.local.1": {
+      "0": "IS",
+      "1": "HF EUR",
+      "2": "COA SUL STC NAS",
+      "-1": "SF RF TRA",
+      "-2": "CO LIF CRA PIP",
+      "split": "HF EUR",
+      "why": "Centrally appointed provincial governors: centralising authoritarian regimes agree, communitarians and decentralisers refuse; Hamilton wanted appointed governors in 1787 but Federalists lived with elected ones.",
+      "notes": {
+        "HF": "Hamilton's 1787 Convention plan had state governors appointed by the national government: 1.",
+        "STC": "Estado Novo governors civis and often mayors were named from Lisbon: 2.",
+        "CO": "Communitarianism builds on local self-government and mediating institutions: -2.",
+        "EUR": "Imperial centre with ethnic autonomy; Russian practice of appointing governors: 1."
+      }
+    },
+    "power.local.2": {
+      "0": "SF RF TRA",
+      "1": "LIF PIP",
+      "2": "CO CRA",
+      "-1": "IS EUR",
+      "-2": "COA STC NAS HF",
+      "-3": "SUL",
+      "split": "LIF",
+      "why": "Provincial control of revenue and policy: communitarians and anarchists like devolution, state-led industrialisers, Hamiltonians and centralisers do not.",
+      "notes": {
+        "HF": "Hamilton's Treasury assumed state debts and built national taxing power: -2.",
+        "IS": "CEPAL planning and a national tariff wall need a single national economic policy: -1.",
+        "CRA": "Cypherpunks favour small, competing jurisdictions people can leave: 2.",
+        "STC": "Salazar's Estado Novo was unitary, with municipalities under tutelage: -2."
+      }
+    },
+    "power.local.3": {
+      "0": "IS PIP",
+      "1": "STC CRA EUR",
+      "2": "CO",
+      "-1": "COA NAS LIF HF TRA",
+      "-2": "SUL SF RF",
+      "split": "STC LIF",
+      "why": "Village custom over royal or state law: communitarians cherish it, feminists reject patriarchal custom, unifying nationalists and liberals put state law first.",
+      "notes": {
+        "SF": "Customary law often subordinates women, so equality needs state law: -2.",
+        "RF": "Patriarchal custom is the root system radical feminism attacks: -2.",
+        "STC": "Estado Novo idealised the rural village and parish while keeping state control: 1.",
+        "CO": "Putnam and Etzioni treat local norms and associations as the source of civic order: 2."
+      }
+    },
+    "power.local.4": {
+      "0": "PIP",
+      "1": "IS LIF SF RF TRA EUR",
+      "2": "COA SUL STC HF",
+      "3": "NAS",
+      "-1": "CO",
+      "-2": "CRA",
+      "split": "EUR CO",
+      "why": "Uniform national law: unitary nationalists and national-market builders agree, anarchists and subsidiarity thinkers prefer variety.",
+      "notes": {
+        "NAS": "Falange point 1 and 2: Spain is an irrevocable unity, against separatisms: 3.",
+        "HF": "Federalist 15 wants national law acting directly on citizens, with commerce uniform: 2.",
+        "LIF": "Equal rights should not depend on the province: 1.",
+        "CRA": "Competing jurisdictions are the point: -2."
+      }
+    },
+    "power.local.5": {
+      "0": "IS LIF SF RF HF TRA",
+      "1": "CO PIP",
+      "2": "CRA",
+      "-1": "EUR",
+      "-2": "COA STC",
+      "-3": "SUL NAS",
+      "split": "HF EUR",
+      "why": "Federal versus centralised state: anarchists and subsidiarity camps like it, unitary authoritarians reject it; Hamilton favoured a strong consolidated government within the federation.",
+      "notes": {
+        "HF": "Defended the federal Constitution but wanted far more consolidation than the states liked (Federalist 9, 15): 0.",
+        "NAS": "Falange rejects regional autonomy and separatism as a betrayal of the nation: -3.",
+        "CRA": "Decentralisation and exit are core to the crypto-anarchist outlook: 2.",
+        "EUR": "Dugin attacks territorial federalism while favouring ethnic autonomy under an imperial centre: -1."
+      }
+    },
+    "power.local.6": {
+      "0": "IS SF RF TRA",
+      "1": "STC LIF PIP EUR",
+      "2": "CO CRA",
+      "-1": "COA NAS HF",
+      "-2": "SUL",
+      "split": "STC",
+      "why": "Subsidiarity: communitarians and anarchists endorse; Catholic corporatists claim it in theory; strongman and unitary camps do not.",
+      "notes": {
+        "CO": "Mediating institutions and subsidiarity run through Etzioni and Putnam: 2.",
+        "STC": "Quadragesimo Anno subsidiarity is invoked by corporatists though the state still dominates: 1.",
+        "SUL": "Nothing may escape the ruler's patronage network: -2.",
+        "HF": "Federalists wanted national government supreme in its sphere: -1."
+      }
+    },
+    "power.local.7": {
+      "0": "CO PIP",
+      "1": "IS LIF SF RF TRA",
+      "2": "COA SUL STC HF EUR",
+      "3": "NAS",
+      "-2": "CRA",
+      "split": "CO",
+      "why": "Centre may annul local decisions against general policy: unitary and supremacy-minded camps yes, communitarians and pirates ambivalent, anarchists no.",
+      "notes": {
+        "HF": "Federalist 80 and the supremacy clause let national authority override state acts: 2.",
+        "NAS": "Total state unity with no regional power to resist the centre: 3.",
+        "CO": "Subsidiarity versus common good: neither pole wins: 0.",
+        "LIF": "Rights-based review of local acts supports overruling local discrimination: 1."
+      }
+    },
+    "power.local.8": {
+      "0": "RF PIP",
+      "1": "CO",
+      "2": "CRA",
+      "-1": "LIF SF TRA",
+      "-2": "COA STC IS EUR",
+      "-3": "SUL NAS HF",
+      "split": "CO",
+      "why": "A centre that only coordinates self-governing communities and cannot command: only anarchists lean for it; Hamilton's whole project was against this model.",
+      "notes": {
+        "HF": "This is the Articles of Confederation that The Federalist was written to replace: -3.",
+        "CRA": "Voluntary association with no commanding centre is the anarchist ideal: 2.",
+        "IS": "Import substitution needs a state able to command tariffs and credit: -2.",
+        "NAS": "Falange: the state is the totalitarian instrument of unity: -3."
+      }
+    },
+    "power.local.9": {
+      "0": "STC IS NAS EUR",
+      "-1": "COA SF RF HF TRA PIP",
+      "-2": "SUL CO LIF CRA",
+      "split": "COA",
+      "why": "Rule of avoidance for local heads: a Chinese bureaucratic idea; most camps see it as outside their concerns or oppose residence-by-birth rules.",
+      "notes": {
+        "CO": "Belonging and local knowledge are central to community leadership: -2.",
+        "SUL": "Rule runs through kin and local loyal bosses, who are the whole system: -2.",
+        "LIF": "Barring people by birthplace from office breaches equal opportunity: -2.",
+        "COA": "Local machines and clientele networks are how the field is tilted: -1."
+      }
+    },
+    "liberty.expression.1": {
+      "0": "IS",
+      "2": "CO SF RF TRA",
+      "3": "LIF CRA PIP",
+      "-1": "HF",
+      "-2": "COA EUR",
+      "-3": "SUL STC NAS",
+      "split": "HF",
+      "why": "Free press critical of government: liberal and digital camps doctrinally yes, authoritarian regimes no; the Federalists passed the 1798 Sedition Act.",
+      "notes": {
+        "HF": "The Federalist-led Sedition Act of 1798 punished criticism of the government: -1.",
+        "STC": "Salazar's censorship (the blue pencil) was a pillar of the Estado Novo: -3.",
+        "COA": "Press stays legal but is harassed by lawsuits, tax audits and loss of licences: -2.",
+        "PIP": "Free information and anti-censorship are the founding Pirate demands: 3."
+      }
+    },
+    "liberty.expression.2": {
+      "0": "IS",
+      "1": "HF",
+      "2": "COA STC EUR",
+      "3": "SUL NAS",
+      "-1": "CO SF RF",
+      "-2": "LIF TRA",
+      "-3": "CRA PIP",
+      "split": "",
+      "why": "State removal of online content judged destabilising: authoritarian camps yes, liberal and digital camps firmly no.",
+      "notes": {
+        "CRA": "Cypherpunks build censorship-resistant tools because states will remove content: -3.",
+        "COA": "Hybrid regimes block and takedown critical sites under vague stability laws: 2.",
+        "HF": "The Sedition Act shows Federalists would punish destabilising speech: 1.",
+        "RF": "Radical feminists want pornography curbed but distrust vague state stability powers: -1."
+      }
+    },
+    "liberty.expression.3": {
+      "0": "IS",
+      "1": "HF",
+      "2": "CO RF TRA",
+      "3": "LIF SF CRA PIP",
+      "-1": "COA EUR",
+      "-2": "STC NAS",
+      "-3": "SUL",
+      "split": "HF",
+      "why": "Free association and peaceful assembly: the opposition and civil-society camps take it as a core right, regimes that ban parties and independent unions do not.",
+      "notes": {
+        "STC": "Estado Novo banned parties and strikes and replaced unions with state corporations: -2.",
+        "SF": "Organising and striking is how socialist feminists see women and workers winning: 3.",
+        "COA": "Assembly is formally allowed but permits, police and courts hinder the opposition: -1.",
+        "HF": "Federalists distrusted the democratic-republican societies of the 1790s: 1."
+      }
+    },
+    "liberty.expression.4": {
+      "0": "CO IS",
+      "1": "COA RF HF",
+      "2": "SUL STC EUR",
+      "3": "NAS",
+      "-1": "SF",
+      "-2": "LIF TRA",
+      "-3": "CRA PIP",
+      "split": "CO SF",
+      "why": "Ideas too dangerous to spread: totalitarian and traditionalist camps say yes, liberals and digital-freedom camps no, radical feminists want some material suppressed.",
+      "notes": {
+        "NAS": "Falange insisted on a single national doctrine and suppressed Marxism and liberalism: 3.",
+        "RF": "Dworkin and MacKinnon argue pornography is itself harm and should be curbed: 1.",
+        "EUR": "Dugin treats liberal ideology as a hostile force to be fought: 2.",
+        "LIF": "Mill's On Liberty is the classic case against suppressing any opinion: -2."
+      }
+    },
+    "liberty.expression.5": {
+      "0": "IS",
+      "1": "CO SF",
+      "2": "TRA",
+      "3": "LIF CRA PIP",
+      "-1": "COA RF HF",
+      "-2": "STC EUR",
+      "-3": "SUL NAS",
+      "split": "",
+      "why": "Protecting speech that offends the majority: liberal and digital camps yes, order-minded and traditionalist camps no.",
+      "notes": {
+        "LIF": "Mill: silencing even a lone dissenter harms the whole truth: 3.",
+        "CRA": "May and Hughes: strong crypto protects speech authorities would suppress: 3.",
+        "RF": "MacKinnon holds that some speech subordinates women and should not be protected: -1.",
+        "STC": "God, Fatherland and Family set limits on what may be said: -2."
+      }
+    },
+    "liberty.expression.6": {
+      "0": "IS",
+      "1": "COA EUR",
+      "2": "STC NAS",
+      "3": "SUL",
+      "-1": "CO SF RF HF",
+      "-2": "TRA",
+      "-3": "LIF CRA PIP",
+      "split": "",
+      "why": "Licensing of press and news sites: authoritarians use licences, liberal and digital camps reject any licensing.",
+      "notes": {
+        "LIF": "Milton's Areopagitica and Mill oppose licensing of the press: -3.",
+        "STC": "Estado Novo required prior authorisation and registration of publications: 2.",
+        "COA": "Licences are revoked selectively against opposition outlets: 1.",
+        "PIP": "Pirate programmes aim at free publication online without gatekeepers: -3."
+      }
+    },
+    "liberty.expression.7": {
+      "0": "IS",
+      "1": "EUR",
+      "2": "SUL NAS",
+      "3": "STC",
+      "-1": "COA CO RF",
+      "-2": "SF HF TRA",
+      "-3": "LIF CRA PIP",
+      "split": "",
+      "why": "Prior censorship of all books, articles and films: openly censoring corporatist regimes endorse, liberal camps reject; hybrid regimes prefer indirect pressure.",
+      "notes": {
+        "STC": "The Estado Novo censorship commission read every paper before print: 3.",
+        "COA": "Hybrid regimes prefer ownership, licensing and prosecution to prior vetting: -1.",
+        "HF": "Blackstone's rule that freedom of the press means no prior restraint was accepted: -2.",
+        "RF": "Wants curbs on pornography but not blanket vetting of all publication: -1."
+      }
+    },
+    "liberty.expression.8": {
+      "0": "IS TRA",
+      "1": "COA SUL STC CO NAS LIF EUR",
+      "2": "SF RF",
+      "-1": "HF PIP",
+      "-3": "CRA",
+      "split": "LIF TRA PIP",
+      "why": "Punishing hate speech against ethnic or religious groups: egalitarian and order-minded camps agree, absolute free-speech camps do not; liberals divide between US and European views.",
+      "notes": {
+        "RF": "MacKinnon supports legal remedies for group-based degradation: 2.",
+        "CRA": "No state may decide what speech is hate: -3.",
+        "LIF": "European liberals accept it while US-style liberals reject it: 1.",
+        "STC": "Catholic order protects the Church and nation from insult: 1."
+      }
+    },
+    "liberty.expression.9": {
+      "0": "COA SUL IS",
+      "1": "CO",
+      "2": "SF RF TRA PIP",
+      "3": "LIF CRA",
+      "-1": "HF",
+      "-2": "STC NAS EUR",
+      "split": "CO",
+      "why": "Mockery of religion without penalty: secular liberal and feminist camps yes, Catholic and Orthodox traditionalists no.",
+      "notes": {
+        "STC": "Concordat Portugal protected the Church and Catholic doctrine in law: -2.",
+        "EUR": "Dugin makes Orthodoxy the core of the empire: -2.",
+        "SF": "Anticlerical tradition from Zetkin and Kollontai: 2.",
+        "HF": "Federalists were attached to religion as a social support and states had blasphemy laws: -1."
+      }
+    },
+    "liberty.justice.1": {
+      "0": "CO IS",
+      "1": "COA EUR",
+      "2": "SUL NAS HF",
+      "-1": "STC LIF RF CRA",
+      "-2": "SF TRA PIP",
+      "split": "COA CO STC LIF RF CRA EUR",
+      "why": "Death penalty for intentional murder: retributive and order regimes lean yes, rights, Catholic-abolitionist and digital camps lean no, with several camps genuinely split.",
+      "notes": {
+        "STC": "Portugal had abolished capital punishment for civil crimes since 1867 and the Estado Novo kept that, with Catholic reserve: -1.",
+        "LIF": "Mill defended hanging for murder in 1868 but modern liberal feminists mostly oppose: -1.",
+        "TRA": "Life-extension ethics treat death as the evil to defeat, so state killing is hard to justify: -2.",
+        "HF": "Federalist-era states hanged murderers as a matter of course: 2."
+      }
+    },
+    "liberty.justice.2": {
+      "0": "IS",
+      "1": "CO RF HF",
+      "2": "SF TRA",
+      "3": "LIF CRA PIP",
+      "-1": "COA EUR",
+      "-2": "STC NAS",
+      "-3": "SUL",
+      "split": "",
+      "why": "Silence and counsel from arrest: liberal and digital-rights camps firm yes, secret-police regimes no.",
+      "notes": {
+        "STC": "PIDE could hold suspects incommunicado for months without a lawyer: -2.",
+        "SUL": "Mobutu and Trujillo secret police acted without counsel or process: -3.",
+        "RF": "Radical feminists criticise defence protections that expose rape complainants: 1.",
+        "HF": "Bill of Rights guarantees came as Anti-Federalist demands that Federalists accepted: 1."
+      }
+    },
+    "liberty.justice.3": {
+      "0": "IS RF HF CRA",
+      "1": "STC CO",
+      "2": "LIF SF TRA PIP",
+      "-1": "COA NAS EUR",
+      "-2": "SUL",
+      "split": "",
+      "why": "Prison as rehabilitation rather than punishment: reformist camps yes, personalist regimes treat prison as terror.",
+      "notes": {
+        "SF": "Socialist feminists see crime as rooted in class and gender conditions that can be remedied: 2.",
+        "CO": "Character and moral formation is a communitarian theme, though Sandel defends desert: 1.",
+        "SUL": "Prison and torture are instruments of rule, not correction: -2.",
+        "CRA": "Wants fewer prisons but offers restitution rather than reform as the goal: 0."
+      }
+    },
+    "liberty.justice.4": {
+      "0": "IS",
+      "1": "CO HF",
+      "2": "COA SUL STC NAS EUR",
+      "-1": "RF TRA",
+      "-2": "LIF SF PIP",
+      "-3": "CRA",
+      "split": "",
+      "why": "More powers for police on the streets: authoritarian camps yes, rights and digital camps no.",
+      "notes": {
+        "CRA": "Tim May's Manifesto sees policing powers as what crypto must outflank: -3.",
+        "STC": "Estado Novo relied on PSP, GNR and PIDE for order: 2.",
+        "HF": "Hamilton led the militia against the Whiskey Rebellion to uphold order: 1.",
+        "SF": "Socialist feminists see policing as protecting class order: -2."
+      }
+    },
+    "liberty.justice.5": {
+      "0": "IS",
+      "1": "COA EUR",
+      "2": "STC NAS",
+      "3": "SUL",
+      "-1": "CO RF",
+      "-2": "LIF SF HF TRA",
+      "-3": "CRA PIP",
+      "split": "",
+      "why": "Better wrongful arrest than letting the dangerous go: personalist and authoritarian camps agree, liberals invoke Blackstone's ratio.",
+      "notes": {
+        "HF": "Adams defended the Boston Massacre soldiers and Hamilton defended Loyalists on due-process grounds; Blackstone's ratio was accepted: -2.",
+        "SUL": "Suspicion alone is enough for the secret police to seize and kill: 3.",
+        "LIF": "Presumption of innocence and Blackstone's ratio are liberal bedrock: -2.",
+        "STC": "PIDE could detain on suspicion under security measures: 2."
+      }
+    },
+    "liberty.justice.6": {
+      "0": "CO IS HF",
+      "1": "COA STC NAS EUR",
+      "2": "SUL",
+      "-1": "RF",
+      "-2": "LIF SF TRA PIP",
+      "-3": "CRA",
+      "split": "",
+      "why": "Death for large-scale drug dealing: strongman and order camps lean yes, liberal, digital and drug-reform camps no.",
+      "notes": {
+        "CRA": "Cypherpunk darknet markets (Silk Road lineage) rest on free drug trade: -3.",
+        "PIP": "Pirate parties push drug-policy reform and oppose capital punishment: -2.",
+        "TRA": "Cognitive-enhancement freedom and pro-life ethics both point against: -2.",
+        "SUL": "Rulers kill dealers who are not paying tribute: 2."
+      }
+    },
+    "liberty.justice.7": {
+      "0": "IS HF",
+      "1": "COA STC CO EUR",
+      "2": "SUL NAS",
+      "-1": "RF",
+      "-2": "LIF SF TRA PIP",
+      "-3": "CRA",
+      "split": "CO",
+      "why": "Harsh penalties for petty offences as deterrent: strongman camps yes, rights camps no; communitarians sit near broken-windows thinking.",
+      "notes": {
+        "CO": "Broken-windows order maintenance is communitarian-adjacent (Etzioni, Wilson): 1.",
+        "SUL": "Fear is the means of rule: 2.",
+        "LIF": "Proportionality of punishment is a liberal principle: -2.",
+        "CRA": "Any punishment by a state is hostile: -3."
+      }
+    },
+    "liberty.justice.8": {
+      "0": "IS",
+      "1": "CO LIF",
+      "2": "SF TRA CRA PIP",
+      "-1": "COA STC RF HF EUR",
+      "-2": "SUL NAS",
+      "split": "",
+      "why": "Replace most prison with community service, mediation or treatment: reformist and anarchist camps yes, punitive or retributive camps no.",
+      "notes": {
+        "CRA": "Restitution between parties without state prisons suits anarchist logic: 2.",
+        "CO": "Restorative, community-based justice is a communitarian theme: 1.",
+        "RF": "Radical feminists want serious offenders, especially sex offenders, imprisoned: -1.",
+        "NAS": "Hard discipline and punishment are part of the order Falange wants: -2."
+      }
+    },
+    "liberty.justice.9": {
+      "0": "IS",
+      "1": "CO RF",
+      "2": "SF HF TRA",
+      "3": "LIF CRA PIP",
+      "-1": "COA",
+      "-2": "STC NAS EUR",
+      "-3": "SUL",
+      "split": "",
+      "why": "Judge within days of arrest: habeas corpus camps yes, secret-police regimes no.",
+      "notes": {
+        "HF": "Habeas corpus is protected in Article I of the Constitution they defended: 2.",
+        "STC": "PIDE could hold suspects up to six months without charge: -2.",
+        "SUL": "Disappearances without any judge: -3.",
+        "COA": "Formally allowed but delays and police detention are used against the opposition: -1."
+      }
+    },
+    "liberty.privacy.1": {
+      "0": "IS",
+      "1": "CO RF HF TRA",
+      "2": "SF",
+      "3": "LIF CRA PIP",
+      "-1": "COA",
+      "-2": "STC NAS EUR",
+      "-3": "SUL",
+      "split": "",
+      "why": "Warrant requirement for reading messages: liberal, crypto and pirate camps firmly yes, regimes with secret police no.",
+      "notes": {
+        "CRA": "Crypto-anarchists want privacy guaranteed by mathematics, not by warrants: 3.",
+        "PIP": "Core Pirate demand: protection of correspondence and private life against state surveillance: 3.",
+        "STC": "The PIDE and postal censors read mail as routine: -2.",
+        "CO": "Etzioni (The Limits of Privacy) accepts oversight-based intrusion for security, so a warrant is a floor: 1."
+      }
+    },
+    "liberty.privacy.2": {
+      "0": "CO IS HF",
+      "1": "STC",
+      "2": "COA SUL NAS EUR",
+      "-1": "RF TRA",
+      "-2": "LIF SF",
+      "-3": "CRA PIP",
+      "split": "CO TRA",
+      "why": "Pervasive facial recognition for security: authoritarian camps yes, digital-rights camps no; communitarians and transhumanists are divided.",
+      "notes": {
+        "PIP": "Pirate parties campaign against mass surveillance and biometric monitoring: -3.",
+        "TRA": "Bostrom's vulnerable-world essay floats ubiquitous surveillance, but democratic transhumanists resist: -1.",
+        "CO": "Etzioni weighs security against privacy case by case: 0.",
+        "COA": "Cameras and digital monitoring help the ruling side watch rivals: 2."
+      }
+    },
+    "liberty.privacy.3": {
+      "0": "IS HF",
+      "1": "CO SF RF TRA",
+      "2": "LIF",
+      "3": "CRA PIP",
+      "-1": "COA",
+      "-2": "STC NAS EUR",
+      "-3": "SUL",
+      "split": "",
+      "why": "Data protected even against state agencies: pirate and crypto camps yes, regimes that treat the state as owner of information no.",
+      "notes": {
+        "PIP": "Open public data but private personal data, protected from the state too: 3.",
+        "CRA": "Strong cryptography is meant to protect data from the state itself: 3.",
+        "SUL": "The dossier is the ruler's tool: -3.",
+        "LIF": "Constitutional protection against state search is core: 2."
+      }
+    },
+    "liberty.privacy.4": {
+      "0": "IS HF",
+      "1": "COA CO",
+      "2": "STC NAS EUR",
+      "3": "SUL",
+      "-1": "RF TRA",
+      "-2": "LIF SF",
+      "-3": "CRA PIP",
+      "split": "",
+      "why": "Nothing to hide: the surveillance state's slogan; liberal and digital camps reject it.",
+      "notes": {
+        "CRA": "May's manifesto: privacy is the right to choose what to reveal: -3.",
+        "PIP": "Core Pirate argument is the reverse, that citizens have a right to privacy and the state must be transparent: -3.",
+        "STC": "Salazar's PIDE assumed anyone with nothing to hide had no reason to fear: 2.",
+        "CO": "Etzioni stresses common good and transparency but also limits to intrusion: 1."
+      }
+    },
+    "liberty.privacy.5": {
+      "0": "IS RF",
+      "1": "STC CO NAS",
+      "2": "COA SUL EUR",
+      "-1": "LIF SF HF TRA",
+      "-3": "CRA PIP",
+      "split": "RF",
+      "why": "Mandatory real-name identity on social media: control camps yes, pseudonymity camps no.",
+      "notes": {
+        "HF": "Hamilton, Madison and Jay wrote The Federalist as Publius: -1.",
+        "CRA": "Pseudonymity is the whole cypherpunk project: -3.",
+        "SF": "Anonymity protects women from harassment and stalkers: -1.",
+        "COA": "Real-name registers let the authorities identify critics: 2."
+      }
+    },
+    "liberty.privacy.6": {
+      "0": "IS RF",
+      "1": "LIF SF",
+      "2": "TRA",
+      "3": "CRA PIP",
+      "-1": "CO HF",
+      "-2": "COA STC NAS EUR",
+      "-3": "SUL",
+      "split": "",
+      "why": "Strong encryption the state cannot break: crypto-anarchists doctrinal yes, authoritarian camps no.",
+      "notes": {
+        "CRA": "May, Hughes and Gilmore: strong cryptography is the weapon of the individual against the state: 3.",
+        "CO": "Etzioni argued for key escrow over unbreakable encryption: -1.",
+        "TRA": "Cognitive liberty and secure information futures favour strong crypto: 2.",
+        "COA": "The tilted field relies on being able to read opponents' communications: -2."
+      }
+    },
+    "liberty.privacy.7": {
+      "0": "CO IS HF",
+      "1": "COA EUR",
+      "2": "STC NAS",
+      "3": "SUL",
+      "-1": "RF",
+      "-2": "LIF SF TRA",
+      "-3": "CRA PIP",
+      "split": "",
+      "why": "Block watchers reporting residents: informant regimes yes, rights camps no.",
+      "notes": {
+        "SUL": "Block-level informers and denunciation networks are how Trujillo and Somoza watched everyone: 3.",
+        "STC": "The PVDE and PIDE ran informant networks: 2.",
+        "CO": "Neighbourhood watch fits communitarian civic ideas but denunciation does not: 0.",
+        "PIP": "Opposes surveillance, including social: -3."
+      }
+    },
+    "liberty.privacy.8": {
+      "0": "IS SF RF HF",
+      "1": "COA STC CO NAS EUR",
+      "2": "SUL",
+      "-1": "LIF TRA PIP",
+      "-3": "CRA",
+      "split": "LIF",
+      "why": "Registering a new residence with authorities: tolerated in many democracies, strongly favoured by control-minded regimes, rejected by crypto-anarchists.",
+      "notes": {
+        "EUR": "Russian residence registration is an inherited norm that Eurasianists see as normal: 1.",
+        "CRA": "Any tracking of movement and residence is anathema: -3.",
+        "LIF": "Many liberal democracies require it, but it is a mild intrusion: -1.",
+        "SUL": "Tracking every resident is a basic duty of the household state: 2."
+      }
+    },
+    "liberty.privacy.9": {
+      "0": "COA SUL STC CO IS NAS SF RF HF EUR",
+      "1": "LIF",
+      "2": "CRA PIP",
+      "-1": "TRA",
+      "split": "",
+      "why": "Right to pay in cash: mostly outside most variants' concerns, but crypto-anarchists and pirates prize untraceable payment.",
+      "notes": {
+        "CRA": "Chaum-style digital cash and anonymous money are central to cypherpunk strategy: 2.",
+        "PIP": "Pirate programmes defend cash and anonymous payment against spending surveillance: 2.",
+        "TRA": "Expects digital finance and AI-managed economies, not cash: -1.",
+        "HF": "Hamilton built a national bank and credit system; the form of payment is outside his concerns: 0."
+      }
+    },
+    "elites.decision.1": {
+      "0": "COA IS CRA EUR",
+      "1": "CO LIF SF RF TRA",
+      "2": "PIP",
+      "-1": "SUL STC",
+      "-2": "NAS HF",
+      "split": "COA",
+      "why": "Constitutional change by popular vote: direct-democracy camps yes, elite-republican and fascist camps no; hybrid regimes use plebiscites when convenient.",
+      "notes": {
+        "PIP": "Direct and liquid democracy are Pirate core; citizens decide the rules of the game: 2.",
+        "HF": "The Constitution was ratified by state conventions, not a popular vote, and amended by legislatures; Federalists feared mass democracy: -2.",
+        "COA": "Fujimori's 1993 constitution and Mugabe-era votes were plebiscitary instruments, so they accept referendums when controlled: 0.",
+        "NAS": "Falange rejected mass voting as a liberal fraud: -2."
+      }
+    },
+    "elites.decision.2": {
+      "0": "SUL EUR",
+      "1": "COA NAS TRA",
+      "2": "STC IS HF",
+      "-1": "CO LIF SF RF",
+      "-2": "CRA PIP",
+      "split": "",
+      "why": "Economic policy left to experts: technocratic camps yes, deliberative and anti-elite camps no.",
+      "notes": {
+        "IS": "Prebisch and CEPAL economists wrote the planning blueprints that governments were to follow: 2.",
+        "STC": "Salazar the Coimbra finance professor and Manoilescu's corporatist expertise: 2.",
+        "HF": "Hamilton's Report on Public Credit sought expert Treasury management insulated from popular pressure: 2.",
+        "PIP": "Open data and citizen participation, not expert rule: -2."
+      }
+    },
+    "elites.decision.3": {
+      "0": "TRA",
+      "1": "COA SUL IS EUR",
+      "2": "STC NAS HF",
+      "-1": "CO",
+      "-2": "LIF SF RF CRA PIP",
+      "split": "",
+      "why": "Ordinary people lack information for complex national decisions: hierarchical and elitist camps yes, egalitarian and distributed-knowledge camps no.",
+      "notes": {
+        "HF": "Hamilton and Adams doubted popular judgment, with Hamilton calling for the rich and wellborn to rule: 2.",
+        "CRA": "No central mind has the knowledge, so decisions should be left to individuals: -2.",
+        "TRA": "Democratic transhumanists want broad participation while accepting AI-aided expertise: 0.",
+        "PIP": "Open data is meant to give citizens the information to decide: -2."
+      }
+    },
+    "elites.decision.4": {
+      "0": "IS CRA",
+      "1": "CO LIF SF RF TRA",
+      "2": "PIP",
+      "-2": "COA STC NAS HF EUR",
+      "-3": "SUL",
+      "split": "",
+      "why": "Citizen assembly drawn by lot: participatory democrats yes, strongmen and elite republicans no.",
+      "notes": {
+        "PIP": "Liquid democracy and sortition-style participation are Pirate experiments: 2.",
+        "HF": "Federalist 10 and 63 prefer filtered representation by an elite: -2.",
+        "SUL": "The ruler's circle decides, not citizens: -3.",
+        "CO": "Deliberative civic bodies fit communitarian participation: 1."
+      }
+    },
+    "elites.decision.5": {
+      "0": "IS CRA",
+      "1": "CO LIF SF RF TRA",
+      "3": "PIP",
+      "-1": "COA EUR",
+      "-2": "SUL STC NAS HF",
+      "split": "",
+      "why": "Citizens' initiative referendum: direct-democracy camps yes, elite and authoritarian camps no.",
+      "notes": {
+        "PIP": "Pirate programmes make citizen-initiated votes central: 3.",
+        "HF": "Federalist 63 praises representation precisely because it excludes the people from direct rule: -2.",
+        "COA": "Hybrid regimes fear initiatives that could unseat them though they use controlled plebiscites: -1.",
+        "CO": "Etzioni and Putnam favour civic engagement but warn about populism: 1."
+      }
+    },
+    "elites.decision.6": {
+      "0": "CO IS TRA CRA",
+      "1": "SF RF",
+      "3": "PIP",
+      "-1": "COA STC LIF EUR",
+      "-2": "SUL NAS",
+      "-3": "HF",
+      "split": "CO LIF",
+      "why": "Delegate versus trustee: Pirates bind representatives to voters, Hamilton and Burke-style liberals favour independent judgement.",
+      "notes": {
+        "HF": "Federalist 10 and 63: representatives should refine and enlarge public views, not just echo them: -3.",
+        "PIP": "Liquid democracy turns representatives into revocable delegates: 3.",
+        "LIF": "Mill defended the trustee model in Considerations on Representative Government: -1.",
+        "NAS": "Falange rejected the party-parliament model; leaders decide: -2."
+      }
+    },
+    "elites.decision.8": {
+      "0": "IS SF TRA",
+      "1": "CO PIP",
+      "2": "LIF HF CRA",
+      "-1": "COA RF EUR",
+      "-2": "SUL STC NAS",
+      "split": "",
+      "why": "Jury trial of serious cases: liberal and republican camps yes, authoritarian regimes no.",
+      "notes": {
+        "HF": "Federalist 83 defends the civil jury, and the Constitution guarantees criminal juries: 2.",
+        "CRA": "Jury nullification is a favourite cypherpunk check on state law: 2.",
+        "RF": "Radical feminists distrust juries in rape trials: -1.",
+        "SUL": "Trujillo and Marcos used military and special courts: -2."
+      }
+    },
+    "elites.rank.1": {
+      "0": "CO IS",
+      "1": "COA",
+      "2": "SUL HF",
+      "3": "STC NAS EUR",
+      "-2": "LIF TRA CRA PIP",
+      "-3": "SF RF",
+      "split": "",
+      "why": "Fixed order of ranks: corporatist, fascist and Eurasianist hierarchy camps yes, feminist and egalitarian camps no.",
+      "notes": {
+        "STC": "Corporatism assigns each station a place; God, Fatherland, Family: 3.",
+        "EUR": "Dugin defends organic traditional hierarchy: 3.",
+        "SF": "Rank and class are the structures to abolish: -3.",
+        "HF": "Hamilton and Adams favoured an ordered society led by the able: 2."
+      }
+    },
+    "elites.rank.2": {
+      "0": "IS",
+      "1": "CO TRA CRA",
+      "2": "LIF PIP",
+      "3": "SF RF",
+      "-1": "COA",
+      "-2": "HF",
+      "-3": "SUL STC NAS EUR",
+      "split": "",
+      "why": "No one is above others: equality camps yes, hierarchical camps firmly no.",
+      "notes": {
+        "SF": "Zetkin and Kollontai: abolish class hierarchy: 3.",
+        "RF": "Patriarchy is hierarchy as such: 3.",
+        "HF": "Hamilton believed natural distinctions of talent and wealth would and should lead: -2.",
+        "TRA": "Equal moral status, but enhancement raises new status issues: 1."
+      }
+    },
+    "elites.rank.3": {
+      "1": "COA STC CO IS EUR",
+      "2": "NAS SF RF HF TRA CRA PIP",
+      "3": "LIF",
+      "-2": "SUL",
+      "split": "",
+      "why": "Merit over lineage: nearly all camps agree, sultanism is the exception.",
+      "notes": {
+        "LIF": "Wollstonecraft and Mill campaign for careers open to talent: 3.",
+        "NAS": "Falange stressed jerarquia by merit and service against the old oligarchy: 2.",
+        "SUL": "Posts go to relatives and cronies in Trujillo, Somoza and Marcos rule: -2.",
+        "HF": "Hamilton championed careers open to talents: 2."
+      }
+    },
+    "elites.rank.4": {
+      "0": "COA STC CO IS CRA EUR",
+      "1": "TRA PIP",
+      "2": "LIF SF RF HF",
+      "-1": "SUL NAS",
+      "split": "",
+      "why": "Abolishing hereditary titles: egalitarian and republican camps yes, dynastic regimes no, most others indifferent.",
+      "notes": {
+        "HF": "Constitution Article I bans titles of nobility, defended in The Federalist: 2.",
+        "SUL": "Somoza and Trujillo built dynasties: -1.",
+        "NAS": "Falange did not seek to abolish titles, and Franco later restored them: -1.",
+        "SF": "Rank by birth belongs to the order socialist feminists want ended: 2."
+      }
+    },
+    "elites.rank.5": {
+      "0": "TRA CRA",
+      "1": "COA SUL IS",
+      "2": "STC HF EUR",
+      "3": "NAS",
+      "-1": "CO",
+      "-2": "LIF SF RF PIP",
+      "split": "",
+      "why": "A trained elite to carry the state: Falange and Eurasianist camps strongly, egalitarians no.",
+      "notes": {
+        "NAS": "Primo de Rivera's elite of minorities, a service aristocracy: 3.",
+        "EUR": "Dugin's neo-Eurasian order rests on an ideological elite caste: 2.",
+        "STC": "A professor-led technocratic corps ran Salazar's Estado Novo: 2.",
+        "CO": "Sandel's Tyranny of Merit criticises credentialed elites: -1."
+      }
+    },
+    "elites.rank.6": {
+      "0": "CO IS",
+      "1": "COA NAS CRA",
+      "2": "SUL STC HF EUR",
+      "-2": "LIF TRA PIP",
+      "-3": "SF RF",
+      "split": "CRA",
+      "why": "Rank as natural, not unjust: hierarchical camps yes, equality-seeking camps no.",
+      "notes": {
+        "HF": "Hamilton said inequality of property will always exist where liberty does: 2.",
+        "STC": "Catholic natural-order thinking: 2.",
+        "SF": "Class and sex hierarchy are historical constructions, hence unjust: -3.",
+        "CRA": "Natural inequality of talent is accepted by individualists though no state ranks it: 1."
+      }
+    },
+    "elites.rank.7": {
+      "0": "COA SUL IS NAS CRA EUR",
+      "1": "HF",
+      "2": "STC",
+      "-1": "CO LIF TRA",
+      "-3": "SF RF PIP",
+      "split": "LIF",
+      "why": "Plural voting for the educated: Mill proposed it, corporatist and republican camps lean yes, egalitarian camps reject.",
+      "notes": {
+        "LIF": "Mill proposed plural votes for the educated in Considerations on Representative Government, but modern liberal feminists reject it: -1.",
+        "STC": "Salazar's electorate was limited to the literate and heads of families: 2.",
+        "HF": "Property and standing limits on suffrage were the Federalist norm: 1.",
+        "PIP": "One person, one vote and direct participation: -3."
+      }
+    },
+    "elites.rank.8": {
+      "0": "SUL STC IS NAS EUR",
+      "-1": "COA CO CRA",
+      "-2": "HF TRA",
+      "-3": "LIF SF RF PIP",
+      "split": "",
+      "why": "Hereditary legislative seats: democratic camps reject, most others have no doctrine on it.",
+      "notes": {
+        "HF": "Federalists wanted a durable Senate but not a hereditary one: -2.",
+        "LIF": "Wollstonecraft and Mill attacked hereditary privilege: -3.",
+        "NAS": "Falange rejected the party parliament but did not offer hereditary seats: 0.",
+        "PIP": "One citizen, one say: -3."
+      }
+    },
+    "elites.rank.9": {
+      "0": "SUL STC IS EUR",
+      "1": "COA CO NAS HF TRA",
+      "2": "LIF RF CRA PIP",
+      "3": "SF",
+      "split": "",
+      "why": "Equal dignity of occupations: Marxist feminism makes manual and care work central, others agree mildly.",
+      "notes": {
+        "SF": "Valuing unpaid domestic work and manual labour is the core of Wages for Housework: 3.",
+        "NAS": "Falange praised the producer, worker and peasant against the bourgeois rentier: 1.",
+        "HF": "Hamilton championed commerce and manufactures as honourable pursuits: 1.",
+        "RF": "Women's work, paid and unpaid, is devalued by patriarchy: 2."
+      }
+    },
+    "elites.trust.1": {
+      "1": "COA CO IS LIF TRA",
+      "2": "NAS RF CRA PIP EUR",
+      "3": "SF",
+      "-2": "SUL STC HF",
+      "split": "COA",
+      "why": "Politician-tycoon collusion against ordinary people: anti-oligarchic camps yes, regimes and elite republicans that rest on that alliance no.",
+      "notes": {
+        "SF": "Capital and the state serve the owning class: 3.",
+        "NAS": "Falange condemned capitalist oligarchy as well as Marxism: 2.",
+        "EUR": "Dugin denounces the Atlanticist liberal elite and oligarchy: 2.",
+        "SUL": "The sultan and his cronies are that alliance: -2."
+      }
+    },
+    "elites.trust.2": {
+      "0": "SUL CRA",
+      "1": "COA IS NAS LIF TRA",
+      "2": "STC HF",
+      "-1": "CO PIP EUR",
+      "-2": "SF RF",
+      "split": "",
+      "why": "Trust in successful, educated people to lead: technocratic and elite-republican camps yes, populist and feminist camps no.",
+      "notes": {
+        "HF": "Hamilton, Adams and Madison's natural-aristocracy thinking: 2.",
+        "CO": "Sandel's Tyranny of Merit warns that credentialed success breeds hubris: -1.",
+        "SF": "Educated elites reproduce class and gender privilege: -2.",
+        "IS": "Prebisch's CEPAL technocrats were meant to lead development: 1."
+      }
+    },
+    "elites.trust.3": {
+      "0": "IS PIP",
+      "1": "SUL STC NAS SF CRA",
+      "2": "COA CO EUR",
+      "-1": "LIF RF HF TRA",
+      "split": "",
+      "why": "Intellectuals and media remote from workers: populist and nationalist camps yes, liberal and enlightenment camps no.",
+      "notes": {
+        "EUR": "Dugin attacks the liberal intelligentsia and media as a Western fifth column: 2.",
+        "CO": "Putnam and Sandel diagnose a gap between credentialed elites and ordinary citizens: 2.",
+        "COA": "Fujimori and Mugabe ran against media and intellectual establishments: 2.",
+        "HF": "Federalists were themselves the educated class: -1."
+      }
+    },
+    "elites.trust.5": {
+      "0": "LIF CRA",
+      "1": "COA CO SF RF EUR",
+      "2": "PIP",
+      "-1": "SUL IS NAS TRA",
+      "-2": "STC",
+      "-3": "HF",
+      "split": "EUR",
+      "why": "Ordinary people know better than elites: direct-democracy camps yes, elitist camps no.",
+      "notes": {
+        "HF": "Hamilton and Adams doubted the judgment of the many: -3.",
+        "PIP": "Open data and direct decisions assume ordinary citizens judge well: 2.",
+        "STC": "Hierarchy and expert state guidance over popular opinion: -2.",
+        "EUR": "Dugin is populist about the narod but wants a guiding elite: 1."
+      }
+    },
+    "elites.trust.6": {
+      "0": "STC CO EUR",
+      "1": "NAS SF",
+      "-1": "IS LIF RF PIP COA SUL",
+      "-2": "HF TRA CRA",
+      "split": "",
+      "why": "Intellectuals to learn from peasants and workers: a Maoist formula; only revolutionary-populist camps lean yes.",
+      "notes": {
+        "SF": "Class-conscious socialists accept intellectuals learning from workers: 1.",
+        "NAS": "Falange's rural romanticism and workers-peasants rhetoric: 1.",
+        "IS": "Industrialisation is urban and technocratic: -1.",
+        "TRA": "Expects intellect and technology to lead, not rural labour: -2."
+      }
+    },
+    "elites.trust.7": {
+      "0": "COA SUL NAS",
+      "1": "STC CO SF HF",
+      "2": "IS LIF TRA PIP",
+      "-1": "RF CRA EUR",
+      "split": "SF RF CRA",
+      "why": "Follow scientific consensus: technocratic and enlightenment camps yes, critics of authority and traditionalists mild no.",
+      "notes": {
+        "TRA": "Transhumanism is built on scientific progress and expertise: 2.",
+        "EUR": "Dugin rejects scientism and Western modernity: -1.",
+        "RF": "Radical feminists critique male-dominated science: -1.",
+        "PIP": "Evidence-based, open-data policy: 2."
+      }
+    },
+    "elites.trust.8": {
+      "0": "IS",
+      "1": "CO SF HF TRA",
+      "2": "LIF RF PIP",
+      "3": "CRA",
+      "-1": "NAS EUR",
+      "-2": "COA SUL STC",
+      "split": "HF",
+      "why": "Long-serving rulers serve themselves: anarchists and liberals yes, regimes that depend on long rule no.",
+      "notes": {
+        "CRA": "May: power always corrupts, which is why technology must route around it: 3.",
+        "LIF": "Lord Acton's tradition of liberal distrust of power: 2.",
+        "COA": "Incumbents say long service shows competence: -2.",
+        "HF": "Federalist 6 and 51 see power seeking self-interest, but Hamilton wanted durable officeholders: 1."
+      }
+    },
+    "elites.trust.9": {
+      "0": "COA NAS TRA EUR",
+      "1": "LIF",
+      "2": "STC IS HF",
+      "-1": "CO SF RF PIP",
+      "-2": "SUL",
+      "-3": "CRA",
+      "split": "",
+      "why": "Professional civil service as the best support of the state: technocratic and statist camps yes, anarchists no.",
+      "notes": {
+        "IS": "CEPAL states depended on planning bureaucracies: 2.",
+        "HF": "Hamilton's Treasury is the model of a professional administrative state: 2.",
+        "SUL": "Weber's patrimonial rule runs on personal loyalty, not a professional service: -2.",
+        "CRA": "Bureaucrats are the state: -3."
+      }
+    },
+    "lifestyle.family.1": {
+      "0": "COA SUL IS",
+      "1": "CO HF",
+      "2": "STC NAS EUR",
+      "-1": "PIP",
+      "-2": "LIF SF RF TRA CRA",
+      "split": "",
+      "why": "Children obey parents in major choices: traditional family camps yes, individual-autonomy camps no.",
+      "notes": {
+        "STC": "God, Fatherland, Family: parental authority is doctrinal: 2.",
+        "EUR": "Orthodox patriarchal family values: 2.",
+        "LIF": "Wollstonecraft and Mill defend individual autonomy against family tyranny: -2.",
+        "CO": "Family norms matter but not obedience in marriage choice: 1."
+      }
+    },
+    "lifestyle.family.2": {
+      "0": "COA SUL IS HF",
+      "1": "TRA PIP",
+      "2": "LIF SF RF CRA",
+      "-1": "CO",
+      "-2": "STC NAS EUR",
+      "split": "",
+      "why": "Childfree as legitimate: autonomy camps yes, pronatalist Catholic and nationalist camps no.",
+      "notes": {
+        "STC": "The Family is one of the three regime values: -2.",
+        "NAS": "Falange glorified large families and motherhood: -2.",
+        "RF": "Firestone wanted to free women from compulsory reproduction: 2.",
+        "CO": "Communitarians stress parenting as civic duty: -1."
+      }
+    },
+    "lifestyle.family.3": {
+      "0": "COA SUL IS HF",
+      "1": "CO NAS",
+      "2": "STC EUR",
+      "-1": "LIF SF RF TRA PIP",
+      "-2": "CRA",
+      "split": "",
+      "why": "State incentives for three-generation households: family-traditionalist camps yes, feminist and neutral-state camps no.",
+      "notes": {
+        "STC": "The family as the cell of the nation in the 1933 constitution: 2.",
+        "SF": "Care burden falls on women in extended households: -1.",
+        "CRA": "No state incentives for any arrangement: -2.",
+        "CO": "Etzioni and Putnam value family and intergenerational ties: 1."
+      }
+    },
+    "lifestyle.family.4": {
+      "0": "COA SUL IS HF",
+      "1": "PIP",
+      "2": "LIF SF RF TRA CRA",
+      "-1": "CO",
+      "-2": "NAS EUR",
+      "-3": "STC",
+      "split": "",
+      "why": "Divorce when unhappy: autonomy and feminist camps yes, Catholic corporatists doctrinally no.",
+      "notes": {
+        "STC": "The 1940 Concordat banned civil divorce for Catholic marriages: -3.",
+        "CO": "Communitarians criticise easy divorce for weakening commitment: -1.",
+        "LIF": "Wollstonecraft and Mill defended equal divorce rights: 2.",
+        "RF": "Marriage as an institution of patriarchy, so exit is welcome: 2."
+      }
+    },
+    "lifestyle.family.5": {
+      "0": "COA SUL IS",
+      "1": "CO NAS HF",
+      "2": "STC EUR",
+      "-1": "LIF SF TRA CRA PIP",
+      "-2": "RF",
+      "split": "",
+      "why": "Filial piety as moral foundation: traditional camps yes, autonomy camps no.",
+      "notes": {
+        "STC": "The Family and respect for elders are doctrinal: 2.",
+        "RF": "Patriarchal obedience is the thing to dismantle: -2.",
+        "CO": "Duty and intergenerational responsibility are communitarian: 1.",
+        "LIF": "Autonomy first, with care duties voluntary: -1."
+      }
+    },
+    "lifestyle.family.7": {
+      "0": "COA SUL IS HF",
+      "2": "LIF SF RF TRA CRA PIP",
+      "-1": "CO",
+      "-2": "STC NAS EUR",
+      "split": "",
+      "why": "State neutrality among family forms: liberal, feminist and digital camps yes, Catholic and Orthodox traditionalists no.",
+      "notes": {
+        "STC": "Marriage and the legitimate family receive constitutional privilege: -2.",
+        "RF": "Radical feminists want the family form itself changed: 2.",
+        "CO": "Etzioni favours two-parent families as a social good: -1.",
+        "CRA": "The state should not privilege anything: 2."
+      }
+    },
+    "lifestyle.gender.1": {
+      "0": "SUL IS",
+      "1": "RF",
+      "2": "SF TRA CRA PIP",
+      "3": "LIF",
+      "-1": "COA CO HF",
+      "-3": "STC NAS EUR",
+      "split": "CO RF",
+      "why": "Same-sex marriage: liberal, digital and feminist camps yes, Catholic and Eurasianist traditionalists no; radical feminists back gay rights but criticise marriage itself.",
+      "notes": {
+        "EUR": "Dugin's Fourth Political Theory and Russian Orthodox traditionalism reject it outright: -3.",
+        "STC": "Catholic doctrine and the Concordat define marriage as man and woman: -3.",
+        "RF": "Supports gay liberation but sees marriage as a patriarchal institution: 1.",
+        "COA": "Mugabe's regime was notoriously hostile to homosexuality: -1."
+      }
+    },
+    "lifestyle.gender.2": {
+      "0": "COA SUL CO IS",
+      "1": "HF",
+      "2": "EUR",
+      "3": "STC NAS",
+      "-2": "TRA CRA PIP",
+      "-3": "LIF SF RF",
+      "split": "CO",
+      "why": "Man as breadwinner, woman as homemaker: corporatist and fascist doctrine says yes, all feminisms no.",
+      "notes": {
+        "STC": "Salazar's Estado Novo constitution tied women to the home and family: 3.",
+        "NAS": "The Falange Seccion Femenina trained women for home and motherhood: 3.",
+        "LIF": "Wollstonecraft, Mill and Friedan's Feminine Mystique oppose it: -3.",
+        "SF": "Kollontai wanted care socialised so women could work: -3."
+      }
+    },
+    "lifestyle.gender.4": {
+      "0": "COA SUL CO IS",
+      "1": "HF",
+      "2": "EUR",
+      "3": "STC NAS",
+      "-2": "LIF SF TRA CRA PIP",
+      "-3": "RF",
+      "split": "",
+      "why": "Teaching children traditional sex roles: traditionalists doctrinal yes, feminists and libertarians no.",
+      "notes": {
+        "STC": "Mocidade Portuguesa and school curricula taught separate roles: 3.",
+        "NAS": "Seccion Femenina and Frentes de Juventudes taught distinct roles: 3.",
+        "RF": "Firestone and Millett see sex roles as the foundation of patriarchy: -3.",
+        "HF": "Republican motherhood educated daughters for home and civic virtue: 1."
+      }
+    },
+    "lifestyle.gender.5": {
+      "0": "COA SUL IS",
+      "1": "SF",
+      "2": "LIF CRA PIP",
+      "3": "TRA",
+      "-1": "CO HF",
+      "-2": "RF",
+      "-3": "STC NAS EUR",
+      "split": "CO SF RF",
+      "why": "Legal gender recognition: transhumanists doctrinally yes, traditionalists no, feminists divided between inclusion and sex-based analysis.",
+      "notes": {
+        "TRA": "Morphological freedom is a core transhumanist principle (Bostrom, Hughes): 3.",
+        "RF": "Dworkin, Raymond and Jeffreys are the classic gender-critical voices, with the camp divided: -2.",
+        "EUR": "Dugin: gender fluidity belongs to the liberal disorder to defeat: -3.",
+        "SF": "Mostly inclusive, with class-based and sex-based strands arguing: 1."
+      }
+    },
+    "lifestyle.gender.6": {
+      "0": "COA SUL IS",
+      "1": "HF",
+      "2": "NAS EUR",
+      "3": "STC",
+      "-1": "CO",
+      "-2": "TRA CRA PIP",
+      "-3": "LIF SF RF",
+      "split": "",
+      "why": "Husband's final say: Catholic corporatist doctrine yes, all feminisms no.",
+      "notes": {
+        "STC": "The Portuguese Civil Code made the husband chefe de familia until 1977: 3.",
+        "LIF": "Mill's Subjection of Women attacks marital subjection: -3.",
+        "HF": "Eighteenth-century coverture was still the law: 1.",
+        "CO": "Communitarians value family roles but support partnership: -1."
+      }
+    },
+    "lifestyle.autonomy.1": {
+      "0": "COA SUL IS RF",
+      "2": "SF PIP",
+      "3": "LIF TRA CRA",
+      "-1": "CO HF",
+      "-2": "STC NAS EUR",
+      "split": "RF",
+      "why": "Adult bodily self-determination even when harmful: Mill's harm principle, morphological freedom and crypto-anarchism yes; traditionalists no.",
+      "notes": {
+        "LIF": "Mill's On Liberty: over his own body and mind the individual is sovereign: 3.",
+        "TRA": "Morphological freedom is the central transhumanist demand: 3.",
+        "RF": "Defends abortion rights but sees prostitution and surrogacy as coerced harm: 0.",
+        "STC": "Catholic morality limits what a person may do with the body: -2."
+      }
+    }
+  }
+}

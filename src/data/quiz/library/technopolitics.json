@@ -1,0 +1,160 @@
+{
+  "family": {
+    "id": "technopolitics",
+    "name": "Chính trị công nghệ",
+    "en": "Technopolitics",
+    "summary": "Đặt công nghệ vào trung tâm của chính trị: khoa học, mật mã và internet là phương tiện mở rộng tự do và năng lực con người; các dòng khác nhau ở chỗ muốn nâng cấp chính con người, thoát khỏi nhà nước hay dân chủ hoá thông tin."
+  },
+  "variants": [
+    {
+      "id": "transhumanism",
+      "name": "Chủ nghĩa siêu nhân học",
+      "en": "Transhumanism (technoprogressivism)",
+      "summary": "Con người nên dùng khoa học vượt qua giới hạn sinh học: kéo dài tuổi thọ, nâng cấp trí tuệ và cơ thể, nhờ AI tạo ra sung túc, với quản trị dân chủ để mọi người cùng hưởng.",
+      "exemplars": [
+        "Julian Huxley (đặt tên, 1957)",
+        "FM-2030",
+        "Nick Bostrom",
+        "James Hughes (Citizen Cyborg, 2004)"
+      ],
+      "period": "1957–nay",
+      "axes": {
+        "economy": 55,
+        "distribution": 35,
+        "trade": 80,
+        "power": 80,
+        "liberty": 85,
+        "elites": 35,
+        "lifestyle": 95,
+        "religion": 10,
+        "identity": 90,
+        "environment": 25,
+        "foreign": 75,
+        "change": 65
+      },
+      "facets": {
+        "distribution.tax": 45,
+        "distribution.welfare": 15,
+        "distribution.labour": 45,
+        "liberty.expression": 90,
+        "liberty.justice": 80,
+        "liberty.privacy": 70,
+        "elites.decision": 20,
+        "elites.rank": 70,
+        "elites.trust": 15,
+        "lifestyle.family": 90,
+        "lifestyle.autonomy": 100,
+        "environment.growth": 15,
+        "environment.nature": 50,
+        "environment.technology": 0,
+        "foreign.rules": 90,
+        "change.pace": 80,
+        "change.means": 10,
+        "change.depth": 100
+      },
+      "sd": {
+        "economy": 20,
+        "distribution": 15
+      },
+      "status": "draft",
+      "raters": [
+        "claude"
+      ]
+    },
+    {
+      "id": "crypto-anarchism",
+      "name": "Vô chính phủ mật mã",
+      "en": "Crypto-anarchism (cypherpunks)",
+      "summary": "Mật mã mạnh và tiền ẩn danh giúp cá nhân thoát khỏi nhà nước: không ai đọc được thư, lần ra giao dịch hay đánh thuế thu nhập; công nghệ làm thay việc của cách mạng.",
+      "exemplars": [
+        "Timothy C. May (Tuyên ngôn Vô chính phủ Mật mã, 1988)",
+        "Eric Hughes",
+        "John Gilmore",
+        "Danh sách thư Cypherpunks (1992)"
+      ],
+      "period": "1988–nay",
+      "axes": {
+        "economy": 95,
+        "distribution": 95,
+        "trade": 100,
+        "power": 95,
+        "liberty": 100,
+        "elites": 55,
+        "lifestyle": 90,
+        "religion": 15,
+        "identity": 95,
+        "environment": 25,
+        "foreign": 75,
+        "change": 80
+      },
+      "facets": {
+        "elites.decision": 40,
+        "elites.rank": 80,
+        "elites.trust": 50,
+        "foreign.force": 85,
+        "foreign.rules": 40,
+        "foreign.intervention": 100,
+        "change.means": 65,
+        "change.depth": 100
+      },
+      "sd": {
+        "elites": 20,
+        "religion": 15,
+        "environment": 20
+      },
+      "status": "draft",
+      "raters": [
+        "claude"
+      ]
+    },
+    {
+      "id": "pirate-politics",
+      "name": "Chính trị quyền số (Đảng Cướp biển)",
+      "en": "Pirate politics (digital rights)",
+      "summary": "Thông tin phải được tự do: cải cách bản quyền, mở dữ liệu công, bảo vệ đời tư trước giám sát, chính quyền minh bạch và công dân quyết trực tiếp qua dân chủ lỏng trên mạng.",
+      "exemplars": [
+        "Rick Falkvinge",
+        "Đảng Cướp biển Thuỵ Điển (2006)",
+        "Birgitta Jónsdóttir",
+        "Đảng Cướp biển Séc"
+      ],
+      "period": "2006–nay",
+      "axes": {
+        "economy": 55,
+        "distribution": 45,
+        "trade": 65,
+        "power": 90,
+        "liberty": 95,
+        "elites": 85,
+        "lifestyle": 85,
+        "religion": 15,
+        "identity": 85,
+        "environment": 55,
+        "foreign": 75,
+        "change": 45
+      },
+      "facets": {
+        "economy.ownership": 45,
+        "economy.planning": 70,
+        "economy.steering": 50,
+        "liberty.justice": 85,
+        "liberty.privacy": 100,
+        "elites.decision": 100,
+        "elites.trust": 75,
+        "change.pace": 50,
+        "change.means": 30,
+        "change.depth": 55
+      },
+      "sd": {
+        "economy": 15,
+        "distribution": 15,
+        "trade": 15,
+        "environment": 15
+      },
+      "status": "draft",
+      "raters": [
+        "claude"
+      ]
+    }
+  ]
+}

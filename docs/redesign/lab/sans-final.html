@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="vi"><head><meta charset="utf-8"><title>Vòng 3 · Chung kết sans</title>
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Libre+Bodoni:wght@500&family=Mona+Sans:wdth,wght@75..125,200..900&family=Georama:wdth,wght@62.5..150,100..900&family=Zalando+Sans:wdth,wght@75..125,200..900&family=Commissioner:FLAR,wght@0..100,100..900&display=swap">
+<style>
+@font-face{font-family:Pliego;src:url(/public/fonts/pliego/Pliego-Regular.woff2) format('woff2');font-weight:400}
+@font-face{font-family:Pliego;src:url(/public/fonts/pliego/Pliego-Medium.woff2) format('woff2');font-weight:500}
+@font-face{font-family:Pliego;src:url(/public/fonts/pliego/Pliego-Italic.woff2) format('woff2');font-weight:400;font-style:italic}
+@font-face{font-family:Pliego;src:url(/public/fonts/pliego/Pliego-MediumItalic.woff2) format('woff2');font-weight:500;font-style:italic}
+body{margin:0;background:#faf9f6;color:#161828;font-family:Pliego,serif}
+section{padding:26px 32px 40px;border-bottom:8px solid #161828}
+.tag{font:600 11px system-ui;color:#9a2b1b;margin-bottom:10px}
+.caps{font-family:var(--sans);text-transform:uppercase;font-weight:600;letter-spacing:.09em;font-variation-settings:var(--fvs);font-size:12.5px;line-height:1.25}
+.util{display:flex;justify-content:space-between;align-items:center}
+.util .btn{background:#161828;color:#faf9f6;padding:11px 16px;border-radius:3px}
+.mark{font:500 64px/1 'Libre Bodoni';letter-spacing:-.02em;text-align:center;margin:18px 0 20px}
+.nav{display:flex;justify-content:center;gap:34px;padding:16px 0;border-top:1px solid #161828;border-bottom:1px solid #d6d5cf;position:relative}
+.nav:before{content:'';position:absolute;left:0;right:0;top:-5px;height:2px;background:#161828}
+.nav .caps{font-size:13px}
+.head{display:flex;justify-content:space-between;align-items:baseline;margin:34px 0 18px;padding-top:12px;border-top:1px solid #161828}
+.head h2{margin:0}
+.head .h-sans{font-family:var(--sans);font-variation-settings:var(--fvs);text-transform:uppercase;font-weight:600;letter-spacing:.06em;font-size:15px}
+.head .h-big{font:500 48px/1 Pliego;letter-spacing:-.015em}
+.chips{display:flex;gap:20px;margin-bottom:22px}
+.chips .caps{color:#6b6d78}
+.chips .on{color:#755000;background:linear-gradient(#f5dfb0,#f5dfb0) no-repeat 0 64%/100% 56%;padding:0 4px}
+.cards{display:grid;grid-template-columns:1.3fr 1fr;gap:26px}
+.plate{aspect-ratio:3/2;background:linear-gradient(135deg,#dcdffd,#b2b6fd)}
+.rub{margin:14px 0 6px;color:#6b6d78}
+.rub b{color:#9a2b1b;font-weight:600}
+.t{font:500 32px/1.06 Pliego;letter-spacing:-.012em;margin:0}
+.d{font:italic 400 18px/1.35 Pliego;color:#585a66;margin:6px 0 0}
+.meta{margin-top:12px;color:#6b6d78;font-weight:500}
+.sheet{margin-top:26px;display:grid;grid-template-columns:1fr 1fr;gap:18px 24px;padding:20px;background:#fff;box-shadow:0 0 0 1px #e3e2dc,0 20px 40px -24px #0005;max-width:520px}
+.sheet .caps{font-size:11.5px;color:#585a66;margin-bottom:8px}
+.seg{display:flex;border:1px solid #d6d5cf;border-radius:8px;padding:3px}
+.seg span{flex:1;text-align:center;padding:7px 0;border-radius:6px;font:400 15px Pliego}
+.seg .on{background:#161828;color:#faf9f6}
+.dark{background:#11131b;color:#ebeae2;padding:22px;margin-top:26px}
+.dark .caps{color:#a9aab4}
+.dark .t{color:#ebeae2}
+</style></head><body>
+<script>
+const F=[['Mona Sans',"'wdth' 112"],['Georama',"'wdth' 118"],['Zalando Sans',"'wdth' 115"],['Commissioner',"'FLAR' 100"]];
+document.write(F.map(([n,fvs])=>`<section style="--sans:'${n}';--fvs:${fvs}">
+<div class="tag">${n} · ${fvs}</div>
+<div class="util"><span class="caps">Về tập san</span><span class="caps btn">Nhận bài mới</span></div>
+<div class="mark">The Cochinchine Pensées</div>
+<nav class="nav"><span class="caps">Tiểu luận</span><span class="caps">Pensées</span><span class="caps">Chuyên đề</span><span class="caps">Điểm sách</span><span class="caps">Lưu trữ</span></nav>
+<div class="head"><h2 class="h-sans">Bài mới</h2><span class="caps">Tất cả tiểu luận →</span></div>
+<div class="chips"><span class="caps">Tất cả</span><span class="caps">Chính trị</span><span class="caps on">Kinh tế</span><span class="caps">Căn tính</span><span class="caps">Tư tưởng</span></div>
+<div class="cards"><div><div class="plate"></div><p class="caps rub"><b>Chính trị</b> · Tư tưởng</p><h3 class="t">Lời hứa Ngày Độc lập</h3><p class="d">Tuyên ngôn Độc lập, Locke và Lenin.</p><p class="caps meta">M. Q. Doan · 01.09.2026 · 32 phút</p></div>
+<div><div class="plate" style="background:linear-gradient(135deg,#ceead4,#fcd8d1)"></div><p class="caps rub"><b style="color:#006a34">Xã hội</b> · Chính trị</p><h3 class="t">Đám đông Trần trụi</h3><p class="d">Một cách đọc về hiện tượng “đi bão”.</p></div></div>
+<div class="head"><h2 class="h-big">Chuyên đề</h2><span class="caps">Tất cả chuyên đề →</span></div>
+<div class="sheet"><div><p class="caps">Cỡ chữ</p><div class="seg"><span>A</span><span>A</span><span class="on">A</span><span>A</span></div></div><div><p class="caps">Kiểu chữ</p><div class="seg"><span class="on">Pliego</span><span>Garamond</span><span style="font-family:var(--sans)">Sans</span></div></div><div><p class="caps">Độ rộng dòng</p><div class="seg"><span>Hẹp</span><span class="on">Vừa</span><span>Rộng</span></div></div><div><p class="caps">Giãn dòng · Nền · Giao diện</p><div class="seg"><span>Giấy</span><span class="on">Ngà</span><span>Sương</span></div></div></div>
+<div class="dark"><p class="caps">Đọc · Tập san · Theo dõi</p><h3 class="t" style="margin-top:10px">Nhận bài mới ↗</h3><p class="caps" style="margin-top:12px">© 2026 · Substack · RSS · Thư tòa soạn</p></div>
+</section>`).join(''));
+</script>
+</body></html>

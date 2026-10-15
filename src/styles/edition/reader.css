@@ -1,0 +1,511 @@
+/* Ấn bản reader: the page for long reading. */
+
+:root[data-reader] {
+  --font-classic: 'EB Garamond Variable', 'EB Garamond', Garamond, Georgia, serif;
+  --font-grotesque: 'Bricolage Grotesque Variable', 'Helvetica Neue', Arial, sans-serif;
+  --font-lexend: 'Lexend Variable', Verdana, sans-serif;
+  --read-font: var(--font-text);
+  --read-scale: 1;
+  --read-size: 20.5px;
+  /* em: Pliego sets about 2.1 Vietnamese characters per em, so 31em ≈ 66. */
+  --read-measure: 31em;
+  --read-leading: 1.66;
+}
+/* Size steps: remembered separately for desktop and phone. */
+:root[data-reader][data-read-size='1'] { --read-size: 17.5px; }
+:root[data-reader][data-read-size='2'] { --read-size: 19px; }
+:root[data-reader][data-read-size='4'] { --read-size: 22.5px; }
+:root[data-reader][data-read-size='5'] { --read-size: 24.5px; }
+@media (max-width: 760px) {
+  :root[data-reader] { --read-size: 18px; }
+  :root[data-reader][data-read-size='1'] { --read-size: 15.5px; }
+  :root[data-reader][data-read-size='2'] { --read-size: 16.5px; }
+  :root[data-reader][data-read-size='4'] { --read-size: 19.5px; }
+  :root[data-reader][data-read-size='5'] { --read-size: 21.5px; }
+}
+/* Near-equal x-heights across the four faces (measured on the drawn x:
+   Pliego 0.431, Garamond 0.405, Bricolage 0.517, Lexend 0.525 of the em).
+   The two sans are set a little above strict parity, where they read level. */
+:root[data-reader][data-read-font='classic'] { --read-font: var(--font-classic); --read-scale: 1.07; }
+:root[data-reader][data-read-font='grotesque'] { --read-font: var(--font-grotesque); --read-scale: 0.88; }
+:root[data-reader][data-read-font='lexend'] { --read-font: var(--font-lexend); --read-scale: 0.87; }
+:root[data-reader][data-read-measure='narrow'] { --read-measure: 27em; }
+:root[data-reader][data-read-measure='wide'] { --read-measure: 36em; }
+:root[data-reader][data-read-leading='tight'] { --read-leading: 1.5; }
+:root[data-reader][data-read-leading='loose'] { --read-leading: 1.84; }
+
+/* Papers. Each has a light and a dark sheet; all text pairs ≥ 5.4:1. */
+:root[data-reader][data-read-paper='nga'] { --paper: #f6efe1; --raised: #eee5d3; --ink: #2a2318; --muted: #6a5f4c; --rule: #dacfba; }
+:root[data-reader][data-read-paper='suong'] { --paper: #eef1f3; --raised: #e4e8ec; --ink: #18202a; --muted: #535e69; --rule: #cfd6dc; }
+:root[data-reader][data-read-paper='reu'] { --paper: #e9eee5; --raised: #dfe5da; --ink: #1c241b; --muted: #55604f; --rule: #cbd3c5; }
+:root[data-reader][data-read-paper='nga'][data-theme='dark'] { --paper: #1c1812; --raised: #252019; --ink: #ede4d2; --muted: #bdb29c; --rule: #3e3629; }
+:root[data-reader][data-read-paper='suong'][data-theme='dark'] { --paper: #12181e; --raised: #1a2129; --ink: #e1e8ed; --muted: #a9b4bd; --rule: #313b45; }
+:root[data-reader][data-read-paper='reu'][data-theme='dark'] { --paper: #131a14; --raised: #1b231c; --ink: #e0e8dc; --muted: #a8b4a2; --rule: #334032; }
+@media (prefers-color-scheme: dark) {
+  :root[data-reader][data-read-paper='nga']:not([data-theme='light']) { --paper: #1c1812; --raised: #252019; --ink: #ede4d2; --muted: #bdb29c; --rule: #3e3629; }
+  :root[data-reader][data-read-paper='suong']:not([data-theme='light']) { --paper: #12181e; --raised: #1a2129; --ink: #e1e8ed; --muted: #a9b4bd; --rule: #313b45; }
+  :root[data-reader][data-read-paper='reu']:not([data-theme='light']) { --paper: #131a14; --raised: #1b231c; --ink: #e0e8dc; --muted: #a8b4a2; --rule: #334032; }
+}
+:root[data-reader] {
+  transition:
+    background-color var(--d-base) var(--ease-out),
+    color var(--d-base) var(--ease-out);
+}
+/* A change of appearance spreads the new paper over the old, a change of
+   paper dissolves into it (foundation.css): the new page is already the new
+   paper, not a paper on its way. */
+:root[data-reader]:is([data-appearing], [data-reflowing]) {
+  transition: none;
+}
+
+/* ---------- bar: where the reader is ----------
+   One line on wide screens: the title and the part share a baseline, and the
+   line stands in the middle of the bar (a grid can centre a row it aligns by
+   baseline; a flex line cannot). */
+.reading-context {
+  display: grid;
+  grid-auto-flow: column;
+  grid-template-columns: minmax(0, max-content);
+  grid-auto-columns: max-content;
+  justify-content: start;
+  align-content: center;
+  align-items: baseline;
+  column-gap: var(--s-4);
+  min-width: 0;
+  max-width: 100%;
+  min-height: 46px;
+  padding: 0 0 0 var(--s-5);
+  border: 0;
+  border-left: 1px solid var(--rule);
+  background: none;
+  color: inherit;
+  text-align: left;
+}
+button.reading-context {
+  cursor: pointer;
+}
+.reading-context__title {
+  overflow: hidden;
+  font: italic var(--t-ui) / 1.2 var(--font-text);
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+.reading-context__part {
+  flex: none;
+  max-width: 16rem;
+  overflow: hidden;
+  color: var(--topic-text);
+  font-size: var(--t-meta);
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+.reading-context__part:empty,
+.reading-context__remaining,
+.reading-context__glyph {
+  display: none;
+}
+:where(:root:not([data-resting])) button.reading-context:hover .reading-context__title {
+  text-decoration: underline;
+  text-decoration-thickness: 1px;
+  text-underline-offset: 0.2em;
+}
+.reading-remaining {
+  min-width: 6.5rem;
+  margin-right: var(--s-2);
+  color: var(--muted);
+  font-size: var(--t-meta);
+  font-weight: 500;
+  text-align: right;
+}
+.reader-aa span {
+  font: 500 var(--t-dek) / 1 var(--font-text);
+  letter-spacing: -0.01em;
+}
+/* While the reading page is open, the control that opened it stays marked. */
+:root:has(#reader-settings:popover-open) .reader-aa {
+  background-color: color-mix(in oklab, currentColor 8%, transparent);
+}
+
+/* ---------- head ---------- */
+.article-head__text {
+  width: min(100% - 2 * var(--margin), 58rem);
+  margin: clamp(2.5rem, 6vw, 5.5rem) auto clamp(2rem, 4vw, 3.5rem);
+  text-align: center;
+}
+.essay__title {
+  margin-top: var(--s-3);
+  font-size: var(--t-display);
+  line-height: 1.06;
+  letter-spacing: -0.024em;
+}
+.essay__subtitle {
+  margin-top: var(--s-4);
+  font: italic var(--t-dek-l) / 1.32 var(--font-text);
+}
+.essay__dek {
+  margin-top: var(--s-3);
+  color: var(--muted);
+  font-size: var(--t-body);
+}
+.article-head .byline {
+  justify-content: center;
+  margin-top: var(--s-5);
+}
+.article-head__plate {
+  margin: 0;
+}
+.article-head__plate .plate {
+  aspect-ratio: auto;
+  height: clamp(16rem, 58vh, 44rem);
+  view-transition-name: essay-plate;
+}
+/* A change of appearance, paper or type turns the page with the cover in it:
+   taken apart, the cover was drawn over the bar while the new paper spread. */
+:root:is([data-appearing], [data-reflowing]) .article-head__plate .plate {
+  view-transition-name: none;
+}
+
+/* ---------- body: contents | text | notes ---------- */
+.article-body {
+  /* The body carries the reading font and size, so em measures the text itself. */
+  display: grid;
+  grid-template-columns: minmax(8rem, 1fr) minmax(0, var(--read-measure)) minmax(14rem, 1fr);
+  column-gap: clamp(1.5rem, 3vw, 3.5rem);
+  width: min(100% - 2 * var(--margin), 1500px);
+  margin: clamp(2.5rem, 5vw, 4.5rem) auto 0;
+  font-family: var(--read-font);
+  font-size: calc(var(--read-size) * var(--read-scale));
+}
+.article-body__contents {
+  justify-self: end;
+  width: min(100%, 15rem);
+}
+.contents {
+  position: sticky;
+  top: calc(var(--bar-height) + 2.5rem);
+}
+.contents__title {
+  margin-bottom: var(--s-3);
+  color: var(--muted);
+  font-size: var(--t-meta);
+}
+.contents ol,
+.contents-sheet__list {
+  display: grid;
+  gap: var(--s-1);
+}
+.contents a,
+.contents-sheet__list a {
+  display: block;
+  padding: var(--s-1) 0 var(--s-1) var(--s-3);
+  border-left: 2px solid var(--rule);
+  color: var(--muted);
+  font-size: var(--t-small);
+  line-height: 1.35;
+  text-decoration: none;
+  transition:
+    color var(--d-quick) var(--ease-out),
+    border-color var(--d-quick) var(--ease-out);
+}
+:where(:root:not([data-resting])) .contents a:hover,
+:where(:root:not([data-resting])) .contents-sheet__list a:hover {
+  color: var(--ink);
+}
+.contents a[aria-current],
+.contents-sheet__list a[aria-current] {
+  border-left-color: var(--topic-text);
+  color: var(--ink);
+}
+.contents__sub a {
+  padding-left: var(--s-5);
+}
+
+/* ---------- prose ---------- */
+.prose {
+  min-width: 0;
+  font-family: var(--read-font);
+  font-size: 1em;
+  line-height: var(--read-leading);
+  overflow-wrap: break-word;
+  font-variant-numeric: oldstyle-nums proportional-nums;
+}
+.prose p,
+.prose ul,
+.prose ol,
+.prose blockquote,
+.prose figure,
+.prose table {
+  margin: 0 0 0.95em;
+}
+.prose h2,
+.prose h3 {
+  margin: 2em 0 0.6em;
+  font-family: var(--font-text);
+  font-weight: 500;
+  line-height: 1.16;
+  letter-spacing: -0.012em;
+}
+.prose h2 {
+  font-size: 1.6em;
+}
+.prose h3 {
+  font-size: 1.25em;
+}
+.prose a {
+  text-decoration-color: color-mix(in oklab, currentColor 40%, transparent);
+  text-underline-offset: 0.18em;
+  transition: text-decoration-color var(--d-quick) var(--ease-out);
+}
+:where(:root:not([data-resting])) .prose a:hover {
+  text-decoration-color: currentColor;
+}
+.prose ul,
+.prose ol {
+  padding-left: 1.3em;
+}
+.prose ul {
+  list-style: disc;
+}
+.prose ol {
+  list-style: decimal;
+}
+.prose li + li {
+  margin-top: 0.35em;
+}
+.prose blockquote {
+  padding-left: 1.1em;
+  border-left: 2px solid var(--topic-pigment);
+  font-style: italic;
+}
+.prose blockquote p:last-child {
+  margin-bottom: 0;
+}
+/* Section breaks are set as an asterism, not a rule. */
+.prose hr {
+  height: auto;
+  margin: 2.2em 0;
+  border: 0;
+  text-align: center;
+}
+.prose hr::after {
+  content: '⁂';
+  color: var(--topic-text);
+  font: 1.15em / 1 var(--font-text);
+}
+.prose img {
+  width: 100%;
+}
+.prose figcaption {
+  margin-top: 0.5em;
+  color: var(--muted);
+  font-size: 0.8em;
+}
+/* Note references: small numerals in the essay's ink, with a full touch target. */
+.prose sup {
+  line-height: 0;
+}
+.prose sup a,
+.prose a[data-footnote-ref] {
+  position: relative;
+  padding: 0 0.12em;
+  border-radius: 2px;
+  color: var(--topic-text);
+  font: 650 0.64em / 1 var(--font-sans);
+  font-stretch: var(--sans-width);
+  font-variant-numeric: lining-nums;
+  text-decoration: none;
+  transition: background-color var(--d-quick) var(--ease-out);
+}
+.prose sup a::before,
+.prose a[data-footnote-ref]::before {
+  content: '';
+  position: absolute;
+  inset: -14px -10px;
+}
+.prose sup a.is-active,
+:where(:root:not([data-resting])) .prose sup a:hover {
+  background: var(--topic-mark);
+}
+.prose .footnotes {
+  margin-top: 3em;
+  padding-top: 1.25em;
+  border-top: 1px solid var(--rule);
+  color: var(--muted);
+  font-size: 0.84em;
+  line-height: 1.55;
+  overflow-wrap: anywhere;
+}
+.prose .footnotes::before {
+  content: 'Chú thích';
+  display: block;
+  margin-bottom: 0.9em;
+  color: var(--ink);
+  font: 600 var(--t-meta) / 1 var(--font-sans);
+  font-stretch: var(--sans-width);
+  text-transform: uppercase;
+  letter-spacing: var(--caps-tracking);
+}
+.prose .footnotes li:target {
+  color: var(--ink);
+  background: var(--topic-mark);
+}
+
+/* Arrival: the paragraph or part that a link, the contents or the resume
+   prompt leads to is marked in the margin for a moment, a pencil stroke in
+   the essay's ink drawn down beside it, so the eye finds its place without
+   searching (data-arrived, set by the reader's script, never by scrolling). */
+.prose [data-arrived] {
+  position: relative;
+}
+.prose [data-arrived]::before {
+  content: '';
+  position: absolute;
+  top: 0.25em;
+  bottom: 0.25em;
+  left: -0.85em;
+  width: 2px;
+  border-radius: 1px;
+  background: var(--topic-text);
+  transform-origin: 50% 0;
+  animation: arrived 2600ms var(--ease-out) both;
+  pointer-events: none;
+}
+@keyframes arrived {
+  0% {
+    opacity: 0;
+    scale: 1 0;
+  }
+  18% {
+    opacity: 1;
+    scale: 1 1;
+  }
+  65% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+/* ---------- sidenotes ---------- */
+.article-body__notes {
+  position: relative;
+  min-width: 0;
+  max-width: 19rem;
+}
+.sidenote {
+  position: absolute;
+  inset: 0 0 auto;
+  display: grid;
+  grid-template-columns: 1.5rem minmax(0, 1fr);
+  color: var(--muted);
+  font: var(--t-note) / 1.5 var(--font-text);
+  overflow-wrap: anywhere;
+  transition: color var(--d-quick) var(--ease-out);
+}
+.sidenote__number {
+  color: var(--topic-text);
+  font: 650 var(--t-meta) / 1.9 var(--font-sans);
+  font-stretch: var(--sans-width);
+}
+.sidenote.is-active {
+  color: var(--ink);
+}
+.sidenote.is-flash > div {
+  animation: note-flash 1.2s var(--ease-out);
+}
+@keyframes note-flash {
+  from {
+    background: var(--topic-mark);
+  }
+}
+
+/* ---------- responsive ---------- */
+@media (max-width: 1199px) {
+  .article-body {
+    grid-template-columns: minmax(0, var(--read-measure));
+    justify-content: center;
+  }
+  .article-body__contents,
+  .article-body__notes {
+    display: none;
+  }
+}
+@media (max-width: 1120px) {
+  .reading-remaining {
+    display: none;
+  }
+}
+/* Below the width where the remaining time fits beside the title, the context
+   becomes a two-line status: the part (or the title before the first part)
+   above, the time left below. It is the one control that opens the contents. */
+@media (max-width: 1120px) {
+  .reading-context {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 3px;
+    padding-left: var(--s-4);
+  }
+  button.reading-context {
+    align-items: flex-start;
+    padding-right: 1.75rem;
+    position: relative;
+  }
+  .reading-context__title {
+    max-width: 100%;
+    font-size: var(--t-small);
+  }
+  .reading-context:has(.reading-context__part:not(:empty)) .reading-context__title {
+    display: none;
+  }
+  .reading-context__part {
+    max-width: 100%;
+  }
+  .reading-context__remaining {
+    display: block;
+    color: var(--muted);
+    font-size: var(--t-meta);
+    font-weight: 500;
+  }
+  .reading-context__glyph {
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 50%;
+    translate: 0 -50%;
+    color: var(--muted);
+  }
+}
+@media (max-width: 760px) {
+  .bar[data-mode='reader'] .bar__name {
+    font-size: 0;
+  }
+  /* The name shrinks to the publication's mark: P. (The name itself stays in
+     the link, at no size, so the link is still read as the publication.) */
+  .bar[data-mode='reader'] .bar__name::before {
+    content: 'P.';
+    content: 'P.' / '';
+    font-size: var(--t-title-l);
+    letter-spacing: -0.02em;
+  }
+  .bar[data-mode='reader'] .bar__inner {
+    gap: var(--s-3);
+  }
+  .bar[data-mode='reader'] .bar__context {
+    display: block;
+  }
+  .reading-context {
+    padding-left: var(--s-3);
+  }
+  .article-head__text {
+    text-align: left;
+  }
+  .article-head .byline {
+    justify-content: flex-start;
+  }
+  .article-head__plate .plate {
+    height: min(66vw, 20rem);
+  }
+}

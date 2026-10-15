@@ -1,0 +1,547 @@
+{
+  "parties": [
+    {
+      "id": "liberal-party-uk",
+      "name": "Đảng Tự do Anh",
+      "country": "Anh",
+      "period": "1859–1988",
+      "variants": [
+        "classical-liberalism",
+        "social-liberalism"
+      ],
+      "emblem": {
+        "shape": "disc",
+        "field": "#fdbb30",
+        "ink": "#1b1b1b",
+        "motif": "scales"
+      }
+    },
+    {
+      "id": "fdp",
+      "name": "Đảng Dân chủ Tự do Đức",
+      "abbr": "FDP",
+      "country": "Đức",
+      "period": "1948–nay",
+      "variants": [
+        "classical-liberalism",
+        "ordoliberalism"
+      ],
+      "emblem": {
+        "shape": "square",
+        "field": "#ffed00",
+        "ink": "#005b9c",
+        "motif": "torch"
+      }
+    },
+    {
+      "id": "liberal-democrats-uk",
+      "name": "Đảng Dân chủ Tự do Anh",
+      "abbr": "Lib Dems",
+      "country": "Anh",
+      "period": "1988–nay",
+      "variants": [
+        "social-liberalism"
+      ],
+      "emblem": {
+        "shape": "disc",
+        "field": "#faa61a",
+        "ink": "#ffffff",
+        "motif": "bird"
+      }
+    },
+    {
+      "id": "liberal-party-canada",
+      "name": "Đảng Tự do Canada",
+      "country": "Canada",
+      "period": "1867–nay",
+      "variants": [
+        "social-liberalism",
+        "pragmatic-centrism"
+      ],
+      "emblem": {
+        "shape": "disc",
+        "field": "#d71920",
+        "ink": "#ffffff",
+        "motif": "maple-leaf"
+      }
+    },
+    {
+      "id": "democratic-party-us",
+      "name": "Đảng Dân chủ Hoa Kỳ",
+      "country": "Hoa Kỳ",
+      "period": "1828–nay",
+      "variants": [
+        "new-deal-liberalism",
+        "third-way",
+        "progressivism"
+      ],
+      "emblem": {
+        "shape": "disc",
+        "field": "#0015bc",
+        "ink": "#ffffff",
+        "motif": "donkey"
+      }
+    },
+    {
+      "id": "mont-pelerin-society",
+      "name": "Hội Mont Pèlerin",
+      "abbr": "MPS",
+      "country": "Quốc tế",
+      "period": "1947–nay",
+      "variants": [
+        "neoliberalism"
+      ],
+      "emblem": {
+        "shape": "disc",
+        "field": "#1f3a68",
+        "ink": "#ffffff",
+        "motif": "mountains"
+      }
+    },
+    {
+      "id": "european-federalist-movement",
+      "name": "Phong trào Liên bang châu Âu",
+      "abbr": "MFE",
+      "country": "Ý",
+      "period": "1943–nay",
+      "variants": [
+        "cosmopolitan-federalism"
+      ],
+      "emblem": {
+        "shape": "disc",
+        "field": "#003399",
+        "ink": "#ffcc00",
+        "motif": "globe-hemisphere-east"
+      }
+    },
+    {
+      "id": "volt-europa",
+      "name": "Volt châu Âu",
+      "abbr": "Volt",
+      "country": "Châu Âu",
+      "period": "2017–nay",
+      "variants": [
+        "cosmopolitan-federalism"
+      ],
+      "emblem": {
+        "shape": "square",
+        "field": "#502379",
+        "ink": "#ffffff",
+        "motif": "star-cluster"
+      }
+    },
+    {
+      "id": "duy-tan-movement",
+      "name": "Phong trào Duy Tân",
+      "country": "Việt Nam",
+      "period": "1906–1908",
+      "variants": [
+        "reformist-enlightenment"
+      ],
+      "emblem": {
+        "shape": "disc",
+        "field": "#1d4d3a",
+        "ink": "#f3e3b5",
+        "motif": "lamp"
+      }
+    },
+    {
+      "id": "dong-kinh-nghia-thuc",
+      "name": "Đông Kinh Nghĩa Thục",
+      "country": "Việt Nam",
+      "period": "1907",
+      "variants": [
+        "reformist-enlightenment"
+      ],
+      "emblem": {
+        "shape": "disc",
+        "field": "#7a1f1f",
+        "ink": "#f3e3b5",
+        "motif": "book-open"
+      }
+    },
+    {
+      "id": "constitutionalist-party-indochina",
+      "name": "Đảng Lập hiến Đông Dương",
+      "country": "Việt Nam",
+      "period": "1923–1939",
+      "variants": [
+        "reformist-enlightenment",
+        "classical-liberalism",
+        "liberal-conservatism"
+      ],
+      "emblem": {
+        "shape": "disc",
+        "field": "#1f3a68",
+        "ink": "#f3e3b5",
+        "motif": "scroll"
+      }
+    },
+    {
+      "id": "partido-moderado",
+      "name": "Đảng Ôn hoà (Tây Ban Nha)",
+      "country": "Tây Ban Nha",
+      "period": "1834–1874",
+      "variants": [
+        "conservative-liberalism",
+        "constitutional-monarchy"
+      ],
+      "emblem": {
+        "shape": "shield",
+        "field": "#fabd00",
+        "ink": "#ad1519",
+        "motif": "crown-simple",
+        "ring": "#ad1519"
+      }
+    },
+    {
+      "id": "radical-party-france",
+      "name": "Đảng Cấp tiến Pháp",
+      "abbr": "PRRRS",
+      "country": "Pháp",
+      "period": "1901–2017",
+      "variants": [
+        "solidarist-radicalism",
+        "civic-nationalism"
+      ],
+      "emblem": {
+        "shape": "disc",
+        "field": "#0055a4",
+        "ink": "#ffffff",
+        "motif": "phrygian-cap",
+        "ring": "#ef4135"
+      }
+    }
+  ],
+  "states": [
+    {
+      "id": "uk-1906-1914",
+      "name": "Vương quốc Anh",
+      "period": "1906–1914",
+      "note": "Cải cách phúc lợi của Asquith và Lloyd George",
+      "variants": [
+        "social-liberalism"
+      ],
+      "flag": "uk"
+    },
+    {
+      "id": "canada-1968-1984",
+      "name": "Canada",
+      "period": "1968–1984",
+      "note": "Thời Pierre Trudeau (gián đoạn 1979–1980)",
+      "variants": [
+        "social-liberalism"
+      ],
+      "flag": "canada"
+    },
+    {
+      "id": "poland-1989-1991",
+      "name": "Ba Lan",
+      "period": "1989–1991",
+      "note": "Liệu pháp sốc của Leszek Balcerowicz",
+      "variants": [
+        "neoliberalism"
+      ],
+      "flag": "poland"
+    },
+    {
+      "id": "usa-1933-1945",
+      "name": "Hoa Kỳ",
+      "period": "1933–1945",
+      "note": "New Deal của Franklin D. Roosevelt",
+      "variants": [
+        "new-deal-liberalism"
+      ],
+      "flag": "usa"
+    },
+    {
+      "id": "usa-1913-1921",
+      "name": "Hoa Kỳ",
+      "period": "1913–1921",
+      "note": "Woodrow Wilson: Mười bốn điểm, Hội Quốc Liên",
+      "variants": [
+        "liberal-interventionism"
+      ],
+      "flag": "usa"
+    },
+    {
+      "id": "chile-1973-1990",
+      "name": "Chile",
+      "period": "1973–1990",
+      "note": "Chế độ Pinochet và nhóm Chicago Boys",
+      "variants": [
+        "authoritarian-liberalism",
+        "military-rule"
+      ],
+      "flag": "chile"
+    },
+    {
+      "id": "france-1830-1848",
+      "name": "Vương quốc Pháp",
+      "period": "1830–1848",
+      "note": "Quân chủ tháng Bảy: Louis-Philippe và Guizot, bầu cử theo mức thuế",
+      "variants": [
+        "conservative-liberalism",
+        "constitutional-monarchy"
+      ],
+      "flag": "france"
+    },
+    {
+      "id": "france-1902-1914",
+      "name": "Pháp",
+      "period": "1902–1914",
+      "note": "Phái Cấp tiến cầm quyền: luật tách Giáo hội và Nhà nước (1905), lương hưu công nhân (1910)",
+      "variants": [
+        "solidarist-radicalism"
+      ],
+      "flag": "france"
+    }
+  ],
+  "figures": [
+    {
+      "id": "john-locke",
+      "name": "John Locke",
+      "life": "1632–1704",
+      "role": "Triết gia Anh, cha đẻ chủ nghĩa tự do",
+      "variant": "classical-liberalism",
+      "wiki": "John Locke"
+    },
+    {
+      "id": "adam-smith",
+      "name": "Adam Smith",
+      "life": "1723–1790",
+      "role": "Nhà kinh tế Scotland, tác giả “Quốc phú luận”",
+      "variant": "classical-liberalism",
+      "wiki": "Adam Smith"
+    },
+    {
+      "id": "nguyen-phan-long",
+      "name": "Nguyễn Phan Long",
+      "life": "1888–1960",
+      "role": "Nhà báo Lập hiến, Thủ tướng Quốc gia Việt Nam 1950",
+      "variant": "classical-liberalism",
+      "wiki": "Nguyễn Phan Long"
+    },
+    {
+      "id": "john-stuart-mill",
+      "name": "John Stuart Mill",
+      "life": "1806–1873",
+      "role": "Triết gia Anh, tác giả “Bàn về tự do”",
+      "variant": "social-liberalism",
+      "wiki": "John Stuart Mill"
+    },
+    {
+      "id": "john-rawls",
+      "name": "John Rawls",
+      "life": "1921–2002",
+      "role": "Triết gia Mỹ, tác giả “Một lý thuyết về công lý”",
+      "variant": "social-liberalism",
+      "wiki": "John Rawls"
+    },
+    {
+      "id": "john-maynard-keynes",
+      "name": "John Maynard Keynes",
+      "life": "1883–1946",
+      "role": "Nhà kinh tế học Anh",
+      "variant": "social-liberalism",
+      "wiki": "John Maynard Keynes"
+    },
+    {
+      "id": "friedrich-hayek",
+      "name": "Friedrich Hayek",
+      "life": "1899–1992",
+      "role": "Nhà kinh tế Áo–Anh, Nobel Kinh tế 1974",
+      "variant": "neoliberalism",
+      "wiki": "Friedrich Hayek"
+    },
+    {
+      "id": "leszek-balcerowicz",
+      "name": "Leszek Balcerowicz",
+      "life": "s. 1947",
+      "role": "Bộ trưởng Tài chính Ba Lan, cha đẻ liệu pháp sốc",
+      "variant": "neoliberalism",
+      "wiki": "Leszek Balcerowicz"
+    },
+    {
+      "id": "roger-douglas",
+      "name": "Roger Douglas",
+      "life": "s. 1937",
+      "role": "Bộ trưởng Tài chính New Zealand (1984–1988)",
+      "variant": "neoliberalism",
+      "wiki": "Roger Douglas"
+    },
+    {
+      "id": "franklin-d-roosevelt",
+      "name": "Franklin D. Roosevelt",
+      "life": "1882–1945",
+      "role": "Tổng thống Hoa Kỳ, người khởi xướng New Deal",
+      "variant": "new-deal-liberalism",
+      "wiki": "Franklin D. Roosevelt"
+    },
+    {
+      "id": "barack-obama",
+      "name": "Barack Obama",
+      "life": "s. 1961",
+      "role": "Tổng thống Hoa Kỳ (2009–2017)",
+      "variant": "progressivism",
+      "wiki": "Barack Obama"
+    },
+    {
+      "id": "elizabeth-warren",
+      "name": "Elizabeth Warren",
+      "life": "s. 1949",
+      "role": "Thượng nghị sĩ Hoa Kỳ (Massachusetts)",
+      "variant": "progressivism",
+      "wiki": "Elizabeth Warren"
+    },
+    {
+      "id": "woodrow-wilson",
+      "name": "Woodrow Wilson",
+      "life": "1856–1924",
+      "role": "Tổng thống Hoa Kỳ, người khởi xướng Hội Quốc Liên",
+      "variant": "liberal-interventionism",
+      "axes": {
+        "identity": 45
+      },
+      "wiki": "Woodrow Wilson"
+    },
+    {
+      "id": "bernard-kouchner",
+      "name": "Bernard Kouchner",
+      "life": "s. 1939",
+      "role": "Ngoại trưởng Pháp, đồng sáng lập tổ chức MSF",
+      "variant": "liberal-interventionism",
+      "wiki": "Bernard Kouchner"
+    },
+    {
+      "id": "walter-eucken",
+      "name": "Walter Eucken",
+      "life": "1891–1950",
+      "role": "Nhà kinh tế Đức, trường phái Freiburg",
+      "variant": "ordoliberalism",
+      "wiki": "Walter Eucken"
+    },
+    {
+      "id": "ludwig-erhard",
+      "name": "Ludwig Erhard",
+      "life": "1897–1977",
+      "role": "Thủ tướng Tây Đức, cha đẻ “phép màu kinh tế”",
+      "variant": "ordoliberalism",
+      "wiki": "Ludwig Erhard"
+    },
+    {
+      "id": "immanuel-kant",
+      "name": "Immanuel Kant",
+      "life": "1724–1804",
+      "role": "Triết gia Đức, tác giả “Bàn về hoà bình vĩnh cửu”",
+      "variant": "cosmopolitan-federalism",
+      "wiki": "Immanuel Kant"
+    },
+    {
+      "id": "altiero-spinelli",
+      "name": "Altiero Spinelli",
+      "life": "1907–1986",
+      "role": "Nhà liên bang Ý, đồng soạn Tuyên ngôn Ventotene",
+      "variant": "cosmopolitan-federalism",
+      "wiki": "Altiero Spinelli"
+    },
+    {
+      "id": "augusto-pinochet",
+      "name": "Augusto Pinochet",
+      "life": "1915–2006",
+      "role": "Nhà độc tài quân sự Chile (1973–1990)",
+      "variant": "authoritarian-liberalism",
+      "wiki": "Augusto Pinochet"
+    },
+    {
+      "id": "jaime-guzman",
+      "name": "Jaime Guzmán",
+      "life": "1946–1991",
+      "role": "Luật gia Chile, kiến trúc sư Hiến pháp 1980",
+      "variant": "authoritarian-liberalism",
+      "axes": {
+        "religion": 75
+      },
+      "wiki": "Jaime Guzmán"
+    },
+    {
+      "id": "phan-chau-trinh",
+      "name": "Phan Châu Trinh",
+      "life": "1872–1926",
+      "role": "Nhà cách mạng, lãnh tụ phong trào Duy Tân",
+      "variant": "reformist-enlightenment",
+      "wiki": "Phan Châu Trinh"
+    },
+    {
+      "id": "huynh-thuc-khang",
+      "name": "Huỳnh Thúc Kháng",
+      "life": "1876–1947",
+      "role": "Chí sĩ Duy Tân, Quyền Chủ tịch nước năm 1946",
+      "variant": "reformist-enlightenment",
+      "wiki": "Huỳnh Thúc Kháng"
+    },
+    {
+      "id": "fukuzawa-yukichi",
+      "name": "Fukuzawa Yukichi",
+      "life": "1835–1901",
+      "role": "Nhà khai sáng Nhật Bản, sáng lập Đại học Keio",
+      "variant": "reformist-enlightenment",
+      "wiki": "Fukuzawa Yukichi"
+    },
+    {
+      "id": "alexis-de-tocqueville",
+      "name": "Alexis de Tocqueville",
+      "life": "1805–1859",
+      "role": "Nhà tư tưởng Pháp, tác giả Nền dân trị Mỹ",
+      "variant": "conservative-liberalism",
+      "wiki": "Alexis de Tocqueville"
+    },
+    {
+      "id": "francois-guizot",
+      "name": "François Guizot",
+      "life": "1787–1874",
+      "role": "Sử gia, Thủ tướng Pháp thời Quân chủ tháng Bảy",
+      "variant": "conservative-liberalism",
+      "wiki": "François Guizot",
+      "axes": {
+        "liberty": 55,
+        "elites": 10
+      }
+    },
+    {
+      "id": "jose-ortega-y-gasset",
+      "name": "José Ortega y Gasset",
+      "life": "1883–1955",
+      "role": "Triết gia Tây Ban Nha, tác giả Sự nổi loạn của quần chúng",
+      "variant": "conservative-liberalism",
+      "wiki": "José Ortega y Gasset"
+    },
+    {
+      "id": "leon-bourgeois",
+      "name": "Léon Bourgeois",
+      "life": "1851–1925",
+      "role": "Thủ tướng Pháp, cha đẻ thuyết liên đới, Nobel Hoà bình 1920",
+      "variant": "solidarist-radicalism",
+      "wiki": "Léon Bourgeois"
+    },
+    {
+      "id": "emile-combes",
+      "name": "Émile Combes",
+      "life": "1835–1921",
+      "role": "Thủ tướng Pháp (1902–1905), mở chiến dịch chống giáo quyền",
+      "variant": "solidarist-radicalism",
+      "wiki": "Émile Combes",
+      "axes": {
+        "religion": 3
+      }
+    },
+    {
+      "id": "edouard-herriot",
+      "name": "Édouard Herriot",
+      "life": "1872–1957",
+      "role": "Lãnh tụ Đảng Cấp tiến, ba lần làm Thủ tướng Pháp",
+      "variant": "solidarist-radicalism",
+      "wiki": "Édouard Herriot"
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "family": {
+    "id": "right-populism",
+    "name": "Dân tuý cánh hữu",
+    "en": "Right-wing populism",
+    "summary": "Người dân lương thiện chống lại giới tinh hoa thối nát và những kẻ ngoài; đề cao bản sắc dân tộc, trật tự và một lãnh đạo nói thẳng."
+  },
+  "variants": [
+    {
+      "id": "national-populism",
+      "name": "Dân tộc dân tuý",
+      "en": "National populism",
+      "summary": "Chống nhập cư, chống toàn cầu hoá và giới tinh hoa tự do; bảo hộ việc làm trong nước, nghi ngờ báo chí và các định chế quốc tế.",
+      "exemplars": ["Donald Trump", "Marine Le Pen", "Nigel Farage"],
+      "period": "2010–nay",
+      "axes": { "economy": 50, "distribution": 55, "trade": 20, "power": 55, "liberty": 45, "elites": 75, "lifestyle": 25, "religion": 55, "identity": 5, "environment": 25, "foreign": 30, "change": 55 },
+      "facets": { "elites.decision": 65, "elites.rank": 60, "elites.trust": 100, "power.pluralism": 70, "power.checks": 40, "power.local": 60, "foreign.force": 20, "foreign.rules": 10, "foreign.intervention": 60 },
+      "status": "draft",
+      "raters": ["claude"]
+    },
+    {
+      "id": "welfare-chauvinism",
+      "name": "Phúc lợi cho người bản xứ",
+      "en": "Welfare chauvinism",
+      "summary": "Nhà nước phúc lợi hào phóng, nhưng chỉ dành cho công dân bản xứ; đóng cửa với nhập cư để bảo vệ an sinh.",
+      "exemplars": ["Đảng Nhân dân Đan Mạch", "Tập hợp Quốc gia (Pháp, sau 2011)"],
+      "period": "1995–nay",
+      "axes": { "economy": 45, "distribution": 40, "trade": 30, "power": 65, "liberty": 40, "elites": 80, "lifestyle": 40, "religion": 45, "identity": 5, "environment": 30, "foreign": 45, "change": 45 },
+      "status": "draft",
+      "raters": ["claude"]
+    },
+    {
+      "id": "penal-populism",
+      "name": "Dân tuý trật tự",
+      "en": "Penal populism",
+      "summary": "Một lãnh đạo mạnh tay dẹp tội phạm và tham nhũng, bất chấp thủ tục pháp lý, được đa số ủng hộ.",
+      "exemplars": ["Rodrigo Duterte", "Nayib Bukele", "Alberto Fujimori"],
+      "period": "1990–nay",
+      "axes": { "economy": 55, "distribution": 55, "trade": 55, "power": 20, "liberty": 20, "elites": 75, "lifestyle": 30, "religion": 55, "identity": 30, "environment": 30, "foreign": 35, "change": 55 },
+      "facets": { "liberty.justice": 0, "liberty.expression": 30, "liberty.privacy": 30 },
+      "status": "draft",
+      "raters": ["claude"]
+    },
+    {
+      "id": "tax-revolt",
+      "name": "Dân tuý chống thuế",
+      "en": "Anti-tax populism",
+      "summary": "Tiểu thương, nông dân và người làm ăn nhỏ nổi lên chống thuế má, quan liêu, giới tài phiệt và cả công đoàn lớn.",
+      "exemplars": ["Pierre Poujade", "Phong trào Tea Party (Mỹ, 2009)"],
+      "period": "1953–nay",
+      "axes": { "economy": 85, "distribution": 85, "trade": 45, "power": 80, "liberty": 60, "elites": 85, "lifestyle": 25, "religion": 60, "identity": 25, "environment": 20, "foreign": 40, "change": 50 },
+      "status": "draft",
+      "raters": ["claude"]
+    }
+  ]
+}

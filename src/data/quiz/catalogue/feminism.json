@@ -1,0 +1,124 @@
+{
+  "figures": [
+    {
+      "id": "mary-wollstonecraft",
+      "name": "Mary Wollstonecraft",
+      "life": "1759–1797",
+      "role": "Nhà văn Anh, tác giả Bênh vực quyền của phụ nữ (1792)",
+      "variant": "liberal-feminism",
+      "wiki": "Mary Wollstonecraft"
+    },
+    {
+      "id": "elizabeth-cady-stanton",
+      "name": "Elizabeth Cady Stanton",
+      "life": "1815–1902",
+      "role": "Lãnh tụ phong trào đòi quyền bầu cử cho phụ nữ Mỹ",
+      "variant": "liberal-feminism",
+      "axes": {
+        "religion": 10
+      },
+      "wiki": "Elizabeth Cady Stanton"
+    },
+    {
+      "id": "betty-friedan",
+      "name": "Betty Friedan",
+      "life": "1921–2006",
+      "role": "Tác giả The Feminine Mystique (1963), đồng sáng lập NOW",
+      "variant": "liberal-feminism",
+      "wiki": "Betty Friedan"
+    },
+    {
+      "id": "clara-zetkin",
+      "name": "Clara Zetkin",
+      "life": "1857–1933",
+      "role": "Nhà xã hội chủ nghĩa Đức, người đề xướng Ngày Quốc tế Phụ nữ",
+      "variant": "socialist-feminism",
+      "axes": {
+        "power": 35
+      },
+      "wiki": "Clara Zetkin"
+    },
+    {
+      "id": "alexandra-kollontai",
+      "name": "Alexandra Kollontai",
+      "life": "1872–1952",
+      "role": "Nhà cách mạng Nga, Dân uỷ Phúc lợi Xã hội (1917–1918)",
+      "variant": "socialist-feminism",
+      "axes": {
+        "power": 30,
+        "change": 90
+      },
+      "wiki": "Alexandra Kollontai"
+    },
+    {
+      "id": "silvia-federici",
+      "name": "Silvia Federici",
+      "life": "s. 1942",
+      "role": "Nhà lý luận Ý–Mỹ, phong trào Lương cho việc nội trợ",
+      "variant": "socialist-feminism",
+      "wiki": "Silvia Federici"
+    },
+    {
+      "id": "shulamith-firestone",
+      "name": "Shulamith Firestone",
+      "life": "1945–2012",
+      "role": "Tác giả Biện chứng của giới tính (1970)",
+      "variant": "radical-feminism",
+      "axes": {
+        "environment": 40
+      },
+      "wiki": "Shulamith Firestone"
+    },
+    {
+      "id": "kate-millett",
+      "name": "Kate Millett",
+      "life": "1934–2017",
+      "role": "Tác giả Chính trị tình dục (1970)",
+      "variant": "radical-feminism",
+      "wiki": "Kate Millett"
+    },
+    {
+      "id": "andrea-dworkin",
+      "name": "Andrea Dworkin",
+      "life": "1946–2005",
+      "role": "Nhà văn Mỹ, cùng MacKinnon soạn sắc luật chống khiêu dâm (1983)",
+      "variant": "radical-feminism",
+      "wiki": "Andrea Dworkin"
+    }
+  ],
+  "parties": [
+    {
+      "id": "national-womans-party",
+      "name": "Đảng Phụ nữ Quốc gia",
+      "abbr": "NWP",
+      "country": "Hoa Kỳ",
+      "period": "1916–1997",
+      "variants": [
+        "liberal-feminism"
+      ],
+      "emblem": {
+        "shape": "disc",
+        "field": "#5b2a86",
+        "ink": "#ffffff",
+        "motif": "flag-banner",
+        "ring": "#d4a017"
+      }
+    },
+    {
+      "id": "feministiskt-initiativ",
+      "name": "Sáng kiến Nữ quyền",
+      "abbr": "Fi",
+      "country": "Thuỵ Điển",
+      "period": "2005–nay",
+      "variants": [
+        "socialist-feminism"
+      ],
+      "emblem": {
+        "shape": "disc",
+        "field": "#e5007d",
+        "ink": "#ffffff",
+        "motif": "exclamation-mark"
+      }
+    }
+  ]
+}

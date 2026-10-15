@@ -1,0 +1,62 @@
+---
+// The door to La bàn Tư tưởng, on the first page and on Thể nghiệm: the cube every
+// variant of an idea stands in, without a word on its faces, and the compass's name
+// set at its heart. On the first page the cube turns by itself, slowly, on a path that never
+// repeats; a hand that comes near makes it stop and lean toward the hand while the name stays
+// still (lib/quiz/drift.ts); the whole door is one link.
+import glyphs from '../../data/quiz/glyphs.json';
+import { COMPASS, EXPERIMENTS } from '../../lib/editionNav';
+import { compass, cubeSketch } from '../../lib/quiz/compass.ts';
+import { model } from '../../lib/quiz/load.ts';
+import { position } from '../../lib/quiz/model.ts';
+import { familyPigment } from '../../lib/quiz/palette.ts';
+import Glyph from './Glyph.astro';
+
+interface Props {
+  id: string;
+  /** Over the door, the section it belongs to, as the margin's other modules are headed. */
+  section?: boolean;
+  /** The compass's name is a heading at this level; the section above it one level up. */
+  level?: 2 | 3;
+  /** The cube turns by itself while it is on screen (the first page's door only). */
+  wander?: boolean;
+  class?: string;
+}
+const { id, section = false, level = 3, wander = false, class: className } = Astro.props;
+const Section = `h${level - 1}` as 'h1' | 'h2';
+const Title = `h${level}` as 'h2' | 'h3';
+const sketch = cubeSketch(
+  model.variants.map((variant, v) => ({
+    at: compass(model.axes.map((_, a) => position(model, v, a))),
+    family: variant.family,
+  })),
+  (family) => familyPigment(glyphs.families[family as keyof typeof glyphs.families]),
+);
+---
+<div class:list={['door', className]} data-door data-door-wander={wander || undefined}>
+  {section && (
+    <Section class="door__section caps"><a class="caps-link" href={EXPERIMENTS}><span>Thể nghiệm</span><Glyph name="forward" inline /></a></Section>
+  )}
+  <div class="door__layout">
+    <div class="door__body">
+      <div class="door__cube" data-door-cube><Fragment set:html={sketch} /></div>
+      <Title class="door__title" id={id}><a class="title-link stretched" href={COMPASS}>La bàn Tư tưởng</a></Title>
+    </div>
+    <div class="door__text">
+      <p class="door__dek">Trả lời thật lòng, rồi xem bạn đứng gần hướng tư tưởng nào nhất.</p>
+      <slot />
+      <p class="door__go caps" aria-hidden="true"><span>Bắt đầu</span><Glyph name="forward" inline /></p>
+    </div>
+  </div>
+</div>
+
+<script>
+  import { drift } from '../../lib/quiz/drift';
+
+  for (const door of document.querySelectorAll<HTMLElement>('[data-door]')) {
+    const cube = door.querySelector<HTMLElement>('[data-door-cube]');
+    // The hand is near anywhere over the door's own region of the page (its module).
+    const region = door.closest<HTMLElement>('[data-door-region]') ?? door;
+    if (cube) drift(cube, region, { wander: door.hasAttribute('data-door-wander') });
+  }
+</script>

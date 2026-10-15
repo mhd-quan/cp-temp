@@ -1,0 +1,155 @@
+{
+  "parties": [
+    {
+      "id": "skj",
+      "name": "Liên đoàn Những người Cộng sản Nam Tư",
+      "abbr": "SKJ",
+      "country": "Nam Tư",
+      "period": "1919–1990",
+      "variants": [
+        "titoism"
+      ],
+      "emblem": {
+        "shape": "disc",
+        "field": "#ffffff",
+        "ink": "#d7141a",
+        "motif": "star",
+        "ring": "#d7141a"
+      }
+    },
+    {
+      "id": "mszmp",
+      "name": "Đảng Công nhân Xã hội chủ nghĩa Hungary",
+      "abbr": "MSZMP",
+      "country": "Hungary",
+      "period": "1956–1989",
+      "variants": [
+        "goulash-communism"
+      ],
+      "emblem": {
+        "shape": "disc",
+        "field": "#cc0000",
+        "ink": "#ffffff",
+        "motif": "hammer-sickle"
+      }
+    }
+  ],
+  "states": [
+    {
+      "id": "prc-since-1978",
+      "name": "Trung Quốc",
+      "period": "1978–nay",
+      "note": "Cải cách mở cửa từ thời Đặng Tiểu Bình",
+      "variants": [
+        "reform-socialism",
+        "political-meritocracy"
+      ],
+      "flag": "prc"
+    },
+    {
+      "id": "vietnam-since-1986",
+      "name": "CHXHCN Việt Nam",
+      "period": "1986–nay",
+      "note": "Công cuộc Đổi Mới từ Đại hội VI",
+      "variants": [
+        "reform-socialism"
+      ],
+      "flag": "vietnam"
+    },
+    {
+      "id": "yugoslavia-1950-1980",
+      "name": "Nam Tư",
+      "period": "1950–1980",
+      "note": "Thời Tito, xí nghiệp do công nhân tự quản",
+      "variants": [
+        "titoism",
+        "non-alignment"
+      ],
+      "flag": "yugoslavia"
+    },
+    {
+      "id": "hungary-1960-1988",
+      "name": "Hungary",
+      "period": "1960–1988",
+      "note": "Thời János Kádár",
+      "variants": [
+        "goulash-communism"
+      ],
+      "flag": "hungary"
+    }
+  ],
+  "figures": [
+    {
+      "id": "deng-xiaoping",
+      "name": "Đặng Tiểu Bình",
+      "life": "1904–1997",
+      "role": "Người khởi xướng cải cách mở cửa Trung Quốc",
+      "variant": "reform-socialism",
+      "wiki": "Deng Xiaoping"
+    },
+    {
+      "id": "nguyen-van-linh",
+      "name": "Nguyễn Văn Linh",
+      "life": "1915–1998",
+      "role": "Tổng Bí thư những năm đầu Đổi Mới (1986–1991)",
+      "variant": "reform-socialism",
+      "wiki": "Nguyễn Văn Linh"
+    },
+    {
+      "id": "vo-van-kiet",
+      "name": "Võ Văn Kiệt",
+      "life": "1922–2008",
+      "role": "Thủ tướng Chính phủ thời Đổi Mới",
+      "variant": "reform-socialism",
+      "wiki": "Võ Văn Kiệt"
+    },
+    {
+      "id": "josip-broz-tito",
+      "name": "Josip Broz Tito",
+      "life": "1892–1980",
+      "role": "Tổng thống Nam Tư",
+      "variant": "titoism",
+      "wiki": "Josip Broz Tito"
+    },
+    {
+      "id": "edvard-kardelj",
+      "name": "Edvard Kardelj",
+      "life": "1910–1979",
+      "role": "Nhà lý luận tự quản công nhân Nam Tư",
+      "variant": "titoism",
+      "wiki": "Edvard Kardelj"
+    },
+    {
+      "id": "oskar-lange",
+      "name": "Oskar Lange",
+      "life": "1904–1965",
+      "role": "Nhà kinh tế học Ba Lan",
+      "variant": "lange-socialism",
+      "wiki": "Oskar Lange"
+    },
+    {
+      "id": "ota-sik",
+      "name": "Ota Šik",
+      "life": "1919–2004",
+      "role": "Nhà kinh tế học của Mùa xuân Praha",
+      "variant": "lange-socialism",
+      "wiki": "Ota Šik"
+    },
+    {
+      "id": "janos-kadar",
+      "name": "János Kádár",
+      "life": "1912–1989",
+      "role": "Lãnh đạo Hungary 1956–1988",
+      "variant": "goulash-communism",
+      "wiki": "János Kádár"
+    },
+    {
+      "id": "rezso-nyers",
+      "name": "Rezső Nyers",
+      "life": "1923–2018",
+      "role": "Cha đẻ Cơ chế Kinh tế Mới của Hungary",
+      "variant": "goulash-communism",
+      "wiki": "Rezső Nyers"
+    }
+  ]
+}

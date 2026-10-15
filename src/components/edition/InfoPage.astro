@@ -1,0 +1,32 @@
+---
+// Information pages (about, privacy): prose on seven columns, and the ways
+// to the rest of the house in the margin, drawn from the same map as the
+// menu and the footer (lib/editionNav.ts).
+import EditionLayout from '../../layouts/EditionLayout.astro';
+import { GROUPS, HOUSE, LETTERS } from '../../lib/editionNav';
+import Glyph from './Glyph.astro';
+import PageHead from './PageHead.astro';
+
+interface Props {
+  title: string;
+  description: string;
+}
+const { title, description } = Astro.props;
+const heading = GROUPS.find((group) => group.id === 'house')?.label;
+const path = Astro.url.pathname.replace(/\/$/, '');
+---
+<EditionLayout title={title} description={description} noindex={false}>
+  <PageHead title={title} />
+  <div class="page-body wrap info">
+    <div class="info__prose"><slot /></div>
+    <nav class="info__aside" aria-labelledby="info-house">
+      <h2 class="caps" id="info-house">{heading}</h2>
+      <ul role="list">
+        {HOUSE.filter((item) => item.href !== path).map((item) => (
+          <li><a href={item.href}>{item.label}<Glyph name="forward" size={18} /></a></li>
+        ))}
+        <li><a href={LETTERS}>Gửi thư<Glyph name="mail" size={18} /></a></li>
+      </ul>
+    </nav>
+  </div>
+</EditionLayout>

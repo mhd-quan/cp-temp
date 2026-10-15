@@ -1,0 +1,69 @@
+{
+  "family": {
+    "id": "democratic-socialism",
+    "name": "Xã hội chủ nghĩa dân chủ",
+    "en": "Democratic socialism",
+    "summary": "Muốn vượt qua chủ nghĩa tư bản, đưa kinh tế về sở hữu xã hội hay tập thể, nhưng qua con đường dân chủ và giữ tự do dân sự."
+  },
+  "variants": [
+    {
+      "id": "modern-democratic-socialism",
+      "name": "Xã hội chủ nghĩa dân chủ đương đại",
+      "en": "Contemporary democratic socialism",
+      "summary": "Y tế và giáo dục miễn phí, quốc hữu hoá dịch vụ thiết yếu, trao quyền cho người lao động và chống chiến tranh, tất cả qua lá phiếu.",
+      "exemplars": ["Bernie Sanders", "Jeremy Corbyn"],
+      "period": "2010–nay",
+      "axes": { "economy": 20, "distribution": 10, "trade": 40, "power": 80, "liberty": 80, "elites": 55, "lifestyle": 80, "religion": 25, "identity": 75, "environment": 75, "foreign": 80, "change": 50 },
+      "status": "draft",
+      "raters": ["claude"]
+    },
+    {
+      "id": "liberation-theology",
+      "name": "Thần học giải phóng",
+      "en": "Liberation theology",
+      "summary": "Đức tin Kitô giáo phải đứng về phía người nghèo: đòi cải cách ruộng đất và công bằng xã hội, có lúc ủng hộ cả đấu tranh cách mạng.",
+      "exemplars": ["Gustavo Gutiérrez", "Óscar Romero", "Hélder Câmara"],
+      "period": "1968–nay",
+      "axes": { "economy": 20, "distribution": 10, "trade": 30, "power": 70, "liberty": 60, "elites": 80, "lifestyle": 40, "religion": 65, "identity": 55, "environment": 60, "foreign": 70, "change": 70 },
+      "facets": { "religion.state": 50, "religion.law": 55, "religion.public": 85, "change.pace": 70, "change.means": 60, "change.depth": 85 },
+      "status": "draft",
+      "raters": ["claude"]
+    },
+    {
+      "id": "guild-socialism",
+      "name": "Xã hội chủ nghĩa hợp tác xã",
+      "en": "Guild and cooperative socialism",
+      "summary": "Nền kinh tế do các hợp tác xã và phường hội của người lao động tự quản; nhà nước chỉ điều phối giữa các cộng đồng.",
+      "exemplars": ["G. D. H. Cole", "R. H. Tawney", "Hợp tác xã Mondragon"],
+      "period": "1906–nay",
+      "axes": { "economy": 35, "distribution": 25, "trade": 50, "power": 85, "liberty": 70, "elites": 80, "lifestyle": 55, "religion": 35, "identity": 55, "environment": 60, "foreign": 70, "change": 45 },
+      "facets": { "economy.ownership": 15, "economy.planning": 55, "economy.steering": 45, "power.local": 95 },
+      "status": "draft",
+      "raters": ["claude"]
+    },
+    {
+      "id": "utopian-socialism",
+      "name": "Xã hội chủ nghĩa không tưởng",
+      "en": "Utopian socialism",
+      "summary": "Lập những cộng đồng mẫu hợp tác và bình đẳng để làm gương cho xã hội, thay vì giành chính quyền.",
+      "exemplars": ["Robert Owen", "Charles Fourier", "Étienne Cabet"],
+      "period": "1800–1860",
+      "axes": { "economy": 15, "distribution": 10, "trade": 50, "power": 80, "liberty": 60, "elites": 70, "lifestyle": 70, "religion": 35, "identity": 70, "environment": 65, "foreign": 90, "change": 45 },
+      "facets": { "change.pace": 45, "change.means": 5, "change.depth": 90, "power.local": 95 },
+      "status": "draft",
+      "raters": ["claude"]
+    },
+    {
+      "id": "ethical-socialism",
+      "name": "Xã hội chủ nghĩa đạo đức",
+      "en": "Ethical socialism (Christian socialism)",
+      "summary": "Chủ nghĩa xã hội là một đòi hỏi đạo đức: tình huynh đệ và bình đẳng thay cho lòng tham chiếm hữu; tiến tới từng bước qua nghị trường và giáo dục, không qua đấu tranh giai cấp.",
+      "exemplars": ["R. H. Tawney", "Keir Hardie", "F. D. Maurice"],
+      "period": "1848–nay",
+      "axes": { "economy": 35, "distribution": 15, "trade": 50, "power": 80, "liberty": 70, "elites": 55, "lifestyle": 40, "religion": 60, "identity": 60, "environment": 50, "foreign": 65, "change": 25 },
+      "facets": { "distribution.tax": 10, "distribution.welfare": 10, "distribution.labour": 30, "elites.decision": 30, "elites.rank": 90, "elites.trust": 50, "religion.state": 55, "religion.law": 30, "religion.public": 85, "change.pace": 20, "change.means": 5, "change.depth": 60 },
+      "status": "draft",
+      "raters": ["claude"]
+    }
+  ]
+}

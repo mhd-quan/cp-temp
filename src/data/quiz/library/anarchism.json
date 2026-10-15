@@ -1,0 +1,99 @@
+{
+  "family": {
+    "id": "anarchism",
+    "name": "Vô chính phủ",
+    "en": "Anarchism",
+    "summary": "Bác bỏ nhà nước và mọi quyền lực cưỡng ép; xã hội tự tổ chức từ dưới lên bằng hợp tác tự nguyện."
+  },
+  "variants": [
+    {
+      "id": "anarcho-communism",
+      "name": "Cộng sản vô chính phủ",
+      "en": "Anarcho-communism",
+      "summary": "Xoá bỏ nhà nước, tiền tệ và tư hữu; các công xã liên kết tự do, làm theo năng lực, hưởng theo nhu cầu.",
+      "exemplars": ["Pyotr Kropotkin", "Errico Malatesta", "Emma Goldman"],
+      "period": "1876–nay",
+      "axes": { "economy": 3, "distribution": 3, "trade": 60, "power": 100, "liberty": 95, "elites": 100, "lifestyle": 90, "religion": 8, "identity": 95, "environment": 70, "foreign": 80, "change": 95 },
+      "facets": { "foreign.force": 95, "foreign.rules": 60, "foreign.intervention": 85, "change.pace": 95, "change.means": 85, "change.depth": 100 },
+      "sd": { "economy.steering": 20 },
+      "status": "draft",
+      "raters": ["claude"]
+    },
+    {
+      "id": "anarcho-syndicalism",
+      "name": "Công đoàn vô chính phủ",
+      "en": "Anarcho-syndicalism",
+      "summary": "Các công đoàn tự quản làm cách mạng bằng tổng bãi công, rồi tự điều hành nền kinh tế thay cho nhà nước.",
+      "exemplars": ["Rudolf Rocker", "CNT Tây Ban Nha (1936)"],
+      "period": "1895–nay",
+      "axes": { "economy": 5, "distribution": 5, "trade": 55, "power": 95, "liberty": 90, "elites": 95, "lifestyle": 80, "religion": 5, "identity": 90, "environment": 55, "foreign": 80, "change": 95 },
+      "facets": { "distribution.labour": 0 },
+      "sd": { "economy.steering": 20 },
+      "status": "draft",
+      "raters": ["claude"]
+    },
+    {
+      "id": "mutualism",
+      "name": "Chủ nghĩa tương hỗ",
+      "en": "Mutualism",
+      "summary": "Thị trường giữa những người sản xuất nhỏ và hợp tác xã, ngân hàng tương hỗ cho vay không lãi, quyền sở hữu gắn với việc thực sự sử dụng.",
+      "exemplars": ["Pierre-Joseph Proudhon", "Kevin Carson"],
+      "period": "1840–nay",
+      "axes": { "economy": 55, "distribution": 30, "trade": 70, "power": 100, "liberty": 90, "elites": 90, "lifestyle": 60, "religion": 20, "identity": 70, "environment": 55, "foreign": 85, "change": 60 },
+      "facets": { "economy.ownership": 30, "economy.planning": 85, "economy.steering": 60, "distribution.tax": 20, "change.pace": 50, "change.means": 30, "change.depth": 90 },
+      "sd": { "lifestyle": 15, "economy.steering": 20 },
+      "status": "draft",
+      "raters": ["claude"]
+    },
+    {
+      "id": "individualist-anarchism",
+      "name": "Vô chính phủ cá nhân",
+      "en": "Individualist anarchism",
+      "summary": "Mỗi cá nhân có chủ quyền tuyệt đối với bản thân, không mắc nợ nhà nước hay tập thể bất cứ nghĩa vụ nào.",
+      "exemplars": ["Max Stirner", "Henry David Thoreau", "Benjamin Tucker"],
+      "period": "1840–nay",
+      "axes": { "economy": 75, "distribution": 65, "trade": 85, "power": 100, "liberty": 100, "elites": 80, "lifestyle": 95, "religion": 10, "identity": 80, "environment": 50, "foreign": 90, "change": 60 },
+      "facets": { "economy.ownership": 60, "economy.planning": 90, "economy.steering": 95 },
+      "sd": { "distribution": 15, "environment": 20, "elites.decision": 25 },
+      "status": "draft",
+      "raters": ["claude"]
+    },
+    {
+      "id": "green-anarchism",
+      "name": "Vô chính phủ xanh",
+      "en": "Green anarchism",
+      "summary": "Phê phán cả nhà nước lẫn văn minh công nghiệp; hướng tới những cộng đồng nhỏ, tự cung tự cấp, sống hoà vào tự nhiên.",
+      "exemplars": ["John Zerzan", "Derrick Jensen"],
+      "period": "1970–nay",
+      "axes": { "economy": 10, "distribution": 10, "trade": 5, "power": 100, "liberty": 90, "elites": 95, "lifestyle": 80, "religion": 20, "identity": 70, "environment": 100, "foreign": 90, "change": 95 },
+      "sd": { "religion": 20 },
+      "status": "draft",
+      "raters": ["claude"]
+    },
+    {
+      "id": "christian-anarchism",
+      "name": "Vô chính phủ Kitô giáo",
+      "en": "Christian anarchism",
+      "summary": "Sống theo Bài giảng trên núi: không dùng bạo lực, không phục tùng quyền lực nhà nước, giản dị và bác ái.",
+      "exemplars": ["Lev Tolstoy", "Dorothy Day", "Jacques Ellul"],
+      "period": "1880–nay",
+      "axes": { "economy": 20, "distribution": 15, "trade": 50, "power": 95, "liberty": 80, "elites": 85, "lifestyle": 40, "religion": 55, "identity": 80, "environment": 70, "foreign": 100, "change": 50 },
+      "facets": { "religion.state": 30, "religion.law": 50, "religion.public": 85, "change.pace": 50, "change.means": 0, "change.depth": 95 },
+      "sd": { "religion.state": 20 },
+      "status": "draft",
+      "raters": ["claude"]
+    },
+    {
+      "id": "democratic-confederalism",
+      "name": "Liên bang dân chủ",
+      "en": "Democratic confederalism (libertarian municipalism)",
+      "summary": "Các hội đồng xã, phường tự quản liên kết thành liên bang, lấy bình đẳng giới và sinh thái làm nền; từng được thực hành ở Rojava.",
+      "exemplars": ["Murray Bookchin", "Abdullah Öcalan", "Rojava (2012–nay)"],
+      "period": "1980–nay",
+      "axes": { "economy": 20, "distribution": 15, "trade": 45, "power": 95, "liberty": 70, "elites": 95, "lifestyle": 80, "religion": 30, "identity": 70, "environment": 85, "foreign": 70, "change": 80 },
+      "facets": { "lifestyle.family": 70, "lifestyle.gender": 95, "lifestyle.autonomy": 75, "change.pace": 80, "change.means": 70, "change.depth": 90, "foreign.force": 45, "foreign.rules": 70, "foreign.intervention": 90 },
+      "status": "draft",
+      "raters": ["claude"]
+    }
+  ]
+}

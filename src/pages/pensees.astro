@@ -1,0 +1,29 @@
+---
+// Pensées: the shorter pieces, as notes in two columns.
+import { getCollection } from 'astro:content';
+import PageHead from '~/components/edition/PageHead.astro';
+import Plate from '~/components/edition/Plate.astro';
+import EditionLayout from '~/layouts/EditionLayout.astro';
+import { shortDate, text } from '~/lib/edition';
+
+const pensees = (
+  await getCollection('essays', ({ data }) => !data.draft && data.form === 'pensee')
+).sort((a, b) => +b.data.date - +a.data.date);
+---
+<EditionLayout title="Pensées" description="Những pensées trên The Cochinchine Pensées: ghi chép, suy tưởng và các bài viết mang hình thức tự do." noindex={false}>
+  <PageHead title="Pensées" dek="Những bài viết ngắn hơn tiểu luận." />
+  <div class="page-body wrap">
+    <ol class="notes-grid" role="list">
+      {pensees.map((entry) => (
+        <li class="note printed">
+          {entry.data.coverImage && <Plate class="note__plate" src={entry.data.coverImage} topics={entry.data.topics} sizes="136px" fallbackWidth={320} />}
+          <div class="note__text">
+            <time class="caps note__date" datetime={entry.data.date.toISOString()}>{shortDate(entry.data.date)}</time>
+            <h2 class="note__title"><a class="title-link stretched" href={`/essays/${entry.id}`} lang={entry.data.lang}>{text(entry.data.title)}</a></h2>
+            {entry.data.subtitle && <p class="note__dek">{text(entry.data.subtitle)}</p>}
+          </div>
+        </li>
+      ))}
+    </ol>
+  </div>
+</EditionLayout>

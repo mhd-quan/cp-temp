@@ -1,0 +1,244 @@
+{
+  "parties": [
+    {
+      "id": "fai",
+      "name": "Liên đoàn Vô chính phủ Iberia",
+      "abbr": "FAI",
+      "country": "Tây Ban Nha",
+      "period": "1927–nay",
+      "variants": [
+        "anarcho-communism",
+        "anarcho-syndicalism"
+      ],
+      "emblem": {
+        "shape": "disc",
+        "field": "#000000",
+        "ink": "#e30613",
+        "motif": "flag-banner"
+      }
+    },
+    {
+      "id": "cnt",
+      "name": "Liên đoàn Lao động Quốc gia",
+      "abbr": "CNT",
+      "country": "Tây Ban Nha",
+      "period": "1910–nay",
+      "variants": [
+        "anarcho-syndicalism"
+      ],
+      "emblem": {
+        "shape": "disc",
+        "field": "#000000",
+        "ink": "#e30613",
+        "motif": "gear",
+        "ring": "#e30613"
+      }
+    },
+    {
+      "id": "iww",
+      "name": "Công nhân Công nghiệp Thế giới",
+      "abbr": "IWW",
+      "country": "Hoa Kỳ",
+      "period": "1905–nay",
+      "variants": [
+        "anarcho-syndicalism"
+      ],
+      "emblem": {
+        "shape": "disc",
+        "field": "#000000",
+        "ink": "#ffffff",
+        "motif": "globe-hemisphere-west",
+        "ring": "#e30613"
+      }
+    },
+    {
+      "id": "catholic-worker",
+      "name": "Phong trào Công nhân Công giáo",
+      "country": "Hoa Kỳ",
+      "period": "1933–nay",
+      "variants": [
+        "christian-anarchism"
+      ],
+      "emblem": {
+        "shape": "disc",
+        "field": "#ffffff",
+        "ink": "#000000",
+        "motif": "cross",
+        "ring": "#000000"
+      }
+    },
+    {
+      "id": "pyd",
+      "name": "Đảng Liên minh Dân chủ",
+      "abbr": "PYD",
+      "country": "Syria",
+      "period": "2003–nay",
+      "variants": [
+        "democratic-confederalism"
+      ],
+      "emblem": {
+        "shape": "disc",
+        "field": "#ffd500",
+        "ink": "#e30a17",
+        "motif": "star",
+        "ring": "#009a44"
+      }
+    }
+  ],
+  "states": [
+    {
+      "id": "free-territory-1918-1921",
+      "name": "Lãnh thổ Tự do (Ukraina)",
+      "period": "1918–1921",
+      "note": "Vùng do quân khởi nghĩa của Nestor Makhno kiểm soát",
+      "variants": [
+        "anarcho-communism"
+      ],
+      "flag": "black-flag"
+    },
+    {
+      "id": "catalonia-1936-1939",
+      "name": "Catalonia cách mạng",
+      "period": "1936–1939",
+      "note": "CNT–FAI tập thể hoá xí nghiệp và ruộng đất",
+      "variants": [
+        "anarcho-syndicalism",
+        "anarcho-communism"
+      ],
+      "flag": "cnt-fai"
+    }
+  ],
+  "figures": [
+    {
+      "id": "peter-kropotkin",
+      "name": "Pyotr Kropotkin",
+      "life": "1842–1921",
+      "role": "Nhà địa lý, lý luận cộng sản vô chính phủ",
+      "variant": "anarcho-communism",
+      "wiki": "Peter Kropotkin"
+    },
+    {
+      "id": "errico-malatesta",
+      "name": "Errico Malatesta",
+      "life": "1853–1932",
+      "role": "Nhà cách mạng vô chính phủ Ý",
+      "variant": "anarcho-communism",
+      "wiki": "Errico Malatesta"
+    },
+    {
+      "id": "emma-goldman",
+      "name": "Emma Goldman",
+      "life": "1869–1940",
+      "role": "Nhà hoạt động vô chính phủ, nữ quyền",
+      "variant": "anarcho-communism",
+      "wiki": "Emma Goldman"
+    },
+    {
+      "id": "rudolf-rocker",
+      "name": "Rudolf Rocker",
+      "life": "1873–1958",
+      "role": "Nhà lý luận công đoàn vô chính phủ",
+      "variant": "anarcho-syndicalism",
+      "wiki": "Rudolf Rocker"
+    },
+    {
+      "id": "buenaventura-durruti",
+      "name": "Buenaventura Durruti",
+      "life": "1896–1936",
+      "role": "Chỉ huy dân quân vô chính phủ Tây Ban Nha",
+      "variant": "anarcho-syndicalism",
+      "wiki": "Buenaventura Durruti"
+    },
+    {
+      "id": "noam-chomsky",
+      "name": "Noam Chomsky",
+      "life": "s. 1928",
+      "role": "Nhà ngôn ngữ học, nhà phê bình chính trị Mỹ",
+      "variant": "anarcho-syndicalism",
+      "wiki": "Noam Chomsky"
+    },
+    {
+      "id": "pierre-joseph-proudhon",
+      "name": "Pierre-Joseph Proudhon",
+      "life": "1809–1865",
+      "role": "Người đầu tiên tự nhận là vô chính phủ",
+      "variant": "mutualism",
+      "wiki": "Pierre-Joseph Proudhon"
+    },
+    {
+      "id": "william-batchelder-greene",
+      "name": "William Batchelder Greene",
+      "life": "1819–1878",
+      "role": "Nhà lý luận ngân hàng tương hỗ Mỹ",
+      "variant": "mutualism",
+      "wiki": "William Batchelder Greene"
+    },
+    {
+      "id": "max-stirner",
+      "name": "Max Stirner",
+      "life": "1806–1856",
+      "role": "Triết gia Đức phái Hegel trẻ",
+      "variant": "individualist-anarchism",
+      "wiki": "Max Stirner"
+    },
+    {
+      "id": "henry-david-thoreau",
+      "name": "Henry David Thoreau",
+      "life": "1817–1862",
+      "role": "Nhà văn Mỹ, tác giả Bất tuân dân sự",
+      "variant": "individualist-anarchism",
+      "axes": {
+        "environment": 80
+      },
+      "wiki": "Henry David Thoreau"
+    },
+    {
+      "id": "john-zerzan",
+      "name": "John Zerzan",
+      "life": "s. 1943",
+      "role": "Nhà tư tưởng vô chính phủ nguyên thuỷ",
+      "variant": "green-anarchism",
+      "wiki": "John Zerzan"
+    },
+    {
+      "id": "derrick-jensen",
+      "name": "Derrick Jensen",
+      "life": "s. 1960",
+      "role": "Nhà văn, nhà hoạt động sinh thái Mỹ",
+      "variant": "green-anarchism",
+      "wiki": "Derrick Jensen"
+    },
+    {
+      "id": "leo-tolstoy",
+      "name": "Lev Tolstoy",
+      "life": "1828–1910",
+      "role": "Nhà văn Nga, tác giả Chiến tranh và hoà bình",
+      "variant": "christian-anarchism",
+      "wiki": "Leo Tolstoy"
+    },
+    {
+      "id": "dorothy-day",
+      "name": "Dorothy Day",
+      "life": "1897–1980",
+      "role": "Đồng sáng lập phong trào Công nhân Công giáo",
+      "variant": "christian-anarchism",
+      "wiki": "Dorothy Day"
+    },
+    {
+      "id": "murray-bookchin",
+      "name": "Murray Bookchin",
+      "life": "1921–2006",
+      "role": "Nhà lý luận sinh thái xã hội Mỹ",
+      "variant": "democratic-confederalism",
+      "wiki": "Murray Bookchin"
+    },
+    {
+      "id": "abdullah-ocalan",
+      "name": "Abdullah Öcalan",
+      "life": "s. 1949",
+      "role": "Người sáng lập Đảng Công nhân Kurdistan (PKK)",
+      "variant": "democratic-confederalism",
+      "wiki": "Abdullah Öcalan"
+    }
+  ]
+}

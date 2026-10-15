@@ -1,0 +1,11 @@
+---
+// /essays: page 1 of the essay index. Pages 2+ come from [page].astro.
+import { getCollection } from 'astro:content';
+import EssayIndex from '~/components/edition/EssayIndex.astro';
+import { PER_PAGE } from '~/lib/pagination';
+
+const sorted = (await getCollection('essays', ({ data }) => !data.draft)).sort(
+  (a, b) => +b.data.date - +a.data.date,
+);
+---
+<EssayIndex entries={sorted.slice(0, PER_PAGE)} current={1} last={Math.max(1, Math.ceil(sorted.length / PER_PAGE))} total={sorted.length} />

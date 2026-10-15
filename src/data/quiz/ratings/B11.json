@@ -1,0 +1,302 @@
+{
+  "rater": "B",
+  "block": "B11",
+  "items": {
+    "lifestyle.autonomy.6": {
+      "0": "GM GC NOA SC UT OR LI RE SR SL NDL PC RC THW NM EU MDS LT GS US ETS RS LS EM CIN LN LZ SN ID EB AD SDD NR TR ELP",
+      "1": "DI NLS TP NA UJ BA SU GU HES NC CST SMCD PE TE BC ARC ONC AMC CR TH NE PA LC GAU BIC RET MC EC PM BK MO ME NS DIR DS CM LEG CN EN IR PN KE REZ BN HI IM RZ CLR JA NP WC PSD FA BL COR RT NEOR GAN AL COL TI GOC CH PER AP",
+      "2": "ML ST MA JU HO ACK LE MR AUC CAE PG HS NAZ IF JM VEF WA IB PP CI NATC CT KS NAC XC AM EA",
+      "3": "",
+      "-1": "TW DC LU CC PR POC ES DE DEG CF NEO GE JR TAR",
+      "-2": "AC AS MU GA CA CL LF MI OB PAL LL",
+      "-3": "IA ANC",
+      "split": "NM UT SL AMC GAN EB CA LT DC PSD",
+      "why": "Compulsory rehabilitation divides state-paternalist, moralist and order regimes (Vietnamese-style cai nghiện bắt buộc, Singapore, Sweden's LVM law) from anarchists and libertarians who hold self-ownership or voluntary association sacred.",
+      "notes": {
+        "IA": "Stirner/Tucker give each person absolute sovereignty over their own body; coerced treatment is aggression: -3.",
+        "ANC": "Rothbard's self-ownership axiom makes any compulsory confinement for drug use a crime by the state: -3.",
+        "ML": "Marxist-Leninist states (USSR, Cuba, Vietnam, China) run compulsory rehab and labour-therapy centres as standard policy: 2.",
+        "NM": "Sweden's LVM law allows compulsory care for severe substance abusers, yet Nordic drug policy is also harm-reduction minded: 0, split.",
+        "POC": "Dutch tolerance and harm reduction cut against coercion, though Dutch law has compulsory ISD measures: -1.",
+        "VEF": "Intoxicants are haram and the Iranian state runs compulsory rehab camps under the Anti-Narcotics law: 2.",
+        "GAN": "Gandhi demanded prohibition and moral cure but through voluntary nonviolent persuasion: 1, split."
+      }
+    },
+    "environment.growth.5": {
+      "0": "IA NOA TE CR NAC LC GAU BIC NDL LI RE COL GE TI LS CM CIN EN LN IR PN LZ REZ SN IM NP WC PP THW HS",
+      "1": "AS MU NLS TP PC RC POC NC HES EU LU CC ACK BC ARC ONC PA EC CH PER AP LL RS SR OR CF LEG CN VEF ID CT BN WA IB RZ AD JA SDD JR PSD COR SU NATC",
+      "2": "AC CA DC UJ PE SMCD CST DI PG SC UT GU GC RET MDS LT GS US ETS MC TW BK GM ELP SL PR CLR NR NM FA BL CI RT",
+      "3": "GA GAN ES DE DEG EB",
+      "-1": "NA BA CAE MR ML TR JU HO MA AMC NE MO XC PM MI ANC PAL GOC AM EA KE HI IF NAZ EM CL TAR NEOR",
+      "-2": "ST AUC LE KS NS DIR JM NEO AL LF OB TH",
+      "-3": "ME DS",
+      "split": "ML MA EM TE LL SL UT NM CH PER NAC HI",
+      "why": "Whether GDP growth is the yardstick of national success: post-growth, green, spiritual and humanist camps say no; mercantilist, developmental, productivist and market-liberal camps treat growth as the core measure.",
+      "notes": {
+        "DEG": "Degrowth (Latouche, Kallis, Hickel) is built on rejecting GDP as the goal: 3.",
+        "BK": "Bhutan's Gross National Happiness, rooted in Buddhist kingship, replaced GDP as the national measure: 2.",
+        "DS": "Park Chung-hee/Meiji-style developmental states define legitimacy by growth rates and export targets: -3.",
+        "ME": "Mercantilism measures national strength by accumulated bullion and trade surplus (Colbert, Mun): -3.",
+        "ST": "Stalin's five-year plans made industrial output the supreme yardstick: -2.",
+        "UT": "Utilitarians judge by aggregate welfare, which GDP only proxies (Bentham/Sen-style critique): 2.",
+        "EM": "Ecomodernists (Breakthrough Institute) keep growth with decoupling but do not insist on GDP as the measure: -1, split.",
+        "MC": "Mencius opens with 'Why must Your Majesty speak of profit? There is only benevolence and righteousness': 2."
+      }
+    },
+    "lifestyle.autonomy.7": {
+      "0": "AC MU GA RC UT GE NEOR NOA",
+      "1": "CL NEO PAL",
+      "2": "OB LF MI LL",
+      "3": "IA ANC",
+      "-1": "AS LU EU MDS PR SL NDL THW NM POC PC TE GM ES DEG EM TW ELP RS LS CIN LN LZ REZ SN AD SDD JR NR TAR PSD FA LI CF RE",
+      "-2": "CA DC TR CC GU NLS TP NA UJ BA SU CAE MR PE PG SC HS HES BC ARC ONC AMC TH NE PA NAC GC LC GAU BIC RET LT GS US ETS MC EC PM MO XC KS ME NS DIR DS JM CH PER AP DI TI GOC AM EA CM LEG CN EN IR PN KE ID HI IM RZ CLR JA NP WC BL COL OR AL SR SMCD NC DE",
+      "-3": "AUC ML ST MA JU HO ACK CST CI NATC CR GAN LE BK IF NAZ VEF WA IB CT BN EB PP COR RT",
+      "split": "AC MU GA UT GE NEOR PAL OB TW NM POC SDD PR",
+      "why": "Full legalisation of all drugs with regulated sale: only consistent libertarians and self-ownership anarchists say yes, while religious, communist, nationalist and conservative traditions oppose it and the moderate left accepts only decriminalisation or cannabis.",
+      "notes": {
+        "ANC": "Rothbard and Friedman-style absolute self-ownership: all drugs legal, trade free (Ethics of Liberty): 3.",
+        "IA": "Tucker/Stirner reject any claim of state or society on the individual's body: 3.",
+        "OB": "Peikoff and the Ayn Rand Institute back full legalisation as a rights matter, though Rand despised drug use: 2.",
+        "AUC": "Singapore's mandatory death penalty for trafficking is the model of this camp: -3.",
+        "GAN": "Gandhi made prohibition of liquor and drugs a plank of Congress constructive programme: -3.",
+        "BK": "The fifth precept forbids intoxicants and Thai/Bhutanese kings enforce harsh drug law: -3.",
+        "NM": "Portugal-style decriminalisation and Swiss heroin prescription are accepted but not legal sale of everything: -1, split.",
+        "ML": "The Chinese, Vietnamese and Cuban models criminalise drugs harshly; Mao's anti-opium campaign is celebrated: -3."
+      }
+    },
+    "identity.culture.4": {
+      "0": "TP NOA CAE CST HS GC DS DE DEG ELP AL LZ ID IM AD SDD JR KE MO",
+      "1": "GM CA AUC PE TE SMCD TR EU LU CC TH NE AMC LC LT GS US ETS TW ES OR SR TI LS GOC CIN EB NR TAR PSD FA NEO GE THW NDL PR",
+      "2": "AC AS MU DC PC RC POC SC UT EM MDS SL RS CL LF MI OB ANC LL CF LI RE NM",
+      "3": "IA",
+      "-1": "GA NLS NA GAN UJ BA MR DI NC HES ML GU BC ARC ONC CR RET BIC MC EC LE PM XC KS ME NS DIR BK CH PER AP COL PAL EA CM LN PN REZ CLR JA PP BL NEOR",
+      "-2": "SU PG ST MA HO PA NAC GAU NATC JM AM LEG IR SN CT BN HI WA IB RZ NP WC CI",
+      "-3": "JU ACK IF NAZ CN EN VEF COR RT",
+      "split": "CST GAN KE LN TH AUC PA NC DS MO",
+      "why": "Whether youth enthusiasm for foreign pop culture is harmless: cosmopolitan, liberal and individualist camps shrug, while cultural nationalists, fascists, theocrats and closed Marxist regimes see cultural erosion or contamination.",
+      "notes": {
+        "JU": "North Korea's 2020 Reactionary Ideology law punishes consuming South Korean media; Juche treats foreign culture as imperialist poison: -3.",
+        "CN": "Cultural nationalism exists to defend a distinctive national culture against dilution (Herder, Sun Yat-sen's cultural turn): -3.",
+        "ST": "Zhdanovshchina and the 1948-53 anti-cosmopolitan campaign attacked 'kowtowing to the West': -2.",
+        "GAU": "France's exception culturelle and Toubon law protect French culture from American dominance: -2.",
+        "SU": "Sukarno banned 'ngak-ngik-ngok' Western rock music in 1959-65 as decadent: -2.",
+        "IA": "Individual choice of cultural consumption is the sovereign individual's own business (Stirner, Tucker): 3.",
+        "KE": "Kemalists embraced Western culture and fashion but also built a Turkish-language national culture: 0, split.",
+        "NE": "Neocons exported American culture as soft power and cheered its appeal abroad: 1."
+      }
+    },
+    "environment.nature.6": {
+      "0": "AC AS CA NLS TP NA GAN UJ NOA BA SU CAE MR PG SC HS HES MA JU HO GU BC ARC BIC EC TW BK MO NS NATC CH PER AP AM LEG CN EN IR PN KE REZ SN VEF CT BN HI WA IB RZ AD JA JR CI RT",
+      "1": "MU DC AUC PE CST DI NC ML TR EU LU CC ONC TH LC GAU RET MDS LT GS US ETS MC LE PM XC KS DIR DS ES DE DEG ELP CL NDL LI AL RE COL TI LS GOC EA CM CIN LN LZ ID IM EB CLR PSD BL",
+      "2": "PC RC POC TE SMCD UT GC EM SL NEO PR CF SR LL RS SDD NR NM THW FA",
+      "3": "GM OR GE",
+      "-1": "GA ST ACK NE PA NAC ME IF NAZ JM WC PP COR NEOR",
+      "-2": "IA AMC CR LF MI OB PAL NP",
+      "-3": "ANC TAR",
+      "split": "ES DE GA AC AS CST ML TH OB LL GC",
+      "why": "A Pigouvian charge on emissions: green, social-market and technocratic camps endorse polluter-pays, while anarchists, libertarians and anti-tax populists reject a new state levy, and command-economy or traditionalist camps prefer bans, plans or have no stake.",
+      "notes": {
+        "OR": "Eucken/Ordoliberal principle that externalities must be internalised through price signals and liability: 3.",
+        "GE": "Georgism charges rent for use of natural commons, including pollution sinks, as the logical extension of the land tax: 3.",
+        "GM": "Polluter-pays is the EU and OECD green mainstream principle (Rio Declaration principle 16): 3.",
+        "TAR": "Tax-revolt movements (Proposition 13, Tea Party) refuse any new levy on principle: -3.",
+        "ANC": "Rothbard treats pollution as tort/trespass to be litigated, and any tax as theft: -3.",
+        "ES": "Eco-socialists (Kovel, Saito) see carbon taxes as capital's market fix but accept charging polluters: 1, split.",
+        "AMC": "Republican and Heritage Foundation conservatism opposes carbon taxes as job-killing: -2.",
+        "LL": "Left-libertarians accept charges for use of common resources (Steiner, Vallentyne) though anarchist ones prefer liability: 2, split."
+      }
+    },
+    "religion.law.4": {
+      "0": "BC ONC PA BIC RET DI CN EN IR",
+      "1": "BN CR CST NC AM LEG ARC NAC KS JM",
+      "2": "ID IM COR RT BK",
+      "3": "VEF WA IB CT CI RZ NATC",
+      "-1": "GS ETS SMCD LT EA AMC TH GC LC PE PG HS HES GAN NOA CAE MR AUC MC EC TW MO IF DE PER AP COL GE PAL CM PN SN NP WC PP TAR BL NEOR EB HI",
+      "-2": "MDS US NLS TP NA UJ BA SU PC RC POC TE SC UT XC ME NS DIR DS NAZ GM DEG EM ELP CL NEO NDL LI OR AL SR LF MI ANC LL RS LS CIN LN AD CLR SDD JR NR NM PSD THW FA CH GAU NE PM GA REZ",
+      "-3": "AC AS MU IA CA DC ML ST MA TR JU EU LU CC HO GU ACK LE ES SL PR CF RE OB TI GOC KE JA LZ",
+      "split": "GAN CR CST BN KS ID IM NC AMC BK HI CA",
+      "why": "Whether the majority religion's law should be a main source of state law: theocratic, Islamist, integralist and throne-and-altar camps say yes, while liberals, socialists, Marxists, anarchists and laïcité traditions insist on secular law.",
+      "notes": {
+        "VEF": "Khomeini's Islamic Government makes fiqh the law of the land, and Iran's constitution requires all laws to conform to Islamic criteria: 3.",
+        "WA": "Saudi Basic Law takes the Quran and Sunnah as the constitution: 3.",
+        "RZ": "Rav Kook and religious Zionists seek halakha to shape Israeli law, e.g. Sabbath, marriage and conversion: 3.",
+        "KE": "Atatürk's abolition of the caliphate and Sharia courts (1924-26), the Swiss civil code of 1926 and laiklik: -3.",
+        "ID": "Egypt's Article 2 and Muslim Democrats treat sharia principles as the chief source of legislation within a democratic frame: 2, split.",
+        "JA": "The Jacobins' dechristianisation and the cult of the Supreme Being made secular law supreme: -3.",
+        "ML": "Marx and Lenin treat religion as superstructure and separate church from state absolutely: -3.",
+        "KS": "The Arthashastra lists dharma alongside edict, custom and treaty as sources of law: 1, split."
+      }
+    },
+    "lifestyle.autonomy.5": {
+      "0": "TP NOA CAE PG GU GC LC GS ETS LE KS DIR DS JM DE DEG OR AL PAL TI GOC EA LN KE SN AD CLR JA JR NR TAR NEOR HS GA",
+      "1": "CIN AS DC PC TE EU LU CC TR TW MDS US GM ES EM ELP NEO NDL LI SR GE RS LS LZ NM PSD THW FA",
+      "2": "ANC LF MI CL LL AC MU UT RC POC SL PR CF RE SDD",
+      "3": "IA SC OB",
+      "-1": "NLS GAN UJ BA SU MR AUC HES ML MA JU HO ACK BC ARC ONC TH NE GAU BIC PM MO XC ME NS NAZ CH AP COL CM CN EN IR PN REZ HI IM NP WC",
+      "-2": "CA NA PE SMCD DI NC ST AMC PA NAC RET LT MC EC BK IF PER AM LEG ID BN EB PP BL",
+      "-3": "CST CR NATC VEF CT WA IB RZ COR RT CI",
+      "split": "GAN JM IM HI SDD TW LZ PAL KE TH GC DEG AMC",
+      "why": "Physician-assisted dying for the terminally ill: individual-liberty, utilitarian and Stoic camps endorse a right to die, while religious traditions holding life sacred (Catholic, Islamic, Buddhist, Orthodox Jewish) and conservative-traditional camps refuse.",
+      "notes": {
+        "SC": "Seneca and Epictetus hold that a wise man may leave life when it can no longer be lived with dignity (Letters 70): 3.",
+        "IA": "Self-sovereignty over body and life is absolute for Stirner and Tucker: 3.",
+        "POC": "The Netherlands legalised euthanasia in 2002 after decades of consensual practice: 2.",
+        "CST": "Evangelium Vitae 65 calls euthanasia a grave violation of God's law; Pope Francis' Samaritanus Bonus (2020) reaffirms it: -3.",
+        "VEF": "Shia and Sunni fiqh forbid taking one's own life or helping another; Iran has no allowance: -3.",
+        "BK": "The first precept forbids taking life, including by assisting death; Thailand allows only living wills refusing treatment: -2.",
+        "SDD": "Switzerland permits assisted suicide (Art. 115 Penal Code) and voters backed it in cantonal votes (Zurich 2011): 2, split.",
+        "NAZ": "Nazi 'euthanasia' was state murder of the unfit, not voluntary choice, and the regime rejected individual rights over life: -1."
+      }
+    },
+    "lifestyle.autonomy.1": {
+      "0": "CA FA DEG EB OR SR AL NE BC ONC GC GAU NOA US ETS TI LS LZ REZ SN WC PE HS NEOR",
+      "1": "GA RC PC PSD GM ES ELP MDS EU LU CC TR SC AD SDD NR LN CIN TH AMC LC GS RS",
+      "2": "AS MU CL NEO GE SL PR NDL LI RE CF UT DC POC NM THW EM TW JR TAR",
+      "3": "IA ANC OB LL LF MI PAL AC",
+      "-1": "BL DE CLR AUC COL RET ARC PA NAC BIC MC EC PM BK KS ME NS DIR DS CH PER AP NP ML NLS TP NA GAN UJ BA SU CAE TE SMCD CST DI NC LT GOC CM CN KE ID IM",
+      "-2": "JA CR MO XC ST MA GU MR HES AM EA LEG EN IR PN BN HI RZ PP",
+      "-3": "LE IF NAZ NATC JM JU HO ACK PG CI VEF CT WA IB COR RT",
+      "split": "AMC TH CA GAN SC AD KE ID NR HS CLR",
+      "why": "Bodily self-ownership even for self-harming choices: libertarians and anarchists endorse it fully and liberals strongly, while paternalist, religious, fascist and state-first traditions subordinate the individual body to virtue, order or the nation.",
+      "notes": {
+        "IA": "Stirner and Tucker: the individual owns himself absolutely: 3.",
+        "LL": "Left-libertarian self-ownership (Steiner, Vallentyne) extends to risky self-regarding acts: 3.",
+        "CL": "Mill's harm principle (On Liberty): the individual is sovereign over his own body and mind, even against his own good: 2.",
+        "PG": "Plato's guardians regulate habits and the good life for the whole city; the Republic is explicitly paternalist: -3.",
+        "NAZ": "Hitler's state claimed the body of the Volksgenosse as national property (health as duty): -3.",
+        "JU": "Juche subordinates the individual's life to the leader and the collective; the individual has no private sphere: -3.",
+        "LE": "Han Fei sees the people as tools of the ruler whose conduct the law shapes: -3.",
+        "TW": "Zhuangzi and Laozi leave people to their own nature (wuwei) rather than regulate conduct: 2."
+      }
+    },
+    "foreign.rules.5": {
+      "0": "GE NM LU CC GU ML EM EB PC OR LS IM XC EC MC SMCD GAN CI GC BK",
+      "1": "UT SL PR NDL LI RE THW PSD MDS EU TR TE RC SR RS FA MO ES PE US ETS LT",
+      "2": "SC CST GM",
+      "3": "CF",
+      "-1": "DEG DE CL NEO POC JA LN LZ LC GS PN TW ID ELP",
+      "-2": "CA DC LL MA ST PG HS NLS TP NA UJ NOA AP AL COL TI GOC EA CM NR CLR DS DIR PM KS IB VEF CIN KE DI PP RT NEOR BC ARC ONC BIC RET",
+      "-3": "AC AS MU IA GA ANC LF MI OB PAL JU HO ACK IF NAZ NATC JM EN CN IR REZ SN NP WC TAR NAC PA AMC CR NE TH GAU COR BA SU CAE MR AUC HES NS ME LE CH PER AM LEG SDD JR AD BL NC WA CT BN HI RZ",
+      "split": "BK MC GAN CI ID EB CL NEO TE LU CST",
+      "why": "Handing global problems to one world government: cosmopolitan federalists say yes, with Stoic, Catholic-social and green-mainstream sympathy, while nationalists, anarchists, libertarians, sovereigntists and city-state or subsidiarity traditions reject any single world authority.",
+      "notes": {
+        "CF": "Kant's federation, Kelsen and world federalists (Streit, Einstein) call for binding world authority over common problems: 3.",
+        "CST": "Pacem in Terris (1963) and Caritas in Veritate (2009) call for a true world political authority with universal jurisdiction: 2.",
+        "SC": "Stoic cosmopolis: all rational beings are citizens of one world-state under common law (Zeno, Marcus Aurelius): 2.",
+        "GM": "Mainstream green politics backs binding global climate and health bodies (Paris/UNFCCC, WHO pandemic treaty), though not literal world government: 2.",
+        "HES": "Hegel treats states as sovereign individuals and rejects Kant's perpetual-peace federation (Philosophy of Right 333): -3.",
+        "NC": "Kuyper reads Babel as God's rejection of universal monarchy; sphere sovereignty forbids a single world authority: -3.",
+        "AC": "Anarchists oppose every government, and a planetary one most: -3.",
+        "TH": "Thatcher's Bruges speech (1988) opposed superstate and supranational power: -3.",
+        "BK": "The chakravartin ideal of a universal righteous monarch makes this thinkable, but Theravada kingship is local: 0, split."
+      }
+    },
+    "identity.culture.2": {
+      "0": "DC AUC PE PC POC TE CST NC LU PA GC US ETS GM DE COL SR RS LS CM CIN ID IM EB AD SDD NR THW",
+      "1": "TP GAN NOA CAE MR SMCD HS EU GU ACK BC ARC ONC BIC MDS LT GS MC EC PM BK XC KS ME ES DEG ELP AP TI GOC AM EA LEG LN PN LZ REZ CT WA IB RZ CLR WC PP NM PSD FA BL COR CI RT",
+      "2": "NLS NA UJ BA SU DI PG HES ML ST MA HO NAC RET LE NS IF NAZ NATC JM PER CN EN IR KE SN VEF BN HI JA NP",
+      "3": "JU DIR GAU DS CH",
+      "-1": "AS GA CA RC SC UT CC CR LC MO EM SL NDL LI OR CF AL RE GE NEOR TR PR",
+      "-2": "AC MU AMC TH NE TW CL NEO MI PAL LL JR TAR",
+      "-3": "IA LF OB ANC",
+      "split": "AUC PA NM PR LN TH SDD DC EU NLS NA",
+      "why": "Mandatory domestic-content quotas on broadcasting: dirigiste, developmental, nationalist and statist camps back them as cultural protection (France's exception culturelle, Korea's screen quota, Chavez's Ley Resorte), while liberals, libertarians and anarchists reject state programming mandates.",
+      "notes": {
+        "GAU": "De Gaulle and Malraux launched the French cultural exception, and quotas of 40% French songs on radio are doctrine: 3.",
+        "DS": "South Korea's screen quota (1966-2006) reserved cinema days for domestic films, a signature developmental tool: 3.",
+        "CH": "Venezuela's Ley Resorte (2004) set quotas for national producers and music on TV and radio: 3.",
+        "JU": "North Korean broadcasting is exclusively national and ideological by design: 3.",
+        "ANC": "Rothbard: forcing broadcasters to air content is state coercion over property: -3.",
+        "NM": "Nordic states fund national content and Denmark/Norway have quota-like public service duties, though many prefer subsidies: 1, split.",
+        "TH": "Thatcher deregulated broadcasting (1990 Broadcasting Act) and liked American culture, though kept some UK quotas: -2, split.",
+        "MO": "Mozi condemned music and elaborate culture as wasteful; he would not mandate it: -1."
+      }
+    },
+    "identity.nation.4": {
+      "0": "PE RC TE CST GAN GS MC EC BK DEG EM ELP SL PR SR OB RS LS PSD THW VEF CI GM",
+      "1": "UT MA HO MDS LT ETS TW DE CL NEO FA WA IB RE",
+      "2": "MU IA GA ML TR EU GU US MO ES CF LF ANC GE LL EB",
+      "3": "AC AS CA DC SC LU CC",
+      "-1": "TP UJ PC POC SMCD ST PM XC NDL LI OR AL MI TI GOC ID CT IM JA TAR NM NR GC",
+      "-2": "NLS NA NOA BA SU AUC DI NC PG HS BC ARC ONC AMC CR NE LC DIR DS CH AP COL PAL CIN LN LZ PN CLR JR RT NEOR",
+      "-3": "CAE MR HES JU ACK TH PA NAC GAU BIC RET LE KS ME NS IF NAZ NATC JM PER AM EA CM LEG CN EN IR KE REZ SN BN HI RZ AD SDD NP WC PP BL COR",
+      "split": "CST GAN VEF IB WA RE ML OB CL GC ES MI",
+      "why": "An end to national borders as a long-run human goal: anarchists, council and Luxemburgist communists, Stoics and cosmopolitan federalists say yes, while every nationalist, conservative, fascist, religious-national and sovereigntist camp defends the nation as natural or necessary.",
+      "notes": {
+        "AC": "Kropotkin and Goldman treat the state and its borders as organised domination; free federation across the globe is the aim: 3.",
+        "SC": "Zeno, Epictetus and Marcus Aurelius: the cosmos is one city and each person its citizen: 3.",
+        "LU": "Luxemburg's internationalism ('workers have no fatherland') rejects national self-determination as bourgeois: 3.",
+        "DC": "Öcalan's democratic nation goes beyond the nation-state and its borders in favour of a confederation of peoples: 3.",
+        "ML": "Marx and Lenin hold that states and nations wither in the communist end state, though socialist states keep borders meanwhile: 2, split.",
+        "HES": "Hegel makes the nation-state the actuality of the ethical Idea and rejects world federation: -3.",
+        "CN": "Cultural nationalism rests on distinct national cultures, so a borderless world would dissolve its object: -3.",
+        "ANC": "Rothbardian private-property law is compatible with free movement and no national state: 2.",
+        "VEF": "Khomeini condemned nationalism as divisive in the ummah, yet his ideal is an Islamic bloc, not a borderless world: 0, split."
+      }
+    },
+    "foreign.rules.3": {
+      "0": "ML TP GAN NOA ES PG LC GS MC EC BK XC ELP COL GE LS HI AS NM",
+      "1": "NLS FA NEO PR NDL LI UT EM DC EU LU MU DIR GC LT US ETS MO JM AL SR RS TI VEF ID WA IM EB NR CI CL",
+      "2": "UJ THW PSD OR SL RE PC RC POC GM MDS TR GU PE SC NS CH PER IB CST",
+      "3": "CF PN BA SMCD TE NA",
+      "-1": "DI DEG CC SU CAE AUC MA AC CA BC ARC ONC CR NE BIC TW PM DS NAZ AP LF LL GOC EA CM CIN LN KE LZ CT BN CLR JR BL RT NEOR",
+      "-2": "NC MR ST HS HES AMC PA GAU RET LE KS ME IF NATC LEG CN IR REZ SN RZ JA PP COR IA MI OB DE GA",
+      "-3": "JU HO ACK TH NAC ANC PAL AM EN AD SDD NP WC TAR",
+      "split": "ES DC NM NOA GAN HI LL IB VEF CL TI PE DIR",
+      "why": "Deep regional integration on the EU model: Christian democrats, technocrats, pan-nationalists, cosmopolitan federalists and Third Way centrists favour it, while sovereigntists, nationalists, libertarians, anarchists and localist greens oppose a supranational bloc.",
+      "notes": {
+        "SMCD": "Schuman, Adenauer and De Gasperi founded the European Community as a Christian-democratic project: 3.",
+        "TE": "Monnet's functionalism: expert supranational bodies (High Authority, Commission) are the model of technocratic rule: 3.",
+        "BA": "Baathism's slogan 'one Arab nation with an eternal mission' demands Arab union (Aflaq): 3.",
+        "PN": "Pan-nationalism is by definition union of related peoples across borders (pan-Slavism, pan-Arabism, pan-Africanism): 3.",
+        "TR": "Trotsky's slogan 'United Socialist States of Europe' (1923) made continental union a goal: 2.",
+        "TH": "Bruges Speech (1988): 'We have not successfully rolled back the frontiers of the state in Britain only to see them reimposed at a European level': -3.",
+        "GAU": "De Gaulle's 'Europe of fatherlands' and Fouchet Plan favoured confederal cooperation, vetoing supranationalism: -2.",
+        "GU": "Guevara and Bolivar-inspired Latin American unity ('Patria Grande') is a core goal: 2."
+      }
+    },
+    "identity.culture.6": {
+      "0": "GAN NOA PE PC RC POC TE CST UT EU MDS LT GS US ETS LE ME DIR GM DE DEG EM ELP SL PR NDL LI OR AL GE PAL RS LS VEF ID CT IM EB NM PSD THW FA GC",
+      "1": "NA AUC SMCD DI HS ML ST MA GU ACK AMC CR TH NE LC PM KS NS DS AP COL SR TI GOC CIN LZ AD SDD JR NR WC PP CI NEOR",
+      "2": "NLS TP UJ BA SU CAE MR PG HES BC ARC ONC PA GAU BIC RET HO CH PER AM EA CM LEG LN IR PN KE REZ SN BN HI RZ CLR JA NP BL COR RT BK",
+      "3": "JU NAC MC EC XC IF NAZ NATC JM CN EN",
+      "-1": "GA DC NC SC TR LU CC TW MU ES CL NEO RE MI IB TAR",
+      "-2": "AC AS LL OB LF MO WA CF",
+      "-3": "IA ANC CA",
+      "split": "VEF GAN HI BN LE HS PE DC NC CL IB TAR BK",
+      "why": "Solemn state ceremonies for national origin myths: nationalist, Confucian, fascist and conservative camps treat civic ritual as the glue of the nation, while anarchists, libertarians and internationalists see state-staged patriotism as coercive or hollow.",
+      "notes": {
+        "XC": "Xunzi's Li Lun makes ritual, including honouring ancestors and origins, the foundation of social order: 3.",
+        "MC": "Confucian and Mencian ritual honours ancestral origins ('prudent in funerals, remembering the distant'); Giỗ Tổ is the model: 3.",
+        "JU": "Juche State rituals revere Tangun and Kim Il Sung's Day of the Sun as national origin: 3.",
+        "BC": "Burke defended solemn ceremony, pageantry and prescriptive attachment to inherited institutions (Reflections): 2.",
+        "CA": "Tolstoy and Ellul condemn patriotism and state religious ritual as idolatry: -3.",
+        "WA": "Wahhabi doctrine condemns commemorations and festivals beyond the two Eids as bid'a; Saudi Arabia only recently allowed a Founding Day: -2.",
+        "MO": "Mozi's 'Against Ritual' and 'Frugality in Funerals' attack elaborate state ceremony as waste: -2.",
+        "IA": "Stirner calls the nation a spook and mocks patriotic ritual; no tax-funded ceremony is owed: -3."
+      }
+    },
+    "environment.nature.3": {
+      "0": "AS MU GE SL NDL LI GU EU LU CC GS US BC ARC ONC TH LC GAU BIC RET NLS TP UJ NOA PE PC RC POC SMCD DI NAZ NATC ELP SR OR CF RS AM EA CM LEG CN CIN LN PN LZ SN ID CT IM RZ SDD JR NR PSD THW FA BL CI EC",
+      "1": "AC CA BK UT LL NC HI MC PR MDS LT ETS GC EM BN NM RT",
+      "2": "EB GAN TW ES GM DEG DC CST",
+      "3": "DE GA",
+      "-1": "IA LF MI CL ML TR JU HO ACK AMC CR NE PA NAC CAE MR AUC NA BA SU TE PG HS DIR IF JM CH PER AP NEO AL COL TI LS GOC EN IR KE REZ VEF WA IB AD CLR JA NP WC PP TAR COR NEOR MO KS PM XC RE",
+      "-2": "ANC PAL ST MA SC HES ME NS DS LE",
+      "-3": "OB",
+      "split": "CR TH BC GC NC EM ID UT LL RE NAZ",
+      "why": "Intrinsic rights of wild species: deep ecology, green anarchism, ahimsa and Daoist traditions affirm them, while rights-bearing is reserved to humans or rational beings in Objectivism, Marxism-Leninism's transformation of nature, Stoic-Aristotelian hierarchies and developmental or mercantile states.",
+      "notes": {
+        "DE": "Naess's biospheric egalitarianism: all living things have equal intrinsic right to live and flourish: 3.",
+        "GAN": "Gandhi's ahimsa extends nonviolence to all living beings: 2.",
+        "TW": "Zhuangzi's equality of things (qiwu) denies that creatures exist for human use: 2.",
+        "CST": "Laudato Si' 33 and 69: every creature has its own value and purpose in God's eyes, independent of its usefulness: 2.",
+        "OB": "Rand: rights belong only to rational beings; animals have none and nature has no intrinsic value (Virtue of Selfishness): -3.",
+        "SC": "Chrysippus and Cicero: animals exist for the sake of humans, with whom they share no justice: -2.",
+        "MA": "Mao's Four Pests campaign and 'man must conquer nature' made wildlife subject to human utility: -2.",
+        "ML": "Engels and Soviet practice (Michurin: 'we cannot wait for favours from nature') treat nature as material to transform: -1.",
+        "CR": "Genesis 1:28 dominion theology is split between stewardship (Evangelical Environmental Network) and use: -1, split."
+      }
+    }
+  }
+}

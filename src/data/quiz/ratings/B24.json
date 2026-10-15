@@ -1,0 +1,28 @@
+{
+  "rater": "B",
+  "block": "B24",
+  "items": {
+    "violence.10": {
+      "0": "MU GA UJ NOA CAE MR AUC COA SUL PC RC POC TE PG SC UT TR EU LU CC HO BC ARC ONC TH NE GC LC BIC RET MDS GS US MC EC PM XC ME NS DIR DS IS LIF SF GM ES DEG EM ELP AP SL NEO PR LI OR CF AL COL LF GE LL RS LS GOC AM EA CM KE NR HF WC PP TAR NM PSD THW FA TRA CRA PIP RT NEOR",
+      "1": "AC AS IA DC MI OB ANC PAL CL NDL RE AMC CR PA NAC GAU CN CIN EN LN IR PN SN NA SU NLS TP BA CH PER LEG NP BL EUR NC CT AD CLR JA SDD JR HS HES CO KS MO ML ST MA JU TI NAZ NAS NATC LZ REZ LT BN",
+      "2": "IB WA ID IM HI LE JM IF SR COR GU",
+      "3": "VEF RZ",
+      "-1": "SMCD DI ETS PE STC TW RF ACK DE",
+      "-2": "CST CI BK",
+      "-3": "GAN CA EB",
+      "split": "COR NATC LT BN CI CR",
+      "why": "Divides pacifist and canon-law traditions, where clergy and monks bear no arms, from doctrines of defensive jihad, milchemet mitzvah or total mobilisation, where every believer fights; most secular schools see no stake in clergy status and simply accept it.",
+      "notes": {
+        "VEF": "Defensive jihad is an individual duty (fard ayn) and Iranian clergy fought in the Iran-Iraq war: 3.",
+        "RZ": "Mishnah Sotah 8:7 on the obligatory war (milchemet mitzvah): even the bridegroom leaves his chamber; hesder yeshiva soldiers: 3.",
+        "GAN": "Satyagraha excludes arms even against invasion; no one, least of all a holy person, should bear them: -3.",
+        "CA": "Tolstoy and Ballou read the Sermon on the Mount as forbidding all killing, including in defence: -3.",
+        "EB": "Thich Nhat Hanh and Thich Quang Duc answered war with nonviolence; the Vinaya forbids monks to kill: -3.",
+        "CST": "Aquinas (ST II-II q.40 a.2) and Canon 285 par.3 bar clerics from bearing arms, though defence by laity is just: -2.",
+        "SR": "French Radicals, via the 1889 law, made seminarians do military service (cures sac au dos); no clerical exemption: 2.",
+        "COR": "Vendee and Carlist priests took up muskets for throne and altar: 2.",
+        "BK": "Vinaya forbids monks to kill or join armies though the king defends the realm: -2."
+      }
+    }
+  }
+}

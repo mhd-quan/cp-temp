@@ -1,0 +1,1155 @@
+{
+  "rater": "B",
+  "block": "B18",
+  "items": {
+    "economy.steering.1": {
+      "0": "CO RF PIP",
+      "1": "COA SUL SF TRA",
+      "2": "STC NAS EUR",
+      "3": "IS HF",
+      "-1": "LIF",
+      "-2": "CRA",
+      "split": "SF",
+      "why": "Industrial policy and picking winners: the developmentalist and protectionist camps endorse it, liberals and anarchists distrust it, and feminist and communitarian camps have no stake.",
+      "notes": {
+        "IS": "CEPAL programme rests on state credit and protection for chosen industries: 3.",
+        "HF": "Hamilton's Report on Manufactures (1791) proposes bounties and protection for selected manufactures: 3.",
+        "CRA": "Anarchist doctrine rejects state allocation of capital: -2.",
+        "TRA": "Technoprogressives favour public funding of frontier science and AI: 1."
+      }
+    },
+    "liberty.justice.5": {
+      "0": "IS",
+      "1": "COA EUR",
+      "2": "SUL STC NAS",
+      "-1": "CO SF RF TRA",
+      "-2": "LIF HF CRA PIP",
+      "split": "RF",
+      "why": "Presumption of innocence versus security: authoritarian security states accept false arrests, rights-based camps reject them, and economic nationalists have no stake.",
+      "notes": {
+        "HF": "John Adams defended the British soldiers after the Boston Massacre, and Federalists prized due process: -2.",
+        "SUL": "Rule by secret police and terror makes preventive arrest the regime's method: 2.",
+        "LIF": "Mill and the rule-of-law tradition put the burden of proof on the state: -2.",
+        "RF": "Strongly pro-prosecution on sexual violence yet critical of the carceral state, so split: -1."
+      }
+    },
+    "leader.5": {
+      "1": "COA",
+      "2": "NAS EUR",
+      "3": "SUL",
+      "-1": "STC IS HF",
+      "-2": "CO LIF SF RF TRA CRA PIP",
+      "why": "Whether a charismatic leader outranks institutions: personalist and caudillo camps say yes, institutional and democratic camps say no.",
+      "notes": {
+        "SUL": "The state is the ruler's personal property, so the person outranks every institution: 3.",
+        "NAS": "The Falange cult of the Jefe and the Caudillo principle: 2.",
+        "STC": "Salazar was a dry institution-builder who disliked mass charisma, unlike the fascists: -1.",
+        "PIP": "Leaderless, horizontal organisation and liquid democracy are core to Pirate practice: -2."
+      }
+    },
+    "liberty.privacy.2": {
+      "0": "CO IS HF TRA",
+      "1": "STC NAS EUR",
+      "2": "COA SUL",
+      "-1": "SF RF",
+      "-2": "LIF",
+      "-3": "CRA PIP",
+      "split": "TRA",
+      "why": "Mass surveillance for security: strongman regimes embrace it, privacy-centred tech camps reject it absolutely.",
+      "notes": {
+        "CRA": "May's Crypto Anarchist Manifesto exists to make surveillance impossible: -3.",
+        "PIP": "Defending privacy against surveillance is a founding plank of Pirate parties: -3.",
+        "TRA": "Bostrom's Vulnerable World Hypothesis endorses pervasive surveillance while Hughes defends civil liberties, so split: 0.",
+        "CO": "Etzioni's The Limits of Privacy balances privacy against common good and accepts some surveillance: 0."
+      }
+    },
+    "violence.6": {
+      "0": "COA CO IS SF HF",
+      "1": "STC",
+      "2": "EUR",
+      "3": "NAS",
+      "-1": "SUL LIF RF PIP",
+      "-2": "TRA CRA",
+      "why": "The cult of heroic self-sacrifice: fascist and warrior-ethos camps exalt it, individualist and life-extension camps do not.",
+      "notes": {
+        "NAS": "Primo de Rivera's 'life is a militia' and the cult of the fallen: 3.",
+        "EUR": "Gumilyov's passionarity and Dugin's warrior ethos prize sacrifice for the nation: 2.",
+        "TRA": "Defeating death is the transhumanist project (Bostrom's Dragon-Tyrant fable): -2.",
+        "SUL": "A self-serving kleptocracy has no cause worth dying for: -1."
+      }
+    },
+    "trade.capital.4": {
+      "0": "CO LIF RF PIP",
+      "1": "COA SUL TRA CRA",
+      "2": "HF",
+      "-1": "STC SF",
+      "-2": "IS NAS EUR",
+      "split": "IS",
+      "why": "Whether foreign capital is the best road to development: Hamilton and rent-seeking regimes welcome it, dependency and nationalist camps distrust it.",
+      "notes": {
+        "HF": "Hamilton called foreign capital a valuable auxiliary to American industry (Report on Manufactures): 2.",
+        "IS": "Prebisch's centre-periphery thesis sees dependence on foreign capital as the problem, though CEPAL later accepted some FDI, so split: -2.",
+        "SUL": "Marcos and Mobutu courted foreign loans and investors to feed the patronage system: 1.",
+        "EUR": "Anti-Western civilisational stance rejects dependence on Atlantic capital: -2."
+      }
+    },
+    "liberty.expression.2": {
+      "0": "IS",
+      "1": "HF",
+      "2": "COA SUL STC NAS EUR",
+      "-1": "CO SF RF TRA",
+      "-3": "LIF CRA PIP",
+      "why": "State takedown of online content for 'instability': authoritarian and traditionalist camps endorse it, free-speech and digital-rights camps reject it.",
+      "notes": {
+        "LIF": "Mill's On Liberty is the canonical defence of free expression against state suppression: -3.",
+        "PIP": "Opposing censorship and takedowns is the core of digital-rights politics: -3.",
+        "HF": "The Federalists passed the Sedition Act of 1798, with Hamilton's support for firm action against seditious press: 1.",
+        "COA": "Control of media and courts is the hybrid regime's main tool for tilting the field: 2."
+      }
+    },
+    "lifestyle.family.5": {
+      "0": "SUL IS LIF HF TRA PIP",
+      "1": "COA CO NAS",
+      "2": "STC EUR",
+      "-1": "SF CRA",
+      "-2": "RF",
+      "why": "Filial piety as the moral base of society: Catholic-corporatist and traditionalist camps affirm it, feminists who see the family as a site of patriarchy do not.",
+      "notes": {
+        "STC": "The Estado Novo motto 'God, Fatherland, Family' makes the family the base of order: 2.",
+        "EUR": "Neo-Eurasianism defends traditional family and generational authority against Western individualism: 2.",
+        "RF": "Firestone and Millett locate patriarchy's root in the family: -2.",
+        "SF": "Zetkin and Rowbotham see the family as the site of unpaid care labour: -1."
+      }
+    },
+    "identity.culture.8": {
+      "0": "COA SUL IS",
+      "1": "SF RF HF",
+      "2": "LIF TRA CRA PIP",
+      "-1": "CO NAS",
+      "-2": "STC",
+      "-3": "EUR",
+      "why": "Openness to foreign culture at the cost of old custom: progressive and cosmopolitan camps agree, traditionalist and civilisationist camps refuse.",
+      "notes": {
+        "EUR": "Eurasianism is built on civilisational distinctness and rejection of Western cultural models: -3.",
+        "LIF": "Mill calls custom a despotism against human progress: 2.",
+        "CRA": "Borderless, cosmopolitan network culture: 2.",
+        "STC": "God, Fatherland, Family traditionalism resists foreign customs: -2."
+      }
+    },
+    "trade.selfreliance.1": {
+      "0": "COA SUL CO RF PIP",
+      "1": "LIF TRA",
+      "2": "CRA",
+      "-1": "STC SF",
+      "-2": "NAS HF EUR",
+      "-3": "IS",
+      "why": "Comparative advantage and free trade: anarchists and liberals favour it, import-substituters and protectionist nationalists reject it.",
+      "notes": {
+        "IS": "Prebisch's thesis is that specialising in primary goods keeps the periphery poor: -3.",
+        "HF": "Hamilton's Report on Manufactures argues against leaving manufacturing to Europe: -2.",
+        "EUR": "Eurasianism calls for a self-sufficient continental bloc (large-space autarky): -2.",
+        "CRA": "Borderless markets, as in May's manifesto, imply free trade: 2."
+      }
+    },
+    "power.checks.8": {
+      "0": "IS",
+      "2": "COA STC NAS EUR",
+      "3": "SUL",
+      "-1": "CO SF RF TRA",
+      "-2": "LIF CRA PIP",
+      "-3": "HF",
+      "why": "Whether an elected government may override courts and independent bodies: executive-supremacy regimes say yes, constitutionalists say no.",
+      "notes": {
+        "HF": "Federalist No. 78 (Hamilton) and Marbury v. Madison (Marshall) found judicial review: -3.",
+        "SUL": "No check of any kind binds the ruler: 3.",
+        "COA": "Capturing courts and agencies to remove constraints is the hybrid regime's method: 2.",
+        "EUR": "Neo-Eurasianism rejects liberal judicial and institutional limits on sovereign power: 2."
+      }
+    },
+    "market.7": {
+      "0": "COA CO LIF RF PIP EUR",
+      "1": "CRA",
+      "3": "STC",
+      "-1": "SUL NAS SF TRA",
+      "-2": "IS HF",
+      "why": "Balanced budgets at all times: the corporatist Estado Novo made it doctrine, structuralists and credit-minded Federalists reject it.",
+      "notes": {
+        "STC": "Salazar's budget surpluses were the regime's signature; balanced budgets are in the tradition: 3.",
+        "HF": "Hamilton held that a funded public debt is a source of national credit and strength: -2.",
+        "IS": "Structuralists accept deficit-financed development and counter-cyclical spending: -2.",
+        "SUL": "Plunder and patronage spending run deficits freely: -1."
+      }
+    },
+    "foreign.force.6": {
+      "0": "LIF PIP",
+      "1": "SF",
+      "2": "RF CRA",
+      "-1": "CO IS TRA",
+      "-2": "COA SUL STC",
+      "-3": "NAS HF EUR",
+      "why": "Abolishing standing armies: anti-militarist feminists and anarchists welcome it, nationalist and power-politics camps reject it flatly.",
+      "notes": {
+        "HF": "Federalist Nos. 24-29 defend a standing army against Anti-Federalist fears: -3.",
+        "NAS": "The Falange glorified the military ethos and imperial restoration: -3.",
+        "EUR": "Geopolitics of land power and empire presuppose armies: -3.",
+        "RF": "Radical feminists treat militarism as an expression of patriarchy: 2."
+      }
+    },
+    "economy.steering.8": {
+      "0": "SUL CO RF TRA PIP",
+      "1": "COA SF",
+      "2": "STC NAS HF EUR",
+      "3": "IS",
+      "-1": "LIF",
+      "-2": "CRA",
+      "why": "State-led industrialisation of a poor country: developmentalist and nationalist camps say yes, liberal and anarchist camps say no.",
+      "notes": {
+        "IS": "State credit, tariffs and public firms to build industry are the CEPAL programme: 3.",
+        "HF": "Hamilton wanted government to nurture a young country's manufactures: 2.",
+        "STC": "Manoilescu's corporatist theory justifies state-directed industry for backward countries: 2.",
+        "CRA": "No role for the state in directing production: -2."
+      }
+    },
+    "property.6": {
+      "0": "COA SF RF PIP EUR",
+      "1": "STC CO",
+      "2": "NAS",
+      "-1": "SUL IS LIF TRA",
+      "-2": "HF",
+      "-3": "CRA",
+      "why": "Tax policy to protect small shops and artisans from big chains: anti-capitalist corporatists and communitarians say yes, commercial-republic and anarchist camps say no.",
+      "notes": {
+        "NAS": "The Falange's anti-capitalist programme defended artisans and small property against big finance: 2.",
+        "CO": "Sandel and Putnam value local business as civic life, though without a fixed tax doctrine: 1.",
+        "HF": "Hamilton championed large commercial and manufacturing enterprise: -2.",
+        "CRA": "Taxation as such is illegitimate, and engineered taxes even more: -3."
+      }
+    },
+    "identity.migration.2": {
+      "0": "SUL IS HF EUR",
+      "1": "COA STC CO",
+      "2": "NAS",
+      "-1": "LIF SF RF TRA PIP",
+      "-2": "CRA",
+      "split": "EUR",
+      "why": "Restricting long-term settlement by foreigners: nationalists and communitarians lean yes, cosmopolitan liberal and tech camps lean no.",
+      "notes": {
+        "NAS": "Hispanidad nationalism puts national community first: 2.",
+        "EUR": "Wants a multi-ethnic empire but is anti-Western and wary of settlers from the West, so split: 0.",
+        "CRA": "Borderless cyberspace and individual freedom of movement: -2.",
+        "CO": "Etzioni favours controlled immigration to preserve shared civic bonds: 1."
+      }
+    },
+    "change.means.1": {
+      "0": "IS TRA PIP",
+      "1": "LIF RF NAS",
+      "2": "SF CRA",
+      "-1": "COA CO HF EUR",
+      "-2": "STC",
+      "-3": "SUL",
+      "why": "The right of armed uprising against tyranny: revolutionary and anarchist camps affirm it, order-minded and regime camps reject it.",
+      "notes": {
+        "SUL": "A regime held by terror cannot concede a right to rebel: -3.",
+        "SF": "The socialist tradition from Zetkin onward accepts revolutionary struggle: 2.",
+        "HF": "Hamilton crushed the Whiskey Rebellion, though Federalist No. 28 concedes resistance as a last resort: -1.",
+        "PIP": "Pirate politics is committed to non-violent reform: 0."
+      }
+    },
+    "market.5": {
+      "0": "CO RF TRA PIP",
+      "1": "COA SUL STC SF EUR",
+      "2": "NAS HF",
+      "3": "IS",
+      "-1": "LIF",
+      "-2": "CRA",
+      "why": "A state development bank for chosen industries: structuralists and national-syndicalists endorse it, liberals and anarchists oppose it.",
+      "notes": {
+        "IS": "Cheap state credit for industrialisation is a core CEPAL instrument: 3.",
+        "NAS": "The 27 points call for nationalising banks and credit: 2.",
+        "HF": "Hamilton's Bank of the United States and Society for Useful Manufactures tied public credit to building industry: 2.",
+        "CRA": "Cryptographic money is meant to make state credit allocation impossible: -2."
+      }
+    },
+    "legitimacy.9": {
+      "0": "SF",
+      "1": "SUL STC EUR",
+      "2": "NAS",
+      "-1": "COA IS RF",
+      "-2": "CO HF TRA CRA",
+      "-3": "LIF PIP",
+      "split": "SF",
+      "why": "Revolutionary victory as sufficient legitimacy: movements that came to power by uprising say yes, consent-based camps say no.",
+      "notes": {
+        "NAS": "The Falange presented the 1936 national rising as the source of the regime's legitimacy: 2.",
+        "COA": "Hybrid regimes insist on an electoral mandate and hold elections: -1.",
+        "LIF": "Consent of the governed is the liberal root of legitimacy: -3.",
+        "SF": "The Bolshevik legacy of Kollontai pulls one way, democratic commitment the other, so split: 0."
+      }
+    },
+    "trade.goods.2": {
+      "0": "SUL CO SF RF",
+      "1": "COA",
+      "2": "STC NAS HF EUR",
+      "3": "IS",
+      "-1": "LIF TRA PIP",
+      "-3": "CRA",
+      "why": "High import tariffs to protect farmers and domestic producers: protectionist camps agree, free-trade camps disagree.",
+      "notes": {
+        "IS": "Tariff walls to nurture domestic industry are the defining CEPAL policy: 3.",
+        "HF": "Hamilton's Report on Manufactures proposes protective duties, and tariffs funded the federal government: 2.",
+        "CRA": "Taxes and trade barriers are both coercion: -3.",
+        "EUR": "Continental self-sufficiency against Western markets: 2."
+      }
+    },
+    "distribution.tax.8": {
+      "0": "COA SUL LIF TRA PIP",
+      "1": "STC",
+      "3": "CRA",
+      "-1": "CO IS NAS RF HF EUR",
+      "-2": "SF",
+      "why": "Low taxes as good for everyone: anti-tax anarchists endorse it, redistributive and state-building camps do not.",
+      "notes": {
+        "CRA": "Untraceable money is designed to make income taxation unenforceable (May's manifesto): 3.",
+        "SF": "Socialising care work needs high public revenue: -2.",
+        "HF": "Hamilton built a revenue system of tariffs and excises to fund credit and state power: -1.",
+        "STC": "Salazar's austere low-spending state favoured low burdens: 1."
+      }
+    },
+    "foreign.force.1": {
+      "0": "CO IS",
+      "1": "COA SUL STC",
+      "2": "HF",
+      "3": "NAS EUR",
+      "-1": "LIF TRA",
+      "-2": "SF RF CRA PIP",
+      "why": "Respect through military strength: nationalist and geopolitical camps say yes, feminist, anarchist and digital-rights camps say no.",
+      "notes": {
+        "NAS": "Falange doctrine is imperial and military: 3.",
+        "EUR": "Geopolitics of great-power land empire treats strength as the basis of standing: 3.",
+        "HF": "Washington's maxim that being prepared for war preserves peace, and the Federalist Navy: 2.",
+        "RF": "Militarism is read as an expression of patriarchy: -2."
+      }
+    },
+    "environment.technology.8": {
+      "0": "STC NAS RF PIP EUR",
+      "1": "COA SUL IS LIF HF CRA",
+      "2": "TRA",
+      "-1": "CO SF",
+      "why": "Whether environmental protection requires simpler living: techno-optimists and growth camps say no, virtue-minded and critical-left camps say yes.",
+      "notes": {
+        "TRA": "Abundance through technology and AI, not sacrifice, is the transhumanist answer: 2.",
+        "CO": "Communitarian emphasis on restraint and civic virtue leans toward moderation: -1.",
+        "SF": "Critique of capitalist overconsumption: -1.",
+        "IS": "Developmentalists favour growth and industry over austerity: 1."
+      }
+    },
+    "liberty.justice.7": {
+      "0": "CO IS HF",
+      "1": "COA STC NAS EUR",
+      "2": "SUL",
+      "-1": "SF RF TRA",
+      "-2": "LIF CRA PIP",
+      "why": "Harsh penalties for petty offences as deterrence: terror and order regimes agree, liberal and digital-rights camps reject proportionality violations.",
+      "notes": {
+        "SUL": "Arbitrary harsh punishment and fear are the regime's instrument: 2.",
+        "LIF": "Mill's harm principle and proportionality in law: -2.",
+        "PIP": "Pirate parties campaign against over-criminalisation: -2.",
+        "STC": "Authoritarian order backed by PIDE-style policing, tempered by Catholic mercy: 1."
+      }
+    },
+    "foreign.intervention.5": {
+      "0": "SUL STC CO LIF TRA",
+      "1": "IS SF RF CRA PIP",
+      "-1": "COA HF",
+      "-2": "NAS EUR",
+      "why": "Armed forces only for home defence: imperial-restoration camps reject it, anti-militarist and anti-imperialist camps lean to it.",
+      "notes": {
+        "NAS": "Restoring a Hispanic empire requires force abroad: -2.",
+        "EUR": "The Eurasian empire and its near abroad rest on projecting power beyond borders: -2.",
+        "IS": "Latin American tradition of non-intervention (Calvo and Drago doctrines): 1.",
+        "HF": "Federalists built a navy and army for commerce and national power: -1."
+      }
+    },
+    "distribution.welfare.3": {
+      "0": "IS PIP",
+      "1": "COA SUL CO HF EUR",
+      "2": "STC CRA",
+      "-1": "NAS LIF TRA",
+      "-2": "RF",
+      "-3": "SF",
+      "why": "Elder care as family rather than state duty: subsidiarity and self-reliance camps agree, socialised-care feminists oppose strongly.",
+      "notes": {
+        "SF": "Socialising care work is the central socialist-feminist demand: -3.",
+        "STC": "Subsidiarity and the family as the Estado Novo's basic unit: 2.",
+        "LIF": "Family care duty falls mostly on daughters, a barrier to equality: -1.",
+        "CRA": "No state role in welfare at all: 2."
+      }
+    },
+    "market.2": {
+      "0": "CO RF HF TRA CRA PIP",
+      "1": "LIF",
+      "-1": "STC SF EUR",
+      "-2": "COA SUL IS NAS",
+      "why": "Central bank independence: regimes and state-credit developmentalists want control of money, liberals lean to independence, most others have no stake.",
+      "notes": {
+        "IS": "State credit for industrialisation requires the central bank to serve the development plan: -2.",
+        "NAS": "Nationalising banks and credit under the national state: -2.",
+        "COA": "Control of budget and monetary levers belongs to the ruling camp: -2.",
+        "STC": "Salazar ran the Bank of Portugal as an arm of the finance ministry he controlled: -1."
+      }
+    },
+    "lifestyle.autonomy.2": {
+      "0": "COA IS SF RF HF",
+      "1": "STC CO NAS EUR",
+      "-1": "SUL",
+      "-2": "TRA PIP",
+      "-3": "LIF CRA",
+      "why": "Banning gambling even with one's own money: moralist and traditionalist camps lean yes, liberty-based camps reject paternalism.",
+      "notes": {
+        "LIF": "Mill's harm principle forbids restricting self-regarding conduct: -3.",
+        "CRA": "Voluntary exchange free of state coercion: -3.",
+        "SUL": "Trujillo's and Somoza's circles ran casinos and vice rackets for profit: -1.",
+        "CO": "Civic virtue and character formation licence some moral legislation: 1."
+      }
+    },
+    "distribution.tax.7": {
+      "0": "CO RF PIP EUR",
+      "1": "SF",
+      "2": "IS NAS",
+      "-1": "COA STC LIF TRA",
+      "-2": "SUL HF",
+      "-3": "CRA",
+      "why": "Caps on landholding: agrarian reformers say yes, property-protecting and landowning-elite camps say no.",
+      "notes": {
+        "IS": "CEPAL structuralists (Furtado, Prebisch) saw land concentration as a development brake and backed agrarian reform: 2.",
+        "NAS": "The 27 points of the Falange demand agrarian reform: 2.",
+        "SUL": "Estates are the loot of the ruler and clan (Trujillo, Somoza): -2.",
+        "CRA": "Property rights are absolute: -3."
+      }
+    },
+    "foreign.intervention.2": {
+      "0": "CO SF PIP",
+      "1": "STC HF CRA",
+      "2": "COA SUL IS EUR",
+      "-1": "NAS LIF RF TRA",
+      "why": "Absolute non-intervention: regimes fearing outside pressure and anti-imperialists say yes, human-rights liberals and feminists allow exceptions.",
+      "notes": {
+        "EUR": "Anti-Western sovereignty and multipolarity: 2.",
+        "IS": "CEPAL and Latin American tradition of non-intervention: 2.",
+        "LIF": "Human-rights universalism permits intervention in some cases: -1.",
+        "COA": "Milosevic and Mugabe invoked sovereignty against outside pressure: 2."
+      }
+    },
+    "religion.state.2": {
+      "0": "COA SUL IS PIP",
+      "1": "SF RF TRA",
+      "-2": "CO NAS HF LIF CRA",
+      "-3": "STC EUR",
+      "why": "Active state limiting of religious influence: secular materialist camps lean yes, religious-order camps and liberty camps oppose.",
+      "notes": {
+        "STC": "Catholic Estado Novo with God as first of the three pillars: -3.",
+        "EUR": "Orthodoxy is the core of the imperial identity: -3.",
+        "LIF": "Religious freedom forbids state action against faith, even if secular: -2.",
+        "RF": "Religion is read as a patriarchal institution: 1."
+      }
+    },
+    "army.2": {
+      "0": "COA",
+      "1": "NAS",
+      "-1": "IS SF RF EUR",
+      "-2": "SUL STC CO LIF HF TRA CRA PIP",
+      "why": "Army under the ruling party rather than politically neutral: only party-movement fascism leans yes, while civilian-control and personalist or corporatist regimes keep the army outside the party.",
+      "notes": {
+        "NAS": "The Falange aimed at a party-state that fuses movement and armed forces: 1.",
+        "SUL": "The army is loyal to the person of the ruler, not a party: -2.",
+        "STC": "The Estado Novo had no ruling party in the fascist sense and kept the army as a separate pillar: -2.",
+        "HF": "Civilian control under the constitution, not partisan command: -2."
+      }
+    },
+    "elites.trust.7": {
+      "0": "COA SUL NAS RF PIP",
+      "1": "STC IS LIF SF HF",
+      "2": "TRA",
+      "-1": "CO CRA EUR",
+      "why": "Following scientific consensus in policy: technoprogressives and technocratic camps agree, anti-authority and civilisational-tradition camps resist.",
+      "notes": {
+        "TRA": "Science-led policy is the transhumanist premise: 2.",
+        "CO": "Sandel's critique of technocracy and meritocratic expertise: -1.",
+        "CRA": "Distrust of authority, including expert authority: -1.",
+        "EUR": "Rejects Western scientism in favour of tradition and civilisational knowledge: -1."
+      }
+    },
+    "lifestyle.family.1": {
+      "0": "COA SUL CO IS HF",
+      "1": "NAS",
+      "2": "STC EUR",
+      "-1": "PIP",
+      "-2": "LIF SF TRA CRA",
+      "-3": "RF",
+      "why": "Obedience of adult children to parents on major life choices: traditionalist camps agree, individual-autonomy and feminist camps reject.",
+      "notes": {
+        "RF": "Arranged marriage and parental control are patriarchal mechanisms to dismantle: -3.",
+        "LIF": "Wollstonecraft and Mill defend women's and individuals' right to choose their own life: -2.",
+        "STC": "Family hierarchy under the Catholic Estado Novo order: 2.",
+        "EUR": "Traditional family hierarchy against Western individualism: 2."
+      }
+    },
+    "environment.growth.8": {
+      "0": "CO LIF SF RF",
+      "1": "COA SUL STC NAS TRA CRA EUR",
+      "2": "IS HF",
+      "-1": "PIP",
+      "why": "Climate commitments versus industrialisation of poor countries: developmentalist camps put growth first, left and green-leaning camps look for a fairer split.",
+      "notes": {
+        "IS": "Industrialisation as the escape from peripheral dependence is the CEPAL goal: 2.",
+        "HF": "Building manufacturing and commerce is the Hamiltonian aim: 2.",
+        "PIP": "Pirate parties are green-leaning and rarely accept climate delay: -1.",
+        "SF": "Climate justice with 'common but differentiated' duties, neither side wholly: 0."
+      }
+    },
+    "law.6": {
+      "0": "IS SF RF",
+      "1": "COA LIF TRA CRA PIP",
+      "2": "HF",
+      "-1": "SUL STC NAS",
+      "-2": "CO EUR",
+      "why": "Strict law with clear sanctions versus rule by morality and ritual: rule-of-law and rational camps lean to law, virtue and tradition camps to morality.",
+      "notes": {
+        "HF": "The Federalist case for a government of laws, enforced vigorously: 2.",
+        "CO": "Sandel and MacIntyre stress civic virtue and moral formation over law alone: -2.",
+        "EUR": "Sacral tradition and ethos rather than legal-rational order: -2.",
+        "SUL": "Rule by whim and loyalty, not law: -1."
+      }
+    },
+    "legitimacy.3": {
+      "0": "SUL",
+      "2": "NAS EUR",
+      "3": "STC",
+      "-1": "IS",
+      "-2": "COA CO HF",
+      "-3": "LIF SF RF TRA CRA PIP",
+      "why": "Divine rather than popular source of authority: Catholic corporatists and Orthodox traditionalists agree, every consent-based camp refuses.",
+      "notes": {
+        "STC": "Dollfuss's constitution opens 'in the name of God, the source of all law' and Salazar's Catholic order: 3.",
+        "EUR": "Orthodox sacral kingship and imperial theology: 2.",
+        "COA": "Hybrid regimes still claim an electoral mandate: -2.",
+        "HF": "Federalist No. 22 grounds government on the consent of the people: -2."
+      }
+    },
+    "legitimacy.2": {
+      "0": "CRA",
+      "1": "SUL IS",
+      "2": "COA STC NAS EUR",
+      "-1": "CO SF RF HF TRA",
+      "-2": "LIF PIP",
+      "why": "Performance legitimacy without elections: authoritarian camps accept it, democratic camps want consent.",
+      "notes": {
+        "STC": "Salazar's order and prosperity justified an unelected state: 2.",
+        "EUR": "Stability and civilisational strength outweigh electoral procedure: 2.",
+        "LIF": "Consent of the governed is the test: -2.",
+        "CRA": "Anarchists judge states by consent and exit, not elections, so mostly indifferent: 0."
+      }
+    },
+    "party.8": {
+      "0": "COA SUL CO IS RF TRA EUR",
+      "1": "NAS CRA PIP LIF HF",
+      "2": "STC",
+      "-2": "SF",
+      "why": "Partyless politics of independents voting by conscience: anti-party corporatists and individualists welcome it, organised-left camps do not.",
+      "notes": {
+        "STC": "The Estado Novo abolished parties for a single non-party union and corporative chambers: 2.",
+        "NAS": "The Falange insisted it was a movement, not a party, against partitocracy: 1.",
+        "SF": "Socialist feminism relies on organised collective political movements: -2.",
+        "HF": "Washington's Farewell Address, drafted with Hamilton, warns against the spirit of party: 1."
+      }
+    },
+    "distribution.tax.2": {
+      "0": "CO IS TRA PIP EUR",
+      "1": "COA STC HF",
+      "2": "SUL",
+      "3": "CRA",
+      "-1": "NAS LIF RF",
+      "-2": "SF",
+      "why": "No inheritance tax: anarchists and dynastic regimes agree, egalitarian camps want inherited wealth taxed.",
+      "notes": {
+        "CRA": "Opposition to all taxation, including estates: 3.",
+        "SUL": "Wealth held and handed down within the ruler's clan is the system itself: 2.",
+        "LIF": "Mill proposed limits on inheritance to widen opportunity: -1.",
+        "SF": "Inherited capital is a source of class power: -2."
+      }
+    },
+    "gender.7": {
+      "0": "COA IS TRA",
+      "1": "LIF",
+      "2": "SF RF",
+      "-1": "SUL CO HF PIP",
+      "-2": "STC NAS CRA EUR",
+      "split": "LIF",
+      "why": "Legal gender quota for candidates: radical and socialist feminists support it, liberal feminists divide, traditionalists oppose.",
+      "notes": {
+        "SF": "Socialist feminists back parity as part of structural equality: 2.",
+        "LIF": "Equality of opportunity camp versus quota supporters inside liberal feminism, so split: 1.",
+        "STC": "Women's role is in the family under the corporatist order: -2.",
+        "PIP": "Pirate parties tend to reject quotas as non-neutral: -1."
+      }
+    },
+    "power.pluralism.3": {
+      "0": "CRA",
+      "1": "COA RF HF IS",
+      "2": "CO SF TRA",
+      "3": "LIF PIP",
+      "-2": "STC NAS EUR",
+      "-3": "SUL",
+      "split": "COA",
+      "why": "Peaceful replacement of any government by vote: democratic camps affirm it, single-party and personal regimes refuse it.",
+      "notes": {
+        "SUL": "Personal rule by terror cannot allow removal by ballot: -3.",
+        "COA": "Elections exist formally and the camp claims to accept them, though the field is tilted, so split: 1.",
+        "NAS": "The Falange rejected parties and elections in favour of the single national movement: -2.",
+        "PIP": "Liquid democracy and ballot-based accountability are core: 3."
+      }
+    },
+    "foreign.rules.1": {
+      "0": "SF HF",
+      "1": "CO IS RF TRA PIP",
+      "2": "LIF",
+      "-1": "STC CRA",
+      "-2": "COA SUL NAS",
+      "-3": "EUR",
+      "why": "Obeying international court rulings against one's own interest: liberal and legalist camps agree, sovereigntist camps refuse.",
+      "notes": {
+        "EUR": "Neo-Eurasianism is built on sovereignty and rejection of Western-led international law: -3.",
+        "LIF": "Liberal internationalism and rule of law: 2.",
+        "HF": "Hamilton, as Camillus, defended honouring treaty obligations (Jay Treaty), but Federalists were no supranationalists: 0.",
+        "COA": "Milosevic and Mugabe resisted ICTY and international pressure: -2."
+      }
+    },
+    "economy.steering.6": {
+      "3": "CRA",
+      "-1": "COA SUL LIF TRA PIP",
+      "-2": "CO RF HF EUR",
+      "-3": "STC IS NAS SF",
+      "why": "A night-watchman state with no rules on business: only anarchist libertarians fully agree; corporatist, structuralist, socialist and nationalist camps reject it outright.",
+      "notes": {
+        "STC": "Corporatism means the state organises and regulates labour and capital by sector: -3.",
+        "IS": "State direction and regulation of industry is the CEPAL programme: -3.",
+        "CRA": "Property and contract enforcement without regulation fits their ideal, which wants even that privatised: 3.",
+        "LIF": "Liberals accept needed regulation such as labour and consumer protection: -1."
+      }
+    },
+    "market.3": {
+      "0": "COA RF",
+      "1": "LIF TRA",
+      "2": "PIP",
+      "3": "CRA",
+      "-1": "SUL CO SF",
+      "-2": "STC IS NAS HF EUR",
+      "why": "Free competition of private currencies: crypto-anarchists and digital-rights camps endorse it, state-money camps reject it.",
+      "notes": {
+        "CRA": "Untraceable digital cash replacing state money is the cypherpunk programme: 3.",
+        "PIP": "Pirate parties embraced Bitcoin and decentralised money: 2.",
+        "HF": "Hamilton's national bank and uniform national currency are against private money: -2.",
+        "NAS": "The Falange programme nationalises banking and credit: -2."
+      }
+    },
+    "power.pluralism.5": {
+      "0": "CRA",
+      "1": "COA IS SF RF TRA",
+      "2": "CO",
+      "3": "LIF PIP",
+      "-1": "HF",
+      "-2": "STC NAS EUR",
+      "-3": "SUL",
+      "why": "An organised opposition as watchdog: democratic camps need it, party-less and single-party camps see it as faction.",
+      "notes": {
+        "LIF": "Mill's Considerations on Representative Government stresses organised criticism of rulers: 3.",
+        "HF": "Hamilton and Washington feared faction; yet the Federalists themselves became a party, so mild: -1.",
+        "SUL": "Opposition is eliminated by terror: -3.",
+        "COA": "Opposition still competes under the camp's own self-image, though with a skewed field: 1."
+      }
+    },
+    "market.8": {
+      "2": "CRA",
+      "-1": "TRA PIP",
+      "-2": "COA CO IS LIF SF RF",
+      "-3": "SUL STC NAS HF EUR",
+      "why": "Privatising security and courts: only crypto-anarchists lean in, camps built on a strong state reject it.",
+      "notes": {
+        "CRA": "Voluntary private arbitration and defence agencies fit anarcho-capitalist thought, though cypherpunk texts focus on cryptographic means: 2.",
+        "HF": "Hamilton's case for energetic national government and Marshall's courts depend on a state monopoly of force and justice: -3.",
+        "SUL": "The ruler's own secret police are the regime's core: -3.",
+        "LIF": "Liberal rule of law requires public courts and police: -2."
+      }
+    },
+    "foreign.force.5": {
+      "0": "STC IS CRA",
+      "1": "COA SUL HF",
+      "2": "NAS EUR",
+      "-1": "CO LIF PIP",
+      "-2": "SF RF TRA",
+      "why": "Nuclear weapons for any state able to build them: power-politics camps say yes, anti-militarist and existential-risk camps say no.",
+      "notes": {
+        "EUR": "Nuclear parity is the material basis of Russia's multipolar claims: 2.",
+        "TRA": "Bostrom treats nuclear proliferation as an existential risk: -2.",
+        "RF": "Feminist anti-militarism opposes the arms race: -2.",
+        "HF": "A strong-state camp would take the means of national power, though anachronistic: 1."
+      }
+    },
+    "identity.migration.7": {
+      "0": "IS RF",
+      "1": "SF",
+      "2": "LIF TRA PIP",
+      "3": "CRA",
+      "-1": "COA SUL CO HF",
+      "-2": "STC NAS EUR",
+      "why": "Open borders for work and residence: crypto-anarchists and liberals lean to freedom of movement, nationalist and traditionalist camps oppose it.",
+      "notes": {
+        "CRA": "Borderless exit from states is the cypherpunk premise: 3.",
+        "NAS": "National community and imperial identity above free movement: -2.",
+        "TRA": "Cosmopolitan and universalist: 2.",
+        "SF": "Internationalism and solidarity of workers across borders: 1."
+      }
+    },
+    "lifestyle.gender.6": {
+      "0": "COA IS HF",
+      "1": "SUL",
+      "2": "STC NAS EUR",
+      "-1": "CO",
+      "-2": "TRA CRA PIP",
+      "-3": "LIF SF RF",
+      "why": "Husband's final say: traditionalist camps agree, all feminist camps reject it as the core of patriarchy.",
+      "notes": {
+        "STC": "The Estado Novo family law made the husband head of family: 2.",
+        "LIF": "Equality within marriage is the founding demand (Wollstonecraft, Mill's Subjection of Women): -3.",
+        "RF": "Patriarchy in the family is the root of oppression: -3.",
+        "NAS": "Falange's Seccion Femenina kept women in the home under male headship: 2."
+      }
+    },
+    "environment.technology.1": {
+      "0": "SUL STC CO NAS EUR",
+      "1": "COA IS LIF HF PIP",
+      "2": "CRA",
+      "3": "TRA",
+      "-1": "SF RF",
+      "why": "Faith that technology will solve the environmental crisis: techno-optimists affirm, critical feminists and ecological critics doubt it.",
+      "notes": {
+        "TRA": "Technological transcendence of limits is the transhumanist creed: 3.",
+        "CRA": "Technology as the solver of political problems is a cypherpunk article of faith: 2.",
+        "SF": "Ecological crisis is rooted in capitalist relations, not just missing technique: -1.",
+        "CO": "The community-virtue camp has no stake in the technical question: 0."
+      }
+    },
+    "law.2": {
+      "0": "IS NAS",
+      "1": "COA SUL SF RF TRA LIF",
+      "2": "CRA PIP",
+      "-1": "CO EUR",
+      "-2": "STC",
+      "-3": "HF",
+      "why": "Each generation drafting its own constitution (Jefferson's view): Hamiltonian federalists reject it as instability, radical and open-democracy camps welcome it.",
+      "notes": {
+        "HF": "Hamilton and Madison argued for constitutional stability and against frequent revision (Federalist Nos. 49-50): -3.",
+        "LIF": "Paine's Rights of Man, which Wollstonecraft answered with her own, made the same argument that the living are not bound by the dead: 1.",
+        "PIP": "Crowd-sourced constitutions and liquid democracy: 2.",
+        "STC": "Corporatist order depends on a durable, hierarchical constitution: -2."
+      }
+    },
+    "violence.7": {
+      "0": "COA SUL",
+      "2": "EUR",
+      "3": "NAS",
+      "-1": "STC CO IS SF HF CRA",
+      "-2": "LIF RF TRA PIP",
+      "why": "War and force as a school of national vitality: fascist and passionarity-minded camps affirm it, most others deny it.",
+      "notes": {
+        "NAS": "Falange rhetoric of life as militia, violence and struggle as purifying: 3.",
+        "EUR": "Gumilyov's passionarity theory and Dugin's warrior ethos: 2.",
+        "RF": "Violence as patriarchal virility: -2.",
+        "TRA": "Safe, healthy long lives rather than martial hardening: -2."
+      }
+    },
+    "future.6": {
+      "0": "IS RF",
+      "1": "CO SF",
+      "2": "LIF TRA CRA",
+      "3": "PIP",
+      "-1": "HF",
+      "-2": "COA STC NAS EUR",
+      "-3": "SUL",
+      "why": "Total openness of state documents and data: digital-rights camps make it doctrine, secretive regimes oppose it.",
+      "notes": {
+        "PIP": "Open data and transparent government are core planks of Pirate parties: 3.",
+        "SUL": "Secrecy and secret police are the regime's tools: -3.",
+        "CRA": "Privacy for individuals and transparency for the state, in the Assange and Cypherpunks spirit: 2.",
+        "RF": "Open records conflict with victims' privacy: 0."
+      }
+    },
+    "violence.5": {
+      "0": "CRA",
+      "1": "NAS",
+      "-1": "SF RF EUR",
+      "-2": "COA SUL STC CO IS LIF HF TRA PIP",
+      "why": "The guerrilla foco theory of revolution: only vanguard-minded camps are sympathetic, orthodox Marxists and everyone else reject it.",
+      "notes": {
+        "NAS": "Falange saw a determined minority acting ahead of the masses: 1.",
+        "SF": "Orthodox Marxist feminism holds that revolution needs mature objective conditions and mass organisation: -1.",
+        "SUL": "Regimes fight such groups: -2.",
+        "IS": "CEPAL structuralism seeks reform through state planning, not insurrection: -2."
+      }
+    },
+    "distribution.labour.6": {
+      "0": "CO IS TRA PIP",
+      "1": "COA CRA EUR",
+      "2": "SUL NAS HF",
+      "3": "STC",
+      "-1": "LIF RF",
+      "-3": "SF",
+      "why": "Strikes as net harm: corporatist and nationalist camps ban them, socialist feminists defend them.",
+      "notes": {
+        "STC": "Estado Novo and Ständestaat outlawed strikes for labour peace under the corporations: 3.",
+        "NAS": "Falange vertical syndicates replace class conflict: 2.",
+        "SF": "Collective workers' action is central to the socialist tradition (Zetkin): -3.",
+        "IS": "Industrialising populist regimes (Vargas, Peron) often courted unions, so mixed: 0."
+      }
+    },
+    "nature.6": {
+      "0": "COA CO IS PIP",
+      "1": "NAS RF EUR",
+      "2": "SF",
+      "-1": "SUL STC",
+      "-2": "LIF HF TRA CRA",
+      "why": "Whether ecology requires ending capitalism: anti-capitalist camps say yes, market-friendly and techno-optimist camps say no.",
+      "notes": {
+        "SF": "Eco-socialist feminism ties ecological and gendered exploitation to capital accumulation: 2.",
+        "HF": "A commercial republic is Hamilton's ideal: -2.",
+        "TRA": "Abundance through technology within markets: -2.",
+        "EUR": "Anti-liberal critique of Western capitalist modernity: 1."
+      }
+    },
+    "foreign.rules.7": {
+      "0": "CO CRA",
+      "1": "IS SF TRA PIP",
+      "2": "LIF RF",
+      "-2": "COA SUL STC HF",
+      "-3": "NAS EUR",
+      "why": "International monitoring of human-rights commitments: liberal and feminist camps favour it, sovereigntist camps reject it.",
+      "notes": {
+        "EUR": "Neo-Eurasianism rejects Western-led human-rights supervision as liberal imperialism: -3.",
+        "LIF": "Rights universalism and international treaty monitoring: 2.",
+        "RF": "Feminist advocacy at the UN (CEDAW) relies on this: 2.",
+        "HF": "Sovereignty of the new republic over foreign oversight: -2."
+      }
+    },
+    "elites.rank.2": {
+      "0": "IS TRA CRA",
+      "1": "CO",
+      "2": "LIF SF RF PIP",
+      "-1": "COA",
+      "-2": "SUL STC NAS HF EUR",
+      "why": "Equality of standing regardless of talent: egalitarian and feminist camps agree, hierarchical camps do not.",
+      "notes": {
+        "SF": "Class and sex hierarchies are what the camp opposes: 2.",
+        "STC": "Thomist and corporatist order is hierarchical by nature: -2.",
+        "HF": "Hamilton and Adams believed in a natural aristocracy of talent and wealth: -2.",
+        "EUR": "Hierarchical, sacral order: -2."
+      }
+    },
+    "liberty.expression.4": {
+      "0": "IS SF",
+      "1": "COA CO RF HF",
+      "2": "SUL STC NAS EUR",
+      "-1": "TRA",
+      "-3": "LIF CRA PIP",
+      "why": "Banning dangerous ideas: authoritarian camps say yes, free-speech camps no; radical feminists stand apart on pornography.",
+      "notes": {
+        "LIF": "Mill's On Liberty: even false and dangerous opinions must be heard: -3.",
+        "RF": "Dworkin and MacKinnon seek legal limits on pornography as harm: 1.",
+        "STC": "The Estado Novo censored the press and banned subversive doctrines: 2.",
+        "CRA": "Strong cryptography exists precisely to make idea-suppression impossible: -3."
+      }
+    },
+    "identity.migration.4": {
+      "0": "SUL IS RF EUR",
+      "1": "LIF SF HF TRA PIP",
+      "2": "CRA",
+      "-1": "COA STC CO",
+      "-2": "NAS",
+      "why": "Admitting unskilled foreign workers: free-movement camps agree, nationalist camps resist.",
+      "notes": {
+        "HF": "Hamilton's Report on Manufactures wanted immigrant workers to build industry: 1.",
+        "NAS": "National-syndicalism prioritises national labour and community: -2.",
+        "CRA": "Open labour markets and free exit: 2.",
+        "SF": "Solidarity with migrant, often female, care workers: 1."
+      }
+    },
+    "market.4": {
+      "0": "COA SUL CO RF PIP",
+      "1": "STC SF EUR",
+      "2": "NAS",
+      "-1": "IS TRA",
+      "-2": "LIF CRA",
+      "-3": "HF",
+      "why": "Condemning interest-bearing lending: anti-finance nationalists and Catholic-social camps lean yes, credit-based republicans and liberals say no.",
+      "notes": {
+        "NAS": "Falange anti-capitalism targets finance and usury: 2.",
+        "HF": "Hamilton's system depended on interest-bearing public and bank credit: -3.",
+        "STC": "Catholic social teaching has a long tradition against usury: 1.",
+        "LIF": "Voluntary contracts for interest are legitimate: -2."
+      }
+    },
+    "labour.8": {
+      "0": "COA EUR",
+      "1": "SUL",
+      "2": "NAS",
+      "-1": "STC IS RF",
+      "-2": "CO LIF SF HF TRA CRA PIP",
+      "why": "Unions led by the ruling party: only party-movement fascism and control-minded regimes lean yes; corporatists put unions under the state, not a party, and democratic camps want autonomy.",
+      "notes": {
+        "NAS": "The Falange's vertical syndicates (CNS) were run by the party-state: 2.",
+        "STC": "Corporative unions answer to the state apparatus, not to a ruling party: -1.",
+        "SF": "Zetkin's tradition rejects party-controlled unions in favour of workers' autonomy: -2.",
+        "SUL": "Mass organisations are tools of personal control: 1."
+      }
+    },
+    "change.depth.5": {
+      "0": "COA SUL TRA PIP",
+      "1": "IS CRA",
+      "2": "NAS SF RF",
+      "3": "EUR",
+      "-1": "STC CO HF",
+      "-2": "LIF",
+      "why": "Replacing the present world order entirely: anti-Western civilisationists and radical critics say yes, liberal and establishment camps say no.",
+      "notes": {
+        "EUR": "The multipolar world against Atlanticist hegemony is the project's core: 3.",
+        "IS": "Prebisch's centre-periphery critique calls for a new international economic order, but short of total replacement: 1.",
+        "LIF": "Reform within the liberal international order: -2.",
+        "HF": "A commercial, treaty-bound order with Britain and Europe, not its overthrow: -1."
+      }
+    },
+    "religion.public.2": {
+      "0": "COA SUL IS",
+      "1": "HF CO",
+      "2": "STC NAS EUR",
+      "-1": "PIP",
+      "-2": "LIF SF RF TRA CRA",
+      "why": "Special weight for clergy on moral questions: Catholic and Orthodox traditionalists say yes, secular camps say no.",
+      "notes": {
+        "STC": "Catholic corporatism makes the Church a pillar of public morality: 2.",
+        "EUR": "Orthodoxy is the spiritual core of the project: 2.",
+        "LIF": "Moral authority must rest on public reason, not office: -2.",
+        "HF": "John Adams and Federalists held religion necessary to republican morals, with no clerical privilege: 1."
+      }
+    },
+    "foreign.rules.5": {
+      "0": "IS LIF",
+      "1": "SF RF TRA",
+      "-1": "CO PIP",
+      "-2": "COA SUL STC HF",
+      "-3": "NAS CRA EUR",
+      "why": "A world government for global problems: internationalist and futurist camps lean yes, sovereigntist, anarchist and decentralist camps reject it.",
+      "notes": {
+        "CRA": "A world state is the largest state of all: -3.",
+        "EUR": "Multipolarity against a single world power: -3.",
+        "TRA": "Bostrom's work on global governance and existential risk is sympathetic: 1.",
+        "PIP": "Prefers decentralised, bottom-up governance to a central world power: -1."
+      }
+    },
+    "distribution.labour.1": {
+      "0": "SUL TRA PIP",
+      "1": "COA LIF HF",
+      "3": "CRA",
+      "-1": "STC CO IS RF EUR",
+      "-2": "NAS SF",
+      "why": "Free hiring and firing: anarcho-capitalist camps agree, corporatist, communitarian and socialist camps want worker protection.",
+      "notes": {
+        "CRA": "Voluntary contracts with no state rules: 3.",
+        "SF": "Job security and labour protection are central: -2.",
+        "NAS": "Falange syndicalism subordinates both capital and labour to national syndicates: -2.",
+        "STC": "The corporative state regulates labour relations by sector: -1."
+      }
+    },
+    "environment.technology.7": {
+      "0": "SUL STC NAS RF EUR",
+      "1": "CO PIP",
+      "2": "SF",
+      "-1": "COA IS LIF HF TRA",
+      "-3": "CRA",
+      "why": "State curbs on high-emission consumption: eco-minded and communitarian camps lean yes, liberal, developmentalist and anarchist camps oppose it.",
+      "notes": {
+        "CRA": "Any state restriction of consumption is coercion: -3.",
+        "SF": "Systemic critique of overconsumption: 2.",
+        "TRA": "Prefers technological fixes over restrictions on choice: -1.",
+        "PIP": "Green-leaning digital-rights parties accept some limits: 1."
+      }
+    },
+    "party.5": {
+      "0": "COA SUL CO PIP",
+      "1": "SF RF EUR",
+      "2": "NAS",
+      "-1": "IS LIF TRA",
+      "-2": "STC HF CRA",
+      "why": "Permanent mass mobilisation through rallies and organisations: fascist movements live by it, non-mass corporatists and liberals do not.",
+      "notes": {
+        "NAS": "Falange was a mass movement of rallies, uniforms and youth organisations: 2.",
+        "STC": "The Estado Novo was explicitly a regime without mass mobilisation: -2.",
+        "HF": "Hamilton distrusted mass politics: -2.",
+        "EUR": "Dugin's movement and youth groups mobilise, though doctrine centres on elites and empire: 1."
+      }
+    },
+    "environment.technology.4": {
+      "0": "SUL STC IS NAS PIP",
+      "1": "CO RF EUR",
+      "2": "SF",
+      "-1": "COA LIF",
+      "-2": "HF TRA CRA",
+      "why": "Whether lower consumption in rich countries is unavoidable: critical camps say yes, techno-optimists say technology suffices.",
+      "notes": {
+        "TRA": "Technology and abundance, not sacrifice: -2.",
+        "SF": "Critique of overconsumption and the capitalist growth imperative: 2.",
+        "EUR": "Anti-consumerist critique of Western modernity: 1.",
+        "CRA": "Technology and markets, not rationing, solve problems: -2."
+      }
+    },
+    "labour.4": {
+      "0": "COA SUL",
+      "1": "IS EUR",
+      "3": "STC NAS",
+      "-1": "CO RF TRA PIP",
+      "-2": "LIF SF HF",
+      "-3": "CRA",
+      "why": "Mixed employer-worker corporations under state coordination: this is the definition of corporatism, so corporatist and syndicalist camps say yes, everyone else resists.",
+      "notes": {
+        "STC": "Manoilescu's Century of Corporatism and Estado Novo corporations: 3.",
+        "NAS": "Falange vertical syndicates unite employers and workers under the state: 3.",
+        "SF": "Class struggle is not abolished by joint corporations: -2.",
+        "IS": "Vargas's Estado Novo and populist developmentalists used state-coordinated corporatist structures: 1."
+      }
+    },
+    "law.10": {
+      "0": "NAS EUR",
+      "1": "COA STC IS",
+      "2": "CO SF RF HF TRA CRA",
+      "3": "LIF PIP",
+      "-3": "SUL",
+      "why": "Equality before the law: democratic camps affirm it; personal rule negates it; hierarchical camps are lukewarm.",
+      "notes": {
+        "SUL": "Law is a privilege of the ruler and family, who stand above it: -3.",
+        "HF": "Marshall's rulings, including Burr's trial, uphold that no one is above the law: 2.",
+        "PIP": "Equal law for powerful and weak is a core transparency principle: 3.",
+        "NAS": "Hierarchy and the Jefe above ordinary rules: 0."
+      }
+    },
+    "foreign.force.7": {
+      "0": "SUL",
+      "1": "COA NAS HF",
+      "2": "EUR",
+      "-1": "STC CO IS TRA CRA",
+      "-2": "LIF SF RF PIP",
+      "why": "Preemptive war against emerging threats: power-politics camps accept it, liberal, feminist and digital-rights camps reject it.",
+      "notes": {
+        "EUR": "Neo-Eurasianism justifies preventive action for a threatened civilisational space: 2.",
+        "LIF": "Just-war and UN Charter limits on force: -2.",
+        "STC": "Salazar kept Portugal out of aggressive wars, a neutrality-minded regime: -1.",
+        "SUL": "No doctrine on foreign policy beyond personal power: 0."
+      }
+    },
+    "faith.8": {
+      "0": "SUL LIF HF PIP",
+      "1": "COA EUR TRA RF",
+      "2": "STC CO IS NAS",
+      "3": "SF",
+      "-3": "CRA",
+      "why": "The state stepping in where family and community fail: subsidiarity-style and welfare-minded camps agree, anarchists refuse.",
+      "notes": {
+        "STC": "Catholic subsidiarity (Quadragesimo Anno) lets the higher body act when the lower cannot: 2.",
+        "SF": "Socialising care that families cannot carry is the central programme: 3.",
+        "CRA": "No state role in welfare at all: -3.",
+        "LIF": "Liberals accept limited relief but have no firm position on the question as worded: 0."
+      }
+    },
+    "future.5": {
+      "0": "COA SUL STC CO IS NAS LIF RF EUR",
+      "1": "SF TRA",
+      "2": "CRA",
+      "3": "PIP",
+      "-1": "HF",
+      "why": "Shortening copyright terms drastically: only digital-rights and free-information camps have a stake; most others are indifferent.",
+      "notes": {
+        "PIP": "Cutting copyright to a few years is the founding Pirate demand (Falkvinge's five-year proposal): 3.",
+        "CRA": "Information wants to be free; cypherpunks undermine copyright by technique: 2.",
+        "HF": "Hamilton's Report on Manufactures treats patents and the copyright clause as incentives for enterprise: -1.",
+        "SF": "Open knowledge commons fits anti-property politics: 1."
+      }
+    },
+    "elites.decision.1": {
+      "0": "SUL STC IS CRA EUR",
+      "1": "COA CO LIF SF RF TRA",
+      "2": "PIP",
+      "-1": "NAS",
+      "-2": "HF",
+      "why": "Constitutional change only by popular referendum: direct-democracy camps say yes, indirect-republic and elite-led camps say no.",
+      "notes": {
+        "PIP": "Direct and liquid democracy make popular vote on fundamental rules central: 2.",
+        "HF": "Article V routes amendment through Congress and state legislatures, not the people directly; Federalists distrusted direct democracy: -2.",
+        "COA": "Plebiscites are a favourite tool of hybrid regimes, as with Fujimori's 1993 constitution: 1.",
+        "NAS": "The movement and its leader, not a popular vote, define the national will: -1."
+      }
+    },
+    "distribution.labour.3": {
+      "0": "COA SUL TRA PIP",
+      "1": "STC CO IS LIF RF EUR",
+      "2": "NAS SF",
+      "-1": "HF",
+      "-2": "CRA",
+      "why": "Statutory minimum wage: corporatist, structuralist and left camps support it, anarcho-capitalists oppose it.",
+      "notes": {
+        "STC": "Rerum Novarum's just wage doctrine underlies corporatist labour policy: 1.",
+        "SF": "Wage floors help women, concentrated in low-paid care work: 2.",
+        "CRA": "Wage fixing is state coercion in voluntary contracts: -2.",
+        "TRA": "Prefers a basic income funded by AI abundance to wage floors, so neutral: 0."
+      }
+    },
+    "violence.4": {
+      "0": "EUR",
+      "2": "SUL NAS",
+      "-1": "COA STC",
+      "-2": "CO IS SF RF CRA",
+      "-3": "LIF HF TRA PIP",
+      "why": "Terror by a revolutionary government against opponents: terror-practising regimes accept it, liberal and rights-based camps reject it.",
+      "notes": {
+        "HF": "Federalists defined themselves against Jacobin terror in the French Revolution: -3.",
+        "NAS": "The Falange's 'dialectic of fists and pistols' and wartime repression: 2.",
+        "SUL": "Terror and mystery police are the regime's practice: 2.",
+        "SF": "Socialist feminists reject terror as a method, though they accept revolution: -2."
+      }
+    },
+    "leader.4": {
+      "0": "PIP",
+      "-1": "STC CO IS NAS SF RF EUR",
+      "-2": "COA SUL TRA CRA",
+      "-3": "LIF HF",
+      "why": "Ostracism: a vote to exile an over-mighty politician who broke no law: only direct-democracy camps are open, rule-of-law camps reject it.",
+      "notes": {
+        "LIF": "No punishment without law: -3.",
+        "HF": "The Constitution bars bills of attainder and Hamilton defended due process: -3.",
+        "PIP": "Direct-democracy sympathy offset by civil-liberty commitments: 0.",
+        "COA": "Hybrid regimes use legal harassment of rivals, not open vote-based exile, and would not give the people the power: -2."
+      }
+    },
+    "economy.ownership.1": {
+      "0": "COA SUL PIP",
+      "1": "STC CO TRA",
+      "2": "LIF HF",
+      "3": "CRA",
+      "-1": "NAS RF EUR",
+      "-2": "IS SF",
+      "why": "Private rather than state firms as the economic engine: liberal and commercial-republic camps agree, structuralists and socialists prefer public enterprise.",
+      "notes": {
+        "IS": "State enterprises and public credit are part of the CEPAL programme: -2.",
+        "HF": "Hamilton's commercial republic relied on private manufacturing and banking: 2.",
+        "SF": "Socialist feminists favour social ownership and public care provision: -2.",
+        "CRA": "Private property and markets without the state: 3."
+      }
+    }
+  }
+}

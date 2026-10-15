@@ -1,0 +1,22 @@
+{
+  "rater": "B",
+  "block": "B25",
+  "items": {
+    "labour.10": {
+      "0": "IS RF TRA CRA PIP",
+      "1": "SUL STC NAS LIF HF EUR",
+      "2": "COA CO",
+      "-1": "SF",
+      "split": "LIF IS",
+      "why": "Divides camps that treat strikes as a disruptive breach of social peace (to be minimised) from those that see them as a legitimate lever of workers power; corporatist and hybrid-authoritarian regimes ban or choke strikes, socialist feminism defends them more freely.",
+      "notes": {
+        "COA": "Hybrid regimes keep unions legal but channel disputes into official mediation and penalise wildcat strikes (Russia, Turkey): 2.",
+        "STC": "Estado Novo Estatuto do Trabalho Nacional (1933) made strikes and lockouts crimes, so it agrees only with the restraint, not the permission: 1.",
+        "NAS": "Falange 27 points reject class struggle and strikes in favour of vertical syndicates, but its social radicalism stops short of total agreement: 1.",
+        "SF": "Strikes are the main collective weapon against capital and unpaid care labour (Bread and Roses, 1912; Italian wages-for-housework): -1.",
+        "CO": "Etzioni and Sandel stress mediation and shared obligation over confrontation: 2.",
+        "LIF": "Treats the right to strike as legitimate yet normally a last step after bargaining; adherents differ on how strictly: 1."
+      }
+    }
+  }
+}

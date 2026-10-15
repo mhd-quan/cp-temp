@@ -1,0 +1,58 @@
+{
+  "family": {
+    "id": "market-socialism",
+    "name": "Xã hội chủ nghĩa thị trường",
+    "en": "Market socialism",
+    "summary": "Giữ mục tiêu xã hội chủ nghĩa và vai trò chủ đạo của nhà nước hay tập thể, nhưng dùng thị trường và giá cả để phân bổ nguồn lực."
+  },
+  "variants": [
+    {
+      "id": "reform-socialism",
+      "name": "Chủ nghĩa xã hội cải cách",
+      "en": "Reform socialism (Deng, Đổi Mới)",
+      "summary": "Một đảng giữ quyền lãnh đạo, mở cửa cho thị trường, kinh tế tư nhân và vốn nước ngoài, còn doanh nghiệp nhà nước giữ các vị trí then chốt; cải cách thận trọng, dò đá qua sông.",
+      "exemplars": ["Đặng Tiểu Bình (cải cách từ 1978)", "Đổi Mới (Việt Nam, 1986)"],
+      "period": "1978–nay",
+      "axes": { "economy": 45, "distribution": 55, "trade": 70, "power": 10, "liberty": 25, "elites": 25, "lifestyle": 40, "religion": 20, "identity": 35, "environment": 25, "foreign": 50, "change": 20 },
+      "facets": { "economy.ownership": 35, "economy.planning": 70, "economy.steering": 25, "elites.decision": 15, "elites.rank": 55, "elites.trust": 10, "liberty.expression": 10, "liberty.justice": 25, "liberty.privacy": 30, "foreign.force": 35, "foreign.rules": 40, "foreign.intervention": 80, "change.pace": 15, "change.means": 10, "change.depth": 30, "religion.state": 15, "religion.law": 10, "religion.public": 40 },
+      "status": "draft",
+      "raters": ["claude"]
+    },
+    {
+      "id": "titoism",
+      "name": "Tự quản Nam Tư",
+      "en": "Titoism (workers' self-management)",
+      "summary": "Xí nghiệp do hội đồng công nhân tự quản và cạnh tranh trên thị trường; một đảng nhưng không theo Moskva; đi đầu phong trào Không liên kết.",
+      "exemplars": ["Josip Broz Tito", "Nam Tư (1950–1980)", "Edvard Kardelj"],
+      "period": "1950–1991",
+      "axes": { "economy": 30, "distribution": 25, "trade": 55, "power": 25, "liberty": 30, "elites": 55, "lifestyle": 50, "religion": 20, "identity": 55, "environment": 35, "foreign": 70, "change": 40 },
+      "facets": { "economy.ownership": 15, "economy.planning": 60, "economy.steering": 25, "elites.decision": 65, "elites.rank": 60, "elites.trust": 40, "power.pluralism": 5, "power.checks": 20, "power.local": 55, "foreign.force": 50, "foreign.rules": 70, "foreign.intervention": 90 },
+      "status": "draft",
+      "raters": ["claude"]
+    },
+    {
+      "id": "lange-socialism",
+      "name": "Xã hội chủ nghĩa thị trường dân chủ",
+      "en": "Democratic market socialism (Lange, Roemer)",
+      "summary": "Các xí nghiệp thuộc sở hữu công hay xã hội nhưng cạnh tranh với nhau trên thị trường, trong một nền dân chủ đa đảng.",
+      "exemplars": ["Oskar Lange", "John Roemer", "David Schweickart"],
+      "period": "1936–nay",
+      "axes": { "economy": 35, "distribution": 20, "trade": 60, "power": 75, "liberty": 70, "elites": 55, "lifestyle": 65, "religion": 30, "identity": 65, "environment": 50, "foreign": 65, "change": 45 },
+      "facets": { "economy.ownership": 10, "economy.planning": 70, "economy.steering": 30 },
+      "status": "draft",
+      "raters": ["claude"]
+    },
+    {
+      "id": "goulash-communism",
+      "name": "Chủ nghĩa xã hội gulyás",
+      "en": "Goulash communism (Kádár)",
+      "summary": "Giữ chế độ một đảng và kế hoạch hoá, nhưng nới lỏng đời sống riêng và tiêu dùng: ai không chống chúng ta là đứng về phía chúng ta.",
+      "exemplars": ["János Kádár", "Hungary (1960–1988)"],
+      "period": "1960–1988",
+      "axes": { "economy": 25, "distribution": 25, "trade": 45, "power": 10, "liberty": 30, "elites": 25, "lifestyle": 50, "religion": 20, "identity": 45, "environment": 30, "foreign": 40, "change": 20 },
+      "facets": { "economy.ownership": 15, "economy.planning": 35, "economy.steering": 25, "liberty.expression": 15, "liberty.justice": 35, "liberty.privacy": 40 },
+      "status": "draft",
+      "raters": ["claude"]
+    }
+  ]
+}

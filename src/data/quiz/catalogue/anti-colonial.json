@@ -1,0 +1,499 @@
+{
+  "parties": [
+    {
+      "id": "viet-minh",
+      "name": "Việt Nam Độc lập Đồng minh Hội",
+      "abbr": "Việt Minh",
+      "country": "Việt Nam",
+      "period": "1941–1951",
+      "variants": [
+        "national-liberation-socialism"
+      ],
+      "emblem": {
+        "shape": "disc",
+        "field": "#da251d",
+        "ink": "#ffff00",
+        "motif": "star"
+      }
+    },
+    {
+      "id": "nlf-south-vietnam",
+      "name": "Mặt trận Dân tộc Giải phóng miền Nam Việt Nam",
+      "country": "Việt Nam",
+      "period": "1960–1977",
+      "variants": [
+        "national-liberation-socialism"
+      ],
+      "emblem": {
+        "shape": "disc",
+        "field": "#da251d",
+        "ink": "#ffff00",
+        "motif": "star",
+        "ring": "#3399ff"
+      }
+    },
+    {
+      "id": "paigc",
+      "name": "Đảng châu Phi vì Độc lập của Guinea và Cabo Verde",
+      "abbr": "PAIGC",
+      "country": "Guinea-Bissau",
+      "period": "1956–nay",
+      "variants": [
+        "national-liberation-socialism"
+      ],
+      "emblem": {
+        "shape": "shield",
+        "field": "#ce1126",
+        "ink": "#000000",
+        "motif": "star",
+        "ring": "#fcd116"
+      }
+    },
+    {
+      "id": "kmt",
+      "name": "Trung Quốc Quốc dân Đảng",
+      "abbr": "KMT",
+      "country": "Trung Hoa Dân Quốc",
+      "period": "1919–nay",
+      "variants": [
+        "three-principles"
+      ],
+      "emblem": {
+        "shape": "disc",
+        "field": "#000094",
+        "ink": "#ffffff",
+        "motif": "sun"
+      }
+    },
+    {
+      "id": "vnqdd",
+      "name": "Việt Nam Quốc dân Đảng",
+      "abbr": "VNQDĐ",
+      "country": "Việt Nam",
+      "period": "1927–1975",
+      "variants": [
+        "three-principles"
+      ],
+      "emblem": {
+        "shape": "disc",
+        "field": "#0055a4",
+        "ink": "#ffffff",
+        "motif": "star",
+        "ring": "#ef4135"
+      }
+    },
+    {
+      "id": "viet-nam-quang-phuc-hoi",
+      "name": "Việt Nam Quang phục Hội",
+      "country": "Việt Nam",
+      "period": "1912–1925",
+      "variants": [
+        "three-principles"
+      ],
+      "emblem": {
+        "shape": "shield",
+        "field": "#f2c230",
+        "ink": "#c8102e",
+        "motif": "star-cluster"
+      }
+    },
+    {
+      "id": "arab-socialist-union",
+      "name": "Liên minh Xã hội chủ nghĩa Ả Rập",
+      "country": "Ai Cập",
+      "period": "1962–1978",
+      "variants": [
+        "nasserism"
+      ],
+      "emblem": {
+        "shape": "shield",
+        "field": "#ce1126",
+        "ink": "#f5c400",
+        "motif": "eagle"
+      }
+    },
+    {
+      "id": "baath-party",
+      "name": "Đảng Phục hưng Xã hội chủ nghĩa Ả Rập",
+      "abbr": "Ba'ath",
+      "country": "Syria",
+      "period": "1947–1966",
+      "variants": [
+        "nasserism",
+        "pan-nationalism"
+      ],
+      "emblem": {
+        "shape": "square",
+        "field": "#007a3d",
+        "ink": "#ffffff",
+        "motif": "globe-hemisphere-east",
+        "ring": "#ce1126"
+      }
+    },
+    {
+      "id": "fln-algeria",
+      "name": "Mặt trận Giải phóng Dân tộc",
+      "abbr": "FLN",
+      "country": "Algeria",
+      "period": "1954–nay",
+      "variants": [
+        "nasserism"
+      ],
+      "emblem": {
+        "shape": "disc",
+        "field": "#ffffff",
+        "ink": "#d21034",
+        "motif": "star-and-crescent",
+        "ring": "#006633"
+      }
+    },
+    {
+      "id": "inc",
+      "name": "Đảng Quốc đại Ấn Độ",
+      "abbr": "INC",
+      "country": "Ấn Độ",
+      "period": "1885–nay",
+      "variants": [
+        "gandhism",
+        "non-alignment",
+        "civic-nationalism"
+      ],
+      "emblem": {
+        "shape": "disc",
+        "field": "#ffffff",
+        "ink": "#000080",
+        "motif": "hand-palm",
+        "ring": "#ff6820"
+      }
+    },
+    {
+      "id": "tanu",
+      "name": "Liên minh Dân tộc châu Phi Tanganyika",
+      "abbr": "TANU",
+      "country": "Tanzania",
+      "period": "1954–1977",
+      "variants": [
+        "ujamaa"
+      ],
+      "emblem": {
+        "shape": "disc",
+        "field": "#1eb53a",
+        "ink": "#fcd116",
+        "motif": "torch",
+        "ring": "#000000"
+      }
+    },
+    {
+      "id": "baath-iraq",
+      "name": "Đảng Ba'ath (chi bộ Iraq)",
+      "abbr": "Ba'ath",
+      "country": "Iraq",
+      "period": "1951–2003",
+      "variants": [
+        "baathism"
+      ],
+      "emblem": {
+        "shape": "disc",
+        "field": "#000000",
+        "ink": "#ffffff",
+        "motif": "globe-hemisphere-east",
+        "ring": "#ce1126"
+      }
+    },
+    {
+      "id": "pni",
+      "name": "Đảng Dân tộc Indonesia",
+      "abbr": "PNI",
+      "country": "Indonesia",
+      "period": "1946–1973",
+      "variants": [
+        "sukarnoism"
+      ],
+      "emblem": {
+        "shape": "shield",
+        "field": "#ffffff",
+        "ink": "#000000",
+        "motif": "cow",
+        "ring": "#ce1126"
+      }
+    }
+  ],
+  "states": [
+    {
+      "id": "drv-1945-1976",
+      "name": "Việt Nam Dân chủ Cộng hoà",
+      "period": "1945–1976",
+      "note": "Hồ Chí Minh; kháng chiến chống Pháp và chống Mỹ",
+      "variants": [
+        "national-liberation-socialism",
+        "marxism-leninism"
+      ],
+      "flag": "vietnam"
+    },
+    {
+      "id": "guinea-bissau-1974-1980",
+      "name": "Guinea-Bissau",
+      "period": "1974–1980",
+      "note": "Luís Cabral, chế độ một đảng PAIGC",
+      "variants": [
+        "national-liberation-socialism"
+      ],
+      "flag": "guinea-bissau"
+    },
+    {
+      "id": "roc-1928-1949",
+      "name": "Trung Hoa Dân Quốc",
+      "period": "1928–1949",
+      "note": "Quốc dân Đảng cầm quyền, thời kỳ huấn chính",
+      "variants": [
+        "three-principles"
+      ],
+      "flag": "roc"
+    },
+    {
+      "id": "egypt-1956-1970",
+      "name": "Ai Cập",
+      "period": "1956–1970",
+      "note": "Gamal Abdel Nasser; quốc hữu hoá kênh đào Suez",
+      "variants": [
+        "nasserism",
+        "non-alignment",
+        "pan-nationalism"
+      ],
+      "flag": "uar"
+    },
+    {
+      "id": "algeria-1962-1978",
+      "name": "Algeria",
+      "period": "1962–1978",
+      "note": "Ben Bella rồi Boumédiène, chế độ một đảng FLN",
+      "variants": [
+        "nasserism"
+      ],
+      "flag": "algeria"
+    },
+    {
+      "id": "tanzania-1967-1985",
+      "name": "Tanzania",
+      "period": "1967–1985",
+      "note": "Julius Nyerere, từ Tuyên bố Arusha",
+      "variants": [
+        "ujamaa"
+      ],
+      "flag": "tanzania"
+    },
+    {
+      "id": "india-1947-1964",
+      "name": "Ấn Độ",
+      "period": "1947–1964",
+      "note": "Jawaharlal Nehru, kinh tế kế hoạch hoá",
+      "variants": [
+        "non-alignment"
+      ],
+      "flag": "india"
+    },
+    {
+      "id": "iraq-1968-2003",
+      "name": "Iraq",
+      "period": "1968–2003",
+      "note": "Đảng Ba'ath cầm quyền; từ 1979 là chế độ của Saddam Hussein",
+      "variants": [
+        "baathism"
+      ],
+      "flag": "iraq-1963"
+    },
+    {
+      "id": "syria-1963-2024",
+      "name": "Syria",
+      "period": "1963–2024",
+      "note": "Đảng Ba'ath cầm quyền; từ 1970 là chế độ của gia đình Assad",
+      "variants": [
+        "baathism"
+      ],
+      "flag": "uar"
+    },
+    {
+      "id": "indonesia-1959-1966",
+      "name": "Indonesia",
+      "period": "1959–1966",
+      "note": "Dân chủ có hướng dẫn, từ sắc lệnh tháng 7/1959 đến khi Sukarno trao quyền cho Suharto",
+      "variants": [
+        "sukarnoism"
+      ],
+      "flag": "indonesia"
+    }
+  ],
+  "figures": [
+    {
+      "id": "ho-chi-minh",
+      "name": "Hồ Chí Minh",
+      "life": "1890–1969",
+      "role": "Chủ tịch nước Việt Nam Dân chủ Cộng hoà",
+      "variant": "national-liberation-socialism",
+      "wiki": "Ho Chi Minh"
+    },
+    {
+      "id": "amilcar-cabral",
+      "name": "Amílcar Cabral",
+      "life": "1924–1973",
+      "role": "Lãnh tụ PAIGC, Guinea-Bissau và Cabo Verde",
+      "variant": "national-liberation-socialism",
+      "wiki": "Amílcar Cabral"
+    },
+    {
+      "id": "samora-machel",
+      "name": "Samora Machel",
+      "life": "1933–1986",
+      "role": "Tổng thống đầu tiên của Mozambique",
+      "variant": "national-liberation-socialism",
+      "wiki": "Samora Machel"
+    },
+    {
+      "id": "sun-yat-sen",
+      "name": "Tôn Trung Sơn",
+      "life": "1866–1925",
+      "role": "Nhà cách mạng, sáng lập Trung Quốc Quốc dân Đảng",
+      "variant": "three-principles",
+      "wiki": "Sun Yat-sen"
+    },
+    {
+      "id": "nguyen-thai-hoc",
+      "name": "Nguyễn Thái Học",
+      "life": "1902–1930",
+      "role": "Đảng trưởng Việt Nam Quốc dân Đảng",
+      "variant": "three-principles",
+      "wiki": "Nguyễn Thái Học"
+    },
+    {
+      "id": "phan-boi-chau",
+      "name": "Phan Bội Châu",
+      "life": "1867–1940",
+      "role": "Nhà cách mạng, lập Việt Nam Quang phục Hội",
+      "variant": "three-principles",
+      "wiki": "Phan Bội Châu"
+    },
+    {
+      "id": "gamal-abdel-nasser",
+      "name": "Gamal Abdel Nasser",
+      "life": "1918–1970",
+      "role": "Tổng thống Ai Cập",
+      "variant": "nasserism",
+      "wiki": "Gamal Abdel Nasser"
+    },
+    {
+      "id": "michel-aflaq",
+      "name": "Michel Aflaq",
+      "life": "1910–1989",
+      "role": "Nhà tư tưởng, đồng sáng lập Đảng Ba'ath",
+      "variant": "nasserism",
+      "wiki": "Michel Aflaq"
+    },
+    {
+      "id": "mahatma-gandhi",
+      "name": "Mahatma Gandhi",
+      "life": "1869–1948",
+      "role": "Lãnh tụ phong trào độc lập Ấn Độ",
+      "variant": "gandhism",
+      "wiki": "Mahatma Gandhi"
+    },
+    {
+      "id": "vinoba-bhave",
+      "name": "Vinoba Bhave",
+      "life": "1895–1982",
+      "role": "Môn đệ Gandhi, khởi xướng phong trào Hiến đất",
+      "variant": "gandhism",
+      "wiki": "Vinoba Bhave"
+    },
+    {
+      "id": "julius-nyerere",
+      "name": "Julius Nyerere",
+      "life": "1922–1999",
+      "role": "Tổng thống đầu tiên của Tanzania",
+      "variant": "ujamaa",
+      "wiki": "Julius Nyerere"
+    },
+    {
+      "id": "kenneth-kaunda",
+      "name": "Kenneth Kaunda",
+      "life": "1924–2021",
+      "role": "Tổng thống đầu tiên của Zambia",
+      "variant": "ujamaa",
+      "wiki": "Kenneth Kaunda"
+    },
+    {
+      "id": "jawaharlal-nehru",
+      "name": "Jawaharlal Nehru",
+      "life": "1889–1964",
+      "role": "Thủ tướng đầu tiên của Ấn Độ",
+      "variant": "non-alignment",
+      "wiki": "Jawaharlal Nehru"
+    },
+    {
+      "id": "sukarno",
+      "name": "Sukarno",
+      "life": "1901–1970",
+      "role": "Tổng thống đầu tiên của Indonesia",
+      "variant": "non-alignment",
+      "axes": {
+        "power": 30,
+        "liberty": 35
+      },
+      "wiki": "Sukarno"
+    },
+    {
+      "id": "norodom-sihanouk",
+      "name": "Norodom Sihanouk",
+      "life": "1922–2012",
+      "role": "Quốc vương, nguyên thủ Campuchia",
+      "variant": "non-alignment",
+      "axes": {
+        "power": 30
+      },
+      "wiki": "Norodom Sihanouk"
+    },
+    {
+      "id": "salah-al-din-al-bitar",
+      "name": "Salah al-Din al-Bitar",
+      "life": "1912–1980",
+      "role": "Đồng sáng lập Đảng Ba'ath, Thủ tướng Syria",
+      "variant": "baathism",
+      "wiki": "Salah al-Din al-Bitar",
+      "axes": {
+        "power": 25,
+        "liberty": 30
+      }
+    },
+    {
+      "id": "saddam-hussein",
+      "name": "Saddam Hussein",
+      "life": "1937–2006",
+      "role": "Tổng thống Iraq (1979–2003)",
+      "variant": "baathism",
+      "wiki": "Saddam Hussein"
+    },
+    {
+      "id": "hafez-al-assad",
+      "name": "Hafez al-Assad",
+      "life": "1930–2000",
+      "role": "Tổng thống Syria (1971–2000)",
+      "variant": "baathism",
+      "wiki": "Hafez al-Assad"
+    },
+    {
+      "id": "subandrio",
+      "name": "Subandrio",
+      "life": "1914–2004",
+      "role": "Ngoại trưởng Indonesia thời Dân chủ có hướng dẫn",
+      "variant": "sukarnoism",
+      "wiki": "Subandrio"
+    },
+    {
+      "id": "roeslan-abdulgani",
+      "name": "Roeslan Abdulgani",
+      "life": "1914–2005",
+      "role": "Nhà tuyên truyền chính của Manipol-USDEK",
+      "variant": "sukarnoism",
+      "wiki": "Roeslan Abdulgani"
+    }
+  ]
+}

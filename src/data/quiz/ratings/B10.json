@@ -1,0 +1,279 @@
+{
+  "rater": "B",
+  "block": "B10",
+  "items": {
+    "lifestyle.family.1": {
+      "0": "NOA PN",
+      "1": "TP NA GAN UJ BA SU MR AUC PE DI NC SC HS HES JU BC CR PA NAC BIC LE PM BK MO ME DS IF PER AP PAL EA CN EN IR ID BN RZ CLR NP PP BL NEOR",
+      "2": "CAE ARC MC XC KS NATC AM LEG VEF CT HI WA IB AD CI RT",
+      "3": "EC JM COR",
+      "-1": "MU CA PC RC POC TE SMCD CST ONC AMC NE GC GAU RET LT ETS TW NS DIR NAZ DE DEG CH AL COL RS CM REZ SN IM EB SDD JR WC TAR",
+      "-2": "AS GA NLS PG UT ML ST MA EU LU CC HO GU TH LC GS GM ES EM ELP CL NEO NDL LI OR CF RE SR LF MI ANC GE TI LS GOC CIN LN KE LZ JA NR PSD THW FA",
+      "-3": "AC IA DC TR ACK MDS US SL PR OB LL NM",
+      "split": "MU CR LE AP PAL BL",
+      "why": "Parental authority over adult children's career and marriage: Confucian, patriarchal-religious and dynastic orders say yes; liberal, socialist and anarchist traditions treat these as the adult's own choice.",
+      "notes": {
+        "EC": "The examination-state codes punished marriage without parents' command and the matchmaker; filial obedience was law: 3.",
+        "JM": "Meiji Civil Code (1898) required the household head's consent to marry: 3.",
+        "CAE": "Napoleonic Code art. 148: sons under 25 needed parental consent to marry: 2.",
+        "MC": "Mencius 3B3 scorns marriage without parents' orders, though 5A2 excuses Shun: 2.",
+        "CST": "Catechism 2230/2232: parents advise, but children have the right to choose their profession and state of life: -1.",
+        "HES": "Philosophy of Right §162 calls parent-initiated marriage the more ethical path, yet §206 leaves the estate to the individual's choice: 1.",
+        "DC": "Öcalan's jineology targets the patriarchal family; Rojava's laws ban forced and child marriage: -3.",
+        "ACK": "Angkar replaced parents entirely, assigning work and arranging marriages itself: -3.",
+        "PG": "Republic V: the rulers, not parents, arrange unions and assign each class's work: -2.",
+        "NAZ": "Hitler Youth put the child's duty to the Volk and Party above parents: -1."
+      }
+    },
+    "lifestyle.family.7": {
+      "0": "NOA SDD",
+      "1": "MU PC RC POC TE PG ML GS ETS TW DE CL NEO NDL LI SR TI CIN LN LZ SN EB NR PSD FA",
+      "2": "AC AS IA GA DC UT TR EU LU CC DEG EM CF LF MI OB GE LS JA THW",
+      "3": "MDS US GM ES ELP SL PR ANC LL NM",
+      "-1": "CA NLS UJ SU SC HS MA GU ACK ONC GC LC LT LE MO KS ME NS DIR CH OR AL RE GOC CM PN KE REZ JR WC TAR",
+      "-2": "TP NA GAN BA CAE MR AUC SMCD HES ST JU HO BC AMC TH NE GAU BIC RET PM BK DS NAZ PER AP COL PAL RS EA CN EN IR ID BN HI IM AD CLR NP PP BL NEOR",
+      "-3": "PE CST DI NC ARC CR PA NAC MC EC XC IF NATC JM AM LEG VEF CT WA IB RZ COR CI RT",
+      "split": "MU CA SC ACK LT ETS",
+      "why": "State neutrality among family forms vs a public privilege for traditional marriage: progressives, libertarians and anarchists agree; religious, Confucian, conservative and fascist camps defend marriage's special status.",
+      "notes": {
+        "CST": "Familiaris Consortio and the Charter of the Rights of the Family require the state to recognise the family founded on marriage as primary: -3.",
+        "ST": "The 1944 Family Edict stripped legal standing from unregistered unions, reversing the 1926 code: -2.",
+        "ML": "The 1926 Soviet code gave de facto unions the same standing as registered marriage: 1.",
+        "JA": "The Convention made marriage civil, allowed divorce (1792) and gave children born outside marriage inheritance rights (1793): 2.",
+        "ANC": "Wants the state out of marriage altogether; family forms are private contracts: 3.",
+        "KS": "The Arthashastra recognises eight forms of marriage as valid, though within a dharmic hierarchy: -1.",
+        "HES": "Philosophy of Right treats the marriage-based family as the first moment of ethical life the state must uphold: -2.",
+        "SDD": "Purely procedural (the people decide by referendum), no stake in which family forms are favoured: 0."
+      }
+    },
+    "lifestyle.family.2": {
+      "0": "NOA",
+      "1": "GAN HS ONC TH NE GC ETS TW BK CH OR AL RE COL SR GOC CM CIN LN SN SDD TAR FA",
+      "2": "MU CA DC PC RC POC TE UT TR EU LU CC LC GS US ES EM CL NDL LI CF GE TI LS EB NR PSD THW",
+      "3": "AC AS IA GA MDS GM DE DEG ELP SL NEO PR LF MI OB ANC LL NM",
+      "-1": "NLS TP NA UJ BA SU CAE MR AUC SMCD SC HES ML MA GU BC AMC GAU BIC RET LT NS DIR DS PER AP PAL RS EA CN PN KE LZ REZ ID BN IM AD JA JR WC PP BL",
+      "-2": "PE NC PG ST JU HO ACK ARC CR PA NAC LE PM MO XC KS ME AM LEG EN IR VEF HI WA IB CLR NP NEOR",
+      "-3": "CST DI MC EC IF NAZ NATC JM CT RZ COR CI RT",
+      "split": "AMC RE SR RS",
+      "why": "Voluntary childlessness as a legitimate private choice vs procreation as a duty to lineage, nation or God: liberal, libertarian, green and anarchist camps agree; Confucian, Catholic, Jewish-religious and fascist/pronatalist camps reject it.",
+      "notes": {
+        "MC": "Mencius 4A26: of the three unfilial acts, having no posterity is the worst: -3.",
+        "CST": "Humanae Vitae and canon law (c. 1101) treat deliberately excluding children as contrary to marriage itself: -3.",
+        "IF": "Mussolini's 1927 bachelor tax and the 'Battle for Births': -3.",
+        "RZ": "'Be fruitful and multiply' is the first mitzvah, read also as a national duty: -3.",
+        "CA": "Tolstoy's Afterword to the Kreutzer Sonata holds chastity, even within marriage, as the Christian ideal: 2.",
+        "GAN": "Gandhi took a vow of brahmacharya in marriage and preached self-restraint over procreation: 1.",
+        "MO": "Mozi's 'Moderation in Expenditure' wants early marriage to multiply the population: -2.",
+        "DE": "Naess's platform calls for a substantial decrease in human population: 3.",
+        "CLR": "Augustus's lex Papia Poppaea penalised childless citizens: -2."
+      }
+    },
+    "elites.decision.6": {
+      "0": "CA TP PA NAC DI ETS TW DE LL RS LS EB",
+      "1": "IA GA NLS GAN UJ ML MA EU HO GU RET MDS LT US GM ES DEG PER PR RE GE CIN LN LZ SN JA WC BL",
+      "2": "MU TR LU GS TI JR CH ELP AP NP PP TAR",
+      "3": "AC AS DC CC AD SDD",
+      "-1": "NA NOA CAE PC RC POC SMCD CST NC SC UT ST JU ACK AMC CR TH GC MC LE MO ME NS EM NEO NDL LI CF SR LF MI ANC PAL GOC CM CN EN IR PN REZ ID BN HI IB IM NR NM PSD THW",
+      "-2": "BA SU MR AUC PE HS ONC NE LC GAU BIC EC PM BK XC KS DIR DS IF NATC JM CL SL OR AL COL OB AM LEG KE VEF WA RZ CLR FA COR RT",
+      "-3": "TE PG HES BC ARC NAZ EA CT CI NEOR",
+      "split": "UT NM PR GAN ID CL ML MA",
+      "why": "The delegate-versus-trustee question: bottom-up and council traditions want mandated, recallable delegates, while Burkean, elitist, theocratic and authoritarian camps hold that rulers judge for themselves or answer to something higher than constituents.",
+      "notes": {
+        "BC": "Burke's 1774 Speech to the Electors of Bristol: a representative owes his judgment, and 'your opinion' must not sacrifice it: -3.",
+        "HES": "Hegel, Philosophy of Right §309: deputies are not mandatories bound by instructions: -3.",
+        "CC": "Pannekoek and the Dutch-German Left: councils of recallable, mandated delegates are the core form: 3.",
+        "GAU": "Fifth Republic constitution Art. 27 bans the imperative mandate; De Gaulle despised party and constituency pressure: -2.",
+        "AD": "Athenian assembly decided directly; magistrates and envoys executed instructions and were audited at euthynai: 3.",
+        "KE": "Turkish constitution (Art. 80): deputies represent the whole nation, not their constituencies: -2."
+      }
+    },
+    "liberty.justice.6": {
+      "0": "PER GAU RET MO TI CN PN CLR COL",
+      "1": "TP NOA CAE PG HS ARC TH NE BIC EC PM ME NS GOC GU AL LEG EN IR KE ID CT BN HI RZ AD JA JR TAR BL NEOR AP IM",
+      "2": "RS NLS NA BA SU MR PE ML HO AMC CR PA NAC XC KS DS IF NATC JM AM NP WC IB COR CI RT",
+      "3": "LE ST MA JU ACK VEF WA PP NAZ AUC",
+      "-1": "UJ PC RC TE NC SC HES BC ONC GC LC MC DIR EM NDL NEO LI OR RE THW CM CIN LN REZ SN NR EA",
+      "-2": "POC SMCD DI UT TR EU GS US ETS BK DE DEG CH ELP CL SL PR CF SR PAL LZ SDD NM PSD FA LS",
+      "-3": "AC AS MU IA GA CA DC GAN CST LU CC MDS LT TW GM ES LF MI OB ANC GE LL EB",
+      "split": "RS NLS NOA NC BN HI TP ML PER",
+      "why": "Capital punishment for large-scale drug dealing divides authoritarian, communist-state, Islamist and law-and-order camps (for) from anarchists, libertarians, greens, pacifists and Catholic social teaching (against, either on life or on victimless-crime grounds).",
+      "notes": {
+        "LF": "Drug dealing is a voluntary exchange with no victim in Rothbard/Friedman-style libertarianism, so any penalty, let alone death, is illegitimate: -3.",
+        "CST": "Catechism 2267 as revised by Francis (2018): the death penalty is inadmissible in every case: -3.",
+        "TW": "Laozi ch. 74: if people do not fear death, why threaten them with it: -3.",
+        "VEF": "Iran executes traffickers under the Anti-Narcotics Law, justified as fasad fil-ard (corruption on earth): 3.",
+        "LE": "Han Feizi: heavy punishment for light offences deters crime; death for a grave harm to society follows directly: 3.",
+        "AUC": "Singapore's Misuse of Drugs Act mandatory death for trafficking above fixed weights, and China's equivalent: 3."
+      }
+    },
+    "elites.trust.5": {
+      "0": "NOA RC NC UT AMC GAU US ETS EU DE TW MO NDL SR MI GE LL LS REZ CIN LN PN ID HI IB RZ NM",
+      "1": "IA NA CAE CST HO GU TR CR MC MDS GS GM ES DEG BN EB LZ SN EN ANC LF TI CLR NR",
+      "2": "AC MU GA CA NLS GAN UJ SU DI MA LU RET LT PA NAC PER CN WC TAR BL JA PAL",
+      "3": "AS DC CC ACK CH ELP AP AD SDD JR NP PP",
+      "-1": "TP BA PE PC POC SMCD SC ML ONC TH GC BK NS PR CL SL CF GOC CM IR KE IM RS RE PSD THW NAZ",
+      "-2": "MR AUC HS ST JU BC NE LC BIC EC XC KS ME DIR DS IF NATC JM EM NEO LI OR OB LEG CT WA FA COR RT",
+      "-3": "TE PG HES LE PM ARC AL COL AM EA VEF CI NEOR",
+      "split": "ML GAU NOA TW UT LF CAE",
+      "why": "Populist and grassroots camps hold that ordinary people know the national good better than elites; technocratic, meritocratic, aristocratic, theocratic and Legalist camps hold the reverse; liberal and moderate traditions sit in the middle.",
+      "notes": {
+        "PM": "Daniel Bell, The China Model: the case for meritocracy is that most voters are not competent judges of national policy: -3.",
+        "JR": "Jefferson, Notes on the State of Virginia: cultivators of the earth are the chosen people and the safest depositories of liberty: 3.",
+        "ACK": "Democratic Kampuchea idealised the 'base people' peasantry and purged intellectuals and the educated as contaminated: 3.",
+        "CLR": "Machiavelli, Discourses I.58: the people are wiser and more constant than princes: 1.",
+        "LE": "Shang Yang: the people are to be governed, not consulted; only the sage-ruler sees the long-term good: -3.",
+        "AL": "Heller/Schmitt-era authoritarian liberalism insulates policy from mass pressure because the masses cannot be trusted with it: -3."
+      }
+    },
+    "elites.decision.3": {
+      "0": "DE NLS NOA NC SC GU ACK CR NAC US ETS TW PR SR LF MI ANC PAL LS EN LN IR PN LZ REZ ID JA",
+      "1": "NA BA SU CAE PE PC POC SMCD UT ML HO AMC TH GC GAU MC BK NS RS GOC CL SL NEO NDL LI CF RE CLR OB CM BN HI IB IM RZ PSD THW",
+      "2": "TP MR AUC HS HES ST JU BC ONC NE LC BIC KS ME DIR DS MO NATC JM EM OR FA CT WA KE LEG COR CI RT",
+      "3": "TE PG IF NAZ EC LE PM XC AM EA VEF AL COL NEOR ARC",
+      "-1": "IA CA GAN UJ RC CST DI MA TR EU PA RET MDS GM ES DEG PER GE LL TI CN CIN SN EB JR NR WC NM",
+      "-2": "AC MU GA LT GS LU CH ELP AP NP PP TAR BL",
+      "-3": "AS DC CC AD SDD",
+      "split": "ML NLS TR RC PR LF CR",
+      "why": "Whether ordinary citizens are too poorly informed for national decisions: technocrats, guardians, meritocrats, monarchists and fascists agree; council, assembly and direct-democracy camps strongly deny it; populists deny it too, while liberals and conservatives lean mildly toward agreement.",
+      "notes": {
+        "PG": "Plato, Republic VI: the many cannot philosophise, so only trained guardians can judge the common good: 3.",
+        "HES": "Hegel, Philosophy of Right §301-§316: public opinion is a mix of truth and error; informed civil servants decide: 2.",
+        "TP": "Sun Yat-sen's three stages (military rule, tutelage, constitutional) rest on most citizens being 'unaware' (bu zhi bu jue) and needing guidance: 2.",
+        "AD": "Athenian ekklesia of ordinary citizens debated and decided war, taxes and law directly, with no expert class: -3.",
+        "CC": "Pannekoek: workers' councils can decide and run society themselves; vanguards and experts are the enemy: -3.",
+        "LF": "Hayek-style knowledge problem is about dispersed knowledge, not ignorant voters, so adherents are split on the wording: 0."
+      }
+    },
+    "elites.trust.6": {
+      "0": "RT MU TP NOA BA PE PC RC POC SMCD NC SC UT EU US MC BK NS DS IF NAZ NATC JM ONC CR PA NAC GAU SL PR NDL RE SR GE LL GOC CM LEG CIN LN IR PN VEF ID CT HI WA IM RZ AD JA SDD NR WC NM PSD",
+      "1": "AC DC NA SU CST ST TR LU CC GC MDS ETS TW MO DE DEG GM CH PER ELP RS TI CN SN EN BN IB CLR JR RET",
+      "2": "AS CA GA NLS UJ DI ML JU ES GS LT AP KE BL",
+      "3": "GAN MA HO GU ACK LZ EB",
+      "-1": "IA CAE MR AUC HS HES BC AMC TH LC BIC LE PM XC KS ME DIR EM CL LI OR CF LF MI ANC PAL LS AM EA REZ NP PP TAR THW FA COR CI",
+      "-2": "TE PG ARC NE EC NEO AL COL OB NEOR",
+      "split": "ML CN RS TW ST",
+      "why": "The 'go down to the people' ethic: Maoist, Guevarist, Khmer, Hoxhaist, Gandhian, Labour-Zionist and engaged-Buddhist camps make it a duty, while technocratic, meritocratic, aristocratic and elite-liberal camps see intellectuals as there to lead, not to be re-educated.",
+      "notes": {
+        "MA": "Mao's xiafang movement and 1968 sending-down of educated youth to farms and factories: 3.",
+        "ACK": "Democratic Kampuchea sent intellectuals and city people to the rice fields as re-education: 3.",
+        "GAN": "Gandhi's Constructive Programme and 'India lives in her villages': educated Indians must live and work in villages: 3.",
+        "EB": "Thich Nhat Hanh's School of Youth for Social Service (1964) sent students into villages to serve and live with peasants; Sarvodaya Shramadana is similar: 3.",
+        "LZ": "A. D. Gordon's religion of labour and the kibbutz ideal: Jewish intellectuals return to the land and manual work: 3.",
+        "GU": "Guevara, Socialism and Man in Cuba: voluntary labour, cane-cutting and the New Man, with intellectuals reshaped by work: 3."
+      }
+    },
+    "elites.trust.3": {
+      "0": "TP NOA AUC PE PC POC TE SMCD PG SC HS HES UT EU BC ARC GC LC US MC EC PM BK XC KS ME NS DIR DS GM DE CL SL NEO PR NDL OR AL RE COL SR OB GE LL RS TI LS GOC AM EA CM CIN LN IR PN LZ SN ID IM EB AD CLR JA SDD NR NM PSD THW",
+      "1": "MU IA CA NLS NA UJ BA SU MR RC CST DI NC ML ST TR JU LU GU ONC GAU BIC MDS LT GS ETS LE TW MO IF NATC JM ES DEG LF MI ANC LEG CN EN KE REZ VEF CT BN WA RZ JR COR",
+      "2": "AC AS GA DC GAN CAE MA CC HO ACK AMC CR TH NE PA NAC RET CH PER ELP AP NAZ HI IB WC TAR PAL CI RT NEOR",
+      "3": "NP PP BL",
+      "-1": "EM LI CF FA",
+      "split": "ML PR RE TE PM",
+      "why": "A descriptive charge that intellectuals and media are out of touch with workers: populist, national-conservative, anti-media Marxist-Leninist and anarchist camps agree strongly, while technocratic, liberal-institutional and expert-trusting camps decline to endorse it.",
+      "notes": {
+        "NP": "Mudde-style populism sets 'the pure people' against 'the corrupt elite' of academia and media: 3.",
+        "BL": "Maurice Glasman's Blue Labour blames a metropolitan liberal intelligentsia for abandoning working-class communities: 3.",
+        "NEOR": "Yarvin's 'Cathedral' (universities plus press) is the thesis, though aimed at power rather than at class distance: 2.",
+        "HI": "Hindutva polemic against 'Lutyens' elite, 'secular' English-language media and JNU intellectuals as cut off from ordinary Hindus: 2.",
+        "AC": "Chomsky-Herman 'Manufacturing Consent' lineage: corporate media and the credentialed class serve power, not workers: 2.",
+        "FA": "The Webbs wanted an expert intelligentsia to lead; they would not accept that it is out of touch: -1."
+      }
+    },
+    "liberty.justice.8": {
+      "0": "NLS TP NOA PC ML MA GU ONC GC MC NS DIR CH CL LI OR RE TI GOC EA CIN LN SN IM AD CLR JR",
+      "1": "UJ RC POC TE SMCD DI PG SC UT TR EU CC RET GS US TW DE EM NDL CF SR LF MI GE LS ID LZ SDD NR PSD FA",
+      "2": "AS MU IA GA GAN CST LU MDS LT ETS BK GM ES DEG ELP SL PR ANC LL EB NM",
+      "3": "AC CA DC",
+      "-1": "NA SU CAE AUC PE NC HS JU HO CR NE LC GAU BIC BC EC PM MO ME DS PER AP NEO AL COL PAL RS CM CN IR PN KE REZ BN HI IB RZ JA TAR THW BL CI RT",
+      "-2": "BA MR HES ST ACK ARC AMC TH PA NAC XC KS IF NATC JM OB AM LEG EN VEF CT WA WC NP COR NEOR",
+      "-3": "LE NAZ PP",
+      "split": "CR ID LF UT ML MA TI PR",
+      "why": "Whether prison should give way to community service, restorative justice or treatment: anarchists, Christian pacifists, greens, social liberals and the Nordic model say yes; Legalists, fascists, penal populists and retributivist right-wing camps want punishment kept in custody.",
+      "notes": {
+        "AC": "Kropotkin, Prisons and Their Moral Influence on Prisoners: prisons breed crime; replace them with fraternal treatment: 3.",
+        "CA": "Tolstoy, Resurrection and The Kingdom of God Is Within You: punishment is unchristian; answer evil without violence or caging: 3.",
+        "ANC": "Rothbard, The Ethics of Liberty: restitution to the victim replaces punishment and state prisons: 2.",
+        "LE": "Shang Yang and Han Fei: heavy penalties and certain punishment are the whole method of rule: -3.",
+        "PP": "Penal populism is defined by demands for tougher, longer custodial sentences: -3.",
+        "ID": "Qur'anic qisas and diyya: victim's forgiveness or blood-money settlement is encouraged over punishment, though hudud stay: 1.",
+        "HES": "Hegel, Philosophy of Right §100: punishment is the criminal's own right and wrong must be annulled, so it cannot be swapped for therapy: -2."
+      }
+    },
+    "liberty.expression.5": {
+      "0": "NOA TE DI BC ONC NAC CR GC GAU RET LT US EC TW BK NS DIR DE PR TI CN PN ID IM WC NP THW FA BL",
+      "1": "GA TP PC POC SMCD CST NC SC TH NE PA MDS GS ETS MC GM ES DEG EM ELP AP NEO LI OR LS CM TAR NM PSD LN LZ REZ SN EB CLR NR",
+      "2": "AC AS MU CA DC GAN RC AMC TR EU CC LC SL NDL CF RE COL SR LF GE PAL CIN AD SDD JR",
+      "3": "IA UT LU CL MI OB ANC LL",
+      "-1": "NLS SU NA UJ PE HES ARC BIC PM MO ME DS CH PER AL GOC EA LEG EN KE HI IB RZ PP NEOR GU",
+      "-2": "CAE MR AUC HS ML MA HO RS XC KS AM IR CT BN JA RT BA",
+      "-3": "PG ST JU ACK LE IF NAZ NATC JM VEF WA COR CI",
+      "split": "PR ML NAC NP CR IB LT AMC",
+      "why": "Protection of speech the majority finds offensive: classical-liberal, libertarian and Millian camps treat it as doctrine, while Platonic, Legalist, fascist, theocratic and Marxist-Leninist state camps hold that dangerous speech should be suppressed.",
+      "notes": {
+        "UT": "J. S. Mill, On Liberty ch. 2: even an opinion held by all but one person may not be silenced: 3.",
+        "LU": "Luxemburg, The Russian Revolution (1918): freedom is always freedom for the one who thinks differently: 3.",
+        "PG": "Plato, Republic II-III: poets and storytellers whose tales corrupt the young are to be censored by the guardians: -3.",
+        "ST": "Stalinist state: 'anti-Soviet agitation' (Art. 58) was a capital offence and the press a Party instrument: -3.",
+        "JA": "Saint-Just/Robespierre: no liberty for the enemies of liberty; the Law of Suspects and press closures in 1793: -2.",
+        "AD": "Athenian isegoria and parrhesia gave every citizen a right to speak in the assembly, including to offend: 2.",
+        "TR": "Trotsky, The Revolution Betrayed: soviets need freedom of parties and press; adherents would defend unpopular speech: 2."
+      }
+    },
+    "elites.decision.1": {
+      "0": "IA CA NLS GAN UJ NOA BA SU PE PC POC SMCD CST NC SC UT ML ST MA HO GU ACK CR TH PA NAC GC LC LT US MC TW NS DIR DS NAZ NATC EM NEO NDL LI SR LF ANC PAL RS TI GOC CM CN EN IR PN KE LZ REZ IM EB CLR NR NM PSD THW BK",
+      "1": "AC AS MU GA NA RC DI TR EU GS ETS DE DEG ES MDS PER CL SL PR CF RE MI GE LL LS ID LN JR WC PP RET BL",
+      "2": "DC TP CAE LU CC GM ELP AP CIN SN AD JA NP TAR",
+      "3": "GAU CH SDD",
+      "-1": "MR AUC TE HS JU BC ONC AMC NE BIC EC MO XC ME OR COL OB IF JM LEG VEF BN HI IB RZ FA NEOR",
+      "-2": "PG HES ARC LE PM KS AL AM EA CT WA COR CI RT",
+      "split": "NLS RS CAE NA ML AMC MI CR",
+      "why": "Whether amending the constitution requires a national referendum: Swiss direct democrats, Gaullists, Chavistas and plebiscitary populists treat it as essential, while elitist, monarchist, theocratic and Burkean camps think constitutional change belongs to rulers, parliaments or the sacred order.",
+      "notes": {
+        "SDD": "Swiss Federal Constitution Art. 140: every constitutional amendment is subject to a mandatory popular vote and a majority of cantons: 3.",
+        "GAU": "De Gaulle: the 1958, 1962 and 1969 referenda and Constitution Art. 89 make the people the final arbiter of constitutional change; he resigned after losing in 1969: 3.",
+        "CH": "Chávez's 1999 constituent process was approved by referendum and the 1999 Constitution (Art. 341-346) requires popular approval of amendments: 3.",
+        "WA": "The Qur'an and Sunna are the constitution of Saudi Arabia (Basic Law Art. 1); a popular vote on altering them is not conceivable: -2.",
+        "CAE": "Napoleon III built legitimacy on plebiscites (1851, 1852, 1870) and constitutional change by direct appeal to the people: 2.",
+        "OB": "Rand held individual rights are not subject to a vote; a majority poll on the constitution threatens them: -1."
+      }
+    },
+    "elites.decision.4": {
+      "0": "IA CA NLS TP NA NOA SU PC SMCD CST SC UT EU HO GU GC RET US ETS TW DE CH SL CF RE LF MI ANC GE PAL LS CN LN LZ JR NP WC PP PSD THW",
+      "1": "MU GAN UJ POC DI MA TR LU MDS LT GS ES PR LL TI CIN SN EB CLR SDD NR TAR NM BL ELP AP",
+      "2": "AC AS GA DC RC GM DEG CC",
+      "3": "AD",
+      "-1": "BA CAE PE NC ML ACK CR PA NAC GAU MC BK MO ME NS EM PER CL NEO NDL LI SR OB RS GOC EN IR PN KE REZ ID BN HI IM RZ JA",
+      "-2": "TE MR AUC HS HES ST JU ONC AMC TH NE LC BIC EC LE XC KS DIR DS NATC JM OR CM CT IB FA",
+      "-3": "PG BC ARC PM IF NAZ AL COL AM EA LEG VEF WA COR CI RT NEOR",
+      "split": "ELP NR RC LF SL CLR PR",
+      "why": "Whether a lottery-picked citizens' council can match career politicians: Athenian democrats, assembly-based anarchists, greens and deliberative centrists say yes, while Platonic, Burkean, meritocratic, monarchist and traditionalist camps insist public judgment is a trained, hereditary or divinely guided skill.",
+      "notes": {
+        "AD": "Aristotle, Politics IV.9: appointment by lot is democratic, election oligarchic; the Athenian boule and juries were chosen by lot: 3.",
+        "BC": "Burke, Reflections: the state must not be left to 'hairdressers or tallow-chandlers'; statesmanship needs training and inherited wisdom: -3.",
+        "PM": "Daniel Bell's meritocracy rests on selecting leaders by tested competence rather than lottery or vote: -3.",
+        "RC": "Radical centrists back Irish-style citizens' assemblies and deliberative polling as a fix for partisan gridlock: 2.",
+        "DEG": "Extinction Rebellion and degrowth movements demand citizens' assemblies on climate decisions: 2.",
+        "PG": "Plato, Republic VI: choosing rulers by lot is like choosing a ship's pilot by lot; only philosophers are fit to rule: -3."
+      }
+    },
+    "liberty.privacy.9": {
+      "0": "NLS TP GAN UJ NOA SU PC RC POC NC SC UT TR EU LU CC BC ONC TH NAC GC LC GAU MDS LT GS US ETS MC BK ES PER PR NDL RE SR GE TI LS GOC CM LEG CN CIN EN LN PN LZ REZ ID BN HI IB IM RZ AD WC PP PSD RT NEOR",
+      "1": "AC AS CA DC SMCD CST DI AMC CR RET TW DEG GM DE ELP AP SL OR COL LL SN CT EB CLR NR NP BL",
+      "2": "MU IA GA PA CL MI OB LF PAL SDD JR TAR",
+      "3": "ANC",
+      "-1": "NA BA CAE MR PE TE HES ML GU ACK ARC NE BIC EC PM MO XC ME NS DIR DS EM CH NEO LI CF AL RS AM EA IR KE JA NM THW FA COR CI",
+      "-2": "AUC PG HS ST MA JU HO LE KS IF NATC JM VEF WA",
+      "-3": "NAZ",
+      "split": "NEO CR GS CH LT SMCD NM",
+      "why": "A guaranteed right to untraceable cash: libertarians, anarcho-capitalists, individualist anarchists and agrarian or Swiss direct-democratic camps defend it as a shield against surveillance and state money power, while surveillance-minded authoritarian, fascist and totalitarian camps oppose it; most others have little stake.",
+      "notes": {
+        "ANC": "Agorist and Rothbardian practice relies on untraceable exchange (cash, later crypto) to escape state control; cash anonymity is core: 3.",
+        "SDD": "Swiss popular initiative 'Bargeld ist Freiheit' and the 2024-25 move to write cash into the Federal Constitution: 2.",
+        "AUC": "China's e-CNY and Singapore-style digital payment systems tie spending to identity and enable state oversight: -2.",
+        "KS": "Arthashastra book I-II: a spy network watches merchants and citizens; traceable money and trade suit the state: -2.",
+        "NM": "Sweden and Norway are near-cashless and social-democratic adherents see digital payment as normal and anti-crime, though a right to cash is debated: -1.",
+        "NEO": "Rogoff's The Curse of Cash argues for phasing out large-denomination notes to curb crime and tax evasion: -1."
+      }
+    }
+  }
+}

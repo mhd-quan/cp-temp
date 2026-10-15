@@ -1,0 +1,545 @@
+/* Ấn bản: homepage, below its first screen. The cover is drawn from the
+   head (home.css); everything after it on the page is set from here: the
+   pensées, the issue, the door to La bàn Tư tưởng, the daily excerpt, the
+   series, the reviews and the way back into an essay. Linked after the
+   cover (lib/editionStyles.ts), so the first screen is drawn without it. */
+
+/* Pensées: notes as the margin always set them (a small print beside the
+   words), two rows of them, two to a view. The older ones wait to the side,
+   column after column, for a finger, a trackpad or the controls. */
+.pensees {
+  grid-column: 1 / span 8;
+  grid-row: 3;
+  padding-top: var(--s-7);
+}
+.pensees__head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--s-4);
+  border-top: 1px solid var(--ink);
+}
+.pensees__list {
+  display: grid;
+  grid-auto-flow: column;
+  grid-template-rows: repeat(2, auto);
+  grid-auto-columns: calc((100% - var(--gutter)) / 2);
+  column-gap: var(--gutter);
+  overflow-x: auto;
+  overscroll-behavior-x: contain;
+  scrollbar-width: none;
+}
+.pensees__list::-webkit-scrollbar {
+  display: none;
+}
+.pensees .note {
+  scroll-snap-align: start;
+}
+@media (hover: none) {
+  .pensees__list {
+    scroll-snap-type: x mandatory;
+  }
+}
+/* Two or fewer share one row. */
+@media (min-width: 641px) {
+  .pensees__list:not(:has(> :nth-child(3))) {
+    grid-template-rows: auto;
+  }
+}
+
+/* The door to the compass: its place on the first page is permanent, its
+   cube a size that keeps to the notes beside it. */
+.front__door {
+  grid-column: 9 / -1;
+  grid-row: 2 / span 3;
+  padding-top: var(--s-6);
+}
+.front__door .door {
+  --cube: 21rem;
+}
+/* ---------- issue ---------- */
+.issue {
+  grid-column: 1 / -1;
+  grid-row: 5;
+  padding-block: var(--section);
+}
+/* Chips are words. Colour appears only once a discipline is chosen,
+   as a highlighter stroke drawn left to right behind the word. */
+.filter {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--s-1) var(--s-2);
+  margin: calc(-1 * var(--s-3)) 0 var(--s-7) calc(-1 * 0.7rem);
+}
+.chip {
+  --stroke: var(--topic-mark, color-mix(in oklab, var(--ink) 12%, var(--paper)));
+  min-height: 42px;
+  padding: 0 0.7rem;
+  color: var(--muted);
+  background-image: linear-gradient(var(--stroke), var(--stroke));
+  background-repeat: no-repeat;
+  background-position: 0.45rem 62%;
+  background-size: 0% 58%;
+  transition:
+    background-size var(--d-slow) var(--ease-out),
+    color var(--d-quick) var(--ease-out),
+    scale var(--d-base) var(--ease-out);
+}
+@media (hover: hover) {
+  :where(:root:not([data-resting])) .chip:hover {
+    color: var(--ink);
+  }
+}
+.chip:active {
+  scale: 0.96;
+  transition-duration: var(--d-press);
+}
+.chip[aria-pressed='true'] {
+  color: var(--topic-text, var(--ink));
+  background-size: calc(100% - 0.9rem) 58%;
+  cursor: default;
+}
+
+.issue__grid {
+  display: grid;
+  grid-template-columns: repeat(12, minmax(0, 1fr));
+  column-gap: var(--gutter);
+  row-gap: clamp(2.75rem, 1.5rem + 3vw, 4.75rem);
+}
+/* The issue: 7 + 5 columns, then rows of three. */
+.issue__grid .story {
+  grid-column: span 4;
+}
+.story[data-slot='1'] {
+  grid-column: span 7;
+}
+.story[data-slot='2'] {
+  grid-column: span 5;
+}
+/* 7 and 5 columns: this ratio puts both plates' bottoms on one line. */
+.story[data-slot='2'] .plate {
+  aspect-ratio: 1.053;
+}
+.issue__grid .story:is([data-slot='2'], [data-slot='4'], [data-slot='5'], [data-slot='7'], [data-slot='8'])::before {
+  display: block;
+}
+.story[data-slot='1'] .story__title {
+  font-size: var(--t-lead);
+  line-height: 1.07;
+  letter-spacing: -0.02em;
+}
+.story[data-slot='2'] .story__title {
+  font-size: var(--t-headline);
+}
+.story[data-slot='1'] .story__dek {
+  font-size: var(--t-dek);
+}
+.issue__empty {
+  grid-column: 1 / -1;
+  color: var(--muted);
+  font-size: var(--t-body);
+  font-style: italic;
+}
+/* A chosen discipline re-inks the whole edition in its own colour. */
+.issue__grid[data-ink='son'] .plate { --plate-ink: var(--son-print-ink); --plate-paper: var(--son-print-paper); }
+.issue__grid[data-ink='nghe'] .plate { --plate-ink: var(--nghe-print-ink); --plate-paper: var(--nghe-print-paper); }
+.issue__grid[data-ink='luc'] .plate { --plate-ink: var(--luc-print-ink); --plate-paper: var(--luc-print-paper); }
+.issue__grid[data-ink='lam'] .plate { --plate-ink: var(--lam-print-ink); --plate-paper: var(--lam-print-paper); }
+.issue__grid[data-ink='cham'] .plate { --plate-ink: var(--cham-print-ink); --plate-paper: var(--cham-print-paper); }
+.issue__grid[data-ink='tia'] .plate { --plate-ink: var(--tia-print-ink); --plate-paper: var(--tia-print-paper); }
+
+/* ---------- excerpt: one slip of the essay's own paper ----------
+   The quotation and its source share a sheet: the slip is the paper the
+   essay's plate is printed on, so the print sits on it without a frame and
+   the title below it reads as its caption. Colours come from the print inks,
+   which do not change with the theme: the slip is an object on the page. */
+.excerpt {
+  padding-bottom: var(--section);
+}
+.slip {
+  --ink: oklch(0.215 0.032 278);
+  --muted: oklch(0.4 0.03 278);
+  --rule: color-mix(in oklab, var(--plate-ink) 24%, transparent);
+  display: grid;
+  grid-template-columns: repeat(12, minmax(0, 1fr));
+  column-gap: var(--gutter);
+  align-items: center;
+  padding: clamp(2rem, 1rem + 4vw, 5rem) clamp(1.5rem, 0.5rem + 4vw, 5rem);
+  background: var(--plate-paper);
+  color: var(--ink);
+  transition: background-color var(--d-ink) var(--ease-out);
+}
+.slip__quote {
+  grid-column: 1 / span 7;
+  margin: 0;
+  font-size: var(--t-section);
+  font-style: italic;
+  line-height: 1.3;
+  letter-spacing: -0.006em;
+}
+.slip__quote[data-length='long'] {
+  font-size: var(--t-headline);
+}
+/* The mark in the essay's ink; the first capital takes Pliego's swash. */
+.slip__quote::before {
+  content: '“';
+  display: block;
+  height: 0.6em;
+  margin-bottom: 0.1em;
+  color: var(--plate-ink);
+  font-size: 2.4em;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1;
+}
+.slip__quote p::first-letter {
+  font-feature-settings: 'swsh';
+}
+.slip__source {
+  grid-column: 9 / -1;
+  display: grid;
+  gap: var(--s-4);
+  color: inherit;
+  text-decoration: none;
+}
+.slip__plate {
+  aspect-ratio: 4 / 5;
+}
+/* No frame: the print is on the slip itself. */
+.slip .plate::after {
+  display: none;
+}
+.slip__caption {
+  display: grid;
+  gap: var(--s-2);
+  padding-top: var(--s-3);
+  border-top: 1px solid var(--rule);
+}
+.slip .rubric {
+  color: var(--muted);
+}
+.slip .rubric__lead {
+  color: var(--plate-ink);
+}
+.slip__title {
+  justify-self: start;
+  font-size: var(--t-title-m);
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.16;
+  background: linear-gradient(currentColor, currentColor) no-repeat 0 92% / 0 1px;
+  transition: background-size var(--d-slow) var(--ease-out);
+}
+:where(:root:not([data-resting])) .slip__source:hover .slip__title,
+.slip__source:focus-visible .slip__title {
+  background-size: 100% 1px;
+}
+.slip__by {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.55em;
+  color: var(--muted);
+  font-size: var(--t-meta);
+  font-weight: 500;
+}
+.slip__by .glyph {
+  transition: translate var(--d-base) var(--ease-out);
+}
+:where(:root:not([data-resting])) .slip__source:hover .slip__by .glyph {
+  translate: 3px 0;
+}
+:root[data-theme='dark'] .slip {
+  filter: brightness(0.9);
+}
+:root[data-theme='dark'] .slip .plate {
+  --plate-sheet: var(--plate-paper);
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme='light']) .slip {
+    filter: brightness(0.9);
+  }
+  :root:not([data-theme='light']) .slip .plate {
+    --plate-sheet: var(--plate-paper);
+  }
+}
+
+/* ---------- volumes (series) ---------- */
+.volumes {
+  padding-bottom: var(--section);
+}
+.volumes__tabs {
+  position: relative;
+  display: flex;
+  gap: clamp(1.5rem, 3.4vw, 3rem);
+  margin-bottom: clamp(2rem, 1.4rem + 2.4vw, 3.75rem);
+  border-bottom: 1px solid var(--rule);
+  overflow-x: auto;
+  scrollbar-width: none;
+}
+.volumes__tabs::-webkit-scrollbar {
+  display: none;
+}
+.volumes__tab {
+  flex: none;
+  display: inline-flex;
+  align-items: center;
+  min-height: 52px;
+  color: var(--muted);
+  text-decoration: none;
+  white-space: nowrap;
+  transition: color var(--d-quick) var(--ease-out);
+}
+:where(:root:not([data-resting])) .volumes__tab:hover,
+.volumes__tab[aria-selected='true'] {
+  color: var(--ink);
+}
+/* One indicator slides between tabs (transform only) in the series' ink. */
+.volumes__indicator {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 1px;
+  height: 2px;
+  background: var(--topic-text, var(--ink));
+  transform-origin: 0 50%;
+  transform: scaleX(0);
+}
+.volumes__indicator.is-placed {
+  transition:
+    transform var(--d-slow) var(--ease-out),
+    background-color var(--d-slow) var(--ease-out);
+}
+/* ---------- reviews ----------
+   The last module: the colophon's own margin is the space after it (padding
+   here as well had left an empty band under the shelf). */
+.reviews .shelf__books {
+  padding-bottom: 0;
+}
+
+/* ---------- the way back into an essay (lib/editionReturn.ts) ----------
+   One line at the foot of the screen, over the page: nothing beneath it
+   moves when it comes or goes. Set as the reader's own resume prompt is. */
+.return {
+  position: fixed;
+  left: 50%;
+  bottom: calc(1.25rem + env(safe-area-inset-bottom));
+  z-index: var(--layer-bar);
+  display: flex;
+  align-items: center;
+  gap: var(--s-1);
+  width: max-content;
+  max-width: calc(100% - 2 * var(--margin));
+  padding: var(--s-1);
+  border-radius: 8px;
+  background: var(--ink);
+  color: var(--paper);
+  box-shadow: 0 18px 40px -18px oklch(0 0 0 / 0.5);
+  transform: translateX(-50%);
+}
+.return__link {
+  display: grid;
+  grid-template-columns: auto minmax(0, 1fr) auto;
+  align-items: baseline;
+  gap: var(--s-3);
+  min-width: 0;
+  min-height: 44px;
+  padding: var(--s-3) var(--s-2) var(--s-3) var(--s-4);
+  border-radius: 5px;
+  text-decoration: none;
+  transition: background-color var(--d-quick) var(--ease-out);
+}
+:where(:root:not([data-resting])) .return__link:hover {
+  background: color-mix(in oklab, var(--paper) 10%, transparent);
+}
+.return__label,
+.return__left {
+  font-size: var(--t-meta);
+  font-weight: 600;
+  white-space: nowrap;
+}
+.return__left {
+  color: color-mix(in oklab, var(--paper) 68%, var(--ink));
+}
+.return__title {
+  overflow: hidden;
+  font: italic var(--t-ui) / 1.2 var(--font-text);
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+.return .icon-button {
+  color: var(--paper);
+}
+@media (max-width: 520px) {
+  .return__link {
+    grid-template-columns: minmax(0, 1fr) auto;
+    row-gap: 2px;
+    padding-block: var(--s-2);
+  }
+  .return__label {
+    grid-column: 1 / -1;
+  }
+}
+
+/* ---------- laid out when near ----------
+   The modules below the cover are not laid out, nor painted, until they come
+   near the screen (content-visibility): the first layout of a phone was mostly
+   spent on them, and a scroll through the page lays each out once, as it
+   comes. Until then each holds the room it will take, as measured at each
+   width (it is remembered once it has been laid out), so the scrollbar
+   keeps its length; its prints are still fetched a screen and a half ahead
+   (EditionLayout's early loader watches the module, not only the print). */
+.issue,
+.front__door,
+.excerpt,
+.volumes,
+.reviews {
+  content-visibility: auto;
+}
+.issue {
+  contain-intrinsic-size: auto 1800px;
+}
+.front__door {
+  contain-intrinsic-size: auto 530px;
+}
+.excerpt {
+  contain-intrinsic-size: auto 860px;
+}
+.volumes {
+  contain-intrinsic-size: auto 860px;
+}
+.reviews {
+  contain-intrinsic-size: auto 620px;
+}
+@media (max-width: 900px) {
+  .issue {
+    contain-intrinsic-size: auto 2400px;
+  }
+  .volumes {
+    contain-intrinsic-size: auto 1150px;
+  }
+}
+@media (max-width: 640px) {
+  .issue {
+    contain-intrinsic-size: auto 1600px;
+  }
+  .excerpt {
+    contain-intrinsic-size: auto 960px;
+  }
+}
+
+/* ---------- responsive ---------- */
+@media (max-width: 900px) {
+  /* One column, in the order written: the door after the issue. */
+  .pensees,
+  .issue,
+  .front__door {
+    grid-column: 1 / -1;
+    grid-row: auto;
+  }
+  .front__door {
+    padding: 0 0 var(--section);
+  }
+  .issue__grid .story,
+  .story[data-slot='2'] {
+    grid-column: span 6;
+  }
+  .story[data-slot='1'] {
+    grid-column: 1 / -1;
+  }
+  .story[data-slot='2'] .plate {
+    aspect-ratio: 3 / 2;
+  }
+  /* Two columns: a rule before every second story. */
+  .issue__grid .story:is([data-slot='2'], [data-slot='4'], [data-slot='5'], [data-slot='7'], [data-slot='8'])::before {
+    display: none;
+  }
+  .issue__grid .story:is([data-slot='3'], [data-slot='5'], [data-slot='7'])::before {
+    display: block;
+  }
+  .slip {
+    grid-template-columns: minmax(0, 1fr);
+    row-gap: var(--s-7);
+  }
+  .slip__quote,
+  .slip__source {
+    grid-column: 1;
+  }
+  .slip__source {
+    grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+    align-items: end;
+    column-gap: var(--gutter);
+  }
+  .slip__plate {
+    aspect-ratio: 1;
+  }
+}
+@media (max-width: 640px) {
+  /* A phone: one column of two notes to a view, the next showing at the
+     edge; the shelf runs out to the screen's edges, as the filter does. */
+  .pensees__list {
+    grid-auto-columns: min(86%, 24rem);
+    margin-inline: calc(-1 * var(--margin));
+    padding-inline: var(--margin);
+    scroll-padding-inline: var(--margin);
+  }
+  .pensees__list:not(:has(> :nth-child(3))) {
+    grid-auto-columns: 100%;
+  }
+  .pensees .note {
+    grid-template-columns: 4.5rem minmax(0, 1fr);
+  }
+  .issue__grid {
+    row-gap: var(--s-6);
+  }
+  .issue__grid .story,
+  .story[data-slot='2'] {
+    grid-column: 1 / -1;
+  }
+  .issue__grid .story:is([data-slot='3'], [data-slot='5'], [data-slot='7'])::before {
+    display: none;
+  }
+  /* The lead keeps its plate above its words, across the column (the row
+     layout of the other stories aligns to the start, which would shrink an
+     image box with no content width to nothing). */
+  .story[data-slot='1'] {
+    display: flex;
+    align-items: stretch;
+  }
+  .story[data-slot='1'] .plate {
+    aspect-ratio: 3 / 2;
+  }
+  .story[data-slot='2'] .story__title {
+    font-size: var(--t-title-xs);
+  }
+  .story[data-slot='2'] .story__dek {
+    font-size: var(--t-small);
+  }
+  .filter {
+    flex-wrap: nowrap;
+    margin-inline: calc(-1 * var(--margin));
+    padding-inline: calc(var(--margin) - 0.7rem);
+    overflow-x: auto;
+    scrollbar-width: none;
+  }
+  .filter::-webkit-scrollbar {
+    display: none;
+  }
+  .chip {
+    flex: none;
+    min-height: 44px;
+  }
+  .slip {
+    margin-inline: calc(-1 * var(--margin));
+    padding-inline: var(--margin);
+  }
+  .slip__source {
+    grid-template-columns: minmax(0, 1fr);
+  }
+  .slip__plate {
+    aspect-ratio: 3 / 2;
+  }
+  .volumes__tabs {
+    margin-inline: calc(-1 * var(--margin));
+    padding-inline: var(--margin);
+  }
+}

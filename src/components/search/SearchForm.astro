@@ -1,0 +1,68 @@
+---
+import Glyph from '../edition/Glyph.astro';
+
+interface Props {
+  id: string;
+}
+const { id } = Astro.props;
+---
+
+<form action="/search" method="get" role="search" class="search-form" lang="vi">
+  <label for={id} class="sr-only">Tìm kiếm</label>
+  <div class="search-form__field">
+    <button type="submit" aria-label="Tìm kiếm" class="search-form__submit"><Glyph name="search" /></button>
+    <input id={id} name="q" type="search" placeholder="Tìm kiếm…" autocomplete="off" maxlength="200" />
+  </div>
+</form>
+
+<style>
+  .search-form {
+    min-width: 0;
+  }
+  .search-form__field {
+    display: flex;
+    align-items: center;
+    gap: var(--s-3);
+    min-width: 0;
+    border-bottom: 1px solid var(--rule);
+    transition: border-color var(--d-quick) var(--ease-out);
+  }
+  .search-form__field:focus-within {
+    border-bottom-color: var(--ink);
+  }
+  input {
+    width: 100%;
+    min-width: 0;
+    min-height: 48px;
+    padding: var(--s-2) 0;
+    border: 0;
+    border-radius: 0;
+    outline: none;
+    box-shadow: none;
+    background: transparent;
+    color: var(--ink);
+    font: 400 1rem / 1.5 var(--font-text);
+  }
+  input:focus,
+  input:focus-visible {
+    outline: none;
+    box-shadow: none;
+  }
+  input::placeholder {
+    color: var(--muted);
+    opacity: 1;
+    font-style: italic;
+  }
+  input::-webkit-search-cancel-button,
+  input::-webkit-search-decoration {
+    -webkit-appearance: none;
+  }
+  .search-form__submit {
+    display: grid;
+    place-items: center;
+    flex-shrink: 0;
+    width: 44px;
+    height: 48px;
+    color: var(--ink);
+  }
+</style>

@@ -1,0 +1,22 @@
+---
+// Chuyên đề: every series as a spread, its prints dealt beside its parts.
+// Spreads alternate sides so the page reads as a sequence.
+import { getCollection } from 'astro:content';
+import PageHead from '~/components/edition/PageHead.astro';
+import Volume from '~/components/edition/Volume.astro';
+import EditionLayout from '~/layouts/EditionLayout.astro';
+import { volumesOf } from '~/lib/editionData';
+
+const volumes = await volumesOf(await getCollection('essays', ({ data }) => !data.draft));
+---
+<EditionLayout title="Chuyên đề" description="Các loạt tiểu luận của The Cochinchine Pensées: chủ nghĩa dân tộc, thế hệ kiệt sức, chủ nghĩa tư bản và kỷ nguyên vươn mình. Đọc theo từng chủ đề." noindex={false}>
+  <PageHead title="Chuyên đề" dek="Những loạt bài nên đọc theo thứ tự." />
+  <div class="page-body wrap volumes-list">
+    {volumes.map((volume) => <Volume volume={volume} heading="h2" />)}
+  </div>
+</EditionLayout>
+
+<script>
+  import { initDecks } from '../../lib/editionDeck';
+  initDecks();
+</script>

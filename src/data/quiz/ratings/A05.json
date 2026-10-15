@@ -1,0 +1,1108 @@
+{
+  "rater": "A",
+  "block": "A05",
+  "items": {
+    "environment.growth.7": {
+      "0": "IA PR CF CM LEG CN VEF AD NR BL XC LL",
+      "1": "AS MU CST NC ARC GC MDS LT GS US MC EC BK NATC GM BN CLR JA JR COR CI UT MO ETS RET",
+      "2": "AC CA DC DI ES RT PG SC EB",
+      "3": "GA GAN TW DE DEG",
+      "why": "Whether material growth is necessary for a good life: separates sufficiency/degrowth traditions (Taoist, Gandhian, deep green) from productivist ones (developmentalist, Marxist-Leninist, market).",
+      "-1": "UJ CAE MR PE PC RC POC TE SMCD EU LU BC ONC PA NAC PM CH ELP AP CL SL LI OR GE LS AM CIN EN LN IR PN HI SDD WC PP NM FA HS HES WA IB RZ CC GU ACK COL SR LZ SN SU",
+      "-2": "NLS TP NA NOA AUC ML MA TR JU AMC CR TH NE LC GAU LE ME NS DIR IF NAZ JM EM PER NEO NDL AL RE LF MI ANC PAL TI GOC EA ID CT NP TAR PSD THW NEOR KS IM HO BIC KE REZ BA",
+      "-3": "ST DS OB RS",
+      "split": "IA ACK PA MDS US CL PR CF LL CM LEG CN VEF HI AD NR NATC",
+      "notes": {
+        "GAN": "\"Earth provides enough for every man's need, not every man's greed\": village sufficiency, 3.",
+        "ST": "Forced industrialisation is the regime's raison d'etre: -3.",
+        "RS": "\"Development is the only hard truth\" (Deng); growth is the party's legitimacy: -3.",
+        "CST": "Laudato Si' 193 accepts \"decreased growth in some parts of the world\"; integral development over consumption: 1.",
+        "MO": "Frugality (jie yong): cutting waste, not expanding output, doubles the state's wealth: 1. Xunzi rebuts Mohist frugality as impoverishing: XC 0.",
+        "CL": "Smith's \"stationary state is dull\"; Mill's stationary state is the dissenting minority: -1, split.",
+        "NATC": "Salazar's \"poor but honest\" rural Portugal vs Franco's later desarrollismo: 1, split.",
+        "UT": "Happiness not output is the metric; Mill's stationary-state chapter: 1, split."
+      }
+    },
+    "environment.growth.8": {
+      "0": "IA RC TE EU LU BC ONC GAU LT US MC EC ELP AP CL NDL OR LS AM CM LEG CN CIN LN BN AD CLR JA PSD FA BL CI UT MO XC CC COL SR",
+      "1": "UJ CAE PE PC CST TR TH NE PM DIR NATC EM NEO AL RE TI GOC EA EN PN VEF ID WC PP HS HES IB IM RZ ACK LZ REZ",
+      "2": "NLS TP NA NOA MR AUC ML MA JU AMC CR PA NAC LE ME IF NAZ JM CH PER LF MI ANC PAL RS IR CT HI NP TAR NEOR KS WA HO GU BIC KE BA SU",
+      "3": "ST NS DS OB",
+      "why": "Development-first vs climate obligations for a poor country: separates developmentalist and anti-imperialist \"right to develop\" traditions from greens and anti-industrialists.",
+      "-1": "AC AS MU POC SMCD DI NC ARC GC LC MDS GS BK ES DEG SL LI GE SDD JR NR NM THW COR PG SC ETS LL RET SN",
+      "-2": "CA DC TW GM PR CF RT EB",
+      "-3": "GA GAN DE",
+      "split": "IA TE BC LT US CL AM CM LEG BN AD JA UT DEG CN",
+      "notes": {
+        "NS": "List's \"kicking away the ladder\": advanced nations' rules must not block infant industry: 3.",
+        "GAN": "Opposes industrialisation itself, not only its pace: -3.",
+        "DEG": "Degrowth targets rich countries and leaves the South room to grow, but wants buen vivir rather than copy-industrialisation: -1, split.",
+        "EM": "Energy poverty first; poor countries need cheap abundant energy on the way to nuclear: 1.",
+        "CST": "Common but differentiated duty: rich must cut and pay, poor keep a right to integral development: 1.",
+        "NOA": "G77 \"right to development\" and differentiated responsibilities: 2.",
+        "UJ": "Rural self-reliance rather than heavy industry, but rejects Northern constraints: 1."
+      }
+    },
+    "environment.nature.1": {
+      "0": "PC TR EU LU ONC LC GAU US MC EC PM BK DIR NDL OR RE AM EA CM LEG CN CIN LN BN AD CLR JA JR NR FA COR CI PG SC HS HES MO XC IM CC SR RET",
+      "1": "AS MU CA GAN RC POC TE SMCD CST DI NC GC LT GS TW ELP SL LI CF GE LS SDD NM THW RT UT ETS LL SN",
+      "2": "AC DC MDS EM PR EB",
+      "3": "GA GM ES DE DEG",
+      "why": "Paying a real price (dearer power) for decarbonisation: separates climate-first greens and the green left from developmentalist, anti-tax and anti-regulation traditions.",
+      "-1": "IA NLS TP NA UJ CAE MR PE BC ARC TH NE ME NATC CH PER AP CL NEO AL RS TI GOC EN PN VEF ID HI WC PP PSD BL KS IB RZ GU ACK COL KE LZ REZ BA SU",
+      "-2": "NOA AUC ML ST MA JU AMC CR PA NAC LE NS DS IF NAZ JM LF MI ANC PAL IR CT NP TAR NEOR WA HO BIC",
+      "-3": "OB",
+      "split": "TR AS MC EC PM BK MO XC AM EA CM LEG AD CLR JA JR PG SC HS HES COR CI TH",
+      "notes": {
+        "EM": "Yes to closing coal, but replace with nuclear so prices need not rise much: 2.",
+        "OB": "Rand's \"Return of the Primitive\": environmentalism as war on industry: -3.",
+        "TH": "Closed the pits for market reasons (dash for gas), but would not mandate dearer power for climate: -1, split.",
+        "OR": "Carbon pricing inside the competition order yes, closure by decree no: 0.",
+        "GE": "Pollution is use of a commons that must be paid for; closure follows from full rent: 1.",
+        "BL": "Coal communities and working-class bills come first: -1.",
+        "PSD": "Nationalised coal and miners' unions were its core: -1."
+      }
+    },
+    "environment.nature.2": {
+      "0": "MU RC POC NC BC ARC ONC PA LC GS MC ELP SL LI OR LS CM LEG CIN EN LN VEF ID HI CLR SDD NR THW BL COR CI RT PG UT IB IM COL LL SN",
+      "1": "IA UJ NOA CAE MR PE PC TE EU LU CR TH NE NAC GAU US EC PM DIR NAZ NATC AP NEO NDL AL RE MI GE PAL TI GOC AM IR PN AD JA JR NP WC PP PSD FA HS HES MO WA RZ CC SR BIC REZ SU",
+      "2": "NLS TP NA AUC ML TR JU AMC LE ME NS DS IF JM CH PER CL LF ANC RS EA CT TAR NEOR SC XC KS HO GU ACK KE LZ BA",
+      "3": "ST MA OB",
+      "why": "Anthropocentric use of nature vs intrinsic value of nature: separates \"conquer nature\" productivism (Stalin, Mao, Rand, Xunzi, Locke, Stoics) from ecocentric and religious-compassion traditions.",
+      "-1": "AC AS CA SMCD CST DI MDS LT EM PR CF CN BN NM ETS RET",
+      "-2": "DC GAN GC BK GM ES DEG EB",
+      "-3": "GA TW DE",
+      "split": "IA MU US NAZ HI CM LEG PG RT CI COR",
+      "notes": {
+        "MA": "\"Man must conquer nature\" (ren ding sheng tian): 3.",
+        "XC": "Xunzi: rather than revere Heaven, regulate its mandate and use it (zhi tian ming er yong zhi): 2; Mencius only sustainable use: MC 0.",
+        "SC": "Stoic providence: plants exist for animals, animals for humans (Chrysippus, Cicero ND II): 2.",
+        "CST": "Laudato Si' rejects \"tyrannical anthropocentrism\"; creatures have value in themselves: -1.",
+        "CL": "Locke: God gave the earth to men for the support and comfort of their being; unused land is waste: 2.",
+        "EM": "Use resources intensively precisely so as to spare nature for its own sake: -1.",
+        "US": "Saint-Simonians: replace exploitation of man by man with exploitation of the globe; Owen less so: 1, split.",
+        "NAZ": "Blood-and-soil nature romanticism and the 1935 nature-protection law vs total war exploitation: 1, split."
+      }
+    },
+    "environment.nature.3": {
+      "0": "AS MU UJ PC RC POC DI NC EU LU BC ARC ONC PA NAC LC GAU GS US MC EC PM NAZ NATC CH NDL LI OR RE GE TI LS AM EA CM LEG CN CIN EN LN PN VEF ID CLR JA NR WC PP PSD THW FA BL RT PG IB IM RZ CC COL SR LL SN SU",
+      "1": "AC SMCD CST GC MDS LT ES EM ELP SL CF BN HI SDD NM UT ETS RET",
+      "2": "CA DC GAN TW BK GM DEG PR",
+      "3": "GA DE EB",
+      "why": "Intrinsic value (a \"right to live\") of wild species independent of human use: separates ecocentric and compassion-based traditions (deep ecology, Buddhism, Taoism, ahimsa) from anthropocentric rights theories and productivism.",
+      "-1": "IA NLS TP NA NOA CAE MR AUC PE TE ML TR JU AMC CR TH NE ME NS DIR IF JM PER AP CL NEO AL RS GOC IR AD JR NP COR CI HES MO XC KS WA HO GU BIC KE LZ REZ BA",
+      "-2": "ST MA LE DS LF MI ANC PAL CT TAR NEOR SC HS ACK",
+      "-3": "OB",
+      "split": "AS MU NAZ AM EA CM LEG PG RT GS US BC ARC MC",
+      "notes": {
+        "DE": "Naess's first platform principle: non-human life has value in itself: 3.",
+        "EB": "First precept and compassion for all sentient beings: 3; Buddhist kingship (Ashoka's edicts protecting animals): BK 2.",
+        "OB": "Rights derive from rational faculty; animals have none: -3.",
+        "SC": "Chrysippus: no justice is owed to beasts, which lack reason: -2.",
+        "HS": "Rights exist only by covenant; beasts cannot covenant: -2.",
+        "UT": "Bentham's \"can they suffer?\" counts animal welfare, though he rejects \"rights\" talk and values individuals, not species: 1.",
+        "CST": "Laudato Si' 33 and 69: creatures have value in themselves, but framed as stewardship, not rights: 1.",
+        "NAZ": "1933 animal-protection law and nature romanticism vs social-Darwinist hierarchy of value: 0, split."
+      }
+    },
+    "environment.nature.4": {
+      "0": "IA CAE MR PE ST MA JU BC ARC NE US MC EC LE BK ME NS DS NATC JM AP CL NEO AL TI GOC AM EA CM LEG CN PN VEF BN HI AD CLR JA JR BL COR CI RT PG SC HS HES MO XC KS IB HO ACK COL BIC KE LZ BA SU",
+      "1": "TH IF NAZ LF MI EN IR WC PP WA RZ REZ",
+      "2": "AMC CR PA NAC OB ANC PAL CT NP TAR NEOR",
+      "3": "",
+      "why": "Climate scepticism: separates traditions that frame climate concern as globalist, anti-industrial or bureaucratic overreach (US right, national-populists, Objectivists, neoreaction) from science-trusting technocratic and green ones; many pre-modern variants have no implied stance.",
+      "-1": "MU NLS TP NA UJ NOA AUC PC DI NC ML ONC LC GAU GS TW PM DIR EM PER NDL LI OR RE GE RS LS CIN LN ID SDD NR PSD FA UT IM CC GU ETS SR LL RET",
+      "-2": "AC AS CA DC GAN RC POC TE SMCD CST TR EU LU GC MDS LT CH ELP SL CF NM THW EB SN",
+      "-3": "GA GM ES DE DEG PR",
+      "split": "IA BA SU CAE MR PE ST MA JU HO ACK BC ARC BIC US MC EC LE BK MO XC KS ME NS DS IF NAZ NATC JM AP CL NEO AL COL AM EA CM LEG CN PN KE LZ VEF BN HI IB AD CLR JA JR COR CI RT PG SC HS HES EM NE TH TI GOC BL LF",
+      "notes": {
+        "NEOR": "Moldbug: climate science as a creature of the \"Cathedral\": 2.",
+        "OB": "Ayn Rand Institute / Epstein's \"moral case for fossil fuels\": catastrophism is exaggerated: 2.",
+        "EM": "Accept warming, reject apocalyptic framing (Shellenberger): -1, split.",
+        "TH": "Thatcher warned in 1989 but in Statecraft (2002) attacked climate \"alarmism\"; Lawson's GWPF: 1, split.",
+        "CST": "Laudato Si' treats climate as grave and urgent: -2.",
+        "TE": "Defers to scientific consensus by definition: -2.",
+        "IF": "No doctrine on climate; contempt for humanitarian-globalist causes leans sceptic: 1, split."
+      }
+    },
+    "environment.nature.5": {
+      "0": "AS MU RC TE DI NC ARC MDS LT GS US BK ELP CL LI OR CF RE MI PAL LS AM EA CM LEG CN CIN LN BN AD CLR JA SDD JR NR NM COR CI RT PG SC HS HES UT IM ETS COL SR RET SN",
+      "1": "AC CA GAN GC TW GM SL PR ANC GE EB LL",
+      "2": "DC ES DEG",
+      "3": "GA DE",
+      "why": "Permanent closure of serious polluters even at heavy job loss: tests whether nature outranks employment; separates deep greens from labour-based and productivist traditions (including much of the left).",
+      "-1": "IA TP UJ NOA CAE MR PE PC POC SMCD CST TR EU LU BC ONC TH NE LC GAU MC EC PM DIR NATC EM CH AP NEO NDL AL LF RS TI GOC EN IR PN VEF ID CT HI PP THW FA NEOR MO XC KS WA IB RZ CC GU ACK KE LZ REZ SU",
+      "-2": "NLS NA AUC ML MA JU AMC CR PA NAC LE ME NS DS IF NAZ JM PER OB NP WC TAR PSD BL HO BIC BA",
+      "-3": "ST",
+      "split": "AS MU ANC MI PAL CL MDS LT AM EA CM LEG AD CLR JA JR PG SC HS HES COR CI RT UT BK",
+      "notes": {
+        "ANC": "Rothbard (1982): pollution is trespass and courts should enjoin it whatever the economic loss: 1, split.",
+        "MDS": "Prefers a just transition with conversion and job guarantees to closure: 0, split.",
+        "BL": "Working-class jobs and communities first: -2.",
+        "ES": "Polluting capital, not workers, should bear the cost; closure plus public conversion: 2.",
+        "EM": "Fix with cleaner technology rather than closure: -1.",
+        "MC": "Livelihood of the people (heng chan) comes first: -1."
+      }
+    },
+    "environment.nature.6": {
+      "0": "MU NLS NA GAN UJ NOA CAE MR PE ML ST MA TR JU LU BC ARC US MC EC TW BK ME NS DS IF NAZ NATC JM CH PER AP AL RE TI GOC AM EA CM LEG CN EN IR PN VEF BN HI AD CLR JA JR PP BL COR CI RT PG SC HS HES XC IB IM RZ HO GU COL BIC KE LZ REZ BA SU",
+      "1": "DC TP AUC CST DI NC EU ONC LC GAU LT GS LE PM DIR ES DE DEG EM ELP CL NDL LI RS LS CIN LN ID SDD NR PSD FA MO KS EB SR RET SN",
+      "2": "PC RC POC TE SMCD GC MDS SL NEO PR OR CF NM THW UT ETS LL",
+      "3": "GM GE",
+      "why": "Polluter-pays tax proportional to emissions: a market-compatible environmental instrument; separates Pigouvian/commons-rent traditions (Georgists, left-libertarians, ordo- and social liberals) from anti-tax, anti-state and anti-market (planning) traditions.",
+      "-1": "AC AS GA CA TH NE PA NAC CT NP WC NEOR WA CC ACK",
+      "-2": "IA AMC CR LF MI ANC PAL",
+      "-3": "OB TAR",
+      "split": "MU NLS NA GAN UJ NOA BA SU CAE MR PE ML ST MA TR JU LU HO GU BC ARC BIC US MC EC TW BK XC ME NS DS IF NAZ NATC JM CH PER AP AL COL AM EA CM LEG CN EN IR PN KE LZ REZ VEF BN HI IB IM RZ AD CLR JA JR COR CI RT PG SC HS HES TI GOC LE",
+      "notes": {
+        "GE": "Charging for use of a natural commons is Georgism's core; pollution is rent on the atmosphere: 3.",
+        "LL": "Appropriating more than one's share of natural resources (the atmosphere's sink) must be paid into the common fund: 2.",
+        "TAR": "Any new tax is the enemy: -3.",
+        "OB": "Taxation is coercion and environmentalism anti-industrial: -3.",
+        "UT": "Pigou's welfare economics is the utilitarian source of the externality tax: 2.",
+        "ES": "Accepts it but sees carbon pricing as a market fix that cannot replace planning: 1.",
+        "OR": "Internalise costs through prices, the ordo way, rather than by command: 2."
+      }
+    },
+    "environment.nature.7": {
+      "0": "AS MU GAN RC POC TE SMCD CST NC EU LU BC ARC ONC LC LT GS US EC LI OR RE LS AM EA CM LEG CN CIN EN LN PN BN AD CLR JA SDD NR PP PSD THW FA COR CI RT PG SC HS HES UT XC KS IM CC ETS COL SR LL RET SN",
+      "1": "AC CA DC GC MDS TW BK ELP SL NDL CF NM",
+      "2": "GM ES DEG EM PR EB",
+      "3": "GA DE",
+      "why": "\"30x30\" strict protected areas closed to extraction: tests willingness to lock up land and sea; separates conservationist greens and ecomodernist land-sparers from developmentalists, settlers and property-rights libertarians.",
+      "-1": "IA NLS TP NA UJ NOA CAE MR AUC PE PC DI TR TH NE PA NAC GAU MC PM DIR IF NAZ NATC CH PER CL NEO AL GE RS TI GOC IR VEF ID HI JR WC BL NEOR MO WA IB GU BIC KE REZ BA SU",
+      "-2": "ML ST MA JU AMC CR LE ME NS DS JM AP LF MI ANC PAL CT NP TAR RZ HO ACK LZ",
+      "-3": "OB",
+      "split": "AS MU GAN AM EA CM LEG AD CLR JA PG SC HS HES COR CI RT UT KS XC EC CN LN BC ARC",
+      "notes": {
+        "EM": "Land sparing is the ecomodernist programme: intensify so that more land returns to wild: 2.",
+        "MC": "Mencius 1B2: King Wen shared his park with the people; closing land to their use is a trap: -1.",
+        "BK": "Royal forest sanctuaries (abhayaranya) under Buddhist kings: 1.",
+        "LZ": "Settling and redeeming the land is the movement's purpose: -2; RZ likewise -2.",
+        "AP": "Land belongs to those who till it, not to reserves: -2.",
+        "NDL": "National parks and the Civilian Conservation Corps: 1."
+      }
+    },
+    "environment.nature.8": {
+      "0": "IA UJ PC RC TE BC ARC LC GAU EC TW PM DIR EM PER OR RE GE TI GOC AM CM LEG CN CIN LN PN VEF BN AD CLR JA JR THW BL COR PG SC HS HES UT MO XC IB IM COL LZ",
+      "1": "NLS TP NA NOA CAE MR PE NE PA NAC LE ME NS IF NAZ NATC JM CL RS EA EN IR ID HI WC PP KS WA RZ BIC KE REZ BA SU",
+      "2": "AUC AMC CR TH DS NEO AL MI ANC PAL CT NP TAR NEOR",
+      "3": "LF OB",
+      "why": "Deregulating environmental rules to attract investment: separates pro-business deregulators (laissez-faire, Objectivists, US right, developmental states) from greens, the left and Catholic social teaching.",
+      "-1": "MU CA POC SMCD DI NC ML ST MA JU EU ONC US MC BK CH AP SL NDL LI LS SDD NR PSD FA CI RT GU ACK SR LL RET SN",
+      "-2": "AC AS DC GAN CST TR LU GC MDS LT GS ELP CF NM EB CC HO ETS",
+      "-3": "GA GM ES DE DEG PR",
+      "split": "IA EM TW PER AM CM LEG AD CLR JA JR PG SC HS HES COR UT MO XC EC BC ARC",
+      "notes": {
+        "LF": "No regulation, let markets work: 3.",
+        "EM": "Wants permitting reform for nuclear and clean build-out, not weaker pollution standards: 0, split.",
+        "TW": "Fewer rules is Laozi's instinct (\"the more laws, the more thieves\"), but not for the sake of investment: 0, split.",
+        "ML": "Courting private capital is not the socialist road; production yes, investors no: -1.",
+        "CST": "Laudato Si' attacks deregulation that serves profit over the common home: -2.",
+        "DS": "Investment and growth over environmental constraints: 2."
+      }
+    },
+    "environment.nature.9": {
+      "0": "MU IA PC RC POC TE DI NC EU LU BC ARC ONC LC LT GS MC EM LI OR GE LS CM LEG CN CIN LN BN CLR NR THW COR CI RT PG UT CC COL SR LL",
+      "1": "TP UJ NOA CAE MR PE TR AMC CR TH NE PA NAC GAU US EC PM DIR NAZ NATC CH AP CL NEO NDL AL RE TI GOC AM EA EN IR PN VEF ID HI AD JA JR WC PP PSD FA BL HS HES MO XC KS WA IB IM RZ GU BIC LZ REZ SU",
+      "2": "NLS NA AUC ML MA JU LE ME NS DS IF JM PER LF MI ANC PAL RS CT NP TAR NEOR SC HO ACK KE BA",
+      "3": "ST OB",
+      "why": "Species protection vs infrastructure and industry: a concrete trade-off; separates productivist and developmentalist traditions from ecocentric and Buddhist ones.",
+      "-1": "AC AS CA GAN SMCD CST MDS ELP SL CF SDD NM ETS RET SN",
+      "-2": "DC GC TW BK GM ES DEG PR EB",
+      "-3": "GA DE",
+      "split": "MU IA EM LT CM LEG CLR PG COR CI RT UT MC BC ARC NAZ",
+      "notes": {
+        "ST": "Stalin's \"Great Plan for the Transformation of Nature\": 3.",
+        "EM": "Pro-building (abundance agenda) but values biodiversity; would re-route rather than sacrifice: 0, split.",
+        "BK": "Buddhist kings' compassion for beings: -2.",
+        "SC": "Animals exist for human use in Stoic providence: 2.",
+        "UT": "Sum of welfare decides case by case: 0, split.",
+        "GC": "Heritage of the landscape is what conservatism conserves: -2."
+      }
+    },
+    "environment.technology.1": {
+      "0": "MU IA UJ PE BC ARC PA MC EC LE NATC CH ELP AP PR AM CM LEG CN EN IR PN VEF AD SDD JR NR WC PP BL PG SC HS XC KS WA IB CC COL SN SU",
+      "1": "NLS TP NA NOA CAE MR PC POC SMCD MA JU EU LU ONC CR NAC LC US PM ME NAZ JM PER SL NDL LI OR CF AL GE PAL TI LS GOC EA CIN LN ID CT HI JA NP TAR NM PSD FA HES UT MO RZ HO GU SR LL BIC REZ BA",
+      "2": "AUC RC ML ST TR AMC TH NE GAU NS DIR DS IF CL NEO RE LF MI ANC RS THW NEOR IM KE LZ",
+      "3": "TE EM OB",
+      "why": "Techno-optimism about the environment: separates technocracy, ecomodernism, Marxist and developmental productivism from Taoist, Gandhian, deep-green and Catholic critiques of the \"technocratic paradigm\".",
+      "-1": "AC AS DC DI NC GC MDS GS BK GM BN CLR COR CI ACK ETS RET",
+      "-2": "CA GAN CST LT ES RT EB",
+      "-3": "GA TW DE DEG",
+      "split": "IA MU UJ SU PE CC BC ARC PA CH ELP AP MC EC LE XC KS NATC AM CM LEG CN EN IR PN SN VEF WA IB AD SDD JR NR WC PP BL PG SC HS PR COL",
+      "notes": {
+        "TE": "Rule by engineers rests on faith in technical solutions: 3.",
+        "EM": "The ecomodernist manifesto is this statement: 3.",
+        "TW": "Zhuangzi's gardener: \"where there are machines there are machine hearts\": -3.",
+        "CST": "Laudato Si' 106-114 attacks the \"technocratic paradigm\": -2.",
+        "MA": "Productivist, but trusts mass mobilisation and will over technique: 1.",
+        "ACK": "Rejected foreign technology and expertise for mass manual labour: -1.",
+        "IF": "Futurist cult of the machine: 2."
+      }
+    },
+    "environment.technology.2": {
+      "0": "AS PE NC BC CR NAC EC LE NAZ GM ES OR GE PAL AM CM LEG EN PN VEF CT HI AD JA SDD NR NP PP TAR BL XC WA IB RZ ETS COL SR LL LZ SN SU",
+      "1": "AC MU IA DC UJ CST ARC PA GC LT GS US MC BK NATC AP CN BN CLR COR CI PG MO RET",
+      "2": "DI JR RT SC EB ACK",
+      "3": "GA CA GAN TW DE DEG",
+      "why": "Return to a simple life close to nature instead of technology: separates Taoist, Gandhian, Tolstoyan, agrarian-republican and Stoic \"live according to nature\" traditions from technocratic, developmental and Objectivist ones.",
+      "-1": "TP NOA CAE MR PC POC SMCD MA EU LU ONC AMC MDS PM JM CH PER ELP CL SL PR LI CF AL MI ANC TI LS EA CIN LN IR ID WC NM HS HES UT KS CC GU BIC REZ",
+      "-2": "NLS NA AUC RC ML TR JU TH NE LC GAU ME NS DIR IF NEO NDL RE LF RS GOC PSD THW FA IM HO KE BA",
+      "-3": "TE ST DS EM OB NEOR",
+      "split": "IA AS PE NAZ LZ GM ES BC CR NAC EC LE XC AM CM LEG EN HI VEF CT AD JA NR NP PP TAR BL GE PAL LL",
+      "notes": {
+        "TW": "Laozi 80: small state, few people, tools unused, content with their food: 3.",
+        "ACK": "Forced ruralisation and the hoe over the machine (in practice, not ecology): 2.",
+        "JR": "\"Those who labour in the earth are the chosen people of God\"; let our workshops remain in Europe: 2.",
+        "SC": "Live according to nature is the Stoic formula, though \"nature\" means reason: 2.",
+        "IA": "Thoreau's Walden vs Tucker's market individualism: 1, split.",
+        "NEOR": "Accelerationist techno-capitalism (Land): -3.",
+        "MA": "Sent youth to the countryside for class re-education, not for nature: -1."
+      }
+    },
+    "environment.technology.3": {
+      "0": "AC MU IA DC UJ CST NC ARC PA GC LT GS MC EC LE BK NATC ES AP AM CM LEG CN EN VEF BN AD CLR JA NR PP CI PG SC HS MO XC KS RET",
+      "1": "CA DI JR COR EB ACK",
+      "2": "TW DEG RT",
+      "3": "GA GAN DE",
+      "why": "Industrial civilisation as inherently unsustainable: the anti-industrial (not merely anti-capitalist) claim; separates green anarchists, deep ecology, Gandhi, Taoism and radical traditionalists from Marxists (who blame capitalism, not industry) and every modernising tradition.",
+      "-1": "AS CAE MR PE POC BC ONC CR NAC MDS US PM ME NAZ GM CH ELP PR CF GE PAL EA CIN LN IR PN ID CT HI SDD NP WC TAR BL HES UT WA IB RZ ETS COL SR LL LZ REZ SN SU",
+      "-2": "NLS TP NA NOA AUC PC RC SMCD MA TR JU EU LU AMC TH NE LC GAU NS DIR IF JM PER CL SL NDL LI OR AL RE MI ANC RS TI LS GOC NM PSD THW FA IM CC HO GU BIC KE BA",
+      "-3": "TE ML ST DS EM NEO LF OB NEOR",
+      "split": "AC MU IA DC ACK CST NC ARC PA GC RET LT GS ES MC EC LE BK MO XC KS NATC AM CM LEG CN EN VEF BN AD CLR JA NR PP COR CI PG SC HS",
+      "notes": {
+        "GA": "Zerzan and Kaczynski-adjacent critique of industrial civilisation itself: 3.",
+        "ES": "Capitalism, not industry, is the problem; an ecological industrial base under planning is possible: 0, split.",
+        "ML": "Socialism is built on large-scale industry; ecological crisis is capitalist: -3.",
+        "DEG": "Rich-country throughput must shrink, but most degrowthers reject anti-industrial primitivism: 2.",
+        "JR": "Manufacturing cities corrupt republican virtue: 1.",
+        "RT": "Guenon/Evola: the modern industrial world is the dark age: 2.",
+        "DC": "Bookchin's social ecology targets hierarchy and capitalism, not technology: 0, split."
+      }
+    },
+    "environment.technology.4": {
+      "0": "IA TP CAE MR PE POC SMCD ML MA TR JU EU LU BC ARC ONC US MC EC LE PM ME NS IF NAZ NATC JM PER ELP AP CF RE TI LS AM EA CM LEG CN CIN EN LN IR ID AD CLR JA SDD JR NR NM BL COR HS HES UT XC KS IM CC HO COL SR LL BIC KE LZ SN",
+      "1": "AS MU NLS NA UJ DI NC GC MDS GS BK GM CH PR PN VEF BN HI CI RT PG SC MO IB GU ACK ETS RET BA SU",
+      "2": "AC CA DC NOA CST LT TW ES EB",
+      "3": "GA GAN DE DEG",
+      "why": "Rich-country consumption must fall whatever the technology: the sufficiency claim aimed at affluent consumers; separates degrowth, deep ecology, Laudato Si' and anti-imperialist \"the North over-consumes\" from ecomodernist and market traditions.",
+      "-1": "AUC PC RC ST CR PA NAC LC GAU DIR DS CL SL NDL LI OR AL GE RS GOC WC PP PSD FA WA RZ REZ",
+      "-2": "TE AMC TH NE NEO LF MI ANC PAL CT NP TAR THW NEOR",
+      "-3": "EM OB",
+      "split": "IA CAE MR PE ML MA TR JU EU LU CC HO BC ARC BIC US MC EC LE XC KS ME NS IF NAZ NATC JM PER AP AM EA CM LEG CN EN IR KE LZ AD CLR JA JR NR HS HES UT POC SMCD ELP",
+      "notes": {
+        "EM": "Decoupling through technology is the whole thesis: -3.",
+        "CST": "Laudato Si' 193: the rich must accept less so the poor can grow: 2.",
+        "NOA": "The North's over-consumption is the problem, not the South's development: 2.",
+        "HI": "Modi's \"LiFE\" (Lifestyle for Environment) mission blames Western consumption: 1.",
+        "ML": "Blames capitalist production rather than consumers; productivist about technology: 0, split.",
+        "GU": "Che's hostility to consumerism and material incentives: 1."
+      }
+    },
+    "environment.technology.5": {
+      "0": "AS MU IA DC CST DI NC BC ARC PA GC LT GS MC EC LE BK NAZ NATC JM ES AP PAL AM CM LEG CN EN IR VEF CT BN AD CLR JR NP WC PP TAR COR CI PG SC HS XC KS COL RET",
+      "1": "UJ CAE MR PE MA JU LU ONC AMC CR TH NE NAC US PM ME IF CH PER CL LI OR AL LF MI ANC GE TI GOC EA CIN LN PN ID HI JA SDD NR BL NEOR HES MO WA IB RZ CC HO GU ETS SR LL BIC LZ REZ SU",
+      "2": "NLS TP NA NOA AUC PC RC POC SMCD ML ST TR EU LC GAU MDS NS DIR DS GM ELP SL NEO PR NDL CF RE OB RS LS NM PSD THW FA UT IM KE SN BA",
+      "3": "TE EM",
+      "why": "Green growth: the claim that living standards and lower pollution are compatible with enough clean-tech investment; separates techno-optimist and modernising traditions from deep green, degrowth and anti-industrial ones.",
+      "-1": "AC CA EB ACK",
+      "-2": "GAN TW DEG RT",
+      "-3": "GA DE",
+      "split": "TAR AS MU IA DC CST DI NC ES BC ARC PA GC RET LT GS MC EC LE BK XC KS NAZ NATC JM AP COL PAL AM CM LEG CN EN IR VEF CT BN AD CLR JR NP WC PP COR CI PG SC HS",
+      "notes": {
+        "TE": "3: the technical fix is the doctrine.",
+        "ES": "Possible only once production is socialised; under capitalism, no: 0, split.",
+        "DEG": "Decoupling at the needed scale is an empirical myth (Hickel, Parrique): -2.",
+        "TAR": "Grants the possibility through markets but resents tax-funded green subsidies: 0, split.",
+        "AMC": "Possible through markets and innovation, sceptical of the urgency: 1.",
+        "RT": "Technological progress is the disease, not the cure: -2."
+      }
+    },
+    "environment.technology.6": {
+      "0": "PE LU BC ARC AMC CR NE PA GS US MC EC NATC GM AP PR CF AL RE GE AM CM LEG CN CIN EN LN PN VEF BN AD JA SDD NR PP COR HS HES IB RZ CC ETS SR LL REZ",
+      "1": "NLS TP NA NOA CAE MR PC POC SMCD ML TR JU EU ONC NAC LC MDS LE PM ME IF NAZ JM CH PER ELP SL LI TI LS GOC EA IR ID HI NP WC NM THW FA BL NEOR UT KS WA IM HO BIC LZ SN BA SU",
+      "2": "AUC RC TE ST GAU NS DIR DS NDL RS PSD KE",
+      "3": "EM",
+      "why": "State money for clean technology rather than asking people to change consumption: combines statism with tech-over-behaviour; separates developmental and social-democratic statists from both behaviour-changers (greens, Mohists, Stoics) and anti-spending libertarians.",
+      "-1": "AS MU IA DC UJ CST DI NC MA TH GC LT BK ES CL NEO OR OB PAL CT CLR JR TAR CI PG MO XC GU COL RET",
+      "-2": "AC CA TW LF MI ANC RT SC EB ACK",
+      "-3": "GA GAN DE DEG",
+      "split": "AMC CR NE PA GM PR CF AL OB GE LL MC EC NATC AM CM LEG CN EN LN VEF BN IB RZ AD JA SDD NR HS HES PE US GS ETS AP LU CC REZ",
+      "notes": {
+        "EM": "State-funded nuclear and clean innovation instead of asking for sacrifice: 3.",
+        "MA": "Mass campaigns to change habits (\"hard struggle and plain living\") over technical fixes: -1.",
+        "XC": "Rites exist to shape and limit desire to fit resources: -1; Mohist frugality also -1.",
+        "AMC": "Dislikes both state picking winners and lecturing consumers: 0, split.",
+        "SC": "Virtue and self-mastery, not tools, are the answer: -2.",
+        "NP": "Do not lecture ordinary people about their cars and holidays: 1."
+      }
+    },
+    "environment.technology.7": {
+      "0": "AC AS GA NLS TP NA GAN UJ NOA CAE MR AUC PE PC RC SMCD DI NC EU LU GC US MC BK NS DIR DS IF NAZ NATC CH PER AP SL NDL CF RE RS TI LS EA CM LEG CN CIN EN LN IR PN VEF ID BN HI AD NR PSD COR CI RT SC HS HES WA IB IM RZ CC SR BIC RET KE LZ SN BA SU",
+      "1": "DC POC TE CST ML ST MA TR JU LT GS EC LE PM ME JM ELP AM CLR JA NM FA PG UT XC KS EB GU ETS",
+      "2": "MDS GM ES PR MO HO ACK",
+      "3": "DE DEG",
+      "why": "State restriction of high-emission consumption (short flights, big cars): coercive lifestyle change; separates greens and the sumptuary-law traditions (Mohist, Confucian, classical republican) from libertarians and right-populists.",
+      "-1": "MU CA BC ARC ONC GAU TW LI OR GE GOC CT SDD JR PP THW COL LL REZ",
+      "-2": "CR TH NE PA NAC LC EM CL NEO AL WC BL NEOR",
+      "-3": "IA AMC LF MI OB ANC PAL NP TAR",
+      "split": "AC AS GA NLS TP NA GAN UJ NOA BA SU CAE MR AUC PE PC RC DI NC EU LU CC GC RET BIC US MC BK NS DIR DS IF NAZ NATC CH PER AP SL NDL CF RE SR RS TI LS AM EA CM LEG CN CIN EN LN IR PN KE LZ VEF ID BN HI WA IB IM RZ AD NR PSD COR CI RT SC HS HES GOC",
+      "notes": {
+        "MO": "Mozi's frugality: the state should forbid wasteful luxury: 2.",
+        "CLR": "Republican sumptuary laws (lex Oppia) against luxury that corrupts virtue: 1.",
+        "GAN": "Voluntary simplicity yes, state compulsion no: 0, split.",
+        "NP": "The \"elites' war on the motorist\" is a core grievance: -3.",
+        "EM": "Restricting consumption is the wrong lever; make clean energy cheap: -2.",
+        "AM": "Absolute monarchies routinely passed sumptuary laws: 1, split.",
+        "ACK": "Abolished private consumption altogether: 2."
+      }
+    },
+    "environment.technology.8": {
+      "0": "IA NOA MR PE POC SMCD JU EU LU BC ARC PA MDS US MC EC LE PM NAZ JM AP PR OR CF RE AM EA CM LEG CN CIN EN LN IR PN ID HI AD SDD NR NM FA BL HS HES UT XC KS RZ CC SR LL LZ SN SU",
+      "1": "NLS TP NA CAE PC RC ML TR ONC CR NAC LC GAU ME NS DIR DS IF CH PER ELP CL SL NDL LI AL GE PAL RS TI LS CT WC PP PSD THW WA IM BIC KE REZ BA",
+      "2": "AUC TE ST AMC TH NE NEO LF MI ANC GOC NP TAR NEOR",
+      "3": "EM OB",
+      "why": "Environmental protection without asking people to live more simply: the reverse of the sufficiency claim; separates techno-optimists and consumer-sovereignty traditions from frugality ethics (Taoist, Mohist, Stoic, Christian, Gandhian).",
+      "-1": "AS MU UJ NC MA GC GS BK NATC GM ES VEF BN JA JR COR CI IB HO GU ETS COL RET",
+      "-2": "AC DC CST DI LT CLR RT PG SC MO EB",
+      "-3": "GA CA GAN TW DE DEG ACK",
+      "split": "IA SU PE POC SMCD JU EU LU CC BC ARC PA MDS US PR MC EC LE PM XC KS NAZ JM AP OR CF RE SR LL AM EA CM LEG CN CIN EN LN IR PN LZ SN ID HI RZ AD SDD NR NM FA BL HS HES UT NOA",
+      "notes": {
+        "EM": "Prosperity and nature together, no sacrifice needed: 3.",
+        "GOC": "Kádár's legitimacy rested on letting people consume: 2.",
+        "ACK": "Collective austerity was the regime's moral core: -3.",
+        "CA": "Tolstoy's bread labour and plain living are religious duties: -3.",
+        "PG": "The \"city of pigs\" vs the \"fevered city\" of luxury (Republic II): -2.",
+        "MA": "\"Hard struggle and plain living\" (jianku pusu): -1.",
+        "CLR": "Luxury corrupts the citizen's virtue: -2."
+      }
+    },
+    "foreign.force.1": {
+      "0": "POC TE DI NC TR GC PM DIR EM NEO NDL OR RE MI OB GOC CM CN CIN LN ID CT NR TAR PSD THW BL CI MO COL RET",
+      "1": "TP AUC PE PC RC SMCD ML BC ONC PA LC BK NS DS NATC CH PER LI AL RS TI LEG PN BN AD JA SDD WC COR NEOR PG WA IB IM GU ACK SR KE LZ SU",
+      "2": "NLS NA CAE ST MA ARC AMC CR TH NAC ME AM EA EN VEF HI CLR NP PP RT HS HES KS RZ HO BA",
+      "3": "MR JU NE GAU LE IF NAZ JM IR BIC REZ",
+      "why": "Military strength as the source of national respect: separates militarist, realist and nationalist traditions (Legalists, Bismarck, De Gaulle, Juche, fascism) from pacifist, anarchist and moral-suasion traditions (Mencius, Taoism, Gandhi, Buddhism).",
+      "-1": "DC UJ NOA CST EU GS EC AP CL SL GE PAL LS JR NM FA UT XC LL SN",
+      "-2": "AC AS MU IA LU MDS LT US MC GM ES DE DEG ELP PR CF LF ANC SC CC ETS",
+      "-3": "GA CA GAN TW EB",
+      "split": "TR TE POC DI NC EM NEO OR NDL MI OB GOC CM CN CIN LN ID CT RE COL NR PSD THW BL CI TAR MO DIR",
+      "notes": {
+        "JU": "Songun, \"military first\": 3.",
+        "BIC": "Blood and iron: 3; GAU: independence through the force de frappe: 3.",
+        "MC": "\"The benevolent has no enemy\"; hearts are won by ren, not arms: -2.",
+        "TW": "Laozi 31: weapons are instruments of ill omen: -3.",
+        "XC": "Xunzi's \"Debate on the Military\": true strength comes from ritual order and winning hearts: -1.",
+        "MO": "Strong defence yes, respect from force no; condemns aggression: 0, split.",
+        "LE": "Wealthy state, strong army is the whole programme: 3."
+      }
+    },
+    "foreign.force.2": {
+      "0": "PC RC TE SMCD NC ONC GC PM BK DIR EM CH PER NEO NDL OR LF ANC PAL TI GOC CM CN CIN LN ID CT SDD NR WC TAR THW BL XC IB IM COL SR RET",
+      "1": "IA UJ NOA POC DI TR PA EC AP CL SL RE GE LS JR NM PSD FA SC UT MO LL SN",
+      "2": "MU GA DC CST EU LU LT GS US MC TW GM ES DE DEG ELP PR CF CC ETS",
+      "3": "AC AS CA GAN MDS EB",
+      "why": "Guns vs butter: cutting military budgets for education and health; separates the pacifist and democratic left from militarist, security-state and developmental-nationalist traditions.",
+      "-1": "TP NA AUC PE ML MA BC LC ME NS DS NATC LI AL MI OB RS EA LEG PN BN AD CLR JA NP PP COR CI NEOR PG HS HES WA GU KE LZ SU",
+      "-2": "NLS CAE ST ARC AMC CR TH NAC GAU AM EN VEF HI RT KS RZ HO ACK REZ BA",
+      "-3": "MR JU NE LE IF NAZ JM IR BIC",
+      "split": "LF ANC PAL IA TAR WC PC RC TE NEO NDL OR DIR CM CN CIN LN ID CT IB IM SDD NR THW BL TI GOC PM BK XC EM CH PER COL SR SMCD NC GC RET ONC",
+      "notes": {
+        "PA": "\"Come home, America\": cut the empire's budget, though not for welfare: 1.",
+        "LF": "Cut the military yes, but not to fund state schools and hospitals: 0, split.",
+        "CST": "Populorum Progressio 53: the arms race amid hunger is an intolerable scandal: 2.",
+        "MC": "Mencius: lighten burdens, feed the people first: 2; Legalists: -3.",
+        "TR": "\"Not a penny for the bourgeois army\" under capitalism: 1.",
+        "JU": "Military-first: -3."
+      }
+    },
+    "foreign.force.3": {
+      "0": "DC AUC RC TE DI NC GC LC LT PM DIR EM PER NEO NDL OR AL MI RS TI GOC CM CN CIN LN ID NR NP WC TAR PSD THW BL XC IM COL SR RET",
+      "1": "MU IA UJ NOA PC POC SMCD CST EU LU PA GS MC EC ELP AP CL SL RE GE LS SDD JR NM FA SC UT MO CC LL",
+      "2": "AC AS GA MDS US TW GM ES DE DEG PR CF LF ANC PAL ETS SN",
+      "3": "CA GAN EB",
+      "why": "Near-pacifism about war, even a just one: separates pacifist and anti-war traditions (Gandhi, Tolstoy, Buddhism, Cobdenite and Rothbardian libertarians) from just-revolutionary-war, realist and martial traditions (Mao, Guevara, Hegel, Evola, neocons).",
+      "-1": "TP NA PE BC ONC AMC CR TH NAC GAU BK ME NS DS NATC CH OB EA EN PN CT BN HI CLR PP COR CI NEOR PG HS WA IB KE LZ SU",
+      "-2": "NLS CAE MR ML ST TR JU ARC LI AM LEG VEF AD JA HES KS RZ HO ACK BIC REZ BA",
+      "-3": "MA NE LE IF NAZ JM IR RT GU",
+      "split": "DC LT MO RS TI GOC AUC PC TE DI NC GC LC NEO NDL OR AL MI COL SR CM CN CIN LN ID IM NR NP WC TAR PSD THW BL DIR XC PM PER EM",
+      "notes": {
+        "MA": "\"War can only be abolished through war\": -3.",
+        "GU": "\"Create two, three, many Vietnams\": -3.",
+        "HES": "War preserves the ethical health of peoples (Philosophy of Right 324): -2.",
+        "MO": "Condemns offensive war but organised the best defence of its age; a just defence is right: 1, split.",
+        "DC": "Rojava's YPG/YPJ war against ISIS as legitimate self-defence: 0, split.",
+        "LF": "Cobden: free trade, not war, brings peace: 2.",
+        "TW": "Laozi 30-31: use force only when unavoidable, and mourn the victory: 2."
+      }
+    },
+    "foreign.force.4": {
+      "0": "NOA AUC PC RC POC CST DI NC EU LU BC ARC ONC CR NE PA GC EC PM BK ME NS DIR EM NDL LI OR AL RE LS AM CM LEG PN HI NR WC PSD FA COR CI SC HS XC KS WA IB IM COL RET SN",
+      "1": "DC TP UJ PE SMCD TR NAC GAU DS CH PER RS TI GOC EA CN CIN LN ID CT BN JR NP PP NM BL HES MO SU",
+      "2": "NLS NA CAE ML MA NATC EN IR VEF AD SDD RT RZ GU ACK SR KE LZ REZ BA",
+      "3": "MR ST JU LE IF NAZ JM CLR JA HO BIC",
+      "why": "Universal conscription: separates the citizen-soldier traditions (classical republicans, Jacobins, Swiss militia, Prussian and fascist nation-in-arms, people's war) from libertarians (conscription as servitude), pacifists and professional-army liberals.",
+      "-1": "TE AMC TH LC LT GS US MC ES DE DEG ELP AP SL PR CF GE TAR THW NEOR PG UT ETS",
+      "-2": "MU MDS TW GM CL NEO PAL CC LL",
+      "-3": "AC AS IA GA CA GAN LF MI OB ANC EB",
+      "split": "NOA AUC PC RC POC CST DI NC BC ARC ONC CR NE PA GC RET EC PM BK XC KS ME NS DIR EM NDL LI OR AL RE COL LS AM CM LEG PN SN HI WA IB IM NR WC PSD FA COR CI SC HS EU LU",
+      "notes": {
+        "CLR": "Machiavelli's citizen militia; arms-bearing is the citizen's virtue: 3; JA levee en masse: 3.",
+        "OB": "Rand: the draft is the most flagrant violation of rights: -3.",
+        "PG": "Plato wants a specialised guardian-auxiliary class, not a citizen levy: -1.",
+        "SR": "The Radicals' 1905 universal two-year service as republican duty: 2.",
+        "DC": "Rojava introduced compulsory self-defence duty; Bookchin's civic militia: 1.",
+        "SDD": "Swiss militia: voters have repeatedly kept conscription: 2.",
+        "UJ": "Tanzania's compulsory National Service (JKT) was a nation-building school: 1."
+      }
+    },
+    "foreign.force.5": {
+      "0": "TP PE TR BC ARC ONC PA LC PM NS DS NATC CH PER NEO NDL OR AL RE MI PAL RS GOC CM CN CIN CT BN AD CLR JA WC TAR THW FA BL COR PG IB IM ACK COL SR KE",
+      "1": "NLS NA CAE MR AUC ML AMC CR TH NE NAC ME DIR OB AM EA LEG PN NP PP PSD RT NEOR HS HES WA HO GU BIC LZ BA SU",
+      "2": "ST MA LE EN IR HI KS RZ REZ",
+      "3": "JU GAU IF NAZ JM",
+      "why": "Nuclear armament when feasible: separates sovereignty-through-deterrence traditions (Gaullism, Juche, fascism, Hindutva, Revisionist Zionism, Hobbesian realism) from nuclear-abolitionist ones (Catholic teaching, greens, pacifists, non-aligned disarmament, Scottish nationalists).",
+      "-1": "PC RC TE SMCD NC GC EC BK EM AP CL LI LF GE TI LN VEF ID SDD JR NR CI SC UT XC RET",
+      "-2": "IA UJ NOA POC DI EU LU GS US MC SL ANC LS NM MO CC LL",
+      "-3": "AC AS MU GA CA DC GAN CST MDS LT TW GM ES DE DEG ELP PR CF EB ETS SN",
+      "split": "TR ACK PE TP NS DS DIR NATC BC ARC ONC PA LC CH PER NEO NDL OR AL RE COL SR MI PAL RS GOC AM EA LEG CM CN CIN KE VEF CT BN IB IM AD CLR JA WC TAR PSD THW FA BL COR PG PM",
+      "notes": {
+        "GAU": "The force de frappe is the guarantee of independence: 3.",
+        "CST": "Pope Francis (2019): even possession of nuclear weapons is immoral: -3.",
+        "SN": "The SNP's founding opposition to Trident: -3.",
+        "VEF": "Khamenei's fatwa forbids nuclear weapons, against the regime's hedging: -1, split.",
+        "PSD": "Attlee's Labour built the British bomb (\"a bloody Union Jack on top of it\"); later Labour left turned unilateralist: 1, split.",
+        "MA": "Called the bomb a paper tiger yet built it: 2.",
+        "HS": "Each sovereign must secure itself by whatever means in the state of nature among states: 1."
+      }
+    },
+    "foreign.force.6": {
+      "0": "TR MDS GM ELP AP PR LF GE AD SDD NR LL",
+      "1": "LU LT GS US TW ES DE DEG CL CF SC UT ETS",
+      "2": "DC GAN CLR JR EB CC",
+      "3": "AC AS MU IA GA CA ANC",
+      "why": "Abolishing standing armies: the anarchist and Kantian/republican-militia goal; separates anarchists, pacifists and militia-republicans from every state-building, realist and nationalist tradition.",
+      "-1": "UJ NOA TE CST DI EU MC EM SL RE PAL LS CN LN CT TAR FA MO XC IB IM COL SR SN",
+      "-2": "TP AUC PE PC RC POC SMCD NC ML MA BC ARC ONC PA GC LC EC PM BK ME NS DIR DS CH PER NEO NDL OR AL MI OB TI GOC CM LEG CIN PN ID BN JA WC NM PSD THW BL COR CI NEOR PG WA GU ACK RET SU",
+      "-3": "NLS NA CAE MR ST JU AMC CR TH NE NAC GAU LE IF NAZ NATC JM LI RS AM EA EN IR VEF HI NP PP RT HS HES KS RZ HO BIC KE LZ REZ BA",
+      "split": "TR MDS GM ELP AP PR LF GE LL AD SDD NR CL",
+      "notes": {
+        "CL": "Kant's Perpetual Peace, preliminary article 3: standing armies shall in time be totally abolished: 1, split.",
+        "CLR": "Machiavelli and Harrington: a standing army is the tyrant's tool; the armed citizenry replaces it: 2; JR likewise 2.",
+        "TR": "The old socialist demand of a people's militia vs Trotsky's own Red Army: 0, split.",
+        "ANC": "No state, no state army; defence by private agencies: 3.",
+        "MI": "The army is one of the three legitimate state functions: -2.",
+        "PG": "The guardian-auxiliaries are a professional standing army by design: -2.",
+        "SDD": "A militia army is not quite a standing army, but voters rejected abolishing it: 0, split.",
+        "GAN": "Shanti Sena (peace army) and non-violent defence in place of arms: 2."
+      }
+    },
+    "foreign.force.7": {
+      "0": "TP AUC PE PC RC TE ML TR ARC ONC LC GAU PM NS DIR DS NATC EM NEO NDL OR AL GOC CM LEG CN CIN LN PN VEF ID CT BN NP WC TAR THW BL COR PG UT WA IB IM HO COL SR BA SU",
+      "1": "CAE MR ST JU AMC CR TH NAC ME LI AM EN HI AD CLR JA PP RT NEOR HES GU ACK BIC LZ",
+      "2": "LE IF OB EA IR HS RZ REZ",
+      "3": "NE NAZ JM KS",
+      "why": "Preventive/pre-emptive war against an emerging threat: separates realists and expansionists (Kautilya, Hobbes, Bush-doctrine neocons, Objectivists, Revisionist Zionism) from just-war, non-aggression and anti-imperialist traditions (Mohism, CST, non-alignment, Rothbardians, paleocons).",
+      "-1": "NLS NA UJ POC SMCD DI NC MA BC GC EC BK PER AP CL SL RE MI GE RS TI LS JR NR PSD FA CI SC XC RET KE",
+      "-2": "AC AS MU IA DC CST EU LU PA LT GS US MC GM ES DE DEG CH ELP PR LF SDD NM CC ETS LL SN",
+      "-3": "GA CA GAN NOA MDS TW CF ANC PAL MO EB",
+      "split": "TP BA SU AUC PE PC RC TE ML TR HO ARC ONC LC GAU NS DIR DS NATC EM NEO NDL OR AL COL SR GOC CM LEG CN CIN LN PN VEF ID CT BN WA IB IM NP WC TAR THW BL COR PG UT",
+      "notes": {
+        "NE": "The 2002 Bush doctrine of pre-emption is the neoconservative position: 3.",
+        "MO": "Mozi condemned all attack (fei gong) and taught only defence: -3.",
+        "KS": "Arthashastra: attack the neighbour when he is weak, before he grows: 3.",
+        "HS": "Leviathan 13: \"no way for any man to secure himself so reasonable as anticipation\": 2.",
+        "MA": "\"We will not attack unless we are attacked\": -1.",
+        "EA": "Frederick the Great's preventive invasion of Saxony (1756): 2.",
+        "PA": "Opposed the Iraq war as preventive war of choice: -2.",
+        "CST": "Just-war tradition and the Holy See's opposition to the 2003 war: -2."
+      }
+    },
+    "foreign.rules.1": {
+      "0": "MU CA DC TP BC ARC GC LT US MC EC TW BK DIR ELP AP AL LF TI CN ID CLR JR BL CI PG XC IM RET",
+      "1": "GAN UJ NOA PC TE DI NC EU ONC MDS GS ES DE DEG EM CL NEO NDL RE GE LS CM CIN LN SDD NR PSD FA MO COL SR LL",
+      "2": "RC POC SMCD CST LC GM SL PR LI OR NM THW SC UT EB ETS SN",
+      "3": "CF",
+      "why": "Accepting adverse international court rulings: separates rule-of-law internationalists (cosmopolitan federalists, liberal internationalists, Christian democrats, Bentham) from sovereigntists and realists (Hobbes, Hegel, Kautilya, Juche, national-populists) and from those who see such courts as imperialist.",
+      "-1": "AC AS GA NLS NA MR AUC PE ML TR LU TH GAU PM NS DS PER MI OB RS GOC EA LEG PN CT BN HI AD JA COR RT WA IB BIC KE LZ",
+      "-2": "IA CAE ST MA AMC CR NE ME NATC CH ANC AM EN VEF WC PP TAR NEOR HES CC GU REZ BA SU",
+      "-3": "JU PA NAC LE IF NAZ JM PAL IR NP HS KS RZ HO ACK",
+      "split": "MU CA DC TP BC ARC GC RET LT US MC EC TW BK XC DIR ELP AP AL LF TI CN ID IM CLR JR BL CI PG NLS",
+      "notes": {
+        "CF": "Peace through common law binding all states is the doctrine: 3.",
+        "HS": "Covenants without the sword are but words; there is no judge above sovereigns: -3.",
+        "HES": "Among states there is no praetor; international law remains a mere \"ought\": -2.",
+        "UT": "Bentham coined \"international law\" and proposed a common court of judicature: 2.",
+        "NLS": "Invokes international law against stronger neighbours but puts sovereignty above adverse rulings: -1, split.",
+        "NOA": "Small states' best shield is the UN Charter and the ICJ: 1.",
+        "SU": "Sukarno took Indonesia out of the UN in 1965: -2."
+      }
+    },
+    "foreign.rules.2": {
+      "0": "IA GAN DI ONC MC EC TW BK AL RE LF CM CIN ID PSD RT PG XC GU COL RET",
+      "1": "TP NOA ML BC ARC TH NE GC PM DIR ELP AP MI OB TI GOC CN LN CT CLR JR BL COR IB LZ BA",
+      "2": "NLS NA CAE MR AUC PE ST MA AMC CR GAU LE ME NS DS NATC JM CH PER PAL RS EA LEG EN VEF BN HI AD JA SDD WC PP TAR NEOR HES WA RZ BIC KE REZ SU",
+      "3": "JU PA NAC IF NAZ AM IR NP HS KS HO ACK",
+      "why": "No international organisation may bind national sovereignty: absolute sovereignty vs pooled sovereignty; separates sovereigntists (Hobbes, Juche, national-conservatives, Gaullists, absolute monarchs) from federalists and Christian-democratic integrationists; anarchists value neither pole.",
+      "-1": "AC AS MU GA CA DC UJ PC TE NC EU LC MDS LT GS US ES DE DEG EM CL NEO NDL ANC GE LS PN NR NM FA UT MO IM ETS SR LL",
+      "-2": "RC POC SMCD CST TR LU GM SL PR LI OR THW CI SC EB CC SN",
+      "-3": "CF",
+      "split": "AC AS MU IA GA CA GAN GU ONC RET MC EC TW BK XC AL RE COL LF CM CIN ID PSD RT PG IB ANC",
+      "notes": {
+        "HS": "Sovereignty is indivisible and cannot be bound by any power above it: 3.",
+        "CI": "The temporal power is subject to the spiritual; no state is absolutely sovereign: -2.",
+        "TR": "Proletarian internationalism against \"socialism in one country\": -2.",
+        "AC": "Rejects state sovereignty itself, but also inter-state bodies: -1, split.",
+        "UJ": "Nyerere offered to delay independence to found an East African Federation: -1.",
+        "SDD": "Switzerland rejected the EEA and guards its sovereignty by referendum: 2.",
+        "MO": "Shang tong: all standards converge upward to the Son of Heaven and Heaven: -1."
+      }
+    },
+    "foreign.rules.3": {
+      "0": "TP GAN NOA PC NC ML LU ONC MDS LT GS US EC LE PM BK DIR ES DE AP CL NDL AL RE GE TI GOC CM CIN ID CLR NR NM PSD FA CI PG GU COL SR LL SU",
+      "1": "MU DC RC POC TE CST TR EU LC MC NS EM PER NEO PR LS LN UT MO XC IB IM EB ETS",
+      "2": "NA UJ SMCD GM CH SL LI OR THW SC SN",
+      "3": "CF PN BA",
+      "why": "A regional union with common laws on the EU model: tests willingness to pool sovereignty regionally; separates Christian democrats, federalists, pan-nationalists and Bolivarian/Arab unionists from sovereigntists, Thatcherites, Gaullists and small-state traditions.",
+      "-1": "AC AS CA NLS CAE MR AUC PE DI ST MA BC ARC NE GC DS JM DEG ELP LF MI OB RS EA LEG CN VEF CT BN HI AD JR PP COR RT HES KS WA CC BIC RET KE LZ",
+      "-2": "IA GA AMC CR TH GAU TW ME IF NAZ NATC ANC AM EN IR JA SDD WC TAR BL NEOR HS RZ REZ",
+      "-3": "JU PA NAC PAL NP HO ACK",
+      "split": "TP GAN NOA SU ML GU LU MDS LT GS US EC LE PM BK ES DE AP CL NDL AL RE COL SR GE LL TI GOC CM CIN ID CLR NR NM PSD FA CI PG MC ONC",
+      "notes": {
+        "BA": "\"One Arab nation with an eternal mission\": unity across borders: 3; PN: 3.",
+        "SMCD": "Schuman, Adenauer and De Gasperi built the European Community: 2.",
+        "TH": "Bruges speech: no European superstate: -2; GAU: a \"Europe of nations\", not a federation: -2.",
+        "CH": "Bolívar's dream of a united Latin America (ALBA, UNASUR): 2.",
+        "TR": "The Socialist United States of Europe, though never under capitalism: 1.",
+        "MU": "Proudhon's Principle of Federation: 1.",
+        "MC": "The world will be settled by unity (ding yu yi) under a ruler who does not delight in killing: 1, split."
+      }
+    },
+    "foreign.rules.4": {
+      "0": "AC AS MU IA GA UJ NOA PC TE TR LU TH GC TW PM DIR ELP AP AL RS TI GOC CM CN PN ID BN CLR JA JR BL RT PG UT WA IB IM CC KE LZ",
+      "1": "NLS TP NA MR AUC PE ML MA AMC CR NE GAU NS DS NATC CH PER PAL AM EN VEF HI AD WC PP TAR HS HES RZ GU BIC REZ BA",
+      "2": "CAE ST JU PA NAC ME EA IR NP NEOR HO ACK SU",
+      "3": "LE IF NAZ JM KS",
+      "why": "Withdrawing from treaties once they no longer pay: raison d'etat vs pacta sunt servanda; separates Kautilyan, Legalist, fascist and national-populist realism from Mencian righteousness, Catholic and liberal contract-keeping.",
+      "-1": "CA DC RC DI NC EU BC ARC ONC LC MDS LT GS US EC BK ES DE DEG EM NEO NDL RE LF MI OB ANC GE LS LEG CIN LN CT SDD NR PSD THW FA COR CI SC MO XC COL SR LL RET SN",
+      "-2": "GAN POC SMCD CST MC GM CL SL PR LI OR NM EB ETS",
+      "-3": "CF",
+      "split": "AC AS MU IA GA UJ NOA PC TE TR LU CC TH GC TW PM DIR ELP AP AL RS TI GOC CM CN PN KE LZ ID BN WA IB IM CLR JA JR BL RT PG UT",
+      "notes": {
+        "MC": "Mencius 1A1: \"Why must Your Majesty speak of profit? There is only benevolence and righteousness\": -2.",
+        "KS": "Treaties are tools of the mandala, kept while advantageous: 3; LE: 3.",
+        "EA": "Frederick seized Silesia despite the Pragmatic Sanction: 2.",
+        "HS": "Covenants among sovereigns are void on reasonable suspicion, absent a common power: 1.",
+        "CLR": "Machiavelli's Prince 18 says break faith when it harms you, but the republican Discourses prize Roman fides: 0, split.",
+        "CST": "Pacta sunt servanda is natural law: -2.",
+        "ML": "Lenin's Brest-Litovsk: treaties are instruments of the revolution: 1."
+      }
+    },
+    "foreign.rules.5": {
+      "0": "GAN UJ RC POC SMCD TR US EC PM BK ES DE EM SL PR LI RE PG HS XC ETS",
+      "1": "TE CST MC GM FA UT MO EB",
+      "2": "SC",
+      "3": "CF",
+      "why": "A common world government for global problems: the strongest pooling claim; separates cosmopolitan federalists, Stoics, Fabian internationalists and Catholic \"universal public authority\" from nearly all nationalists, sovereigntists, anarchists and libertarians.",
+      "-1": "TP NOA PC NC ML EU LU LC MDS LT GS LE DIR DEG CL NEO NDL OR AL GE TI LS CM CIN PN ID JA NR NM PSD THW CI RT IM CC GU SR LL SN",
+      "-2": "AC AS MU CA DC NLS NA CAE MR AUC PE DI ST MA BC ARC ONC NE GC TW ME NS DS JM CH PER ELP AP OB RS GOC EA CN LN VEF CT BN HI AD CLR PP BL COR HES KS IB COL BIC RET KE LZ BA SU",
+      "-3": "IA GA JU AMC CR TH PA NAC GAU IF NAZ NATC LF MI ANC PAL AM LEG EN IR SDD JR NP WC TAR NEOR WA RZ HO ACK REZ",
+      "split": "GAN UJ RC POC SMCD TR US ETS MC EC PM BK XC ES DE EM SL PR LI RE PG HS",
+      "notes": {
+        "CF": "A democratic world government is the doctrine: 3.",
+        "SC": "The cosmopolis of gods and men; every person a citizen of the world: 2.",
+        "CST": "Pacem in Terris 137: a universal public authority for the universal common good: 1.",
+        "FA": "Leonard Woolf's \"International Government\" and H. G. Wells' world state: 1.",
+        "MO": "Shang tong upward to one Son of Heaven: 1; MC tianxia unity: 1, split.",
+        "TR": "A world socialist federation after revolution, never a capitalist world government: 0, split.",
+        "GAN": "Endorsed a world federation in the 1942 Quit India resolution, but village swaraj first: 0, split."
+      }
+    },
+    "foreign.rules.6": {
+      "0": "AC AS MU IA GA DC UJ RC TE TR BC ONC GC BK EM AP NDL MI PAL CM CIN LN ID CT JR PSD BL CI PG UT IM CC COL SR RET",
+      "1": "TP PE PC ML ARC CR TH PA PM NS DIR DS NATC CH PER AL RS TI GOC LEG CN PN BN AD CLR WC TAR COR RT WA IB GU KE LZ",
+      "2": "NLS NA CAE MR AUC ST MA AMC NE NAC GAU ME OB AM EA EN VEF HI JA NP PP NEOR HES RZ HO ACK BIC REZ BA SU",
+      "3": "JU LE IF NAZ JM IR HS KS",
+      "why": "Setting aside international law for vital interests: raison d'etat and necessity; separates Hobbes, Hegel, Kautilya, Legalists, fascists and nationalist sovereigntists from rule-of-law internationalists, Mencian and Mohist moralists and Catholic teaching.",
+      "-1": "CA NOA POC SMCD DI NC EU LU LC LT GS US EC TW ES DE DEG ELP CL NEO LI OR RE LF ANC GE LS SDD NR THW FA XC LL",
+      "-2": "GAN CST MDS MC GM SL PR NM SC MO EB ETS SN",
+      "-3": "CF",
+      "split": "AC AS MU IA GA DC UJ TR CC BC ONC GC RET BK EM AP NDL COL SR MI PAL CM CIN LN ID CT IM JR PSD BL CI PG UT TE RC",
+      "notes": {
+        "HS": "No law binds sovereigns in the state of nature; salus populi is the sovereign's only law: 3.",
+        "HES": "\"The welfare of a state is the supreme law in its relations with others\": 2.",
+        "CF": "Law must bind every state or there is no perpetual peace: -3.",
+        "OB": "A free nation may act against dictatorships; international law has no moral standing over rights: 2.",
+        "MO": "Heaven's standard of righteousness binds the strong: -2.",
+        "UT": "Rule-utilitarian support for international law vs act-utilitarian necessity: 0, split."
+      }
+    },
+    "foreign.rules.7": {
+      "0": "AC AS MU CA LU BC TH NE GC US MC TW BK DIR DE AP LF MI OB ID MO IM RET",
+      "1": "DC GAN PC TE DI NC EU ONC LT GS ES DEG EM ELP CL NEO OR RE GE LS CM CIN LN SDD NR PSD FA SC UT COL SR LL",
+      "2": "RC POC SMCD CST LC MDS GM SL PR NDL NM THW EB ETS SN",
+      "3": "LI CF",
+      "why": "International monitoring of human-rights commitments: separates liberal internationalists, social democrats and Catholic teaching from regimes and doctrines that treat rights scrutiny as interference (Leninist, theocratic, monarchical, national-populist).",
+      "-1": "IA GA TP UJ NOA TR ARC CR GAU EC ME NS PER AL ANC TI CN PN AD CLR JA JR TAR BL PG XC IB CC LZ",
+      "-2": "NLS NA CAE MR AUC PE ML AMC PM DS CH PAL RS GOC EA LEG EN IR CT BN HI WC COR CI RT HES RZ GU BIC KE REZ SU",
+      "-3": "ST MA JU PA NAC LE IF NAZ NATC JM AM VEF NP PP NEOR HS KS WA HO ACK BA",
+      "split": "AC AS MU CA LU BC GC RET TH NE US MC TW BK MO DIR DE AP LF MI OB ID IM AD CLR JA",
+      "notes": {
+        "LI": "International scrutiny of rights is the liberal-internationalist core: 3.",
+        "NDL": "Eleanor Roosevelt and the Universal Declaration: 2.",
+        "NE": "Champions human rights abroad but distrusts UN bodies judging America: 0, split.",
+        "SDD": "Voters rejected the 2018 \"Swiss law, not foreign judges\" initiative by two to one: 1.",
+        "DC": "Rojava sought international recognition and observers: 1.",
+        "PM": "Rights monitoring by outsiders undermines meritocratic legitimacy and sovereignty (China model): -2.",
+        "EU": "Accepted Helsinki-style rights scrutiny, breaking with Moscow: 1."
+      }
+    },
+    "foreign.intervention.1": {
+      "0": "TP UJ CAE MR TE DI ARC ONC AMC CR GC LT GS US EC LE PM BK ME NS DIR IF NAZ JM DE EM NEO PR OR AL RE LS EA CM LEG CN IR ID CT AD CLR NR PSD FA COR CI RT PG SC KS IB IM RZ ETS COL SR LL RET SN",
+      "1": "DC PC RC POC SMCD NC BC TH LC GM SL NDL CIN LN JA NM UT MO XC LZ REZ",
+      "2": "CST MC CF OB THW",
+      "3": "NE LI",
+      "why": "Humanitarian military intervention against mass atrocities: separates liberal interventionists, neocons, R2P Catholicism and Mencian \"punish the tyrant\" from strict non-interference (non-alignment, Leninist and authoritarian regimes, paleocons, pacifists).",
+      "-1": "AC AS MU IA NLS NA PE EU GAU MDS TW DS NATC ES DEG PER AP CL MI GE TI AM EN PN VEF BN HI JR WC PP TAR BL HS HES WA GU KE",
+      "-2": "GA AUC ML ST MA TR LU NAC ELP LF ANC RS GOC SDD NP NEOR EB CC BIC BA SU",
+      "-3": "CA GAN NOA JU PA CH PAL HO ACK",
+      "split": "DC NLS UJ CAE MR AMC CR ONC LT GS US ETS EC LE PM BK KS ME NS DIR IF NAZ JM DE EM NEO PR OR AL RE COL SR LS EA CM LEG CN IR SN ID CT IB IM RZ AD CLR NR PSD FA COR CI RT PG SC LL TE GC RET ARC",
+      "notes": {
+        "LI": "The responsibility to protect is the core of the doctrine: 3.",
+        "MC": "Mencius: King Tang's punitive expeditions against tyrants were welcomed with baskets of food (1B11): 2.",
+        "OB": "Rand: any free nation has the right to invade a dictatorship, a \"slave pen\": 2.",
+        "NLS": "Vietnam's 1978 ousting of the Khmer Rouge vs the doctrine of non-interference: -1, split.",
+        "UJ": "Nyerere overthrew Amin in 1979 yet championed non-interference: 0, split.",
+        "CST": "John Paul II's \"duty of humanitarian intervention\"; Benedict XVI endorsed R2P at the UN: 2.",
+        "PA": "Wars for human rights abroad are imperial adventures: -3.",
+        "DC": "Rojava fought alongside the coalition against ISIS: 1, split."
+      }
+    },
+    "foreign.intervention.2": {
+      "0": "AC AS UJ CAE PC TE DI MA EU ARC ONC GC LT GS US EC BK NS DIR ES DE DEG EM AP NEO OR AL RE LS AM EA CM CIN PN ID CT AD CLR NR NM PSD FA RT PG SC HS IB IM RZ ETS COL SR LL BIC RET LZ",
+      "1": "MU IA GA TP MR PE GAU MDS PM DS NATC PER ELP CL MI GE TI GOC CN EN LN BN HI JR WC PP TAR BL NEOR HES EB HO KE SN BA",
+      "2": "CA NLS NA GAN AUC JU PA NAC TW CH LF ANC RS NP ACK SU",
+      "3": "NOA PAL SDD",
+      "why": "Absolute non-intervention: the Westphalian/Bandung principle; separates non-aligned, anti-imperialist and isolationist traditions from revolutionary internationalists, liberal interventionists and religious-mission states.",
+      "-1": "DC RC POC SMCD NC ML ST LU BC AMC CR TH LC LE ME GM SL PR NDL LEG VEF COR CI UT MO XC WA CC REZ",
+      "-2": "CST TR MC IF JM CF OB IR JA THW KS",
+      "-3": "NE NAZ LI GU",
+      "split": "AC AS UJ MA EU TR CAE PC TE DI ARC ONC GC RET BIC LT GS US ETS EC BK NS DIR ES DE DEG EM AP NEO OR AL RE COL SR LS LL AM EA CM PN LZ ID CT IB IM RZ AD CLR NR NM PSD FA RT PG SC HS MDS",
+      "notes": {
+        "NOA": "Bandung's principle of non-interference in internal affairs is constitutive: 3.",
+        "SDD": "Permanent neutrality: 3.",
+        "GU": "Exporting armed struggle is a revolutionary duty: -3.",
+        "MC": "Mencius endorsed punishing tyrants abroad: -2.",
+        "PAL": "Non-interventionism (Rothbard, Ron Paul) is a core plank: 3.",
+        "MA": "Five Principles of Peaceful Coexistence vs support for world revolution: 0, split.",
+        "TW": "Laozi 60-61: the great state stays low, like the sea receiving rivers: 2."
+      }
+    },
+    "foreign.intervention.3": {
+      "0": "TP MR PE RC TE SMCD CST NC JU LU BC ARC ONC LT PM ME NS DIR GM EM PER CL PR OR AL RE LS AM EA CM LEG CIN LN ID HI NR NM PSD FA PG SC KS RZ EB CC HO ETS COL LZ REZ SU",
+      "1": "NA CAE ML ST MA AMC CR TH LC GAU US MC EC BK NAZ NATC CH SL NEO NDL CF OB IR PN BN AD CLR THW COR RT HES UT MO XC IM SR BA",
+      "2": "TR IF JM VEF CT JA CI WA IB GU",
+      "3": "NE LI",
+      "why": "The mission of the strong to spread their values: separates value-exporting universalisms (neocons, liberal interventionists, revolutionary internationalism, Islamist and Christian mission, Ashoka's dhamma, French republican mission) from non-interference, isolationist and particularist traditions.",
+      "-1": "AC AS MU CA DC NLS GAN UJ AUC PC POC DI EU NAC GC MDS GS LE DS ES DE ELP AP MI GE TI GOC CN EN JR WC PP TAR BL NEOR HS ACK LL BIC RET KE SN",
+      "-2": "IA GA NOA TW DEG LF ANC RS SDD NP",
+      "-3": "PA PAL",
+      "split": "TP SU MR PE TE SMCD CST NC JU LU CC HO BC ARC ONC LT ETS KS ME NS DIR GM EM PER CL PR OR AL RE COL LS AM EA CM LEG CIN LN LZ REZ ID HI RZ EB NR NM PSD FA PG SC",
+      "notes": {
+        "NE": "Spreading democracy by American power is the doctrine: 3; LI: 3.",
+        "BK": "Ashoka's dhamma missions abroad: 1.",
+        "PA": "\"A republic, not an empire\": -3.",
+        "RS": "Taoguang yanghui, and no export of the China model: -2.",
+        "MC": "The true king transforms by the radiance of virtue, not coercion: 1.",
+        "JA": "The 1792 decree of fraternity to all peoples seeking liberty: 2.",
+        "IB": "Da'wa is a duty of the umma: 2."
+      }
+    },
+    "foreign.intervention.4": {
+      "0": "MU GA EU TH GS MC GM DEG PER ELP AP SL PR NDL RE OB TI LS CN CIN IR ID AD CLR NR NM PSD UT ACK ETS SR LL SN",
+      "1": "DC TP NOA ST JU AMC CR MDS ES LI JR KS IB IM BA SU",
+      "2": "AC AS NLS NA UJ LU NE LT CH LN PN VEF JA CC HO",
+      "3": "ML MA TR GU",
+      "why": "Supporting revolutions and resistance abroad as an internationalist duty: separates revolutionary internationalists (Trotsky, Guevara, Mao, Jacobin fraternity, liberation fronts, Khomeinist export) from order-preserving traditions (monarchs, counter-revolution, Hobbes, developmental states).",
+      "-1": "IA GAN CAE MR PE RC POC TE SMCD CST DI NC BC ARC ONC NAC GC LC GAU US EC LE BK ME NS DIR IF NAZ JM DE EM CL NEO OR CF ANC GE RS GOC CM LEG EN CT BN HI WC TAR THW FA BL PG SC MO XC WA RZ EB COL RET KE LZ REZ",
+      "-2": "CA AUC PC PA TW PM DS NATC AL LF MI EA SDD NP PP CI RT HES BIC",
+      "-3": "PAL AM COR NEOR HS",
+      "split": "MU GA EU ACK TH AMC CR GS ETS MC KS GM DEG PER ELP AP SL PR NDL RE SR OB LL TI LS CN CIN IR SN ID AD CLR NR NM PSD UT",
+      "notes": {
+        "GU": "\"Two, three, many Vietnams\": 3; TR: permanent world revolution: 3.",
+        "UJ": "Tanzania hosted the southern African liberation movements as a Frontline State: 2.",
+        "ST": "Socialism in one country subordinated the Comintern to Soviet interests: 1.",
+        "AMC": "The Reagan Doctrine armed anti-communist resistance (contras, mujahideen): 1, split.",
+        "HS": "Rebellion is never lawful; aiding it abroad invites it at home: -3.",
+        "LN": "Byron and Garibaldi: liberal nationalists fought for other nations' freedom: 2.",
+        "COR": "The Holy Alliance existed to crush revolutions: -3."
+      }
+    },
+    "foreign.intervention.5": {
+      "0": "TP UJ MR AUC PE TE DI JU EU LU NAC GC LT EC PM NS DS NATC GM EM CH PER CL PR OR AL RE RS TI LS CM CN CIN EN LN ID CT BN HI NR PP PSD BL NEOR SC UT IM CC COL RET",
+      "1": "AC AS MU IA GA CA DC GAN NOA MDS GS US TW BK ES DE DEG ELP AP MI ANC GE JR NP WC TAR HO ETS LL KE SN",
+      "2": "PA LF PAL EB",
+      "3": "SDD",
+      "why": "Army strictly for territorial defence, never deployed abroad: separates neutralists and isolationists (Swiss, paleocons, libertarians, Kemal's \"peace at home, peace in the world\") from expeditionary traditions (empires, interventionists, revolutionary exporters, Legalist conquest).",
+      "-1": "NLS PC RC POC SMCD CST NC ST MA BC ONC AMC CR TH LC GAU MC DIR SL NEO NDL OB GOC LEG PN CLR NM FA COR CI PG HS MO XC WA IB ACK SR BIC LZ SU",
+      "-2": "NA CAE ML TR ARC ME CF AM EA VEF AD JA THW RT HES RZ REZ BA",
+      "-3": "NE LE IF NAZ JM LI IR KS GU",
+      "split": "AC AS MU IA GA CA DC TP UJ MR AUC PE TE DI JU EU LU CC NAC GC RET LT EC PM NS DS NATC GM EM CH PER CL PR OR AL RE COL RS TI LS CM CN CIN EN LN ID CT BN HI IM NR PSD BL NEOR SC UT",
+      "notes": {
+        "SDD": "Armed neutrality: the army exists only to defend Swiss soil: 3.",
+        "KE": "\"Peace at home, peace in the world\": 1.",
+        "MO": "Mozi's disciples went abroad to defend besieged states such as Song: -1.",
+        "PA": "Bring the troops home: 2; LF and PAL likewise 2.",
+        "AC": "Would rather have no army at all, but certainly none abroad: 1, split.",
+        "LI": "Expeditionary forces for human rights are its method: -3.",
+        "NATC": "Franco and Salazar stayed out of the world war, but fought colonial wars: 0, split."
+      }
+    },
+    "foreign.intervention.6": {
+      "0": "AC MU GA TP NOA TE CST DI TR LU BC ARC ONC GC GAU US MC EC LE BK NS DIR DE DEG EM ELP AP OR RE LS AM EA CM LEG CN IR ID CT AD CLR JA SDD BL COR CI RT PG SC HS HES MO XC IM COL SR LL BIC RET LZ",
+      "1": "AS CA DC GAN UJ PC RC POC SMCD NC EU AMC CR LC MDS LT GS ME ES SL NDL CF CIN LN JR NR NM PSD THW FA UT KS EB ETS SN",
+      "2": "NE GM PR LI OB",
+      "3": "",
+      "why": "Economic sanctions against rights-violating governments: non-military pressure; separates liberal and social-democratic internationalists and Objectivists (no trade with dictatorships) from free-traders and sanctioned or sovereigntist regimes.",
+      "-1": "IA CAE PE ML ST MA TH NAC TW PM DS IF NAZ NATC JM PER CL NEO AL TI GOC EN PN BN HI NP WC PP TAR NEOR IB CC GU KE REZ",
+      "-2": "NLS NA MR AUC PA MI ANC GE PAL RS VEF WA RZ HO BA SU",
+      "-3": "JU CH LF ACK",
+      "split": "AC MU GA TP NOA TR LU CST DI ARC BC ONC GC BIC RET US MC EC LE BK MO XC NS DIR DE DEG EM ELP AP OR RE COL SR LL AM EA CM LEG CN IR LZ ID CT IM AD CLR JA SDD COR CI RT PG SC HS HES",
+      "notes": {
+        "OB": "Rand opposed all trade with the Soviet Union and dictatorships: 2.",
+        "LF": "Free trade is peace; sanctions punish ordinary people: -3.",
+        "UJ": "Nyerere led calls for sanctions against apartheid and Rhodesia: 1.",
+        "TH": "Thatcher resisted sanctions on apartheid South Africa: -1.",
+        "JR": "Jefferson's 1807 Embargo as coercion short of war: 1.",
+        "IF": "League sanctions over Abyssinia (1935) became a Fascist grievance against \"plutocratic\" pressure: -1.",
+        "CH": "Venezuela as a target of US sanctions: -3.",
+        "NOA": "Backed sanctions on apartheid but opposes unilateral sanctions: 0, split."
+      }
+    },
+    "foreign.intervention.7": {
+      "0": "AC AS MU IA GA DC PC TE CST DI BC ARC ONC GC GS US MC EC LE TW BK ME DIR IF NAZ NATC JM ES DE DEG EM AP CL AL RE LF MI ANC GE PAL LS AM EA CM LEG CN EN IR ID AD CLR SDD JR WC PP TAR PSD BL COR CI RT NEOR PG SC HS HES XC IB IM RZ EB CC ETS COL SR LL BIC RET LZ REZ",
+      "1": "CA TP GAN CAE MR PE ML ST MA PA NAC GAU LT PM NS DS PER ELP TI GOC PN VEF BN HI NP MO GU KE",
+      "2": "NLS NA UJ AUC JU CH RS WA HO ACK BA SU",
+      "3": "NOA",
+      "why": "Unconditional aid without political or human-rights strings: separates non-aligned, Third-Worldist and China-model \"no strings\" positions from liberal and social-democratic donors who tie aid to governance and rights.",
+      "-1": "RC POC SMCD NC TR EU LU CR TH LC MDS GM SL NEO NDL OR OB CIN LN CT JA NR FA UT KS SN",
+      "-2": "AMC NE PR CF NM THW",
+      "-3": "LI",
+      "split": "AC AS MU IA GA DC PC TE CST DI CC BC ARC ONC GC BIC RET GS US ETS MC EC LE TW BK XC ME DIR IF NAZ NATC JM ES DE DEG EM AP CL AL RE COL SR LF MI ANC GE PAL LL LS AM EA CM LEG CN EN IR LZ REZ ID IB IM RZ EB AD CLR SDD JR WC PP TAR PSD BL COR CI RT NEOR PG SC HS HES",
+      "notes": {
+        "NOA": "Aid without strings is a sovereignty principle of the non-aligned: 3.",
+        "RS": "China-model \"no political conditions\" aid: 2.",
+        "SU": "\"Go to hell with your aid\" (1964): 2.",
+        "LI": "Aid is leverage for rights and democracy: -3.",
+        "NM": "Nordic aid is tied to human rights and governance: -2.",
+        "LF": "Opposes state aid altogether, so the conditions question is moot: 0, split.",
+        "NAC": "Rejects \"woke\" liberal conditions on aid as value-imperialism: 1.",
+        "LT": "Conditionality (IMF structural adjustment) is a tool of domination over the poor: 1."
+      }
+    },
+    "change.pace.1": {
+      "0": "NOA MR PE NE NAC GAU MDS ME DIR DEG LI CF AL LF MI GE PAL AM LEG CIN EN LN PN VEF CT BN HI AD WC PSD CI SC HS MO KS RZ LL",
+      "1": "MU IA CA DC TP GAN AUC DI NC EU AMC CR PA GS MC TW BK NS DS NATC GM EM CL NDL OR TI LS CN ID CLR JR NR THW BL HES XC WA IM EB SR BIC RET LZ SN",
+      "2": "POC TE SMCD CST ARC ONC GC LC US EC PM SL RE GOC CM SDD NM IB ETS COL",
+      "3": "PC BC RS FA",
+      "why": "Piecemeal, pilot-then-scale reform: separates gradualists (Fabians, Burkeans, Deng's \"crossing the river by feeling the stones\", polder consensus, utopian model communities) from revolutionaries and clean-slate reformers (Jacobins, Stalin, Khmer Rouge, Plato).",
+      "-1": "AC AS GA NLS NA UJ CAE RC ML MA JU LU TH LT LE ES DE PER ELP AP NEO PR OB ANC EA IR NP TAR COR RT UT REZ BA SU",
+      "-2": "TR IF JM CH PP NEOR PG CC HO GU KE",
+      "-3": "ST NAZ JA ACK",
+      "split": "MA NLS NOA MR PE NE NAC GAU MDS MO KS ME DIR DEG LI CF AL LF MI GE PAL LL AM LEG CIN EN LN PN VEF CT BN HI RZ AD WC PSD CI SC HS",
+      "notes": {
+        "RS": "\"Crossing the river by feeling the stones\"; khoan 10 and SEZs were pilots first: 3.",
+        "FA": "\"The inevitability of gradualness\" (Sidney Webb): 3.",
+        "PC": "Incremental, evidence-led change is pragmatism's method: 3.",
+        "US": "Model communities to be imitated are a pilot-then-spread strategy: 2.",
+        "MA": "Mao's \"from point to surface\" (you dian dao mian) work method vs the Great Leap's all-out campaigns: -1, split.",
+        "PG": "Republic 501a: the philosopher-painters first wipe the canvas clean: -2.",
+        "EA": "Joseph II's reforms by decree, all at once: -1."
+      }
+    },
+    "change.pace.2": {
+      "0": "CA DC GAN NOA PE DI NE NAC GS ME DIR DS EM CL NDL LI OR AL MI GE PAL AM CN CIN LN PN BN HI AD JR WC PSD THW SC HS MO KS WA IM RZ SR LL LZ SN",
+      "1": "TP UJ MR TE TH GAU MDS LT US ES DE DEG PER ELP AP NEO PR CF LF OB ANC EA LEG EN IR VEF CT NP TAR COR CI UT REZ",
+      "2": "AS GA NLS NA CAE RC ML JU LU LE IF JM CH PP RT PG HO BA SU",
+      "3": "AC ST MA TR NAZ JA NEOR CC GU ACK KE",
+      "why": "Wholesale and immediate replacement of an outdated system: the revolutionary and rupture position; separates Jacobins, Leninists, Kemalists and neoreactionary \"reboot\" from Burkean, Fabian, Confucian and polder gradualism.",
+      "-1": "MU IA AUC NC EU AMC CR PA MC BK NS NATC GM SL RE TI LS ID CLR NR BL HES XC IB EB ETS BIC RET",
+      "-2": "POC SMCD CST ARC ONC GC LC EC TW PM GOC CM SDD NM COL",
+      "-3": "PC BC RS FA",
+      "split": "CA DC GAN NOA PE DI NE NAC GS MO KS ME DIR DS EM CL NDL LI OR AL MI GE PAL LL AM CN CIN LN PN LZ SN BN HI WA IM RZ AD JR WC PSD THW COR SC HS",
+      "notes": {
+        "KE": "Changed alphabet, dress, calendar and law codes in a few years: 3.",
+        "NEOR": "\"Reboot\" the state; retire all government employees (Moldbug's RAGE): 3.",
+        "FA": "Fabian gradualism is the opposite: -3; PC likewise -3.",
+        "RS": "Đổi Mới and Deng's reforms chose gradualism over shock: -3.",
+        "COR": "Full restoration of throne and altar, though Maistre wanted \"not a contrary revolution but the contrary of revolution\": 1, split.",
+        "PG": "Clean-slate founding of the just city: 2.",
+        "TH": "Thatcher's radical break with the post-war consensus: 1."
+      }
+    },
+    "change.pace.3": {
+      "0": "GA TP NOA MR AUC ME NS DE DEG PER AP CL NEO OR AL LF MI ANC RS GOC CIN LN AD NR PP TAR NM SC KS IB EB ETS SN",
+      "1": "GAN PE PC POC SMCD TH NE LC GAU GS BK JM IR PN ID CT SDD NP WC NEOR RZ REZ SU",
+      "2": "UJ CST DI NC ONC AMC CR NAC GC MC PM NATC PAL AM CM CN EN VEF BN HI CLR BL CI HES XC COL BIC",
+      "3": "BC ARC PA EC LEG COR RT RET",
+      "why": "\"Chesterton's fence\": long-lived institutions embody tacit wisdom; separates Burkean, Confucian, traditionalist and communitarian conservatism from rationalist reformers (Legalists, Bentham, Jacobins, Kemalists, Marxists, Rand).",
+      "-1": "MU CA DC NLS NA CAE RC JU LT TW DIR DS IF NAZ GM EM SL NDL LI RE GE TI LS EA JR PSD THW FA PG HS MO WA IM SR LL LZ BA",
+      "-2": "AC AS IA TE EU LU MDS US ES CH ELP PR CF OB UT GU",
+      "-3": "ML ST MA TR LE JA CC HO ACK KE",
+      "split": "GA TP NOA MR AUC ETS TW KS ME NS DE DEG PER AP CL NEO OR AL LF MI ANC RS GOC CIN LN SN IB EB AD NR PP TAR NM SC NEOR",
+      "notes": {
+        "BC": "Burke's \"latent wisdom\" in prejudice and prescription: 3; RET and PA likewise 3.",
+        "LE": "Shang Yang: past ages did not follow one way; why imitate antiquity?: -3.",
+        "MA": "\"Destroy the four olds\": -3.",
+        "WA": "The Wahhabi reform purges inherited custom (saint cults, Sufi practice) as bid'a: -1.",
+        "UT": "Bentham's Fragment on Government against Blackstone's veneration of the common law: -2.",
+        "UJ": "Ujamaa rests on the inherited wisdom of the African extended family: 2.",
+        "TH": "Hayek's evolved order is respected, but Thatcher tore into unions and guilds of the professions: 1.",
+        "HES": "The rational is actual: established institutions embody reason: 2."
+      }
+    },
+    "change.pace.4": {
+      "0": "CA DC TP NOA PE DI AMC CR NE US ME DIR GM DEG EM CL LI CF GE LS AM LEG CN CIN EN LN PN VEF BN HI AD JR WC PSD THW COR CI SC HS UT MO KS WA IM RZ SR LL LZ REZ SN",
+      "1": "GA NLS NA UJ MR TE LU NAC GAU MDS LT DS ES DE CH PER ELP AP PR NDL OR AL MI PAL EA IR CT NP TAR RT BA SU",
+      "2": "AC AS CAE RC ML TR JU TH IF JM NEO LF OB ANC PP NEOR PG CC HO GU",
+      "3": "ST MA LE NAZ JA ACK KE",
+      "why": "Radical \"big bang\" reform beats drawn-out half-measures: shock therapy and revolutionary rupture vs incremental reform; adds neoliberal and ordoliberal \"big bang\" (1948 Erhard, 1990s shock therapy) to the revolutionary side.",
+      "-1": "MU IA GAN AUC SMCD NC EU PA LC GS MC EC PM BK NS NATC SL RE TI CM ID CLR NR BL HES XC IB EB ETS BIC RET",
+      "-2": "POC CST ARC ONC GC TW GOC SDD NM COL",
+      "-3": "PC BC RS FA",
+      "split": "CA DC TP NOA PE DI AMC CR NE US MO KS ME DIR GM DEG EM CL LI CF GE LL LS AM LEG CN CIN EN LN PN LZ REZ SN VEF BN HI WA IM RZ AD JR WC PSD THW COR CI SC HS UT",
+      "notes": {
+        "NEO": "Shock therapy (Sachs, Balcerowicz): a chasm cannot be crossed in two leaps: 2.",
+        "OR": "Erhard's overnight 1948 price and currency reform: 1.",
+        "LE": "Shang Yang's sweeping reforms of Qin: 3.",
+        "RS": "Gradualism vs shock therapy is the defining contrast with the Soviet collapse: -3.",
+        "TH": "\"The lady's not for turning\": 2.",
+        "SMCD": "Erhard aside, Christian democracy governs by compromise: -1.",
+        "NDL": "The Hundred Days and \"bold, persistent experimentation\": 1."
+      }
+    },
+    "change.pace.5": {
+      "0": "IA DC NOA MR PE TE EU GAU GS ME NS DIR GM DEG EM LI OR AL LF MI ANC GE TI LS LEG CN CIN EN LN PN CT BN HI AD JR NP WC TAR PSD THW RT UT MO KS RZ SR LL LZ REZ SN",
+      "1": "MU CA GAN AUC DI NC AMC CR NE NAC MC BK CL SL RE PAL AM ID CLR NR NM BL CI SC HS HES XC WA IB IM EB ETS BIC RET",
+      "2": "PC POC SMCD CST ARC ONC PA GC LC EC TW PM NATC RS GOC CM SDD FA COR COL",
+      "3": "BC",
+      "why": "Big, fast change usually does more harm than good: the conservative scepticism of rapid change (Burke on France, Oakeshott, neocon \"unintended consequences\"); separates it from revolutionary and catch-up traditions.",
+      "-1": "GA TP UJ CAE TH MDS LT US DS ES DE PER ELP AP NEO PR NDL CF OB EA IR VEF PP NEOR PG SU",
+      "-2": "AC AS NLS NA RC JU LU LE IF JM CH CC KE BA",
+      "-3": "ML ST MA TR NAZ JA HO GU ACK",
+      "split": "IA DC NOA MR PE TE EU GAU GS MO KS ME NS DIR GM DEG EM LI OR AL SR LF MI ANC GE LL TI LS LEG CN CIN EN LN PN LZ REZ SN CT BN HI RZ AD JR NP WC TAR PSD THW RT UT",
+      "notes": {
+        "BC": "Reflections on the Revolution in France: 3.",
+        "NE": "Started as critics of Great Society social engineering (\"unintended consequences\"): 1.",
+        "RS": "Stability above all; avoid the Soviet collapse: 2; GOC 2.",
+        "HS": "Innovation in the commonwealth breeds sedition and civil war: 1.",
+        "MA": "Upheaval itself is welcome (\"great disorder under heaven, the situation is excellent\"): -3.",
+        "TH": "Rapid change hurt but was worth it: -1."
+      }
+    },
+    "change.pace.6": {
+      "0": "RC EU TH NE NAC PM ELP AP SL NEO PR NDL LI CF AL GE LS GOC AM CM CN CIN LN VEF CT BN AD NR NP WC PP PSD THW PG HS HES UT MO XC WA IB RZ SR LL REZ SN",
+      "1": "NOA CAE MR AUC PE TE TR GAU ME DIR IF NAZ EM CH PER RE OB RS TI EN IR PN ID HI JA NEOR KS LZ SU",
+      "2": "NLS TP NA UJ ML LE NS JM EA IM HO GU BIC BA",
+      "3": "ST MA JU DS ACK KE",
+      "why": "Catch-up leap: a latecomer should compress a century into a few years; separates developmental and catch-up traditions (Stalin, Mao's Great Leap, Chollima, Meiji, Peter the Great, Atatürk, List) from anti-industrial and gradualist ones.",
+      "-1": "AC AS MU IA DC PC POC SMCD CST NC LU ONC AMC CR PA LC MDS LT GS US MC EC BK NATC GM ES CL OR LF MI ANC PAL LEG CLR SDD JR TAR NM FA BL CI SC CC ETS COL",
+      "-2": "CA DI BC ARC GC COR RT EB RET",
+      "-3": "GA GAN TW DE DEG",
+      "split": "EU TH NE NAC PM MO XC ELP AP SL NEO PR NDL LI CF AL GE LL LS GOC AM CM CN CIN LN REZ SN VEF CT BN WA IB RZ AD NR NP WC PP PSD THW PG HS HES UT",
+      "notes": {
+        "ST": "\"We are fifty or a hundred years behind; we must make good this distance in ten years\" (1931): 3.",
+        "MA": "Great Leap: overtake Britain in fifteen years: 3; JU Chollima: 3; ACK Super Great Leap: 3.",
+        "DS": "Meiji and Park Chung-hee compressed industrialisation: 3.",
+        "KE": "\"Rise above the level of contemporary civilisation\": 3; EA Peter the Great: 2.",
+        "UJ": "Nyerere: \"We must run while they walk\": 2.",
+        "RS": "Catch-up yes, but by cautious steps, not leaps: 1.",
+        "GAN": "Rejects the race itself: -3."
+      }
+    },
+    "change.pace.7": {
+      "0": "AC GA NOA LU ARC AMC CR NE NAC MDS US EC TW BK ES DEG EM ELP AP CL NDL LI CF RE LF MI ANC GE PAL TI GOC CN EN PN BN HI NP WC TAR PSD THW SC IM RZ CC SR LL LZ",
+      "1": "MU IA CA GAN CST DI NC EU ONC PA GC GS MC GM SL RS LS CM CIN LN ID CLR JR NR BL IB EB ETS RET SN",
+      "2": "DC PC SMCD BC LC NM COL SU",
+      "3": "POC SDD",
+      "why": "Major reform only with broad social consensus: separates consensus-democratic traditions (polder, Swiss, Nordic, musyawarah, Burkean prudence) from vanguard, decisionist and enlightened-despotic ones (Legalists, Leninists, Plato, Hobbes, \"everything for the people, nothing by the people\").",
+      "-1": "AS NLS TP NA UJ CAE AUC PE RC MA GAU LT PM ME NS DIR NATC DE CH PER PR OR LEG IR CT AD FA COR HES UT MO XC WA BIC REZ",
+      "-2": "MR TE ML TR JU TH DS JM NEO OB AM VEF PP CI RT KS BA",
+      "-3": "ST LE IF NAZ AL EA JA NEOR PG HS HO GU ACK KE",
+      "split": "AC GA NOA LU CC AMC CR NE NAC MDS US EC TW BK ES DEG EM ELP AP CL NDL LI CF RE SR LF MI ANC GE PAL LL TI GOC CN EN PN LZ BN HI IM RZ NP WC TAR PSD THW SC",
+      "notes": {
+        "POC": "Policy is made by negotiated consensus among state, unions and employers: 3; SDD: 3.",
+        "SU": "Musyawarah-mufakat (deliberation to consensus) is Guided Democracy's own principle, though around a leader: 2.",
+        "LE": "Shang Yang: \"one does not consult the multitude when accomplishing great deeds\": -3.",
+        "EA": "\"Everything for the people, nothing by the people\": -3.",
+        "MA": "The mass line consults the masses, but the party leads: -1.",
+        "PG": "Philosophers rule regardless of the many's opinion: -3.",
+        "AL": "A strong state must shield markets from popular pressure: -3."
+      }
+    },
+    "change.pace.8": {
+      "0": "UJ NOA AUC TE NE NAC LT PM ME NS DIR ES DE EM NEO PR NDL LI CF LF MI OB ANC GE EN LN PN CT BN HI CLR NP WC TAR CI HS HES UT WA LL",
+      "1": "AC AS GA PE RC TH GAU DS NATC CH PER AL AM IR VEF PP COR RT PG RZ BIC LZ REZ SU",
+      "2": "TP NA CAE MR ST MA JU LE NAZ JM EA LEG NEOR KS HO KE BA",
+      "3": "NLS ML TR IF JA GU ACK",
+      "why": "Seize the moment even if most people are not ready: vanguardism and decisionism (Lenin, the August Revolution's \"thời cơ\", Caesar, March on Rome, Jacobins) vs democratic gradualism and consent (Swiss, Fabian, Mencian).",
+      "-1": "MU IA DC CST DI NC ARC ONC AMC CR PA GS US EC TW BK GM DEG ELP AP CL SL OR PAL RS TI LS CN CIN AD JR PSD THW BL SC MO XC IB IM SR RET",
+      "-2": "CA GAN PC SMCD EU LU GC LC MDS MC RE GOC CM ID NR NM FA EB CC ETS COL SN",
+      "-3": "POC BC SDD",
+      "split": "AC AS GA UJ NOA AUC TE NE NAC LT PM ME NS DIR ES DE EM NEO PR NDL LI CF LF MI OB ANC GE LL EN LN PN CT BN HI WA CLR NP WC TAR CI HS HES UT",
+      "notes": {
+        "NLS": "The August 1945 general uprising seized the \"thời cơ\" before the Allies arrived: 3.",
+        "ML": "Lenin's April Theses and October: the vanguard acts ahead of the majority: 3.",
+        "LU": "Luxemburg opposed putschism and premature insurrection by a minority: -2.",
+        "SDD": "Nothing big without a popular vote: -3.",
+        "MC": "Act only when the people are pleased (Mencius 1B10): -2.",
+        "IF": "The March on Rome: 3; CAE crossing the Rubicon / 18 Brumaire: 2.",
+        "LEG": "Rise for the rightful king when the moment comes (1715, 1745): 2."
+      }
+    },
+    "change.means.1": {
+      "0": "RC EU ARC ONC TH NAC GC LC MDS GS TW BK NS GM DE DEG EM ELP AP NEO PR NDL OR CF LS CM CN ID BN HI NP WC PSD BL CI RT SC IB IM RZ COL RET",
+      "1": "MU IA GA UJ NOA SMCD CST DI NC BC CR NE GAU ES CH PER SL LI LF GE TI CIN EN IR PN SDD NR TAR UT XC SR LL LZ",
+      "2": "AS DC NA ST JU LU AMC PA LT MC MI OB ANC PAL LEG LN VEF CT AD CC KE REZ BA SU",
+      "3": "AC NLS TP ML MA TR CL CLR JA JR HO GU ACK",
+      "why": "The right of armed rebellion against oppression: separates Lockean, Mencian, republican, revolutionary and resistance-theory traditions from Hobbesian, Legalist, absolutist, Kautilyan and Wahhabi doctrines of non-resistance, and from Gandhian/Tolstoyan pacifism.",
+      "-1": "CAE MR PC POC TE US EC PM ME DIR RE RS PP NM THW COR PG MO ETS SN",
+      "-2": "AUC PE DS IF NAZ NATC AL GOC FA NEOR HES WA BIC",
+      "-3": "CA GAN LE JM AM EA HS KS EB",
+      "split": "EU ARC ONC TH NAC GC LC RET MDS GS TW BK NS GM DE DEG EM ELP AP NEO PR NDL OR CF COL CM CN ID BN HI IB IM RZ NP WC PSD BL COR CI RT SC TE",
+      "notes": {
+        "CL": "Locke's appeal to heaven, the right of revolution: 3; JR, the Declaration of Independence: 3.",
+        "MC": "\"I have heard of the punishment of the outcast Zhou, not the murder of a ruler\" (1B8): 2.",
+        "HS": "Rebellion is never lawful; the sovereign can do no injustice to subjects: -3.",
+        "WA": "Wahhabi doctrine forbids rising (khuruj) against a Muslim ruler: -2.",
+        "CT": "Calvinist resistance theory (Knox, the Vindiciae): 2.",
+        "COR": "Denies any right of resistance to legitimate kings, though the Vendee rose against the Revolution: -1, split.",
+        "CST": "Populorum Progressio 31: revolt only against manifest, long-standing tyranny: 1.",
+        "XC": "Xunzi too held that Tang and Wu punished, not murdered, the tyrants: 1."
+      }
+    },
+    "change.means.2": {
+      "0": "NOA CR PA MDS GS TW GM PER ELP CL PR LF MI OB LN PN BN HI CLR JR NEOR PG UT IB LL LZ",
+      "1": "RC CST DI NC AMC NE NAC GC US BK ME NS EM AP SL NDL LI CF GE TI CN CIN AD NR NP WC BL SC MO IM SR RET",
+      "2": "AUC PE PC POC TE SMCD EU BC ARC ONC TH LC EC PM DIR DS NEO OR AL RE RS LS GOC AM ID NM PSD THW HES XC KS WA ETS COL BIC",
+      "3": "LE EA CM SDD FA HS SN",
+      "why": "Change only through legal channels: legalism about political change; separates constitutional, order-first traditions (Hobbes, Legalists, Fabians, absolutism, Swiss and Scottish referendum routes) from revolutionary, insurrectionary and civil-disobedience ones.",
+      "-1": "MU UJ GAU MC NAZ ES DEG CH PAL EN VEF CT PP TAR COR CI RZ EB KE REZ",
+      "-2": "IA CA DC NA GAN CAE MR ST JU LU LT NATC JM DE ANC LEG IR RT SU",
+      "-3": "AC AS GA NLS TP ML MA TR IF JA CC HO GU ACK BA",
+      "split": "NOA CR PA MDS GS TW GM PER ELP CL PR LF MI OB LL LN PN LZ BN HI IB CLR JR COR NEOR PG UT NAZ",
+      "notes": {
+        "FA": "Socialism through law and administration, never the barricade: 3.",
+        "SN": "Independence only through a legal, agreed referendum: 3.",
+        "HS": "Every change must come from the sovereign: 3; LE: 3.",
+        "NAZ": "After the 1923 putsch Hitler adopted a tactical \"legality\" strategy: -1, split.",
+        "CL": "Locke reserves a right of revolution beyond the law: 0, split.",
+        "NEOR": "Moldbug's \"passivism\": no activism, no violence, wait for the reboot: 0, split.",
+        "MC": "Removing a tyrant is righteous even if not lawful: -1."
+      }
+    },
+    "change.means.3": {
+      "0": "TP NA PC POC TR BC ONC AMC NAC GC GAU US TW PM BK NS DIR EM CH PER NEO OR OB LEG EN IR PN CT HI CLR SDD NP WC THW FA CI MO XC IB CC LZ BA SU",
+      "1": "AC AS MU GA NLS UJ NOA RC SMCD DI NC EU LU CR PA LC GS MC EC ELP AP CL NDL LI CF LF MI ANC GE PAL LS CM CN LN ID BN JR TAR NM PSD BL PG UT IM RZ COL SR LL RET SN",
+      "2": "IA DC CST MDS LT GM ES DEG SL PR RE CIN NR SC ETS",
+      "3": "CA GAN DE EB",
+      "why": "Civil disobedience (open, non-violent law-breaking accepting punishment): the Socrates-Thoreau-Gandhi-King model; separates conscience-based traditions (Gandhi, Tolstoy, engaged Buddhism, Stoic martyrs, Catholic \"unjust law is no law\") from order-absolutists (Hobbes, Legalists, absolute monarchy, Wahhabism, Leninist regimes).",
+      "-1": "CAE TE ML MA ARC TH NE ME DS TI AD COR RT NEOR HES GU KE REZ",
+      "-2": "MR AUC PE ST IF NATC JM AL RS GOC EA VEF JA PP KS HO BIC",
+      "-3": "JU LE NAZ AM HS WA ACK",
+      "split": "TP NA BA SU PC POC TR CC BC ONC AMC NAC GC GAU US TW PM BK MO XC NS DIR EM CH PER NEO OR OB LEG EN IR PN LZ CT HI IB CLR SDD NP WC THW FA CI AC",
+      "notes": {
+        "GAN": "Satyagraha: break the unjust law openly and court arrest: 3; CA, Tolstoy: 3; EB, Thich Quang Duc and King: 3.",
+        "IA": "Thoreau's \"Civil Disobedience\": 2.",
+        "CST": "Aquinas, cited by King: an unjust law is no law at all: 2.",
+        "SC": "Helvidius Priscus defied Vespasian and accepted death: 2.",
+        "PG": "Socrates in the Apology refuses to stop philosophising and in the Crito accepts the penalty: 1.",
+        "RE": "Phan Chau Trinh's non-violent 1908 tax protests and open petitions: 2.",
+        "AC": "Breaking the law yes, but accepting the state's punishment as legitimate no: 1, split.",
+        "LE": "Every infraction must be punished; no law is \"unjust\" to the subject: -3."
+      }
+    },
+    "change.means.4": {
+      "0": "IA TP NA UJ NOA RC CST DI ST US MC TW SL NDL LI CF RE GE TI CM CN CIN EN LN IR PN ID BN AD CLR WC NM BL SC UT IB IM RZ SR LL RET LZ BA SU",
+      "1": "MU CA NLS ML EU GM CH PER AP PR LS JA NR TAR PSD EB GU ETS SN",
+      "2": "GA DC GAN MA MDS LT GS ES DE DEG ELP",
+      "3": "AC AS TR LU CC",
+      "why": "Peaceful occupations of factories, offices or streets: direct action that infringes property and order without violence; separates syndicalist, council and new-left traditions from property-rights libertarians, corporatist-authoritarians and fascists (who broke the 1920 Italian factory occupations).",
+      "-1": "PC POC TE SMCD NC ONC CR PA GC LC BK NS DIR EM CT HI JR NP THW FA RT MO HO ACK COL",
+      "-2": "CAE PE JU BC ARC AMC NE NAC GAU EC PM ME CL NEO OR RS GOC LEG VEF SDD COR CI PG HES XC KE REZ",
+      "-3": "MR AUC TH LE DS IF NAZ NATC JM AL LF MI OB ANC PAL AM EA PP NEOR HS KS WA BIC",
+      "split": "IA ML ST TP NA UJ NOA BA SU RC CST DI US MC TW NDL LI CF RE SL GE LL TI CM CN CIN EN LN IR PN LZ ID BN IB IM RZ AD CLR WC NM BL SC UT",
+      "notes": {
+        "AS": "Factory occupation is the syndicalist method: 3; LU and CC (workers' councils): 3.",
+        "IF": "Fascist squads smashed the 1920 factory occupations: -3.",
+        "TH": "Defeated the miners and outlawed secondary picketing: -3.",
+        "ML": "A tactic under capitalism, forbidden under the workers' state: 1, split.",
+        "TAR": "Poujadist and farmers' blockades are its own repertoire: 1.",
+        "GAN": "Non-violent sit-ins and dharnas: 2.",
+        "IA": "Occupancy-and-use property cuts both ways: 0, split."
+      }
+    },
+    "change.means.5": {
+      "0": "DC NA UJ NOA ST LU LT NAZ DEG CH PER AP PR EN PN VEF BN HI RT RZ HO LZ SU",
+      "1": "NLS TP ML TR IF ES IR JA JR CC ACK REZ BA",
+      "2": "AC AS MA DE GU",
+      "3": "GA",
+      "why": "Property destruction short of harming people (sabotage, monkeywrenching): the line between non-violence toward persons and toward things; separates green-anarchist, syndicalist and guerrilla traditions from both pacifists (Gandhi, Tolstoy, Buddhism) and property-and-order traditions.",
+      "-1": "MU IA MDS GS MC TW JM GM ELP LEG CN LN AD CLR NR TAR UT IB IM LL",
+      "-2": "CA CAE MR PE RC TE CST DI NC JU EU CR PA NAC GC GAU US EC BK NS DIR NATC EM SL NDL LI CF RE GE TI LS CIN ID CT NP WC PSD BL COR CI PG SC MO XC WA ETS SR RET KE",
+      "-3": "GAN AUC PC POC SMCD BC ARC ONC AMC TH NE LC LE PM ME DS CL NEO OR AL LF MI OB ANC PAL RS GOC AM EA CM SDD PP NM THW FA NEOR HS HES KS EB COL BIC SN",
+      "split": "DC ML ST LU HO ACK NA UJ NOA SU LT DEG CH PER AP PR IF NAZ EN PN LZ VEF BN HI RZ RT",
+      "notes": {
+        "GA": "Earth First! monkeywrenching and ELF sabotage: 3.",
+        "DE": "Ecotage is defended by parts of the movement (Foreman), against Naess's Gandhian line: 2.",
+        "GAN": "Ahimsa extends to property; burning foreign cloth was his own goods: -3.",
+        "JR": "Jefferson approved the Boston Tea Party (\"a little rebellion now and then\"): 1.",
+        "IF": "The squadristi burned union halls and presses before taking power: 1.",
+        "PR": "Divided over riots and property damage in protest: 0, split.",
+        "ML": "Sabotage is a tactic subordinate to the party, never individual \"excitative terror\": 1, split."
+      }
+    },
+    "change.means.6": {
+      "0": "PC POC ST ARC NE NAC TW NS EM PER NEO OR TI CM CN EN PN BN HI AD SDD NP WC NM PSD THW BL",
+      "1": "CAE MR TE TH EC PM BK ME DIR AL RS GOC VEF PP FA COR NEOR PG UT MO HO KE",
+      "2": "AUC PE JU DS IF NATC JM HES KS WA ACK BIC",
+      "3": "LE NAZ AM EA HS",
+      "why": "No right to resist even unjust laws: absolute legal obedience; separates Hobbes, Legalists, absolutism, Wahhabi quietism and fascism from natural-law, republican, revolutionary and conscience traditions; Xunzi's \"follow the Way, not the ruler\" divides him from Mozi's \"conform upward\".",
+      "-1": "UJ NOA RC SMCD EU BC ONC GC LC GAU US CH ELP AP SL NDL LI CF RE LF MI GE LS LEG CIN IR ID CLR CI RT SC XC IB IM RZ COL SR RET LZ REZ SN SU",
+      "-2": "MU DC NA CST DI NC ML MA AMC CR PA MDS GS MC GM ES DE DEG CL PR OB PAL LN CT JA NR TAR EB ETS LL BA",
+      "-3": "AC AS IA GA CA NLS TP GAN TR LU LT ANC JR CC GU",
+      "split": "ML ST ACK PC POC ARC NE NAC TW NS EM PER NEO OR TI CM CN EN PN BN HI AD SDD NP WC NM PSD THW BL COR TE",
+      "notes": {
+        "HS": "Subjects may never resist the sovereign's law: 3; AM and EA: 3.",
+        "XC": "\"Follow the Way, not the ruler\" (cong dao bu cong jun, Xunzi \"Way of the Minister\"): -1; MO's \"conform upward\": 1.",
+        "CST": "An unjust law is not a law and does not bind conscience: -2.",
+        "UT": "Bentham: \"obey punctually, censure freely\", unless resistance yields more utility: 1.",
+        "JA": "The 1793 Declaration made resistance to oppression a natural right: -2.",
+        "ACK": "Absolute obedience to Angkar: 2, split (it began as a rebellion).",
+        "PG": "The Laws' speech in the Crito argues for obedience, though Socrates disobeyed in the Apology: 1."
+      }
+    },
+    "change.means.7": {
+      "0": "IA GA NOA AUC PE RC BC ARC ONC CR TH PA GC MC EC ME NS DIR ES EM ELP AP CL NEO NDL LI OR AL MI OB ANC PAL LS EA CM CIN CT HI NR NP WC PP TAR PSD BL CI NEOR PG HES XC IB SR LL BIC RET LZ",
+      "1": "MU UJ PC POC TE SMCD CST DI NC EU LC MDS GS US TW PM DS DE DEG SL PR CF LF GE ID BN NM THW SC HS UT COL",
+      "2": "GM CN FA IM ETS",
+      "3": "CA GAN RE EB SN",
+      "why": "Under foreign rule, enlightenment and peaceful struggle over armed uprising: the Phan Chau Trinh vs Phan Boi Chau debate; separates reformist-enlightenment, Gandhian, Muhammad Abduh and cultural-nationalist paths from national-liberation, Leninist, legitimist (Can Vuong) and Revisionist-Zionist armed struggle.",
+      "-1": "AS DC CAE LU AMC NE NAC LT NATC PER RS GOC AM EN LN PN AD SDD COR MO KS WA RZ CC",
+      "-2": "AC TP NA MR TR GAU LE BK IF JM CH TI VEF CLR JA JR RT BA SU",
+      "-3": "NLS ML ST MA JU NAZ LEG IR HO GU ACK KE REZ",
+      "split": "IA GA NOA AUC PE BC ARC ONC CR TH PA GC BIC RET MC EC XC ME NS DIR ES EM ELP AP CL NEO NDL LI OR AL SR MI OB ANC PAL LL LS EA CM LZ CT HI IB NR NP WC PP TAR PSD BL CI NEOR PG HES",
+      "notes": {
+        "RE": "Phan Chau Trinh's programme exactly (khai dan tri, bat bao dong): 3.",
+        "NLS": "The August Revolution and the resistance wars: armed struggle is the decisive road: -3.",
+        "LEG": "Can Vuong: rise in arms for the king against the foreign occupier: -3.",
+        "BK": "The Tran kings who took up the sword against the Mongols: -2.",
+        "IM": "After the failed Urabi revolt, Abduh chose education and reform over insurrection: 2.",
+        "SN": "Peaceful, legal routes only: 3.",
+        "HS": "The conquered owe obedience to the conqueror who protects them; neither path is a right: 1, split.",
+        "KE": "The War of Independence made the nation: -3."
+      }
+    }
+  }
+}

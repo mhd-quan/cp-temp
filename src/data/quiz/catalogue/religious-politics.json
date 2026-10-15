@@ -1,0 +1,565 @@
+{
+  "parties": [
+    {
+      "id": "islamic-republican-party",
+      "name": "Đảng Cộng hoà Hồi giáo",
+      "country": "Iran",
+      "period": "1979–1987",
+      "variants": [
+        "velayat-e-faqih"
+      ],
+      "emblem": {
+        "shape": "disc",
+        "field": "#239f40",
+        "ink": "#ffffff",
+        "motif": "flower-tulip"
+      }
+    },
+    {
+      "id": "hezbollah",
+      "name": "Hezbollah",
+      "country": "Liban",
+      "period": "1982–nay",
+      "variants": [
+        "velayat-e-faqih"
+      ],
+      "emblem": {
+        "shape": "disc",
+        "field": "#f7e117",
+        "ink": "#197b30",
+        "motif": "hand-fist"
+      }
+    },
+    {
+      "id": "ennahda",
+      "name": "Đảng Ennahda",
+      "country": "Tunisia",
+      "period": "1981–nay",
+      "variants": [
+        "islamic-democracy"
+      ],
+      "emblem": {
+        "shape": "disc",
+        "field": "#263a94",
+        "ink": "#ffffff",
+        "motif": "bird"
+      }
+    },
+    {
+      "id": "akp",
+      "name": "Đảng Công lý và Phát triển",
+      "abbr": "AKP",
+      "country": "Thổ Nhĩ Kỳ",
+      "period": "2001–nay",
+      "variants": [
+        "islamic-democracy"
+      ],
+      "emblem": {
+        "shape": "disc",
+        "field": "#ffffff",
+        "ink": "#f39200",
+        "motif": "lightbulb",
+        "ring": "#1d71b8"
+      }
+    },
+    {
+      "id": "masyumi",
+      "name": "Hội đồng Tư vấn Hồi giáo Indonesia",
+      "abbr": "Masyumi",
+      "country": "Indonesia",
+      "period": "1945–1960",
+      "variants": [
+        "islamic-democracy"
+      ],
+      "emblem": {
+        "shape": "disc",
+        "field": "#000000",
+        "ink": "#ffffff",
+        "motif": "star-and-crescent"
+      }
+    },
+    {
+      "id": "sgp-netherlands",
+      "name": "Đảng Cải cách Chính trị",
+      "abbr": "SGP",
+      "country": "Hà Lan",
+      "period": "1918–nay",
+      "variants": [
+        "calvinist-theocracy"
+      ],
+      "emblem": {
+        "shape": "square",
+        "field": "#e95d0f",
+        "ink": "#ffffff",
+        "motif": "book-open"
+      }
+    },
+    {
+      "id": "jathika-hela-urumaya",
+      "name": "Jathika Hela Urumaya",
+      "abbr": "JHU",
+      "country": "Sri Lanka",
+      "period": "2004–nay",
+      "variants": [
+        "buddhist-nationalism"
+      ],
+      "emblem": {
+        "shape": "disc",
+        "field": "#f39200",
+        "ink": "#ffffff",
+        "motif": "dharma-wheel"
+      }
+    },
+    {
+      "id": "bjp",
+      "name": "Đảng Bharatiya Janata",
+      "abbr": "BJP",
+      "country": "Ấn Độ",
+      "period": "1980–nay",
+      "variants": [
+        "hindutva"
+      ],
+      "emblem": {
+        "shape": "disc",
+        "field": "#ff9933",
+        "ink": "#ffffff",
+        "motif": "flower-lotus",
+        "ring": "#138808"
+      }
+    },
+    {
+      "id": "rss",
+      "name": "Tổ chức Tình nguyện Quốc gia",
+      "abbr": "RSS",
+      "country": "Ấn Độ",
+      "period": "1925–nay",
+      "variants": [
+        "hindutva"
+      ],
+      "emblem": {
+        "shape": "shield",
+        "field": "#f47216",
+        "ink": "#ffffff",
+        "motif": "flag-banner"
+      }
+    },
+    {
+      "id": "bharatiya-jana-sangh",
+      "name": "Đảng Bharatiya Jana Sangh",
+      "abbr": "BJS",
+      "country": "Ấn Độ",
+      "period": "1951–1977",
+      "variants": [
+        "hindutva"
+      ],
+      "emblem": {
+        "shape": "disc",
+        "field": "#ff9933",
+        "ink": "#ffffff",
+        "motif": "diya"
+      }
+    },
+    {
+      "id": "muslim-brotherhood",
+      "name": "Tổ chức Anh em Hồi giáo",
+      "country": "Ai Cập",
+      "period": "1928–nay",
+      "variants": [
+        "islamism-brotherhood"
+      ],
+      "emblem": {
+        "shape": "disc",
+        "field": "#1f7a3a",
+        "ink": "#ffffff",
+        "motif": "book-open",
+        "ring": "#c8102e"
+      }
+    },
+    {
+      "id": "jamaat-e-islami-pakistan",
+      "name": "Jamaat-e-Islami",
+      "abbr": "JI",
+      "country": "Pakistan",
+      "period": "1941–nay",
+      "variants": [
+        "islamism-brotherhood"
+      ],
+      "emblem": {
+        "shape": "disc",
+        "field": "#00843d",
+        "ink": "#ffffff",
+        "motif": "star-and-crescent",
+        "ring": "#6cace4"
+      }
+    },
+    {
+      "id": "national-religious-party",
+      "name": "Đảng Tôn giáo Quốc gia",
+      "abbr": "Mafdal",
+      "country": "Israel",
+      "period": "1956–2008",
+      "variants": [
+        "religious-zionism"
+      ],
+      "emblem": {
+        "shape": "disc",
+        "field": "#1f4e9c",
+        "ink": "#ffffff",
+        "motif": "star-of-david"
+      }
+    }
+  ],
+  "states": [
+    {
+      "id": "iran-1979-present",
+      "name": "Cộng hoà Hồi giáo Iran",
+      "period": "1979–nay",
+      "note": "Giáo sĩ làm Lãnh tụ tối cao, Hội đồng Giám hộ lọc ứng viên",
+      "variants": [
+        "velayat-e-faqih"
+      ],
+      "flag": "iran"
+    },
+    {
+      "id": "turkey-2002-2013",
+      "name": "Thổ Nhĩ Kỳ",
+      "period": "2002–2013",
+      "note": "AKP thời kỳ đầu, cải cách để đàm phán gia nhập EU",
+      "variants": [
+        "islamic-democracy"
+      ],
+      "flag": "turkey"
+    },
+    {
+      "id": "geneva-1541-1564",
+      "name": "Genève thời Calvin",
+      "period": "1541–1564",
+      "note": "Hội đồng Consistoire giám sát đạo đức công dân",
+      "variants": [
+        "calvinist-theocracy"
+      ],
+      "flag": "geneva"
+    },
+    {
+      "id": "ceylon-1956-1959",
+      "name": "Ceylon (Sri Lanka)",
+      "period": "1956–1959",
+      "note": "S. W. R. D. Bandaranaike, luật chỉ dùng tiếng Sinhala",
+      "variants": [
+        "buddhist-nationalism"
+      ],
+      "flag": "sri-lanka"
+    },
+    {
+      "id": "india-2014-present",
+      "name": "Ấn Độ",
+      "period": "2014–nay",
+      "note": "Chính phủ Narendra Modi (BJP)",
+      "variants": [
+        "hindutva"
+      ],
+      "flag": "india"
+    },
+    {
+      "id": "diriyah-1744-1818",
+      "name": "Tiểu vương quốc Diriyah (nhà nước Saud thứ nhất)",
+      "period": "1744–1818",
+      "note": "Liên minh giữa Muhammad bin Saud và Ibn Abd al-Wahhab",
+      "variants": [
+        "wahhabism"
+      ],
+      "seal": true
+    },
+    {
+      "id": "saudi-arabia-1932-2016",
+      "name": "Ả Rập Xê Út",
+      "period": "1932–2016",
+      "note": "Vương triều Saud và giáo sĩ Wahhabi; cảnh sát tôn giáo giám sát nơi công cộng",
+      "variants": [
+        "wahhabism"
+      ],
+      "flag": "saudi-arabia"
+    },
+    {
+      "id": "egypt-2012-2013",
+      "name": "Ai Cập",
+      "period": "2012–2013",
+      "note": "Tổng thống Mohamed Morsi, Đảng Tự do và Công lý của Anh em Hồi giáo",
+      "variants": [
+        "islamism-brotherhood"
+      ],
+      "flag": "egypt"
+    },
+    {
+      "id": "sudan-1989-1999",
+      "name": "Sudan",
+      "period": "1989–1999",
+      "note": "Omar al-Bashir cùng Mặt trận Hồi giáo Quốc gia của Hassan al-Turabi",
+      "variants": [
+        "islamism-brotherhood"
+      ],
+      "flag": "sudan"
+    },
+    {
+      "id": "ottoman-1876-1878",
+      "name": "Đế quốc Ottoman",
+      "period": "1876–1878",
+      "note": "Hiến pháp và Nghị viện đầu tiên, theo chủ trương của phái Tân Ottoman",
+      "variants": [
+        "islamic-modernism"
+      ],
+      "flag": "turkey"
+    }
+  ],
+  "figures": [
+    {
+      "id": "ruhollah-khomeini",
+      "name": "Ruhollah Khomeini",
+      "life": "1902–1989",
+      "role": "Lãnh tụ tối cao đầu tiên của Iran",
+      "variant": "velayat-e-faqih",
+      "wiki": "Ruhollah Khomeini"
+    },
+    {
+      "id": "hassan-nasrallah",
+      "name": "Hassan Nasrallah",
+      "life": "1960–2024",
+      "role": "Tổng thư ký Hezbollah (Liban)",
+      "variant": "velayat-e-faqih",
+      "wiki": "Hassan Nasrallah"
+    },
+    {
+      "id": "rached-ghannouchi",
+      "name": "Rached Ghannouchi",
+      "life": "s. 1941",
+      "role": "Đồng sáng lập, lãnh tụ Đảng Ennahda (Tunisia)",
+      "variant": "islamic-democracy",
+      "wiki": "Rached Ghannouchi"
+    },
+    {
+      "id": "anwar-ibrahim",
+      "name": "Anwar Ibrahim",
+      "life": "s. 1947",
+      "role": "Thủ tướng Malaysia, lãnh tụ phong trào Reformasi",
+      "variant": "islamic-democracy",
+      "wiki": "Anwar Ibrahim"
+    },
+    {
+      "id": "mohammad-natsir",
+      "name": "Mohammad Natsir",
+      "life": "1908–1993",
+      "role": "Thủ tướng Indonesia, lãnh tụ Đảng Masyumi",
+      "variant": "islamic-democracy",
+      "wiki": "Mohammad Natsir"
+    },
+    {
+      "id": "john-calvin",
+      "name": "Jean Calvin",
+      "life": "1509–1564",
+      "role": "Nhà cải cách Tin Lành ở Genève",
+      "variant": "calvinist-theocracy",
+      "wiki": "John Calvin"
+    },
+    {
+      "id": "rousas-rushdoony",
+      "name": "Rousas J. Rushdoony",
+      "life": "1916–2001",
+      "role": "Mục sư Mỹ, cha đẻ thuyết tái thiết Kitô giáo",
+      "variant": "calvinist-theocracy",
+      "wiki": "R. J. Rushdoony"
+    },
+    {
+      "id": "anagarika-dharmapala",
+      "name": "Anagarika Dharmapala",
+      "life": "1864–1933",
+      "role": "Nhà phục hưng Phật giáo Sri Lanka",
+      "variant": "buddhist-nationalism",
+      "wiki": "Anagarika Dharmapala"
+    },
+    {
+      "id": "swrd-bandaranaike",
+      "name": "S. W. R. D. Bandaranaike",
+      "life": "1899–1959",
+      "role": "Thủ tướng Ceylon (Sri Lanka)",
+      "variant": "buddhist-nationalism",
+      "axes": {
+        "economy": 30
+      },
+      "wiki": "S. W. R. D. Bandaranaike"
+    },
+    {
+      "id": "vd-savarkar",
+      "name": "V. D. Savarkar",
+      "life": "1883–1966",
+      "role": "Nhà tư tưởng, người đặt ra khái niệm Hindutva",
+      "variant": "hindutva",
+      "axes": {
+        "religion": 55
+      },
+      "wiki": "Vinayak Damodar Savarkar"
+    },
+    {
+      "id": "ms-golwalkar",
+      "name": "M. S. Golwalkar",
+      "life": "1906–1973",
+      "role": "Người đứng đầu thứ hai của tổ chức RSS",
+      "variant": "hindutva",
+      "wiki": "M. S. Golwalkar"
+    },
+    {
+      "id": "narendra-modi",
+      "name": "Narendra Modi",
+      "life": "s. 1950",
+      "role": "Thủ tướng Ấn Độ",
+      "variant": "hindutva",
+      "wiki": "Narendra Modi"
+    },
+    {
+      "id": "muhammad-ibn-abd-al-wahhab",
+      "name": "Muhammad ibn Abd al-Wahhab",
+      "life": "1703–1792",
+      "role": "Nhà thuyết giáo xứ Najd, người khởi xướng phong trào Wahhabi",
+      "variant": "wahhabism",
+      "axes": {
+        "change": 70
+      },
+      "wiki": "Muhammad ibn Abd al-Wahhab"
+    },
+    {
+      "id": "ibn-saud",
+      "name": "Ibn Saud",
+      "life": "1875–1953",
+      "role": "Vua sáng lập Vương quốc Ả Rập Xê Út",
+      "variant": "wahhabism",
+      "wiki": "Ibn Saud"
+    },
+    {
+      "id": "ibn-baz",
+      "name": "Abd al-Aziz ibn Baz",
+      "life": "1910–1999",
+      "role": "Đại Mufti Ả Rập Xê Út (1993–1999)",
+      "variant": "wahhabism",
+      "wiki": "Ibn Baz"
+    },
+    {
+      "id": "hassan-al-banna",
+      "name": "Hassan al-Banna",
+      "life": "1906–1949",
+      "role": "Người sáng lập Tổ chức Anh em Hồi giáo (Ai Cập)",
+      "variant": "islamism-brotherhood",
+      "wiki": "Hassan al-Banna"
+    },
+    {
+      "id": "sayyid-qutb",
+      "name": "Sayyid Qutb",
+      "life": "1906–1966",
+      "role": "Nhà lý luận Anh em Hồi giáo, tác giả Những cột mốc",
+      "variant": "islamism-brotherhood",
+      "axes": {
+        "power": 15,
+        "identity": 20,
+        "change": 90
+      },
+      "wiki": "Sayyid Qutb"
+    },
+    {
+      "id": "mohamed-morsi",
+      "name": "Mohamed Morsi",
+      "life": "1951–2019",
+      "role": "Tổng thống Ai Cập (2012–2013)",
+      "variant": "islamism-brotherhood",
+      "axes": {
+        "change": 40
+      },
+      "wiki": "Mohamed Morsi"
+    },
+    {
+      "id": "jamal-al-din-al-afghani",
+      "name": "Jamal al-Din al-Afghani",
+      "life": "1838–1897",
+      "role": "Nhà hoạt động Liên Hồi giáo, chống chủ nghĩa đế quốc",
+      "variant": "islamic-modernism",
+      "axes": {
+        "foreign": 35,
+        "change": 65
+      },
+      "wiki": "Jamal al-Din al-Afghani"
+    },
+    {
+      "id": "muhammad-abduh",
+      "name": "Muhammad Abduh",
+      "life": "1849–1905",
+      "role": "Đại Mufti Ai Cập, nhà cải cách giáo dục al-Azhar",
+      "variant": "islamic-modernism",
+      "wiki": "Muhammad Abduh"
+    },
+    {
+      "id": "muhammad-iqbal",
+      "name": "Muhammad Iqbal",
+      "life": "1877–1938",
+      "role": "Nhà thơ, triết gia Hồi giáo Ấn Độ",
+      "variant": "islamic-modernism",
+      "wiki": "Muhammad Iqbal"
+    },
+    {
+      "id": "abraham-isaac-kook",
+      "name": "Rav Abraham Isaac Kook",
+      "life": "1865–1935",
+      "role": "Đại Rabbi Ashkenazi đầu tiên của Palestine thời Uỷ trị",
+      "variant": "religious-zionism",
+      "axes": {
+        "foreign": 50
+      },
+      "wiki": "Abraham Isaac Kook"
+    },
+    {
+      "id": "zvi-yehuda-kook",
+      "name": "Zvi Yehuda Kook",
+      "life": "1891–1982",
+      "role": "Rabbi, người truyền cảm hứng cho phong trào định cư Gush Emunim",
+      "variant": "religious-zionism",
+      "wiki": "Zvi Yehuda Kook"
+    },
+    {
+      "id": "yitzchak-yaacov-reines",
+      "name": "Yitzchak Yaacov Reines",
+      "life": "1839–1915",
+      "role": "Rabbi, người sáng lập phong trào Mizrachi (1902)",
+      "variant": "religious-zionism",
+      "axes": {
+        "foreign": 55,
+        "change": 30
+      },
+      "wiki": "Yitzchak Yaacov Reines"
+    },
+    {
+      "id": "thich-nhat-hanh",
+      "name": "Thích Nhất Hạnh",
+      "life": "1926–2022",
+      "role": "Thiền sư, người sáng lập dòng tu Tiếp Hiện và Làng Mai",
+      "variant": "engaged-buddhism",
+      "wiki": "Thích Nhất Hạnh"
+    },
+    {
+      "id": "b-r-ambedkar",
+      "name": "B. R. Ambedkar",
+      "life": "1891–1956",
+      "role": "Người soạn Hiến pháp Ấn Độ, khởi xướng Phật giáo Navayana",
+      "variant": "engaged-buddhism",
+      "axes": {
+        "economy": 20,
+        "power": 60,
+        "environment": 40
+      },
+      "wiki": "B. R. Ambedkar"
+    },
+    {
+      "id": "sulak-sivaraksa",
+      "name": "Sulak Sivaraksa",
+      "life": "s. 1933",
+      "role": "Nhà hoạt động xã hội Thái Lan, đồng sáng lập Mạng lưới Phật tử Dấn thân Quốc tế",
+      "variant": "engaged-buddhism",
+      "wiki": "Sulak Sivaraksa"
+    }
+  ]
+}

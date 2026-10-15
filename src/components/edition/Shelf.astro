@@ -1,0 +1,46 @@
+---
+// Kệ sách: reviewed books standing on one shelf at their true proportions.
+// Every book is set to one height and keeps its own width, so all of them meet
+// the shelf on one line; the words of each book hang beneath the shelf, all
+// from the same line. With `lead`, the newest review stands first as a larger
+// edition, taller than the rest but on the same shelf, so nothing is left
+// empty beneath it. The shelf is drawn by shadows alone (the contact of each
+// book, the cast of its body, the shade of the ledge), never by a rule.
+// When the books do not fit the width they slide sideways under the fingers,
+// or with the controls that name this shelf (data-shelf-controls).
+import type { Review } from '../../lib/editionData';
+import { bookCover } from '../../lib/responsiveImage';
+import ShelfCaption from './ShelfCaption.astro';
+
+interface Props {
+  reviews: Review[];
+  lead?: boolean;
+  heading?: 'h2' | 'h3';
+  id?: string;
+  label: string;
+}
+const { reviews, lead = false, heading = 'h3', id, label } = Astro.props;
+---
+<div class:list={['shelf', lead && 'shelf--lead']} id={id} role="region" aria-label={label} data-shelf>
+  <ol class="shelf__books" role="list">
+    {reviews.map((review, index) => {
+      const href = `/essays/${review.essay.id}`;
+      const isLead = lead && index === 0;
+      const cover = bookCover(review.cover.source, isLead);
+      return (
+        <li class:list={['shelf__item', isLead && 'shelf__item--lead']} data-ink={review.ink}>
+          <a class="book" href={href} tabindex="-1" aria-hidden="true" style={`--rw:${cover.width};--rh:${cover.height}`}>
+            <span class="book__body">
+              <picture>
+                <source type="image/avif" srcset={cover.avif} sizes={cover.sizes} />
+                <img class="book__cover" src={cover.src} srcset={cover.srcset} sizes={cover.sizes} width={cover.width} height={cover.height} alt="" loading="lazy" decoding="async" />
+              </picture>
+            </span>
+            <span class="book__shadow"></span>
+          </a>
+          <ShelfCaption review={review} href={href} heading={heading} lead={isLead} />
+        </li>
+      );
+    })}
+  </ol>
+</div>

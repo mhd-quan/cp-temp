@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="vi"><head><meta charset="utf-8"><title>Thử chữ 2</title>
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link id="gf" rel="stylesheet">
+<style>
+body{margin:0;background:#faf9f6;color:#161828;font-family:system-ui}
+.wrap{padding:28px 36px}
+.grid{display:grid;grid-template-columns:repeat(3,1fr);gap:22px}
+.card{border-top:1px solid #161828;padding-top:10px}
+.name{font:600 12px system-ui;letter-spacing:.04em;color:#585a66;margin-bottom:10px}
+.t{font-size:34px;line-height:1.08;font-weight:500;letter-spacing:-.01em;margin:0}
+.st{font-size:19px;font-style:italic;line-height:1.35;margin:8px 0 12px}
+.p{font-size:18px;line-height:1.62;margin:0}
+.cap{font-size:12px;letter-spacing:.12em;text-transform:uppercase;margin:0 0 8px;font-weight:600}
+.ui{font-size:13px;letter-spacing:.1em;text-transform:uppercase;display:flex;gap:22px;flex-wrap:wrap;margin:6px 0}
+.meta{font-size:14px;color:#585a66}
+.btn{display:inline-block;background:#161828;color:#faf9f6;padding:10px 16px;font-size:14px;margin-top:8px}
+.mast{font-size:64px;line-height:1;margin:0}
+h2{font:600 13px system-ui;letter-spacing:.08em;text-transform:uppercase;margin:34px 0 12px}
+</style></head><body><div class="wrap">
+<h2>A · Chữ đọc (serif) — tiêu đề 500, phụ đề nghiêng, thân 18px có đậm và nghiêng</h2>
+<div class="grid" id="text"></div>
+<h2>B · Chữ giao diện (sans) — điều hướng in hoa 13px, giãn 0.1em, 500 và 600</h2>
+<div class="grid" id="ui"></div>
+<h2>C · Chữ hiển thị — tên ấn phẩm và tiêu đề lớn</h2>
+<div class="grid" id="display"></div>
+</div>
+<script>
+const text=[['Source Serif 4','opsz,ital,wght@8..60,0..1,400..700'],['Newsreader','opsz,ital,wght@6..72,0..1,400..700'],['Literata','opsz,ital,wght@7..72,0..1,400..700'],['Vollkorn','ital,wght@0,400..700;1,400..700'],['Alegreya','ital,wght@0,400..700;1,400..700'],['Piazzolla','opsz,ital,wght@8..30,0..1,400..700'],['Brygada 1918','ital,wght@0,400..700;1,400..700'],['Faustina','ital,wght@0,400..700;1,400..700'],['EB Garamond','ital,wght@0,400..700;1,400..700']];
+const ui=[['Be Vietnam Pro','wght@400;500;600'],['Libre Franklin','ital,wght@0,400..700;1,400..700'],['Archivo','wdth,wght@62..125,400..700'],['Mona Sans','wdth,wght@75..125,400..700'],['Familjen Grotesk','wght@400..700'],['Work Sans','wght@400..700'],['Epilogue','wght@400..700'],['Chivo','wght@400..700'],['Alegreya Sans','wght@400;500;700']];
+const disp=[['Libre Bodoni','ital,wght@0,400..700;1,400..700'],['Playfair','opsz,wdth,wght@5..1200,87.5..112.5,400..700'],['Noto Serif Display','wdth,wght@62.5..100,400..700'],['Imbue','opsz,wght@10..100,400..700'],['Newsreader','opsz,ital,wght@6..72,0..1,400..700'],['Literata','opsz,ital,wght@7..72,0..1,400..700'],['Old Standard TT','ital,wght@0,400;0,700;1,400'],['Brygada 1918','ital,wght@0,400..700;1,400..700'],['Vollkorn','ital,wght@0,400..700;1,400..700']];
+const fams=[...new Map([...text,...ui,...disp].map(f=>[f[0],f])).values()];
+document.getElementById('gf').href='https://fonts.googleapis.com/css2?'+fams.map(([n,a])=>'family='+n.replace(/ /g,'+')+':'+a).join('&')+'&display=swap';
+const P='Chỉ trong <b>mười hai năm</b>, chưa đầy một thế hệ là đã đủ để tháo tung một hệ thống pháp quyền mà người ta đã tưởng là vững chắc. <i>Tuyên ngôn Độc lập</i> viện dẫn Locke, nhưng người viện dẫn có bị ràng buộc bởi logic của chính nó không?';
+document.getElementById('text').innerHTML=text.map(([n])=>`<div class="card" style="font-family:'${n}'"><div class="name">${n}</div><p class="cap">Chính trị · Tư tưởng</p><p class="t">Lời hứa Ngày Độc lập</p><p class="st">Tuyên ngôn Độc lập, Locke và Lenin.</p><p class="p">${P}</p></div>`).join('');
+document.getElementById('ui').innerHTML=ui.map(([n])=>`<div class="card" style="font-family:'${n}'"><div class="name">${n}</div><div class="ui" style="font-weight:500">Tiểu luận<span>Pensées</span><span>Chuyên đề</span><span>Điểm sách</span></div><div class="ui" style="font-weight:600">Lưu trữ<span>Chính trị</span><span>Kinh tế</span><span>Căn tính</span></div><div class="meta">M. Q. Doan · 1 tháng 9, 2026 · 29 phút đọc</div><span class="btn" style="font-weight:600">Nhận bài mới</span></div>`).join('');
+document.getElementById('display').innerHTML=disp.map(([n])=>`<div class="card" style="font-family:'${n}'"><div class="name">${n}</div><p class="mast" style="font-size:44px;font-weight:500">The Cochinchine Pensées</p><p class="t" style="font-size:52px;margin-top:10px;font-weight:600">Đám đông Trần trụi</p><p class="t" style="font-size:40px;font-style:italic;font-weight:400;margin-top:6px">Kỷ nguyên vươn mình</p></div>`).join('');
+</script></body></html>

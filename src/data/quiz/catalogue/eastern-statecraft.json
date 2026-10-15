@@ -1,0 +1,299 @@
+{
+  "parties": [
+    {
+      "id": "pap",
+      "name": "Đảng Hành động Nhân dân",
+      "abbr": "PAP",
+      "country": "Singapore",
+      "period": "1954–nay",
+      "variants": [
+        "political-meritocracy",
+        "developmental-state",
+        "technocracy"
+      ],
+      "emblem": {
+        "shape": "disc",
+        "field": "#ffffff",
+        "ink": "#e4002b",
+        "motif": "lightning",
+        "ring": "#0033a0"
+      }
+    }
+  ],
+  "states": [
+    {
+      "id": "dai-viet-1460-1497",
+      "name": "Đại Việt thời Lê Thánh Tông",
+      "period": "1460–1497",
+      "note": "Bộ luật Hồng Đức, khoa cử và bộ máy quan lại",
+      "variants": [
+        "examination-confucianism"
+      ],
+      "seal": true
+    },
+    {
+      "id": "song-dynasty-960-1279",
+      "name": "Nhà Tống (Trung Hoa)",
+      "period": "960–1279",
+      "note": "Quan văn xuất thân khoa cử điều hành nhà nước",
+      "variants": [
+        "examination-confucianism"
+      ],
+      "seal": true
+    },
+    {
+      "id": "qin-356-206-bc",
+      "name": "Nước Tần và nhà Tần",
+      "period": "356–206 TCN",
+      "note": "Từ biến pháp Thương Ưởng đến khi nhà Tần sụp đổ",
+      "variants": [
+        "legalism"
+      ],
+      "seal": true
+    },
+    {
+      "id": "han-180-141-bc",
+      "name": "Nhà Hán thời Văn–Cảnh",
+      "period": "180–141 TCN",
+      "note": "Hán Văn Đế, Hán Cảnh Đế theo chính sách Hoàng–Lão",
+      "variants": [
+        "taoist-wuwei"
+      ],
+      "seal": true
+    },
+    {
+      "id": "singapore-1965-present",
+      "name": "Singapore",
+      "period": "1965–nay",
+      "note": "PAP cầm quyền liên tục từ thời Lý Quang Diệu",
+      "variants": [
+        "political-meritocracy",
+        "developmental-state",
+        "technocracy"
+      ],
+      "flag": "singapore"
+    },
+    {
+      "id": "dai-viet-1009-1400",
+      "name": "Đại Việt thời Lý–Trần",
+      "period": "1009–1400",
+      "note": "Phật giáo thịnh, Thiền phái Trúc Lâm",
+      "variants": [
+        "buddhist-kingship"
+      ],
+      "seal": true
+    },
+    {
+      "id": "maurya-268-232-bc",
+      "name": "Đế quốc Maurya thời Ashoka",
+      "period": "268–232 TCN",
+      "note": "Ashoka theo Phật giáo sau chiến tranh Kalinga",
+      "variants": [
+        "buddhist-kingship"
+      ],
+      "seal": true
+    },
+    {
+      "id": "maurya-322-297-bc",
+      "name": "Đế quốc Maurya thời Chandragupta",
+      "period": "322–297 TCN",
+      "note": "Kautilya giúp lật đổ nhà Nanda và làm quân sư",
+      "variants": [
+        "kautilyan-statecraft"
+      ],
+      "seal": true
+    }
+  ],
+  "figures": [
+    {
+      "id": "confucius",
+      "name": "Khổng Tử",
+      "life": "551–479 TCN",
+      "role": "Nhà tư tưởng, người sáng lập Nho giáo",
+      "variant": "mencian-confucianism",
+      "wiki": "Confucius"
+    },
+    {
+      "id": "mencius",
+      "name": "Mạnh Tử",
+      "life": "372–289 TCN",
+      "role": "Triết gia Nho gia, được tôn là Á thánh",
+      "variant": "mencian-confucianism",
+      "wiki": "Mencius"
+    },
+    {
+      "id": "nguyen-trai",
+      "name": "Nguyễn Trãi",
+      "life": "1380–1442",
+      "role": "Nhà chính trị, tác giả Bình Ngô đại cáo",
+      "variant": "mencian-confucianism",
+      "wiki": "Nguyễn Trãi"
+    },
+    {
+      "id": "le-thanh-tong",
+      "name": "Lê Thánh Tông",
+      "life": "1442–1497",
+      "role": "Hoàng đế Đại Việt, ban hành bộ luật Hồng Đức",
+      "variant": "examination-confucianism",
+      "wiki": "Lê Thánh Tông"
+    },
+    {
+      "id": "zhu-xi",
+      "name": "Chu Hi",
+      "life": "1130–1200",
+      "role": "Nhà Tân Nho học đời Tống",
+      "variant": "examination-confucianism",
+      "wiki": "Zhu Xi"
+    },
+    {
+      "id": "le-quy-don",
+      "name": "Lê Quý Đôn",
+      "life": "1726–1784",
+      "role": "Nhà bác học, đại thần thời Lê trung hưng",
+      "variant": "examination-confucianism",
+      "wiki": "Lê Quý Đôn"
+    },
+    {
+      "id": "shang-yang",
+      "name": "Thương Ưởng",
+      "life": "390–338 TCN",
+      "role": "Tướng quốc nước Tần, nhà cải cách Pháp gia",
+      "variant": "legalism",
+      "wiki": "Shang Yang"
+    },
+    {
+      "id": "han-fei",
+      "name": "Hàn Phi",
+      "life": "280–233 TCN",
+      "role": "Triết gia, người tổng hợp học thuyết Pháp gia",
+      "variant": "legalism",
+      "wiki": "Han Fei"
+    },
+    {
+      "id": "qin-shi-huang",
+      "name": "Tần Thuỷ Hoàng",
+      "life": "259–210 TCN",
+      "role": "Hoàng đế đầu tiên thống nhất Trung Hoa",
+      "variant": "legalism",
+      "wiki": "Qin Shi Huang"
+    },
+    {
+      "id": "laozi",
+      "name": "Lão Tử",
+      "life": "thế kỷ 6 TCN",
+      "role": "Triết gia, tác giả Đạo Đức Kinh",
+      "variant": "taoist-wuwei",
+      "wiki": "Laozi"
+    },
+    {
+      "id": "zhuang-zhou",
+      "name": "Trang Tử",
+      "life": "369–286 TCN",
+      "role": "Triết gia Đạo gia",
+      "variant": "taoist-wuwei",
+      "axes": {
+        "power": 85
+      },
+      "wiki": "Zhuang Zhou"
+    },
+    {
+      "id": "emperor-wen-of-han",
+      "name": "Hán Văn Đế",
+      "life": "203–157 TCN",
+      "role": "Hoàng đế nhà Hán, trị nước theo Hoàng–Lão",
+      "variant": "taoist-wuwei",
+      "axes": {
+        "power": 35
+      },
+      "wiki": "Emperor Wen of Han"
+    },
+    {
+      "id": "lee-kuan-yew",
+      "name": "Lý Quang Diệu",
+      "life": "1923–2015",
+      "role": "Thủ tướng đầu tiên của Singapore",
+      "variant": "political-meritocracy",
+      "wiki": "Lee Kuan Yew"
+    },
+    {
+      "id": "daniel-a-bell",
+      "name": "Daniel A. Bell",
+      "life": "s. 1964",
+      "role": "Nhà triết học Canada, tác giả The China Model",
+      "variant": "political-meritocracy",
+      "wiki": "Daniel A. Bell"
+    },
+    {
+      "id": "tran-nhan-tong",
+      "name": "Trần Nhân Tông",
+      "life": "1258–1308",
+      "role": "Hoàng đế Đại Việt, sáng lập Thiền phái Trúc Lâm",
+      "variant": "buddhist-kingship",
+      "wiki": "Trần Nhân Tông"
+    },
+    {
+      "id": "ashoka",
+      "name": "Ashoka",
+      "life": "304–232 TCN",
+      "role": "Hoàng đế Maurya, người bảo trợ Phật giáo",
+      "variant": "buddhist-kingship",
+      "wiki": "Ashoka"
+    },
+    {
+      "id": "ly-thai-to",
+      "name": "Lý Thái Tổ",
+      "life": "974–1028",
+      "role": "Vua sáng lập nhà Lý, dời đô về Thăng Long",
+      "variant": "buddhist-kingship",
+      "wiki": "Lý Thái Tổ"
+    },
+    {
+      "id": "mozi",
+      "name": "Mặc Tử",
+      "life": "470–391 TCN",
+      "role": "Triết gia, người sáng lập Mặc gia",
+      "variant": "mohism",
+      "wiki": "Mozi"
+    },
+    {
+      "id": "xunzi",
+      "name": "Tuân Tử",
+      "life": "310–235 TCN",
+      "role": "Triết gia Nho gia, thầy của Hàn Phi và Lý Tư",
+      "variant": "xunzian-confucianism",
+      "wiki": "Xunzi (philosopher)"
+    },
+    {
+      "id": "jia-yi",
+      "name": "Giả Nghị",
+      "life": "200–168 TCN",
+      "role": "Chính luận gia đầu nhà Hán, tác giả Quá Tần luận",
+      "variant": "xunzian-confucianism",
+      "wiki": "Jia Yi"
+    },
+    {
+      "id": "ogyu-sorai",
+      "name": "Ogyū Sorai",
+      "life": "1666–1728",
+      "role": "Nhà Nho Nhật Bản, cố vấn chính sách Mạc phủ Tokugawa",
+      "variant": "xunzian-confucianism",
+      "wiki": "Ogyū Sorai"
+    },
+    {
+      "id": "chanakya",
+      "name": "Kautilya (Chanakya)",
+      "life": "thế kỷ 4 TCN",
+      "role": "Quân sư nhà Maurya, tác giả Arthashastra",
+      "variant": "kautilyan-statecraft",
+      "wiki": "Chanakya"
+    },
+    {
+      "id": "chandragupta-maurya",
+      "name": "Chandragupta Maurya",
+      "life": "350–295 TCN",
+      "role": "Hoàng đế sáng lập nhà Maurya",
+      "variant": "kautilyan-statecraft",
+      "wiki": "Chandragupta Maurya"
+    }
+  ]
+}

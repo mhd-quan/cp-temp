@@ -1,0 +1,33 @@
+---
+import InfoPage from '~/components/edition/InfoPage.astro';
+import { COMPASS, EXPERIMENTS } from '~/lib/editionNav';
+---
+<InfoPage
+  title="Giới thiệu"
+  description="The Cochinchine Pensées: một không gian độc lập cho những suy tưởng và trao đổi về triết học, chính trị, xã hội và văn hóa, cùng lời lưu ý dành cho người đọc."
+>
+  <p class="info__lede">
+    The Cochinchine Pensées là một không gian độc lập cho những suy tưởng và
+    trao đổi bằng tiếng Việt, về triết học, chính trị, xã hội và văn hóa.
+    Những người viết ở đây viết dưới tên mình và cho riêng mình: tiểu luận khi
+    một ý cần được đi đến cùng, pensées khi nó chỉ cần được ghi lại, điểm sách
+    khi một cuốn sách đáng được đọc chậm.
+  </p>
+  <p>
+    Mục <a href={EXPERIMENTS}>Thể nghiệm</a> là nơi thử những hình thức khác
+    ngoài bài viết, để người đọc tự làm và tự dò thay vì chỉ đọc. Đầu tiên là{' '}
+    <a href={COMPASS}>La bàn Tư tưởng</a>.
+  </p>
+  <h2 id="reader-note-title">Gửi bạn đọc</h2>
+  <p>
+    Mỗi bài viết là quan điểm riêng của người viết nó, không nhất thiết phản ánh
+    hay đại diện cho quan điểm của The Cochinchine Pensées hay của những người
+    viết khác ở đây. Trang không nhằm ủng hộ hay cản trở bất kỳ nghị quyết nào,
+    hay tác động đến bất kỳ quyết định chính trị nào.
+  </p>
+  <p>
+    Xin đọc với tinh thần phản tư: cân nhắc lập luận, đối chiếu dẫn chứng
+    và dành chỗ cho những cách nhìn khác, kể cả khi chúng khác với quan điểm của mình.
+  </p>
+  <p>Thư từ, góp ý hay phản biện xin gửi về <a href="mailto:letters@cochinchinepensees.studio">letters@cochinchinepensees.studio</a>.</p>
+</InfoPage>

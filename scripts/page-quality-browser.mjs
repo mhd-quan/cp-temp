@@ -1,0 +1,146 @@
+import assert from 'node:assert/strict';
+
+const { chromium } = await import(process.env.PERF_PLAYWRIGHT_MODULE || 'playwright');
+const base = new URL(process.env.PERF_BASE_URL || 'http://127.0.0.1:4321');
+if (!['127.0.0.1', 'localhost'].includes(base.hostname)) throw new Error('Use a local preview');
+// Service workers are blocked here: these checks route requests, which a worker's own
+// fetches would pass by. scripts/app-browser.mjs checks the worker itself.
+const browser = await chromium.launch({
+  executablePath:
+    process.env.CHROME_PATH || '/Applications/Google Chrome.app/Contents/MacOS/Google Chrome',
+  headless: true,
+});
+try {
+  const context = await browser.newContext({ serviceWorkers: 'block', reducedMotion: 'reduce' });
+  await context.route('**/*', (route) =>
+    new URL(route.request().url()).origin === base.origin ? route.continue() : route.abort(),
+  );
+  const page = await context.newPage();
+  // Observe browser deprecations before navigation, including bundled dependencies.
+  // This local preview excludes Cloudflare's production-only injected scripts.
+  const audits = await context.newCDPSession(page);
+  const deprecations = [];
+  audits.on('Audits.issueAdded', ({ issue }) => {
+    if (issue.code === 'DeprecationIssue') {
+      deprecations.push(issue.details.deprecationIssueDetails);
+    }
+  });
+  await audits.send('Audits.enable');
+  const errors = [];
+  page.on('pageerror', (error) => errors.push(error.message));
+  const routes = [
+    '/',
+    '/essays',
+    '/archives',
+    '/books',
+    '/authors',
+    '/series',
+    '/search',
+    '/subscribe',
+    '/about',
+    '/privacy',
+    '/essays/2026-01-19-thien-menh-o',
+    '/missing-v100',
+  ];
+  for (const width of [320, 390, 568, 768, 1024, 1440]) {
+    await page.setViewportSize({ width, height: width === 568 ? 320 : width < 768 ? 663 : 1000 });
+    for (const route of routes) {
+      const response = await page.goto(new URL(route, base).href);
+      assert.equal(response.status(), route === '/missing-v100' ? 404 : 200, route);
+      await page.evaluate(() => document.fonts.ready);
+      assert.deepEqual(deprecations, [], `Deprecated browser API: ${route} at ${width}px`);
+      assert.ok(
+        await page.evaluate(() => document.documentElement.scrollWidth <= innerWidth + 1),
+        `${width}px: ${route}`,
+      );
+      if (route === '/') {
+        const mastheadCta = page.locator('.masthead__subscribe');
+        const inMenu = !(await mastheadCta.isVisible());
+        if (inMenu) await page.locator('.masthead__menu').click();
+        const cta = await (inMenu ? page.locator('.menu__subscribe') : mastheadCta).boundingBox();
+        assert.ok(
+          cta && cta.y >= 0 && cta.y + cta.height <= page.viewportSize().height,
+          `${width}px: subscription is reachable in the masthead or menu`,
+        );
+        if (inMenu) await page.keyboard.press('Escape');
+      }
+    }
+  }
+  console.log(
+    'PASS 72 page/viewport combinations: HTTP status, horizontal overflow, subscription access',
+  );
+  await page.setViewportSize({ width: 390, height: 663 });
+  await page.goto(base.href);
+  await page.keyboard.press('Tab');
+  assert.equal(await page.locator(':focus').getAttribute('href'), '#main');
+  const toggle = page.locator('.masthead__menu');
+  await toggle.click();
+  assert.ok(await page.locator('#site-menu').evaluate((menu) => menu.matches(':popover-open')));
+  await page.keyboard.press('Escape');
+  assert.ok(await page.locator('#site-menu').evaluate((menu) => !menu.matches(':popover-open')));
+  await page.goto(new URL('/privacy', base).href);
+  await page.evaluate(() => {
+    document.documentElement.style.fontSize = '200%';
+  });
+  assert.ok(await page.evaluate(() => document.documentElement.scrollWidth <= innerWidth + 1));
+  console.log('PASS skip link, mobile menu/Escape, Privacy at 200% text size');
+
+  // Block a real index download; the user must see a recoverable error, not an empty result.
+  let releaseIndex;
+  const indexBlocked = new Promise((resolve) => {
+    releaseIndex = resolve;
+  });
+  await page.route('**/pagefind/pagefind.js', async (route) => {
+    await indexBlocked;
+    return route.fulfill({ status: 503, body: 'Unavailable' });
+  });
+  await page.goto(new URL('/search?q=tự%20do', base).href, { waitUntil: 'domcontentloaded' });
+  await page.waitForFunction(
+    () => document.querySelector('.search-status').textContent === 'Đang tìm…',
+  );
+  assert.equal(
+    await page.locator('publication-search:not([data-modal])').getAttribute('aria-busy'),
+    'true',
+  );
+  releaseIndex();
+  await page.waitForFunction(() =>
+    document.querySelector('.search-status').textContent.includes('Chưa tải được'),
+  );
+  await page.unroute('**/pagefind/pagefind.js');
+  const search = page.locator('publication-search:not([data-modal])');
+  await search.locator('form').evaluate((form) => form.requestSubmit());
+  await page.waitForFunction(() => document.querySelector('.search-results li') !== null);
+  assert.equal(await search.getAttribute('aria-busy'), null);
+  const input = search.locator('input');
+  await input.fill('zzzzv091khongcoketqua');
+  await page.waitForFunction(() =>
+    document.querySelector('.search-status').textContent.includes('Không tìm thấy'),
+  );
+  await input.fill('');
+  await page.waitForFunction(() => document.querySelector('.search-status').textContent === '');
+  assert.equal(await search.locator('li').count(), 0);
+  console.log('PASS search: loading, failed index, retry, results, empty result, cleared query');
+  assert.deepEqual(errors, []);
+  assert.deepEqual(deprecations, [], 'Deprecated browser API during interactive checks');
+  console.log('PASS no browser API deprecations in local pages and search interactions');
+  await context.close();
+
+  const noScript = await browser.newContext({
+    serviceWorkers: 'block',
+    javaScriptEnabled: false,
+    viewport: { width: 320, height: 663 },
+  });
+  const fallback = await noScript.newPage();
+  await fallback.goto(new URL('/search', base).href);
+  assert.ok(
+    await fallback
+      .locator('publication-search:not([data-modal]) noscript a[href="/archives"]')
+      .isVisible(),
+  );
+  await fallback.goto(new URL('/essays/2026-01-19-thien-menh-o', base).href);
+  assert.ok(await fallback.locator('.prose').isVisible());
+  console.log('PASS JavaScript disabled: article remains readable, search links to archive');
+  await noScript.close();
+} finally {
+  await browser.close();
+}

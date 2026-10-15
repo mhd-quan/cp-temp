@@ -1,0 +1,73 @@
+{
+  "family": {
+    "id": "classical-philosophy",
+    "name": "Triết học chính trị cổ điển",
+    "en": "Classical political philosophy",
+    "summary": "Những học thuyết lớn của triết học chính trị phương Tây, từ Platon và phái Khắc kỷ đến Hobbes, Hegel và Bentham; mỗi trường phái là một chương trình riêng về công lý, quyền lực và đời sống tốt đẹp."
+  },
+  "variants": [
+    {
+      "id": "platonic-guardianship",
+      "name": "Nhà nước lý tưởng Platon",
+      "en": "Platonic guardianship (philosopher-kings)",
+      "summary": "Triết gia được đào tạo lâu năm cai trị thành bang; giới vệ binh không có tài sản hay gia đình riêng; công lý là mỗi người làm đúng phần việc hợp bản tính; thơ ca bị kiểm duyệt.",
+      "exemplars": ["Platon (Cộng hoà)", "Al-Farabi (Thành phố đức hạnh)"],
+      "period": "thế kỷ 4 TCN–nay",
+      "axes": { "economy": 35, "distribution": 35, "trade": 25, "power": 5, "liberty": 5, "elites": 5, "lifestyle": 35, "religion": 60, "identity": 25, "environment": 55, "foreign": 30, "change": 60 },
+      "facets": { "economy.ownership": 45, "economy.planning": 45, "economy.steering": 15, "distribution.tax": 25, "liberty.expression": 0, "liberty.justice": 20, "liberty.privacy": 0, "elites.decision": 0, "elites.rank": 15, "elites.trust": 0, "lifestyle.family": 50, "lifestyle.gender": 65, "lifestyle.autonomy": 0, "religion.state": 65, "religion.law": 35, "religion.public": 85, "identity.culture": 10, "environment.growth": 70, "foreign.force": 15, "foreign.rules": 35, "foreign.intervention": 40, "change.pace": 50, "change.means": 40, "change.depth": 95 },
+      "sd": { "environment": 20 },
+      "status": "draft",
+      "raters": ["claude"]
+    },
+    {
+      "id": "stoic-cosmopolitanism",
+      "name": "Chủ nghĩa thế giới Khắc kỷ",
+      "en": "Stoic cosmopolitanism",
+      "summary": "Mọi người đều mang chung lý trí và là công dân của một thành bang vũ trụ, chung với thần linh; sống theo luật tự nhiên, làm tròn bổn phận, tự chủ và dửng dưng trước giàu sang, danh vọng.",
+      "exemplars": ["Zeno xứ Citium", "Seneca", "Marcus Aurelius"],
+      "period": "thế kỷ 3 TCN–thế kỷ 2",
+      "axes": { "economy": 55, "distribution": 55, "trade": 60, "power": 45, "liberty": 50, "elites": 40, "lifestyle": 40, "religion": 50, "identity": 85, "environment": 60, "foreign": 65, "change": 15 },
+      "facets": { "liberty.justice": 70, "elites.decision": 25, "elites.rank": 80, "elites.trust": 30, "lifestyle.family": 30, "lifestyle.gender": 55, "identity.nation": 90, "identity.culture": 80, "identity.migration": 70, "environment.growth": 75, "environment.nature": 45, "foreign.force": 50, "foreign.rules": 80, "change.means": 10 },
+      "sd": { "economy": 20, "distribution": 20, "trade": 20, "religion": 15 },
+      "status": "draft",
+      "raters": ["claude"]
+    },
+    {
+      "id": "hobbesian-sovereignty",
+      "name": "Chủ quyền tuyệt đối kiểu Hobbes",
+      "en": "Hobbesian absolute sovereignty",
+      "summary": "Không có nhà nước thì mọi người chiến tranh với mọi người; vì hoà bình, họ giao ước trao trọn quyền cho một chủ quyền không thể phân chia, đứng trên cả giáo hội, và không được nổi dậy.",
+      "exemplars": ["Thomas Hobbes (Leviathan, 1651)", "Jean Bodin"],
+      "period": "1651–nay",
+      "axes": { "economy": 50, "distribution": 50, "trade": 45, "power": 5, "liberty": 25, "elites": 30, "lifestyle": 40, "religion": 45, "identity": 45, "environment": 30, "foreign": 25, "change": 10 },
+      "facets": { "economy.ownership": 55, "economy.planning": 70, "economy.steering": 30, "distribution.tax": 55, "distribution.welfare": 35, "distribution.labour": 65, "power.checks": 0, "power.local": 10, "liberty.expression": 5, "liberty.justice": 45, "liberty.privacy": 40, "elites.decision": 5, "elites.rank": 70, "lifestyle.family": 35, "lifestyle.gender": 45, "lifestyle.autonomy": 45, "religion.state": 40, "religion.law": 20, "religion.public": 70, "foreign.force": 30, "foreign.rules": 5, "foreign.intervention": 45, "change.means": 0 },
+      "sd": { "identity": 20, "lifestyle": 15 },
+      "status": "draft",
+      "raters": ["claude"]
+    },
+    {
+      "id": "hegelian-state",
+      "name": "Nhà nước đạo đức kiểu Hegel",
+      "en": "Hegelian ethical state",
+      "summary": "Nhà nước là hiện thực của đời sống đạo đức: quân chủ lập hiến với các đẳng cấp, phường hội và giới công chức phục vụ lợi ích chung; tự do thành hiện thực trong thể chế hợp lý.",
+      "exemplars": ["G. W. F. Hegel (Triết học pháp quyền, 1820)", "Lorenz von Stein", "Nhà nước Phổ sau cải cách Stein–Hardenberg"],
+      "period": "1820–1918",
+      "axes": { "economy": 55, "distribution": 45, "trade": 55, "power": 35, "liberty": 45, "elites": 20, "lifestyle": 20, "religion": 50, "identity": 40, "environment": 25, "foreign": 25, "change": 25 },
+      "facets": { "economy.ownership": 75, "economy.planning": 60, "economy.steering": 35, "distribution.tax": 55, "distribution.welfare": 40, "distribution.labour": 40, "power.pluralism": 25, "power.checks": 45, "power.local": 50, "liberty.privacy": 55, "elites.decision": 10, "elites.rank": 40, "elites.trust": 5, "lifestyle.family": 10, "lifestyle.gender": 10, "lifestyle.autonomy": 40, "religion.state": 60, "religion.law": 20, "religion.public": 65, "identity.nation": 30, "identity.migration": 50, "foreign.force": 20, "foreign.rules": 10, "foreign.intervention": 45, "change.pace": 20, "change.means": 10, "change.depth": 45 },
+      "status": "draft",
+      "raters": ["claude"]
+    },
+    {
+      "id": "utilitarianism",
+      "name": "Chủ nghĩa công lợi",
+      "en": "Utilitarianism (philosophical radicalism)",
+      "summary": "Luật pháp và thể chế được đánh giá bằng hệ quả: hạnh phúc lớn nhất cho số đông nhất; từ đó đòi cải cách nhà tù, mở rộng quyền bầu cử và chỉ cấm điều gây hại cho người khác.",
+      "exemplars": ["Jeremy Bentham", "James Mill", "John Stuart Mill", "Henry Sidgwick"],
+      "period": "1789–nay",
+      "axes": { "economy": 65, "distribution": 50, "trade": 85, "power": 70, "liberty": 65, "elites": 45, "lifestyle": 70, "religion": 20, "identity": 75, "environment": 45, "foreign": 75, "change": 50 },
+      "facets": { "economy.ownership": 75, "economy.planning": 80, "economy.steering": 40, "distribution.tax": 45, "distribution.labour": 60, "power.pluralism": 85, "power.checks": 50, "power.local": 60, "liberty.expression": 85, "liberty.justice": 60, "liberty.privacy": 35, "elites.decision": 30, "elites.rank": 80, "lifestyle.family": 60, "lifestyle.gender": 75, "lifestyle.autonomy": 75, "religion.state": 25, "religion.law": 10, "religion.public": 25, "identity.nation": 85, "identity.culture": 60, "identity.migration": 70, "environment.growth": 55, "environment.nature": 60, "environment.technology": 25, "foreign.rules": 85, "foreign.intervention": 60, "change.means": 10, "change.depth": 80 },
+      "status": "draft",
+      "raters": ["claude"]
+    }
+  ]
+}

@@ -1,0 +1,2805 @@
+/* La bàn Tư tưởng (v1.3): the choice of length, the questions and the
+   results. Colour names a family of ideas and nothing else: each family's
+   hue and levels come from lib/quiz/palette.ts, printed into the page as
+   custom properties on [data-family]; controls stay in ink. */
+
+/* ---------- family inks ---------- */
+[data-family] {
+  --fam-text: oklch(var(--lt) var(--fh));
+  --fam-pigment: oklch(var(--lg) var(--fh));
+  --fam-ink: oklch(var(--li) var(--fh));
+  --fam-paper: oklch(var(--lp) var(--fh));
+  --fam-wash: oklch(var(--lw) var(--fh));
+  --plate-ink: var(--fam-ink);
+  --plate-paper: var(--fam-paper);
+}
+:root[data-theme='dark'] [data-family] {
+  --fam-text: oklch(var(--dt) var(--fh));
+  --fam-pigment: oklch(var(--dg) var(--fh));
+  --fam-ink: oklch(var(--di) var(--fh));
+  --fam-paper: oklch(var(--dp) var(--fh));
+  --fam-wash: oklch(var(--dw) var(--fh));
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme='light']) [data-family] {
+    --fam-text: oklch(var(--dt) var(--fh));
+    --fam-pigment: oklch(var(--dg) var(--fh));
+    --fam-ink: oklch(var(--di) var(--fh));
+    --fam-paper: oklch(var(--dp) var(--fh));
+    --fam-wash: oklch(var(--dw) var(--fh));
+  }
+}
+.quiz .rubric__lead,
+.quiz-sheet .rubric__lead {
+  color: var(--fam-text, var(--ink));
+}
+/* This sheet reaches the page before foundation.css, so a lone class here loses
+   to a lone base class on the same element. The quiz's capitals are captions,
+   counts and dates: the meta size, not the label size .caps gives. */
+.quiz .caps,
+.quiz-sheet .caps {
+  font-size: var(--t-meta);
+}
+
+/* ---------- type ---------- */
+/* Titles and names are set in the serif, and so are the italic lines under
+   them (the page's dek, an axis's question, a variant's English name).
+   Whatever is read in running lines (the statements, notes, summaries and
+   readings) is set in the house sans, a step smaller to sit level with the
+   serif's small x-height, so a long run of questions reads at ease. */
+.quiz
+  :is(
+    .quiz-note,
+    .pack__note,
+    .steps li,
+    .resume__text,
+    .play__question,
+    .verdict__summary,
+    .verdict__people,
+    .verdict__close,
+    .holder__note,
+    .person__role,
+    .lean__reading,
+    .lean__detail,
+    .why dd,
+    .stand__text,
+    .far__summary,
+    .axis__person,
+    .lean__note,
+    .ref__name,
+    .compare__summary,
+    .result__method-body,
+    .shared p
+  ),
+.quiz-sheet :is(.quiz-note, .profile__summary, .verdict__people, .holder__note, .compare__summary) {
+  font-family: var(--font-sans);
+  font-stretch: var(--sans-width);
+  font-weight: 400;
+}
+.quiz .play__question {
+  font-weight: 450;
+}
+
+/* ---------- pictures ---------- */
+/* An idea's seal is printed like a plate: its ink on its paper, the paper
+   dimmed at night exactly as a plate's is (foundation.css). */
+.idea {
+  display: block;
+  flex: none;
+  width: 40px;
+}
+.mark {
+  width: 100%;
+  height: auto;
+}
+.mark {
+  --mark-field: var(--fam-paper);
+}
+:root[data-theme='dark'] .mark {
+  --mark-field: color-mix(in srgb, var(--fam-paper) 86%, #000);
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme='light']) .mark {
+    --mark-field: color-mix(in srgb, var(--fam-paper) 86%, #000);
+  }
+}
+.mark__field {
+  fill: var(--mark-field);
+}
+.mark__rule {
+  fill: none;
+  stroke: var(--fam-ink);
+}
+/* The milled rim between the two rules, like the edge of a struck medal. */
+.mark__reed {
+  opacity: 0.5;
+}
+.mark__ink {
+  fill: var(--fam-ink);
+}
+.mark__line {
+  fill: none;
+  stroke: var(--fam-ink);
+}
+.mark__tint {
+  fill: var(--fam-ink);
+  opacity: 0.18;
+}
+.mark__knock {
+  fill: var(--mark-field);
+  stroke: var(--mark-field);
+}
+.emblem {
+  width: 52px;
+  height: 52px;
+}
+.flag {
+  width: 72px;
+  height: 48px;
+  border-radius: 1px;
+}
+.edge {
+  stroke: color-mix(in oklab, var(--ink) 16%, transparent);
+  stroke-width: 1;
+  vector-effect: non-scaling-stroke;
+}
+.flag__blank {
+  fill: color-mix(in oklab, var(--ink) 5%, var(--paper));
+}
+.flag__reed {
+  opacity: 0.6;
+}
+.flag__seal {
+  fill: none;
+  stroke: var(--muted);
+  vector-effect: non-scaling-stroke;
+}
+/* Doubled with .plate, which the base sheet sets to 3:2 and display: block. */
+.plate.portrait {
+  aspect-ratio: 4 / 5;
+}
+.plate.portrait--initials {
+  display: grid;
+  place-items: center;
+}
+/* Until a portrait is printed, the initials sit in an oval, as on a cameo. */
+.plate.portrait--initials::before {
+  content: '';
+  position: absolute;
+  inset: 7%;
+  border: 1px solid color-mix(in oklab, var(--fam-ink) 30%, transparent);
+  border-radius: 50%;
+}
+.portrait__initials {
+  color: var(--fam-ink);
+  font-size: clamp(2.25rem, 1.5rem + 2.5vw, 3.5rem);
+  font-weight: 500;
+  line-height: 1;
+  letter-spacing: 0.02em;
+}
+
+/* ---------- the cube ---------- */
+/* Every variant in three dimensions (lib/quiz/compass.ts), turned by the hand
+   (orbit.ts). The frame is drawn in hairlines of the page's ink: the edges in
+   front over everything inside, those behind dashed, the floor washed so the
+   cube has a ground to stand on. Dots and seals take their family's colour;
+   the player is ink. The pole names are page text, set where the drawing
+   puts them, and fade as their axis turns end on. */
+.cube {
+  margin: 0;
+}
+.cube__stage {
+  position: relative;
+  width: min(100%, 30rem);
+  aspect-ratio: 1;
+  margin-inline: auto;
+  cursor: grab;
+  touch-action: pan-y;
+  user-select: none;
+  -webkit-user-select: none;
+  -webkit-tap-highlight-color: transparent;
+}
+.cube__stage[data-dragging] {
+  cursor: grabbing;
+}
+.cube__stage:focus {
+  outline: none;
+}
+.cube__stage:focus-visible {
+  outline: var(--focus);
+  outline-offset: 4px;
+  border-radius: 8px;
+}
+.cube__plot {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  overflow: visible;
+}
+.cube__edge,
+.cube__axis,
+.cube__drop,
+.cube__needle {
+  fill: none;
+  vector-effect: non-scaling-stroke;
+}
+.cube__edge--front {
+  stroke: color-mix(in oklab, var(--ink) 42%, transparent);
+  stroke-width: 1;
+}
+.cube__edge--back {
+  stroke: color-mix(in oklab, var(--ink) 22%, transparent);
+  stroke-dasharray: 2 3;
+}
+.cube__floor {
+  fill: color-mix(in oklab, var(--ink) 4%, transparent);
+}
+.cube__axis {
+  stroke: color-mix(in oklab, var(--ink) 16%, transparent);
+  stroke-dasharray: 1 3;
+}
+.cube__dot {
+  fill: var(--fam-pigment);
+  opacity: calc(0.18 + 0.7 * var(--near, 0.8));
+}
+.cube__seal {
+  cursor: pointer;
+}
+.cube__seal-field {
+  fill: var(--fam-paper);
+  stroke: var(--fam-ink);
+  stroke-width: 1.2;
+}
+.cube__seal-rank {
+  fill: var(--fam-ink);
+  font: 600 10.5px / 1 var(--font-sans);
+  font-variant-numeric: lining-nums tabular-nums;
+  pointer-events: none;
+}
+.cube__needle {
+  stroke: var(--ink);
+  stroke-width: 1.2;
+  stroke-linecap: round;
+  opacity: 0.55;
+}
+.cube__drop {
+  stroke: var(--ink);
+  stroke-dasharray: 2 2;
+  opacity: 0.45;
+}
+.cube__shadow {
+  fill: color-mix(in oklab, var(--ink) 28%, transparent);
+}
+.cube__you-ring {
+  fill: color-mix(in oklab, var(--paper) 60%, transparent);
+  stroke: var(--ink);
+  stroke-width: 1.4;
+}
+.cube__you-dot {
+  fill: var(--ink);
+}
+.cube__pole {
+  position: absolute;
+  padding: 1px 4px;
+  border-radius: 2px;
+  background: color-mix(in oklab, var(--paper) 70%, transparent);
+  color: var(--muted);
+  font-size: var(--t-meta);
+  line-height: 1.2;
+  white-space: nowrap;
+  translate: -50% -50%;
+  pointer-events: none;
+}
+/* The name of the dot or seal under the pointer, above it, in the house sans. */
+.cube__tip {
+  position: absolute;
+  z-index: 2;
+  max-width: 14rem;
+  padding: 3px 8px;
+  border: 1px solid color-mix(in oklab, var(--fam-pigment, var(--ink)) 40%, var(--rule));
+  border-radius: 6px;
+  background: color-mix(in oklab, var(--paper) 92%, transparent);
+  box-shadow: 0 6px 16px -8px oklch(0 0 0 / 0.3);
+  color: var(--ink);
+  font: 500 0.8125rem / 1.3 var(--font-sans);
+  font-stretch: var(--sans-width);
+  text-align: center;
+  translate: -50% calc(-100% - 10px);
+  pointer-events: none;
+}
+.cube__tip[hidden] {
+  display: none;
+}
+.cube .cube__dot[data-tipped] {
+  opacity: 1;
+  stroke: var(--ink);
+  stroke-width: 1;
+}
+.cube__seal[data-tipped] .cube__seal-field {
+  stroke-width: 2;
+}
+
+/* The named views: a row of small capitals, the one shown in ink. */
+.cube__views {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--s-1) var(--s-2);
+  margin: var(--s-4) 0 var(--s-2);
+}
+.cube__view {
+  min-height: 32px;
+  padding: 4px 10px;
+  border: 1px solid var(--rule);
+  border-radius: 999px;
+  background: color-mix(in oklab, var(--paper) 50%, transparent);
+  color: var(--muted);
+  font: 500 0.75rem / 1.2 var(--font-sans);
+  font-stretch: var(--sans-width);
+  transition:
+    background-color var(--d-quick) var(--ease-out),
+    border-color var(--d-quick) var(--ease-out),
+    color var(--d-quick) var(--ease-out),
+    scale var(--d-base) var(--ease-out);
+}
+.cube__view[aria-pressed='true'] {
+  border-color: var(--ink);
+  background: var(--ink);
+  color: var(--paper);
+}
+.cube__view:active {
+  scale: 0.96;
+  transition-duration: var(--d-press);
+}
+@media (hover: hover) {
+  :where(:root:not([data-resting])) .cube__view:hover:not([aria-pressed='true']) {
+    border-color: color-mix(in oklab, var(--ink) 55%, var(--rule));
+    color: var(--ink);
+  }
+}
+/* The player's place on each dimension, read without turning anything. */
+.cube__legend {
+  display: grid;
+  gap: var(--s-2);
+  margin: var(--s-3) 0 0;
+}
+.cube__row {
+  display: grid;
+  grid-template-columns: 4.5rem minmax(0, 1fr);
+  align-items: center;
+  gap: var(--s-3);
+}
+.cube__row dt {
+  color: var(--ink);
+}
+.cube__row dd {
+  display: grid;
+  grid-template-columns: auto minmax(2.5rem, 1fr) auto;
+  grid-template-areas: 'low track high' 'tag tag tag';
+  align-items: center;
+  gap: 2px var(--s-2);
+  margin: 0;
+  color: var(--muted);
+  font: 400 0.8125rem / 1.3 var(--font-sans);
+  font-stretch: var(--sans-width);
+}
+.cube__end:first-child {
+  grid-area: low;
+}
+.cube__end:nth-child(3) {
+  grid-area: high;
+}
+.cube__track {
+  grid-area: track;
+  position: relative;
+  height: 12px;
+}
+.cube__track::before {
+  content: '';
+  position: absolute;
+  inset: 5px 0;
+  border-radius: 1px;
+  background: color-mix(in oklab, var(--ink) 12%, transparent);
+}
+.cube__track::after {
+  content: '';
+  position: absolute;
+  top: 2px;
+  bottom: 2px;
+  left: 50%;
+  width: 1px;
+  background: var(--muted);
+}
+.cube__track span {
+  position: absolute;
+  z-index: 1;
+  top: 50%;
+  left: calc(var(--you) * 1%);
+  width: 10px;
+  height: 10px;
+  border: 2px solid var(--ink);
+  border-radius: 50%;
+  background: var(--paper);
+  translate: -50% -50%;
+}
+.cube__tag {
+  grid-area: tag;
+  color: var(--ink);
+  font-size: 0.75rem;
+  font-weight: 500;
+}
+.cube .quiz-note {
+  margin-top: var(--s-3);
+}
+/* On the first page the cube stands alone over its caption. */
+.cube--intro {
+  margin-bottom: var(--s-6);
+}
+.cube--intro .cube__stage {
+  width: min(100%, 24rem);
+}
+.cube--intro .cube__dot {
+  opacity: 0.78;
+}
+@media (forced-colors: active) {
+  .cube__dot,
+  .cube__seal-field {
+    fill: CanvasText;
+  }
+}
+
+/* ---------- the page around the quiz ---------- */
+.quiz .page-body > [data-panel] {
+  margin-top: 0;
+}
+.quiz .page-body {
+  padding-bottom: var(--section);
+}
+/* While a question is asked, the page holds at least a screen, so the footer never
+   rises into the scale on a short question. */
+.quiz[data-stage='play'] .page-body {
+  min-height: calc(100svh - 12rem);
+}
+.quiz:not([data-stage='intro']) .page-head {
+  padding-block: var(--s-6) var(--s-5);
+}
+.quiz:not([data-stage='intro']) .page-head__title {
+  font-size: var(--t-headline);
+}
+.quiz:not([data-stage='intro']) .page-head__dek {
+  display: none;
+}
+.quiz-kicker {
+  padding-top: var(--s-3);
+  margin-bottom: var(--s-5);
+  border-top: 1px solid var(--ink);
+  font-size: var(--t-meta);
+}
+.quiz-title {
+  padding-top: var(--s-3);
+  border-top: 1px solid var(--ink);
+  font-size: var(--t-headline);
+  line-height: 1.12;
+}
+.quiz-note {
+  max-width: 62ch;
+  margin-top: var(--s-2);
+  color: var(--muted);
+  font-size: 0.875rem;
+  line-height: 1.55;
+}
+
+/* ---------- choosing a length ---------- */
+.intro {
+  display: grid;
+  grid-template-columns: repeat(12, minmax(0, 1fr));
+  gap: var(--section) var(--gutter);
+}
+.intro__main {
+  grid-column: 1 / span 8;
+}
+.intro__how {
+  grid-column: 9 / span 4;
+}
+.axis-index {
+  grid-column: 1 / -1;
+}
+.packs {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: var(--s-4);
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+.pack {
+  position: relative;
+  display: grid;
+  align-content: start;
+  gap: var(--s-2);
+  padding: var(--s-5) var(--s-4) var(--s-5);
+  border: 1px solid var(--rule);
+  border-radius: var(--radius-control);
+  cursor: pointer;
+  transition:
+    border-color var(--d-quick) var(--ease-out),
+    box-shadow var(--d-quick) var(--ease-out),
+    scale var(--d-base) var(--ease-out);
+}
+.pack:has(:checked) {
+  border-color: var(--ink);
+  box-shadow: inset 0 0 0 1px var(--ink);
+}
+.pack:has(:focus-visible) {
+  outline: var(--focus);
+  outline-offset: 3px;
+}
+.pack:active {
+  scale: 0.985;
+  transition-duration: var(--d-press);
+}
+@media (hover: hover) {
+  :where(:root:not([data-resting])) .pack:hover {
+    border-color: color-mix(in oklab, var(--ink) 55%, var(--rule));
+  }
+}
+.pack__input {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  opacity: 0;
+  cursor: pointer;
+}
+.pack__name {
+  padding-right: 2.5rem;
+  font-size: var(--t-title-s);
+  font-weight: 500;
+  line-height: 1.15;
+}
+.pack__count {
+  color: var(--muted);
+  font-size: var(--t-meta);
+}
+.pack__note {
+  color: var(--muted);
+  font-size: 0.875rem;
+  line-height: 1.5;
+}
+.pack__check {
+  position: absolute;
+  top: var(--s-5);
+  right: var(--s-4);
+  display: grid;
+  place-items: center;
+  width: 24px;
+  height: 24px;
+  border: 1px solid var(--rule);
+  border-radius: 50%;
+  color: var(--paper);
+  transition:
+    background-color var(--d-quick) var(--ease-out),
+    border-color var(--d-quick) var(--ease-out);
+}
+.pack__check .glyph {
+  opacity: 0;
+  stroke-width: 2.2;
+  transition: opacity var(--d-quick) var(--ease-out);
+}
+.pack:has(:checked) .pack__check {
+  border-color: var(--ink);
+  background: var(--ink);
+}
+.pack:has(:checked) .pack__check .glyph {
+  opacity: 1;
+}
+.intro__go {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: var(--s-3) var(--s-5);
+  margin-top: var(--s-5);
+}
+.intro__go .quiz-note {
+  margin: 0;
+}
+.intro__start[data-pending] {
+  opacity: 0.6;
+  cursor: progress;
+}
+.resume {
+  margin-top: var(--s-5);
+  padding: var(--s-4) var(--s-5);
+  border-radius: var(--radius-control);
+  background: var(--raised);
+}
+.resume__text {
+  font-size: 0.9375rem;
+}
+.resume__actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--s-3);
+  margin-top: var(--s-3);
+}
+.steps {
+  display: grid;
+  gap: var(--s-4);
+  counter-reset: step;
+}
+.steps li {
+  position: relative;
+  padding-left: 2rem;
+  font-size: 0.9375rem;
+  line-height: 1.55;
+  counter-increment: step;
+}
+.steps li::before {
+  content: counter(step);
+  position: absolute;
+  left: 0;
+  top: 0.2em;
+  color: var(--muted);
+  font: 600 var(--t-label) / 1.4 var(--font-sans);
+  font-stretch: var(--sans-width);
+  font-variant-numeric: lining-nums tabular-nums;
+}
+.steps strong {
+  font-weight: 600;
+}
+.intro__how > .quiz-note {
+  margin-top: var(--s-5);
+}
+.axis-index__list {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: var(--s-6) var(--gutter);
+  margin-top: var(--s-5);
+}
+.axis-index__item {
+  padding-top: var(--s-3);
+  border-top: 1px solid var(--rule);
+}
+.axis-index__name {
+  font-size: var(--t-title-xs);
+}
+.axis-index__question {
+  margin-top: var(--s-1);
+  color: var(--muted);
+  font-size: var(--t-note);
+  font-style: italic;
+}
+.axis-index__poles {
+  display: flex;
+  align-items: center;
+  gap: var(--s-2);
+  margin-top: var(--s-3);
+  color: var(--muted);
+  font-size: var(--t-meta);
+}
+.axis-index__rule {
+  flex: 1;
+  min-width: 1.5rem;
+  height: 1px;
+  background: var(--rule);
+}
+
+/* ---------- one question at a time ---------- */
+.play {
+  --q-size: clamp(1.25rem, 1rem + 1.1vw, 1.875rem);
+  --q-lines: 3;
+  max-width: 48rem;
+  margin-inline: auto;
+}
+.play__head {
+  display: flex;
+  align-items: center;
+  gap: var(--s-3);
+  color: var(--muted);
+  font-size: var(--t-meta);
+}
+.play__count {
+  flex: 1;
+  color: var(--ink);
+}
+.play__of {
+  color: var(--muted);
+}
+.play__rule {
+  position: relative;
+  height: 2px;
+  margin: var(--s-3) 0 var(--s-6);
+  overflow: hidden;
+  background: var(--rule);
+}
+.play__rule span {
+  position: absolute;
+  inset: 0;
+  background: var(--ink);
+  transform: scaleX(var(--progress, 0));
+  transform-origin: 0 50%;
+  transition: transform var(--d-base) var(--ease-out);
+}
+/* Stopping early is offered only once the fixed questions are done. */
+.play__extra,
+.play__tools .play__finish {
+  display: none;
+}
+[data-extra='true'] .play__extra {
+  display: block;
+  margin: calc(-1 * var(--s-4)) 0 var(--s-5);
+}
+[data-extra='true'] .play__tools .play__finish {
+  display: inline-flex;
+}
+/* Too few answers for a result: said plainly, under the tools, or on the start page for a link. */
+.play__need {
+  margin: var(--s-4) 0 0;
+  color: var(--ink);
+}
+.intro__notice {
+  margin: 0 0 var(--s-4);
+  color: var(--ink);
+}
+.play__card {
+  /* Room for the longest question, so the scale under it never moves: four
+     lines on a phone, three where the measure is wider. */
+  min-height: calc(var(--q-lines) * 1.32 * var(--q-size));
+}
+.play__question {
+  font-size: var(--q-size);
+  line-height: 1.32;
+  letter-spacing: -0.008em;
+  text-wrap: pretty;
+}
+.play__question:focus {
+  outline: none;
+}
+/* ---------- the answer scale ---------- */
+/* Seven rings on one line, read left to right from agreement in every case to
+   disagreement in every case. A ring is as large as the answer is firm, so the
+   middle is the smallest; over each half a bracket names the side, under each
+   ring its degree, and under the whole the full name of the answer pointed at
+   or chosen, so nothing has to be guessed. Ink only: the six inks name
+   disciplines, never a side. A wash marks the ring under the pointer; pressed,
+   the ring gives a little and fills with ink. */
+.agree {
+  --ring-xl: 3.5rem;
+  --ring-l: 2.875rem;
+  --ring-m: 2.3125rem;
+  --ring-s: 1.75rem;
+  position: relative;
+  display: grid;
+  grid-template-columns: repeat(7, minmax(0, 1fr));
+  grid-template-rows: auto auto;
+  width: min(100%, 44rem);
+  margin: var(--s-6) auto 0;
+}
+/* The line the rings sit on, from the first centre to the last. It is laid
+   out of flow, in the rings' row: a line placed in the flow would take the
+   row's seven cells, and the rings, placed only by row, would be pushed into
+   seven more columns beside it. */
+.agree::before {
+  content: '';
+  position: absolute;
+  grid-row: 2;
+  grid-column: 1 / -1;
+  top: calc(var(--ring-xl) / 2);
+  inset-inline: calc(100% / 14);
+  height: 1px;
+  background: var(--rule);
+}
+/* Each side's name over its three rings, on a hairline bracket. */
+.agree__side {
+  grid-row: 1;
+  display: flex;
+  align-items: center;
+  gap: var(--s-2);
+  margin: 0 0 var(--s-3);
+  color: var(--muted);
+  font-size: var(--t-meta);
+  letter-spacing: 0.08em;
+}
+.agree__side--yes {
+  grid-column: 1 / 4;
+  margin-left: calc(100% / 6);
+}
+.agree__side--no {
+  grid-column: 5 / 8;
+  flex-direction: row-reverse;
+  margin-right: calc(100% / 6);
+}
+.agree__side::after {
+  content: '';
+  flex: 1;
+  height: 0.375rem;
+  border-top: 1px solid var(--rule);
+  border-inline-end: 1px solid var(--rule);
+  translate: 0 0.2rem;
+}
+.agree__side--no::after {
+  border-inline-end: 0;
+  border-inline-start: 1px solid var(--rule);
+}
+.agree__option {
+  --size: var(--ring-m);
+  grid-row: 2;
+  position: relative;
+  display: grid;
+  grid-template-rows: var(--ring-xl) auto;
+  justify-items: center;
+  align-items: center;
+  gap: var(--s-2);
+  min-width: 0;
+  padding: 0 1px var(--s-2);
+  border: 0;
+  background: none;
+  color: var(--muted);
+  cursor: pointer;
+  -webkit-tap-highlight-color: transparent;
+}
+.agree__option[data-size='xl'] {
+  --size: var(--ring-xl);
+}
+.agree__option[data-size='l'] {
+  --size: var(--ring-l);
+}
+.agree__option[data-size='s'] {
+  --size: var(--ring-s);
+}
+.agree__ring {
+  position: relative;
+  display: grid;
+  place-items: center;
+  width: var(--size);
+  height: var(--size);
+  border: 1.5px solid var(--ink);
+  border-radius: 50%;
+  background: var(--paper);
+  transition:
+    background-color var(--d-quick) var(--ease-out),
+    scale var(--d-base) var(--ease-out);
+}
+/* The ink, laid from the centre out. */
+.agree__ring::after {
+  content: '';
+  position: absolute;
+  inset: -1.5px;
+  border-radius: 50%;
+  background: var(--ink);
+  scale: 0;
+  transition: scale var(--d-quick) var(--ease-out);
+}
+.agree__key {
+  position: relative;
+  z-index: 1;
+  color: var(--muted);
+  font: 500 var(--t-meta) / 1 var(--font-sans);
+  transition: color var(--d-quick) var(--ease-out);
+}
+.agree__label {
+  align-self: start;
+  max-width: 6.5em;
+  font: 500 clamp(0.6875rem, 0.64rem + 0.22vw, 0.8125rem) / 1.2 var(--font-sans);
+  font-stretch: var(--sans-width);
+  text-align: center;
+  text-wrap: balance;
+  transition: color var(--d-quick) var(--ease-out);
+}
+/* The whole name of the answer pointed at, or chosen. */
+.agree__read {
+  min-height: 1.4em;
+  margin: var(--s-2) 0 0;
+  color: var(--muted);
+  font: 500 var(--t-small) / 1.4 var(--font-sans);
+  text-align: center;
+  transition: color var(--d-quick) var(--ease-out);
+}
+.agree__read[data-chosen] {
+  color: var(--ink);
+}
+.agree__option:active .agree__ring {
+  scale: 0.94;
+  transition-duration: var(--d-quick), var(--d-press);
+}
+.agree__option:is([aria-pressed='true'], [data-chosen]) .agree__ring::after {
+  scale: 1;
+}
+.agree__option:is([aria-pressed='true'], [data-chosen]) .agree__key {
+  color: var(--paper);
+}
+.agree__option:is([aria-pressed='true'], [data-chosen]) .agree__label {
+  color: var(--ink);
+  font-weight: 600;
+}
+.agree__option:focus-visible {
+  outline: none;
+}
+.agree__option:focus-visible .agree__ring {
+  outline: var(--focus);
+  outline-offset: 3px;
+}
+@media (hover: hover) {
+  :where(:root:not([data-resting])) .agree__option:hover .agree__ring {
+    background-color: color-mix(in oklab, var(--ink) 10%, var(--paper));
+  }
+  :where(:root:not([data-resting])) .agree__option:hover .agree__label {
+    color: var(--ink);
+  }
+}
+@media (hover: none) {
+  .agree__key,
+  .play__keys {
+    display: none;
+  }
+}
+.play__tools {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  gap: var(--s-2) var(--s-4);
+  margin-top: var(--s-5);
+  color: var(--muted);
+}
+.play__tools .caps-link:disabled {
+  opacity: 0.35;
+  cursor: default;
+}
+@media (hover: hover) {
+  :where(:root:not([data-resting])) .play__tools .caps-link:hover:not(:disabled) {
+    color: var(--ink);
+  }
+}
+.play__keys {
+  margin-top: var(--s-4);
+}
+
+/* ---------- the trail ---------- */
+/* Under the question, the whole round: a row for each axis (and one for the
+   themes in depth), a tick for each of its questions in the order they come.
+   Ink for an answer, a ring for a skip, a hairline for what is still to come,
+   a diamond for a question chosen for the player; the question asked now is
+   ringed, and its axis named in ink. A tick already reached is a way back. */
+.trail {
+  margin-top: var(--s-7);
+  padding-top: var(--s-3);
+  border-top: 1px solid var(--rule);
+}
+.trail__head {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: var(--s-1) var(--s-4);
+}
+.trail__kicker {
+  color: var(--ink);
+}
+.trail__sum {
+  color: var(--muted);
+  font: 400 0.8125rem / 1.4 var(--font-sans);
+  font-stretch: var(--sans-width);
+  font-variant-numeric: lining-nums tabular-nums;
+}
+.trail__axes {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: var(--s-1) var(--gutter);
+  margin-top: var(--s-4);
+}
+.trail__axis {
+  display: grid;
+  grid-template-columns: 6.5rem minmax(0, 1fr);
+  align-items: center;
+  gap: var(--s-3);
+  min-height: 28px;
+}
+.trail__axis--themes {
+  grid-column: 1 / -1;
+}
+.trail__name {
+  overflow: hidden;
+  color: var(--muted);
+  font: 500 0.8125rem / 1.2 var(--font-sans);
+  font-stretch: var(--sans-width);
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  transition: color var(--d-quick) var(--ease-out);
+}
+.trail__axis[data-current] .trail__name {
+  color: var(--ink);
+}
+.trail__ticks {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 2px;
+}
+.trail__tick {
+  position: relative;
+  display: inline-grid;
+  place-items: center;
+  width: 16px;
+  height: 20px;
+  padding: 0;
+  border: 0;
+  background: none;
+  cursor: pointer;
+}
+.trail__tick:disabled {
+  cursor: default;
+}
+.trail__tick::before {
+  content: '';
+  width: 8px;
+  height: 8px;
+  border: 1px solid var(--rule);
+  border-radius: 50%;
+  background: transparent;
+  transition:
+    background-color var(--d-quick) var(--ease-out),
+    border-color var(--d-quick) var(--ease-out),
+    scale var(--d-base) var(--ease-out);
+}
+.trail__tick[data-kind='a']::before {
+  border-radius: 1.5px;
+  rotate: 45deg;
+  scale: 0.9;
+}
+.trail__tick[data-state='done']::before {
+  border-color: var(--ink);
+  background: var(--ink);
+}
+.trail__tick[data-state='skipped']::before {
+  border-color: var(--ink);
+  border-width: 1.5px;
+}
+.trail__tick[data-state='current']::before {
+  border-color: var(--ink);
+  border-width: 1.5px;
+  background: var(--paper);
+  scale: 1.35;
+  box-shadow: 0 0 0 2px color-mix(in oklab, var(--ink) 14%, transparent);
+}
+@media (hover: hover) {
+  :where(:root:not([data-resting])) .trail__tick:not(:disabled):hover::before {
+    scale: 1.3;
+  }
+}
+.trail__tick:not(:disabled):active::before {
+  scale: 0.9;
+  transition-duration: var(--d-press);
+}
+.trail__key {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: var(--s-1) var(--s-2);
+  margin-top: var(--s-4);
+  color: var(--muted);
+}
+.trail__key .trail__tick {
+  width: 12px;
+  cursor: default;
+}
+.trail__key .trail__tick + .trail__tick,
+.trail__key > .trail__tick:not(:first-child) {
+  margin-left: var(--s-3);
+}
+
+/* ---------- results ---------- */
+.shared {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  gap: var(--s-4);
+  margin-bottom: var(--s-6);
+  padding: var(--s-4) var(--s-5);
+  border-radius: var(--radius-control);
+  background: var(--raised);
+}
+/* The seal beside the name and what it means; the figures (the two shares,
+   and a close second or a caveat when there is one) under the text, or,
+   where the tile is wide enough, in a column of their own beside it. */
+.verdict {
+  display: grid;
+  grid-template:
+    'seal text' auto
+    'seal figures' auto / minmax(0, 10rem) minmax(0, 1fr);
+  gap: var(--s-5) var(--s-6);
+  align-items: start;
+}
+.verdict__seal {
+  grid-area: seal;
+}
+.idea--seal {
+  width: 100%;
+  max-width: 10rem;
+}
+.verdict__text {
+  grid-area: text;
+  max-width: 46rem;
+}
+.verdict__figures {
+  grid-area: figures;
+  max-width: 46rem;
+}
+.verdict__name {
+  margin-top: var(--s-3);
+  font-size: clamp(2.25rem, 1.5rem + 2.6vw, 3.75rem);
+  line-height: 1.04;
+  letter-spacing: -0.024em;
+}
+.verdict__name:focus {
+  outline: none;
+}
+.verdict__en {
+  margin-top: var(--s-2);
+  color: var(--muted);
+  font-size: var(--t-small);
+  font-style: italic;
+}
+.verdict__summary {
+  max-width: 38em;
+  margin-top: var(--s-4);
+  font-size: 1.125rem;
+  line-height: 1.5;
+}
+.verdict__people {
+  margin-top: var(--s-3);
+  color: var(--muted);
+  font-size: 0.9375rem;
+}
+.verdict__people .caps {
+  margin-right: 0.6em;
+  color: var(--ink);
+  font-size: var(--t-meta);
+}
+/* ---------- a match's figures ---------- */
+/* The fit fills a ring, as an activity ring fills over a day: the family's
+   pigment over a faint track of the same pigment, from twelve o'clock, with
+   round ends, the number in its middle. How sure the quiz is follows in
+   capitals, a level in words and its share beside it. Narrow, the ring and
+   the words sit side by side under a rule; across a wide verdict they stand
+   in a column of their own, the ring as large as the seal across from it. */
+.figures {
+  display: flex;
+  align-items: center;
+  gap: var(--s-4) var(--s-5);
+  padding-top: var(--s-4);
+  border-top: 1px solid var(--rule);
+}
+.ring {
+  /* No smaller: "Độ khớp" fills the inside of a ring this size. */
+  --ring: 6.5rem;
+  position: relative;
+  display: grid;
+  flex: none;
+  place-items: center;
+  width: var(--ring);
+  aspect-ratio: 1;
+}
+.ring__dial {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  overflow: visible;
+  rotate: -90deg;
+}
+/* A seventh of the ring's width: an activity ring's weight, a little fuller. The
+   dash is set in the ring's own units (view.ts, RING), never through pathLength,
+   which some browsers rescale only at the end of a drawing animation. */
+.ring__dial circle {
+  fill: none;
+  stroke-width: 16;
+  stroke-linecap: round;
+}
+.ring__track {
+  stroke: color-mix(in oklab, var(--fam-pigment) 18%, transparent);
+}
+.ring__arc {
+  stroke: var(--fam-pigment);
+  stroke-dasharray: 314.16;
+  stroke-dashoffset: var(--rest);
+}
+.ring__value {
+  position: relative;
+  display: grid;
+  justify-items: center;
+  gap: 0.3em;
+  text-align: center;
+}
+/* The number in the house sans, firm and tight: a figure, not a word. */
+.ring__number {
+  color: var(--fam-text);
+  font: 650 calc(var(--ring) * 0.23) / 1 var(--font-sans);
+  font-stretch: var(--sans-width);
+  font-variant-numeric: lining-nums tabular-nums;
+  letter-spacing: -0.03em;
+}
+.ring__unit {
+  margin-left: 0.04em;
+  font-size: 0.6em;
+  font-weight: 600;
+  letter-spacing: 0;
+  vertical-align: 0.42em;
+}
+.ring__label {
+  color: var(--muted);
+  font-size: var(--t-meta);
+}
+.figures__notes {
+  min-width: 0;
+}
+.figures__notes > * + * {
+  margin-top: var(--s-2);
+}
+.figures__sure {
+  color: var(--muted);
+  font-size: var(--t-meta);
+}
+.figures__level {
+  color: var(--ink);
+}
+.figures--small {
+  margin-top: var(--s-4);
+}
+@media (forced-colors: active) {
+  .ring__track {
+    stroke: GrayText;
+  }
+  .ring__arc {
+    stroke: CanvasText;
+  }
+}
+.verdict__close {
+  color: var(--muted);
+  font-size: 0.9375rem;
+}
+.verdict__link {
+  color: var(--ink);
+  text-decoration: underline;
+  text-decoration-thickness: 1px;
+  text-underline-offset: 0.2em;
+}
+.result__actions {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: var(--s-3) var(--s-4);
+  margin-top: var(--s-6);
+}
+[data-image][data-pending] {
+  opacity: 0.6;
+  cursor: progress;
+}
+.result__status {
+  min-width: 6em;
+  color: var(--muted);
+  font-size: var(--t-meta);
+}
+
+/* ---------- the results, as a bento of glass ---------- */
+/* The results sit in tiles of frosted glass on a twelve-column grid, the way a
+   front page boxes its stories: the verdict and its reasons first, then the
+   ranking and the map, the twelve axes across the page, and the rest in pairs.
+   Each tile is headed like the house's modules, a caption in capitals over a
+   title in the serif. On a phone the tiles stack in the same order.
+
+   Behind the glass lies a field of light in the inks of the families nearest
+   the player (.field): the lead's high on the left, the runner-up's across
+   from it, a third lower down. The light is already diffuse, so the glass
+   needs no blur of its own to read as frosted: translucent paper over a soft
+   light. A backdrop-filter on every tile would be recomputed on every frame
+   of a scroll, on a page this long; here everything is painted once, and the
+   one thing that moves, the glint under a resting pointer, moves by transform
+   on the compositor, as the reading lamp does (foundation.css). Each tile has
+     - its glass, paper let through at --glass;
+     - a mirrored rim (::before), a hairline lit from the upper left as glass
+       catches a window, fading along the sides and catching again faintly at
+       the lower right; the --glass-edge hairline outside it keeps the edge on
+       plain paper;
+     - a halo at the two lit corners, where the edges gather the light;
+     - a glint under a resting pointer (.tile__glint, set by app.ts).
+   When the result first appears, a light runs once around the verdict's rim. */
+.bento {
+  --glass: color-mix(in oklab, var(--paper) 72%, transparent);
+  --glass-verdict: color-mix(in oklab, var(--fam-wash) 80%, transparent);
+  --rim-hi: oklch(1 0 0 / 0.95);
+  --rim-lo: oklch(1 0 0 / 0.4);
+  --halo: oklch(1 0 0 / 0.75);
+  --halo-far: oklch(1 0 0 / 0.4);
+  --glint: oklch(1 0 0 / 0.55);
+  --glass-shadow: oklch(0.32 0.03 278 / 0.14);
+  --lean-tint: 20%;
+  --lean-tint-far: 11%;
+  position: relative;
+  isolation: isolate;
+  display: grid;
+  grid-template-columns: repeat(12, minmax(0, 1fr));
+  gap: var(--s-4);
+}
+:root[data-theme='dark'] .bento {
+  --glass: color-mix(in oklab, var(--paper) 60%, transparent);
+  --glass-verdict: color-mix(in oklab, var(--fam-wash) 70%, transparent);
+  --rim-hi: oklch(1 0 0 / 0.34);
+  --rim-lo: oklch(1 0 0 / 0.09);
+  --halo: oklch(1 0 0 / 0.1);
+  --halo-far: oklch(1 0 0 / 0.05);
+  --glint: oklch(1 0 0 / 0.1);
+  --glass-shadow: oklch(0 0 0 / 0.5);
+  --lean-tint: 24%;
+  --lean-tint-far: 13%;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme='light']) .bento {
+    --glass: color-mix(in oklab, var(--paper) 60%, transparent);
+    --glass-verdict: color-mix(in oklab, var(--fam-wash) 70%, transparent);
+    --rim-hi: oklch(1 0 0 / 0.34);
+    --rim-lo: oklch(1 0 0 / 0.09);
+    --halo: oklch(1 0 0 / 0.1);
+    --halo-far: oklch(1 0 0 / 0.05);
+    --glint: oklch(1 0 0 / 0.1);
+    --glass-shadow: oklch(0 0 0 / 0.5);
+    --lean-tint: 24%;
+    --lean-tint-far: 13%;
+  }
+}
+.bento > * {
+  grid-column: 1 / -1;
+  min-width: 0;
+}
+
+/* The field: soft pools of the nearest families' pigment, painted once. */
+.field {
+  position: absolute;
+  z-index: -1;
+  inset: calc(-1 * var(--s-6)) calc(-1 * var(--margin));
+  overflow: hidden;
+  contain: strict;
+  pointer-events: none;
+}
+.field__light {
+  position: absolute;
+  aspect-ratio: 1;
+  translate: -50% -50%;
+  background: radial-gradient(
+    closest-side,
+    color-mix(in oklab, var(--fam-pigment) 46%, transparent),
+    color-mix(in oklab, var(--fam-pigment) 34%, transparent) 26%,
+    color-mix(in oklab, var(--fam-pigment) 16%, transparent) 54%,
+    color-mix(in oklab, var(--fam-pigment) 5%, transparent) 78%,
+    transparent
+  );
+}
+.field__light:nth-child(1) {
+  top: 5%;
+  left: 14%;
+  width: max(34rem, 70%);
+}
+.field__light:nth-child(2) {
+  top: 14%;
+  left: 88%;
+  width: max(30rem, 60%);
+  opacity: 0.86;
+}
+.field__light:nth-child(3) {
+  top: 30%;
+  left: 10%;
+  width: max(28rem, 56%);
+  opacity: 0.74;
+}
+.field__light:nth-child(4) {
+  top: 45%;
+  left: 84%;
+  width: max(27rem, 52%);
+  opacity: 0.64;
+}
+.field__light:nth-child(5) {
+  top: 60%;
+  left: 18%;
+  width: max(26rem, 50%);
+  opacity: 0.56;
+}
+.field__light:nth-child(6) {
+  top: 76%;
+  left: 86%;
+  width: max(25rem, 48%);
+  opacity: 0.48;
+}
+.field__light:nth-child(7) {
+  top: 92%;
+  left: 28%;
+  width: max(24rem, 46%);
+  opacity: 0.42;
+}
+
+.tile {
+  /* Its margin and its corner, which the axes' panes reach toward on a phone. */
+  --tile-pad: clamp(1.25rem, 0.85rem + 1.4vw, 2.25rem);
+  --tile-radius: 18px;
+  position: relative;
+  isolation: isolate;
+  overflow: clip;
+  padding: var(--tile-pad);
+  border-radius: var(--tile-radius);
+  background:
+    radial-gradient(18rem 11rem at 0 0, var(--halo), transparent 72%),
+    radial-gradient(14rem 9rem at 100% 100%, var(--halo-far), transparent 72%),
+    var(--glass);
+  box-shadow:
+    0 0 0 1px var(--glass-edge),
+    0 1px 1px var(--glass-shadow),
+    0 26px 52px -34px var(--glass-shadow);
+}
+.tile::before {
+  content: '';
+  position: absolute;
+  z-index: 2;
+  inset: 0;
+  padding: 1px;
+  border-radius: inherit;
+  background: linear-gradient(
+    152deg,
+    var(--rim-hi),
+    var(--rim-lo) 20%,
+    transparent 44%,
+    transparent 66%,
+    var(--rim-lo) 88%,
+    var(--rim-hi)
+  );
+  -webkit-mask:
+    linear-gradient(#000 0 0) content-box,
+    linear-gradient(#000 0 0);
+  -webkit-mask-composite: xor;
+  mask:
+    linear-gradient(#000 0 0) content-box exclude,
+    linear-gradient(#000 0 0);
+  pointer-events: none;
+}
+.tile__glint {
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  left: 0;
+  width: 26rem;
+  aspect-ratio: 1;
+  margin: -13rem 0 0 -13rem;
+  background: radial-gradient(
+    closest-side,
+    var(--glint),
+    color-mix(in oklab, var(--glint) 50%, transparent) 36%,
+    color-mix(in oklab, var(--glint) 14%, transparent) 70%,
+    transparent
+  );
+  opacity: 0;
+  pointer-events: none;
+  transition:
+    opacity var(--d-lamp-off) var(--ease-out),
+    transform var(--d-lamp-follow) var(--ease-lamp);
+}
+.tile[data-lit] .tile__glint {
+  opacity: 1;
+  will-change: transform, opacity;
+  transition-duration: var(--d-lamp-on), var(--d-lamp-follow);
+}
+.tile[data-lamp-place] .tile__glint {
+  transition-property: opacity;
+}
+/* At night the glint lies on the glass itself, over the panes inside the tile, as a
+   window's reflection lies over whatever is behind the glass: added light, so the
+   panes catch it as the tile does and the text under it only brightens. By day the
+   panes are thin enough that the light under them shows through. */
+:root[data-theme='dark'] .tile__glint {
+  z-index: 3;
+  mix-blend-mode: screen;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme='light']) .tile__glint {
+    z-index: 3;
+    mix-blend-mode: screen;
+  }
+}
+.tile__kicker {
+  color: var(--muted);
+}
+.tile__title {
+  margin-top: var(--s-2);
+  font-size: var(--t-title-l);
+  line-height: 1.15;
+  letter-spacing: -0.01em;
+  text-wrap: balance;
+}
+.tile--verdict {
+  container: verdict / inline-size;
+  background:
+    radial-gradient(22rem 13rem at 0 0, var(--halo), transparent 72%),
+    radial-gradient(16rem 10rem at 100% 100%, var(--halo-far), transparent 72%),
+    var(--glass-verdict);
+  box-shadow:
+    0 0 0 1px color-mix(in oklab, var(--fam-pigment) 30%, var(--glass-edge)),
+    0 1px 1px var(--glass-shadow),
+    0 30px 60px -34px var(--glass-shadow);
+}
+/* The light that runs once around the verdict's rim as the result appears:
+   a bright arc carried round by its angle, over the still rim. */
+@property --rim-turn {
+  syntax: '<angle>';
+  inherits: false;
+  initial-value: 0deg;
+}
+.tile--verdict::after {
+  content: '';
+  position: absolute;
+  z-index: 3;
+  inset: 0;
+  padding: 1.5px;
+  border-radius: inherit;
+  background: conic-gradient(
+    from var(--rim-turn),
+    transparent 0deg,
+    var(--rim-hi) 18deg,
+    color-mix(in oklab, var(--fam-pigment) 60%, var(--rim-hi)) 30deg,
+    transparent 64deg
+  );
+  -webkit-mask:
+    linear-gradient(#000 0 0) content-box,
+    linear-gradient(#000 0 0);
+  -webkit-mask-composite: xor;
+  mask:
+    linear-gradient(#000 0 0) content-box exclude,
+    linear-gradient(#000 0 0);
+  opacity: 0;
+  pointer-events: none;
+}
+.tile--verdict[data-arrived]::after {
+  animation: rim-run var(--d-rim, 1900ms) var(--ease-turn) both;
+}
+@keyframes rim-run {
+  0% {
+    --rim-turn: -40deg;
+    opacity: 0;
+  }
+  12% {
+    opacity: 1;
+  }
+  82% {
+    opacity: 1;
+  }
+  100% {
+    --rim-turn: 320deg;
+    opacity: 0;
+  }
+}
+/* A wide verdict sets its figures in a column of their own, ruled off from
+   the text and stacked, as a front page sets the numbers beside a lead. */
+/* A wide verdict sets its figures in a column of their own: the ring, as
+   large as the seal across the tile, and the words under it. */
+@container verdict (min-width: 56rem) {
+  .verdict {
+    grid-template: 'seal text figures' auto / minmax(0, 10rem) minmax(0, 1fr) minmax(12rem, 15rem);
+  }
+  .verdict__figures {
+    flex-direction: column;
+    gap: var(--s-4);
+    padding-top: 0;
+    border-top: 0;
+    text-align: center;
+  }
+  .verdict__figures .ring {
+    --ring: 10rem;
+  }
+}
+.bento .result__actions {
+  margin: var(--s-2) 0 var(--s-3);
+}
+/* The verdict and its reasons each take a row: side by side, the reasons ran
+   far longer than the verdict, which was left as an empty pane beside them. */
+@media (min-width: 900px) {
+  .tile--top {
+    grid-column: span 7;
+  }
+  .tile--map {
+    grid-column: span 5;
+  }
+  .tile--apart {
+    grid-column: span 8;
+  }
+  .tile--far {
+    grid-column: span 4;
+  }
+  .tile--holders {
+    grid-column: span 5;
+  }
+  .tile--people {
+    grid-column: span 7;
+  }
+}
+@media (prefers-reduced-motion: reduce) {
+  .tile--verdict[data-arrived]::after {
+    animation: none;
+  }
+  .tile__glint {
+    display: none;
+  }
+}
+/* Without translucency the glass is plain raised paper with a ruled edge. */
+@media (forced-colors: active), (prefers-contrast: more), (prefers-reduced-transparency: reduce) {
+  .bento {
+    --glass: var(--raised);
+    --glass-verdict: var(--fam-wash);
+  }
+  .field,
+  .tile::before,
+  .tile--verdict::after,
+  .tile__glint {
+    display: none;
+  }
+  .tile {
+    border: 1px solid var(--rule);
+    background: var(--glass);
+  }
+  .tile--verdict {
+    background: var(--glass-verdict);
+  }
+}
+
+/* The reasons, each under a caption, set in columns as a page of a paper is:
+   one on a phone, two or three across the tile, filled to an even height so
+   that no column stands empty beside a long one. A quoted answer or a
+   sentence is never cut by a column, and a caption never left at its foot. */
+.why {
+  columns: 22rem 3;
+  column-gap: var(--s-6);
+  margin-top: var(--s-4);
+}
+.why__item + .why__item {
+  margin-top: var(--s-4);
+}
+.why dt,
+.why dd > p {
+  break-inside: avoid;
+  break-after: avoid;
+}
+.why .quote {
+  break-inside: avoid;
+}
+.why__item {
+  padding-top: var(--s-3);
+  border-top: 1px solid var(--rule);
+}
+.why dt {
+  color: var(--muted);
+}
+.why dd {
+  margin-top: var(--s-1);
+  font-size: 0.9375rem;
+  line-height: 1.5;
+}
+.why dd > p + .quote,
+.why dd > .quote + .quote {
+  margin-top: var(--s-3);
+}
+
+/* ---------- an answer quoted as a reason ---------- */
+/* The statement as the player read it, then a strip of the seven answers with
+   the player's own (an ink ring) beside an adherent's (a mark in the family's
+   colour) and, when two profiles are compared, the runner-up's (an open mark).
+   The strip runs as the answer scale does: agreement on the left. */
+.quote {
+  margin: var(--s-3) 0 0;
+  padding: var(--s-3) var(--s-3) var(--s-2);
+  border-radius: 6px;
+  background: color-mix(in oklab, var(--ink) 4%, transparent);
+}
+.quote__text {
+  margin: 0;
+}
+.quote__text p {
+  margin: 0;
+  font: 500 0.9375rem / 1.45 var(--font-sans);
+  font-stretch: var(--sans-width);
+  text-wrap: pretty;
+}
+.scale7 {
+  position: relative;
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  height: 1.375rem;
+  margin: var(--s-3) calc(100% / 28) 0;
+}
+.scale7__rule {
+  position: absolute;
+  inset: 50% calc(100% / 14) auto;
+  height: 1px;
+  background: var(--rule);
+}
+.scale7__tick {
+  justify-self: center;
+  align-self: center;
+  width: 1px;
+  height: 0.5rem;
+  background: var(--rule);
+}
+.scale7__mark {
+  position: absolute;
+  top: 50%;
+  left: calc(100% / 14 + var(--at) * (100% - 100% / 7));
+  translate: -50% -50%;
+}
+.scale7__mark--them {
+  width: 0.75rem;
+  height: 0.75rem;
+  rotate: 45deg;
+  border-radius: 2px;
+  background: var(--fam-pigment);
+}
+.scale7__mark--other {
+  width: 0.625rem;
+  height: 0.625rem;
+  rotate: 45deg;
+  border: 2px solid var(--fam-pigment);
+  border-radius: 2px;
+  background: var(--paper);
+}
+.scale7__mark--you {
+  width: 0.875rem;
+  height: 0.875rem;
+  border: 2px solid var(--ink);
+  border-radius: 50%;
+  background: color-mix(in oklab, var(--paper) 70%, transparent);
+}
+.quote__reads {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--s-1) var(--s-4);
+  margin-top: var(--s-2);
+  color: var(--muted);
+  font-size: 0.8125rem;
+  line-height: 1.35;
+}
+.quote__reads > span {
+  display: inline-flex;
+  align-items: baseline;
+  gap: var(--s-2);
+}
+.quote__reads .key--you {
+  width: 9px;
+  height: 9px;
+  translate: 0 1px;
+}
+.quote__reads .key--them,
+.quote__reads .key--other {
+  width: 8px;
+  height: 8px;
+  margin: 0;
+  rotate: 45deg;
+  border-radius: 1.5px;
+  translate: 0 -1px;
+}
+.quote__reads .key--other {
+  border: 1.5px solid var(--fam-pigment);
+  background: transparent;
+}
+.profile__answers {
+  margin-top: var(--s-5);
+}
+.profile__answers-kicker {
+  margin: var(--s-4) 0 0;
+  color: var(--muted);
+}
+
+/* ---------- the twelve axes ---------- */
+.leans {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(min(100%, 19rem), 1fr));
+  gap: var(--s-3);
+  margin-top: var(--s-5);
+}
+/* Each axis is a pane of the same glass, not paper laid on it, thin enough that
+   the light under a resting pointer passes through it as it does through the
+   tile. The colour of whoever stands nearest the player there gathers where the
+   tile's own light does, at the upper left and, fainter, the lower right, and
+   is gone by the middle of the pane: lit as the tiles are, not dyed. */
+.lean {
+  display: flex;
+  flex-direction: column;
+  padding: var(--s-4);
+  border: 1px solid var(--rule);
+  border-radius: 6px;
+  background: color-mix(in oklab, var(--paper) 30%, transparent);
+  box-shadow: inset 0 1px 0 var(--rim-lo, transparent);
+}
+.bento .lean[data-family] {
+  background:
+    radial-gradient(
+      95% 85% at 0 0,
+      color-mix(in oklab, var(--fam-pigment) var(--lean-tint), transparent),
+      transparent 72%
+    ),
+    radial-gradient(
+      80% 70% at 100% 100%,
+      color-mix(in oklab, var(--fam-pigment) var(--lean-tint-far), transparent),
+      transparent 72%
+    ),
+    color-mix(in oklab, var(--paper) 30%, transparent);
+  border-color: color-mix(in oklab, var(--fam-pigment) 16%, var(--rule));
+}
+.lean__head {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: var(--s-1) var(--s-3);
+}
+.lean__name {
+  font-size: var(--t-title-xs);
+  line-height: 1.2;
+}
+/* The strength of the lean, darker as it grows. */
+.lean__tag {
+  padding: 3px 7px;
+  border-radius: var(--radius-control);
+  background: color-mix(in oklab, var(--ink) 6%, transparent);
+  color: var(--muted);
+}
+.lean__tag[data-level='clear'] {
+  background: color-mix(in oklab, var(--ink) 12%, transparent);
+  color: var(--ink);
+}
+.lean__tag[data-level='strong'] {
+  background: var(--ink);
+  color: var(--paper);
+}
+/* Facets pointing opposite ways: no strength to show, only that the mean is a cancelling. */
+.lean__tag[data-level='divided'] {
+  background: transparent;
+  box-shadow: inset 0 0 0 1px var(--ink);
+  color: var(--ink);
+}
+.lean__composite {
+  margin-top: var(--s-2);
+}
+.lean__scale {
+  margin-top: var(--s-4);
+}
+.lean__poles {
+  display: flex;
+  justify-content: space-between;
+  gap: var(--s-3);
+  margin-bottom: var(--s-2);
+}
+.lean__pole {
+  display: grid;
+  gap: 2px;
+  max-width: 48%;
+  color: var(--muted);
+  font: 400 0.8125rem / 1.25 var(--font-sans);
+  font-stretch: var(--sans-width);
+}
+.lean__pole:last-child {
+  text-align: right;
+}
+.lean__pole[data-on] {
+  color: var(--ink);
+  font-weight: 600;
+}
+.lean__share {
+  font-variant-numeric: lining-nums tabular-nums;
+}
+.lean__bar {
+  position: relative;
+  height: 14px;
+}
+.lean__bar::before {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 0;
+  right: 0;
+  height: 4px;
+  border-radius: 2px;
+  background: color-mix(in oklab, var(--ink) 9%, transparent);
+  translate: 0 -50%;
+}
+/* The centre, where no lean begins. */
+.lean__bar::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 50%;
+  width: 1px;
+  background: var(--muted);
+}
+.lean__fill {
+  position: absolute;
+  top: 50%;
+  left: calc(min(var(--you), 50) * 1%);
+  width: calc(max(var(--you) - 50, 50 - var(--you)) * 1%);
+  height: 4px;
+  border-radius: 2px;
+  background: var(--ink);
+  translate: 0 -50%;
+}
+.lean__them,
+.lean__median {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: calc(var(--them) * 1%);
+  width: 3px;
+  border-radius: 1.5px;
+  background: var(--fam-pigment);
+  translate: -50% 0;
+}
+.lean__median {
+  width: 2px;
+  background: var(--muted);
+}
+.lean__bar--median::after {
+  display: none;
+}
+.lean__you {
+  position: absolute;
+  top: 50%;
+  left: calc(var(--you) * 1%);
+  width: 12px;
+  height: 12px;
+  border: 2px solid var(--ink);
+  border-radius: 50%;
+  background: var(--paper);
+  translate: -50% -50%;
+}
+.lean__reading {
+  margin-top: var(--s-3);
+  font-size: 0.9375rem;
+  line-height: 1.5;
+}
+.lean__detail {
+  margin-top: var(--s-1);
+  color: var(--muted);
+  font-size: 0.875rem;
+  line-height: 1.45;
+}
+.lean .axis__person {
+  margin-top: var(--s-4);
+}
+.lean--empty .lean__reading {
+  color: var(--muted);
+}
+/* Picking another variant slides its mark along each axis and changes its ink. */
+.lean .lean__them {
+  transition:
+    left var(--d-base) var(--ease-out),
+    background-color var(--d-base) var(--ease-out);
+}
+
+/* One sentence per facet, beside the person nearest the player on the axis. */
+.lean__notes {
+  display: grid;
+  gap: var(--s-2);
+  margin-top: var(--s-3);
+  padding-top: var(--s-3);
+  border-top: 1px solid var(--rule);
+}
+.lean__note {
+  position: relative;
+  padding-left: 14px;
+  font-size: 0.875rem;
+  line-height: 1.5;
+}
+/* Held together: a filled dot; apart: a ring; one in the middle: half of each. */
+.lean__note::before {
+  content: '';
+  position: absolute;
+  top: 0.55em;
+  left: 0;
+  width: 6px;
+  height: 6px;
+  border: 1.25px solid var(--ink);
+  border-radius: 50%;
+  background: var(--ink);
+}
+.lean__note[data-stance='apart']::before {
+  background: transparent;
+}
+.lean__note[data-stance='middle']::before {
+  background: linear-gradient(90deg, var(--ink) 50%, transparent 50%);
+}
+.lean__note[data-stance='none'] {
+  color: var(--muted);
+}
+.lean__note[data-stance='none']::before {
+  border-color: var(--rule);
+  background: transparent;
+}
+.lean__note-topic {
+  display: block;
+  color: var(--muted);
+  font-size: 0.75rem;
+  font-weight: 600;
+  letter-spacing: 0.02em;
+}
+
+/* The variant the axes are set against: the lead or one of the next three. */
+.refs {
+  margin: var(--s-5) 0 0;
+  padding: 0;
+  border: 0;
+}
+.refs__legend {
+  margin-bottom: var(--s-2);
+  padding: 0;
+  color: var(--muted);
+}
+.refs__options {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: var(--s-2);
+}
+.ref {
+  position: relative;
+  display: grid;
+  grid-template-columns: 4px minmax(0, 1fr);
+  align-items: stretch;
+  gap: var(--s-3);
+  min-height: 44px;
+  padding: var(--s-2) var(--s-3);
+  border: 1px solid var(--rule);
+  border-radius: var(--radius-control);
+  background: color-mix(in oklab, var(--paper) 40%, transparent);
+  cursor: pointer;
+  transition:
+    border-color var(--d-quick) var(--ease-out),
+    box-shadow var(--d-quick) var(--ease-out),
+    scale var(--d-base) var(--ease-out);
+}
+.ref:has(:checked) {
+  border-color: var(--ink);
+  box-shadow: inset 0 0 0 1px var(--ink);
+}
+.ref:has(:focus-visible) {
+  outline: var(--focus);
+  outline-offset: 3px;
+}
+.ref:active {
+  scale: 0.985;
+  transition-duration: var(--d-press);
+}
+@media (hover: hover) {
+  :where(:root:not([data-resting])) .ref:hover {
+    border-color: color-mix(in oklab, var(--ink) 55%, var(--rule));
+  }
+}
+.ref__input {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  opacity: 0;
+  cursor: pointer;
+}
+.ref__tick {
+  border-radius: 2px;
+  background: var(--fam-pigment);
+}
+.ref__text {
+  display: grid;
+  gap: 2px;
+  min-width: 0;
+}
+.ref__name {
+  font-size: 0.9375rem;
+  font-weight: 500;
+  line-height: 1.3;
+}
+.ref__meta {
+  color: var(--muted);
+  font-size: 0.6875rem;
+  line-height: 1.35;
+}
+/* Which mark is whose, drawn as the marks themselves. */
+.refs__key {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: var(--s-1) var(--s-2);
+  margin-top: var(--s-3);
+  color: var(--muted);
+}
+.key {
+  flex: none;
+  display: inline-block;
+}
+.key--you {
+  width: 12px;
+  height: 12px;
+  border: 2px solid var(--ink);
+  border-radius: 50%;
+  background: var(--paper);
+}
+.key--them {
+  width: 3px;
+  height: 14px;
+  margin-left: var(--s-3);
+  border-radius: 1.5px;
+  background: var(--fam-pigment);
+  transition: background-color var(--d-base) var(--ease-out);
+}
+
+/* ---------- what sets the player apart ---------- */
+/* Two standouts side by side, never three tracks: the rare pair spans the
+   row under them, and a third track it kept open stood empty beside them. */
+.stands {
+  display: grid;
+  grid-template-columns: repeat(
+    auto-fit,
+    minmax(min(100%, max(16rem, (100% - var(--s-3)) / 2)), 1fr)
+  );
+  gap: var(--s-3);
+  margin-top: var(--s-5);
+}
+.stand {
+  padding: var(--s-4);
+  border: 1px solid var(--rule);
+  border-radius: 6px;
+  background: color-mix(in oklab, var(--paper) 36%, transparent);
+  box-shadow: inset 0 1px 0 var(--rim-lo, transparent);
+}
+.stand--wide {
+  grid-column: 1 / -1;
+}
+.stand__kicker {
+  color: var(--muted);
+}
+.stand__name {
+  margin-top: var(--s-2);
+  font-size: var(--t-title-xs);
+  line-height: 1.2;
+}
+.stand__text {
+  margin-top: var(--s-2);
+  font-size: 0.9375rem;
+  line-height: 1.5;
+}
+.stand .lean__bar {
+  margin-top: var(--s-4);
+}
+.stand__legend {
+  display: flex;
+  justify-content: space-between;
+  margin-top: var(--s-2);
+  color: var(--muted);
+}
+
+/* ---------- the far end ---------- */
+.far {
+  display: grid;
+  grid-template-columns: 64px minmax(0, 1fr);
+  align-items: center;
+  gap: var(--s-4);
+  width: 100%;
+  margin-top: var(--s-5);
+  padding: var(--s-3);
+  border: 1px solid color-mix(in oklab, var(--fam-pigment) 16%, var(--rule));
+  border-radius: 6px;
+  background: color-mix(
+    in oklab,
+    color-mix(in oklab, var(--fam-wash) 70%, var(--paper)) 42%,
+    transparent
+  );
+  text-align: left;
+  transition: background-color var(--d-quick) var(--ease-out);
+}
+@media (hover: hover) {
+  :where(:root:not([data-resting])) .far:hover {
+    background: color-mix(in oklab, var(--ink) 4%, var(--paper));
+  }
+}
+.idea--far {
+  width: 64px;
+}
+.far__text {
+  display: grid;
+  gap: 2px;
+}
+.far__name {
+  font-size: var(--t-title-xs);
+  font-weight: 500;
+  line-height: 1.2;
+}
+.far__value {
+  color: var(--muted);
+  font: 500 var(--t-meta) / 1.3 var(--font-sans);
+}
+.tile--far .quiz-note {
+  margin-top: var(--s-3);
+}
+.far__summary {
+  margin-top: var(--s-4);
+  font-size: 0.9375rem;
+  line-height: 1.5;
+}
+
+.top {
+  margin-top: var(--s-4);
+  border-top: 1px solid var(--rule);
+}
+.top__row {
+  border-bottom: 1px solid var(--rule);
+}
+.top__button {
+  display: grid;
+  grid-template-columns: 1rem 44px minmax(0, 1fr) minmax(7rem, 34%);
+  align-items: center;
+  gap: var(--s-4);
+  width: 100%;
+  padding: var(--s-3) var(--s-2);
+  border-radius: var(--radius-control);
+  text-align: left;
+  transition:
+    background-color var(--d-quick) var(--ease-out),
+    scale var(--d-base) var(--ease-out);
+}
+.top__button:active {
+  scale: 0.99;
+  transition-duration: var(--d-press);
+}
+@media (hover: hover) {
+  :where(:root:not([data-resting])) .top__button:hover {
+    background: color-mix(in oklab, var(--ink) 4%, transparent);
+  }
+}
+.top__rank {
+  color: var(--muted);
+  font: 600 0.8125rem / 1 var(--font-sans);
+  font-stretch: var(--sans-width);
+  font-variant-numeric: lining-nums tabular-nums;
+  text-align: right;
+}
+.idea--row {
+  width: 44px;
+}
+.top__name {
+  display: block;
+  font-size: var(--t-title-xs);
+  font-weight: 500;
+  line-height: 1.2;
+}
+.top__text .rubric {
+  display: block;
+  margin-top: 2px;
+}
+.top__share {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) 4.75rem;
+  align-items: center;
+  gap: var(--s-2);
+}
+.top__bar {
+  height: 6px;
+  overflow: hidden;
+  border-radius: 3px;
+  background: color-mix(in oklab, var(--ink) 7%, transparent);
+}
+.top__bar span {
+  display: block;
+  height: 100%;
+  border-radius: inherit;
+  background: var(--fam-pigment);
+  scale: var(--share) 1;
+  transform-origin: 0 50%;
+}
+.quiz .top__value {
+  color: var(--muted);
+  font-size: 0.625rem;
+  letter-spacing: 0.06em;
+  text-align: right;
+  white-space: nowrap;
+}
+.quiz .top__value[data-close] {
+  color: var(--ink);
+}
+
+.holders {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(17rem, 1fr));
+  gap: var(--s-4) var(--gutter);
+  margin-top: var(--s-4);
+}
+.holder {
+  display: grid;
+  grid-template-columns: 72px minmax(0, 1fr);
+  align-items: start;
+  gap: var(--s-4);
+  padding-top: var(--s-4);
+  border-top: 1px solid var(--rule);
+}
+.holder__art {
+  display: grid;
+  place-items: center;
+  height: 52px;
+}
+.holder__name {
+  display: block;
+  font-size: var(--t-title-xs);
+  font-weight: 500;
+  line-height: 1.2;
+}
+.holder__meta {
+  display: block;
+  margin-top: var(--s-1);
+  color: var(--muted);
+  font-size: var(--t-meta);
+}
+.holder__note {
+  display: block;
+  margin-top: var(--s-1);
+  color: var(--muted);
+  font-size: 0.875rem;
+  line-height: 1.45;
+}
+
+.people {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: var(--s-6) var(--gutter);
+  margin-top: var(--s-5);
+}
+.person .portrait {
+  max-width: 13.5rem;
+  margin-bottom: var(--s-3);
+}
+.person .rubric {
+  margin-bottom: var(--s-1);
+}
+.person__name {
+  font-size: var(--t-title-s);
+  font-weight: 500;
+  line-height: 1.2;
+}
+.person__meta {
+  margin-top: var(--s-2);
+  color: var(--muted);
+  font-size: var(--t-meta);
+}
+.person__role {
+  margin-top: var(--s-1);
+  color: var(--muted);
+  font-size: 0.875rem;
+  line-height: 1.45;
+}
+
+.axis__person {
+  display: flex;
+  align-items: center;
+  gap: var(--s-3);
+  margin-top: var(--s-3);
+  color: var(--muted);
+  font-size: 0.875rem;
+}
+.axis__person .portrait {
+  flex: none;
+  width: 32px;
+}
+.axis__person .portrait__initials {
+  font-size: 0.75rem;
+}
+.axis__person .portrait--initials::before {
+  display: none;
+}
+.axis__person strong {
+  color: var(--ink);
+  font-weight: 600;
+}
+.result__method {
+  margin-top: var(--section);
+  padding-top: var(--s-3);
+  border-top: 1px solid var(--rule);
+}
+.result__method summary {
+  list-style: none;
+  cursor: pointer;
+}
+.result__method summary::-webkit-details-marker {
+  display: none;
+}
+/* The chevron points down to what it will open, and up once it has. */
+.result__method summary .glyph {
+  rotate: 90deg;
+  transition: rotate var(--d-quick) var(--ease-out);
+}
+.result__method[open] summary .glyph {
+  rotate: -90deg;
+}
+.result__method-body p {
+  max-width: 62ch;
+  margin-top: var(--s-3);
+  color: var(--muted);
+  font-size: 0.9375rem;
+  line-height: 1.6;
+}
+
+.result__credits-title {
+  margin-top: var(--s-5);
+  color: var(--muted);
+  font-size: var(--t-meta);
+}
+.result__credits {
+  display: grid;
+  gap: var(--s-1);
+  margin-top: var(--s-2);
+  color: var(--muted);
+  font-size: 0.875rem;
+  line-height: 1.5;
+}
+
+/* ---------- the profile sheet ---------- */
+/* One glass with the reader's sheets (reader.css): it keeps its shape while
+   it fades, and its layout is set whether or not it is open. */
+.quiz-sheet {
+  position: fixed;
+  z-index: calc(var(--layer-bar) + 2);
+  inset: 0;
+  flex-direction: column;
+  width: min(40rem, 100vw - 2rem);
+  height: fit-content;
+  max-height: min(86dvh, 54rem);
+  margin: auto;
+  padding: 0;
+  overflow: hidden;
+  border: 1px solid var(--rim-soft);
+  border-top-color: var(--rim);
+  border-radius: 10px;
+  background: var(--material) padding-box;
+  -webkit-backdrop-filter: var(--blur);
+  backdrop-filter: var(--blur);
+  color: var(--ink);
+  box-shadow:
+    0 0 0 1px var(--glass-edge),
+    0 28px 60px -24px oklch(0 0 0 / 0.4);
+  opacity: 0;
+  transform: translateY(4px) scale(0.985);
+  transition:
+    opacity var(--d-close) var(--ease-leave),
+    transform var(--d-close) var(--ease-leave),
+    overlay var(--d-close) allow-discrete,
+    display var(--d-close) allow-discrete;
+}
+.quiz-sheet:popover-open {
+  display: flex;
+  opacity: 1;
+  transform: none;
+  transition-duration: var(--d-base);
+  transition-timing-function: var(--ease-out);
+}
+@starting-style {
+  .quiz-sheet:popover-open {
+    opacity: 0;
+    transform: translateY(8px) scale(0.97);
+  }
+}
+.quiz-sheet::backdrop {
+  background: color-mix(in oklab, var(--night) 35%, transparent);
+  opacity: 0;
+  transition:
+    opacity var(--d-close) var(--ease-leave),
+    overlay var(--d-close) allow-discrete,
+    display var(--d-close) allow-discrete;
+}
+.quiz-sheet:popover-open::backdrop {
+  opacity: 1;
+  transition-duration: var(--d-base);
+  transition-timing-function: var(--ease-out);
+}
+@starting-style {
+  .quiz-sheet:popover-open::backdrop {
+    opacity: 0;
+  }
+}
+html:has(.quiz-sheet:popover-open) {
+  overflow: hidden;
+}
+.quiz-sheet__close {
+  position: absolute;
+  top: var(--s-2);
+  right: var(--s-2);
+  z-index: 1;
+}
+.quiz-sheet__body {
+  min-height: 0;
+  padding: var(--s-5) var(--s-6) var(--s-6);
+  overflow-y: auto;
+  overscroll-behavior: contain;
+}
+.profile__head {
+  display: grid;
+  grid-template-columns: 64px minmax(0, 1fr);
+  align-items: center;
+  gap: var(--s-4);
+  padding-right: 2.5rem;
+}
+.idea--profile {
+  width: 64px;
+}
+.profile__name {
+  margin-top: var(--s-1);
+  font-size: var(--t-title-l);
+}
+.profile__name:focus {
+  outline: none;
+}
+.profile__summary {
+  margin-top: var(--s-4);
+  font-size: 1rem;
+  line-height: 1.55;
+}
+.profile .holders {
+  grid-template-columns: minmax(0, 1fr);
+}
+
+/* Where a variant stands against the player, axis by axis, in the language of the
+   axis cells: the player a ring, the variant its family's tick, the gap between them tinted. */
+.compare {
+  margin-top: var(--s-6);
+  padding-top: var(--s-5);
+  border-top: 1px solid var(--rule);
+}
+.compare__title {
+  margin-top: var(--s-1);
+  font-size: var(--t-title-s);
+  line-height: 1.2;
+}
+.compare__summary {
+  margin-top: var(--s-2);
+  color: var(--muted);
+  font-size: 0.9375rem;
+  line-height: 1.5;
+}
+.compare .refs__key {
+  margin-top: var(--s-4);
+}
+.compare__rows {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: var(--s-3);
+  margin-top: var(--s-4);
+}
+.compare__row {
+  padding: var(--s-3) var(--s-3) var(--s-2);
+  border: 1px solid var(--rule);
+  border-radius: 6px;
+  background: color-mix(in oklab, var(--paper) 70%, transparent);
+}
+.compare__head {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: var(--s-1) var(--s-2);
+  margin-bottom: var(--s-3);
+}
+.compare__name {
+  font-size: 1.0625rem;
+  line-height: 1.2;
+}
+.compare__row .lean__poles {
+  margin-bottom: var(--s-1);
+}
+.compare__row .lean__pole {
+  font-size: 0.75rem;
+}
+.compare__bar::after {
+  opacity: 0.5;
+}
+.compare__gap {
+  position: absolute;
+  top: 50%;
+  left: calc(var(--low) * 1%);
+  width: calc((var(--high) - var(--low)) * 1%);
+  height: 4px;
+  border-radius: 2px;
+  background: color-mix(in oklab, var(--fam-pigment) 45%, transparent);
+  translate: 0 -50%;
+}
+.compare__row--empty .lean__tag {
+  background: none;
+}
+
+/* ---------- a wide tablet ---------- */
+@media (max-width: 1100px) {
+  .axis-index__list {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+  .intro__main,
+  .intro__how {
+    grid-column: 1 / -1;
+  }
+  /* Stacked, the steps sit beside the cube rather than under it. */
+  .intro__how {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+    gap: 0 var(--gutter);
+    align-items: start;
+  }
+  .intro__how > .quiz-kicker {
+    grid-column: 1 / -1;
+  }
+  .intro__how > .cube {
+    grid-row: span 2;
+  }
+}
+
+/* ---------- a phone ---------- */
+@media (max-width: 760px) {
+  .intro {
+    grid-template-columns: minmax(0, 1fr);
+  }
+  .intro__how {
+    display: block;
+  }
+  .intro > * {
+    grid-column: 1 / -1;
+  }
+  .packs,
+  .axis-index__list {
+    grid-template-columns: minmax(0, 1fr);
+  }
+  .pack {
+    padding: var(--s-4);
+  }
+  .pack__check {
+    top: var(--s-4);
+    right: var(--s-4);
+  }
+  .play {
+    --q-lines: 4;
+  }
+  .play__rule {
+    margin-bottom: var(--s-5);
+  }
+  .agree {
+    --ring-xl: 2.75rem;
+    --ring-l: 2.25rem;
+    --ring-m: 1.875rem;
+    --ring-s: 1.5rem;
+    margin-top: var(--s-5);
+  }
+  /* A phone rarely has number keys to press. */
+  .agree__key,
+  .play__keys {
+    display: none;
+  }
+  .verdict {
+    grid-template: 'seal' auto 'text' auto 'figures' auto / minmax(0, 1fr);
+  }
+  /* Inside a tile a phone has no width to spare: the standouts become ruled
+     rows instead of boxes within the box. */
+  .compare__rows {
+    grid-template-columns: minmax(0, 1fr);
+  }
+  .stands {
+    gap: 0;
+  }
+  .stand {
+    padding: var(--s-5) 0;
+    border: 0;
+    border-top: 1px solid var(--rule);
+    border-radius: 0;
+    background: none;
+    box-shadow: none;
+  }
+  /* The axes keep their panes, whose colour says who stands nearest there.
+     To spare the width, they reach into the tile's margin to a hair from its
+     edge, their corners drawn round the same centres as the tile's; the
+     words inside still stand on the tile's own line. */
+  .tile .leans {
+    gap: var(--s-2);
+    margin-inline: calc(var(--s-2) - var(--tile-pad));
+  }
+  .tile .lean {
+    padding: var(--s-5) calc(var(--tile-pad) - var(--s-2) - 1px);
+    border-radius: calc(var(--tile-radius) - var(--s-2));
+  }
+  /* The legend's choices above them reach as far, so every box in the tile
+     shares the same two edges, and each colour tick stands on the tile's line,
+     over the axes' names. */
+  .tile .refs__options {
+    margin-inline: calc(var(--s-2) - var(--tile-pad));
+  }
+  .tile .ref {
+    padding-inline: calc(var(--tile-pad) - var(--s-2) - 1px);
+  }
+  .idea--seal {
+    width: 6.5rem;
+  }
+  .verdict__name {
+    margin-top: var(--s-2);
+  }
+  .verdict__summary {
+    font-size: 1.0625rem;
+  }
+  .top__button {
+    grid-template-columns: 0.75rem 40px minmax(0, 1fr) 4.75rem;
+    gap: var(--s-3);
+    padding-inline: 0;
+  }
+  .idea--row {
+    width: 40px;
+  }
+  .top__share {
+    grid-template-columns: minmax(0, 1fr);
+    gap: 6px;
+  }
+  .top__value {
+    order: -1;
+  }
+  .trail__axes {
+    grid-template-columns: minmax(0, 1fr);
+  }
+  .trail__axis {
+    grid-template-columns: 5.5rem minmax(0, 1fr);
+  }
+  .cube__row {
+    grid-template-columns: minmax(0, 1fr);
+    gap: 2px;
+  }
+  .people {
+    grid-template-columns: minmax(0, 1fr);
+    gap: var(--s-5);
+  }
+  .person {
+    display: grid;
+    grid-template-columns: 5.5rem minmax(0, 1fr);
+    column-gap: var(--s-4);
+    align-content: start;
+  }
+  .person .portrait {
+    grid-row: 1 / span 5;
+    margin: 0;
+  }
+  .person__name {
+    font-size: var(--t-title-xs);
+  }
+  .quiz-sheet {
+    inset: auto 0 0;
+    width: 100%;
+    max-height: 88dvh;
+    border-bottom: 0;
+    border-radius: 12px 12px 0 0;
+    opacity: 1;
+    transform: translateY(calc(100% + 2px));
+    transition:
+      transform var(--d-close) var(--ease-leave),
+      overlay var(--d-close) allow-discrete,
+      display var(--d-close) allow-discrete;
+  }
+  @starting-style {
+    .quiz-sheet:popover-open {
+      opacity: 1;
+      transform: translateY(calc(100% + 2px));
+    }
+  }
+  .quiz-sheet__body {
+    padding: var(--s-5) var(--s-4) calc(var(--s-6) + env(safe-area-inset-bottom));
+  }
+  .refs__options {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .quiz-sheet,
+  .quiz-sheet::backdrop,
+  .play__rule span,
+  .agree__ring,
+  .agree__ring::after {
+    transition-duration: 0s;
+  }
+}

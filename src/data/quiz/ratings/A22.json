@@ -1,0 +1,35 @@
+{
+  "rater": "A",
+  "block": "A22",
+  "items": {
+    "labour.10": {
+      "0": "TRA CRA PIP RF",
+      "1": "COA IS LIF EUR",
+      "2": "STC NAS HF CO SUL",
+      "-1": "SF",
+      "split": "LIF IS CO SF",
+      "why": "Order-minded and corporatist camps treat strikes as a disruption to be minimised (or banned), while socialist feminism sees the strike as a core weapon not to be hedged; technopolitical camps and radical feminism have little stake.",
+      "notes": {
+        "STC": "Estado Novo's Estatuto do Trabalho Nacional (1933) outlawed strikes and lockouts outright, so a last-resort-only rule is the mild version: 2.",
+        "NAS": "Falange's 27 points subordinate labour conflict to the national vertical syndicate, making strikes illegitimate except in extremis: 2.",
+        "SF": "Zetkin/Kollontai tradition treats strikes (e.g. women's mass strikes, Bread and Roses) as the main lever of working women; hedging them as last resort is resisted: -1.",
+        "HF": "Hamilton and the Federalists distrusted combinations of workers and favoured order and contract stability: 2.",
+        "SUL": "Sultanist regimes repress independent unions; a last-resort rule suits the ruler, though doctrine is only loyalty: 2."
+      }
+    },
+    "violence.10": {
+      "0": "COA SUL IS SF RF HF TRA PIP",
+      "1": "NAS LIF CO",
+      "2": "EUR CRA",
+      "-1": "STC",
+      "split": "STC NAS",
+      "why": "The item divides religious-tradition camps and individual-liberty camps (who permit clergy to fight) from the Catholic-corporatist camp bound by canon law against clergy bearing arms; most others have no stake.",
+      "notes": {
+        "EUR": "Orthodox-imperial memory of warrior monks (Peresvet and Oslyabya at Kulikovo, blessed by Sergius of Radonezh) makes defensive fighting by clergy honourable: 2.",
+        "CRA": "May's Crypto Anarchist Manifesto and cypherpunk ethos hold that anyone may arm and defend themselves; no class is barred: 2.",
+        "STC": "Salazar's Catholic Estado Novo upheld canon law (c. 1941/1983 forbidding clerics to bear arms), with clergy as chaplains and not combatants: -1.",
+        "NAS": "Falange's Catholic-imperial militancy glorified the crusade, yet the Church hierarchy kept clergy from arms; adherents split: 1."
+      }
+    }
+  }
+}

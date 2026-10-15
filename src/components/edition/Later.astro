@@ -1,0 +1,9 @@
+---
+// Where a page's first screen ends: the rest of its styles (lib/editionStyles.ts).
+// What stands before this link is drawn at once; what follows waits for it.
+interface Props {
+  href: string;
+}
+const { href } = Astro.props;
+---
+<link rel="stylesheet" href={href} />

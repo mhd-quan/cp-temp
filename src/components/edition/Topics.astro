@@ -1,0 +1,23 @@
+---
+// Rubric: the discipline printed in its own ink, in Mona Sans capitals, as
+// manuscript rubrics were written in red. The first topic carries the ink;
+// a second topic follows in the quieter body ink.
+import { inkOf } from '../../lib/edition';
+
+interface Props {
+  topics: readonly string[];
+  class?: string;
+}
+const { topics, class: className } = Astro.props;
+const [first, ...rest] = topics;
+---
+<p class:list={['rubric', className]}>
+  <span class="rubric__lead" data-ink={inkOf(first).key}>{first}</span>
+  {rest.map((topic) => (
+    <>
+      <span class="rubric__sep" aria-hidden="true"> · </span>
+      <span class="sr-only">, </span>
+      <span class="rubric__more">{topic}</span>
+    </>
+  ))}
+</p>

@@ -1,0 +1,15 @@
+---
+import Glyph from '~/components/edition/Glyph.astro';
+import PageHead from '~/components/edition/PageHead.astro';
+import EditionLayout from '~/layouts/EditionLayout.astro';
+---
+<EditionLayout title="Không tìm thấy trang" description="Địa chỉ này không còn trên The Cochinchine Pensées. Về trang chủ hoặc tìm lại bài viết." noindex>
+  <PageHead title="Không tìm thấy trang" dek="Trang bạn cần không còn ở địa chỉ này." />
+  <div class="page-body wrap">
+    <p class="ways">
+      <a class="caps-link" href="/"><span>Trang chủ</span><Glyph name="forward" inline /></a>
+      <a class="caps-link" href="/search"><span>Tìm bài viết</span><Glyph name="search" inline /></a>
+      <a class="caps-link" href="/essays"><span>Tiểu luận</span><Glyph name="forward" inline /></a>
+    </p>
+  </div>
+</EditionLayout>

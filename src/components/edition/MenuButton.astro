@@ -1,0 +1,11 @@
+---
+// The phone menu's trigger. Three rules drawn as spans so that, when the menu
+// opens, the same rules turn into the close cross in the same place.
+interface Props {
+  class?: string;
+}
+const { class: className } = Astro.props;
+---
+<button class:list={['icon-button menu-button', className]} type="button" popovertarget="site-menu" aria-label="Menu">
+  <span class="burger" aria-hidden="true"><i></i><i></i><i></i></span>
+</button>

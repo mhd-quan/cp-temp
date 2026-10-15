@@ -1,0 +1,70 @@
+{
+  "family": {
+    "id": "social-democracy",
+    "name": "Dân chủ xã hội",
+    "en": "Social democracy",
+    "summary": "Giữ kinh tế thị trường và dân chủ đa đảng, nhưng dùng thuế, an sinh và công đoàn để thu hẹp bất bình đẳng."
+  },
+  "variants": [
+    {
+      "id": "nordic-model",
+      "name": "Mô hình Bắc Âu",
+      "en": "Nordic model",
+      "summary": "Thị trường mở, phúc lợi phổ quát, thuế cao và thương lượng tập thể giữa công đoàn với giới chủ; nhà nước lo từ nhà trẻ đến lương hưu.",
+      "exemplars": ["Per Albin Hansson", "Olof Palme", "Thuỵ Điển, Đan Mạch, Na Uy"],
+      "period": "1932–nay",
+      "axes": { "economy": 45, "distribution": 20, "trade": 65, "power": 85, "liberty": 80, "elites": 40, "lifestyle": 75, "religion": 30, "identity": 60, "environment": 65, "foreign": 70, "change": 20 },
+      "facets": { "economy.ownership": 60, "economy.planning": 60, "economy.steering": 20, "distribution.tax": 25, "distribution.welfare": 10, "distribution.labour": 15, "religion.state": 60, "religion.law": 10, "religion.public": 25 },
+      "status": "draft",
+      "raters": ["claude"]
+    },
+    {
+      "id": "postwar-social-democracy",
+      "name": "Dân chủ xã hội hậu chiến",
+      "en": "Post-war social democracy (Keynesian)",
+      "summary": "Quốc hữu hoá các ngành then chốt, quản lý tổng cầu theo Keynes để có toàn dụng lao động, dựng nhà nước phúc lợi từ nôi đến mộ.",
+      "exemplars": ["Clement Attlee", "Willy Brandt", "Anh (1945–1951)"],
+      "period": "1945–1979",
+      "axes": { "economy": 35, "distribution": 20, "trade": 50, "power": 80, "liberty": 70, "elites": 40, "lifestyle": 55, "religion": 35, "identity": 50, "environment": 40, "foreign": 55, "change": 30 },
+      "facets": { "economy.ownership": 30, "economy.planning": 55, "economy.steering": 25 },
+      "status": "draft",
+      "raters": ["claude"]
+    },
+    {
+      "id": "third-way",
+      "name": "Con đường thứ ba",
+      "en": "Third Way",
+      "summary": "Chấp nhận thị trường toàn cầu hoá và cải cách phúc lợi; nhà nước đầu tư vào giáo dục để trao cơ hội thay vì chỉ chia lại của cải; cứng rắn với tội phạm.",
+      "exemplars": ["Tony Blair", "Bill Clinton", "Gerhard Schröder", "Anthony Giddens"],
+      "period": "1990–2010",
+      "axes": { "economy": 58, "distribution": 40, "trade": 85, "power": 80, "liberty": 60, "elites": 35, "lifestyle": 70, "religion": 40, "identity": 70, "environment": 50, "foreign": 40, "change": 25 },
+      "facets": { "foreign.force": 35, "foreign.rules": 60, "foreign.intervention": 25, "liberty.expression": 85, "liberty.justice": 35, "liberty.privacy": 50, "elites.decision": 25, "elites.rank": 65, "elites.trust": 20 },
+      "status": "draft",
+      "raters": ["claude"]
+    },
+    {
+      "id": "fabianism",
+      "name": "Chủ nghĩa Fabian",
+      "en": "Fabianism",
+      "summary": "Đi tới chủ nghĩa xã hội từng bước qua luật pháp và một bộ máy hành chính chuyên nghiệp, không qua cách mạng.",
+      "exemplars": ["Sidney và Beatrice Webb", "George Bernard Shaw", "Hội Fabian (1884)"],
+      "period": "1884–1950",
+      "axes": { "economy": 30, "distribution": 20, "trade": 50, "power": 70, "liberty": 60, "elites": 25, "lifestyle": 60, "religion": 30, "identity": 55, "environment": 40, "foreign": 55, "change": 15 },
+      "facets": { "elites.decision": 10, "elites.rank": 50, "elites.trust": 15, "change.pace": 5, "change.means": 5, "change.depth": 40 },
+      "status": "draft",
+      "raters": ["claude"]
+    },
+    {
+      "id": "blue-labour",
+      "name": "Dân chủ xã hội bảo thủ",
+      "en": "Socially conservative social democracy (Blue Labour)",
+      "summary": "Bảo vệ người lao động và phúc lợi, nhưng coi trọng gia đình, cộng đồng, bản sắc và kiểm soát nhập cư; nghi ngờ giới tinh hoa tự do thành thị.",
+      "exemplars": ["Maurice Glasman"],
+      "period": "2009–nay",
+      "axes": { "economy": 40, "distribution": 25, "trade": 40, "power": 70, "liberty": 50, "elites": 60, "lifestyle": 35, "religion": 45, "identity": 25, "environment": 50, "foreign": 50, "change": 20 },
+      "facets": { "identity.nation": 30, "identity.culture": 30, "identity.migration": 15, "elites.decision": 50, "elites.rank": 60, "elites.trust": 70 },
+      "status": "draft",
+      "raters": ["claude"]
+    }
+  ]
+}

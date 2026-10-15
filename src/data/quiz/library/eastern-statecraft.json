@@ -1,0 +1,122 @@
+{
+  "family": {
+    "id": "eastern-statecraft",
+    "name": "Đạo trị quốc Á Đông",
+    "en": "Classical East Asian statecraft",
+    "summary": "Các truyền thống cai trị cổ điển của Trung Hoa, Việt Nam và Đông Á: Nho, Pháp, Đạo và Phật bàn về vua, quan, dân và đạo đức."
+  },
+  "variants": [
+    {
+      "id": "mencian-confucianism",
+      "name": "Nho giáo nhân trị",
+      "en": "Mencian Confucianism (benevolent rule)",
+      "summary": "Vua cai trị bằng nhân nghĩa và làm gương; dân là quý nhất, xã tắc thứ hai, vua là nhẹ; dân có quyền bỏ ông vua bạo ngược.",
+      "exemplars": ["Mạnh Tử", "Nguyễn Trãi (việc nhân nghĩa cốt ở yên dân)"],
+      "period": "thế kỷ 4 TCN–nay",
+      "axes": { "economy": 40, "distribution": 35, "trade": 35, "power": 25, "liberty": 40, "elites": 25, "lifestyle": 10, "religion": 60, "identity": 35, "environment": 60, "foreign": 70, "change": 15 },
+      "facets": { "elites.decision": 20, "elites.rank": 45, "elites.trust": 15, "religion.state": 50, "religion.law": 45, "religion.public": 85, "lifestyle.family": 0, "lifestyle.gender": 10, "lifestyle.autonomy": 20 },
+      "status": "draft",
+      "raters": ["claude"]
+    },
+    {
+      "id": "examination-confucianism",
+      "name": "Nho giáo khoa cử",
+      "en": "Bureaucratic Confucianism (examination state)",
+      "summary": "Nhà nước trung ương tập quyền do quan lại tuyển qua thi cử điều hành, theo luật lệ và lễ giáo Nho gia; làng xã giữ lệ riêng.",
+      "exemplars": ["Lê Thánh Tông (bộ luật Hồng Đức)", "Nhà Tống (Trung Hoa)", "Triều Nguyễn"],
+      "period": "thế kỷ 10–1919",
+      "axes": { "economy": 35, "distribution": 45, "trade": 30, "power": 15, "liberty": 25, "elites": 15, "lifestyle": 10, "religion": 60, "identity": 30, "environment": 45, "foreign": 40, "change": 10 },
+      "facets": { "elites.decision": 5, "elites.rank": 45, "elites.trust": 5, "power.pluralism": 0, "power.checks": 10, "power.local": 35 },
+      "status": "draft",
+      "raters": ["claude"]
+    },
+    {
+      "id": "legalism",
+      "name": "Pháp gia",
+      "en": "Legalism",
+      "summary": "Nhà nước mạnh dựa trên luật nghiêm và thưởng phạt rõ ràng, dồn sức vào nông nghiệp và chiến tranh; không tin vào đạo đức hay giới nho sĩ.",
+      "exemplars": ["Thương Ưởng", "Hàn Phi", "Tần Thuỷ Hoàng"],
+      "period": "thế kỷ 4–3 TCN",
+      "axes": { "economy": 20, "distribution": 40, "trade": 20, "power": 0, "liberty": 0, "elites": 25, "lifestyle": 20, "religion": 20, "identity": 30, "environment": 30, "foreign": 10, "change": 60 },
+      "facets": { "elites.decision": 5, "elites.rank": 55, "elites.trust": 15, "change.pace": 75, "change.means": 50, "change.depth": 60 },
+      "sd": { "religion": 15 },
+      "status": "draft",
+      "raters": ["claude"]
+    },
+    {
+      "id": "taoist-wuwei",
+      "name": "Đạo gia vô vi",
+      "en": "Taoist non-action (wu wei)",
+      "summary": "Người cai trị giỏi là người can thiệp ít nhất; trị nước lớn như nấu cá nhỏ; nước nhỏ dân thưa, sống thuận theo tự nhiên.",
+      "exemplars": ["Lão Tử", "Trang Tử", "Chính sách Hoàng–Lão đầu nhà Hán"],
+      "period": "thế kỷ 6 TCN–nay",
+      "axes": { "economy": 70, "distribution": 60, "trade": 30, "power": 60, "liberty": 70, "elites": 65, "lifestyle": 50, "religion": 50, "identity": 50, "environment": 90, "foreign": 90, "change": 5 },
+      "facets": { "trade.selfreliance": 10, "power.local": 90, "environment.technology": 95, "elites.decision": 50, "elites.rank": 80, "elites.trust": 65 },
+      "sd": { "power": 20, "economy": 15 },
+      "status": "draft",
+      "raters": ["claude"]
+    },
+    {
+      "id": "political-meritocracy",
+      "name": "Hiền tài trị quốc",
+      "en": "Confucian political meritocracy",
+      "summary": "Chọn người lãnh đạo qua thi cử và thành tích qua nhiều cấp thay vì bầu cử phổ thông; dân chủ chỉ ở cấp cơ sở.",
+      "exemplars": ["Daniel A. Bell", "Tưởng Khánh", "Lý Quang Diệu"],
+      "period": "1990–nay",
+      "axes": { "economy": 55, "distribution": 60, "trade": 70, "power": 20, "liberty": 35, "elites": 15, "lifestyle": 30, "religion": 40, "identity": 40, "environment": 45, "foreign": 55, "change": 15 },
+      "facets": { "elites.decision": 0, "elites.rank": 50, "elites.trust": 5 },
+      "status": "draft",
+      "raters": ["claude"]
+    },
+    {
+      "id": "buddhist-kingship",
+      "name": "Vương quyền Phật giáo",
+      "en": "Buddhist kingship",
+      "summary": "Vua là người hộ pháp, cai trị bằng từ bi và giới luật, khoan thư sức dân, dung hợp tam giáo; sẵn sàng cầm gươm khi đất nước bị xâm lăng.",
+      "exemplars": ["Trần Nhân Tông (Thiền phái Trúc Lâm)", "Hoàng đế Ashoka"],
+      "period": "thế kỷ 3 TCN–thế kỷ 14",
+      "axes": { "economy": 45, "distribution": 35, "trade": 45, "power": 20, "liberty": 45, "elites": 30, "lifestyle": 30, "religion": 75, "identity": 35, "environment": 70, "foreign": 60, "change": 10 },
+      "facets": { "foreign.force": 45, "foreign.rules": 55, "foreign.intervention": 85 },
+      "status": "draft",
+      "raters": ["claude"]
+    },
+    {
+      "id": "mohism",
+      "name": "Mặc gia",
+      "en": "Mohism",
+      "summary": "Kiêm ái, thương mọi người như nhau; chống chiến tranh xâm lược nhưng giỏi phòng thủ; tiết kiệm, bỏ lễ nhạc xa hoa; trọng dụng người hiền bất kể xuất thân, dưới thống nhất theo chuẩn mực của trên.",
+      "exemplars": ["Mặc Tử", "Các cự tử của Mặc gia thời Chiến Quốc"],
+      "period": "thế kỷ 5–3 TCN",
+      "axes": { "economy": 35, "distribution": 25, "trade": 40, "power": 15, "liberty": 20, "elites": 35, "lifestyle": 25, "religion": 65, "identity": 70, "environment": 50, "foreign": 75, "change": 40 },
+      "facets": { "economy.ownership": 45, "economy.planning": 40, "economy.steering": 20, "distribution.tax": 30, "distribution.welfare": 20, "distribution.labour": 40, "power.pluralism": 5, "power.checks": 30, "liberty.expression": 15, "liberty.justice": 30, "elites.decision": 10, "elites.rank": 80, "lifestyle.family": 45, "lifestyle.gender": 20, "lifestyle.autonomy": 10, "religion.state": 55, "religion.law": 70, "religion.public": 70, "identity.nation": 85, "environment.growth": 60, "environment.nature": 45, "environment.technology": 35, "foreign.force": 65, "foreign.rules": 85, "foreign.intervention": 60, "change.pace": 35, "change.means": 15, "change.depth": 65 },
+      "sd": { "trade": 20, "environment": 15 },
+      "status": "draft",
+      "raters": ["claude"]
+    },
+    {
+      "id": "xunzian-confucianism",
+      "name": "Nho giáo lễ trị",
+      "en": "Xunzian Confucianism (rule by ritual)",
+      "summary": "Bản tính con người vốn ác, điều thiện do rèn luyện mà có; thánh vương đặt ra lễ nghĩa để phân định danh phận và của cải, thầy dạy uốn nắn con người; lễ đi trước, hình phạt hỗ trợ.",
+      "exemplars": ["Tuân Tử", "Giả Nghị", "Ogyū Sorai"],
+      "period": "thế kỷ 3 TCN–nay",
+      "axes": { "economy": 40, "distribution": 55, "trade": 45, "power": 15, "liberty": 20, "elites": 15, "lifestyle": 10, "religion": 50, "identity": 35, "environment": 35, "foreign": 45, "change": 20 },
+      "facets": { "economy.ownership": 50, "economy.planning": 45, "economy.steering": 25, "distribution.tax": 60, "distribution.welfare": 40, "distribution.labour": 60, "power.pluralism": 5, "power.checks": 25, "liberty.expression": 10, "liberty.privacy": 30, "elites.decision": 5, "elites.rank": 40, "elites.trust": 5, "lifestyle.family": 5, "lifestyle.autonomy": 15, "religion.law": 25, "religion.public": 85, "environment.nature": 45, "environment.technology": 20, "foreign.force": 30, "foreign.rules": 60, "change.pace": 15, "change.means": 10, "change.depth": 35 },
+      "status": "draft",
+      "raters": ["claude"]
+    },
+    {
+      "id": "kautilyan-statecraft",
+      "name": "Thuật trị quốc Kautilya",
+      "en": "Kautilyan statecraft (Arthashastra)",
+      "summary": "Thuật trị quốc thực dụng của Arthashastra: vua nắm mạng lưới do thám, độc quyền nhà nước và nguồn thu; đối ngoại theo vòng mandala đồng minh và kẻ thù; dharma được giữ nhưng lợi ích quốc gia đi trước.",
+      "exemplars": ["Kautilya (Chanakya)", "Chandragupta Maurya", "Sách Arthashastra"],
+      "period": "thế kỷ 4 TCN–thế kỷ 3",
+      "axes": { "economy": 15, "distribution": 45, "trade": 30, "power": 5, "liberty": 5, "elites": 15, "lifestyle": 30, "religion": 45, "identity": 40, "environment": 30, "foreign": 10, "change": 30 },
+      "facets": { "economy.ownership": 25, "economy.steering": 5, "distribution.tax": 55, "distribution.welfare": 35, "trade.capital": 25, "trade.selfreliance": 40, "power.pluralism": 0, "power.checks": 15, "liberty.justice": 10, "liberty.privacy": 0, "elites.decision": 5, "elites.rank": 20, "elites.trust": 20, "lifestyle.family": 20, "lifestyle.autonomy": 45, "religion.state": 50, "religion.law": 35, "religion.public": 60, "environment.growth": 20, "environment.nature": 40, "foreign.rules": 5, "change.pace": 25, "change.means": 55, "change.depth": 20 },
+      "sd": { "identity": 15 },
+      "status": "draft",
+      "raters": ["claude"]
+    }
+  ]
+}

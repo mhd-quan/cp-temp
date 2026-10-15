@@ -1,0 +1,249 @@
+{
+  "parties": [
+    {
+      "id": "whigs-us",
+      "name": "Đảng Whig",
+      "country": "Hoa Kỳ",
+      "period": "1833–1856",
+      "variants": [
+        "national-system"
+      ],
+      "emblem": {
+        "shape": "disc",
+        "field": "#1f4e79",
+        "ink": "#ffffff",
+        "motif": "raccoon"
+      }
+    },
+    {
+      "id": "drp-korea",
+      "name": "Đảng Cộng hoà Dân chủ",
+      "country": "Hàn Quốc",
+      "period": "1963–1980",
+      "variants": [
+        "developmental-state"
+      ],
+      "emblem": {
+        "shape": "disc",
+        "field": "#0047a0",
+        "ink": "#ffffff",
+        "motif": "cow"
+      }
+    },
+    {
+      "id": "pri-mexico",
+      "name": "Đảng Cách mạng Thể chế",
+      "abbr": "PRI",
+      "country": "Mexico",
+      "period": "1946–nay",
+      "variants": [
+        "import-substitution",
+        "competitive-authoritarianism"
+      ],
+      "emblem": {
+        "shape": "disc",
+        "field": "#ffffff",
+        "ink": "#ce1126",
+        "ring": "#006847",
+        "motif": "roundel-thirds"
+      }
+    }
+  ],
+  "states": [
+    {
+      "id": "usa-1861-1913",
+      "name": "Hoa Kỳ",
+      "period": "1861–1913",
+      "note": "Thuế quan bảo hộ cao, từ Luật Morrill (1861)",
+      "variants": [
+        "national-system"
+      ],
+      "flag": "usa"
+    },
+    {
+      "id": "germany-1879-1914",
+      "name": "Đế quốc Đức",
+      "period": "1879–1914",
+      "note": "Bismarck chuyển sang thuế quan bảo hộ (1879)",
+      "variants": [
+        "national-system"
+      ],
+      "flag": "german-empire"
+    },
+    {
+      "id": "france-1946-1958",
+      "name": "Pháp",
+      "period": "1946–1958",
+      "note": "Đệ tứ Cộng hoà: Kế hoạch Monnet, quốc hữu hoá",
+      "variants": [
+        "dirigisme"
+      ],
+      "flag": "france"
+    },
+    {
+      "id": "south-korea-1961-1979",
+      "name": "Hàn Quốc",
+      "period": "1961–1979",
+      "note": "Thời Park Chung-hee: kế hoạch 5 năm, chaebol",
+      "variants": [
+        "developmental-state"
+      ],
+      "flag": "south-korea"
+    },
+    {
+      "id": "japan-1868-1912",
+      "name": "Nhật Bản",
+      "period": "1868–1912",
+      "note": "Minh Trị Duy Tân: phú quốc cường binh",
+      "variants": [
+        "developmental-state"
+      ],
+      "flag": "japan"
+    },
+    {
+      "id": "brazil-1956-1961",
+      "name": "Brazil",
+      "period": "1956–1961",
+      "note": "Kế hoạch Mục tiêu của Kubitschek: năm mươi năm trong năm năm, công nghiệp ô tô sau tường thuế quan",
+      "variants": [
+        "import-substitution"
+      ],
+      "flag": "brazil"
+    },
+    {
+      "id": "mexico-1940-1970",
+      "name": "Mexico",
+      "period": "1940–1970",
+      "note": "Phép màu Mexico dưới chính quyền PRI: thuế quan, giấy phép nhập khẩu, dầu mỏ quốc doanh (Pemex)",
+      "variants": [
+        "import-substitution"
+      ],
+      "flag": "mexico"
+    }
+  ],
+  "figures": [
+    {
+      "id": "jean-baptiste-colbert",
+      "name": "Jean-Baptiste Colbert",
+      "life": "1619–1683",
+      "role": "Tổng kiểm soát Tài chính của Louis XIV",
+      "variant": "mercantilism",
+      "wiki": "Jean-Baptiste Colbert"
+    },
+    {
+      "id": "thomas-mun",
+      "name": "Thomas Mun",
+      "life": "1571–1641",
+      "role": "Thương gia, nhà lý luận trọng thương Anh",
+      "variant": "mercantilism",
+      "wiki": "Thomas Mun"
+    },
+    {
+      "id": "alexander-hamilton",
+      "name": "Alexander Hamilton",
+      "life": "1757–1804",
+      "role": "Bộ trưởng Tài chính đầu tiên của Hoa Kỳ",
+      "variant": "national-system",
+      "axes": {
+        "elites": 25,
+        "power": 50
+      },
+      "wiki": "Alexander Hamilton"
+    },
+    {
+      "id": "friedrich-list",
+      "name": "Friedrich List",
+      "life": "1789–1846",
+      "role": "Nhà kinh tế Đức, ‘Hệ thống quốc gia’ (1841)",
+      "variant": "national-system",
+      "wiki": "Friedrich List"
+    },
+    {
+      "id": "henry-clay",
+      "name": "Henry Clay",
+      "life": "1777–1852",
+      "role": "Chính khách Mỹ, cha đẻ ‘Hệ thống kiểu Mỹ’",
+      "variant": "national-system",
+      "wiki": "Henry Clay"
+    },
+    {
+      "id": "jean-monnet",
+      "name": "Jean Monnet",
+      "life": "1888–1979",
+      "role": "Tổng uỷ viên Kế hoạch Pháp (1946–1952)",
+      "variant": "dirigisme",
+      "axes": {
+        "identity": 70,
+        "foreign": 80
+      },
+      "wiki": "Jean Monnet"
+    },
+    {
+      "id": "pierre-mendes-france",
+      "name": "Pierre Mendès France",
+      "life": "1907–1982",
+      "role": "Thủ tướng Pháp (1954–1955), chủ trương kế hoạch",
+      "variant": "dirigisme",
+      "wiki": "Pierre Mendès France"
+    },
+    {
+      "id": "park-chung-hee",
+      "name": "Park Chung-hee",
+      "life": "1917–1979",
+      "role": "Nhà lãnh đạo Hàn Quốc (1961–1979)",
+      "variant": "developmental-state",
+      "wiki": "Park Chung Hee"
+    },
+    {
+      "id": "okubo-toshimichi",
+      "name": "Ōkubo Toshimichi",
+      "life": "1830–1878",
+      "role": "Chính khách Minh Trị, khởi xướng công nghiệp hoá",
+      "variant": "developmental-state",
+      "wiki": "Ōkubo Toshimichi"
+    },
+    {
+      "id": "hayato-ikeda",
+      "name": "Ikeda Hayato",
+      "life": "1899–1965",
+      "role": "Thủ tướng Nhật, kế hoạch nhân đôi thu nhập",
+      "variant": "developmental-state",
+      "axes": {
+        "power": 65,
+        "liberty": 60
+      },
+      "wiki": "Hayato Ikeda"
+    },
+    {
+      "id": "raul-prebisch",
+      "name": "Raúl Prebisch",
+      "life": "1901–1986",
+      "role": "Nhà kinh tế Argentina, đứng đầu CEPAL rồi UNCTAD",
+      "variant": "import-substitution",
+      "wiki": "Raúl Prebisch"
+    },
+    {
+      "id": "celso-furtado",
+      "name": "Celso Furtado",
+      "life": "1920–2004",
+      "role": "Nhà kinh tế Brazil, Bộ trưởng Kế hoạch (1962–1963)",
+      "variant": "import-substitution",
+      "axes": {
+        "distribution": 30
+      },
+      "wiki": "Celso Furtado"
+    },
+    {
+      "id": "juscelino-kubitschek",
+      "name": "Juscelino Kubitschek",
+      "life": "1902–1976",
+      "role": "Tổng thống Brazil (1956–1961), người xây Brasília",
+      "variant": "import-substitution",
+      "axes": {
+        "power": 75,
+        "liberty": 70
+      },
+      "wiki": "Juscelino Kubitschek"
+    }
+  ]
+}

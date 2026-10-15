@@ -1,0 +1,192 @@
+{
+  "parties": [
+    {
+      "id": "dsa",
+      "name": "Những người Xã hội chủ nghĩa Dân chủ Mỹ",
+      "abbr": "DSA",
+      "country": "Hoa Kỳ",
+      "period": "1982–nay",
+      "variants": [
+        "modern-democratic-socialism"
+      ],
+      "emblem": {
+        "shape": "disc",
+        "field": "#ec1f27",
+        "ink": "#ffffff",
+        "motif": "rose"
+      }
+    },
+    {
+      "id": "die-linke",
+      "name": "Đảng Cánh tả",
+      "abbr": "Die Linke",
+      "country": "Đức",
+      "period": "2007–nay",
+      "variants": [
+        "modern-democratic-socialism"
+      ],
+      "emblem": {
+        "shape": "square",
+        "field": "#be3075",
+        "ink": "#ffffff",
+        "motif": "flag-banner"
+      }
+    },
+    {
+      "id": "co-operative-party-uk",
+      "name": "Đảng Hợp tác xã (Anh)",
+      "country": "Anh",
+      "period": "1917–nay",
+      "variants": [
+        "guild-socialism"
+      ],
+      "emblem": {
+        "shape": "disc",
+        "field": "#3f1d70",
+        "ink": "#ffffff",
+        "motif": "handshake"
+      }
+    },
+    {
+      "id": "ilp",
+      "name": "Đảng Lao động Độc lập",
+      "abbr": "ILP",
+      "country": "Anh",
+      "period": "1893–1975",
+      "variants": [
+        "ethical-socialism"
+      ],
+      "emblem": {
+        "shape": "disc",
+        "field": "#b01c2e",
+        "ink": "#ffffff",
+        "motif": "hand-heart"
+      }
+    }
+  ],
+  "states": [
+    {
+      "id": "chile-1970-1973",
+      "name": "Chile",
+      "period": "1970–1973",
+      "note": "Salvador Allende và liên minh Đoàn kết Nhân dân",
+      "variants": [
+        "modern-democratic-socialism"
+      ],
+      "flag": "chile"
+    }
+  ],
+  "figures": [
+    {
+      "id": "bernie-sanders",
+      "name": "Bernie Sanders",
+      "life": "s. 1941",
+      "role": "Thượng nghị sĩ Hoa Kỳ (Vermont)",
+      "variant": "modern-democratic-socialism",
+      "wiki": "Bernie Sanders"
+    },
+    {
+      "id": "jeremy-corbyn",
+      "name": "Jeremy Corbyn",
+      "life": "s. 1949",
+      "role": "Lãnh đạo Công đảng Anh 2015–2020",
+      "variant": "modern-democratic-socialism",
+      "wiki": "Jeremy Corbyn"
+    },
+    {
+      "id": "salvador-allende",
+      "name": "Salvador Allende",
+      "life": "1908–1973",
+      "role": "Tổng thống Chile 1970–1973",
+      "variant": "modern-democratic-socialism",
+      "axes": {
+        "environment": 35
+      },
+      "wiki": "Salvador Allende"
+    },
+    {
+      "id": "gustavo-gutierrez",
+      "name": "Gustavo Gutiérrez",
+      "life": "1928–2024",
+      "role": "Linh mục Peru, cha đẻ Thần học giải phóng",
+      "variant": "liberation-theology",
+      "wiki": "Gustavo Gutiérrez"
+    },
+    {
+      "id": "oscar-romero",
+      "name": "Óscar Romero",
+      "life": "1917–1980",
+      "role": "Tổng Giám mục San Salvador",
+      "variant": "liberation-theology",
+      "wiki": "Óscar Romero"
+    },
+    {
+      "id": "g-d-h-cole",
+      "name": "G. D. H. Cole",
+      "life": "1889–1959",
+      "role": "Nhà lý luận xã hội chủ nghĩa phường hội Anh",
+      "variant": "guild-socialism",
+      "wiki": "G. D. H. Cole"
+    },
+    {
+      "id": "jose-maria-arizmendiarrieta",
+      "name": "José María Arizmendiarrieta",
+      "life": "1915–1976",
+      "role": "Linh mục, người lập hợp tác xã Mondragon",
+      "variant": "guild-socialism",
+      "axes": {
+        "religion": 70
+      },
+      "wiki": "José María Arizmendiarrieta"
+    },
+    {
+      "id": "robert-owen",
+      "name": "Robert Owen",
+      "life": "1771–1858",
+      "role": "Nhà cải cách, lập cộng đồng New Harmony",
+      "variant": "utopian-socialism",
+      "axes": {
+        "religion": 10
+      },
+      "wiki": "Robert Owen"
+    },
+    {
+      "id": "charles-fourier",
+      "name": "Charles Fourier",
+      "life": "1772–1837",
+      "role": "Nhà tư tưởng xã hội không tưởng Pháp",
+      "variant": "utopian-socialism",
+      "wiki": "Charles Fourier"
+    },
+    {
+      "id": "r-h-tawney",
+      "name": "R. H. Tawney",
+      "life": "1880–1962",
+      "role": "Sử gia kinh tế Anh, tác giả Bình đẳng (1931)",
+      "variant": "ethical-socialism",
+      "wiki": "R. H. Tawney"
+    },
+    {
+      "id": "keir-hardie",
+      "name": "Keir Hardie",
+      "life": "1856–1915",
+      "role": "Người sáng lập Công đảng Anh, phản chiến năm 1914",
+      "variant": "ethical-socialism",
+      "wiki": "Keir Hardie",
+      "axes": {
+        "foreign": 85
+      }
+    },
+    {
+      "id": "f-d-maurice",
+      "name": "F. D. Maurice",
+      "life": "1805–1872",
+      "role": "Nhà thần học Anh, người khởi xướng Xã hội chủ nghĩa Kitô giáo",
+      "variant": "ethical-socialism",
+      "wiki": "Frederick Denison Maurice",
+      "axes": {
+        "religion": 75
+      }
+    }
+  ]
+}

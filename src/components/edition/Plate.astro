@@ -1,0 +1,85 @@
+---
+// A plate is the original engraving, printed in two inks as it is drawn:
+// ink of the first discipline, paper of the second (see foundation.css).
+// The paper is laid first, so a loading image reads as blank stock; the ink
+// arrives with the image (data-inked), never as a block of solid colour.
+// `ink` prints a plate in one ink (a series, a filtered edition).
+// Inking (data-inked) is done by the head script, one listener for every
+// plate on the page (lib/editionHead.js). An eager plate (the first print on
+// a page, its largest paint) is printed inked: it is never hidden to be
+// faded in, and paints the moment its image is decoded.
+import { plateOf } from '../../lib/edition';
+import { responsiveImage, responsiveSource } from '../../lib/responsiveImage';
+
+interface Props {
+  src: string;
+  topics: readonly string[];
+  sizes: string;
+  alt?: string;
+  eager?: boolean;
+  fallbackWidth?: number;
+  ink?: string;
+  class?: string;
+  style?: string;
+  /** Attributes for the print layer (e.g. a hook for scripts that swap the image). */
+  printAttributes?: Record<string, string>;
+}
+const {
+  src,
+  topics,
+  sizes,
+  alt = '',
+  eager = false,
+  fallbackWidth = 800,
+  ink,
+  class: className,
+  style,
+  printAttributes = {},
+} = Astro.props;
+const plate = ink ? { ink, paper: ink } : plateOf(topics);
+// Offer only the widths this plate can use: nothing below 320px for a large
+// plate, nothing above twice its fallback, and no width less than a tenth
+// wider than the one before it (672, kept for the discovery's phone cap, sat
+// beside 640 in every list and was never the better choice; the widest one
+// stays, in place of its neighbour). Keeps the page's HTML light.
+const range = { min: fallbackWidth <= 320 ? 0 : 320, max: Math.max(fallbackWidth * 2, 480) };
+const within = (srcset: string) => {
+  const kept: { candidate: string; width: number }[] = [];
+  const candidates = srcset
+    .split(', ')
+    .map((candidate) => ({
+      candidate,
+      width: Number(candidate.split(' ').at(-1)?.replace('w', '')),
+    }))
+    .filter(({ width }) => width >= range.min && width <= range.max);
+  candidates.forEach((item, index) => {
+    const last = kept.at(-1);
+    if (!last || item.width >= last.width * 1.1) kept.push(item);
+    else if (index === candidates.length - 1) kept[kept.length - 1] = item;
+  });
+  return kept.map(({ candidate }) => candidate).join(', ');
+};
+const image = responsiveImage(src, sizes, fallbackWidth);
+image.srcset = within(image.srcset) || image.srcset;
+// AVIF is about 37% lighter than WebP for these engravings; WebP stays as the fallback.
+const avif = responsiveSource(src, sizes);
+avif.srcset = within(avif.srcset) || avif.srcset;
+---
+<span class:list={['plate', className]} data-ink={plate.ink} data-paper={plate.paper} style={style}>
+  <span class="plate__print" data-inked={eager ? '' : undefined} {...printAttributes}>
+    <picture>
+    <source type={avif.type} srcset={avif.srcset} sizes={avif.sizes} />
+    <img
+      src={image.src}
+      srcset={image.srcset}
+      sizes={image.sizes}
+      width={image.width}
+      height={image.height}
+      alt={alt}
+      loading={eager ? 'eager' : 'lazy'}
+      fetchpriority={eager ? 'high' : undefined}
+      decoding="async"
+    />
+    </picture>
+  </span>
+</span>

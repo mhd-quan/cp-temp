@@ -1,0 +1,901 @@
+{
+ "rater": "A",
+ "block": "A01",
+ "items": {
+  "economy.ownership.1": {
+   "0": "GAN TE GAU EC PM NAZ JM AM EA LEG CN CIN EN IR PN BN NR RT PG SC HS MO",
+   "1": "MU CAE MR AUC PE PC CST DI ONC NAC GC BK ME DS IF NATC GM EM AP PR CF RS CM LN HI AD CLR JA NP WC PP BL COR CI HES UT XC WA IB IM RZ BIC RET SN",
+   "2": "IA RC POC SMCD NC BC ARC CR NE PA LC MC TW NS SL NDL LI RE GE ID CT SDD JR NM THW NEOR SR LL REZ",
+   "3": "AMC TH CL NEO OR AL LF MI OB ANC PAL TAR COL",
+   "why": "Private (non-state) firms as the economy's main engine vs state enterprises leading: separates market traditions from state-led and collectivist ones; anti-capitalist anarchists reject both poles but lean negative because \"private enterprise\" means capitalist firms.",
+   "-1": "CA TP NOA US DIR DE PER ELP VEF PSD EB KE",
+   "-2": "GA DC NA EU MDS LT LE DEG CH TI LS GOC FA KS ETS LZ BA SU",
+   "-3": "AC AS NLS UJ ML ST MA TR JU LU GS ES CC HO GU ACK",
+   "split": "CA GAN NOA CAE MR TE US EC PM MO ME DS NAZ JM DE AP CF RS AM EA CM LEG CN CIN EN IR PN SN BN WA RZ NR PP COR RT PG SC HS",
+   "notes": {
+    "RS": "Doctrine keeps SOEs \"chủ đạo\" while calling the private sector the most important driver; the \"not SOEs\" clause splits adherents: 1, split.",
+    "TI": "Social (self-managed) ownership is neither private nor state; rejects private capital: -2.",
+    "IF": "Carta del Lavoro art. 7 calls private initiative the most efficient instrument, under state primacy (IRI): 1.",
+    "MC": "Salt-and-iron debate literati: the ruler must not compete with the people for profit, so household producers lead: 2 (vs LE -2).",
+    "GAU": "State leads strategic sectors (plan, EDF, Renault) inside a private economy; genuinely mixed: 0.",
+    "MU": "Small producers and cooperatives, not the state; but hostile to capitalist firms: 1.",
+    "NEOR": "Free private economy under a state run as a sovereign corporation: 2."
+   }
+  },
+  "economy.ownership.2": {
+   "0": "ONC BK NAZ EM PR NDL CF CM LEG CN CIN EN IR PN HI CLR JA NR NP PP COR RT PG SC HS HES MO IM RZ EB SR LL SN",
+   "1": "GAN MR AUC PE TE CST LU NAC GS EC PM ME NS IF NATC JM GM DEG GE TI AM EA BN AD SDD WC NM CI WA IB BIC",
+   "2": "NOA EU GAU LT DS ELP AP LS ETS KE LZ SU",
+   "3": "NLS TP NA UJ ML ST MA TR JU MDS LE DIR ES CH PER RS GOC VEF PSD FA KS HO GU ACK BA",
+   "why": "The \"commanding heights\" (power, oil and gas, banking) in state hands: divides state-led traditions from market ones, and state socialists from libertarian socialists who reject state ownership as state capitalism.",
+   "-1": "DC CAE PC RC POC SMCD DI NC BC ARC GC US DE SL LI RE LN ID THW BL UT XC RET",
+   "-2": "AC AS MU GA CA CR NE PA LC MC TW OR JR TAR NEOR CC COL REZ",
+   "-3": "IA AMC TH CL NEO AL LF MI OB ANC PAL CT",
+   "split": "DC CAE MR TE US BK MO ME NAZ JM DE EM PR NDL LI CF SR LL AM CM LEG CN CIN EN LN IR PN SN BN IB HI IM RZ EB CLR JA NR NP WC PP RET BL COR CI RT PG SC HS HES UT ONC GC",
+   "notes": {
+    "CST": "Quadragesimo Anno §114: some property carries power too great to leave to private hands and should be reserved to the state: 1.",
+    "CC": "Nationalisation is state capitalism; the councils, not the state, must hold production: -2 (vs LU 1, which accepts socialisation through a council republic).",
+    "SDD": "Cantonal banks and most electricity utilities are publicly owned and voters keep them so: 1.",
+    "GE": "George: businesses that are monopolies by nature belong to the state, and resource rent to all; banks no: 1.",
+    "MC": "Confucian literati of the salt-and-iron debate opposed state monopolies as competing with the people for profit: -2 (LE 3, KS 3).",
+    "NAC": "Repolonisation and Hungarian buy-backs of energy and banks: national (often state) ownership of strategic sectors: 1.",
+    "VEF": "Iranian constitution art. 44 puts large industry, banking, energy and foreign trade in the state sector: 3."
+   }
+  },
+  "economy.ownership.3": {
+   "0": "NOA TE TW BK DE CN CIN EN IR PN BN SC HS MO",
+   "1": "MU NA GAN EU MDS DEG CH ETS LZ SU",
+   "2": "GA CA LT US ES TI LS FA BA",
+   "3": "AC AS DC NLS UJ ML ST MA TR JU LU GS GOC CC HO GU ACK",
+   "why": "Full socialisation of all large means of production (common ownership, not necessarily state): the communist/collectivist pole; libertarian socialists agree, mixed-economy socialists and all property-based traditions disagree.",
+   "-1": "TP MC LE ELP AP CF RS LN NR PSD PG UT KS RZ EB LL SN",
+   "-2": "CAE MR PE PC RC POC ONC GC GAU EC PM ME NS DIR IF NAZ JM GM EM PER SL PR LI RE GE AM EA CM LEG VEF HI AD CLR JA NP WC PP NM BL RT HES XC WA IB IM SR RET KE",
+   "-3": "IA AUC SMCD CST DI NC BC ARC AMC CR TH NE PA NAC LC DS NATC CL NEO NDL OR AL LF MI OB ANC PAL ID CT SDD JR TAR THW COR CI NEOR COL BIC REZ",
+   "split": "MU GAN NOA SU MR TE MDS US TW BK MO DE DEG AP CF CN CIN EN IR PN SN BN RZ EB NR PP PG SC HS UT",
+   "notes": {
+    "MU": "Proudhon: big industry to workers' companies, never communism; agrees only against private capitalists: 1, split.",
+    "GAN": "Trusteeship rather than expropriation, but gramdan (village common land) is the Sarvodaya ideal: 1, split.",
+    "EU": "Long transition with a private sector; socialisation of big firms is the horizon, not the programme: 1.",
+    "TI": "Social ownership of all large enterprises; only small private farms and crafts allowed: 2.",
+    "LL": "Mines and land are common (natural resources), factories built by labour are not: -1.",
+    "HES": "Property is the first embodiment of personality; Hegel rejects Plato's community of goods: -2.",
+    "FA": "Clause IV (drafted by Sidney Webb): common ownership of the means of production: 2."
+   }
+  },
+  "economy.ownership.4": {
+   "0": "NOA PE RC TR GAU MC TW BK DE SL PR CF CM CN CIN EN LN IR PN BN HI AD CLR JA PP CI PG SC MO IM RZ SR SN SU",
+   "1": "IA GA CA DC GAN UJ CST EU MDS LT US GM ES CH ELP AP LS JR NR BL UT EB ETS RET",
+   "2": "AC DI LU DEG CC LZ",
+   "3": "AS MU GS TI",
+   "why": "Enterprise ownership by its own workforce (self-management, producer cooperatives): separates syndicalist, guild, mutualist and Titoist traditions from both capitalist ownership and state socialism, which gives factories to the whole people through the state and calls group ownership a syndicalist deviation.",
+   "-1": "NLS TP NA CAE PC POC TE SMCD NC MA ONC GC EC PM EM PER CL NDL LI RE GE LEG VEF ID SDD NP WC TAR NM PSD THW RT HS HES XC IB LL BA",
+   "-2": "MR ML BC AMC CR TH NE PA NAC LC LE ME NS DIR IF NATC JM NEO OR LF MI ANC PAL RS GOC AM EA CT FA COR KS WA COL KE REZ",
+   "-3": "AUC ST JU ARC DS NAZ AL OB NEOR HO GU ACK BIC",
+   "split": "IA GA CA DC UJ NOA SU PE MR TR LU CC US MC TW BK MO DE CL CF LS CM LEG CN CIN EN LN IR PN SN BN HI IB IM RZ EB AD CLR JA JR NR PP CI PG SC UT GAU SR",
+   "notes": {
+    "TI": "\"Fabrike radnicima!\" (1950 self-management law) is this statement: 3.",
+    "DC": "Bookchin explicitly rejected factory-level workers' ownership as \"collective capitalism\" and wanted the economy municipalised; Rojava builds cooperatives: 1, split.",
+    "ML": "Factories belong to the whole people through the state; the Workers' Opposition line was condemned in 1921: -2 (ST, JU, HO, GU -3 with one-man management or anti-Yugoslav polemic).",
+    "FA": "Beatrice Webb argued self-governing producer workshops fail; Fabians want municipal and national ownership: -2.",
+    "LZ": "Hevrat HaOvdim made Histadrut members the collective owners of their enterprises; kibbutz industry: 2.",
+    "CST": "Laborem Exercens 14 and QA 65 commend co-ownership and shared management, but the wage contract is legitimate: 1.",
+    "GAU": "De Gaulle's \"participation\" (profit sharing, association of capital and labour), not ownership: 0.",
+    "UT": "Mill (Principles IV.7) foresaw associations of labourers owning the capital; Bentham would not: 1, split."
+   }
+  },
+  "economy.ownership.5": {
+   "0": "GAN CAE DI GC GAU EC BK ME IF NATC DE SL LI CF AM EA CM LEG CN CIN EN LN IR PN AD CLR JA SDD NR NP PP COR CI RT PG SC HS HES MO XC IB IM RZ SR SN",
+   "1": "IA MR POC TE CST NC BC ARC PA MC TW NS DS NAZ EM RE GE RS VEF JR UT WA LL",
+   "2": "AUC PC RC SMCD AMC CR NE LC CL OR ANC PAL ID CT HI TAR THW NEOR COL REZ",
+   "3": "TH NEO AL LF MI OB",
+   "why": "Privatising loss-making SOEs: market traditions agree on principle, state socialists refuse, and the anti-capitalist left refuses a sale to private capital even when it dislikes the state firm; mixed-economy and developmental traditions decide case by case.",
+   "-1": "MU GA CA TP NOA PE ONC NAC US PM JM GM AP PR NDL BN WC NM BL EB BIC RET",
+   "-2": "AC AS DC NLS NA UJ EU LT GS LE DIR DEG PER ELP TI LS GOC PSD FA KS CC ETS KE LZ BA SU",
+   "-3": "ML ST MA TR JU LU MDS ES CH HO GU ACK",
+   "split": "GA CA GAN NOA CAE MR PE TE DI US EC TW BK MO XC ME IF NAZ NATC DE AP PER LI CF RE SR AM EA CM LEG CN CIN EN LN IR PN SN BN VEF IB IM RZ AD CLR JA SDD NP PP COR CI RT PG SC HS HES GC NAC",
+   "notes": {
+    "ONC": "Macmillan's \"selling the family silver\" attack on privatisation: -1 (vs TH 3).",
+    "RS": "Equitisation (cổ phần hoá) of weak SOEs is policy, while SOEs keep the leading role: 1.",
+    "VEF": "Khamenei's 2006 directive on Article 44 ordered most state firms sold off, though bonyads absorbed many: 1, split.",
+    "HI": "Modi's strategic disinvestment (\"government has no business to be in business\"): 2.",
+    "NAZ": "The 1930s sell-offs gave \"privatisation\" its modern name, but under a command economy: 1, split.",
+    "DS": "Meiji Japan sold its loss-making model factories to future zaibatsu; Korea kept state banks: 1.",
+    "ANC": "Rothbard preferred handing state firms to their workers (homesteading) over selling them: 2.",
+    "MC": "Salt-and-iron literati wanted the state out of trade: 1."
+   }
+  },
+  "economy.ownership.6": {
+   "0": "GA GAN NOA TE MDS BK DE DEG EM ELP LS AM CM LEG CN CIN EN IR PN PP FA SC HS MO KS EB ETS SN BA",
+   "1": "NA MR EU ARC LT TW PM ME IF JM GM PER PR LI CF LN VEF BN NR WC PSD RT PG UT XC WA IB IM RZ BIC KE REZ",
+   "2": "CAE AUC PE PC RC POC SMCD NC BC ONC CR NE NAC GC LC GAU MC EC NS DIR NAZ NATC AP SL NDL OR RE GE TI EA ID CT HI AD CLR JA SDD NP TAR NM THW BL COR CI NEOR HES LL RET SU",
+   "3": "MU IA TP CST DI AMC TH PA LE DS CL NEO AL LF MI OB ANC PAL RS JR COL SR",
+   "why": "Household farming with the household keeping its output, versus collective farming in cooperatives: separates peasant-proprietor traditions (land to the tiller, Đổi Mới's khoán 10, Christian and conservative family farm) from collectivisers (Stalin, Mao, ujamaa, Khmer Rouge, kibbutz).",
+   "-1": "CA GS ES CH GOC LZ",
+   "-2": "AC AS DC NLS TR LU US CC GU",
+   "-3": "UJ ML ST MA JU HO ACK",
+   "split": "GA CA GAN NOA BA MR TE EU MDS LT ETS TW BK MO KS ME DE DEG EM ELP AP LS AM CM LEG CN CIN EN LN IR PN SN BN IM RZ EB PP FA PG SC HS LZ US",
+   "notes": {
+    "RS": "Khoán 10 (1988) and the household responsibility system are the founding reform: 3.",
+    "LU": "Luxemburg attacked the Bolsheviks for handing land to peasant households, creating a new propertied class: -2.",
+    "TI": "Yugoslavia decollectivised in 1953 and left most farmland to small private households: 2 (vs GOC -1, coops with household plots).",
+    "LE": "Shang Yang abolished the well-field and rewarded each household by its grain output: 3.",
+    "EC": "Equal-field and Nguyễn công điền allotted land to households for their own cultivation: 2.",
+    "LZ": "Kibbutz is collective, the moshav is household farming inside a cooperative: -1, split.",
+    "NAZ": "Reichserbhofgesetz: the hereditary family farm as the blood-and-soil ideal: 2.",
+    "EM": "Efficiency and intensification matter, not the tenure form: 0, split."
+   }
+  },
+  "economy.ownership.7": {
+   "0": "NOA AUC TE GAU BK ME DS GM PR CF EA CN EN IR PN BN AD JA NR PP THW BL RT NEOR MO RZ SN",
+   "1": "IA CAE MR PE PC RC POC ONC GC MC TW NS NATC EM AP SL NDL LI OR RE GE CM LEG CIN LN VEF HI CLR SDD JR NP WC HES IB IM SR LL BIC RET",
+   "2": "SMCD NC BC ARC TH NE NAC LC NEO AL ID CT COR CI WA REZ",
+   "3": "CST DI AMC CR PA CL LF MI OB ANC PAL TAR COL",
+   "why": "Private property as a pre-political natural right the state may not abolish: Lockean, Catholic natural-law and libertarian traditions agree; Hobbes, Bentham and the socialist family deny it; Burkeans and counter-revolutionaries hold property sacred by prescription rather than by abstract natural right.",
+   "-1": "TP EC PM DIR IF NAZ JM DE DEG PER ELP RS AM NM PSD SC XC EB KE",
+   "-2": "MU GA CA NA GAN EU MDS LT GS US LE ES CH TI LS FA PG UT KS ETS LZ BA SU",
+   "-3": "AC AS DC NLS UJ ML ST MA TR JU LU GOC HS CC HO GU ACK",
+   "split": "IA NOA MR AUC TE US BK MO ME DS DE AP CF GE AM EA CM LEG CN CIN EN LN IR PN SN BN RZ AD CLR JA JR PP RT NEOR SC GAU EB",
+   "notes": {
+    "HS": "Leviathan ch. 29 condemns the doctrine that subjects have a propriety in their goods excluding the sovereign's right: -3.",
+    "UT": "Bentham: natural rights are \"nonsense upon stilts\"; property is wholly the creature of law: -2.",
+    "BC": "Burke rejected abstract natural rights but held inherited property sacred by prescription: 2, not 3.",
+    "CST": "Rerum Novarum 6 and QA 49: private ownership is a natural right the state may regulate but not abolish: 3.",
+    "JR": "Jefferson: \"stable ownership is the gift of social law\"; the natural right is to labour and the earth's usufruct: 1, split.",
+    "SC": "Cicero, De Officiis I.21: \"nothing is private by nature\", property comes from occupation and convention: -1.",
+    "RS": "The 2013 Constitution protects private property by law and bars nationalising it, but not as a natural right: -1.",
+    "NATC": "Fuero del Trabajo calls private property a natural right subordinate to the nation: 1."
+   }
+  },
+  "economy.ownership.8": {
+   "0": "MU CA GAN NOA AUC TE EU MDS LT TW PM BK DE DEG ELP AP TI LS CN EN IR PN BN PP PSD RT SC UT MO XC IM EB CC SN BA",
+   "1": "TP LU GS US MC EC ES CH GE AM HS KS RZ ETS LL SU",
+   "2": "GOC FA PG",
+   "3": "NLS UJ ML ST MA TR JU RS HO GU ACK LZ",
+   "why": "The Vietnamese land regime (all-people ownership, state management, only use rights): agreed by state socialists, ujamaa, Labour Zionism's leasehold JNF land and, from another angle, Georgists; rejected by every tradition built on freehold property; anarchists want land common but not state-managed.",
+   "-1": "AC AS IA GA DC NA MR PC RC POC LE ME DS JM GM EM PER PR CF EA LEG CIN LN VEF AD CLR NR WC BL NEOR WA IB KE REZ",
+   "-2": "CAE PE SMCD CST NC ONC NAC GC GAU NS DIR IF NAZ SL NDL LI OR RE CM ID HI JA SDD JR NP NM THW CI HES SR RET",
+   "-3": "DI BC ARC AMC CR TH NE PA LC NATC CL NEO AL LF MI OB ANC PAL CT TAR COR COL BIC",
+   "split": "MU CA GAN NOA BA AUC TE EU CC MDS LT GS US ETS EC TW PM BK MO XC DS DE DEG ELP AP TI LS AM EA LEG CN CIN EN LN IR PN SN VEF WA IM RZ EB CLR PP PSD RT NEOR SC UT CF",
+   "notes": {
+    "LZ": "JNF and Israel Land Authority land is leased, never sold: exactly this model: 3.",
+    "UJ": "All Tanzanian land vested in the President as trustee, citizens hold rights of occupancy: 3.",
+    "GE": "Land belongs to all, but George would keep titles and confiscate rent rather than vest land in the state: 1.",
+    "MU": "Proudhonian possession is a use right, but without a managing state: 0, split.",
+    "SU": "UUD 1945 art. 33 and the 1960 Agrarian Law put land under state control (hak menguasai negara) while recognising private titles: 1.",
+    "PG": "Laws: the land belongs to the whole city, lots are inalienable and held in use by households: 2.",
+    "HS": "The sovereign makes the first distribution of land; subjects' property excludes other subjects, not the sovereign: 1.",
+    "AUC": "Singapore's state owns most land on leasehold, Russia sells freehold: 0, split."
+   }
+  },
+  "economy.planning.1": {
+   "0": "MR DI ARC EC BK PR NDL CF AM EA CM LEG CN CIN EN IR PN BN AD CLR NR NP WC PP BL COR RT SC HS MO WA IB IM RZ BIC SN",
+   "1": "CAE AUC PC POC CST NC ONC PA NAC GC MC GM EM SL LI RE RS TI LN ID HI HES SR RET",
+   "2": "MU RC SMCD BC CR NE LC TW OR LS CT SDD JR TAR NM THW NEOR UT COL LL REZ",
+   "3": "IA AMC TH CL NEO AL LF MI OB ANC GE PAL",
+   "why": "Market allocation beats any state plan: the core market-vs-plan line; anarcho-communists and syndicalists reject both but side against the market, mutualists and individualist anarchists side with it; developmental and dirigiste traditions want the market guided rather than replaced.",
+   "-1": "GA CA TP GAN NOA PE TE EU GAU GS PM NS DS NATC DE ELP AP GOC VEF PSD CI XC EB",
+   "-2": "AC AS DC NA UJ MDS LT US LE ME DIR IF NAZ JM DEG PER JA FA PG KS ETS KE LZ BA SU",
+   "-3": "NLS ML ST MA TR JU LU ES CH CC HO GU ACK",
+   "split": "CA NOA CAE MR TE DI ARC BIC EC BK MO CF AM EA CM LEG CN CIN EN LN IR PN SN BN WA IB IM RZ AD CLR NP WC PP COR RT SC HS GAN",
+   "notes": {
+    "CST": "Centesimus Annus 34 calls the free market the most efficient instrument for using resources, but not for every need: 1.",
+    "GAU": "De Gaulle called the Plan an \"ardente obligation\": -1.",
+    "MU": "Proudhon wants exchange among producers priced by free competition, only without usury and rent: 2.",
+    "LS": "Lange simulated the market, Roemer keeps real markets; both reject the plan as allocator: 2 (vs GOC -1, TI 1).",
+    "BC": "Thoughts and Details on Scarcity: the laws of commerce are the laws of nature and of God: 2.",
+    "XC": "Xunzi: the sage-kings' ritual allotments (分) prevent strife over scarce goods: -1.",
+    "TW": "Wu wei: things order themselves when the ruler stops meddling: 2."
+   }
+  },
+  "economy.planning.2": {
+   "0": "PC POC TE CST ARC ONC GC BK GM DE PR LI CF LS CM LEG CN CIN EN LN IR PN ID BN HI NR NP PP BL RT SC HS MO IM RZ CC SR BIC SN",
+   "1": "DC NOA CAE MR AUC PE DI LU NAC GAU GS US EC PM ME DS DEG AP NDL TI AM EA CLR WC COR CI HES XC WA IB EB",
+   "2": "TP EU MDS LT LE IF NATC ES ELP RS GOC VEF AD PSD FA PG ETS KE LZ SU",
+   "3": "NLS NA UJ ML ST MA TR JU DIR NAZ JM CH PER JA KS HO GU ACK BA",
+   "why": "Administered prices for essentials (rice, fuel, power): command and populist-statist traditions agree, market traditions reject it; premodern ones split between the Legalist and Kautilyan price-fixing state and the Mencian and Burkean refusal; Erhard's 1948 decontrol is the social-market touchstone.",
+   "-1": "AC AS GA CA GAN RC NC PA MC NS EM SL RE CT SDD NM RET",
+   "-2": "MU SMCD BC CR NE LC TW GE JR TAR THW NEOR UT COL LL REZ",
+   "-3": "IA AMC TH CL NEO OR AL LF MI OB ANC PAL",
+   "split": "AC AS GA CA DC NOA CAE MR AUC TE CST DI LU CC ARC GC GAU BIC US BK MO XC GM DE LI CF RE SR LS AM EA CM LEG CN CIN EN LN IR PN SN ID CT BN HI WA IB IM RZ EB CLR NR NP PP BL COR RT SC HS ONC",
+   "notes": {
+    "SMCD": "Erhard lifted price controls with the 1948 currency reform: -2.",
+    "KS": "Arthashastra's superintendent of trade fixes prices and caps traders' margins: 3.",
+    "MC": "Mencius rejected Xu Xing's uniform prices (\"things are unequal, that is their nature\"): -1.",
+    "GAN": "In 1947 Gandhi urged lifting food and cloth controls as breeding corruption and dependence: -1.",
+    "AD": "Athens' sitophylakes policed grain and bread prices (Lysias 22): 2.",
+    "NAC": "Orbán's fuel and food price caps: 1.",
+    "WA": "Saudi fuel and power prices are administered, but the tas'ir hadith (\"God is the one who sets prices\") makes price-fixing suspect: 1, split.",
+    "PG": "Laws 920c: the law-wardens fix retail prices and profits: 2."
+   }
+  },
+  "economy.planning.3": {
+   "0": "NOA US LE DE CN EN IR PN PG SC HS SU",
+   "1": "AC AS NA UJ TE ES FA CC BA",
+   "2": "MA LU",
+   "3": "NLS ML ST TR JU HO GU ACK",
+   "why": "Full central planning with no market prices: only orthodox state communism and its close relatives agree; anarcho-communists and syndicalists want no market prices but not a single state plan; market socialists and every market tradition reject it.",
+   "-1": "CA DC TP MR PE EU MDS LT GS BK NAZ JM DEG CH GOC AM EA CM LEG CIN VEF BN JA PP PSD RT MO XC KS IB IM RZ EB KE LZ SN",
+   "-2": "GA GAN CAE POC CST GAU MC EC PM ME NS DIR DS IF NATC PER ELP AP CF RE RS TI LS LN ID HI AD CLR NR NP WC BL COR CI HES UT WA ETS",
+   "-3": "MU IA AUC PC RC SMCD DI NC BC ARC ONC AMC CR TH NE PA NAC GC LC TW GM EM CL SL NEO PR NDL LI OR AL LF MI OB ANC GE PAL CT SDD JR TAR NM THW NEOR COL SR LL BIC RET REZ",
+   "split": "AC AS CA DC NOA SU MR TE CC MDS LT US LE BK MO DE ES AM CM LEG CN CIN EN IR PN SN BN IM RZ EB PP FA RT PG SC HS",
+   "notes": {
+    "AC": "No market prices yes, but a single national plan only as federated participatory planning: 1, split.",
+    "AS": "Abad de Santillán's After the Revolution: a federal economic council coordinates production without the market: 1.",
+    "TE": "Technocracy Inc. wanted energy accounting to replace the price system: 1, split.",
+    "CC": "GIK's labour-time accounting is neither market nor central plan: 1, split.",
+    "TR": "Democratic central planning; the 1932 call to keep market checks in the transition is a tactic: 3.",
+    "FA": "The Webbs' Soviet Communism: A New Civilisation? (1935) praised the plan; earlier Fabians were gradualist: 1, split.",
+    "MA": "Planning through decentralised communes and the mass line, no market prices: 2."
+   }
+  },
+  "economy.planning.4": {
+   "0": "CAE MR PC ONC NAC US EC BK DE AP PR NDL CF RE LS AM CM LEG CN CIN EN LN IR PN ID BN AD CLR JA NR NP WC PP BL CI RT PG SC HS MO XC IB IM RZ EB BIC SN",
+   "1": "NOA AUC PE LU MDS LT LE PM ME NS NATC GM DEG EM ELP TI EA KS WA ETS",
+   "2": "TP UJ TE EU GAU IF NAZ ES CH GOC VEF PSD LZ BA SU",
+   "3": "NLS NA ML ST MA TR JU DIR DS JM PER RS FA HO GU ACK KE",
+   "why": "Multi-year state output targets for key sectors: five-year plans in socialist, developmental, Kemalist, Peronist and Iranian practice and French indicative planning agree; market traditions and decentralist ones reject it.",
+   "-1": "AS DC GAN RC POC CST ARC PA GC GS MC SL LI HI NM COR HES UT CC SR RET",
+   "-2": "AC GA CA SMCD DI NC BC CR NE LC GE SDD THW NEOR COL LL REZ",
+   "-3": "MU IA AMC TH TW CL NEO OR AL LF MI OB ANC PAL CT JR TAR",
+   "split": "NOA CAE MR ONC NAC BIC LT US EC BK MO XC DE DEG AP LI CF RE LS AM EA CM LEG CN CIN EN LN IR PN SN ID BN IB IM RZ EB AD CLR JA NR NP WC PP COR CI RT PG SC HS",
+   "notes": {
+    "KE": "Turkey's first five-year industrial plan (1934), drawn up with Soviet help, is étatisme itself: 3.",
+    "PER": "The Peronist five-year plans of 1947 and 1953: 3.",
+    "VEF": "Iran runs five-year development plans: 2.",
+    "HI": "Modi abolished the Planning Commission and the five-year plans in 2015: -1.",
+    "ONC": "Macmillan's The Middle Way (1938) and NEDC (1962) favoured indicative planning; later one-nation Tories less: 0, split.",
+    "GAU": "The Plan as \"ardente obligation\": 2 (DIR 3 for the Commissariat au Plan proper).",
+    "ACK": "The 1976 Four-Year Plan with three tonnes of rice per hectare: 3."
+   }
+  },
+  "economy.planning.5": {
+   "0": "MU GA CA GAN NOA CAE MR PE SMCD DI NAC GAU MC EC LE PM BK ME DS DE SL LI CF AM EA CM LEG CN CIN EN LN IR PN ID BN AD CLR NP PP COR RT SC HS HES MO XC WA IM RZ SR RET",
+   "1": "AC AS POC CST GS US IF AP NDL RS LS VEF SDD NR WC BL CI PG KS IB EB CC KE SN SU",
+   "2": "DC NLS TP UJ LU LT DIR NAZ NATC JM GM DEG PR TI JA NM PSD FA ACK ETS LZ BA",
+   "3": "NA ML ST MA TR JU EU MDS ES CH PER ELP GOC HO GU",
+   "why": "Rent and house-price caps: the left and statist traditions agree, market traditions reject; diagnostic for wartime-control regimes (Nazi, Franco, Shōwa Japan froze rents), Georgists (land value tax is the remedy, not caps) and Swedish/Dutch-style regulated rent.",
+   "-1": "IA AUC PC RC TE NC ONC PA GC TW NS EM RE HI JR THW UT LL BIC",
+   "-2": "BC ARC CR NE LC OR GE CT TAR COL REZ",
+   "-3": "AMC TH CL NEO AL LF MI OB ANC PAL NEOR",
+   "split": "AC AS MU IA GA CA GAN NOA SU CAE MR PE TE SMCD DI NAC GAU US MC EC LE TW PM BK MO XC KS ME DS DE AP LI CF RE SR LS AM EA CM LEG CN CIN EN LN IR PN KE SN VEF ID BN HI WA IB IM RZ EB AD CLR JR PP COR RT PG SC HS",
+   "notes": {
+    "GE": "Rising rents are land rent: tax it away with the land value tax; caps treat the symptom: -2.",
+    "JM": "The 1939 Land and House Rent Control Ordinance froze rents: 2 (NAZ, NATC likewise).",
+    "NM": "Sweden's utility-value rent system and Danish rent regulation: 2.",
+    "EM": "Ecomodernist housing policy is build-more (YIMBY), not caps: -1.",
+    "SN": "Scotland's 2022 rent freeze and Catalonia's 2020 rent-cap law: 1.",
+    "ONC": "Macmillan's government decontrolled rents with the 1957 Rent Act: -1.",
+    "NA": "Nasser's laws cut and froze rents: 3."
+   }
+  },
+  "economy.planning.6": {
+   "0": "CA TP GAN NOA MR PE ARC NAC GS US EC PM BK NS DS DE AP NDL CF AM EA CM LEG CN CIN EN LN IR PN BN AD CLR NR NP WC PP BL COR RT SC HS HES MO XC IB IM RZ EB BIC SN",
+   "1": "CAE TE CST DI EU BC ONC CR NE PA GC MC GM EM PR LI RE OB ANC PAL GOC ID CT HI SDD JR TAR UT SR RET",
+   "2": "MU IA AUC PC RC POC SMCD NC AMC TH LC TW CL SL LF MI GE RS NM THW NEOR COL LL REZ",
+   "3": "NEO OR AL TI LS",
+   "why": "Market prices even under public ownership: the market-socialist line (Lange, Roemer, Yugoslav self-management, Đổi Mới) against command planning and Che's attack on the law of value; market traditions agree conditionally since they reject the premise of public ownership.",
+   "-1": "AS GA DC NA TR LU GAU MDS LT ME DIR IF NATC ES DEG ELP VEF PSD FA CI PG WA ETS KE LZ BA SU",
+   "-2": "AC NLS UJ LE NAZ JM PER JA CC",
+   "-3": "ML ST MA JU CH KS HO GU ACK",
+   "split": "GA CA TP GAN NOA CAE MR PE ARC NAC BIC GS US EC BK MO XC NS DS DE ES AP CF AM EA CM LEG CN CIN EN LN IR PN SN BN IB IM RZ EB AD CLR JR NR NP WC PP BL COR RT PG SC HS HES",
+   "notes": {
+    "LS": "The defining thesis of market socialism: 3.",
+    "TI": "After 1965 self-managed firms set prices on the market: 3 (GOC 1: NEM's three price categories, RS 2).",
+    "GU": "Che's budgetary finance system rejected the law of value inside the socialist sector: -3.",
+    "TR": "Trotsky (1932): the plan must be checked by the market during the transition; still a planner: -1.",
+    "OR": "Eucken: free price formation is a constituent principle whoever owns the firm: 3.",
+    "OB": "Rejects public ownership itself; if it exists, prices should still be free: 1.",
+    "KS": "The superintendent fixes the prices of crown goods: -3."
+   }
+  },
+  "economy.planning.7": {
+   "0": "CR NE LC TW DE CM CN EN IR PN JR RT SC",
+   "1": "IA GAN AMC OR GE CT TAR UT COL LL REZ",
+   "2": "BC TH CL NEO AL MI NEOR",
+   "3": "LF OB ANC PAL",
+   "why": "No price intervention even in a disaster-driven food price spike: the hard laissez-faire test (Smith's corn-trade digression, Burke's Thoughts and Details on Scarcity); nearly every other tradition, from Mencius' granaries and Athens' grain laws to the Jacobin Maximum and Catholic doctrine of necessity, rejects it.",
+   "-1": "MU GA CA AUC RC TE SMCD NC ARC PA GC NS EM LI CF RE LS EA LEG CIN LN ID BN HI SDD NR NP NM THW HS IM RZ SR SN",
+   "-2": "AC AS DC TP NOA CAE MR PE PC POC CST DI ONC NAC GAU GS US MC LE PM BK ME DS GM DEG AP SL PR NDL TI AM CLR WC PP BL COR CI PG HES MO XC WA IB EB CC BIC RET KE LZ SU",
+   "-3": "NLS NA UJ ML ST MA TR JU EU LU MDS LT EC DIR IF NAZ NATC JM ES CH PER ELP RS GOC VEF AD JA PSD FA KS HO GU ACK ETS BA",
+   "split": "MU IA GA CA GAN ARC AMC CR NE TW DE CF RE EA CM LEG CN CIN EN LN IR PN SN CT BN IM RZ JR NP RT SC HS UT",
+   "notes": {
+    "BC": "Thoughts and Details on Scarcity (1795) told Pitt not to meddle with provisions even in dearth: 2.",
+    "CL": "Smith's digression on the corn trade: free trade in grain is the best palliative of dearth: 2.",
+    "EC": "Ever-normal granaries bought cheap and sold cheap in famine years: -3.",
+    "MC": "\"Dogs and swine eat the people's food and you do not restrain it; people starve and you do not open the granaries\": -2.",
+    "CST": "Aquinas and the tradition: in extreme necessity goods become common: -2.",
+    "GAN": "Gandhi's 1947 campaign for food decontrol, trusting the people over controls: 1, split.",
+    "UT": "Bentham and Mill opposed price laws; Sen-style relief works through incomes: 1, split.",
+    "AD": "Grain dealers who colluded were tried capitally (Lysias 22): -3."
+   }
+  },
+  "economy.planning.8": {
+   "0": "GA CA TP GAN MR PE TE GS EC PM BK DS DE DEG ELP AP EA LEG CN EN IR PN BN AD CLR PP PSD COR CI RT SC HS MO XC RZ EB",
+   "1": "CAE AUC CST DI ARC NAC GC GAU MC NS PR NDL CF RS TI CM CIN LN NR NP WC BL HES WA IB IM BIC SN",
+   "2": "PC RC POC SMCD NC BC ONC CR NE PA LC TW GM EM SL LI RE LS ID CT HI SDD JR NM THW UT SR RET",
+   "3": "MU IA AMC TH CL NEO OR AL LF MI OB ANC GE PAL TAR NEOR COL LL REZ",
+   "why": "Firms set their own prices without state permission (no price approval or registration): market traditions agree, command economies and price-fixing states reject; the Prophet's refusal to fix prices (tas'ir hadith) leans Islamic traditions toward agreeing.",
+   "-1": "AC AS DC NOA EU MDS LT US ME DIR IF NATC ES GOC AM VEF FA ETS KE LZ SU",
+   "-2": "NA UJ LU LE NAZ JM PER JA PG CC BA",
+   "-3": "NLS ML ST MA TR JU CH KS HO GU ACK",
+   "split": "AC AS GA CA TP GAN NOA CAE MR PE TE GS US EC BK MO XC DS DE DEG ELP AP AM EA CM LEG CN CIN EN LN IR PN SN BN IB IM RZ EB AD CLR NP PP COR CI RT SC HS",
+   "notes": {
+    "IB": "The tas'ir hadith: the Prophet refused to fix Medina's prices, \"God is the one who sets prices\"; Ibn Taymiyya allowed it only against injustice: 1.",
+    "RS": "Most prices are free, but a list of goods must be registered or declared to the price authority: 1.",
+    "GOC": "Under NEM many prices stayed fixed or within official bands: -1.",
+    "KS": "Traders must sell at prices the superintendent sets: -3.",
+    "PG": "Laws: law-wardens fix prices and profit for retailers: -2.",
+    "AC": "There are no firms or prices in the commune, but no permission-giving state either: -1, split."
+   }
+  },
+  "economy.steering.1": {
+   "0": "RC POC CST LU ARC ONC LT US EC BK SL NDL LI CF LS CM LEG CN CIN EN LN IR PN BN AD CLR NR WC PP COR CI RT NEOR PG SC HS HES MO IB IM RZ SN",
+   "1": "NOA CAE MR PE PC EU PA NAC MDS NATC GM CH ELP PR RE TI GOC AM VEF ID JA NP PSD BL XC ETS BIC SU",
+   "2": "TP UJ AUC TE MA PM IF NAZ ES EM PER EA HI FA KS WA ACK LZ BA",
+   "3": "NLS NA ML ST TR JU GAU LE ME NS DIR DS JM RS HO GU KE",
+   "why": "Industrial policy that picks a few spearhead sectors and pours capital and incentives into them: developmental, dirigiste, mercantilist and socialist traditions agree; market traditions and anarchists reject state privilege for chosen sectors; Legalism's \"agriculture and war\" is the premodern form.",
+   "-1": "GAN SMCD NC BC CR NE GC LC GS MC DE DEG AP NM THW UT EB CC SR RET REZ",
+   "-2": "AC AS CA DC DI AMC AL GE CT SDD JR TAR COL LL",
+   "-3": "MU IA GA TH TW CL NEO OR LF MI OB ANC PAL",
+   "split": "NOA MR RC CST LU ARC LT US EC BK MO LI CF LS AM CM LEG CN CIN EN LN IR PN SN IB IM RZ AD CLR JA NR WC PP COR CI RT NEOR PG SC HS HES",
+   "notes": {
+    "LE": "\"Agriculture and war\" (農戰) are the two sectors the Legalist state pours everything into: 3.",
+    "RS": "\"Ngành mũi nhọn\" is itself Đổi Mới policy language: 3.",
+    "SMCD": "Erhard opposed sectoral favouritism; competition, not chosen winners: -1.",
+    "GAU": "Concorde, nuclear power, TGV, Ariane: grands projets and national champions: 3.",
+    "NM": "Rehn–Meidner let weak firms die and moved workers on rather than backing sectors: -1.",
+    "ACK": "Everything into rice and irrigation, the one spearhead: 2.",
+    "OR": "Picking winners distorts the competitive order: -3."
+   }
+  },
+  "economy.steering.2": {
+   "0": "CA POC TE CST ARC ONC EC PM DS SL LI OR CF TI LS CM LEG CN CIN EN LN IR PN BN AD CLR WC PP RT SC HS MO XC WA IB IM RZ SR SN",
+   "1": "CAE MR AUC PC SMCD NC BC NAC BK RS EA ID HI SDD THW UT RET",
+   "2": "MU RC CR NE PA LC MC EM RE GE CT JR NP COL LL REZ",
+   "3": "IA AMC TH TW CL NEO AL LF MI OB ANC PAL TAR NEOR",
+   "why": "Fewer licences and regulations mean more wealth: the deregulation thesis; market and libertarian traditions and Taoist wu wei (\"the more prohibitions, the poorer the people\") agree, while socialist, corporatist and green traditions defend regulation; ordoliberals want better rules, not fewer.",
+   "-1": "AC TP GAN NOA PE DI GC GAU US NS AP GOC AM VEF JA NR NM BL COR CI PG HES EB BIC KE",
+   "-2": "AS GA DC NLS NA UJ EU LT GS ME DIR IF NAZ NATC JM GM DE DEG PER ELP PR NDL PSD FA KS ETS LZ BA SU",
+   "-3": "ML ST MA TR JU LU MDS LE ES CH CC HO GU ACK",
+   "split": "AC CA NOA CAE MR TE ARC US EC PM BK MO XC DS CF TI AM EA CM LEG CN CIN EN LN IR PN SN BN WA IB IM RZ AD CLR JA WC PP RT PG SC HS",
+   "notes": {
+    "TW": "Daodejing 57: \"the more prohibitions under heaven, the poorer the people\": 3.",
+    "MC": "Mencius: inspect but do not tax markets and passes, let merchants travel freely: 2.",
+    "OR": "Ordoliberals want a strong rule framework for competition, not fewer rules as such: 0.",
+    "EM": "Ecomodernists campaign for permitting reform so nuclear plants and housing get built: 2 (vs GM -2).",
+    "EA": "Turgot's 1776 edict abolishing the guilds; Joseph II's reforms: 1, split.",
+    "MU": "State licences are monopoly privileges that feed usury: 2.",
+    "RS": "Cutting business conditions (cắt giảm điều kiện kinh doanh) is the current reform agenda: 1."
+   }
+  },
+  "economy.steering.3": {
+   "0": "AC AS CA NA UJ NOA CAE MR PE POC TE NC EU ARC ONC CR LC GS US EC TW PM BK CH PER CF RE GE TI CM LEG CN CIN EN LN IR PN VEF ID BN SDD NP WC PP PSD COR RT SC HS HES UT MO XC IB IM RZ SN BA",
+   "1": "MU GA DC TP PC RC SMCD PA NAC GC LT MC GM ES DE ELP NDL LI LS AD CLR JA TAR CI PG KS EB ETS SR SU",
+   "2": "GAN CST MDS LE DEG SL PR JR NR BL",
+   "3": "DI AP OR RET",
+   "why": "Breaking up dominant firms even when they grew by competence: ordoliberals, neo-Brandeisian progressives, distributists, Red Tories, agrarian populists and Mencius' condemnation of the market-cornering \"base fellow\" agree; Chicago neoliberals, Randians, developmental states and corporatists say no; Marxists prefer to nationalise concentrated capital, not split it.",
+   "-1": "IA NLS MA BC AMC TH NE NS NATC EM CL GOC AM EA CT HI NM THW FA WA ACK COL LL KE LZ REZ",
+   "-2": "ML ST TR JU LU GAU ME DIR IF NAZ JM NEO AL RS NEOR CC HO GU BIC",
+   "-3": "AUC DS LF MI OB ANC PAL",
+   "split": "AC AS MU GA CA NLS NA UJ NOA BA SU CAE MR PE TE NC ARC CR EU ACK GS US EC TW PM BK MO XC ES DE CH PER CF RE GE TI AM CM LEG CN CIN EN LN IR PN SN VEF ID BN IB IM RZ EB AD CLR JA SDD NP WC PP COR RT SC HS HES UT",
+   "notes": {
+    "OR": "Eucken: private economic power must be dismantled wherever it arises, whatever its origin: 3.",
+    "ML": "Concentration ripens capitalism for socialisation; trust-busting is petty-bourgeois: nationalise, do not split: -2.",
+    "MC": "Mencius' tale of the \"base fellow\" who climbed the mound to corner the market (壟斷) is the origin of the word for monopoly: 1.",
+    "NEO": "Chicago antitrust: size won by efficiency serves consumers: -2.",
+    "PR": "Neo-Brandeisian antitrust (Khan, Wu) targets Big Tech whatever its efficiency: 2.",
+    "DS": "Chaebol and keiretsu are the developmental state's chosen instruments: -3.",
+    "AD": "The ostracism logic, that no one may grow too powerful for the city, by analogy: 1, split.",
+    "EU": "The PCI/PCF \"anti-monopoly\" alliance aimed to nationalise monopolies rather than split them: 0."
+   }
+  },
+  "economy.steering.4": {
+   "0": "AS GAN RC SMCD NC LU ARC LC GS US MC EC LE BK EM ELP LI CF AM CM LEG CN CIN EN LN IR PN ID BN AD CLR JA SDD NR NP PP THW COR CI RT PG SC HS HES MO XC IB IM RZ EB SR SN",
+   "1": "AC CA DC BC CR NE GC DE DEG AP RE LS HI NM UT CC RET REZ",
+   "2": "MU GA DI AMC PA TW NEO AL GE JR NEOR COL LL",
+   "3": "IA TH CL OR LF MI OB ANC PAL CT TAR",
+   "why": "No bailouts even for huge firms: market purists (Thatcher's \"no lame ducks\", the ordoliberal liability principle, Austrians) agree; dirigiste, corporatist and socialist traditions rescue or nationalise; parts of the left oppose bank bailouts but want firms saved through nationalisation.",
+   "-1": "TP NOA CAE MR PE PC POC TE CST TR ONC NAC MDS LT PM GM ES SL PR EA WC BL KS WA ETS BIC",
+   "-2": "NLS NA UJ AUC EU GAU ME NS DS NAZ NATC JM CH PER NDL RS TI GOC VEF PSD FA ACK KE LZ BA SU",
+   "-3": "ML ST MA JU DIR IF HO GU",
+   "split": "AC AS CA DC GAN NOA MR TR LU CC GS US MC EC LE BK MO XC DE EM ELP LI CF RE SR AM EA CM LEG CN CIN EN LN IR PN SN ID BN HI WA IB IM RZ EB AD CLR JA NR NP PP COR CI RT PG SC HS HES UT MDS",
+   "notes": {
+    "OR": "The liability principle (Haftungsprinzip): whoever takes the profit must bear the loss: 3.",
+    "TH": "\"No lame ducks\", though Leyland and Rolls-Royce were handled pragmatically: 3.",
+    "ONC": "Heath's 1971 Rolls-Royce rescue, the U-turn: -1.",
+    "NM": "Sweden refused to rescue Saab in 2009 (\"taxpayers do not want to own car factories\"), though it took over the banks in 1992: 1.",
+    "LS": "Roemer insists on hard budget constraints for public firms: 1 (vs TI -2, where Yugoslav firms had soft budgets).",
+    "TR": "Do not bail out the bosses, nationalise under workers' control: -1, split.",
+    "DI": "Bailouts entrench the big capital distributists want broken up: 2."
+   }
+  },
+  "economy.steering.5": {
+   "0": "MU CAE MR RC BC LC BK EM RE GE AM CM LEG CN CIN EN LN IR PN CT BN AD NP PP TAR NEOR SC HS HES MO RZ",
+   "1": "AC AS GA CA GAN NOA AUC PE PC POC TE SMCD NC ARC ONC PA NAC GC US MC EC DE SL LI CF EA ID HI CLR SDD WC COR RT XC IM CC SR BIC SN",
+   "2": "DC CST DI LU GAU GS LE PM ME NS NATC GM DEG PR OR RS TI LS JA JR NR NM BL CI PG KS WA IB EB ACK RET KE LZ SU",
+   "3": "NLS TP NA UJ ML ST MA TR JU EU MDS LT DIR DS IF NAZ JM ES CH PER ELP AP NDL GOC VEF PSD FA HO GU ETS BA",
+   "why": "Tight bank and financial regulation even at the cost of growth: socialist, New Deal, dirigiste, fascist-corporatist and Islamic (riba-banning) traditions agree; neoliberals, Thatcherites and libertarians reject it; Tuckerite free banking and Austrian 100%-reserve views complicate the libertarian side.",
+   "-1": "CR NE PAL THW UT COL LL REZ",
+   "-2": "AMC TW CL AL",
+   "-3": "IA TH NEO LF MI OB ANC",
+   "split": "AC AS MU GA CA CAE MR CC BC US MC BK MO DE LI GE PAL AM EA CM LEG CN CIN EN LN IR PN SN CT BN IM RZ AD CLR TAR NP PP COR RT NEOR SC HS HES ACK",
+   "notes": {
+    "IA": "Tucker's free banking: abolishing the money monopoly is the cure, not regulation: -3.",
+    "VEF": "Iran's 1983 Usury-free Banking Law puts all banking under riba rules and state control: 3.",
+    "THW": "Gordon Brown's \"light-touch\" financial regulation: -1.",
+    "PAL": "Rothbard wanted 100% reserves as anti-fraud law but no regulators and no Fed: -1, split.",
+    "KS": "Arthashastra caps interest rates and polices lenders: 2.",
+    "PG": "Laws forbid lending at interest: 2.",
+    "UT": "Bentham's Defence of Usury: -1."
+   }
+  },
+  "economy.steering.6": {
+   "0": "CR GE PP SC LL REZ",
+   "1": "IA AMC TH NEO CT JR NEOR COL",
+   "2": "TW CL AL TAR",
+   "3": "LF MI OB ANC PAL",
+   "why": "The night-watchman state: beyond property and contracts no business rules at all; only laissez-faire, minarchist, objectivist, anarcho-capitalist and paleolibertarian traditions agree fully; almost everyone else, including ordoliberals (competition rules) and Georgists (land tax, public natural monopolies), disagrees.",
+   "-1": "MR BC NE PA LC MC BK EM LI CF RE CM LEG CN CIN EN LN IR PN ID BN HI AD CLR SDD NP RT HS UT MO IM RZ",
+   "-2": "MU CA GAN NOA CAE AUC PE RC NC ARC NAC GC US EC PM NS SL OR LS AM EA NR WC THW COR HES XC WA IB EB SR RET SN",
+   "-3": "AC AS GA DC NLS TP NA UJ PC POC TE SMCD CST DI ML ST MA TR JU EU LU ONC GAU MDS LT GS LE ME DIR DS IF NAZ NATC JM GM ES DE DEG CH PER ELP AP PR NDL RS TI GOC VEF JA NM PSD FA BL CI PG KS CC HO GU ACK ETS BIC KE LZ BA SU",
+   "split": "IA BK MO CF CM LEG CN CIN EN LN IR PN BN IM RZ CLR PP RT NEOR SC LL CR",
+   "notes": {
+    "OR": "Eucken's state sets and polices the rules of competition; the night-watchman lets cartels form: -2.",
+    "GE": "Also needs a land value tax and public natural monopolies, otherwise hands-off: 0.",
+    "TH": "Rhetorically close, but Thatcher kept competition, health-and-safety and financial rules (and re-regulated after Big Bang): 1.",
+    "CT": "Biblical law binds business (just weights, Sabbath, usury) beyond contract and property: 1.",
+    "IA": "Agrees in spirit, but the property protected is occupancy-and-use, not title: 1, split.",
+    "TW": "Close to \"governing a great state like cooking a small fish\": 2.",
+    "UT": "Mill's harm principle licenses rules against harm to others: -1."
+   }
+  },
+  "economy.steering.7": {
+   "0": "AS DC TP NOA CAE MR AUC PC CST DI NC ONC NAC GC LT US EC BK NS DE DEG SL LI CF RS LS CM CN CIN EN IR PN BN AD CLR NR WC PP SC HS MO RZ RET SN",
+   "1": "AC GA GAN RC BC CR NE PA LC EM AP EA LN ID HI SDD NP NM THW IB IM EB COL SR",
+   "2": "CA AMC TH MC NEO OR AL RE CT JA NEOR UT REZ",
+   "3": "MU IA TW CL LF MI OB ANC GE PAL JR TAR LL",
+   "why": "Free entry for a small shop or workshop without anyone's licence: market and libertarian traditions, Taoists and Mencius (free markets and passes) agree; guild and corporatist traditions (German Meisterzwang, Nazi crafts law, Salazar's industrial conditioning, counter-revolutionary guild restoration) and command economies disagree.",
+   "-1": "NA PE POC TE SMCD EU ARC GAU MDS PM DIR DS GM ES CH PER ELP PR NDL TI GOC LEG VEF PSD BL CI RT HES XC WA ETS BIC KE LZ SU",
+   "-2": "NLS UJ TR LU GS ME IF NAZ NATC JM AM FA COR PG CC BA",
+   "-3": "ML ST MA JU LE KS HO GU ACK",
+   "split": "AS DC TP GAN NOA CAE MR AUC CST DI NC NAC US LT EC BK MO DE DEG LI CF LS AM EA CM LEG CN CIN EN LN IR PN SN BN IB IM RZ EB AD CLR NR WC PP RET SC HS",
+   "notes": {
+    "SMCD": "Germany kept the Meisterzwang for skilled crafts: -1.",
+    "JA": "The d'Allarde decree (1791) freed every trade once a patente tax is paid: 2.",
+    "CL": "Smith attacked apprenticeship statutes and corporation privileges: 3.",
+    "OR": "Free entry (offene Märkte) is one of Eucken's constituent principles: 2.",
+    "GU": "The 1968 Revolutionary Offensive nationalised some 55,000 small shops: -3.",
+    "NAZ": "The 1935 crafts code made guild membership and the master's certificate compulsory: -2.",
+    "POC": "The Netherlands required establishment permits for shops (Vestigingswet) until 2007: -1.",
+    "KS": "Traders and artisans work under licence and inspection by the superintendents: -3."
+   }
+  },
+  "economy.steering.8": {
+   "0": "RC POC CST LU ONC GS US EC BK GM SL LI CF CM LEG CN CIN EN LN AD CLR JA NR WC PP NM CI PG SC HS HES UT MO RZ SN",
+   "1": "CAE MR PE PC PA NAC MDS NAZ NATC EM ELP PR NDL RE TI LS AM IR PN ID BN HI NP BL XC IB IM ACK ETS",
+   "2": "UJ NOA AUC TE EU GAU LT LE PM IF ES CH GOC EA VEF PSD FA KS WA BIC LZ SU",
+   "3": "NLS TP NA ML ST MA TR JU ME NS DIR DS JM PER RS HO GU KE BA",
+   "why": "A poor country must have the state lead industrialisation directly: the developmental thesis of List, Hamilton, Meiji, Kemalism, Nasser, Soviet and Asian tigers; market liberals say markets and openness do it; anti-industrial traditions (Gandhi, green anarchists, deep ecology, Jefferson) reject industrialisation itself.",
+   "-1": "SMCD NC BC ARC CR NE GC LC MC DEG AP THW COR NEOR EB SR RET",
+   "-2": "AS DC DI AMC OR AL GE SDD RT CC COL LL REZ",
+   "-3": "AC MU IA GA CA GAN TH TW DE CL NEO LF MI OB ANC PAL CT JR TAR",
+   "split": "CAE MR LU ACK CST GS US EC BK MO DEG LI CF RE LS AM CM LEG CN CIN EN LN IR PN SN BN IB IM RZ AD CLR JA NR WC PP COR CI PG SC HS HES UT",
+   "notes": {
+    "NS": "List and Hamilton: the latecomer must protect and steer until it can compete: 3.",
+    "GAN": "Industrialisation itself is the wrong goal; village industry and swadeshi: -3.",
+    "CC": "State-led industrialisation is state capitalism, the Bolshevik error: -2.",
+    "JR": "Jefferson wanted the workshops to \"remain in Europe\" and opposed Hamilton's Report on Manufactures: -3.",
+    "BIC": "Bismarck's Germany, protective tariffs and state railways, is a classic catch-up case: 2.",
+    "RE": "The Duy Tân reformers admired Meiji but built national industry through private associations: 1, split.",
+    "NM": "The Nordic catch-up was market-led with state support: 0."
+   }
+  },
+  "distribution.tax.1": {
+   "0": "GA CAE MR PE PC RC TE SMCD NC ONC GAU PM NS NAZ JM EM LI OR CF RE AM EA CM CN CIN EN LN IR PN VEF BN CLR JR WC PP THW CI SC HES MO KS IM RZ CC ACK KE",
+   "1": "AC AS DC GAN NOA POC CST DI GS US LE DIR GM DE TI LS GOC AD NR BL PG UT EB SR SN",
+   "2": "NLS TP JU LU LT CH PER AP SL PR JA NM HO GU LZ BA SU",
+   "3": "NA UJ ML ST MA TR EU MDS ES DEG ELP NDL PSD FA ETS",
+   "why": "A top marginal income rate above 50%: postwar social democracy, New Deal, Nasser and the Communist Manifesto (\"a heavy progressive income tax\") agree; flat-tax, low-tax and tithe traditions (Mencius, Calvinist theocracy, Saudi no-income-tax) reject it.",
+   "-1": "MU CA GC EC BK ME DS IF NATC RS LEG ID HI SDD NP COR RT HS XC IB LL RET",
+   "-2": "AUC BC ARC CR NE PA NAC LC MC TW CL NEOR BIC REZ",
+   "-3": "IA AMC TH NEO AL LF MI OB ANC GE PAL CT TAR WA COL",
+   "split": "AC AS MU GA CA DC GAN NOA CAE MR PE RC TE DI NC CC ACK GAU US LE PM BK MO KS ME NS IF NAZ JM DE EM LI CF RE TI GOC AM EA CM LEG CN CIN EN LN IR PN KE SN VEF BN IB IM RZ EB AD CLR JR NP WC PP COR CI RT PG SC HES UT",
+   "notes": {
+    "ML": "Communist Manifesto, measure 2: \"a heavy progressive or graduated income tax\": 3.",
+    "PSD": "Attlee-era top rates of 90% and more: 3; NM 2 for today's 52–57% Nordic tops.",
+    "MC": "Mencius' tithe (什一): light and proportional, never punitive: -2.",
+    "JA": "The 1793 forced loan took up to half of income above a threshold: 2.",
+    "GE": "Income taxes punish labour; only land value should be taxed: -3.",
+    "THW": "Blair kept 40%; Brown's 50% came in 2010 under crisis: 0.",
+    "WA": "No personal income tax, only zakat: -3."
+   }
+  },
+  "distribution.tax.2": {
+   "0": "MU CA NOA MR PC SMCD DI GAU LE BK ME NS NAZ DE EM CL CF RE GE CN CIN LN IR PN VEF PP NM BL SC HS MO KS IM EB RET KE SN",
+   "1": "CAE PE CST NC ONC LC TW PM DS JM NEO EA CM EN ID BN AD CLR WC RT PG HES XC IB RZ REZ",
+   "2": "IA AUC TH NE NAC GC MC EC IF NATC AL AM LEG HI SDD NP CI NEOR WA COL BIC",
+   "3": "BC ARC AMC CR PA LF MI OB ANC PAL CT TAR COR",
+   "why": "No tax on lawful inheritance to children: family-patrimony traditions (Burke, aristocrats, counter-revolution, Calvinist family law, Confucian lineage) agree; the socialist family (the Manifesto abolishes inheritance, Bakunin too), Bentham's escheat, Saint-Simonians, Solidarist Radicals and Steiner–Vallentyne left-libertarians reject it.",
+   "-1": "GA TP GAN RC POC TE DIR GM CH PER AP LI OR RS JA JR NR THW SU",
+   "-2": "AS DC NLS NA UJ EU LT GS US ES ELP SL NDL TI LS GOC UT SR LZ BA",
+   "-3": "AC ML ST MA TR JU LU MDS DEG PR PSD FA CC HO GU ACK ETS LL",
+   "split": "MU GA CA NOA MR TE DI GAU RET LE TW PM BK MO KS ME NS DS NAZ JM DE EM AP CL NEO OR CF RE CM CN CIN EN LN IR PN KE SN VEF BN IM RZ EB AD CLR JR PP NM BL RT PG SC HS",
+   "notes": {
+    "BC": "\"The power of perpetuating our property in our families is one of the most valuable ... circumstances belonging to it\": 3.",
+    "UT": "Bentham's Supply without Burden: escheat estates beyond near kin to the state; Mill would cap what anyone inherits: -2.",
+    "LL": "Steiner: a dead person's estate is unowned and falls into the common fund: -3.",
+    "IF": "De' Stefani abolished inheritance tax within the family in 1923: 2.",
+    "CL": "Locke's heirs' right versus Mill's cap and Paine's inheritance-funded dividend: 0, split.",
+    "SDD": "Most cantons exempt direct descendants and voters rejected a federal inheritance tax in 2015: 2.",
+    "NM": "Sweden (2004) and Norway (2014) abolished inheritance tax under broad consensus, Denmark keeps one: 0, split.",
+    "SR": "The Radicals made succession duties progressive in 1901: -2."
+   }
+  },
+  "distribution.tax.3": {
+   "0": "MU GA CA CAE MR TH NE LE BK ME IF NATC JM AM EA CM LEG CN EN IR PN CLR NP PP RT PG SC HES MO KS RZ ACK BIC",
+   "1": "AC AS PE RC TE NC GC LC US PM NS DS NAZ DE EM OR CF RE TI CIN LN VEF ID BN HI WC CI IB IM CC KE",
+   "2": "DC GAN NOA PC POC SMCD CST DI ST JU LU ONC GAU GS DIR LI RS LS GOC AD SDD JR NR THW BL UT EB HO GU RET SN SU",
+   "3": "NLS TP NA UJ ML MA TR EU MDS LT GM ES DEG CH PER ELP AP SL PR NDL JA NM PSD FA ETS SR LZ BA",
+   "why": "Progressive rather than proportional income taxation: broad acceptance from social liberals to communists; rejected by flat-tax and tithe traditions, by Mill and Smith's proportional taxation, by Hobbes's consumption-based \"equality of imposition\", and by those who want no income tax at all.",
+   "-1": "AUC BC AMC CR PA NAC EC TW NEO COR XC LL REZ",
+   "-2": "ARC MC CL AL GE TAR NEOR HS WA COL",
+   "-3": "IA LF MI OB ANC PAL CT",
+   "split": "MU GA CA CAE MR CC ACK BC BIC LE TW PM BK MO KS ME NS IF NAZ NATC JM DE CF RE AM EA CM LEG CN CIN EN LN IR PN VEF BN IB IM RZ CLR NP PP COR RT PG SC HES UT NAC",
+   "notes": {
+    "CL": "Mill called graduated taxation \"a mild form of robbery\" and wanted one rate above an exemption: -2.",
+    "HS": "Leviathan ch. 30: equal imposition means taxing what people consume, not what they own: -2.",
+    "MC": "The tithe is one rate for all: -2.",
+    "JR": "Jefferson (1785): exempt the poor and tax higher property \"in geometrical progression\": 2.",
+    "AD": "Liturgies and eisphora fell only on the rich: 2.",
+    "UT": "Edgeworth, Sidgwick and Pigou drew progression from diminishing marginal utility; Mill dissented: 2, split.",
+    "WA": "Zakat is a flat 2.5% and there is no income tax: -2."
+   }
+  },
+  "distribution.tax.4": {
+   "0": "MU IA GA CA CAE MR TH NE PA LE TW BK ME IF NATC JM AM EA CM LEG CN EN IR PN BN CLR NP PP RT PG SC HES MO KS IM RZ ACK LL BIC",
+   "1": "AUC BC ARC AMC CR NAC EC NEO OB ANC COR NEOR HS XC IB REZ",
+   "2": "MC CL AL LF MI PAL TAR WA COL",
+   "3": "CT",
+   "why": "One flat income tax rate for all: the mirror of progression; flat-tax reformers (Hungary, Russia 2001, Estonia), tithe and zakat traditions, Mill's proportional tax and Hobbes's equal imposition agree; every redistributive tradition rejects it; those wanting no income tax at all accept flat as the lesser evil or reject both.",
+   "-1": "AC AS PE RC TE NC GC LC US PM NS DS NAZ DE EM OR CF RE TI CIN LN VEF ID HI WC CI UT CC KE",
+   "-2": "DC GAN NOA PC POC SMCD CST DI ST JU LU ONC GAU GS DIR LI GE RS LS GOC AD SDD JR NR THW BL EB HO GU RET SN SU",
+   "-3": "NLS TP NA UJ ML MA TR EU MDS LT GM ES DEG CH PER ELP AP SL PR NDL JA NM PSD FA ETS SR LZ BA",
+   "split": "MU IA GA CA CAE MR RC CC ACK BC BIC PA LE TW PM BK MO KS ME NS IF NAZ NATC JM DE CF RE OB ANC LL AM EA CM LEG CN CIN EN LN IR PN BN IB IM RZ CLR NP PP COR RT PG SC HES UT",
+   "notes": {
+    "NAC": "Orbán's 15% flat personal income tax: 1 (PiS kept progression, hence not higher).",
+    "CT": "The tithe is the same tenth for everyone, and Rushdoony's civil levy is the Exodus 30 head tax: 3.",
+    "GE": "A flat income tax still taxes labour; abolish it for the land value tax: -2.",
+    "OB": "No forced taxation at all; flat at least treats people equally: 1, split.",
+    "UT": "Mill proposed a single rate above a subsistence exemption, Benthamite egalitarians a graduated one: -1, split.",
+    "HS": "Hobbes's equal imposition points to uniform consumption taxes: 1.",
+    "MC": "The tithe (什一) as the just proportional levy: 2."
+   }
+  },
+  "distribution.tax.5": {
+   "0": "MU GA CA CAE MR PE PC RC TE NC MC EC PM BK ME NS NAZ JM EM LI CF RE RS AM EA CM CN CIN EN LN IR PN BN CLR WC PP BL CI RT NEOR SC HES MO XC RZ CC ACK RET KE",
+   "1": "AC AS GAN NOA POC CST US LE DIR DE AP SL NDL TI GOC VEF ID JR NR NM PG UT KS WA IM EB SR LL SN SU",
+   "2": "DC NLS TP NA UJ DI ML ST MA JU LU LT GS GM CH PER LS AD JA SDD PSD IB HO GU LZ BA",
+   "3": "TR EU MDS ES DEG ELP PR FA ETS",
+   "why": "A modest 1–2% annual tax on very large wealth: the Warren/Piketty-lite middle ground; social-democratic, socialist and progressive traditions agree, as do the Swiss cantons in practice and the zakat-based Islamic traditions by analogy; market conservatives, libertarians and Rushdoony (property tax denies God's ownership) reject it.",
+   "-1": "SMCD ONC GC GAU DS IF NATC OR GE LEG NP THW COR HS",
+   "-2": "AUC BC CR NE PA NAC LC TW CL HI BIC REZ",
+   "-3": "IA ARC AMC TH NEO AL LF MI OB ANC PAL CT TAR COL",
+   "split": "AC AS MU GA CA DC NOA CAE MR PE RC TE NC CC ACK RET US MC EC LE PM BK MO XC KS ME NS IF NAZ JM DE EM LI CF RE LL RS TI GOC AM EA CM LEG CN CIN EN LN IR PN KE SN BN IM RZ EB CLR NR NP WC PP BL COR CI RT NEOR PG SC HES UT NM SR",
+   "notes": {
+    "PR": "Warren's 2% \"ultra-millionaire tax\" is this item: 3.",
+    "IB": "Zakat, 2.5% a year on wealth above the nisab, is the Islamic model the Brotherhood wants run by the state: 2 (WA 1, VEF 1).",
+    "CT": "Rushdoony: a tax on property denies that the earth is the Lord's, since property belongs to God and the family: -3.",
+    "SDD": "Every canton levies an annual net-wealth tax and voters keep them: 2.",
+    "HI": "Modi abolished India's wealth tax in 2015: -2.",
+    "NM": "Norway keeps a wealth tax, Sweden and Denmark abolished theirs: 1, split.",
+    "GE": "Wealth is taxable only as land value; the rest is labour's product: -1."
+   }
+  },
+  "distribution.tax.6": {
+   "0": "MU GA CA PE CST PM DIR SL NDL CF CM CN CIN EN LN IR PN VEF BN PP BL SC UT MO KS IB IM RZ CC ACK SR LL KE SN",
+   "1": "AC AS GAN NOA US LE GM DE PER AP PR TI GOC AD CLR NR PSD EB RET LZ",
+   "2": "DC TP EU LU LT GS CH ELP LS JA JR FA PG BA SU",
+   "3": "NLS NA UJ DI ML ST MA TR JU MDS ES DEG HO GU ETS",
+   "why": "A wealth tax heavy enough to break up great fortunes over time: a stronger, deconcentration aim; socialist, distributist (Belloc's differential taxation), Jeffersonian (geometric progression) and Platonic (wealth cap of four lots) traditions agree; property-preserving traditions reject it, and a moderate wealth-tax supporter may stop short.",
+   "-1": "CAE MR PC RC POC TE NC GC MC EC BK ME NS NAZ JM EM LI RE GE RS EA ID WC NM CI RT HS XC",
+   "-2": "SMCD ONC PA GAU TW DS IF NATC OR AM LEG HI SDD NP HES WA",
+   "-3": "IA AUC BC ARC AMC CR TH NE NAC LC CL NEO AL LF MI OB ANC PAL CT TAR THW COR NEOR COL BIC REZ",
+   "split": "AC AS MU GA CA GAN NOA MR PE TE CST CC ACK RET US MC EC LE PM BK MO KS ME DIR NAZ JM DE SL NDL CF RE SR LL GOC EA CM CN CIN EN LN IR PN KE SN VEF BN IB IM RZ EB AD NR WC PP BL CI RT SC UT",
+   "notes": {
+    "DI": "Belloc's Restoration of Property: differential taxation against large holdings to re-spread ownership: 3.",
+    "JR": "Jefferson (1785) proposed taxing higher property in geometric progression as a \"means of silently lessening the inequality of property\": 2.",
+    "PG": "Laws 744e: no citizen may own more than four times the basic lot; the excess goes to the city: 2.",
+    "RET": "Red Tories want to break up concentration through mutuals and antitrust more than taxation: 1, split.",
+    "PR": "Mainstream progressive wealth taxes aim at revenue, not dissolution: 1 (vs MDS 3, \"billionaires should not exist\").",
+    "SL": "Rawlsian property-owning democracy would disperse capital; most social liberals stop at revenue: 0, split.",
+    "LE": "Legalists broke up powerful clans and great merchants, but by force rather than taxation: 1, split."
+   }
+  },
+  "distribution.tax.7": {
+   "0": "CAE MR PC TE NC GC GAU TW PM BK ME NAZ GM DE PER SL PR CF RE CM CN CIN EN LN IR PN VEF HI SDD NP WC PP PSD BL CI SC HS UT KS IM SR SN",
+   "1": "AC AS GA NAC ELP LS BN JA JR NR FA MO XC IB RZ EB CC RET KE",
+   "2": "IA CA DC GAN UJ NOA CST EU LU MDS GS US EC ES DEG CH GOC AD CLR ETS LZ",
+   "3": "MU NLS TP NA PE DI ML ST MA TR JU LT MC DS AP RS TI PG HO GU ACK BA SU",
+   "why": "Land ceilings per person or family: land-reform traditions (land to the tiller, Nasser, Diệm's Ordinance 57, Korea and Taiwan, Mencius' well-field, the Roman agrarian laws and Harrington) agree; landed and market traditions reject them, and Georgists reject ceilings as the wrong remedy (tax the rent instead).",
+   "-1": "AUC RC POC SMCD PA LE NS DIR IF JM NDL LI OR EA ID TAR NM RT LL",
+   "-2": "ONC CR NE LC NATC EM CL GE AM LEG CT THW HES WA REZ",
+   "-3": "BC ARC AMC TH NEO AL LF MI OB ANC PAL COR NEOR COL BIC",
+   "split": "AC AS GA CC CAE MR PC TE NC GC US TW PM BK MO KS ME NAZ GM DE PER PR CF RE SR LS EA CM CN CIN EN LN IR PN SN VEF BN HI IB IM RZ EB CLR JA SDD NR NP WC PP TAR PSD BL CI RT SC HS UT",
+   "notes": {
+    "PE": "Diệm's Ordinance 57 (1956) capped holdings at 100 hectares: 3.",
+    "GE": "Progress and Poverty lists dividing the land among more owners among the remedies that fail: tax the rent instead: -2.",
+    "MC": "\"Benevolent government begins with land boundaries\" (仁政必自經界始): the well-field: 3.",
+    "IA": "Tucker's occupancy-and-use rule caps holdings at what one actually uses: 2.",
+    "CLR": "The Licinian law, the Gracchi and Harrington's agrarian; Cicero opposed agrarian laws: 2, split.",
+    "NAC": "Hungary's 2013 land law caps farm ownership at 300 hectares to keep land in farming families: 1.",
+    "TI": "Yugoslavia capped private farms at 10 hectares: 3.",
+    "RZ": "The Jubilee returns land to the original families every fifty years (Lev 25): 1, split."
+   }
+  },
+  "distribution.tax.8": {
+   "0": "GA CAE PE PC RC TE SMCD DI ONC GC PM NS IF NAZ JM DE EM AP OR CF RS EA CM LEG CN CIN EN LN IR PN BN CLR WC PP THW CI RT PG SC HS HES UT IB IM RZ LL BIC RET",
+   "1": "MU CA GAN MR NC BC ARC LC DS NATC RE GE ID HI SDD COR MO",
+   "2": "AUC CR NE PA NAC EC BK NP NEOR XC WA COL REZ",
+   "3": "IA AMC TH MC TW CL NEO AL LF MI OB ANC PAL CT JR TAR",
+   "why": "Low taxes benefit everyone, the poor included: the supply-side and small-state thesis; also the Confucian and Taoist doctrine of light taxation as benevolent rule, and the Buddhist \"khoan thư sức dân\"; socialist, social-democratic and green traditions reject it.",
+   "-1": "AC TP NOA POC CST GAU US ME LI TI AM VEF AD JA NR BL KS EB SR KE SN SU",
+   "-2": "AS DC NLS NA UJ JU LT GS LE DIR GM DEG CH PER SL NDL LS GOC CC HO ACK LZ BA",
+   "-3": "ML ST MA TR EU LU MDS ES ELP PR NM PSD FA GU ETS",
+   "split": "AC MU GA CA GAN NOA CAE MR PE RC TE DI US ACK BIC PM ME NS IF NAZ NATC JM DE EM AP LI CF RE GE LL RS AM EA CM LEG CN CIN EN LN IR PN SN VEF BN IB IM RZ AD CLR WC PP COR CI RT PG SC HS HES UT",
+   "notes": {
+    "MC": "\"Reduce punishments, lighten taxes\" (省刑罰，薄稅斂) is the core of benevolent government: 3.",
+    "TW": "Daodejing 75: \"the people starve because their rulers eat too much in taxes\": 3.",
+    "BK": "Khoan thư sức dân, sparing the people's strength, is the Lý–Trần ideal: 2.",
+    "LE": "A rich state needs heavy levies and a people kept at its tasks: -2.",
+    "THW": "Neither tax-and-spend nor tax-cutting; investment in opportunity: 0.",
+    "GE": "Low taxes on labour and capital yes, a full tax on land rent: 1, split.",
+    "KS": "Revenue maximisation, though the king should not over-milk the cow: -1."
+   }
+  },
+  "distribution.tax.9": {
+   "0": "CAE MR PC RC TE NAC GC GAU EC NS DIR NAZ JM EM LI CF RE RS CM CN CIN EN LN IR PN ID BN NP WC PP HS HES IM RZ LL KE",
+   "1": "NOA PE POC SMCD NC ONC MC BK DE SL NDL GOC VEF AD CLR JR NR BL UT IB SR RET SN",
+   "2": "MU GA CA TP GAN CST DI TW GM PER AP TI LS JA NM PSD PG MO EB LZ",
+   "3": "AC AS DC NLS NA UJ ML ST MA TR JU EU LU MDS LT GS US ES DEG CH ELP PR FA CC HO GU ACK ETS BA SU",
+   "why": "Extreme inequality is unjust even when wealth was gained fairly: the patterned-justice view (socialist, Rawlsian, Christian-socialist, Platonic, Taoist \"heaven takes from excess\") against entitlement theory (Nozick, Rand, classical and Calvinist property ethics) and against hierarchical traditions (Xunzi's ritual distinctions, aristocracy, Evola) that call graded wealth just.",
+   "-1": "CR NE PA LC LE PM ME DS IF NATC OR GE EA LEG HI SDD CI SC KS BIC",
+   "-2": "IA AUC BC AMC AM CT TAR THW XC WA REZ",
+   "-3": "ARC TH CL NEO AL LF MI OB ANC PAL COR RT NEOR COL",
+   "split": "NOA CAE MR RC TE NAC GC GAU EC ME NS DIR NAZ JM LI CF RE LL RS CM CN CIN EN LN IR PN KE SN ID BN IM RZ AD NP WC PP HS HES SC",
+   "notes": {
+    "XC": "Xunzi: the sage-kings' ritual makes differences of rank and wealth so that people do not fight: -2.",
+    "TW": "Daodejing 77: heaven's way takes from excess to supply deficiency; man's way does the opposite: 2.",
+    "THW": "Mandelson's \"intensely relaxed about people getting filthy rich\" as long as they pay their taxes: -2.",
+    "RS": "\"Làm giàu chính đáng\" is officially encouraged, while \"công bằng\" stays a goal: 0, split.",
+    "SL": "Rawls lets inequalities stand that benefit the worst-off; extreme gaps fail that test: 1.",
+    "GE": "Wealth earned by labour is legitimate however large; the injustice lies in land monopoly: -1.",
+    "PG": "Laws 744d: extreme wealth and poverty are the greatest disease of a city: 2."
+   }
+  },
+  "distribution.tax.10": {
+   "0": "AC AS GA AMC CR MC EC LE BK ME NS AM EA LEG CN EN IR PN BN CLR NP PP COR RT PG SC HES MO XC KS IB IM RZ ACK COL REZ",
+   "1": "MU CA JU ARC PA TW CL AD JR NEOR HS HO",
+   "2": "LF MI CT WA LL",
+   "3": "IA OB ANC GE PAL TAR",
+   "why": "Abolishing income tax altogether: anarcho-capitalists, Objectivists, Georgists (single tax on land) and anti-tax populists (Glistrup) agree; Rushdoony's head tax and Saudi zero-income-tax practice lean yes; Juche and Hoxha claimed to have abolished taxes as socialist achievements; nearly everyone else rejects it.",
+   "-1": "DC TP GAN CAE MR AUC PE BC US PM DE AL RE CM CIN LN VEF WC CI EB CC GU BIC",
+   "-2": "NOA RC DI NC ST MA LU TH NE NAC GC GS DS IF NAZ NATC JM EM NEO OR CF TI LS GOC ID HI JA SDD NR UT RET KE SN SU",
+   "-3": "NLS NA UJ PC POC TE SMCD CST ML TR EU ONC LC GAU MDS LT DIR GM ES DEG CH PER ELP AP SL PR NDL LI RS NM PSD THW FA BL ETS SR LZ BA",
+   "split": "AC AS MU GA CA AUC JU CC HO ACK ARC AMC CR US MC EC LE TW PM BK MO XC KS ME NS DE CL COL AM EA CM LEG CN CIN EN LN IR PN REZ VEF BN IB IM RZ AD CLR JR NP PP COR CI RT NEOR PG SC HS HES",
+   "notes": {
+    "GE": "The single tax on land value replaces all other taxes: 3.",
+    "JU": "North Korea declared itself the first tax-free state in 1974: 1, split (HO 1: Albania abolished income tax in 1969).",
+    "CL": "Gladstone promised to abolish the income tax in 1874; Mill and Smith accepted a proportional one: 1, split.",
+    "TAR": "Glistrup's Progress Party ran on abolishing income tax: 3.",
+    "CT": "Rushdoony limits the civil levy to the Exodus 30 head tax: 2.",
+    "ST": "Khrushchev's 1960 law planned to phase out income tax on workers, but Stalinist doctrine keeps the fiscal state: -2.",
+    "PA": "Buchanan and Ron Paul: replace the income tax with tariffs and repeal the 16th Amendment: 1."
+   }
+  },
+  "distribution.tax.11": {
+   "0": "GA NOA EU ME DIR IF NAZ JM GM PER PR TI LS GOC AM CN EN IR PN BN AD JA NR PP NM RT SC HS UT KS KE SN",
+   "1": "TP CAE MR PE POC TE CST GAU EC LE PM BK NS DS NATC EM AP SL NDL LI CF RS EA CM LEG CIN LN VEF CLR WC BL COR CI HES XC IB IM RZ SR BIC",
+   "2": "AUC PC RC SMCD DI NC ARC ONC NAC GC LC MC TW OR RE ID HI SDD JR NP THW NEOR WA LL RET REZ",
+   "3": "MU IA BC AMC CR TH NE PA CL NEO AL LF MI OB ANC GE PAL CT TAR COL",
+   "why": "Whoever gets rich lawfully has a right to keep most of it: entitlement and desert traditions agree; it rejects heavy redistribution without calling for none; socialist, Gandhian trusteeship and Christian-anarchist traditions disagree, Mutualism and Georgism agree for labour income.",
+   "-1": "CA NLS NA ML ST TR LU MDS LT GS US DE CH ELP PSD PG MO EB CC LZ BA SU",
+   "-2": "AC AS DC GAN UJ MA JU ES DEG FA HO GU ETS",
+   "-3": "ACK",
+   "split": "GA NOA MR TE ML ST TR US KS ME IF NAZ JM DE PER CF TI LS GOC AM EA CM LEG CN CIN EN LN IR PN KE SN BN RZ EB AD CLR JA PP RT SC HS UT",
+   "notes": {
+    "GAN": "Trusteeship: keep what you need and hold the rest in trust for society: -2.",
+    "GE": "Wealth produced by labour belongs wholly to the producer; only rent belongs to all: 3.",
+    "ML": "Under socialism earnings follow labour (\"to each according to his work\"), but private enrichment is exploitation: -1, split.",
+    "CST": "Rerum Novarum 22: one may keep what one's station needs; the superfluous is owed to the poor: 1.",
+    "RS": "\"Làm giàu chính đáng\" is encouraged: 1.",
+    "NM": "Nordic citizens hand over around half through taxes, by consent: 0.",
+    "MO": "Those with wealth should share it (有財者勉以分人): -1."
+   }
+  },
+  "distribution.welfare.1": {
+   "0": "GA CA MR AUC DI NC NE ME NATC JM OR GE CM EN IR PN HI AD CLR SDD PP SC HS RZ",
+   "1": "AC AS GAN CAE PE PC RC TE SMCD TH NAC GC LC MC EC PM BK NS DS IF NAZ DE EM AP LI CF EA CN CIN LN ID BN JR NP HES MO XC KS IB IM LL BIC RET",
+   "2": "DC TP NOA POC CST ONC GAU GS US DIR NDL RE RS LS VEF JA NR THW BL PG UT WA EB CC SR REZ SN SU",
+   "3": "NLS NA UJ ML ST MA TR JU EU LU MDS LT GM ES DEG CH PER ELP SL PR TI GOC WC NM PSD FA HO GU ETS KE LZ BA",
+   "why": "Free universal healthcare and education guaranteed by the state: socialist, social-democratic, Kemalist, Gaullist and most modern European traditions agree; libertarian, Calvinist-theocratic, Taoist (\"keep the people simple\"), Legalist and church-provision traditions disagree; anarchists want free provision but not by the state.",
+   "-1": "MU BC CL NEO AM LEG TAR CI RT COL",
+   "-2": "ARC AMC CR PA LE TW AL COR ACK",
+   "-3": "IA LF MI OB ANC PAL CT NEOR",
+   "split": "AC AS GA CA MR AUC DI NC US EC BK MO KS ME NATC JM DE LI CF GE LL AM CM LEG CN CIN EN LN IR PN BN HI IM RZ AD CLR SDD PP RT SC HS",
+   "notes": {
+    "ACK": "Democratic Kampuchea shut schools and gutted medicine: -2.",
+    "TW": "Daodejing 65: the ancients did not enlighten the people but kept them simple: -2.",
+    "REZ": "Jabotinsky's \"five mems\" (food, shelter, clothing, education, medicine) guaranteed by the state: 2.",
+    "KE": "Free, compulsory, secular schooling was a Six Arrows pillar: 3.",
+    "SDD": "Free public schools, but health care is compulsory private insurance and voters rejected a single public insurer in 2014: 0, split.",
+    "NC": "Kuyper's settlement funds religious schools equally; welfare stays with the pillars: 0, split.",
+    "TH": "\"The NHS is safe in our hands\"; state schools stayed free: 1.",
+    "RE": "Đông Kinh Nghĩa Thục taught free of charge; khai dân trí: 2."
+   }
+  },
+  "distribution.welfare.2": {
+   "0": "MU GA GAN PE RC TE DI NC ARC NE GC LC MC EC PM BK ME NS DE CF RE GE AM EA CM LEG CN CIN EN IR PN ID BN AD CLR SDD PP CI RT PG SC HS HES UT WA IB IM RZ LL RET REZ",
+   "1": "MR BC AMC CR TH LE TW DS OR HI JR TAR COR",
+   "2": "IA AUC CL NEO CT NEOR COL",
+   "3": "AL LF MI OB ANC PAL",
+   "why": "Self-funded retirement through personal savings rather than a state pension: Pinochet's 1981 AFP privatisation, Singapore's CPF, libertarians and family-ethic conservatives agree; Bismarck invented the state pension, and social democrats, New Dealers and welfare chauvinists defend pay-as-you-go.",
+   "-1": "CA UJ NOA CAE PC POC CST PA NAC US NATC JM EM AP LN VEF NR THW MO XC KS EB ACK SR KE SU",
+   "-2": "AC AS DC NLS TP NA SMCD MA LU ONC GAU LT GS DIR IF NAZ GM DEG SL LI RS TI LS JA NP NM BL CC LZ SN BA",
+   "-3": "ML ST TR JU EU MDS ES CH PER ELP PR NDL GOC WC PSD FA HO GU ETS BIC",
+   "split": "MU GA CA GAN UJ NOA MR PE RC TE DI NC ACK ARC GC RET US MC EC LE TW PM BK ME NS DE CF RE GE LL AM EA CM LEG CN CIN EN LN IR PN REZ ID BN HI WA IB IM RZ AD CLR PP COR CI RT PG SC HS HES UT",
+   "notes": {
+    "AL": "Chile's 1981 AFP reform under Pinochet replaced pay-as-you-go with individual accounts: 3.",
+    "AUC": "Singapore's CPF compels each worker to save for their own old age: 2.",
+    "BIC": "Bismarck created the first state old-age pension (1889): -3.",
+    "NEO": "The World Bank's Averting the Old Age Crisis (1994) pushed funded individual pillars: 2.",
+    "WC": "Defending the state pension for natives is core: -3 (NP -2).",
+    "MC": "The issue for Mencius is family, not personal savings; the ruler cares for the childless old: 0, split.",
+    "NM": "Sweden added small individual premium accounts to a public system: -2."
+   }
+  },
+  "distribution.welfare.3": {
+   "0": "MU IA CA NA NOA CAE PC TE GAU LE NS NAZ DE OB GE CM LN IR HS UT LL KE REZ BA",
+   "1": "GA NLS TP MR SMCD JU ONC LC TW ME IF AP CL NEO OR AL RE ANC EA CN EN PN SDD JR PP NEOR HES MO EB SU",
+   "2": "GAN UJ AUC PE CST DI NC AMC TH NE GC BK DS NATC LF MI RS AM LEG ID BN CLR NP TAR BL RT PG SC IM RZ COL RET",
+   "3": "BC ARC CR PA NAC MC EC PM JM PAL VEF CT HI AD COR CI XC KS WA IB",
+   "why": "Elder care is the children's duty, not the state's: Confucian, Islamic, Hindu, Christian-traditional, Athenian (kakōsis goneōn) and Singaporean (Maintenance of Parents Act) traditions agree; Nordic statist individualism (Sweden dropped the legal duty in 1979) and the socialist family critique disagree.",
+   "-1": "AC AS DC RC POC ST LT GS DIR DEG EM CH PER LI CF TI LS GOC CIN JA NR WC THW ETS SR BIC SN",
+   "-2": "ML MA TR EU LU MDS US GM ES ELP SL PR NDL PSD FA CC HO GU LZ",
+   "-3": "NM ACK",
+   "split": "MU IA GA CA NA NOA BA SU CAE MR TE JU LT LE TW ME NS NAZ DE CF OB ANC GE LL CM CN CIN EN LN IR PN REZ SN EB PP NEOR HS UT",
+   "notes": {
+    "NM": "Sweden abolished adult children's legal duty to support parents in 1979; municipal elder care: -3.",
+    "AUC": "Singapore's Maintenance of Parents Act (1995) lets parents sue their children: 2.",
+    "AD": "Maltreating or failing to support one's parents (kakōsis goneōn) was prosecutable, and checked at the archons' scrutiny: 3.",
+    "KS": "Arthashastra 2.1 fines those who fail to support their parents: 3.",
+    "LE": "Shang Yang doubled the levy on households with two adult sons to force family division: 0, split.",
+    "OB": "Rand admits no unchosen duty to parents, and no state role either: 0, split.",
+    "ST": "The Soviet family code obliged children to maintain needy parents, though the state pension came first: -1."
+   }
+  },
+  "distribution.welfare.4": {
+   "0": "MU TP NOA CAE POC TE ST ONC GAU EC TW PM NS IF DE EM AP LI CF RE TI GOC AM EA CM LEG CN CIN EN LN IR PN VEF BN AD CI PG SC XC KS WA IB RZ ACK BIC KE",
+   "1": "UJ MR PE PC RC SMCD CST DI NC ARC GC LC NATC JM OR RS ID HI CLR SDD JR WC PP THW BL COR RT HES UT IM RET REZ",
+   "2": "IA GAN AUC BC PA NAC ME DS NAZ CL NEO AL NP HS",
+   "3": "AMC CR TH NE LE LF MI OB ANC PAL CT TAR NEOR COL",
+   "why": "Generous welfare breeds dependency and idleness: Han Fei, Tocqueville's Memoir on Pauperism, Malthus, Hegel's §245, Lee Kuan Yew's \"crutch\", Gandhi's bread labour and modern conservatives and libertarians agree; socialist, social-democratic and anarchist traditions reject the premise.",
+   "-1": "GA CA NLS NA ML JU MC BK DIR SL NDL GE LS NM FA MO EB HO GU SR LL LZ SN BA SU",
+   "-2": "AS DC MA GS US GM DEG PER JA NR PSD CC",
+   "-3": "AC TR EU LU MDS LT ES CH ELP PR ETS",
+   "split": "MU NOA TP CAE MR TE ML ST JU HO ACK US EC TW PM XC KS JM DE EM AP LI CF RE TI GOC AM EA CM LEG CN CIN EN LN IR PN KE SN VEF BN WA IB IM RZ AD CLR PP COR CI RT PG SC UT",
+   "notes": {
+    "LE": "Han Fei 50: giving to the poor robs the diligent and frugal to reward the idle and extravagant: 3.",
+    "COL": "Tocqueville's Memoir on Pauperism: legal charity creates a permanent class of dependants: 3.",
+    "GAN": "Gandhi would not give a free meal to an able-bodied person who has not worked: 2.",
+    "HES": "Philosophy of Right 245: direct relief offends the principle of civil society and the individual's self-respect: 1.",
+    "HS": "Leviathan 30: the able-bodied are to be forced to work, not maintained: 2.",
+    "AUC": "Lee Kuan Yew warned against welfare as a \"crutch\": 2.",
+    "THW": "\"Rights and responsibilities\", welfare-to-work: 1.",
+    "ML": "\"He who does not work, neither shall he eat\" is socialist doctrine, but blaming welfare for idleness is a bourgeois trope: -1, split."
+   }
+  },
+  "distribution.welfare.5": {
+   "0": "AC MU GA CA DC RC TE MDS LT TW BK EM CH CL NEO CF AM CM LEG CN CIN EN LN IR PN BN HI PP PG SC UT WA IM RZ ETS SN",
+   "1": "GS US ES DE DEG ELP PR LS VEF AD EB",
+   "2": "GM GE NR",
+   "3": "LL",
+   "why": "Unconditional universal basic income: left-libertarians (an equal share of resource value), Georgist dividends, Lange's social dividend, Pettit's republican basic income and many Greens agree; the work-ethic traditions (Marxist \"who does not work shall not eat\", Gandhi's bread labour, Nordic work-line, Catholic dignity of labour, Hegel's labour as formation) reject it; Iran's 2010 cash transfers came close in practice.",
+   "-1": "AS TP NOA CAE MR PC POC CST DI NC EU ARC ONC GC GAU MC EC PM NS DIR PER AP SL LI OR RE EA ID CLR JA WC CI RT HS XC KS IB SR BIC RET REZ BA SU",
+   "-2": "IA NLS NA UJ AUC PE SMCD TR LU BC AMC CR TH PA NAC LC ME IF NATC JM NDL AL LF MI RS TI GOC SDD JR NP NM PSD THW FA BL COR NEOR HES MO CC KE LZ",
+   "-3": "GAN ML ST MA JU NE LE DS NAZ OB ANC PAL CT TAR HO GU ACK COL",
+   "split": "AC AS MU GA CA DC NOA RC TE ARC MDS LT GS US ETS TW BK ES DE DEG EM CH ELP CL SL NEO PR LI CF RE AM EA CM LEG CN CIN EN LN IR PN SN VEF BN HI WA IB IM RZ EB AD CLR JA PP RT PG SC HS UT",
+   "notes": {
+    "LL": "Steiner–Vallentyne: everyone's equal share of natural-resource value, paid unconditionally: 3.",
+    "GAN": "Bread labour: no one should eat without working: -3.",
+    "VEF": "Iran's 2010 subsidy reform paid a near-universal monthly cash transfer (yaraneh): 1, split.",
+    "LS": "Lange's and Roemer's social dividend of public profits paid to every citizen: 1.",
+    "NR": "Pettit's republican case for basic income as a guard against domination: 2.",
+    "SDD": "Swiss voters rejected UBI by 77% in 2016: -2.",
+    "GE": "Later Georgists propose a citizen's dividend from land rent: 2.",
+    "CL": "Paine's Agrarian Justice versus the poor-law liberals: 0, split (NEO 0, split: Friedman's negative income tax)."
+   }
+  },
+  "distribution.welfare.6": {
+   "0": "TP NOA MR PC POC LT ME NS CF GE AM CM CIN LN IR PN VEF AD CLR PP THW PG SC UT MO XC CC ETS SR LL REZ",
+   "1": "UJ AUC PE SMCD ONC NE LC GS US PM DS JM DE AP NEO OR AL RE OB LEG CN EN ID BN SDD NP RT NEOR HES WA IM RZ LZ SU",
+   "2": "AS IA DC CST DI BC ARC AMC TH NAC MC EC TW BK NATC DEG CL HI JR TAR BL CI IB EB",
+   "3": "AC MU GA CA GAN NC CR PA GC LF MI ANC PAL CT COR COL RET",
+   "why": "Kin, village and mutual-aid societies help people better than the state welfare bureaucracy: anarchist (Kropotkin's Mutual Aid), mutualist, subsidiarity, sphere-sovereignty, Burkean \"little platoons\", Tocquevillean and Confucian village traditions agree; Hobbes (no one left to private charity), Jacobins, Fabians (against the Charity Organisation Society), Nordic and command traditions disagree.",
+   "-1": "NLS NA CAE RC LU GAU NAZ GM EM CH LI RS TI LS EA NR KS KE SN",
+   "-2": "TE MA JU EU LE DIR IF ES PER ELP SL PR NDL GOC JA WC HS GU BIC BA",
+   "-3": "ML ST TR MDS NM PSD FA HO ACK",
+   "split": "TP NOA MR CC LT US ETS MO XC ME NS DE CF GE LL AM EA CM LEG CN CIN EN LN IR PN REZ SN VEF BN WA IM RZ AD CLR NP PP RT PG SC UT LZ",
+   "notes": {
+    "AC": "Kropotkin's Mutual Aid is the thesis itself: 3.",
+    "HS": "Leviathan 30: those unable to work \"ought not to be left to the charity of private persons\": -2.",
+    "MC": "In the well-field neighbours \"help each other in sickness\" (疾病相扶持), but the ruler must still care for the destitute: 2.",
+    "FA": "The Webbs' Minority Report fought the Charity Organisation Society's voluntarism: -3.",
+    "NC": "Sphere sovereignty: diaconate and associations, not the state: 3.",
+    "BIC": "State insurance was designed to bind workers to the crown rather than to unions and friendly societies: -2.",
+    "LZ": "Histadrut's sick fund and kibbutz mutualism were the movement's own institutions: 1, split.",
+    "COL": "Tocqueville's associations and his critique of legal charity: 3."
+   }
+  },
+  "distribution.welfare.7": {
+   "0": "TP NOA TE GS DEG EM NDL LI CF CM CIN LN IR PN PP THW SC HS ETS SR KE",
+   "1": "NLS NA POC ST JU US DIR GM CH PER SL TI LS GOC NR WC UT CC SN BA",
+   "2": "ML MA EU LU MDS ES ELP PR JA PSD FA PG HO GU ACK LZ",
+   "3": "TR NM",
+   "why": "Cradle-to-pension state provision so no one depends on family: Nordic \"statist individualism\", Trotsky's socialised household, Plato's guardians, Lepeletier's national education and the kibbutz agree; family-centred traditions (Confucian, Catholic, Islamic, Hindu, conservative) reject it strongly.",
+   "-1": "AC AS DC CAE MR PC RC SMCD ONC GAU LT LE ME NS IF NAZ DE RE RS EA CN EN MO EB LL BIC REZ SU",
+   "-2": "MU GA CA UJ PE NE GC LC TW BK AP OR GE AM LEG ID BN AD CLR SDD NP BL HES KS IM RZ",
+   "-3": "IA GAN AUC CST DI NC BC ARC AMC CR TH PA NAC MC EC PM DS NATC JM CL NEO AL LF MI OB ANC PAL VEF CT HI JR TAR COR CI RT NEOR XC WA IB COL RET",
+   "split": "AC TP NOA TE JU CC LT GS US ETS MO ME NS NAZ DE DEG EM LI CF SR LL CM CN CIN EN LN IR PN KE SN PP SC HS UT",
+   "notes": {
+    "NM": "Berggren and Trägårdh's \"statist individualism\": the welfare state frees individuals from family dependence: 3.",
+    "TR": "The Revolution Betrayed: socialist society must take over the household and child-rearing: 3 (ST 1: Stalin restored the family).",
+    "JA": "Lepeletier's plan for national boarding schools for all children: 2.",
+    "PG": "The guardians' children are reared in common and know no parents: 2.",
+    "LZ": "Kibbutz children's houses and the Histadrut cradle-to-grave network: 2.",
+    "HES": "The family is the first ethical root; civil society only steps in when it fails: -2.",
+    "WC": "Generous native welfare, but family values temper the \"no one depends on family\" aim: 1."
+   }
+  },
+  "distribution.welfare.8": {
+   "0": "BC ARC AMC DE RT SC IB",
+   "1": "MU GA GAN CR PA TW CL AL TAR CI COL",
+   "2": "CA COR NEOR",
+   "3": "IA LF MI OB ANC PAL CT",
+   "why": "Fully private welfare (health, education, pensions left to private firms, families and charity): only the libertarian core, Calvinist theocracy and the throne-and-altar right agree; nearly all other traditions keep at least public education and a safety net; communitarian anarchists reject private provision too.",
+   "-1": "MR AUC DI NC LE BK ME DS NATC NEO OR RE GE AM LEG CN EN IR PN ID BN HI AD CLR SDD JR PP MO IM RZ EB LL RET",
+   "-2": "AC AS DC CAE PE CST TH NE NAC GC US MC EC PM NS JM EM AP CF EA CM CIN LN VEF NR NP BL HS HES UT XC KS WA REZ",
+   "-3": "NLS TP NA UJ NOA PC RC POC TE SMCD ML ST MA TR JU EU LU ONC LC GAU MDS LT GS DIR IF NAZ GM ES DEG CH PER ELP SL PR NDL LI RS TI LS GOC JA WC NM PSD THW FA PG CC HO GU ACK ETS SR BIC KE LZ SN BA SU",
+   "split": "MU GA GAN BC ARC AMC PA LE TW MO ME DE CL AL COL AM CM LEG CN CIN EN IR PN BN IB IM RZ AD CLR PP CI RT SC MI",
+   "notes": {
+    "CT": "Rushdoony: welfare, schooling and health belong to family and church, never the civil government: 3.",
+    "TH": "Kept the NHS and state schools: -2.",
+    "COR": "Bonald and de Maistre: the Church, the family and the corporations provide, not the state: 2.",
+    "CL": "Smith and Mill wanted some public schooling; otherwise private: 1, split.",
+    "MU": "Mutual-aid societies and mutual banks, but no profit-making insurers: 1, split.",
+    "XC": "Xunzi 王制: the ruler takes in and supports the five kinds of disabled: -2.",
+    "AMC": "Fusionists defend private and church provision but rarely abolish public schools or Medicare: 0, split."
+   }
+  },
+  "distribution.welfare.9": {
+   "0": "MU GA CA BC PA TW IR COR",
+   "1": "AC AS GAN MR AUC NC AMC CR ME NS DS NAZ JM DE CL AL GE AM LEG CN EN PN CLR JR PP TAR CI SC COL",
+   "2": "DC NOA CAE PE TE DI ARC TH NE NAC GC LC US PM IF NATC EM AP NEO OR CF RE EA CM CIN LN ID BN HI NP PG HES WA IM RZ CC LL RET KE",
+   "3": "NLS TP NA UJ PC RC POC SMCD CST ML ST MA TR JU EU LU ONC GAU MDS LT GS MC EC BK DIR GM ES DEG CH PER ELP SL PR NDL LI RS TI LS GOC VEF AD JA SDD NR WC NM PSD THW FA BL HS UT MO XC KS IB EB HO GU ETS SR BIC LZ REZ SN BA SU",
+   "why": "A state-guaranteed minimum for those truly unable to fend for themselves: near-universal, from Hobbes (Leviathan 30), Xunzi (the five disabled), Kautilya, Mencius' four destitute groups, Athens' invalid pension and the 1793 Declaration to every welfare tradition; only the libertarian core, Calvinist theocracy, Han Fei and the Khmer Rouge reject it, and anarchists want it without the state.",
+   "-1": "RT NEOR",
+   "-2": "IA LE LF MI PAL CT ACK",
+   "-3": "OB ANC",
+   "split": "AC AS MU GA CA BC PA TW ME NAZ AM LEG CN CIN EN LN IR PN CLR JR PP COR RT NEOR SC",
+   "notes": {
+    "HS": "Leviathan 30: those unable to work are to be provided for by the laws of the commonwealth: 3.",
+    "XC": "Xunzi 王制: \"the five kinds of disabled, the ruler takes in and supports\" (五疾，上收而養之): 3.",
+    "LE": "Han Fei: relief for the poor rewards idleness: -2.",
+    "BC": "Thoughts and Details: providing for our necessities is not in the power of government but of charity and Providence; the poor laws stood: 0, split.",
+    "AD": "Athens paid disabled citizens an obol a day (Lysias 24) and raised war orphans publicly: 3.",
+    "JA": "1793 Declaration, art. 21: public relief is a sacred debt: 3.",
+    "REZ": "Jabotinsky's five mems guaranteed to every citizen: 3.",
+    "CT": "Charity is the church's and family's office; the civil government has none: -2."
+   }
+  }
+ }
+}

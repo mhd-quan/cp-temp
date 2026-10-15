@@ -1,0 +1,69 @@
+{
+  "family": {
+    "id": "green",
+    "name": "Xanh",
+    "en": "Green politics",
+    "summary": "Đặt giới hạn sinh thái của Trái Đất lên trên tăng trưởng, kết hợp với dân chủ cơ sở, công bằng xã hội và hoà bình."
+  },
+  "variants": [
+    {
+      "id": "green-mainstream",
+      "name": "Xanh chủ lưu",
+      "en": "Mainstream green politics",
+      "summary": "Chuyển đổi năng lượng, bảo vệ khí hậu và đa dạng sinh học trong khuôn khổ kinh tế thị trường có điều tiết và dân chủ đại diện; dè chừng điện hạt nhân.",
+      "exemplars": ["Petra Kelly", "Joschka Fischer", "Đảng Xanh Đức"],
+      "period": "1980–nay",
+      "axes": { "economy": 40, "distribution": 30, "trade": 55, "power": 90, "liberty": 80, "elites": 55, "lifestyle": 85, "religion": 25, "identity": 80, "environment": 85, "foreign": 75, "change": 35 },
+      "facets": { "environment.growth": 75, "environment.nature": 95, "environment.technology": 85 },
+      "status": "draft",
+      "raters": ["claude"]
+    },
+    {
+      "id": "eco-socialism",
+      "name": "Sinh thái xã hội chủ nghĩa",
+      "en": "Eco-socialism",
+      "summary": "Chủ nghĩa tư bản là gốc rễ của khủng hoảng sinh thái; cần sở hữu công và kế hoạch dân chủ để chuyển đổi xanh.",
+      "exemplars": ["Michael Löwy", "Joel Kovel", "John Bellamy Foster"],
+      "period": "1980–nay",
+      "axes": { "economy": 15, "distribution": 10, "trade": 35, "power": 80, "liberty": 75, "elites": 75, "lifestyle": 85, "religion": 20, "identity": 80, "environment": 95, "foreign": 85, "change": 75 },
+      "status": "draft",
+      "raters": ["claude"]
+    },
+    {
+      "id": "deep-ecology",
+      "name": "Sinh thái sâu",
+      "en": "Deep ecology",
+      "summary": "Mọi sự sống có giá trị tự thân chứ không chỉ vì ích lợi cho con người; cần thu nhỏ quy mô dân số và kinh tế.",
+      "exemplars": ["Arne Næss", "George Sessions"],
+      "period": "1973–nay",
+      "axes": { "economy": 40, "distribution": 40, "trade": 30, "power": 80, "liberty": 60, "elites": 60, "lifestyle": 60, "religion": 50, "identity": 70, "environment": 100, "foreign": 85, "change": 60 },
+      "sd": { "economy": 20, "distribution": 20, "religion": 20 },
+      "status": "draft",
+      "raters": ["claude"]
+    },
+    {
+      "id": "degrowth",
+      "name": "Giảm tăng trưởng",
+      "en": "Degrowth",
+      "summary": "Chủ động thu nhỏ sản xuất và tiêu dùng ở các nước giàu, chia sẻ việc làm, sống đủ thay vì sống nhiều, tái địa phương hoá kinh tế.",
+      "exemplars": ["Serge Latouche", "Jason Hickel", "Kohei Saito"],
+      "period": "2002–nay",
+      "axes": { "economy": 25, "distribution": 10, "trade": 25, "power": 85, "liberty": 75, "elites": 80, "lifestyle": 75, "religion": 25, "identity": 75, "environment": 95, "foreign": 85, "change": 65 },
+      "facets": { "environment.growth": 100, "trade.selfreliance": 15 },
+      "status": "draft",
+      "raters": ["claude"]
+    },
+    {
+      "id": "eco-modernism",
+      "name": "Hiện đại sinh thái",
+      "en": "Ecomodernism",
+      "summary": "Bảo vệ thiên nhiên bằng công nghệ: điện hạt nhân, nông nghiệp thâm canh, đô thị hoá, để con người cần ít đất và tài nguyên hơn.",
+      "exemplars": ["Tuyên ngôn Ecomodernist (2015)", "Stewart Brand", "Ted Nordhaus"],
+      "period": "2015–nay",
+      "axes": { "economy": 60, "distribution": 50, "trade": 80, "power": 80, "liberty": 75, "elites": 30, "lifestyle": 75, "religion": 25, "identity": 75, "environment": 45, "foreign": 70, "change": 30 },
+      "facets": { "environment.growth": 35, "environment.nature": 85, "environment.technology": 5, "elites.decision": 15 },
+      "status": "draft",
+      "raters": ["claude"]
+    }
+  ]
+}

@@ -1,0 +1,152 @@
+{
+  "family": {
+    "id": "liberalism",
+    "name": "Tự do",
+    "en": "Liberalism",
+    "summary": "Tự do cá nhân, pháp quyền, quyền tư hữu và một chính quyền bị hiến pháp giới hạn; tin vào lý trí và tiến bộ."
+  },
+  "variants": [
+    {
+      "id": "classical-liberalism",
+      "name": "Tự do cổ điển",
+      "en": "Classical liberalism",
+      "summary": "Quyền tự nhiên về sinh mạng, tự do và tài sản; nhà nước pháp quyền nhỏ gọn, tự do thương mại, tự do tư tưởng.",
+      "exemplars": ["John Locke", "Adam Smith", "Benjamin Constant"],
+      "period": "1690–1900",
+      "axes": { "economy": 85, "distribution": 80, "trade": 90, "power": 80, "liberty": 85, "elites": 35, "lifestyle": 65, "religion": 35, "identity": 65, "environment": 30, "foreign": 70, "change": 30 },
+      "facets": { "elites.decision": 25, "elites.rank": 60, "elites.trust": 30 },
+      "status": "draft",
+      "raters": ["claude"]
+    },
+    {
+      "id": "social-liberalism",
+      "name": "Tự do xã hội",
+      "en": "Social liberalism",
+      "summary": "Tự do thực chất cần cơ hội thực: giáo dục, y tế và an sinh do nhà nước bảo đảm trong một nền kinh tế thị trường.",
+      "exemplars": ["John Stuart Mill", "John Rawls", "John Maynard Keynes"],
+      "period": "1880–nay",
+      "axes": { "economy": 60, "distribution": 40, "trade": 80, "power": 90, "liberty": 90, "elites": 45, "lifestyle": 85, "religion": 20, "identity": 75, "environment": 65, "foreign": 75, "change": 30 },
+      "status": "draft",
+      "raters": ["claude"]
+    },
+    {
+      "id": "neoliberalism",
+      "name": "Tân tự do",
+      "en": "Neoliberalism",
+      "summary": "Tư nhân hoá, tự do hoá thương mại và tài chính, ngân sách cân bằng, ngân hàng trung ương độc lập; chính sách do các nhà kinh tế dẫn dắt.",
+      "exemplars": ["Đồng thuận Washington (1989)", "Leszek Balcerowicz", "Friedrich Hayek"],
+      "period": "1979–nay",
+      "axes": { "economy": 85, "distribution": 75, "trade": 95, "power": 75, "liberty": 70, "elites": 25, "lifestyle": 65, "religion": 35, "identity": 75, "environment": 30, "foreign": 55, "change": 40 },
+      "facets": { "elites.decision": 10, "elites.rank": 65, "elites.trust": 10, "change.pace": 70, "change.means": 15, "change.depth": 45 },
+      "status": "draft",
+      "raters": ["claude"]
+    },
+    {
+      "id": "progressivism",
+      "name": "Tiến bộ",
+      "en": "Progressivism",
+      "summary": "Dùng nhà nước để sửa bất công của thị trường và mở rộng quyền cho các nhóm thiệt thòi; ưu tiên khí hậu và công bằng xã hội.",
+      "exemplars": ["Barack Obama", "Elizabeth Warren"],
+      "period": "1990–nay",
+      "axes": { "economy": 40, "distribution": 30, "trade": 60, "power": 85, "liberty": 75, "elites": 50, "lifestyle": 90, "religion": 20, "identity": 80, "environment": 65, "foreign": 55, "change": 45 },
+      "status": "draft",
+      "raters": ["claude"]
+    },
+    {
+      "id": "new-deal-liberalism",
+      "name": "Tự do New Deal",
+      "en": "New Deal liberalism",
+      "summary": "Nhà nước điều tiết thị trường, lập an sinh xã hội và bảo vệ công đoàn để cứu chủ nghĩa tư bản khỏi khủng hoảng, dựa trên liên minh rộng của người lao động trong khuôn khổ dân chủ.",
+      "exemplars": ["Franklin D. Roosevelt", "Harry S. Truman", "Lyndon B. Johnson"],
+      "period": "1933–1968",
+      "axes": { "economy": 50, "distribution": 35, "trade": 60, "power": 75, "liberty": 65, "elites": 40, "lifestyle": 45, "religion": 45, "identity": 50, "environment": 50, "foreign": 45, "change": 40 },
+      "status": "draft",
+      "raters": ["claude"]
+    },
+    {
+      "id": "liberal-interventionism",
+      "name": "Dân chủ can thiệp",
+      "en": "Liberal interventionism",
+      "summary": "Các nền dân chủ có trách nhiệm dùng sức mạnh, kể cả quân sự, để bảo vệ nhân quyền và lan toả dân chủ, tốt nhất là qua liên minh và định chế quốc tế.",
+      "exemplars": ["Woodrow Wilson", "Tony Blair (học thuyết 1999)", "Nguyên tắc Trách nhiệm bảo vệ (2005)"],
+      "period": "1917–nay",
+      "axes": { "economy": 65, "distribution": 50, "trade": 85, "power": 85, "liberty": 80, "elites": 40, "lifestyle": 70, "religion": 35, "identity": 80, "environment": 50, "foreign": 35, "change": 35 },
+      "facets": { "foreign.force": 20, "foreign.rules": 80, "foreign.intervention": 5 },
+      "status": "draft",
+      "raters": ["claude"]
+    },
+    {
+      "id": "ordoliberalism",
+      "name": "Trật tự tự do",
+      "en": "Ordoliberalism",
+      "summary": "Một nhà nước mạnh đặt luật chơi cho cạnh tranh: chống độc quyền, giữ đồng tiền ổn định, nhưng không can thiệp vào giá cả.",
+      "exemplars": ["Walter Eucken", "Ludwig Erhard", "Wilhelm Röpke"],
+      "period": "1932–nay",
+      "axes": { "economy": 70, "distribution": 60, "trade": 85, "power": 80, "liberty": 75, "elites": 30, "lifestyle": 50, "religion": 45, "identity": 60, "environment": 40, "foreign": 65, "change": 25 },
+      "facets": { "economy.ownership": 80, "economy.planning": 90, "economy.steering": 45 },
+      "status": "draft",
+      "raters": ["claude"]
+    },
+    {
+      "id": "cosmopolitan-federalism",
+      "name": "Liên bang thế giới",
+      "en": "Cosmopolitan federalism",
+      "summary": "Vượt qua chủ quyền quốc gia để tiến tới một liên bang châu Âu hay một chính quyền dân chủ toàn cầu; hoà bình vĩnh cửu qua luật chung.",
+      "exemplars": ["Immanuel Kant", "Altiero Spinelli (Tuyên ngôn Ventotene)", "Guy Verhofstadt"],
+      "period": "1941–nay",
+      "axes": { "economy": 55, "distribution": 40, "trade": 90, "power": 80, "liberty": 85, "elites": 40, "lifestyle": 85, "religion": 20, "identity": 90, "environment": 75, "foreign": 95, "change": 50 },
+      "facets": { "foreign.rules": 100, "power.local": 70 },
+      "status": "draft",
+      "raters": ["claude"]
+    },
+    {
+      "id": "authoritarian-liberalism",
+      "name": "Tự do độc đoán",
+      "en": "Authoritarian liberalism",
+      "summary": "Một nhà nước mạnh, phi dân chủ đứng ra bảo vệ thị trường tự do và quyền tư hữu trước áp lực của quần chúng và công đoàn.",
+      "exemplars": ["Augusto Pinochet và nhóm Chicago Boys (Chile 1973–1990)", "Hermann Heller đặt tên (1933)"],
+      "period": "1930–nay",
+      "axes": { "economy": 90, "distribution": 90, "trade": 90, "power": 10, "liberty": 10, "elites": 15, "lifestyle": 35, "religion": 55, "identity": 35, "environment": 15, "foreign": 30, "change": 65 },
+      "facets": { "economy.steering": 95, "distribution.labour": 95, "liberty.expression": 5, "liberty.justice": 5, "liberty.privacy": 20, "elites.decision": 10, "elites.rank": 30, "elites.trust": 10, "change.pace": 80, "change.means": 75, "change.depth": 45 },
+      "sd": { "religion": 15 },
+      "status": "draft",
+      "raters": ["claude"]
+    },
+    {
+      "id": "reformist-enlightenment",
+      "name": "Duy tân dân quyền",
+      "en": "Enlightenment reformism",
+      "summary": "Khai dân trí, chấn dân khí, hậu dân sinh: canh tân giáo dục, phong tục và kinh tế, dựng dân quyền và pháp trị bằng con đường ôn hoà, chống thói quan lại.",
+      "exemplars": ["Phan Châu Trinh", "Đông Kinh Nghĩa Thục (1907)", "Fukuzawa Yukichi"],
+      "period": "1870–1930",
+      "axes": { "economy": 70, "distribution": 55, "trade": 75, "power": 75, "liberty": 75, "elites": 55, "lifestyle": 65, "religion": 30, "identity": 55, "environment": 40, "foreign": 65, "change": 25 },
+      "facets": { "elites.decision": 25, "elites.rank": 85, "elites.trust": 70, "identity.culture": 70, "change.pace": 20, "change.means": 0, "change.depth": 60 },
+      "status": "draft",
+      "raters": ["claude"]
+    },
+    {
+      "id": "conservative-liberalism",
+      "name": "Tự do bảo thủ",
+      "en": "Conservative liberalism (Doctrinaires, Tocqueville)",
+      "summary": "Tự do cá nhân và chính quyền hạn chế, nhưng sợ sự chuyên chế của số đông và nạn tập quyền; trọng tôn giáo, phong tục, đoàn thể trung gian, dè dặt khi mở rộng quyền bầu cử.",
+      "exemplars": ["Alexis de Tocqueville", "François Guizot", "José Ortega y Gasset"],
+      "period": "1815–1940",
+      "axes": { "economy": 75, "distribution": 70, "trade": 65, "power": 85, "liberty": 70, "elites": 20, "lifestyle": 35, "religion": 50, "identity": 45, "environment": 40, "foreign": 45, "change": 15 },
+      "facets": { "power.local": 90, "elites.decision": 10, "elites.rank": 45, "elites.trust": 10, "religion.state": 40, "religion.law": 25, "religion.public": 80, "change.pace": 10, "change.means": 5, "change.depth": 25 },
+      "status": "draft",
+      "raters": ["claude"]
+    },
+    {
+      "id": "solidarist-radicalism",
+      "name": "Cấp tiến liên đới",
+      "en": "Solidarist radicalism (French Radicals)",
+      "summary": "Nền cộng hoà thế tục của người tiểu tư hữu: tách giáo hội khỏi nhà nước, thuế thu nhập luỹ tiến, bảo hiểm xã hội, vì mỗi công dân mang một món nợ xã hội với mọi người khác.",
+      "exemplars": ["Léon Bourgeois", "Émile Combes", "Đảng Cấp tiến Pháp (1901)"],
+      "period": "1869–1940",
+      "axes": { "economy": 55, "distribution": 40, "trade": 45, "power": 70, "liberty": 75, "elites": 60, "lifestyle": 50, "religion": 10, "identity": 45, "environment": 40, "foreign": 65, "change": 35 },
+      "facets": { "distribution.tax": 30, "distribution.welfare": 35, "distribution.labour": 55, "power.pluralism": 90, "power.checks": 70, "power.local": 30, "lifestyle.family": 55, "lifestyle.gender": 30, "lifestyle.autonomy": 55, "religion.state": 10, "religion.law": 5, "religion.public": 10, "foreign.rules": 85 },
+      "status": "draft",
+      "raters": ["claude"]
+    }
+  ]
+}

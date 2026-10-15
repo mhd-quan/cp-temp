@@ -1,0 +1,573 @@
+/* Ấn bản: cards shared by the homepage and the directory pages.
+   A story, a pensée, a series volume and a review look the same wherever
+   they appear; only the grid around them changes. */
+
+/* ---------- story ---------- */
+.story {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  gap: var(--s-4);
+  min-width: 0;
+}
+/* Column rules between stories of a row, as on a broadsheet. */
+.story::before {
+  content: '';
+  position: absolute;
+  inset: 0 auto 0 calc(var(--gutter) / -2);
+  border-left: 1px solid var(--rule);
+  display: none;
+}
+.story__plate {
+  display: block;
+}
+.story__title {
+  margin-top: var(--s-2);
+  font-size: var(--t-title-m);
+  line-height: 1.12;
+  letter-spacing: -0.012em;
+}
+.story__dek {
+  margin-top: var(--s-2);
+  color: var(--muted);
+  font-size: var(--t-ui);
+  font-style: italic;
+  line-height: 1.38;
+}
+/* Three to a row wherever stories are listed. */
+.story-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: clamp(2.75rem, 1.5rem + 3vw, 4.75rem) var(--gutter);
+}
+.story-grid > .story:not(:nth-child(3n + 1))::before {
+  display: block;
+}
+
+/* ---------- pensée (note) ---------- */
+.note {
+  position: relative;
+  display: grid;
+  grid-template-columns: 5.5rem minmax(0, 1fr);
+  gap: var(--s-4);
+  padding-block: var(--s-4);
+  border-bottom: 1px solid var(--rule);
+}
+.note__plate {
+  aspect-ratio: 1;
+  align-self: start;
+}
+.note__date {
+  color: var(--muted);
+  font-size: var(--t-meta);
+  font-weight: 500;
+}
+.note__title {
+  margin-top: var(--s-1);
+  font-size: var(--t-title-s);
+  line-height: 1.14;
+}
+.note__dek {
+  margin-top: var(--s-1);
+  color: var(--muted);
+  font-size: var(--t-small);
+  font-style: italic;
+  line-height: 1.35;
+}
+
+
+/* ---------- series volume: a deck of prints answering a list ---------- */
+.volume {
+  display: grid;
+  grid-template-columns: repeat(12, minmax(0, 1fr));
+  column-gap: var(--gutter);
+  align-items: center;
+}
+/* The deck: three prints of the series on sheets, in the series' ink.
+   Each rank is a pose; changing rank only moves translate, rotate and scale. */
+.volume__deck {
+  grid-column: 1 / span 6;
+  position: relative;
+  aspect-ratio: 1.16;
+  cursor: pointer;
+}
+.volume__card {
+  position: absolute;
+  top: 17%;
+  left: 12%;
+  width: 76%;
+  padding: clamp(6px, 0.8vw, 12px) clamp(6px, 0.8vw, 12px) clamp(1.75rem, 2.6vw, 2.5rem);
+  background: oklch(0.99 0.003 95);
+  box-shadow:
+    0 1px 2px oklch(0.2 0.02 278 / 0.16),
+    0 26px 50px -28px oklch(0.2 0.02 278 / 0.6);
+  will-change: transform;
+  transition:
+    translate var(--d-slow) var(--ease-out),
+    rotate var(--d-slow) var(--ease-out),
+    scale var(--d-slow) var(--ease-out);
+}
+.volume__card .plate {
+  aspect-ratio: 4 / 3;
+}
+.volume__card-numeral {
+  position: absolute;
+  left: clamp(8px, 1vw, 14px);
+  bottom: clamp(0.35rem, 0.6vw, 0.6rem);
+  color: var(--muted);
+  font: italic 400 var(--t-note) / 1 var(--font-text);
+}
+.volume__card[data-rank='0'] {
+  z-index: 3;
+  translate: 0 0;
+  rotate: -1.2deg;
+}
+.volume__card[data-rank='1'] {
+  z-index: 2;
+  translate: 9% -15%;
+  rotate: 3.2deg;
+  scale: 0.965;
+}
+.volume__card[data-rank='2'] {
+  z-index: 1;
+  translate: -10% -24%;
+  rotate: -4.6deg;
+  scale: 0.93;
+}
+.volume__text {
+  grid-column: 8 / -1;
+}
+.volume__meta {
+  color: var(--topic-text);
+  font-size: var(--t-meta);
+}
+.volume__name {
+  margin-top: var(--s-3);
+  font-size: var(--t-headline);
+  line-height: 1.08;
+  letter-spacing: -0.016em;
+}
+.volume__parts {
+  margin: var(--s-6) 0 var(--s-6);
+  border-top: 1px solid var(--ink);
+}
+.volume__parts li {
+  border-bottom: 1px solid var(--rule);
+}
+.volume__part {
+  display: grid;
+  grid-template-columns: 2.25rem minmax(0, 1fr) auto;
+  column-gap: var(--s-4);
+  align-items: baseline;
+  padding-block: 1.1rem 1.15rem;
+  text-decoration: none;
+}
+.volume__numeral {
+  color: var(--muted);
+  font: italic 400 var(--t-dek) / 1 var(--font-text);
+  transition: color var(--d-base) var(--ease-out);
+}
+.volume__part-title {
+  font: 500 var(--t-title-s) / 1.2 var(--font-text);
+  background: linear-gradient(currentColor, currentColor) no-repeat 0 94% / 0 1px;
+  transition: background-size var(--d-slow) var(--ease-out);
+}
+.volume__part-dek {
+  display: block;
+  margin-top: 0.2rem;
+  color: var(--muted);
+  font: italic var(--t-small) / 1.35 var(--font-text);
+}
+.volume__part-time {
+  color: var(--muted);
+  font-size: var(--t-meta);
+  font-weight: 500;
+}
+.volume__part[data-active] .volume__numeral {
+  color: var(--topic-text);
+}
+:where(:root:not([data-resting])) .volume__part:hover .volume__part-title,
+.volume__part:focus-visible .volume__part-title {
+  background-size: 100% 1px;
+}
+.volume .button .glyph {
+  transition: translate var(--d-base) var(--ease-out);
+}
+:where(:root:not([data-resting])) .volume .button:hover .glyph {
+  translate: 3px 0;
+}
+
+
+/* ---------- shelf: books standing on one ledge ----------
+   Every book has one height and its own width (container-free: the height is
+   fixed, the width follows the cover), so all of them meet the ledge on one
+   line; a cover is never squeezed. The newest review may stand first as a
+   larger edition; the shelf is then as tall as it, and every caption still
+   hangs from the same line. The ledge is drawn with light and shadow only:
+   a bright edge where the shelf catches the light, a soft shade beneath it,
+   and under each book the contact of its foot and the cast of its body.
+   When the books outrun the width the shelf slides: a native scroller with
+   snap points, running to the edges of the screen while its first book keeps
+   to the page's margin, and fading as it passes under the margins. */
+.shelf {
+  --h: clamp(12rem, 7rem + 9vw, 15.5rem);
+  --lead-h: calc(var(--h) * 1.28);
+  --stand: var(--h);
+  --item: calc(var(--h) * 0.86);
+  --lead-item: calc(var(--lead-h) * 0.9);
+  --gap: clamp(1.25rem, 0.5rem + 2vw, 2.5rem);
+  --edge: max(var(--margin), (100% - var(--page-max)) / 2);
+  --lift: var(--s-5);
+  /* Layered, never one heavy shadow: the edge of the board, the foot on the
+     shelf, the body close to it, and its cast falling onto the ledge. */
+  --book-edge: oklch(0 0 0 / 0.07);
+  --book-shade: oklch(0.2 0.02 278);
+  --book-shadow:
+    0 0 0 1px var(--book-edge),
+    0 1px 1px color-mix(in oklab, var(--book-shade) 10%, transparent),
+    0 3px 6px -2px color-mix(in oklab, var(--book-shade) 12%, transparent),
+    0 18px 26px -16px color-mix(in oklab, var(--book-shade) 34%, transparent);
+  --book-shadow-lifted:
+    0 0 0 1px var(--book-edge),
+    0 2px 3px color-mix(in oklab, var(--book-shade) 8%, transparent),
+    0 8px 14px -6px color-mix(in oklab, var(--book-shade) 16%, transparent),
+    0 30px 36px -22px color-mix(in oklab, var(--book-shade) 36%, transparent);
+  overflow-x: auto;
+  overflow-y: hidden;
+  overscroll-behavior-x: contain;
+  scroll-snap-type: x proximity;
+  scroll-padding-inline: var(--edge);
+  scrollbar-width: none;
+  -webkit-mask-image: linear-gradient(90deg, transparent, #000 min(var(--edge), 8rem), #000 calc(100% - min(var(--edge), 8rem)), transparent);
+  mask-image: linear-gradient(90deg, transparent, #000 min(var(--edge), 8rem), #000 calc(100% - min(var(--edge), 8rem)), transparent);
+}
+.shelf::-webkit-scrollbar {
+  display: none;
+}
+.shelf--lead {
+  --stand: var(--lead-h);
+}
+.shelf__books {
+  position: relative;
+  display: flex;
+  gap: var(--gap);
+  width: max-content;
+  min-width: 100%;
+  padding: var(--lift) var(--edge) var(--s-2);
+}
+/* The ledge, drawn in shade only: the surface darkens toward the feet of the
+   books (where little light reaches), creases at the line they stand on, and
+   the shade falls away beneath it. No rule is drawn. */
+.shelf__books::before {
+  --ao: 18px;
+  content: '';
+  position: absolute;
+  inset: calc(var(--lift) + var(--stand) - var(--ao)) 0 auto;
+  height: calc(var(--ao) + 2.75rem);
+  background:
+    linear-gradient(
+        transparent,
+        color-mix(in oklab, var(--ink) 4%, transparent) 70%,
+        color-mix(in oklab, var(--ink) 7%, transparent)
+      )
+      0 0 / 100% var(--ao) no-repeat,
+    linear-gradient(
+        color-mix(in oklab, var(--ink) 13%, transparent),
+        color-mix(in oklab, var(--ink) 7%, transparent) 3px,
+        color-mix(in oklab, var(--ink) 3%, transparent) 12px,
+        transparent
+      )
+      0 var(--ao) / 100% calc(100% - var(--ao)) no-repeat;
+  pointer-events: none;
+}
+.shelf__item {
+  display: grid;
+  flex: 1 0 var(--item);
+  grid-template-rows: var(--stand) auto;
+  width: var(--item);
+  min-width: 0;
+  scroll-snap-align: start;
+}
+.shelf__item--lead {
+  flex-basis: var(--lead-item);
+  width: var(--lead-item);
+}
+.book {
+  position: relative;
+  z-index: 1;
+  display: block;
+  align-self: end;
+  justify-self: start;
+  height: min(var(--h), var(--item) * var(--rh) / var(--rw));
+  aspect-ratio: var(--rw) / var(--rh);
+}
+.shelf__item--lead .book {
+  height: min(var(--lead-h), var(--lead-item) * var(--rh) / var(--rw));
+}
+.book__body {
+  position: absolute;
+  inset: 0;
+  display: block;
+  overflow: hidden;
+  border-radius: 1px 3px 3px 1px;
+  box-shadow: var(--book-shadow);
+  transform-origin: 20% 100%;
+  transition:
+    translate var(--d-slow) var(--ease-out),
+    rotate var(--d-slow) var(--ease-out),
+    box-shadow var(--d-slow) var(--ease-out);
+}
+.book__cover {
+  display: block;
+  width: 100%;
+  height: 100%;
+  max-width: none;
+  object-fit: cover;
+}
+/* The hinge of the cover along the spine, and a faint edge on the fore-edge. */
+.book__body::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(
+    90deg,
+    oklch(0 0 0 / 0.24) 0,
+    oklch(1 0 0 / 0.16) 1.8%,
+    oklch(0 0 0 / 0.1) 3.4%,
+    transparent 7.5%,
+    transparent 95%,
+    oklch(0 0 0 / 0.07) 100%
+  );
+  pointer-events: none;
+}
+/* The contact of the foot: it stays on the ledge when the book is lifted. */
+.book__shadow {
+  position: absolute;
+  inset: auto -3% -4px;
+  z-index: -1;
+  height: 9px;
+  border-radius: 50%;
+  background: radial-gradient(closest-side, color-mix(in oklab, var(--book-shade) 50%, transparent), transparent);
+  transition:
+    opacity var(--d-slow) var(--ease-out),
+    scale var(--d-slow) var(--ease-out);
+}
+/* Pointing at a review draws its book a little off the shelf. */
+.shelf__item:has(a:focus-visible) .book__body {
+  translate: 0 -10px;
+  rotate: -1deg;
+  box-shadow: var(--book-shadow-lifted);
+}
+.shelf__item:has(a:focus-visible) .book__shadow {
+  opacity: 0.45;
+  scale: 0.8 1;
+}
+@media (hover: hover) {
+  :where(:root:not([data-resting])) .shelf__item:has(a:hover) .book__body {
+    translate: 0 -10px;
+    rotate: -1deg;
+    box-shadow: var(--book-shadow-lifted);
+  }
+  :where(:root:not([data-resting])) .shelf__item:has(a:hover) .book__shadow {
+    opacity: 0.45;
+    scale: 0.8 1;
+  }
+  :where(:root:not([data-resting])) .shelf__item:has(a:hover) .title-link {
+    background-size: 100% 1px;
+  }
+}
+.shelf__item:has(a:active) .book__body {
+  translate: 0 -5px;
+  transition-duration: var(--d-press);
+}
+.shelf__caption {
+  padding: var(--s-5) var(--s-2) 0 0;
+}
+.shelf__title {
+  margin-top: var(--s-2);
+  font-size: var(--t-body);
+  line-height: 1.16;
+  letter-spacing: -0.006em;
+  text-wrap: balance;
+}
+.shelf__item--lead .shelf__title {
+  font-size: var(--t-title-m);
+  line-height: 1.08;
+  letter-spacing: -0.014em;
+}
+.shelf__dek {
+  margin-top: var(--s-2);
+  color: var(--muted);
+  font-size: var(--t-small);
+  font-style: italic;
+  line-height: 1.38;
+}
+.shelf__cite {
+  margin-top: var(--s-3);
+  font-size: var(--t-note);
+  font-style: italic;
+  line-height: 1.3;
+}
+.shelf__author {
+  display: block;
+  margin-top: 0.3rem;
+  color: var(--muted);
+  font: 500 var(--t-meta) / 1.4 var(--font-sans);
+  font-stretch: var(--sans-width);
+  font-style: normal;
+  letter-spacing: var(--caps-tracking);
+  text-transform: uppercase;
+}
+/* Controls for a shelf that slides (ShelfControls.astro): shown only when the
+   shelf is wider than the page and a pointer can use them. */
+.shelf-controls {
+  display: inline-flex;
+  gap: var(--s-2);
+}
+.shelf-controls[hidden] {
+  display: none;
+}
+.shelf-controls__step {
+  display: inline-grid;
+  place-items: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  color: var(--ink);
+  box-shadow:
+    0 0 0 1px color-mix(in oklab, var(--ink) 16%, transparent),
+    0 1px 2px -1px oklch(0 0 0 / 0.08);
+  transition:
+    box-shadow var(--d-quick) var(--ease-out),
+    opacity var(--d-base) var(--ease-out),
+    scale var(--d-base) var(--ease-out);
+}
+:where(:root:not([data-resting])) .shelf-controls__step:hover:not([aria-disabled='true']) {
+  box-shadow:
+    0 0 0 1px color-mix(in oklab, var(--ink) 40%, transparent),
+    0 2px 6px -2px oklch(0 0 0 / 0.14);
+}
+.shelf-controls__step:active:not([aria-disabled='true']) {
+  scale: 0.94;
+  transition-duration: var(--d-press);
+}
+.shelf-controls__step[aria-disabled='true'] {
+  opacity: 0.3;
+  cursor: default;
+}
+@media (hover: none) {
+  .shelf-controls {
+    display: none;
+  }
+  .shelf {
+    scroll-snap-type: x mandatory;
+  }
+}
+:root[data-theme='dark'] .shelf {
+  --book-edge: oklch(1 0 0 / 0.1);
+  --book-shade: oklch(0 0 0);
+}
+:root[data-theme='dark'] .book__body {
+  filter: brightness(0.92);
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme='light']) .shelf {
+    --book-edge: oklch(1 0 0 / 0.1);
+    --book-shade: oklch(0 0 0);
+  }
+  :root:not([data-theme='light']) .book__body {
+    filter: brightness(0.92);
+  }
+}
+/* At night the shade is deeper and the books a touch dimmer. */
+:root[data-theme='dark'] .shelf__books::before {
+  background:
+    linear-gradient(transparent, oklch(0 0 0 / 0.18) 70%, oklch(0 0 0 / 0.3)) 0 0 / 100% var(--ao) no-repeat,
+    linear-gradient(oklch(0 0 0 / 0.5), oklch(0 0 0 / 0.28) 3px, oklch(0 0 0 / 0.1) 12px, transparent) 0 var(--ao) / 100% calc(100% - var(--ao)) no-repeat;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme='light']) .shelf__books::before {
+    background:
+      linear-gradient(transparent, oklch(0 0 0 / 0.18) 70%, oklch(0 0 0 / 0.3)) 0 0 / 100% var(--ao) no-repeat,
+      linear-gradient(oklch(0 0 0 / 0.5), oklch(0 0 0 / 0.28) 3px, oklch(0 0 0 / 0.1) 12px, transparent) 0 var(--ao) / 100% calc(100% - var(--ao)) no-repeat;
+  }
+}
+
+/* ---------- responsive ---------- */
+@media (max-width: 900px) {
+  .story-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+  .story-grid > .story:not(:nth-child(3n + 1))::before {
+    display: none;
+  }
+  .story-grid > .story:nth-child(2n)::before {
+    display: block;
+  }
+  .volume {
+    grid-template-columns: minmax(0, 1fr);
+  }
+  .volume__deck,
+  .volume__text {
+    grid-column: 1;
+  }
+  .volume__deck {
+    width: min(100%, 34rem);
+    justify-self: center;
+    margin-bottom: var(--s-6);
+  }
+}
+/* On a phone every story but the lead becomes a row: thumbnail, then words. */
+@media (max-width: 640px) {
+  /* A phone holds one book and the edge of the next: the shelf invites the
+     thumb along it. */
+  .shelf {
+    --h: min(12rem, 50vw);
+    --lead-h: calc(var(--h) * 1.2);
+    --item: 42vw;
+    --lead-item: 50vw;
+    --gap: var(--s-4);
+  }
+  .shelf__item--lead .shelf__title {
+    font-size: var(--t-title-s);
+  }
+  .shelf__dek {
+    font-size: var(--t-note);
+  }
+  .story-grid {
+    grid-template-columns: minmax(0, 1fr);
+    row-gap: var(--s-6);
+  }
+  .story-grid > .story:nth-child(2n)::before {
+    display: none;
+  }
+  .story {
+    display: grid;
+    grid-template-columns: 6.5rem minmax(0, 1fr);
+    gap: var(--s-4);
+    align-items: start;
+  }
+  .story .plate {
+    aspect-ratio: 1;
+  }
+  .story__title {
+    margin-top: var(--s-1);
+    font-size: var(--t-title-xs);
+  }
+  .story__dek {
+    font-size: var(--t-small);
+  }
+  .note {
+    grid-template-columns: 4.5rem minmax(0, 1fr);
+  }
+  .volume__part {
+    grid-template-columns: 1.75rem minmax(0, 1fr);
+  }
+  .volume__part-time {
+    grid-column: 2;
+    margin-top: var(--s-1);
+  }
+  .volume__part-title {
+    font-size: var(--t-title-xs);
+  }
+}

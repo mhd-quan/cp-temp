@@ -1,0 +1,413 @@
+---
+// Ấn bản: the shell of every page. Two modes share one bar:
+// the front pages (large masthead, bar appears on scroll) and the
+// reader (no masthead, the bar is always present and carries reading tools).
+
+import { transformSync } from 'esbuild';
+import bodoniLatin from '../assets/fonts/libre-bodoni/libre-bodoni-latin-500-normal.woff2?url';
+import sansLatin from '../assets/fonts/pensees-sans/pensees-sans-latin-normal.woff2?url';
+import sansVietnamese from '../assets/fonts/pensees-sans/pensees-sans-vietnamese-normal.woff2?url';
+import pliegoMedium from '../assets/fonts/pliego/Pliego-Medium.woff2?url';
+import pliegoRegular from '../assets/fonts/pliego/Pliego-Regular.woff2?url';
+import GoogleAnalytics from '../components/analytics/GoogleAnalytics.astro';
+import Appearance from '../components/edition/Appearance.astro';
+import AppSheet from '../components/edition/AppSheet.astro';
+import EditionSearch from '../components/edition/EditionSearch.astro';
+import Glyph from '../components/edition/Glyph.astro';
+import Later from '../components/edition/Later.astro';
+import MenuButton from '../components/edition/MenuButton.astro';
+import SiteMenu from '../components/edition/SiteMenu.astro';
+import MetaTags from '../components/seo/MetaTags.astro';
+import headSource from '../lib/editionHead.js?raw';
+import { GROUPS, INSTALL, SECTIONS } from '../lib/editionNav';
+import { FIRST, LATER } from '../lib/editionStyles';
+import { SITE_DESCRIPTION } from '../lib/editionVoice.mjs';
+import { nameplate } from '../lib/nameplate.mjs';
+import { SUBSTACK_SUBSCRIBE_URL } from '../lib/newsletter';
+
+interface Props {
+  title?: string;
+  description?: string;
+  homepage?: boolean;
+  reader?: boolean;
+  noindex?: boolean;
+  canonicalUrl?: string;
+  ogType?: 'website' | 'article';
+  ogImage?: string;
+  ogImageAlt?: string;
+  lang?: 'vi' | 'en';
+  /** The styles of the page's first screen, inline in the head (lib/editionStyles.ts). */
+  first?: string;
+  /** The rest of the page's styles, linked before the colophon (lib/editionStyles.ts);
+      false where the page links its own where its first screen ends. */
+  later?: string | false;
+}
+const {
+  title = 'The Cochinchine Pensées',
+  description = SITE_DESCRIPTION,
+  homepage = false,
+  reader = false,
+  noindex = false,
+  canonicalUrl,
+  ogType = reader ? 'article' : 'website',
+  ogImage,
+  ogImageAlt,
+  lang = 'vi',
+  first = FIRST.page,
+  later = LATER.shell,
+} = Astro.props;
+
+const path = Astro.url.pathname.replace(/\/$/, '') || '/';
+const current = (href: string) =>
+  path === href || path.startsWith(`${href}/`) ? 'page' : undefined;
+const Wordmark = homepage ? 'h1' : 'p';
+const year = new Date().getFullYear();
+// The head script is written to be read (lib/editionHead.js) and shipped minified.
+const headScript = transformSync(headSource, { minify: true, target: 'es2022' }).code;
+// The name is text; on a visitor's first page it is engraved, from a drawing
+// fetched then (lib/nameplate.mjs, editionHead.js). The reader has no masthead.
+const drawn = nameplate();
+// Links are fetched on intent, by a script (lib/editionSpeculation.ts): the
+// browser's own hover speculation also answered links that only slid under a
+// resting mouse while the page scrolled.
+---
+<!doctype html>
+<html lang={lang} data-system="edition" data-reader={reader ? 'true' : undefined} data-nameplate-src={reader ? undefined : drawn.url}>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+    <meta name="theme-color" content="#faf9f6" media="(prefers-color-scheme: light)" />
+    <meta name="theme-color" content="#11131b" media="(prefers-color-scheme: dark)" />
+    <script is:inline set:html={headScript} />
+    <link rel="preload" href={bodoniLatin} as="font" type="font/woff2" crossorigin />
+    <link rel="preload" href={sansLatin} as="font" type="font/woff2" crossorigin />
+    {/* 7 KB: the capitals of the first screen are Vietnamese (GIỚI THIỆU).
+        Found only by layout, it arrived late: every label was laid out again,
+        its marked letters until then in another face. */}
+    <link rel="preload" href={sansVietnamese} as="font" type="font/woff2" crossorigin />
+    <link rel="preload" href={pliegoMedium} as="font" type="font/woff2" crossorigin />
+    {reader && <link rel="preload" href={pliegoRegular} as="font" type="font/woff2" crossorigin />}
+    <MetaTags title={title} description={description} canonicalUrl={canonicalUrl} ogImage={ogImage} ogImageAlt={ogImageAlt} lang={lang} noindex={noindex} ogType={ogType} />
+    <link rel="icon" href="/brand/mark.svg" type="image/svg+xml" />
+    <link rel="apple-touch-icon" href="/brand/apple-touch-icon.png" />
+    {/* On a home screen (manifest.webmanifest, lib/editionInstall.ts); its name there. */}
+    <link rel="manifest" href="/manifest.webmanifest" />
+    <meta name="apple-mobile-web-app-title" content="Pensées" />
+    <slot name="head" />
+    <style is:inline set:html={first} />
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Đến nội dung chính</a>
+
+    {!reader && (
+      <header class="masthead" data-masthead>
+        <div class="masthead__utility wrap">
+          <a class="caps-link masthead__about" href="/about" aria-current={current('/about')}><span>Giới thiệu</span></a>
+          <div class="masthead__tools">
+            <a class="icon-button masthead__search" href="/search" data-search-open aria-label="Tìm kiếm"><Glyph name="search" size={22} /></a>
+            <a class="button button--ink masthead__subscribe" href="/subscribe">Nhận bài mới</a>
+            <MenuButton class="masthead__menu" />
+          </div>
+        </div>
+        <div class="masthead__title wrap">
+          <Wordmark class="wordmark" style={drawn.lockupStyle}><a href="/" aria-current={path === '/' ? 'page' : undefined}><span class="wordmark__the">The</span> Cochinchine Pensées</a></Wordmark>
+        </div>
+        <nav class="sections wrap" aria-label="Chuyên mục">
+          <ul role="list">
+            {SECTIONS.map((section) => <li><a href={section.href} aria-current={current(section.href)}>{section.label}</a></li>)}
+          </ul>
+        </nav>
+      </header>
+    )}
+
+    <div class="scroll-shield" data-scroll-shield aria-hidden="true" hidden></div>
+    <div class="bar" data-bar data-mode={reader ? 'reader' : 'float'} inert={!reader}>
+      <div class="bar__inner wrap">
+        <a class="bar__name" href="/" tabindex={reader ? undefined : '-1'}><span class="bar__the">The</span> Cochinchine Pensées</a>
+        {reader ? (
+          <div class="bar__context"><slot name="bar" /></div>
+        ) : (
+          <nav class="bar__sections" aria-label="Chuyên mục, thanh nổi">
+            <ul role="list">
+              {SECTIONS.map((section) => <li><a href={section.href} aria-current={current(section.href)}>{section.label}</a></li>)}
+            </ul>
+          </nav>
+        )}
+        <div class="bar__tools">
+          <slot name="bar-tools" />
+          <button class="icon-button bar__search" type="button" data-search-open aria-label="Tìm kiếm"><Glyph name="search" size={22} /></button>
+          {!reader && <a class="button button--ink bar__subscribe" href="/subscribe">Nhận bài mới</a>}
+          <MenuButton class="bar__menu" />
+        </div>
+      </div>
+      {reader && <div class="bar__progress" aria-hidden="true"><span data-progress></span></div>}
+    </div>
+
+    <main id="main" tabindex="-1"><slot /></main>
+
+    {later && <Later href={later} />}
+    <footer class="colophon">
+      <div class="colophon__cta wrap">
+        <a class="colophon__subscribe" href={SUBSTACK_SUBSCRIBE_URL} rel="external">
+          Nhận bài mới<Glyph name="external" size={48} /><span class="sr-only"> (Substack)</span>
+        </a>
+        <button class="colophon__search" type="button" data-search-open><Glyph name="search" size={20} /><span>Tìm bài viết</span></button>
+      </div>
+      <div class="colophon__nav wrap">
+        {GROUPS.map((group) => (
+          <nav class="colophon__group" aria-labelledby={`colophon-${group.id}`}>
+            <h2 id={`colophon-${group.id}`}>{group.label}</h2>
+            <ul role="list">
+              {group.links.map((link) => (
+                <li><a href={link.href} rel={link.external ? 'external' : undefined}>{link.label}<Glyph name={link.glyph ?? 'forward'} size={16} /></a></li>
+              ))}
+              {group.id === 'follow' && (
+                <li data-install-entry hidden><button type="button" data-install>{INSTALL}<Glyph name="install" size={16} /></button></li>
+              )}
+            </ul>
+          </nav>
+        ))}
+        <div class="colophon__group">
+          <h2 id="colophon-appearance">Giao diện</h2>
+          <Appearance name="appearance" labelledby="colophon-appearance" />
+        </div>
+      </div>
+      <div class="colophon__mark wrap" aria-hidden="true"><span>The Cochinchine Pensées</span></div>
+      <div class="colophon__base wrap">
+        <p class="caps">© {year} The Cochinchine Pensées</p>
+      </div>
+    </footer>
+
+    <a class="to-top" href="#main" data-to-top aria-label="Về đầu trang" hidden><Glyph name="up" size={20} /></a>
+    <SiteMenu />
+    <EditionSearch />
+    <slot name="after" />
+    {/* How to add the publication to a home screen, where the browser cannot by itself. */}
+    <template data-later="app-sheet"><AppSheet /></template>
+    <GoogleAnalytics />
+
+    <script>
+      import { initHand } from '../lib/editionHand';
+      import { initInstall } from '../lib/editionInstall';
+      import { initLamps } from '../lib/editionLamp';
+      import { initSpeculation } from '../lib/editionSpeculation';
+      import { turnPage, turning } from '../lib/editionTurn';
+      // Hover, the lamp and link fetching answer a hand that moves, never the
+      // page scrolling beneath a resting one (lib/editionHand.ts).
+      initHand();
+      initLamps();
+      initSpeculation();
+      initInstall();
+
+      // What has been read stays readable without a connection (lib/serviceWorker.js).
+      // Registered once the page has loaded and the browser is idle: the first
+      // visit's own files come first.
+      if (import.meta.env.PROD && 'serviceWorker' in navigator) {
+        const register = () =>
+          navigator.serviceWorker.register('/sw.js', { updateViaCache: 'none' }).catch(() => {});
+        const idle = () =>
+          'requestIdleCallback' in window ? requestIdleCallback(register, { timeout: 4000 }) : setTimeout(register, 1000);
+        if (document.readyState === 'complete') idle();
+        else addEventListener('load', idle, { once: true });
+      }
+
+      const root = document.documentElement;
+      const reduced = () => matchMedia('(prefers-reduced-motion: reduce)').matches;
+
+      // Prints and covers start loading a screen and a half before they
+      // arrive. A lazy image is otherwise left until it is nearly on screen
+      // (Safari waits longest), and a phone scrolled at reading pace reached
+      // blank paper that printed as it came into view.
+      if ('IntersectionObserver' in window) {
+        const early = new IntersectionObserver(
+          (entries) => {
+            for (const entry of entries) {
+              if (!entry.isIntersecting) continue;
+              early.unobserve(entry.target);
+              (entry.target as HTMLImageElement).loading = 'eager';
+            }
+          },
+          { rootMargin: '150% 0px' },
+        );
+        document.querySelectorAll('main img[loading="lazy"]').forEach((image) => early.observe(image));
+      }
+
+      // Floating bar: appears once the masthead has left the viewport.
+      const masthead = document.querySelector('[data-masthead]');
+      const bar = document.querySelector<HTMLElement>('[data-bar]');
+      if (masthead && bar) {
+        new IntersectionObserver(([entry]) => {
+          const show = !entry.isIntersecting && entry.boundingClientRect.top < 0;
+          bar.dataset.visible = String(show);
+          bar.inert = !show;
+        }).observe(masthead);
+      }
+
+      // The browser chrome takes the colour of the paper the page is printed
+      // on, read from the page itself: the appearance (system, light or dark)
+      // and, in the reader, the paper chosen there (Giấy, Ngà, Sương, Rêu).
+      // A 1px canvas turns the oklch paper into the hex the chrome expects.
+      const metas = [...document.querySelectorAll<HTMLMetaElement>('meta[name="theme-color"]')];
+      const probe = document.createElement('canvas').getContext('2d', { willReadFrequently: true });
+      const paperHex = () => {
+        const paper = getComputedStyle(root).getPropertyValue('--paper').trim();
+        if (!probe || !paper) return;
+        probe.fillStyle = '#000';
+        probe.fillStyle = paper;
+        probe.fillRect(0, 0, 1, 1);
+        const [red, green, blue] = probe.getImageData(0, 0, 1, 1).data;
+        return `#${[red, green, blue].map((value) => value.toString(16).padStart(2, '0')).join('')}`;
+      };
+      const syncChrome = () => {
+        const paper = paperHex();
+        if (paper) for (const meta of metas) meta.setAttribute('content', paper);
+      };
+      syncChrome();
+
+      // Safari 26 paints the status bar itself (and, while a sheet is open,
+      // the band behind its toolbar) in the page's paper, but reads that
+      // colour again only when the fixed layers at the edges of the screen
+      // change: one is added or removed (WebKit, Page::updateFixedContainerEdges).
+      // A new paper under the same bar left the old colour above it until a
+      // sheet was closed or the page reloaded. So once a change of paper has
+      // settled (the spread is over, the paper's own fade is done), two strips
+      // of nearly clear paper stand at the edges for a moment: the edges are
+      // read again, from the new paper. They sit in the top layer, above any
+      // open sheet, and take no pointer.
+      let edgeProbe: HTMLElement | undefined;
+      let probing = false;
+      let stale = false;
+      const frame = () => new Promise((resolve) => requestAnimationFrame(resolve));
+      const settled = async () => {
+        await turning()?.finished.catch(() => {});
+        const fades = root
+          .getAnimations()
+          .filter((animation) => animation.effect?.getComputedTiming().endTime !== Infinity);
+        await Promise.all(fades.map((animation) => animation.finished.catch(() => {})));
+      };
+      const rereadEdges = async () => {
+        if (!('showPopover' in HTMLElement.prototype)) return;
+        if (probing) {
+          stale = true;
+          return;
+        }
+        probing = true;
+        do {
+          stale = false;
+          await settled();
+          if (!edgeProbe) {
+            edgeProbe = document.createElement('div');
+            edgeProbe.className = 'edge-probe';
+            edgeProbe.popover = 'manual';
+            edgeProbe.setAttribute('aria-hidden', 'true');
+            edgeProbe.append(document.createElement('i'), document.createElement('i'));
+            document.body.append(edgeProbe);
+          }
+          // The foot only when a sheet already stands there: over the page
+          // itself, a strip would lay a band of paper behind the toolbar.
+          const foot = [...document.querySelectorAll('.sheet:popover-open, .menu:popover-open')].some(
+            (sheet) => sheet.getBoundingClientRect().bottom >= innerHeight - 1,
+          );
+          edgeProbe.toggleAttribute('data-foot', foot);
+          edgeProbe.showPopover();
+          await frame();
+          await frame();
+          await new Promise((resolve) => setTimeout(resolve, 120));
+          edgeProbe.hidePopover();
+        } while (stale);
+        probing = false;
+      };
+      const recolour = () => {
+        syncChrome();
+        rereadEdges();
+      };
+      matchMedia('(prefers-color-scheme: dark)').addEventListener('change', recolour);
+      document.addEventListener('edition:paper', recolour);
+
+      // Appearance: system, light or dark; one choice for the whole site.
+      // Any radio group with data-appearance (e.g. the reader's) stays in sync.
+      // The new paper spreads from the control that chose it, as ink runs
+      // from where it touches: the new page is uncovered by a circle growing
+      // from that control over the old one (foundation.css, data-appearing).
+      const radios = () => [...document.querySelectorAll<HTMLInputElement>('input[name="appearance"], input[data-appearance]')];
+      const turn = (value: string) => {
+        for (const label of document.querySelectorAll<HTMLElement>(`.appearance [data-mode="${value}"]`)) {
+          label.dataset.turn = '';
+          label.addEventListener('animationend', () => delete label.dataset.turn, { once: true });
+        }
+      };
+      const setAppearance = (value: string, from?: Element | null) => {
+        const apply = () => {
+          if (value === 'auto') delete root.dataset.theme;
+          else root.dataset.theme = value;
+          recolour();
+          radios().forEach((input) => (input.checked = input.value === value));
+          turn(value);
+          document.dispatchEvent(new CustomEvent('edition:appearance'));
+        };
+        try {
+          if (value === 'auto') localStorage.removeItem('pensees-theme');
+          else localStorage.setItem('pensees-theme', value);
+        } catch {}
+        turnPage(apply, from);
+      };
+      const stored = root.dataset.theme ?? 'auto';
+      radios().forEach((radio) => {
+        radio.checked = radio.value === stored;
+        radio.addEventListener('change', () => setAppearance(radio.value, radio.closest('label')));
+      });
+      // A page the browser kept for Back, or open in another tab, still wears
+      // the appearance it was left in: it is read again when the page returns
+      // or another page changes it, so every page agrees with the last choice.
+      const restoreAppearance = () => {
+        let value = 'auto';
+        try {
+          const saved = localStorage.getItem('pensees-theme');
+          if (saved === 'light' || saved === 'dark') value = saved;
+        } catch {}
+        if ((root.dataset.theme ?? 'auto') === value) return;
+        if (value === 'auto') delete root.dataset.theme;
+        else root.dataset.theme = value;
+        recolour();
+        radios().forEach((input) => (input.checked = input.value === value));
+        document.dispatchEvent(new CustomEvent('edition:appearance'));
+      };
+      addEventListener('pageshow', (event) => {
+        if (event.persisted) restoreAppearance();
+      });
+      addEventListener('storage', (event) => {
+        if (event.key === 'pensees-theme' || event.key === null) restoreAppearance();
+      });
+
+      // Back to the top: always one tap away once the reader is a screen down.
+      const toTop = document.querySelector<HTMLElement>('[data-to-top]');
+      if (toTop) {
+        toTop.hidden = false;
+        let shown = false;
+        const place = () => {
+          const show = scrollY > innerHeight * 1.2;
+          if (show === shown) return;
+          shown = show;
+          toTop.dataset.shown = String(show);
+        };
+        let queued = 0;
+        addEventListener(
+          'scroll',
+          () => {
+            queued ||= requestAnimationFrame(() => {
+              queued = 0;
+              place();
+            });
+          },
+          { passive: true },
+        );
+        place();
+        toTop.addEventListener('click', (event) => {
+          event.preventDefault();
+          window.scrollTo({ top: 0, behavior: reduced() ? 'instant' : 'smooth' });
+          document.querySelector<HTMLElement>('#main')?.focus({ preventScroll: true });
+        });
+      }
+    </script>
+  </body>
+</html>

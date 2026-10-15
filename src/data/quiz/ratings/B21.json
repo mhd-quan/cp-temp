@@ -1,0 +1,290 @@
+{
+  "rater": "B",
+  "block": "B21",
+  "items": {
+    "community.1": {
+      "0": "IA CA TP NOA MR AUC COA PC SC TR JU EU GU NE LC BIC MDS US ETS EC TW PM BK KS ME NS IS SF RF GM ES ELP PR NDL LI CF ANC RS LS GOC AM CM LEG CN IR PN SN VEF BN RZ CLR SDD JR WC PP TAR THW TRA PIP RT NEOR",
+      "1": "ST MA NAZ ML NA BA NLS MI LF NEO SL NR AD CH NP CRA UT TE EM RE SR HF TH PG MO IM REZ PSD FA DIR DS OR AL GE LL RC LN HO",
+      "2": "HS CL OB LIF KE CAE ACK CIN EA NM GAU",
+      "3": "JA LE",
+      "-1": "AMC ONC AP LT MC XC EB IF JM EUR EN HI IB ID LZ DEG DE LU CC SU SUL PA NAC CR TI",
+      "-2": "NAS POC CO DI ARC CI AS PE PER MU GA AC SMCD GC NATC WA CT UJ PAL",
+      "-3": "STC CST NC RET BC COR GAN GS DC HES COL BL",
+      "split": "ML RS NLS CH LZ",
+      "why": "Whether the state should bypass clans, guilds and associations. Jacobins, Legalists and individualist-liberal or strongly centralising camps say yes; corporatist, subsidiarist, communitarian, village-based and Hegelian camps defend intermediary bodies.",
+      "notes": {
+        "JA": "Le Chapelier law (1791) banned guilds and corporations so only citizen and nation remained: 3.",
+        "LE": "Shang Yang broke up clan households into registered units answerable directly to the state: 3.",
+        "NM": "Nordic statist individualism (Trägårdh and Berggren) frees the person from family and charity through direct welfare: 2.",
+        "CST": "Subsidiarity (Quadragesimo Anno 79) defends intermediate bodies against the state: -3.",
+        "HES": "Hegel (Philosophy of Right 250-256) makes corporations and estates the link between state and individuals: -3.",
+        "COL": "Tocqueville: secondary bodies are the bulwark against despotism: -3.",
+        "BL": "Blue Labour revives guilds, mutuals and associations (Glasman): -3.",
+        "GAU": "Referendum link between de Gaulle and the people, bypassing parties: 2."
+      }
+    },
+    "knowledge.3": {
+      "0": "MU GA NOA CAE AUC COA SUL POC HS EU LU TH GC LC MDS GS IS DIR ME DE DEG GM ES SF RF ELP SL PR NDL LI OR CF AL SR MI ANC GE LL TI LS GOC AM CM LN SN SDD JR HF NP WC TAR NM PSD FA",
+      "1": "CA DC SU MR SMCD DI NC HES ML ST HO ACK ONC AMC NE PA NAC GAU BIC RET LT US EC PM MO IF LEG CN CIN EN IR PN KE LZ REZ ID HI IM AD NR PP AP COL PAL RS EUR NA CH",
+      "2": "NLS TP UJ STC CO CST PG SC MA JU GU BC ARC CR ETS BK NAZ NAS BN IB RZ EB CLR JA BL RT PER BA",
+      "3": "GAN PE MC XC NATC JM VEF CT WA COR CI",
+      "-1": "AC AS IA TR CC UT NEO LIF CL RE EA KS TW PC RC NS DS LF PIP CRA NEOR THW",
+      "-2": "TE LE EM TRA OB",
+      "-3": "",
+      "split": "SL RE PR GM MA NLS",
+      "why": "Whether school exists first to form moral character or to transmit knowledge. Confucian, religious, traditionalist, nationalist-patriotic and moral-regeneration camps put character first; technocratic, liberal-rationalist and market-modernist camps put knowledge and skills first.",
+      "notes": {
+        "MC": "Mencius 3A:4: Sage-kings set up schools to teach human relationships (ngũ luân): 3.",
+        "XC": "Xunzi opens with Khuyến học: learning is the cultivation of ritual and virtue: 3.",
+        "JM": "Imperial Rescript on Education (1890) and shushin moral instruction as the core of schooling: 3.",
+        "TE": "Saint-Simon and technocracy put scientific and technical competence first: -2.",
+        "OB": "Rand: education means training the reasoning mind, not moral drill: -2.",
+        "LE": "Han Fei: law and reward, not moral exhortation, govern people; schooling is redundant: -2.",
+        "GAN": "Nai Talim (basic education): character building precedes literacy: 3.",
+        "MA": "Mao: schools must produce workers with socialist consciousness and culture, red before expert: 2.",
+        "PE": "Nhân vị: the formation of the person precedes the transmission of skills: 3."
+      }
+    },
+    "elites.decision.7": {
+      "0": "IA CA UJ NOA MR AUC SUL STC RC CO DI PG SC HS ST MA JU LU HO GU ACK PA NAC RET GS US ETS MC EC LE TW BK MO XC KS ME IS IF NATC JM NAS SF RF PR RE ANC GE PAL LL LS GOC AM EA LEG CN EN LN PN VEF CT BN WA RZ EB TRA CRA COR CI RT NEOR EUR",
+      "1": "SL NEO ML RS NLS KE NA BA SU IB IM HI CR TH GC BIC PSD NM THW CST NC LIF NS DIR DS EM CF LI LZ REZ CIN CLR JR NR EU POC LF MI OB PE PM",
+      "2": "CM CL COL ARC LC NDL OR AL TE HES UT AMC NE ONC FA SMCD ID SR PC",
+      "3": "BC HF",
+      "-1": "JA PER MDS LT BL GM ES DE DEG GA GAN NAZ WC PP IR COA TR TI MU",
+      "-2": "GAU TP AC AS CC ELP CH NP TAR PIP SN",
+      "-3": "CAE SDD AD AP DC",
+      "split": "JA LU ML PM NAC",
+      "why": "Representative government versus referendum and direct popular rule. Burkean, Federalist, liberal-constitutional and technocratic camps want representatives or experts to decide; direct-democracy, populist, council and plebiscitary traditions want the people to vote on big questions.",
+      "notes": {
+        "BC": "Burke, Speech to the Electors of Bristol (1774): a representative owes his judgment, not obedience to instructions: 3.",
+        "HF": "Federalist 10 and 63: representation filters passions of the majority, a republic is not a pure democracy: 3.",
+        "SDD": "Initiative and mandatory referendum are the core of Swiss practice: -3.",
+        "AP": "The 1892 Omaha Platform demanded initiative and referendum: -3.",
+        "TP": "Sun Yat-sen gave the people four rights: election, recall, initiative and referendum: -2.",
+        "CAE": "Napoleon III ruled by plebiscite over parliament: -3.",
+        "GAU": "De Gaulle used referendums to bypass parties (1958, 1962, 1969): -2.",
+        "COL": "Tocqueville feared the tyranny of the majority and trusted representative bodies: 2."
+      }
+    },
+    "lifestyle.family.6": {
+      "0": "WA VEF NAZ ACK MA NLS GOC TI LS SU NA BA TP KE UJ CA TH PP ML GU PC POC TE HS SC LE TW MO KS ME NS DIR DS IS DE DEG OR AL COL AD CLR SDD JR HF AUC COA SUL REZ SN IR PN EA CM TAR GS EB PER PG LC",
+      "1": "AMC HI BN RZ MC XC IF JM ONC NC SMCD GC NE NP WC JU RS GAN MU CAE MR PM BK CN EN GAU BIC AM ETS ID IB LT AP NEOR",
+      "2": "CT CR RT PAL NAC PA EC STC BC ARC CO BL RET DI HO HES IM EUR NAS LEG",
+      "3": "CI CST NATC COR PE ST",
+      "-1": "AS GA CL SL NEO NDL PSD THW FA GE NR LI RE LZ LN CIN RC CH ELP US NOA EU LU CC",
+      "-2": "AC IA DC LIF SF RF LF MI ANC OB PR MDS NM CF GM ES EM TRA CRA PIP LL SR UT TR",
+      "-3": "JA",
+      "split": "AMC CR NAC ID IM ML LT PER",
+      "why": "Whether divorce should be made harder. Catholic, integralist, traditionalist, Confucian-familial and Stalinist-natalist camps want stricter grounds; liberal, feminist, libertarian, socialist and Jacobin camps defend easy divorce as a personal freedom.",
+      "notes": {
+        "CST": "Casti Connubii (1930) and canon law: marriage indissoluble; civil divorce condemned: 3.",
+        "PE": "Ngô Đình Nhu Family Law (Luật Gia đình 1959) banned divorce in South Vietnam: 3.",
+        "ST": "Soviet family law of 1944 made divorce a costly court procedure after the 1920s permissiveness: 3.",
+        "NATC": "Franco abolished the 1932 divorce law; Spain had no divorce until 1981: 3.",
+        "JA": "The 1792 revolutionary divorce law allowed divorce by mutual consent or incompatibility: -3.",
+        "SR": "Radical Naquet law restored divorce in France in 1884: -2.",
+        "IM": "Muhammad Abduh and Qasim Amin urged curbs on male repudiation (talaq), under judicial control: 2.",
+        "LF": "Marriage as contract; the state should not dictate its terms: -2."
+      }
+    },
+    "violence.2": {
+      "0": "BC XC MO MU HI TH MDS GS TI RC SU NOA UJ CN CIN EN IR NP WC IB BN ARC RET DI RE AP PER CH TRA CRA IS PR NDL CF NEO RF ES NE NAC LS",
+      "1": "CT CI CST TW FA PSD NM THW EU ETS CAE MR AUC COA SUL PC TE PG SC KS DS RS NAZ NAS JM PP ID IM GC LC ONC CO SMCD NC COL OR CM ELP PIP LIF DEG EM ME NS DIR BL RT EUR PE HO GOC SDD",
+      "2": "HS AM COR BK EA HES LE STC EC PM US GM BIC POC AL HF IF NATC NEOR SN",
+      "3": "GAN CA EB JU WA",
+      "-1": "LF OB ANC UT SL LI LT NA SR KE LN PN RZ DE LEG TAR GAU SF PA MI GE LL",
+      "-2": "IA AD NR ST ACK BA PAL AMC CR TP LU CC AS GA DC LZ VEF",
+      "-3": "MC CL JA CLR JR NLS MA ML TR GU AC REZ",
+      "split": "LT CST CI CT XC GAU SR PER ML",
+      "why": "Whether even brutal tyranny may be resisted by force. Pacifist and obedience traditions (Gandhi, Tolstoy, Engaged Buddhism, Salafi quietism, divine-right monarchy) say no; revolutionary, republican, Mencian and natural-rights camps defend armed resistance.",
+      "notes": {
+        "GAN": "Satyagraha excludes violence even against an oppressor; Gandhi advised even the Jews to refuse by non-violence: 3.",
+        "CA": "Tolstoy (The Kingdom of God Is Within You) and Sermon on the Mount: do not resist evil by violence: 3.",
+        "WA": "Salafi-Wahhabi doctrine forbids khuruj (rebellion) against the Muslim ruler however unjust: 3.",
+        "MC": "Mencius 1B:8: killing the tyrant Zhou is killing a mere fellow, not a king: -3.",
+        "CL": "Locke, Second Treatise ch. 19: the people may appeal to heaven against tyranny: -3.",
+        "JA": "1793 Declaration of Rights art. 35: insurrection is the most sacred duty when government violates rights: -3.",
+        "EB": "Thích Nhất Hạnh and Thích Quảng Đức: resistance by non-violence and self-sacrifice only: 3.",
+        "HES": "Hegel (Philosophy of Right 258) rejects a right of revolution against the state: 2.",
+        "AMC": "Second Amendment tradition: armed citizenry as the last check on tyranny: -2."
+      }
+    },
+    "religion.state.1": {
+      "0": "REZ ID HES MC PM LE NA CLR HF IR PN CO DE SDD NM ETS CAE MR AUC PE COA SUL SC POC DS ME NS IS NOA PER AP NP PP TAR GC AL OR COL NEOR TE",
+      "1": "CR IM NAC PA ONC CM EC XC MO SU AD CN EN BL DI PG KS IF PAL",
+      "2": "HI RZ IB RT ARC AM BC LEG EUR HS CST STC NAS RET",
+      "3": "BK CI VEF WA CT BN NATC COR JM",
+      "-1": "TW TP NR LN SN DEG NEO THW PSD FA LT US GS EB UJ CH WC AMC TH NE GAU BIC DIR EA RE PC RC SMCD NAZ",
+      "-2": "JU GU NLS EU LU CC BA JA CL LIF SL NDL UT LF MI ANC IA MU GA CIN LZ MDS GM ES EM TRA PR RS ELP LC CF LS TI GOC LL GE NC SF RF LI CRA",
+      "-3": "ML ST MA HO ACK TR KE SR OB AC AS DC CA JR PIP GAN",
+      "split": "EB HI CR IM BC CAE SU ID LT",
+      "why": "Whether the state should officially sponsor one religion. Religious-state, established-church and theocratic camps say yes; secular republican, Marxist-Leninist, liberal and anarchist camps say no. Wording cites Lý–Trần Buddhism, so Buddhist-kingship and Vietnamese-heritage views weigh in.",
+      "notes": {
+        "BK": "Ashokan and Lý–Trần model: the king patronises the Sangha as state religion (Lý Thái Tổ, Lý Thánh Tông): 3.",
+        "CI": "Quas Primas and Immortale Dei: the state owes public worship to the true religion: 3.",
+        "ML": "Marxism-Leninism treats religion as ideological illusion; state separate from church and atheist propaganda: -3.",
+        "KE": "Laiklik is one of the Six Arrows; Caliphate abolished 1924 and religion subordinated to state: -3.",
+        "SR": "French Radicals wrote the 1905 law on separation of Churches and State: -3.",
+        "JR": "Jefferson, Virginia Statute for Religious Freedom (1786): no state-supported religion: -3.",
+        "HS": "Hobbes, Leviathan ch. 31 and 42: the sovereign decides public worship: 2.",
+        "NC": "Kuyper: sphere sovereignty means a free church in a free state, no state religion: -2.",
+        "CST": "Dignitatis Humanae allows civil recognition of a religion provided religious freedom is kept: 2.",
+        "GAN": "Sarva dharma sambhava: the state should treat all religions equally: -3."
+      }
+    },
+    "regime.2": {
+      "0": "HES COA IF NAZ NAS SC NS DS PER PP CST BN RZ CN EN IR PN",
+      "1": "LEG CI ARC STC NATC JU GAU AL MR AUC PAL PG HF",
+      "2": "BK MC EC XC MO LE KS NEOR BIC WA CAE EUR RT ME",
+      "3": "AM EA COR HS SUL JM",
+      "-1": "BC ONC VEF IB CT HI EB CR NAC PA NP TE DI NC DIR IS RET GC SN PE PM",
+      "-2": "AMC TH LC UT RE ID IM NE CH PC RC POC CO SMCD LIF SF RF GM DE DEG EM SL NEO PR NDL LI OR COL LF MI GE LL RS GOC CIN LN REZ NOA UJ SU GAN LT ETS US BL TAR WC NM TRA ES CF ELP THW MDS GS PSD FA NA BA NLS LS TI CRA PIP AP OB ANC",
+      "-3": "CM CL AD CLR JA JR SDD TP NR AC AS MU IA GA CA DC ML ST MA TR LU CC HO GU ACK EU SR KE LZ TW",
+      "split": "LEG HES LE CI GAU AL",
+      "why": "Whether a king should personally decide the big matters. Absolutist, Legalist, Confucian-ruler and neo-reactionary camps want an active sovereign; constitutional monarchists, republicans, democrats, socialists and anarchists want a symbolic or no king.",
+      "notes": {
+        "CM": "Bagehot and the settlement of 1689: the monarch reigns but does not govern; dignified, not efficient, part: -3.",
+        "AM": "Divine right: Louis XIV, Bossuet (Politique tirée de l Écriture sainte): the king holds all powers: 3.",
+        "EA": "Frederick II: the king is the first servant of the state, but he decides in person: 3.",
+        "JM": "Kokutai orthodoxy (1937 Kokutai no Hongi): Emperor is sovereign and directly rules: 3.",
+        "TW": "Laozi 17 and 57: the best ruler is barely known and acts by not acting: -3.",
+        "LE": "Han Fei: ruler holds the handles of reward and punishment, but governs by technique and law, doing little himself: 2.",
+        "HES": "Hegel (Philosophy of Right 279-280): the monarch only dots the i, ministers carry the content: 0.",
+        "PAL": "Hoppe (Democracy: The God That Failed) argues private-property monarchy beats democracy: 1.",
+        "NEOR": "Moldbug: a sovereign CEO with full authority, king or not: 2."
+      }
+    },
+    "nature-of-man.6": {
+      "0": "MDS MR HES TH NAC LC ONC XC PM HI OR AL RE SR CF AD SDD GE LF ES GM DEG US GS TI GOC EN PN REZ CH PER AP STC SUL COA SU NOA POC EU CC CO AM CM",
+      "1": "SL NEO DS PC RC NM THW PSD CAE AUC ACK GU KS NE GAU BIC NEOR EUR HS PG IM NDL LI HF PP WC NP IR KE LZ NAS JM NA BA UJ TP TRA DIR NS ME IS RS",
+      "2": "TE EM FA ML ST MA TR JU HO NLS LE JA NAZ IF EA LS",
+      "3": "UT MO",
+      "-1": "EC BK TW BN RZ ARC PA GC RET CIN LN JR CLR LIF DC AS PR SF DE CN SN TAR ELP NATC PIP LEG DI NC SMCD BL LU GA",
+      "-2": "MC CT VEF WA IB ID EB CR BC AMC COR RT SC CL MI ANC COL RF LT ETS CRA PAL NR AC MU",
+      "-3": "CST CI PE OB IA LL CA GAN",
+      "split": "SL NEO ML HES LF IM CL",
+      "why": "Consequentialism versus rights and duties: is the greatest happiness of the many the measure of right, even at the cost of a minority? Utilitarians, Mohists and collectivist or state-first camps say yes; natural-rights, religious-natural-law, Kantian-personalist and self-ownership camps say no.",
+      "notes": {
+        "UT": "Bentham and Mill: the greatest happiness of the greatest number is the measure of right and wrong: 3.",
+        "MO": "Mozi, Jian ai and Fei gong: right is what benefits the world (li), judged by the benefit to all: 3.",
+        "CST": "Catholic doctrine of intrinsic evil: the end never justifies the means (Veritatis Splendor 80): -3.",
+        "PE": "Mounier and Ngô Đình Nhu: the person is never a mere means to collective ends: -3.",
+        "OB": "Rand: the sacrifice of the individual to the many is the essence of evil (The Virtue of Selfishness): -3.",
+        "GAN": "Gandhi: sarvodaya is the welfare of all, not utilitarian greatest number; means and ends are one: -3.",
+        "TR": "Their Morals and Ours (1938): ends justify means if the end is liberation, judged by class interest: 2.",
+        "MC": "Mencius 2A:2 and 7A:33: not even for the whole world would one kill one innocent person: -2.",
+        "LL": "Self-ownership (Steiner, Vallentyne): rights as side-constraints: -3."
+      }
+    },
+    "gender.1": {
+      "0": "CA DE DEG GM UT PR NR EB PG TW TE DS NS ME DIR IS OR AL CF LI EM NOA SUL",
+      "1": "SF AC GA",
+      "2": "DC US",
+      "3": "RF",
+      "-1": "LIF AS MU IA ES EU MDS SL THW NM FA LL GC IM LT ETS MO SC TRA CRA PIP KE ELP RE CIN LN SN JA CLR AD SDD HF JR GS SR NDL PC RC POC TP NA UJ SU TI LS GOC RS PSD NEO EA CM MR AUC COA",
+      "-2": "ML ST MA TR GU HO NLS LU CC CL LF MI OB ANC GE PAL BC ARC ONC AMC TH NE PA NAC LC GAU BIC RET ID HI BN RZ DI NC SMCD CO BL MC XC EC LE PM BK KS HS HES AM LEG CAE PE STC GAN BA CN EN IR PN LZ REZ NP WC PP TAR CH PER AP COL JU ACK CT EUR",
+      "-3": "CR COR CI RT NEOR VEF WA IB CST IF NAZ NATC JM NAS",
+      "split": "LIF ES SF AC UT SL ELP",
+      "why": "Is patriarchy the root injustice? Radical feminism says yes by definition; libertarian-municipalist, utopian-socialist and some anarchist camps rank it at or near the top; Marxist, liberal and market camps put class, state or rights first; conservative, traditionalist and religious camps deny patriarchy is an injustice.",
+      "notes": {
+        "RF": "Millett (Sexual Politics) and Firestone: patriarchy is the oldest and most basic system of domination: 3.",
+        "DC": "Öcalan: the enslavement of woman is the oldest domination; jineology and co-chair system in Rojava: 2.",
+        "US": "Fourier: social progress is measured by the extension of women privileges; he coined feminism: 2.",
+        "SF": "Socialist feminism joins patriarchy to capital as dual systems, without ranking patriarchy deepest: 1.",
+        "ML": "Engels (Origin of the Family): women oppression follows private property and class: -2.",
+        "CR": "Complementarian and headship doctrine denies patriarchy as injustice; Phyllis Schlafly: -3.",
+        "LIF": "Wollstonecraft/Mill: legal subordination is a grave wrong, but liberals do not rank it the deepest: -1.",
+        "UT": "Mill (Subjection of Women, 1869) calls the legal subordination of women one of the chief hindrances to human improvement: 0."
+      }
+    },
+    "knowledge.1": {
+      "0": "SL LI CF COL DE GM CRA PIP CR PA GC CO CST CI NEOR SC HS BK ME NS IS AM CM LEG NATC NAS CN IR PN REZ SU NOA COA ID WA IB CT BN HI RZ EB PER AP WC PP TAR TI LS GOC EU US ETS CLR LL GE PAL POC MI BL EUR",
+      "1": "JU ML ST NLS GAU JA UT NEO PSD NM THW CL OR AL NR LIF EM TRA BC ONC AMC NE NAC LC BIC SMCD HES MC KS EA JM KE CIN LN SN BA AUC IM SDD JR RE NDL HO PC RC IF LZ PE MR STC VEF HF",
+      "2": "RS DS CAE DIR SR TE FA TH PG LE XC MO NA",
+      "3": "EC PM TP",
+      "-1": "PR LF OB ANC IA SF MU DC GA CA ES ARC NC COR TW EN GAN UJ CH ELP NP LU CC TR GU LT GS MA MDS RF DEG RET DI AD",
+      "-2": "AC AS RT NAZ SUL ACK",
+      "-3": "",
+      "split": "SL PR ML LIF NDL CL RS",
+      "why": "Whether a common, openly marked entrance exam is the fairest university gate. Examination-state and meritocratic camps say yes; anarchist, egalitarian and radical-equity camps see exams as class filters; libertarians would let institutions choose for themselves; racial or patronage regimes use other tests.",
+      "notes": {
+        "EC": "Khoa cử since Lý/Trần and the Sui-Tang exams: open, anonymised, ranked tests to pick officials: 3.",
+        "PM": "Daniel Bell (The China Model): national exams plus performance are the fair basis of selection: 3.",
+        "TP": "Sun Yat-sen added the Examination Yuan so only exam-qualified people serve in office: 3.",
+        "MO": "Mozi, Shang xian: promote the worthy without regard to birth: 2.",
+        "MA": "Cultural Revolution suspended gaokao in 1966 and admitted by recommendation (1970–76): -1.",
+        "AC": "Kropotkin and Ferrer: integral education for all, no competitive selection: -2.",
+        "NAZ": "Nazi admissions favoured racial and political criteria (1933 law on overcrowding of German schools): -2.",
+        "PR": "Equity concerns drive test-optional and holistic admissions: -1.",
+        "ARC": "Aristocratic conservatives defend birth, breeding and patronage over tests: -1."
+      }
+    },
+    "nature.8": {
+      "0": "MU MC CO CST NC PE CR CI COR EUR NM UT GS LT RF PIP CRA POC TE PG HS CM LEG CN CIN EN LN SN ID WA BN RZ JR AD CLR SDD NR CF GE LL IM VEF BL",
+      "1": "GM GC AC AS DC BK RET DI RT MDS ELP PR US ETS SF SC",
+      "2": "GA ES CA GAN TW EB MO",
+      "3": "DEG DE",
+      "-1": "IA CL PAL NE PA NAC BC ARC ONC LC SMCD NEOR GU LU CC EU TI LS GOC SL NDL PSD THW FA LIF CAE MR COA STC PC RC HES BIC AM AP WC PP NOA SU TP IR PN LZ REZ IB HI LI COL SR PM EC XC JA",
+      "-2": "EM TRA KS ME NS DIR IS AUC NEO MI ANC AMC GAU ML MA TR JU HO ACK NLS RS SUL EA CH PER NP TAR NA UJ BA KE IF NAZ NATC NAS CT HF OR AL RE LE",
+      "-3": "DS LF OB TH ST JM",
+      "split": "MDS PR SF ML GM CST",
+      "why": "Whether society should work less and consume less even at the cost of income. Degrowth, deep ecology, simple-living and ascetic traditions say yes; productivist, developmental, market and nationalist-industrial camps say no; welfare-left camps like shorter hours but not lower incomes.",
+      "notes": {
+        "DEG": "Kallis, Latouche, Hickel: working time reduction and sufficiency are core levers of planned contraction: 3.",
+        "DE": "Naess and Devall: reduce human impact; voluntary simplicity: 3.",
+        "GAN": "Hind Swaraj and Gandhi simple living: multiply wants not, spin your own cloth: 2.",
+        "MO": "Mozi, Jie yong and Jie zang: frugality; waste is harm: 2.",
+        "LE": "Shang Yang: the state grows rich on farm and war, so the people must work, not idle: -2.",
+        "ST": "Stakhanovism and five-year plans maximised output, with extended hours: -3.",
+        "DS": "Export-led growth: Korea and Japan worked long hours to catch up: -3.",
+        "TH": "Thatcherite supply side prizes work incentives and growth: -3.",
+        "EM": "Ecomodernists decouple impact by technology, not by consuming less: -2.",
+        "MDS": "Four-day-week campaigns (Corbyn 2019) but with pay maintained, so mild: 1."
+      }
+    },
+    "religion.state.3": {
+      "0": "GU RS NA DE DEG MR COA SUL PG EC LE XC ME NS DS IS NATC JM IF RF EN IR PP AD GOC NEOR",
+      "1": "VEF HI BN RZ NLS LU CC SU TP UJ NOA GA NEO PR AL RE FA ES EM TRA GC GAU CAE AUC PE STC TE SC HS HES MC TW PM MO KS DIR NAS SF CN PN LZ REZ CH PER AP NP WC TAR US GS CLR HF TI LEG CT RT EUR LS",
+      "2": "LIF CR AMC ID IM IB WA BK EA CM COL EU LF MI OB ANC IA GE LL PAL AC AS MU DC SL NDL LI CF OR MDS NM PSD THW GM CRA PIP BC ARC ONC TH NE PA NAC LC PC RC POC UT COR CIN LN SN SDD NR ELP LT ETS DI SMCD CO RET BL CI",
+      "3": "CL JR NC CST GAN CA EB",
+      "-1": "SR JA ML TR BA KE AM NAZ",
+      "-2": "JU MA BIC",
+      "-3": "ST HO ACK",
+      "split": "VEF CT ML JA CI WA NATC",
+      "why": "Whether the state may use its power to push people out of their faith. Almost everyone except militant-atheist states and the Kulturkampf or Jacobin dechristianising tradition agrees; Marxist-Leninist camps are split between Lenin private-matter doctrine and the practice of Stalin, Mao and Hoxha.",
+      "notes": {
+        "CL": "Locke, Letter Concerning Toleration: the magistrate has no power over belief; force cannot produce faith: 3.",
+        "HO": "Albania 1967 declared itself the first atheist state, closing all churches and mosques: -3.",
+        "ST": "League of the Militant Godless and the 1929–39 church closures and clergy shootings: -3.",
+        "ACK": "Khmer Rouge banned all religion, killed monks, emptied pagodas: -3.",
+        "CST": "Dignitatis Humanae (1965): no one may be forced to act against conscience in religion: 3.",
+        "ML": "Lenin 1905 calls religion a private matter in relation to the state, yet Party atheist propaganda and practice differ: -1, split.",
+        "BIC": "Kulturkampf (1871–78) used state power against the Catholic Church, expelling Jesuits: -2.",
+        "SR": "Combes laws (1901–05) closed congregational schools: anticlerical use of state power: -1.",
+        "GAN": "Sarva dharma sambhava: no state interference with anyone faith: 3."
+      }
+    },
+    "knowledge.4": {
+      "0": "AC DC GS US CO IM HI BN EB CI TRA EM NOA SUL LI OR AL DEG DE CM LEG MC BK KS ME SC UT CN EN PN SN AP WC PP PC ETS LT CLR SDD JR HF NR",
+      "1": "MU GAN NE NAC BC ARC LC GC SMCD BL IB ID RZ COR RT NEOR PIP NEO NP TAR RC GE LL TW",
+      "2": "MI OB PAL CL AMC CT DI GA CA TH PA RET CRA COL",
+      "3": "LF ANC IA CR NC CST",
+      "-1": "AS ONC VEF WA GU TR EU LU CC TI LS GOC PE SU UJ MR AUC COA RE SL NDL PR CF THW GM LIF RF AM EC PM MO XC NS DIR IS CIN LN IR REZ ELP POC TE EUR AD GAU",
+      "-2": "ML NLS RS NA BA TP CAE STC NATC SR MDS NM PSD FA ES SF EA LE DS HS HES LZ PER CH BIC",
+      "-3": "ST MA HO ACK JU KE IF NAZ JM NAS JA PG",
+      "split": "NAC CT LIF UT ML",
+      "why": "Parental choice over curriculum, including homeschooling, versus state-set schooling. Libertarian, subsidiarist, sphere-sovereignty and Christian-right camps defend parental authority; Jacobin, Kemalist, totalitarian and welfare-state camps insist on a common state curriculum.",
+      "notes": {
+        "CST": "Gravissimum Educationis and Familiaris Consortio 36: parents are the first and principal educators; the state must be subsidiary: 3.",
+        "NC": "Kuyper and Bavinck: education belongs to the parents sphere; schools are free from state control (Dutch school struggle): 3.",
+        "LF": "Rothbard and Friedman: parents decide and the state should not run schooling: 3.",
+        "JA": "Le Peletier plan (1793) and Danton: children belong to the Republic and national education: -3.",
+        "KE": "Tevhid-i Tedrisat law (1924) unified all education under the state: -3.",
+        "PG": "Plato Republic: guardian children raised by the city, not by parents: -3.",
+        "NAZ": "Compulsory state Nazi schooling; 1938 law made school attendance mandatory with no homeschooling: -3.",
+        "NM": "Sweden (2011) and Norway restrict homeschooling; Nordic model prizes common schooling: -2.",
+        "UT": "Mill On Liberty ch. 5: state may compel education but should not monopolise it; parents choose: 0."
+      }
+    }
+  }
+}

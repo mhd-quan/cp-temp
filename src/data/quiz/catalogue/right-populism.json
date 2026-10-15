@@ -1,0 +1,237 @@
+{
+  "parties": [
+    {
+      "id": "rassemblement-national",
+      "name": "Tập hợp Quốc gia (Mặt trận Quốc gia)",
+      "abbr": "RN",
+      "country": "Pháp",
+      "period": "1972–nay",
+      "variants": [
+        "national-populism",
+        "welfare-chauvinism"
+      ],
+      "emblem": {
+        "shape": "disc",
+        "field": "#0d378a",
+        "ink": "#ffffff",
+        "motif": "flame",
+        "ring": "#e1001a"
+      }
+    },
+    {
+      "id": "lega",
+      "name": "Liên đoàn phương Bắc (Lega)",
+      "abbr": "Lega",
+      "country": "Ý",
+      "period": "1991–nay",
+      "variants": [
+        "national-populism",
+        "tax-revolt"
+      ],
+      "emblem": {
+        "shape": "shield",
+        "field": "#008c45",
+        "ink": "#ffffff",
+        "motif": "sword"
+      }
+    },
+    {
+      "id": "danish-peoples-party",
+      "name": "Đảng Nhân dân Đan Mạch",
+      "abbr": "DF",
+      "country": "Đan Mạch",
+      "period": "1995–nay",
+      "variants": [
+        "welfare-chauvinism",
+        "national-populism"
+      ],
+      "emblem": {
+        "shape": "square",
+        "field": "#c8102e",
+        "ink": "#ffffff",
+        "motif": "flag-banner"
+      }
+    },
+    {
+      "id": "sweden-democrats",
+      "name": "Đảng Dân chủ Thuỵ Điển",
+      "abbr": "SD",
+      "country": "Thuỵ Điển",
+      "period": "1988–nay",
+      "variants": [
+        "welfare-chauvinism"
+      ],
+      "emblem": {
+        "shape": "disc",
+        "field": "#ffd500",
+        "ink": "#005ba2",
+        "motif": "flower"
+      }
+    },
+    {
+      "id": "poujadists-udca",
+      "name": "Phong trào Poujade (Liên minh Bảo vệ Tiểu thương)",
+      "abbr": "UDCA",
+      "country": "Pháp",
+      "period": "1953–1958",
+      "variants": [
+        "tax-revolt"
+      ],
+      "emblem": {
+        "shape": "shield",
+        "field": "#2f3e46",
+        "ink": "#f2c230",
+        "motif": "coin"
+      }
+    },
+    {
+      "id": "tea-party-movement",
+      "name": "Phong trào Tea Party",
+      "country": "Hoa Kỳ",
+      "period": "2009–nay",
+      "variants": [
+        "tax-revolt",
+        "american-conservatism"
+      ],
+      "emblem": {
+        "shape": "disc",
+        "field": "#f7d117",
+        "ink": "#1a1a1a",
+        "motif": "rattlesnake"
+      }
+    },
+    {
+      "id": "progress-party-norway",
+      "name": "Đảng Tiến bộ (Na Uy)",
+      "abbr": "FrP",
+      "country": "Na Uy",
+      "period": "1973–nay",
+      "variants": [
+        "tax-revolt",
+        "welfare-chauvinism"
+      ],
+      "emblem": {
+        "shape": "disc",
+        "field": "#024c93",
+        "ink": "#ffffff",
+        "motif": "coin"
+      }
+    }
+  ],
+  "states": [
+    {
+      "id": "usa-2017-2021",
+      "name": "Hoa Kỳ",
+      "period": "2017–2021",
+      "note": "Nhiệm kỳ đầu của Donald Trump",
+      "variants": [
+        "national-populism",
+        "american-conservatism"
+      ],
+      "flag": "usa"
+    },
+    {
+      "id": "el-salvador-2019-nay",
+      "name": "El Salvador",
+      "period": "2019–nay",
+      "note": "Nayib Bukele; tình trạng ngoại lệ chống băng đảng từ 2022",
+      "variants": [
+        "penal-populism"
+      ],
+      "flag": "el-salvador"
+    },
+    {
+      "id": "philippines-2016-2022",
+      "name": "Philippines",
+      "period": "2016–2022",
+      "note": "Rodrigo Duterte, chiến dịch chống ma tuý",
+      "variants": [
+        "penal-populism"
+      ],
+      "flag": "philippines"
+    }
+  ],
+  "figures": [
+    {
+      "id": "donald-trump",
+      "name": "Donald Trump",
+      "life": "s. 1946",
+      "role": "Tổng thống Hoa Kỳ thứ 45 và 47",
+      "variant": "national-populism",
+      "wiki": "Donald Trump"
+    },
+    {
+      "id": "marine-le-pen",
+      "name": "Marine Le Pen",
+      "life": "s. 1968",
+      "role": "Chính khách Pháp, Tập hợp Quốc gia",
+      "variant": "national-populism",
+      "axes": {
+        "economy": 40,
+        "distribution": 45,
+        "religion": 30
+      },
+      "wiki": "Marine Le Pen"
+    },
+    {
+      "id": "nigel-farage",
+      "name": "Nigel Farage",
+      "life": "s. 1964",
+      "role": "Chính khách Anh, người vận động Brexit",
+      "variant": "national-populism",
+      "axes": {
+        "economy": 75,
+        "trade": 60
+      },
+      "wiki": "Nigel Farage"
+    },
+    {
+      "id": "pia-kjaersgaard",
+      "name": "Pia Kjærsgaard",
+      "life": "s. 1947",
+      "role": "Đồng sáng lập Đảng Nhân dân Đan Mạch",
+      "variant": "welfare-chauvinism",
+      "wiki": "Pia Kjærsgaard"
+    },
+    {
+      "id": "jimmie-akesson",
+      "name": "Jimmie Åkesson",
+      "life": "s. 1979",
+      "role": "Lãnh đạo Đảng Dân chủ Thuỵ Điển",
+      "variant": "welfare-chauvinism",
+      "wiki": "Jimmie Åkesson"
+    },
+    {
+      "id": "rodrigo-duterte",
+      "name": "Rodrigo Duterte",
+      "life": "s. 1945",
+      "role": "Tổng thống Philippines (2016–2022)",
+      "variant": "penal-populism",
+      "wiki": "Rodrigo Duterte"
+    },
+    {
+      "id": "nayib-bukele",
+      "name": "Nayib Bukele",
+      "life": "s. 1981",
+      "role": "Tổng thống El Salvador (từ 2019)",
+      "variant": "penal-populism",
+      "wiki": "Nayib Bukele"
+    },
+    {
+      "id": "pierre-poujade",
+      "name": "Pierre Poujade",
+      "life": "1920–2003",
+      "role": "Thủ lĩnh phong trào tiểu thương chống thuế Pháp",
+      "variant": "tax-revolt",
+      "wiki": "Pierre Poujade"
+    },
+    {
+      "id": "mogens-glistrup",
+      "name": "Mogens Glistrup",
+      "life": "1926–2008",
+      "role": "Luật sư thuế, sáng lập Đảng Tiến bộ Đan Mạch",
+      "variant": "tax-revolt",
+      "wiki": "Mogens Glistrup"
+    }
+  ]
+}

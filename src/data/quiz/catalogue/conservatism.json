@@ -1,0 +1,585 @@
+{
+  "parties": [
+    {
+      "id": "conservative-party-uk",
+      "name": "Đảng Bảo thủ Anh",
+      "country": "Anh",
+      "period": "1834–nay",
+      "variants": [
+        "burkean-conservatism",
+        "one-nation-conservatism",
+        "thatcherism",
+        "liberal-conservatism"
+      ],
+      "emblem": {
+        "shape": "disc",
+        "field": "#0087dc",
+        "ink": "#ffffff",
+        "motif": "tree"
+      }
+    },
+    {
+      "id": "german-conservative-party",
+      "name": "Đảng Bảo thủ Đức",
+      "abbr": "DKP",
+      "country": "Đức",
+      "period": "1876–1918",
+      "variants": [
+        "aristocratic-conservatism"
+      ],
+      "emblem": {
+        "shape": "shield",
+        "field": "#ffffff",
+        "ink": "#000000",
+        "motif": "eagle",
+        "ring": "#000000"
+      }
+    },
+    {
+      "id": "republican-party-us",
+      "name": "Đảng Cộng hoà (Hoa Kỳ)",
+      "abbr": "GOP",
+      "country": "Hoa Kỳ",
+      "period": "1854–nay",
+      "variants": [
+        "american-conservatism",
+        "christian-right",
+        "national-populism"
+      ],
+      "emblem": {
+        "shape": "disc",
+        "field": "#e81b23",
+        "ink": "#ffffff",
+        "motif": "elephant",
+        "ring": "#00205b"
+      }
+    },
+    {
+      "id": "moral-majority",
+      "name": "Đa số Đạo đức (Moral Majority)",
+      "country": "Hoa Kỳ",
+      "period": "1979–1989",
+      "variants": [
+        "christian-right"
+      ],
+      "emblem": {
+        "shape": "shield",
+        "field": "#1f3a68",
+        "ink": "#ffffff",
+        "motif": "cross"
+      }
+    },
+    {
+      "id": "fidesz",
+      "name": "Fidesz – Liên minh Công dân Hungary",
+      "abbr": "Fidesz",
+      "country": "Hungary",
+      "period": "1988–nay",
+      "variants": [
+        "national-conservatism",
+        "national-populism"
+      ],
+      "emblem": {
+        "shape": "disc",
+        "field": "#fd8100",
+        "ink": "#ffffff",
+        "motif": "flag-banner"
+      }
+    },
+    {
+      "id": "pis",
+      "name": "Luật pháp và Công lý",
+      "abbr": "PiS",
+      "country": "Ba Lan",
+      "period": "2001–nay",
+      "variants": [
+        "national-conservatism"
+      ],
+      "emblem": {
+        "shape": "square",
+        "field": "#1f3f8f",
+        "ink": "#ffffff",
+        "motif": "eagle",
+        "ring": "#dc143c"
+      }
+    },
+    {
+      "id": "fratelli-d-italia",
+      "name": "Anh em nước Ý",
+      "abbr": "FdI",
+      "country": "Ý",
+      "period": "2012–nay",
+      "variants": [
+        "national-conservatism"
+      ],
+      "emblem": {
+        "shape": "disc",
+        "field": "#003b7a",
+        "ink": "#ffffff",
+        "motif": "flame",
+        "ring": "#ce2b37"
+      }
+    },
+    {
+      "id": "odp",
+      "name": "Đảng Dân chủ Sinh thái",
+      "abbr": "ÖDP",
+      "country": "Đức",
+      "period": "1982–nay",
+      "variants": [
+        "green-conservatism",
+        "green-mainstream"
+      ],
+      "emblem": {
+        "shape": "disc",
+        "field": "#f39200",
+        "ink": "#ffffff",
+        "motif": "leaf"
+      }
+    },
+    {
+      "id": "rpf",
+      "name": "Tập hợp Nhân dân Pháp",
+      "abbr": "RPF",
+      "country": "Pháp",
+      "period": "1947–1955",
+      "variants": [
+        "gaullism",
+        "dirigisme"
+      ],
+      "emblem": {
+        "shape": "shield",
+        "field": "#0055a4",
+        "ink": "#ffffff",
+        "motif": "lorraine",
+        "ring": "#ef4135"
+      }
+    },
+    {
+      "id": "free-conservative-party",
+      "name": "Đảng Bảo thủ Tự do (Đảng Đế chế)",
+      "abbr": "FKP",
+      "country": "Đức",
+      "period": "1866–1918",
+      "variants": [
+        "bismarckian-conservatism"
+      ],
+      "emblem": {
+        "shape": "disc",
+        "field": "#000000",
+        "ink": "#ffffff",
+        "motif": "eagle",
+        "ring": "#dd0000"
+      }
+    }
+  ],
+  "states": [
+    {
+      "id": "austria-1815-1848",
+      "name": "Đế quốc Áo",
+      "period": "1815–1848",
+      "note": "Thời Metternich: Hệ thống Vienna, kiểm duyệt",
+      "variants": [
+        "aristocratic-conservatism",
+        "counter-revolution",
+        "absolute-monarchy"
+      ],
+      "flag": "austrian-empire"
+    },
+    {
+      "id": "uk-1815-1832",
+      "name": "Vương quốc Anh",
+      "period": "1815–1832",
+      "note": "Luật Ngũ cốc, Quốc hội trước cải cách 1832",
+      "variants": [
+        "aristocratic-conservatism"
+      ],
+      "flag": "uk"
+    },
+    {
+      "id": "uk-1951-1964",
+      "name": "Vương quốc Anh",
+      "period": "1951–1964",
+      "note": "Churchill, Eden, Macmillan giữ đồng thuận hậu chiến",
+      "variants": [
+        "one-nation-conservatism",
+        "burkean-conservatism"
+      ],
+      "flag": "uk"
+    },
+    {
+      "id": "usa-1981-1989",
+      "name": "Hoa Kỳ",
+      "period": "1981–1989",
+      "note": "Chính quyền Ronald Reagan",
+      "variants": [
+        "american-conservatism",
+        "neoliberalism"
+      ],
+      "flag": "usa"
+    },
+    {
+      "id": "uk-1979-1990",
+      "name": "Vương quốc Anh",
+      "period": "1979–1990",
+      "note": "Chính phủ Margaret Thatcher",
+      "variants": [
+        "thatcherism",
+        "neoliberalism"
+      ],
+      "flag": "uk"
+    },
+    {
+      "id": "usa-2001-2009",
+      "name": "Hoa Kỳ",
+      "period": "2001–2009",
+      "note": "Chính quyền George W. Bush, chiến tranh Iraq",
+      "variants": [
+        "neoconservatism",
+        "american-conservatism"
+      ],
+      "flag": "usa"
+    },
+    {
+      "id": "poland-2015-2023",
+      "name": "Ba Lan",
+      "period": "2015–2023",
+      "note": "Chính phủ Luật pháp và Công lý (PiS)",
+      "variants": [
+        "national-conservatism",
+        "national-populism"
+      ],
+      "flag": "poland"
+    },
+    {
+      "id": "uk-2010-2016",
+      "name": "Vương quốc Anh",
+      "period": "2010–2016",
+      "note": "Chính phủ David Cameron",
+      "variants": [
+        "liberal-conservatism"
+      ],
+      "flag": "uk"
+    },
+    {
+      "id": "netherlands-2010-2024",
+      "name": "Hà Lan",
+      "period": "2010–2024",
+      "note": "Các chính phủ Mark Rutte",
+      "variants": [
+        "liberal-conservatism"
+      ],
+      "flag": "netherlands"
+    },
+    {
+      "id": "france-1958-1969",
+      "name": "Pháp",
+      "period": "1958–1969",
+      "note": "Đệ ngũ Cộng hoà thời Charles de Gaulle",
+      "variants": [
+        "gaullism",
+        "dirigisme"
+      ],
+      "flag": "france"
+    },
+    {
+      "id": "germany-1871-1890",
+      "name": "Đế quốc Đức",
+      "period": "1871–1890",
+      "note": "Thủ tướng Bismarck: luật chống xã hội chủ nghĩa (1878), bảo hiểm xã hội (1883–1889)",
+      "variants": [
+        "bismarckian-conservatism"
+      ],
+      "flag": "german-empire"
+    }
+  ],
+  "figures": [
+    {
+      "id": "edmund-burke",
+      "name": "Edmund Burke",
+      "life": "1729–1797",
+      "role": "Chính khách, nhà tư tưởng Anh gốc Ireland",
+      "variant": "burkean-conservatism",
+      "wiki": "Edmund Burke"
+    },
+    {
+      "id": "michael-oakeshott",
+      "name": "Michael Oakeshott",
+      "life": "1901–1990",
+      "role": "Triết gia chính trị Anh",
+      "variant": "burkean-conservatism",
+      "wiki": "Michael Oakeshott"
+    },
+    {
+      "id": "tran-trong-kim",
+      "name": "Trần Trọng Kim",
+      "life": "1883–1953",
+      "role": "Sử gia, Thủ tướng Đế quốc Việt Nam (1945)",
+      "variant": "burkean-conservatism",
+      "wiki": "Trần Trọng Kim"
+    },
+    {
+      "id": "klemens-von-metternich",
+      "name": "Klemens von Metternich",
+      "life": "1773–1859",
+      "role": "Thủ tướng Đế quốc Áo",
+      "variant": "aristocratic-conservatism",
+      "wiki": "Klemens von Metternich"
+    },
+    {
+      "id": "otto-von-bismarck",
+      "name": "Otto von Bismarck",
+      "life": "1815–1898",
+      "role": "Thủ tướng Phổ và Đế quốc Đức",
+      "variant": "aristocratic-conservatism",
+      "axes": {
+        "distribution": 45
+      },
+      "wiki": "Otto von Bismarck"
+    },
+    {
+      "id": "benjamin-disraeli",
+      "name": "Benjamin Disraeli",
+      "life": "1804–1881",
+      "role": "Thủ tướng Anh, Đảng Bảo thủ",
+      "variant": "one-nation-conservatism",
+      "wiki": "Benjamin Disraeli"
+    },
+    {
+      "id": "harold-macmillan",
+      "name": "Harold Macmillan",
+      "life": "1894–1986",
+      "role": "Thủ tướng Anh (1957–1963)",
+      "variant": "one-nation-conservatism",
+      "wiki": "Harold Macmillan"
+    },
+    {
+      "id": "ronald-reagan",
+      "name": "Ronald Reagan",
+      "life": "1911–2004",
+      "role": "Tổng thống Hoa Kỳ (1981–1989)",
+      "variant": "american-conservatism",
+      "wiki": "Ronald Reagan"
+    },
+    {
+      "id": "william-f-buckley-jr",
+      "name": "William F. Buckley Jr.",
+      "life": "1925–2008",
+      "role": "Nhà báo, sáng lập tạp chí National Review",
+      "variant": "american-conservatism",
+      "wiki": "William F. Buckley Jr."
+    },
+    {
+      "id": "barry-goldwater",
+      "name": "Barry Goldwater",
+      "life": "1909–1998",
+      "role": "Thượng nghị sĩ Hoa Kỳ, ứng viên tổng thống 1964",
+      "variant": "american-conservatism",
+      "wiki": "Barry Goldwater"
+    },
+    {
+      "id": "jerry-falwell",
+      "name": "Jerry Falwell",
+      "life": "1933–2007",
+      "role": "Mục sư, sáng lập phong trào Đa số Đạo đức",
+      "variant": "christian-right",
+      "wiki": "Jerry Falwell"
+    },
+    {
+      "id": "pat-robertson",
+      "name": "Pat Robertson",
+      "life": "1930–2023",
+      "role": "Nhà truyền giảng truyền hình Mỹ",
+      "variant": "christian-right",
+      "wiki": "Pat Robertson"
+    },
+    {
+      "id": "margaret-thatcher",
+      "name": "Margaret Thatcher",
+      "life": "1925–2013",
+      "role": "Thủ tướng Anh (1979–1990)",
+      "variant": "thatcherism",
+      "wiki": "Margaret Thatcher"
+    },
+    {
+      "id": "keith-joseph",
+      "name": "Keith Joseph",
+      "life": "1918–1994",
+      "role": "Bộ trưởng Anh, nhà tư tưởng của Thatcher",
+      "variant": "thatcherism",
+      "wiki": "Keith Joseph"
+    },
+    {
+      "id": "nigel-lawson",
+      "name": "Nigel Lawson",
+      "life": "1932–2023",
+      "role": "Bộ trưởng Tài chính Anh (1983–1989)",
+      "variant": "thatcherism",
+      "wiki": "Nigel Lawson"
+    },
+    {
+      "id": "irving-kristol",
+      "name": "Irving Kristol",
+      "life": "1920–2009",
+      "role": "Nhà báo Mỹ, cha đẻ phái tân bảo thủ",
+      "variant": "neoconservatism",
+      "wiki": "Irving Kristol"
+    },
+    {
+      "id": "paul-wolfowitz",
+      "name": "Paul Wolfowitz",
+      "life": "s. 1943",
+      "role": "Thứ trưởng Quốc phòng Hoa Kỳ (2001–2005)",
+      "variant": "neoconservatism",
+      "wiki": "Paul Wolfowitz"
+    },
+    {
+      "id": "pat-buchanan",
+      "name": "Pat Buchanan",
+      "life": "s. 1938",
+      "role": "Nhà bình luận, ứng viên tổng thống Hoa Kỳ",
+      "variant": "paleoconservatism",
+      "wiki": "Pat Buchanan"
+    },
+    {
+      "id": "paul-gottfried",
+      "name": "Paul Gottfried",
+      "life": "s. 1941",
+      "role": "Sử gia, nhà lý luận cổ bảo thủ Mỹ",
+      "variant": "paleoconservatism",
+      "wiki": "Paul Gottfried"
+    },
+    {
+      "id": "viktor-orban",
+      "name": "Viktor Orbán",
+      "life": "s. 1963",
+      "role": "Chính khách Hungary, lãnh đạo Fidesz",
+      "variant": "national-conservatism",
+      "wiki": "Viktor Orbán"
+    },
+    {
+      "id": "giorgia-meloni",
+      "name": "Giorgia Meloni",
+      "life": "s. 1977",
+      "role": "Thủ tướng Ý (từ 2022)",
+      "variant": "national-conservatism",
+      "wiki": "Giorgia Meloni"
+    },
+    {
+      "id": "yoram-hazony",
+      "name": "Yoram Hazony",
+      "life": "s. 1964",
+      "role": "Triết gia Israel, khởi xướng hội nghị NatCon",
+      "variant": "national-conservatism",
+      "wiki": "Yoram Hazony"
+    },
+    {
+      "id": "roger-scruton",
+      "name": "Roger Scruton",
+      "life": "1944–2020",
+      "role": "Triết gia bảo thủ Anh",
+      "variant": "green-conservatism",
+      "wiki": "Roger Scruton"
+    },
+    {
+      "id": "wendell-berry",
+      "name": "Wendell Berry",
+      "life": "s. 1934",
+      "role": "Nhà văn, nông dân Mỹ ở Kentucky",
+      "variant": "green-conservatism",
+      "axes": {
+        "economy": 40,
+        "environment": 90,
+        "foreign": 85
+      },
+      "wiki": "Wendell Berry"
+    },
+    {
+      "id": "david-cameron",
+      "name": "David Cameron",
+      "life": "s. 1966",
+      "role": "Thủ tướng Anh (2010–2016)",
+      "variant": "liberal-conservatism",
+      "wiki": "David Cameron"
+    },
+    {
+      "id": "mark-rutte",
+      "name": "Mark Rutte",
+      "life": "s. 1967",
+      "role": "Thủ tướng Hà Lan (2010–2024)",
+      "variant": "liberal-conservatism",
+      "wiki": "Mark Rutte"
+    },
+    {
+      "id": "charles-de-gaulle",
+      "name": "Charles de Gaulle",
+      "life": "1890–1970",
+      "role": "Tổng thống Pháp, lãnh tụ nước Pháp Tự do",
+      "variant": "gaullism",
+      "wiki": "Charles de Gaulle"
+    },
+    {
+      "id": "georges-pompidou",
+      "name": "Georges Pompidou",
+      "life": "1911–1974",
+      "role": "Tổng thống Pháp (1969–1974)",
+      "variant": "gaullism",
+      "wiki": "Georges Pompidou"
+    },
+    {
+      "id": "wilhelm-i",
+      "name": "Wilhelm I",
+      "life": "1797–1888",
+      "role": "Hoàng đế Đức, ban chiếu chỉ về bảo hiểm xã hội (1881)",
+      "variant": "bismarckian-conservatism",
+      "wiki": "Wilhelm I"
+    },
+    {
+      "id": "hermann-wagener",
+      "name": "Hermann Wagener",
+      "life": "1815–1889",
+      "role": "Cố vấn của Bismarck, chủ trương xã hội chủ nghĩa nhà nước bảo thủ",
+      "variant": "bismarckian-conservatism",
+      "wiki": "Hermann Wagener"
+    },
+    {
+      "id": "adolph-wagner",
+      "name": "Adolph Wagner",
+      "life": "1835–1917",
+      "role": "Nhà kinh tế Đức, biện hộ cho chủ nghĩa xã hội nhà nước",
+      "variant": "bismarckian-conservatism",
+      "wiki": "Adolph Wagner"
+    },
+    {
+      "id": "george-grant",
+      "name": "George Grant",
+      "life": "1918–1988",
+      "role": "Triết gia Canada, tác giả Bi ca cho một dân tộc (1965)",
+      "variant": "red-toryism",
+      "wiki": "George Grant (philosopher)",
+      "axes": {
+        "economy": 35,
+        "identity": 25
+      }
+    },
+    {
+      "id": "phillip-blond",
+      "name": "Phillip Blond",
+      "life": "s. 1966",
+      "role": "Nhà lý luận Anh, tác giả Red Tory (2010)",
+      "variant": "red-toryism",
+      "wiki": "Phillip Blond"
+    },
+    {
+      "id": "john-milbank",
+      "name": "John Milbank",
+      "life": "s. 1952",
+      "role": "Nhà thần học Anh, người khởi xướng phái Chính thống cấp tiến",
+      "variant": "red-toryism",
+      "wiki": "John Milbank",
+      "axes": {
+        "religion": 80
+      }
+    }
+  ]
+}

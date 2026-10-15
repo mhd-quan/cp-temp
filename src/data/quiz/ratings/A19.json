@@ -1,0 +1,285 @@
+{
+  "rater": "A",
+  "block": "A19",
+  "items": {
+    "trade.capital.6": {
+      "0": "AC AS MU GA CA DC SUL PC RC POC SMCD CST NC SC UT LU CC BC ARC ONC GC GS US ETS MC EC TW BK MO SF RF GM DE DEG EM SL PR NDL RE SR GE LL GOC AM CM LEG CN CIN LN REZ CT WA RZ EB AD CLR SDD JR NR PP PSD FA COR CI RT",
+      "1": "NOA GAN CAE MR AUC PE COA STC TE CO DI PG HS HES TR EU ACK PA NAC BIC RET MDS LT LE PM XC KS NAZ NATC ES ELP AP RS TI LS EA EN IR PN LZ SN ID BN IB IM JA HF NP WC BL",
+      "2": "NLS TP NA UJ BA SU ML ST MA HO GU GAU ME NS DIR DS IF JM NAS CH PER KE VEF EUR HI",
+      "3": "IS JU",
+      "-1": "IA AMC CR NE LC LIF LI OR CF AL COL NM THW TRA PIP NEOR",
+      "-2": "TH CL NEO MI PAL TAR CRA",
+      "-3": "LF OB ANC",
+      "split": "UT LN SL AUC",
+      "why": "Mandatory technology transfer divides dirigiste, developmentalist, nationalist and anti-imperialist camps (for) from free-market, libertarian and investor-friendly liberals (against); anarchists and most moral/religious doctrines have no stake.",
+      "notes": {
+        "IS": "Import-substitution doctrine (Prebisch, Latin American desarrollismo) aims at domestic technological capacity: 3.",
+        "JU": "Juche self-reliance (jarip) treats dependence on foreign technology as a doctrinal threat: 3.",
+        "NS": "List's National System of Political Economy: foreign capital and skills must serve building domestic industry: 2.",
+        "DS": "Korean/Chinese developmental states conditioned foreign entry on joint ventures and tech transfer: 2.",
+        "LF": "Laissez-faire rejects state conditions on private investment contracts: -3.",
+        "ANC": "Anarcho-capitalism views state-compelled transfer of property such as IP as theft: -3.",
+        "AUC": "Authoritarian capitalism (China model) practises forced tech transfer, but Singapore-style variants court investors: split, 1."
+      }
+    },
+    "nature.8": {
+      "0": "AS MU IA UJ NOA PE RC SMCD NC PG EU LU CC BC ARC RET MDS LT GS MC MO RF GM ELP AP GE LL AM CM LEG CN CIN LN SN VEF ID BN HI AD CLR SDD JR NR NM FA PIP CI",
+      "1": "AC DC CO CST DI SC US ETS BK GC RT SF",
+      "2": "CA GAN ES TW EB",
+      "3": "GA DE DEG",
+      "-1": "NLS TP NA BA SU CAE MR COA SUL STC PC POC TE HS HES UT ML MA TR ONC PA NAC LC GAU BIC EC PM XC KS DIR IS NATC LIF CH CL SL PR NDL LI OR CF RE COL SR PAL RS TI LS EA EN IR PN KE LZ REZ WA IB IM RZ JA NP WC PP PSD BL CRA COR EUR CR",
+      "-2": "AUC ST JU HO GU ACK AMC TH NE LE ME NS DS IF NAZ JM NAS PER EM NEO AL LF MI ANC GOC CT HF TAR THW TRA NEOR",
+      "-3": "OB",
+      "split": "AC AS DC SF CO UT MDS ELP",
+      "why": "Trading income for less consumption splits degrowth, deep-ecology, simple-living and contemplative traditions (for) from productivist, growth-oriented, work-ethic and developmentalist camps (against); most others see shorter hours only as a labour gain without income loss.",
+      "notes": {
+        "DEG": "Degrowth (Latouche, Kallis, Hickel) explicitly calls for reduced working time and material throughput even at lower GDP: 3.",
+        "GA": "Zerzan's anti-work, anti-civilisation critique treats industrial labour and consumption as the problem: 3.",
+        "GAN": "Gandhi's Hind Swaraj and swadeshi ideal of simple living, 'enough for need not greed': 2.",
+        "TW": "Daodejing ch. 19 and 46 urge fewer desires and less striving; wuwei favours slowing down: 2.",
+        "EM": "Ecomodernist Manifesto holds that decoupling through technology, not lower output, protects nature: -2.",
+        "PER": "Peronism's 'La dignidad del trabajo' and productivist distribution reject lower output and incomes: -2.",
+        "LE": "Legalism (Shang Yang) maximises agriculture and war production; idleness is a vice: -2.",
+        "CT": "Calvinist work ethic (Weber's Protestant Ethic) treats diligent labour as a calling, not something to trim: -2.",
+        "OB": "Rand's Atlas Shrugged celebrates production and rejects policy-imposed sacrifice of output: -3."
+      }
+    },
+    "gender.1": {
+      "0": "AS MU GA CA LIF UT MDS US ETS PR ELP LL NR EB",
+      "1": "AC ES",
+      "2": "SF",
+      "3": "RF DC",
+      "-1": "IA NLS GAN UJ NOA PE PC RC POC CO PG SC EU LT GS TW BK MO GM DE DEG CH SL NDL LI CF RE SR GE RS KE LZ CIN LN ID IM AD SDD NM PSD THW FA PIP",
+      "-2": "TP NA BA SU CAE MR AUC COA STC TE SMCD CST DI NC HS HES ML ST MA TR JU LU CC HO GU ACK BC ONC AMC TH NE NAC GC LC GAU RET MC EC LE PM XC KS ME NS DIR DS IS EM PER AP CL NEO OR AL COL LF MI OB ANC TI LS GOC EA CM CN IR PN REZ SN BN CLR JA JR HF NP WC TAR BL TRA CRA AM LEG EN PP EUR RZ HI",
+      "-3": "SUL ARC CR PA BIC IF NAZ NATC JM NAS PAL VEF CT WA IB COR CI RT NEOR",
+      "split": "LIF ES EU TR LT SL",
+      "why": "Whether patriarchy, rather than class, nation, state or sin, is the root injustice splits radical and Kurdish feminism (for) from Marxist class-first, liberal, nationalist and traditionalist camps; the latter either rank another cause first or see male headship as natural order.",
+      "notes": {
+        "RF": "Millett, Firestone and Dworkin make patriarchy the primary system of domination from which others derive: 3.",
+        "DC": "Öcalan's 'Liberating Life' and Rojava jineolojî call the subjugation of women the first and deepest oppression: 3.",
+        "SF": "Socialist feminism's dual-systems theory (Hartmann, Mitchell) puts patriarchy alongside capital, not below it: 2.",
+        "ML": "Engels' Origin of the Family derives women's subordination from private property; class struggle is the root: -2.",
+        "AC": "Anarchists oppose all hierarchy and anarcha-feminists (Goldman) stress patriarchy, but Kropotkin ranks state and capital first: 1.",
+        "PG": "Plato's Republic admits women as guardians yet rests on rank, not on a critique of male rule: -1.",
+        "CT": "Calvinist theocracy grounds male headship in scriptural order (1 Cor 11, Eph 5); sin, not patriarchy, is the root: -3.",
+        "NAZ": "Nazism's Kinder-Küche-Kirche ideal and race-first doctrine reject the premise outright: -3.",
+        "NR": "Pettit's non-domination republicanism treats domestic domination as one case among many, not the deepest: 0."
+      }
+    },
+    "violence.2": {
+      "0": "NOA PE RC DI SC EU CR PA NAC LC RET GS EC KS NS DIR IS LIF DE DEG NEO PR NDL OR CF RE COL SR GE CM CN CIN BN IM NP WC PP TRA PIP CI EUR",
+      "1": "CAE MR PC POC CO SMCD PG HES BC ARC ONC GC MDS US ETS TW BK XC ME DS GM EM AL RS GOC CT NM PSD THW FA BL RT NEOR",
+      "2": "AUC COA SUL STC TE BIC EA LEG VEF",
+      "3": "CA GAN HS LE AM WA EB",
+      "-1": "MU IA UJ CST NC UT TH NE PM MO SF RF ES ELP AP SL LI LF EN LN IR PN KE LZ ID HI RZ SDD NR HF TAR CRA COR LS LL",
+      "-2": "AC AS GA DC TP NA BA SU JU LU CC AMC GAU LT NATC JM NAS CH PER CL MI OB ANC PAL REZ SN IB AD CLR",
+      "-3": "NLS ML ST MA TR HO GU ACK MC IF NAZ TI JA JR",
+      "split": "CST NC LT BC CI IM AMC CR UT",
+      "why": "Absolute non-resistance divides pacifist and obedience-minded doctrines (Tolstoyan, Gandhian, Buddhist, Hobbesian, Legalist, Wahhabi, absolutist) from the many revolutionary, tyrannicide, partisan and right-of-resistance traditions.",
+      "notes": {
+        "CA": "Tolstoy's 'The Kingdom of God Is Within You' and the Sermon on the Mount forbid resisting evil by force: 3.",
+        "GAN": "Satyagraha and ahimsa: Gandhi urged non-violent non-cooperation even against the British Raj and Nazism: 3.",
+        "HS": "Hobbes, Leviathan ch. 21 and 29: subjects may not resist the sovereign by force, however harsh, since anarchy is worse: 3.",
+        "WA": "Salafi-Wahhabi doctrine of obedience to the ruler (wali al-amr) forbids khuruj even against unjust rulers: 3.",
+        "LE": "Han Feizi and Shang Yang make the ruler's law the sole authority; resistance is the supreme crime: 3.",
+        "MC": "Mencius 1B8 licenses killing a tyrant who is merely 'a fellow', and Heaven's mandate may be withdrawn: -3.",
+        "JR": "Jefferson: 'the tree of liberty must be refreshed from time to time with the blood of patriots and tyrants': -3.",
+        "ML": "Marxism-Leninism holds that the ruling class never yields power without force; revolutionary violence is doctrinal: -3.",
+        "CST": "Catholic tradition from Aquinas to Populorum Progressio 31 allows armed resistance to 'evident, long-standing tyranny' as a last resort: -1, split.",
+        "VEF": "Velayat-e-faqih treats the Guardian Jurist's rule as religious obligation to obey, so armed resistance is rebellion: 2."
+      }
+    },
+    "violence.3": {
+      "0": "EB",
+      "1": "TW BK LE SUL AM",
+      "2": "AC AS MU GA DC NLS TP NA UJ NOA BA SU CAE MR AUC PE COA STC PC RC POC TE CO SMCD CST DI NC PG SC HES UT ML ST MA TR JU EU LU CC HO GU ACK BC ARC ONC CR TH NE PA NAC GC LC GAU BIC RET MDS LT GS US ETS MC EC PM XC KS ME NS DIR DS IS IF NAZ NATC JM NAS LIF SF RF GM ES DE DEG EM CH PER ELP AP SL NEO PR NDL LI OR CF AL RE COL SR GE LL RS TI LS GOC EA CM LEG CN CIN EN LN IR PN KE LZ REZ SN VEF ID CT BN HI WA IB IM RZ AD CLR JA SDD NR HF NP WC PP TAR NM PSD THW FA BL TRA CRA PIP COR CI RT NEOR EUR",
+      "3": "IA MI OB ANC CL LF PAL HS AMC MO JR",
+      "-1": "GAN",
+      "-3": "CA",
+      "split": "GAN EB BK CA",
+      "why": "Almost every doctrine grants a right of personal self-defence; only the strict non-resistance traditions (Tolstoyan Christian anarchism, Gandhian ahimsa, Buddhist pacifism) hesitate, while natural-rights libertarians and Hobbes treat it as an inalienable core right.",
+      "notes": {
+        "CA": "Tolstoy's 'Resist not evil by force' (Matthew 5:39) is read without exception, self-defence included: -3.",
+        "GAN": "Gandhi preferred violence to cowardice yet held non-violence the higher creed; adherents lean against even personal force: -1.",
+        "HS": "Hobbes, Leviathan ch. 14: the right of self-preservation is the one right nobody can lay down: 3.",
+        "MI": "Nozick/Locke minarchism makes the right to defend self and property the state's very justification: 3.",
+        "MO": "Mohist doctrine of defensive war (fei gong) and fortification treats defence of the attacked as righteous: 3.",
+        "AMC": "Second Amendment tradition and 'castle doctrine' make armed self-defence a constitutional right: 3.",
+        "EB": "Thich Nhat Hanh-style engaged Buddhism stresses non-harming and compassion, with no firm rule on personal defence: 0, split.",
+        "LE": "Legalism recognises force only as the state's instrument, so private resort is not a right it champions: 1."
+      }
+    },
+    "world.4": {
+      "0": "UJ PC CO DI NC UT EU LU GC LC ONC LT GS US PM BK EM PER AP PR GE LL LS GOC CM CIN LN ID IM TRA CRA PIP TW CH",
+      "1": "TP NA GAN PE RC POC TE SMCD CST SC MDS ETS MO LIF SF RF GM ES DE DEG ELP SL NDL OR RE SR RS KE EB SDD NR PSD FA",
+      "2": "NOA NM TI",
+      "3": "CF",
+      "-1": "AC AS MU GA CA DC NLS BA SU MR AUC COA STC PG ML ST MA TR CC BC ARC RET MC EC XC DIR DS IS CL NEO LI AL COL LF MI CN LZ SN VEF CT BN HI WA CLR JA JR HF PP TAR THW BL CI GAU",
+      "-2": "IA CAE SUL HS JU HO GU ACK AMC CR TH PA NAC BIC LE KS ME NS NATC NAS OB ANC PAL EA LEG EN PN REZ IB RZ AD NP WC COR RT NEOR EUR AM IR",
+      "-3": "HES NE IF NAZ JM",
+      "split": "LI THW ML CH CST GAU",
+      "why": "Whether the UN is the sole source of legitimacy for armed intervention splits cosmopolitan and multilateralist camps (for) from sovereigntist, realist, imperial and humanitarian-hawk camps (against, though for different reasons).",
+      "notes": {
+        "CF": "Kant's Perpetual Peace and Held/Archibugi cosmopolitan democracy vest the use of force in a federation of states or the UN: 3.",
+        "HES": "Hegel, Philosophy of Right 333-340: states stand toward each other in a state of nature with no higher judge; no body can license force: -3.",
+        "NE": "Neoconservatism (Kristol, Kagan, Iraq 2003) holds that America should act without the UN's leave: -3.",
+        "NOA": "Bandung principles and the Non-Aligned Movement defend the UN Charter as the check on great-power intervention: 2.",
+        "LI": "Liberal interventionists backed Kosovo 1999 without a Security Council resolution and the 'responsibility to protect' argument: -1, split.",
+        "NAZ": "Nazism's Lebensraum and rejection of Geneva/League order make international permission irrelevant: -3.",
+        "IB": "Muslim Brotherhood's doctrine of defensive jihad in Muslim lands needs no UN mandate: -2.",
+        "NM": "Nordic model states are UN-centred middle powers whose peacekeeping doctrine requires a UN mandate: 2."
+      }
+    },
+    "empire.5": {
+      "0": "DC GAN CAE MR AUC PE COA SUL STC PC RC POC TE CO SMCD CST DI NC PG UT ML ST ONC CR NE PA NAC GC LC GAU RET MDS LT GS US ETS MC EC LE PM BK MO XC KS ME NS DIR DS IS LIF SF RF GM ES DEG EM ELP AP PR NDL RE SR GE LL RS LS GOC EA LEG LZ ID CT BN WA EB AD CLR JA SDD JR NR HF NP PP TAR NM PSD THW FA BL TRA PIP CI RT NEOR",
+      "1": "NLS SU TP GU ACK MA PER LN CN HES RZ TI JM NAS NATC VEF IM UJ HO",
+      "2": "EN IF IB HI REZ EUR CH BIC",
+      "3": "PN IR NA BA NAZ JU",
+      "-1": "KE CIN NOA BC ARC AM CM CL LI SL NEO OR AL COL HS SC TW TR CC EU SN WC PAL LF MI CF DE COR AMC TH",
+      "-2": "AC AS MU IA GA CA LU OB ANC CRA",
+      "split": "UJ NOA IM VEF DC",
+      "why": "Reuniting peoples split by colonial borders is doctrinal for pan-nationalist, irredentist and ethnic-nationalist camps (and Juche, Nasserism, Ba'athism), while anarchists, libertarians and internationalists reject the state-making aim and sovereigntist or status-quo camps defend existing borders.",
+      "notes": {
+        "NA": "Nasserism's pan-Arabism and the 1958 United Arab Republic treat Arab unity across Sykes-Picot borders as the goal: 3.",
+        "BA": "Ba'athist founding slogan 'one Arab nation with an eternal mission' (Aflaq) demands unity of the Arab states: 3.",
+        "JU": "Korean reunification is DPRK doctrine (Three Charters for National Reunification), the division being imposed by foreign powers: 3.",
+        "PN": "Pan-nationalism (pan-Slavism, pan-Turkism, pan-Africanism) is by definition union of kindred peoples across borders: 3.",
+        "UJ": "Nyerere backed East African federation but defended inherited borders at the OAU (1964 Cairo resolution): 1, split.",
+        "NOA": "Non-alignment's Bandung/OAU line holds colonial borders sacrosanct to prevent endless wars: -1, split.",
+        "KE": "Kemalism's 'peace at home, peace in the world' rejected irredentism after the Misak-i Milli: -1.",
+        "LU": "Luxemburg opposed national self-determination as a bourgeois cause and held that class unity outweighs nation-building: -2.",
+        "ANC": "Anarcho-capitalism sees state-creation by merger as aggrandising coercion; secession and small units are favoured: -2."
+      }
+    },
+    "foreign.force.2": {
+      "0": "IA DC PE PC RC TE CO SMCD DI NC ONC PA GC RET MC MO IS EM CH CL NEO OR RE LF ANC GE PAL LS GOC CM CIN LN ID IM SDD NR WC TAR THW TRA CRA",
+      "1": "GA UJ NOA POC SC UT TR EU LU CC GS US BK LIF GM DE AP SL PR NDL CF SR RS JR NM PSD FA PIP",
+      "2": "AS MU GAN CST MDS LT ETS TW SF RF ES DEG ELP LL EB",
+      "3": "AC CA",
+      "-1": "TP COA STC PG ML GU BC ARC NAC LC EC PM XC NS DIR DS PER AL COL MI OB TI EA LEG CN SN KE CT BN IB AD CLR JA NP PP BL COR CI RT NEOR",
+      "-2": "NLS NA BA SU CAE AUC SUL HS HES MA HO AMC CR TH GAU BIC KS ME LI AM EN IR PN LZ VEF HI WA RZ HF EUR NATC NAS",
+      "-3": "MR ST JU ACK NE LE IF NAZ JM REZ",
+      "split": "ML TR UT CL PAL ANC",
+      "why": "The item pairs a military cut with welfare spending: pacifist, anarchist, social-democratic and green camps agree; militarist, imperial, nationalist and security-state doctrines refuse; libertarians favour the cut but not the welfare.",
+      "notes": {
+        "CA": "Sermon on the Mount pacifism (Tolstoy, Dorothy Day) rejects armies altogether and urges charity for the poor: 3.",
+        "AC": "Kropotkin and Goldman call for abolishing standing armies and spending on communal provision: 3.",
+        "JU": "Songun (military-first) politics makes defence the first call on national resources: -3.",
+        "MR": "Military rule is the armed forces' own regime; cutting its budget undermines its base: -3.",
+        "LE": "Shang Yang's 'enrich the state, strengthen the army' makes military strength the aim of policy: -3.",
+        "NE": "Neoconservatism (Kagan, PNAC) demands high defence spending as the basis of American primacy: -3.",
+        "CST": "Gaudium et Spes 81 calls the arms race an 'utterly treacherous trap' that injures the poor: 2.",
+        "ANC": "Anarcho-capitalists want no state army yet reject state welfare, so the item's pairing splits them: 0.",
+        "REZ": "Jabotinsky's Iron Wall doctrine makes military strength the condition of survival: -3."
+      }
+    },
+    "foreign.force.4": {
+      "0": "IS HF ID IM BN AMC CR NE GC NDL LI AL RE COL MDS GS US ETS RS THW FA LS GOC EU LU CC EM GM CM COA PC RC TE SMCD CST DI NC PE NOA MC EC SC PR GE",
+      "1": "TR GU SU DS PG CIN CN SN HI WA IB CT DC SR ONC BC ARC RET PA PSD NM BL AP NP WC PP COR CI LEG AUC SUL CO PM MO XC KS ME NS DIR HS",
+      "2": "ML MA ACK NAS NATC CAE NA BA NLS TP HES JR NR EN LN IR PN VEF CH PER GAU NAC RT EUR AM EA STC UJ",
+      "3": "JU ST HO JM NAZ IF MR CLR AD JA SDD KE LZ REZ RZ TI LE BIC",
+      "-1": "TH LC OR CF SL LT LIF SF ES DE DEG ELP POC BK UT NEOR",
+      "-2": "AS MU GA CL NEO LL RF TAR TRA CRA PIP TW EB GAN",
+      "-3": "CA AC IA LF MI OB ANC PAL",
+      "split": "AMC CR PA DC PSD NM MDS UT SL ELP DEG",
+      "why": "Universal conscription divides citizen-soldier republics, nationalist, militarist and totalitarian states (for) from pacifist, anarchist and libertarian camps that see it as coerced servitude; liberal and social-democratic traditions are divided between volunteer armies and civic duty.",
+      "notes": {
+        "CLR": "Machiavelli's Discourses and Art of War insist on armed citizen militias, not mercenaries, as the foundation of a free republic: 3.",
+        "SDD": "Swiss Milizsystem makes military service a civic duty of every male citizen, ratified by referendum (2013 vote to keep conscription): 3.",
+        "JU": "Juche and Songun make universal long conscription a pillar of the 'self-defence in all fields' line: 3.",
+        "KE": "Atatürk called the army 'the school of the nation' (Ordu-millet); universal service is a Kemalist pillar: 3.",
+        "LZ": "Labour Zionism built the Haganah/IDF as a people's army with universal service (Ben-Gurion): 3.",
+        "MI": "Nozick/Rothbard: conscription is forced labour, unjust even in a minimal state: -3.",
+        "CA": "Tolstoy's refusal of military service and Doukhobor/Quaker conscientious objection: -3.",
+        "TH": "Thatcherite and Friedmanite view (Friedman, Capitalism and Freedom; Gates Commission) favours the all-volunteer force: -1.",
+        "DC": "Rojava's Duty of Self-Defence law (2014) mandates service in the self-defence forces: 1."
+      }
+    },
+    "foreign.intervention.7": {
+      "0": "IA GA PE PC RC POC CO DI NC PG EU CC BC ARC ONC CR GC RET MDS GS US MC EC PM XC KS DIR SF RF ES DE AP COL SR LF MI OB ANC GE PAL LS GOC CM CIN LN IR LZ REZ SN CT IM RZ AD CLR SDD JR HF PP TAR BL PIP COR CI RT",
+      "1": "STC CAE NP NAC CST BK TW LT DEG ELP DC MU DS ME NS ACK LU TR GAU BIC AM EA LEG IF NAZ NATC JM NAS CN EN PN KE BN HI WA IB WC NEOR LE MO SC LL CRA ETS COA PA",
+      "2": "NOA NA UJ HS HES ML ST BA SU AC AS GAN EB IS TP NLS TI GU HO VEF PER EUR MR AUC SUL",
+      "3": "MA CH CA JU",
+      "-1": "SL NDL PR NM SMCD OR CL AMC TH LC GM LIF ID JA NR TE UT RS PSD FA TRA RE AL EM",
+      "-2": "CF LI NE THW NEO",
+      "split": "CST LF MI ANC OB PAL CL SMCD MDS",
+      "why": "Whether aid may carry governance conditions divides sovereigntist, anti-imperialist, non-aligned and unconditional-charity camps (for no strings) from liberal-internationalist, democracy-promoting and results-minded camps (strings fine); libertarians would end aid rather than debate conditions.",
+      "notes": {
+        "MA": "China's Eight Principles of foreign aid (Zhou Enlai, 1964) attach no political conditions and respect sovereignty: 3.",
+        "CH": "Chavismo's Petrocaribe and ALBA aid was offered without IMF-style conditions as an anti-imperialist alternative: 3.",
+        "CA": "Gift without return or condition (Matthew 5:42, Tolstoy) is the doctrinal rule of Christian anarchist charity: 3.",
+        "NOA": "Bandung (1955) principles of non-interference and sovereign equality condemn political strings on aid: 2.",
+        "UJ": "Nyerere's Arusha Declaration chose self-reliance partly to avoid conditioned aid and later denounced IMF conditionality: 2.",
+        "LI": "Liberal interventionism ties support to human rights and democratic benchmarks (e.g. Responsibility to Protect agenda): -2.",
+        "NE": "Neoconservative democracy promotion (Millennium Challenge-style 'good governance' aid, NED) makes aid a lever for reform: -2.",
+        "NEO": "Washington Consensus structural adjustment made lending conditional on market reform: -2.",
+        "THW": "Blair/Clinton third-way foreign policy made aid and debt relief conditional on governance reforms: -2."
+      }
+    },
+    "foreign.rules.2": {
+      "0": "GC PN ID IM PC CO MC EC MO GA LF CL AL COL LS GS CRA CI CLR HF",
+      "1": "ONC LC CIN LN LZ CT IB CM DI NC PG PM TW BK XC DIR GAN UJ BL GOC GU ELP MI OB COR",
+      "2": "MA HO CH KE NAC VEF HI AUC MR SUL COA ML BA NA SU NOA CR TH NE WC PP TAR BC ARC RET BIC EN CN IR REZ SN BN WA RZ EA LEG STC KS ME NS DS IS PAL PER AP RT NEOR EUR SDD AD JA JR NLS TP TI ACK AM",
+      "3": "HS HES JU NAZ IF JM ST PA AMC GAU NP CAE NATC NAS LE",
+      "-1": "RC POC TE SMCD CST UT AC AS MU IA CA ANC LL SL NEO PR NDL RE SR GE PE MDS PSD NM FA RS EU LT US ETS DE DEG PIP NR EB",
+      "-2": "DC LI OR SC THW LU CC TR LIF SF RF GM ES EM TRA",
+      "-3": "CF",
+      "split": "NE CST CL LF CRA ELP ML EU SDD",
+      "why": "Final sovereign say over every affair divides realist, nationalist, authoritarian and Westphalian doctrines (for) from cosmopolitan, rule-based-order, human-rights and internationalist camps (against); anarchists and libertarians reject state sovereignty itself, so they lean mildly against.",
+      "notes": {
+        "HS": "Hobbes: sovereign power is absolute and indivisible, with no judge above it (Leviathan ch. 18); between states there is only the law of nature: 3.",
+        "HES": "Hegel, Philosophy of Right 330-333: a state's sovereignty is its own supreme will and no praetor stands above states: 3.",
+        "GAU": "De Gaulle's 'Europe des patries' and the empty-chair crisis defended national sovereignty against supranational majority rule: 3.",
+        "AMC": "American sovereigntism (Bricker amendment, rejection of the ICC and UNCLOS) treats the Constitution as supreme over international bodies: 3.",
+        "CF": "Cosmopolitan federalism (Held, Archibugi, Kant's world federation) exists to bind states to supranational law: -3.",
+        "OR": "Ordoliberalism favours binding rules and independent institutions, including EU competition law, over national discretion: -2.",
+        "DC": "Democratic confederalism seeks to dissolve nation-state sovereignty into federated communes across borders (Öcalan): -2.",
+        "NE": "Neoconservatives demand American freedom of action yet use the UN and alliances selectively, and favour intervening in others' affairs: split, 2.",
+        "LI": "Liberal interventionists hold sovereignty conditional on protecting rights, per the Responsibility to Protect (2005): -2."
+      }
+    },
+    "change.means.3": {
+      "0": "OR RE SR SC UT NOA RC CO DI NM FA GS US LS TW BK MO TR ML NLS TP IS GC AMC GAU EM CRA GE LF OB TRA SDD JA CN RZ IM BL IB",
+      "1": "NC MI ANC PAL NDL CL CF LI AD CLR JR CIN LN SN ID MDS RS PSD EU LU CC UJ PE GM ES ELP AP TAR PIP DC AS MU CR MC",
+      "2": "CA EB LT CST ETS LIF SF RF DE DEG LL NR SL PR AC",
+      "3": "GAN IA",
+      "-1": "HO CT EC PM KS TE PG BC ONC NE PA NAC LC RET THW TI GOC GU MA SU PC POC SMCD DS ME NS DIR GA NEO COL HF EN IR PN LZ REZ HI BN CM LEG CH PER WC COR CI RT NP",
+      "-2": "HES AUC COA STC EA NATC ST VEF XC ARC TH BIC NA BA AL KE PP NEOR EUR",
+      "-3": "HS LE MR SUL CAE AM IF NAZ JM NAS JU ACK WA",
+      "split": "AMC CR UT TR ML NLS TAR PIP CRA AS",
+      "why": "Open, penalty-accepting law-breaking is core to Gandhian, Thoreauvian, Christian and rights-movement traditions and to green and feminist activism; it is rejected by order-first, absolutist, authoritarian and obedience doctrines, while revolutionaries use it only tactically.",
+      "notes": {
+        "GAN": "Satyagraha: Gandhi's Salt March and willing acceptance of the penalty define principled civil disobedience: 3.",
+        "IA": "Thoreau's 'Civil Disobedience' (1849) makes refusal of an unjust law, and jail, a duty of the individual: 3.",
+        "CST": "King's 'Letter from Birmingham Jail' invokes Aquinas that an unjust law is no law; Catholic tradition endorses conscientious refusal: 2.",
+        "HS": "Hobbes holds that the sovereign's laws are the measure of justice, and private judgment of law dissolves peace: -3.",
+        "LE": "Legalism's Han Feizi holds that law must be obeyed uniformly and that private judgment of it is sedition: -3.",
+        "WA": "Salafi-Wahhabi doctrine of obedience to the ruler forbids public defiance, deeming it fitna: -3.",
+        "PG": "Plato's Crito has Socrates refuse to break the laws even when unjustly condemned, though he accepts the penalty: -1.",
+        "ML": "Leninists accept open law-breaking as a tactic against bourgeois law but place it below organised revolution: 0, split.",
+        "CR": "The Christian right uses open disobedience (Operation Rescue, clerks refusing licences, Bonhoeffer's 'obey God') but also stresses Romans 13: 1, split."
+      }
+    },
+    "change.means.7": {
+      "0": "LL DEG ES DE SF RF LN LZ UJ NOA IA EU ELP BC ARC ONC TH GC LC RET LF ANC GE SR COL RE AL OR LI NDL NEO AM EA CM MC EC XC PM BN IM CO DI NC PG UT AUC COA SUL STC CAE DIR DS CRA NEOR WC PP TAR BL GOC LS TRA EM",
+      "1": "SC TW BK CST ETS FA MDS RS SL PR NR LIF SDD NM PSD ID CIN GM PE PC RC POC TE SMCD HS PIP THW GS US CF",
+      "3": "GAN CA EB",
+      "-1": "LT RZ SN MU GA PER AP CR NE PA NAC BIC CL MI OB PAL AD LEG LE MO ME NS IS CN PN WA HI CT HES MR COR CI RT EUR NP",
+      "-2": "KE ST TR TP NA BA LU CC AC AS DC CH AMC GAU IF NAZ JM NAS NATC JR JA CLR HF KS EN IR VEF IB",
+      "-3": "REZ ML MA HO GU ACK JU NLS SU TI",
+      "split": "LZ LN IM UJ HS LT CST NOA",
+      "why": "Under alien rule, nonviolent-first doctrines (Gandhian, Tolstoyan, Buddhist) prefer peaceful struggle, while national-liberation, Marxist-Leninist, partisan, revolutionary-republican and militarist traditions hold armed uprising to be the necessary or heroic path.",
+      "notes": {
+        "GAN": "Gandhi's Hind Swaraj and the Indian independence movement make non-violent non-cooperation the 'right' path against the British: 3.",
+        "EB": "Engaged Buddhism (Thich Nhat Hanh, Aung San Suu Kyi's early line) holds that compassion forbids violent uprising even against occupiers: 3.",
+        "ML": "Lenin's 'Right of Nations to Self-Determination' and Mao's 'political power grows out of the barrel of a gun' make armed national-liberation war doctrinal: -3.",
+        "NLS": "National-liberation socialism (FLN, Viet Minh, Cabral) treats armed struggle as the means of decolonisation: -3.",
+        "TI": "Titoism rests on the Partisan war of 1941-45 against occupation as its founding myth: -3.",
+        "SU": "Sukarno's Indonesia legitimises the 1945-49 armed revolution against the Dutch as national birth: -3.",
+        "REZ": "Jabotinsky's Iron Wall and the Irgun held that only armed force would compel the British and Arabs: -3.",
+        "AMC": "The American Revolution is founding mythology for American conservatism, which honours the armed uprising of 1775: -2.",
+        "GAU": "De Gaulle's appeal of 18 June 1940 and the Free French/Resistance legitimate armed struggle against occupation: -2."
+      }
+    }
+  }
+}

@@ -1,0 +1,33 @@
+---
+// A story as the publication lists it everywhere: plate, rubric, title,
+// subtitle. The wrapper (li or article) belongs to the page.
+import type { CollectionEntry } from 'astro:content';
+import { text } from '../../lib/edition';
+import Plate from './Plate.astro';
+import Rubric from './Topics.astro';
+
+interface Props {
+  entry: CollectionEntry<'essays'>;
+  sizes?: string;
+  heading?: 'h2' | 'h3';
+  /** The widest file this story may need is twice this width. */
+  fallbackWidth?: number;
+}
+const {
+  entry,
+  sizes = '(min-width: 900px) 30vw, (min-width: 640px) 45vw, 104px',
+  heading: Heading = 'h3',
+  fallbackWidth = 640,
+} = Astro.props;
+const href = `/essays/${entry.id}`;
+---
+{entry.data.coverImage && (
+  <a class="story__plate" href={href} tabindex="-1" aria-hidden="true">
+    <Plate src={entry.data.coverImage} topics={entry.data.topics} sizes={sizes} fallbackWidth={fallbackWidth} />
+  </a>
+)}
+<div class="story__text">
+  <Rubric topics={entry.data.topics} />
+  <Heading class="story__title"><a class="title-link" href={href} lang={entry.data.lang}>{text(entry.data.title)}</a></Heading>
+  {entry.data.subtitle && <p class="story__dek">{text(entry.data.subtitle)}</p>}
+</div>

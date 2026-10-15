@@ -1,0 +1,199 @@
+{
+  "family": {
+    "id": "traditionalism",
+    "name": "Truyền thống chủ nghĩa",
+    "en": "Traditionalism and reaction",
+    "summary": "Bác bỏ các giá trị của Khai sáng và Cách mạng Pháp; muốn khôi phục trật tự thiêng liêng, đẳng cấp và quân chủ của quá khứ."
+  },
+  "variants": [
+    {
+      "id": "counter-revolution",
+      "name": "Phản cách mạng",
+      "en": "Counter-revolution (throne and altar)",
+      "summary": "Quyền lực đến từ Thượng đế và truyền thống chứ không từ khế ước xã hội; phải khôi phục ngai vàng và bàn thờ mà cách mạng đã lật đổ.",
+      "exemplars": [
+        "Joseph de Maistre",
+        "Louis de Bonald",
+        "Juan Donoso Cortés"
+      ],
+      "period": "1790–1900",
+      "axes": {
+        "economy": 45,
+        "distribution": 55,
+        "trade": 35,
+        "power": 10,
+        "liberty": 15,
+        "elites": 10,
+        "lifestyle": 5,
+        "religion": 90,
+        "identity": 35,
+        "environment": 50,
+        "foreign": 40,
+        "change": 60
+      },
+      "facets": {
+        "change.pace": 55,
+        "change.means": 60,
+        "change.depth": 70
+      },
+      "status": "draft",
+      "raters": [
+        "claude"
+      ]
+    },
+    {
+      "id": "catholic-integralism",
+      "name": "Toàn vẹn Công giáo",
+      "en": "Catholic integralism",
+      "summary": "Quyền lực thế tục phải phục tùng quyền lực thiêng liêng của Giáo hội; luật pháp hướng con người tới sự cứu rỗi; bác bỏ nhà nước tự do trung lập.",
+      "exemplars": [
+        "Giáo hoàng Piô IX (Danh mục Sai lầm, 1864)",
+        "Adrian Vermeule",
+        "Thomas Pink"
+      ],
+      "period": "1864–nay",
+      "axes": {
+        "economy": 40,
+        "distribution": 35,
+        "trade": 40,
+        "power": 25,
+        "liberty": 20,
+        "elites": 30,
+        "lifestyle": 3,
+        "religion": 100,
+        "identity": 40,
+        "environment": 60,
+        "foreign": 45,
+        "change": 45
+      },
+      "status": "draft",
+      "raters": [
+        "claude"
+      ]
+    },
+    {
+      "id": "radical-traditionalism",
+      "name": "Truyền thống cực đoan",
+      "en": "Radical traditionalism",
+      "summary": "Thế giới hiện đại là thời mạt pháp; khao khát trật tự thiêng liêng, đẳng cấp và tinh thần chiến binh của các nền văn minh cổ.",
+      "exemplars": [
+        "Julius Evola",
+        "René Guénon",
+        "Aleksandr Dugin"
+      ],
+      "period": "1920–nay",
+      "axes": {
+        "economy": 35,
+        "distribution": 55,
+        "trade": 20,
+        "power": 10,
+        "liberty": 10,
+        "elites": 0,
+        "lifestyle": 5,
+        "religion": 85,
+        "identity": 15,
+        "environment": 55,
+        "foreign": 15,
+        "change": 80
+      },
+      "status": "draft",
+      "raters": [
+        "claude"
+      ]
+    },
+    {
+      "id": "neoreaction",
+      "name": "Tân phản động",
+      "en": "Neoreaction (NRx)",
+      "summary": "Dân chủ là thất bại; nhà nước nên vận hành như một công ty do một giám đốc toàn quyền điều hành, còn công dân được tự do bỏ đi nếu không hài lòng.",
+      "exemplars": [
+        "Curtis Yarvin",
+        "Nick Land"
+      ],
+      "period": "2007–nay",
+      "axes": {
+        "economy": 85,
+        "distribution": 90,
+        "trade": 70,
+        "power": 20,
+        "liberty": 40,
+        "elites": 5,
+        "lifestyle": 30,
+        "religion": 40,
+        "identity": 30,
+        "environment": 25,
+        "foreign": 40,
+        "change": 70
+      },
+      "facets": {
+        "power.pluralism": 0,
+        "power.checks": 0,
+        "power.local": 60
+      },
+      "sd": {
+        "religion": 20,
+        "liberty": 20
+      },
+      "status": "draft",
+      "raters": [
+        "claude"
+      ]
+    },
+    {
+      "id": "eurasianism",
+      "name": "Chủ nghĩa Á–Âu",
+      "en": "Eurasianism (and neo-Eurasianism)",
+      "summary": "Nga không thuộc châu Âu hay châu Á mà là một thế giới riêng, Á–Âu, kế thừa cả Đông La Mã lẫn Mông Cổ; cần đế chế đa dân tộc quanh Chính thống giáo, chống phương Tây tự do.",
+      "exemplars": [
+        "Nikolai Trubetskoy",
+        "Pyotr Savitsky",
+        "Lev Gumilyov",
+        "Aleksandr Dugin (tân Á–Âu)"
+      ],
+      "period": "1921–nay",
+      "axes": {
+        "economy": 35,
+        "distribution": 45,
+        "trade": 20,
+        "power": 10,
+        "liberty": 15,
+        "elites": 20,
+        "lifestyle": 20,
+        "religion": 70,
+        "identity": 35,
+        "environment": 50,
+        "foreign": 25,
+        "change": 55
+      },
+      "facets": {
+        "economy.ownership": 45,
+        "economy.steering": 15,
+        "trade.capital": 25,
+        "trade.selfreliance": 5,
+        "power.pluralism": 0,
+        "power.local": 30,
+        "elites.decision": 10,
+        "religion.state": 80,
+        "religion.law": 50,
+        "religion.public": 85,
+        "identity.nation": 25,
+        "identity.culture": 30,
+        "identity.migration": 50,
+        "foreign.force": 20,
+        "foreign.rules": 15,
+        "foreign.intervention": 40,
+        "change.pace": 50,
+        "change.means": 50,
+        "change.depth": 70
+      },
+      "sd": {
+        "foreign": 15,
+        "environment": 15
+      },
+      "status": "draft",
+      "raters": [
+        "claude"
+      ]
+    }
+  ]
+}

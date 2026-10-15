@@ -1,0 +1,301 @@
+{
+  "rater": "B",
+  "block": "B12",
+  "items": {
+    "legitimacy.1": {
+      "0": "TW",
+      "1": "NC HS ONC GC RET MC ME NATC RZ BL CI RT",
+      "2": "HES BC BIC EC LE CM WA",
+      "3": "ARC JM AM LEG COR",
+      "-1": "MR CST DI TH PA NAC LC BK XC KS DS PAL EA CN EN SN BN HI WC NEOR",
+      "-2": "GAN NOA AUC PC POC SMCD SC AMC CR NE GAU US PM NS DIR IF DE EM NEO LI OR AL RE COL LF MI IR PN REZ CT IB IM EB NP PP TAR NM PSD THW FA",
+      "-3": "AC AS MU IA GA CA DC NLS TP NA UJ BA SU CAE PE RC TE PG UT ML ST MA TR JU EU LU CC HO GU ACK MDS LT GS ETS MO NAZ GM ES DEG CH PER ELP AP CL SL PR NDL CF SR OB ANC GE LL RS TI LS GOC CIN LN KE LZ VEF ID AD CLR JA SDD JR NR",
+      "split": "MR NC MC DS NATC PAL EA CN SN RZ WC CI",
+      "why": "Dynastic legitimacy over competence: only throne-and-altar, legitimist, absolutist and imperial-Japanese traditions affirm it outright, with Hegel, Legalism and Burke defending birth as a check on choice; republican, revolutionary, meritocratic and Caesarist traditions reject it.",
+      "notes": {
+        "HES": "Philosophy of Right §280-281: the monarch is determined by natural birth precisely so the office escapes choice and merit: 2.",
+        "LE": "Han Fei 'Nan Shi' and 'Zhong Xiao': rely on position (shi) and law so an average heir suffices; condemns abdication to the worthy and Tang/Wu revolts: 2.",
+        "MC": "Mencius 5A6: Heaven rejects a hereditary heir only if he is a Jie or Zhou, which is why Yi Yin, the Duke of Zhou and Confucius never held the throne: 1, split with the right-to-depose reading.",
+        "BC": "Reflections: defends the hereditary succession against Price's 'right to choose our own governors': 2.",
+        "CL": "Locke's First Treatise demolishes Filmer's patriarchal hereditary right: -3.",
+        "COL": "Guizot's July Monarchy set aside the legitimate Bourbon line for the Orléans branch: -2.",
+        "CAE": "Bonapartism grounds rule in plebiscite and ability against the Bourbon claim: -3.",
+        "NATC": "Franco's 1947 Succession Law made Spain a kingdom but he passed over the dynastic heir Don Juan; Salazar kept a republic: 1, split.",
+        "NEOR": "Yarvin's sovereign is a competent CEO of a joint-stock state, not a blood heir: -1.",
+        "VEF": "Khomeini's Islamic Government calls hereditary kingship un-Islamic; the most learned jurist rules: -3.",
+        "JM": "Kokutai doctrine of the unbroken imperial line (bansei ikkei): 3.",
+        "WA": "Saudi rule rests on the 1744 Al Saud-Al Wahhab pact and succession within the royal house: 2."
+      }
+    },
+    "change.depth.9": {
+      "0": "ME LL EN IR",
+      "1": "AUC RC CST DI HS EU PA NAC BIC ETS MC PM BK XC KS NS DIR JM GM EM AP CL SL NEO PR NDL LI OR RE SR LF MI OB GE PAL RS GOC AM CN CIN REZ ID BN WA IM EB AD CLR NR NP WC PSD CI",
+      "2": "PC POC SMCD NC SC HES ARC ONC CR TH NE GC LC RET EC TW COL CM LEG LZ SDD TAR NM THW FA BL COR",
+      "3": "BC AMC",
+      "-1": "MU CA GAN NOA SU PE MDS LT GS MO DS IF NATC DE DEG CF AL LS LN PN SN HI RZ PP",
+      "-2": "AC AS IA GA DC NLS TP NA UJ BA CAE MR TE PG UT ML ST MA JU HO GAU US LE NAZ ES PER ANC TI EA KE CT IB JR RT",
+      "-3": "TR LU CC GU ACK CH ELP VEF JA NEOR",
+      "split": "NAC NS JM SR",
+      "why": "Piecemeal amendment versus wholesale constitutional rewriting: Burkean, American, Hegelian, Fabian and Israeli Basic-Law traditions favour amendment; constituent-assembly populists, revolutionaries, Jacobins and regimes that serially rewrote charters (Gaullist 1958, Bolivarian 1999, Yugoslav) do not.",
+      "notes": {
+        "BC": "Reflections: 'a state without the means of some change is without the means of its conservation', but change by repair, not reconstruction: 3.",
+        "AMC": "Reverence for the 1787 Constitution and Article V amendment; originalism: 3.",
+        "GAU": "De Gaulle scrapped the Fourth Republic and wrote the 1958 constitution: -2.",
+        "CH": "Chávez's first act was the 1999 constituent assembly; Morales repeated it in Bolivia (2009): -3.",
+        "ELP": "Mélenchon's programme is a constituent assembly for a Sixth Republic: -3.",
+        "LZ": "Ben-Gurion's 1950 Harari decision: no single constitution, Basic Laws enacted chapter by chapter: 2.",
+        "JR": "Jefferson to Madison (1789): the earth belongs to the living, each generation should remake its constitution: -2.",
+        "SC": "Marcus Aurelius, Meditations 9.29: do not hope for Plato's Republic, be content with small progress: 2.",
+        "UT": "Bentham's Constitutional Code and Pannomion meant codifying from first principles: -2.",
+        "TI": "Yugoslavia rewrote its constitution in 1946, 1953, 1963 and 1974: -2.",
+        "GOC": "Kádár's Hungary revised the 1949 constitution in 1972 rather than replacing it: 1.",
+        "AUC": "Putin's 2020 package amended the 1993 constitution instead of replacing it: 1.",
+        "NEOR": "Yarvin's 'reboot' retires the whole existing government: -3.",
+        "AP": "The US Populists won change through amendments (income tax, direct election of senators): 1."
+      }
+    },
+    "change.pace.3": {
+      "0": "ME",
+      "1": "TP UJ SU MR AUC PE PC TH GAU GS ETS BK KS NS DS DE DEG PER AP CL OR LF MI RS CIN LN IR PN REZ SN ID CT IB EB AD NR NP WC TAR NM NEOR",
+      "2": "GAN POC SMCD CST DI NC HES ONC AMC CR NE LC BIC RET MC PM JM NEO COL PAL AM CM EN VEF BN HI RZ CLR SDD BL",
+      "3": "BC ARC PA NAC GC EC XC NATC LEG CN COR CI RT",
+      "-1": "AC MU GA CA DC NLS NA NOA BA CAE RC SC HS JU EU MDS LT TW DIR IF NAZ GM ES EM CH ELP SL NDL LI CF AL SR ANC GE LL TI LS GOC EA LZ WA JR PP PSD THW FA",
+      "-2": "AS IA TE PG ML ST TR LU CC GU US MO PR RE OB KE IM",
+      "-3": "UT MA HO ACK LE JA",
+      "split": "GA TW DS IF CL AD NEOR",
+      "why": "Chesterton's fence / tacit wisdom of inherited institutions: Burkean, Confucian ritual, Hayekian and traditionalist camps affirm it; rationalist reformers (Bentham, Legalists, Saint-Simon, Rand, Jacobins, Maoists) deny it, and scripturalist revivalists (Wahhabi, Abduh) reject accumulated custom.",
+      "notes": {
+        "UT": "Bentham's Book of Fallacies lists the 'wisdom of our ancestors' as the first fallacy of authority: -3.",
+        "NEO": "Hayek, The Fatal Conceit: evolved rules embody knowledge no planner possesses: 2.",
+        "DI": "Chesterton's fence (The Thing, 1929): do not remove a fence until you know why it was put up: 2.",
+        "LE": "Shang Yang: 'to benefit the state one need not imitate antiquity'; the wise make laws, fools are bound by them: -3.",
+        "XC": "Xunzi: ritual is the accumulated work of the sage kings that tames human nature: 3.",
+        "GAN": "Hind Swaraj ch. 13: Indian civilisation, tested by time, needs no Western remaking: 2.",
+        "WA": "Ibn Abd al-Wahhab attacked inherited practice (saint veneration, taqlid) as bid'a: -1.",
+        "IM": "Abduh and Iqbal attacked taqlid, blind imitation of the inherited schools: -2.",
+        "SL": "Mill, On Liberty ch. 3: 'the despotism of custom is everywhere the standing hindrance to human advancement': -1.",
+        "HS": "Hobbes builds the commonwealth by geometric reason and mocks the authority of the ancients (Leviathan ch. 46): -1.",
+        "GS": "Cole and Penty modelled guild socialism on the medieval guilds: 1.",
+        "TP": "Sun Yat-sen grafted the old examination and censorate into his five-power constitution: 1."
+      }
+    },
+    "change.depth.5": {
+      "1": "EU IA GAN MDS GS US ETS MO NS CF ANC GE LL PN JA EB NP PER ELP AP TI LS CI NEOR",
+      "2": "ST JU ACK IF ES DE DEG CH VEF IB LT MU CA TP NA UJ NOA BA IR RT COR",
+      "3": "AC AS GA DC ML MA TR HO GU LU CC NAZ SU NLS JM",
+      "-1": "RZ CAE MR PE RC TE CST DI NC PG SC UT CR PA NAC GC GAU RET MC LE TW PM BK ME DIR DS NATC GM SL PR NDL RE SR PAL GOC AM EA LEG CN CIN EN LN LZ REZ SN ID CT BN HI IM AD CLR JR NR WC PP TAR NM PSD FA BL",
+      "-2": "AUC PC POC SMCD HS HES BC ARC ONC AMC TH NE LC BIC EC XC KS CL NEO LI OR AL COL LF MI OB EM RS CM KE WA SDD THW",
+      "split": "MDS NP NAC PA CF GM",
+      "why": "Divides revolutionary and anti-imperialist camps, which see the current world order as imperialist or capitalist and in need of overthrow, from reformists, conservatives and liberals who work within it. Revisionist powers (Nazism, Japanese militarism, irredentism, Iranian theocracy) also want it replaced; order-beneficiaries (neoliberals, neoconservatives, Saudi Wahhabism) reject the idea.",
+      "notes": {
+        "ML": "Lenin's Imperialism, the Highest Stage of Capitalism: the imperialist world system must be overthrown: 3.",
+        "JM": "Great East Asia Co-Prosperity Sphere was explicitly meant to replace the Anglo-American colonial order: 3.",
+        "SU": "Sukarno's 'To Build the World Anew' (UN, 1960) and the New Emerging Forces against the Old Established Forces: 3.",
+        "NOA": "Non-Aligned Movement demanded a New International Economic Order (1974), a sweeping reform short of total replacement: 2.",
+        "NE": "Neoconservatives champion a US-led liberal order and want to extend it, not replace it: -2.",
+        "WA": "Saudi monarchy is a pillar of the US-aligned post-1945 order: -2.",
+        "LT": "Dependency theory and 'structures of sin' framing of the global economy (Gutierrez, Boff): 2.",
+        "NAZ": "Hitler's aim was to overturn Versailles and the 'Jewish plutocratic' Anglo-American order and found a new racial order: 3."
+      }
+    },
+    "change.pace.2": {
+      "1": "IA UJ DE TH GAU RC TE UT MO NS DIR DS JM GM EM PER ELP AP NEO PR NDL CF AL LF MI OB ANC GE IR LZ VEF IB NP PP TAR COR RT LT DEG",
+      "2": "HO ML ST TR LU CC AC AS GA GU NLS JU TP BA SU CH IF NAZ CAE NEOR JA KE LE EA ES NA PG",
+      "3": "MA ACK",
+      "-1": "MR MC LI DC MU CA GAN NOA PE AUC NE AMC CR NAC SC PM BK XC KS ME NATC SL CL OR RE SR PAL LL TI LS AM LEG CN CIN EN LN PN REZ SN ID CT BN HI WA IM RZ EB AD JR NR WC CI MDS GS US ETS PSD THW DI",
+      "-2": "PC POC SMCD CST NC HS HES ARC ONC PA GC LC BIC RET EC TW CM COL CLR SDD GOC RS NM BL EU",
+      "-3": "BC FA",
+      "split": "NE MU DC ES",
+      "why": "Splits revolutionaries and radical modernisers, who want to sweep away an obsolete system at once, from gradualists and traditionalists who distrust the clean slate. Within the left it separates rupture camps (Maoism, Leninism, Trotskyism) from Fabian and social-democratic reformers.",
+      "notes": {
+        "MA": "Mao: 'there is no construction without destruction'; the Cultural Revolution and Great Leap sought to overturn the old order wholesale: 3.",
+        "ACK": "Khmer Rouge 'Year Zero' emptied the cities and abolished money and markets overnight: 3.",
+        "BC": "Burke's Reflections on the Revolution in France condemns razing old institutions for a rationalist blueprint; reform must be gradual: -3.",
+        "FA": "The Fabians took their name from Fabius Cunctator and the 'inevitability of gradualness' (Sidney Webb): -3.",
+        "RS": "Deng's 'crossing the river by feeling the stones' is explicit gradualism: -2.",
+        "EA": "Peter the Great, Joseph II and Catherine II imposed sweeping rational reform from above by decree: 2.",
+        "NEOR": "Moldbug's 'RAGE' and 'reboot' proposals call for replacing the whole constitutional system at once: 2."
+      }
+    },
+    "regime.10": {
+      "0": "TW",
+      "1": "AUC PE POC CST DI CR PA NS DS IF NEO OR LF NOA REZ CN PN EN SN NP WC IM RZ AL NM PSD THW FA DE MR IR",
+      "2": "GAN UJ BA SU PC RC TE SMCD SC UT PG AMC NE GAU MDS LT GS US ETS DIR GM DEG EM CH PER ELP AP CL SL PR NDL LI CF RE MI OB ANC GE LL RS TI LS GOC CIN LN LZ ID CT HI IB EB PP TAR NAZ",
+      "3": "AC AS MU IA GA CA DC ML ST MA TR EU LU CC HO GU ACK ES MO PM KE AD CLR JA SDD JR NR SR VEF NLS TP NA",
+      "-1": "CAE HS NC MC LE XC TH NAC GC LC RET COL BN CI NEOR",
+      "-2": "BC ONC EC BK KS RT NATC PAL BL ME",
+      "-3": "JU HES ARC BIC COR AM EA CM LEG JM WA",
+      "split": "CAE AUC PE POC TH NAC LC EN SN BN RZ AL NM PSD BL NEOR PA",
+      "why": "Divides republicans, democrats, socialists and anarchists, who reject any hereditary public office, from monarchists, aristocratic conservatives and dynastic regimes, who hold that blood legitimately transmits rule. Constitutional monarchism and Hegel defend the hereditary head of state as a doctrinal pillar; merit-based traditions (Mohism, Confucian meritocracy) and republicans reject it outright.",
+      "notes": {
+        "HES": "Hegel's Philosophy of Right (sections 275-286) makes the hereditary monarch, who needs only to say 'yes' and dot the i, the keystone of the ethical state: -3.",
+        "CM": "The crown as hereditary symbol of continuity is the defining feature of constitutional monarchism: -3.",
+        "JU": "The Kim dynasty and 'Paektu bloodline' succession is a core institution of the Juche system: -3.",
+        "MO": "Mozi's 'Shangxian' (elevating the worthy) rejects rank by birth in favour of merit: 3.",
+        "KE": "Ataturk abolished the sultanate (1922) and caliphate (1924) and founded the republic: 3.",
+        "SN": "The SNP and other secessionists often keep the Crown as head of state while Catalan or Quebecois republicans do not, so camps differ: 1.",
+        "WA": "Saudi Arabia's Al Saud monarchy rests on dynastic succession blessed by Salafi clerics: -3.",
+        "PAL": "Hoppe's Democracy: The God That Failed argues that hereditary monarchy is less bad than democracy: -2."
+      }
+    },
+    "change.depth.3": {
+      "1": "GS AS GA TP NA CST NC SC LU CC CR LE BK DS PER CN NATC WA IM RZ BN EA AD JR FA CI RT TI",
+      "2": "ML ST TR HO AC DC GAN UJ BA SU PE LT ETS MO XC JM ES DE DEG CH RE SR REZ VEF CT HI IB EB CLR RS",
+      "3": "GU MA ACK JU CA NLS PG IF NAZ US JA KE LZ",
+      "-1": "MC NP MU EU NOA CAE MR AUC RC POC TE SMCD DI HES UT ONC AMC NE NAC GC GAU RET MDS EC PM KS TW NS DIR GM ELP AP SL PR LI OR CF GE LS GOC AM CIN EN LN IR PN SN ID SDD NR WC PP NM PSD THW BL",
+      "-2": "PC IA HS BC ARC TH PA LC BIC CL NEO NDL AL COL LF MI OB ANC PAL LL EM CM LEG TAR COR NEOR ME",
+      "split": "DE DEG CR NATC IM WA RS FA TI ML",
+      "why": "Divides projects of moral and anthropological remaking (Guevarist new man, Maoist and Juche remoulding, fascist uomo nuovo, Jacobin regeneration, Kemalist modern citizen, Owenite character-forming) from those that take human nature as given and change institutions only. Liberals, libertarians and conservatives reject engineering people; Vietnamese-style communism and religious revivalists endorse it.",
+      "notes": {
+        "GU": "Che Guevara's 'Socialism and Man in Cuba' (1965) makes forging the 'new man' with moral incentives the central goal: 3.",
+        "NLS": "Ho Chi Minh and the Vietnamese communist doctrine of 'xay dung con nguoi moi xa hoi chu nghia' treat the new socialist person as a core task: 3.",
+        "JA": "Robespierre's Republic of Virtue and the Revolution's 'regeneration' of the French people: 3.",
+        "IF": "The Doctrine of Fascism and Mussolini's drive for the 'uomo nuovo fascista' aimed at remaking Italian character: 3.",
+        "KE": "Ataturk's hat law, alphabet and dress reforms were meant to produce a new modern Turkish citizen: 3.",
+        "US": "Robert Owen's 'New View of Society': character is formed by circumstances, so a 'new moral world' makes new people: 3.",
+        "BC": "Burke defends prejudice and inherited manners as a stock of human nature, not something to remake: -2.",
+        "OB": "Rand's rational egoist is an existing capacity of individuals, not a product of social engineering; collective remaking is rejected: -2."
+      }
+    },
+    "foreign.intervention.3": {
+      "1": "TP NA BA UT SC CST SMCD NC ONC CR GAU LC SL NEO PR CF SR GM EM CH NM PSD EA LEG PN CT IM COR IR NAZ MC EC PM XC RC BC FA",
+      "2": "ML ST MA TR TH NDL THW VEF IB WA IF NATC JM JA CAE CI BK AMC",
+      "3": "NE LI GU",
+      "-1": "NR RT PC POC TE SU MR PE DI PG HES ARC ME NS DIR DS ES DE DEG PER OR AL RE COL LL RS LS GOC AM CM CN CIN LN LZ REZ ID BN HI RZ EB AD CLR LE KS MO UJ NLS ETS US GC RET EU HO CL",
+      "-2": "AC AS MU GA DC GAN AUC HS NAC PA BIC MDS LT GS TI KE EN SN JR NP WC TAR ELP AP LF MI OB GE LU CC JU ACK BL NEOR PP",
+      "-3": "IA CA NOA TW ANC PAL SDD",
+      "split": "BC CL PR NC IR NAZ PM RC ONC CR SC NA",
+      "why": "Divides universalist camps that hold a duty to spread their values (liberal interventionists, neoconservatives, Leninist internationalists, Islamist and missionary movements) from sovereigntists, isolationists, anarchists and libertarians who reject exporting values with power. Non-alignment, Swiss neutrality and Taoist non-action are doctrinally against.",
+      "notes": {
+        "NE": "The Project for the New American Century and the 'Bush Doctrine' hold that America must use its power to spread democracy: 3.",
+        "LI": "Responsibility to Protect and Blair's 1999 Chicago speech on the 'doctrine of the international community' are the core of liberal interventionism: 3.",
+        "NOA": "Bandung and the Panchsheel principles of non-interference make this a doctrinal rejection: -3.",
+        "SDD": "Permanent armed neutrality is a defining Swiss principle, so no mission to export values: -3.",
+        "GU": "Guevara's call to 'create two, three, many Vietnams' made exporting revolution the duty of revolutionary states: 3.",
+        "KE": "Ataturk's 'peace at home, peace in the world' is a doctrinal rejection of missionary foreign policy: -2.",
+        "WA": "Saudi funding of mosques and da'wa worldwide is the practical core of Wahhabi foreign influence: 2.",
+        "JU": "Juche stresses self-reliance and non-interference; it does not seek to spread its values by force: -2."
+      }
+    },
+    "change.pace.6": {
+      "1": "NOA SU MR PE RC UT BIC GAU PM XC KS ME VEF IR PN REZ NP PP CH TI HI WA NEO AL RE NEOR",
+      "2": "ML TR HO GU NS DIR NLS TP NA UJ BA CAE AUC TE IF NAZ JM LE EA KE LZ EM RS JA IM PER",
+      "3": "ST MA JU ACK DS",
+      "-1": "IB AC AS IA DC POC SMCD NC PG SC HS HES AMC CR TH NE NAC MDS LT GS US ETS MC EC BK MO NATC GM ES ELP AP CL SL PR NDL LI CF OB GE LL LS GOC AM CM CN CIN EN LN SN ID CT BN RZ AD CLR NR WC TAR NM PSD THW COR CI LU CC",
+      "-2": "MU CA PC CST DI ARC ONC PA GC LC RET OR COL SR LF MI ANC PAL SDD JR EB BL RT LEG EU",
+      "-3": "GA BC GAN TW DE DEG FA",
+      "split": "WA RE NATC TH EM UT EA LU CC IM PER",
+      "why": "Divides forced-march modernisers, who treat catching up in a few years as a national duty (Stalin's 'ten years' speech, Great Leap, Chollima, Park's developmental state), from gradualists, traditionalists, ecologists and Gandhians who see such leaps as destructive. Liberals and libertarians prefer organic market growth to a state crash programme.",
+      "notes": {
+        "ST": "Stalin, 1931: 'We are fifty or a hundred years behind the advanced countries. We must make good this distance in ten years': 3.",
+        "MA": "The Great Leap Forward aimed to overtake Britain in fifteen years through mass mobilisation: 3.",
+        "DS": "Park Chung-hee's five-year plans and 'compressed modernisation' made rapid catch-up the regime's raison d'etre: 3.",
+        "GAN": "Hind Swaraj rejects the Western industrial path and its speed in favour of village self-reliance: -3.",
+        "FA": "Fabian 'inevitability of gradualness' is a doctrinal rejection of crash programmes: -3.",
+        "KE": "Ataturk's goal was to reach 'the level of contemporary civilisation' within a generation through top-down reforms: 2.",
+        "DEG": "Degrowth rejects accelerated output as the goal in itself: -3.",
+        "EA": "Peter the Great's forced westernisation of Russia in decades is the model case for enlightened absolutism: 2."
+      }
+    },
+    "foreign.intervention.5": {
+      "1": "AC AS DC TP UJ MR AUC PE DI PG JU EU LU CC NAC GC RET MDS LT GS US ETS GM DE CH PER AP RE CN CIN EN WC PP ID CT BN IM BL NEOR LS",
+      "2": "NOA TW EB HO PA SN PAL KE LF MI ANC GE LL ES DEG ELP NP TAR TI RS JR CL MU IA GA",
+      "3": "SDD MO CA GAN",
+      "-1": "CR NLS NA SU POC TE CST NC SC UT MA ACK EC NS DIR DS NATC EM SL NEO PR OR AL COL SR GOC AM CM LEG LN LZ HI RZ NR PM BK MC NM FA COR OB HS GAU",
+      "-2": "BA CAE PC RC SMCD HES ML ST TR BC ARC ONC AMC TH LC BIC ME EA XC NDL CF PN REZ VEF IB WA AD CLR PSD CI RT JA",
+      "-3": "NE GU LE KS IF NAZ JM LI IR THW",
+      "split": "UJ NLS MC BK GM LS NM CST MDS RS SL OB LZ",
+      "why": "Divides doctrinal non-interventionists and pacifists (Swiss neutrality, Mohist defensive war, Gandhian and Christian-anarchist nonviolence, libertarians) from universalists and expansionists who send troops abroad: liberal interventionists, neoconservatives, Leninist internationalists, fascists and conquest-minded statecraft. Most mainstream establishment camps sit mildly against because of alliances and peacekeeping.",
+      "notes": {
+        "SDD": "Armed neutrality, defensive-only army and refusal to join foreign wars is a Swiss constitutional principle: 3.",
+        "MO": "Mozi's 'Condemning Offensive War' and his defensive-warfare engineering make this a doctrinal agreement: 3.",
+        "GU": "Guevara took fighters to the Congo and Bolivia and urged exporting guerrilla war: -3.",
+        "KS": "The Arthashastra's vijigishu (would-be conqueror) and mandala theory make expansionary war a statecraft norm: -3.",
+        "HO": "Hoxha's Albania fortified itself with bunkers for pure self-defence and condemned the 1968 Soviet-led invasion of Czechoslovakia: 2.",
+        "PA": "Buchanan's 'A Republic, Not an Empire' and Taft-style non-interventionism reject overseas wars: 2.",
+        "LI": "Kosovo, Libya and the Responsibility to Protect require deploying forces abroad: -3.",
+        "PAL": "Rothbard-style paleolibertarians oppose foreign wars and standing armies abroad: 2."
+      }
+    },
+    "change.pace.5": {
+      "1": "DI CR GAU OR SL PAL HES SC BK XC KS GAN NOA MU CA CAE PE EU ETS ME NATC AL RE SR CN CIN EN ID CT BN HI IM EB CLR JR NR WC PSD THW CI MC LS GOC",
+      "2": "ARC ONC CM POC SMCD CST NC GC LC RET PA NAC AMC BIC COL CL HS EC MR AUC PM WA SDD NM FA BL AM LEG RS",
+      "3": "BC COR PC TW",
+      "-1": "NEO TH NE NDL PR LI CF LF MI OB GE LL UT TE RC MDS GS US MO NS DIR JM GM PER ELP AP EA TP NA UJ BA SU IA DC RT NEOR NP PP TAR LN PN REZ SN RZ IB AD TI",
+      "-2": "ANC PG LE NLS ML ST TR HO ACK JU LU CC LT DS IF NAZ ES DE DEG EM CH VEF IR KE LZ AC AS GA",
+      "-3": "MA GU JA",
+      "split": "UT SL MU ML ST TR EA RC TH NEOR RS",
+      "why": "Divides conservatives and gradualists, who hold that rapid upheaval destroys more than it creates (Burke, de Maistre, Fabians, centrists), from revolutionaries and radical modernisers who accept short-term suffering for a better order (Mao, Guevara, Jacobins). Liberals and libertarians who want sweeping reform sit in between, as do reformist traditions that distrust upheaval.",
+      "notes": {
+        "BC": "Reflections on the Revolution in France: the Terror shows that sudden remaking of society brings ruin; reform must be slow: 3.",
+        "COR": "De Maistre read the French Revolution as a catastrophe that proves the folly of sudden change: 3.",
+        "TW": "The Tao Te Ching warns that governing a big state is like cooking a small fish: too much meddling spoils it: 3.",
+        "MA": "Mao: 'A revolution is not a dinner party'; the Great Leap and Cultural Revolution accepted huge suffering for rapid transformation: -3.",
+        "JA": "The Terror and Robespierre's belief that virtue needs terror accept the cost of rapid change: -3.",
+        "PC": "'Thay doi tu tu' (gradual change) is stated in the variant's own definition: 3.",
+        "RS": "Deng Xiaoping's 'crossing the river by feeling the stones' and Doi Moi's staged opening are explicitly gradualist: 2."
+      }
+    },
+    "change.means.8": {
+      "0": "NOA",
+      "1": "TW MO ML HES TH BC NAC GC GAU CT BN TE POC SC PP PM NLS TP UJ NS CN EN IR PN REZ JA BK MC",
+      "2": "ST HO HS PG EC KS XC EA CAE AUC PE VEF NA BA SU ME DS RS GOC KE LEG AL COR CI RT NEOR ARC BIC",
+      "3": "IF NAZ JU ACK LE AM MR NATC JM WA",
+      "-1": "ONC MA PC RC AMC NE CR PA LC RET GU IB HI SMCD DI NC UT US CH PER EM NEO OR TI RE COL CM CIN LN RZ JR NP WC THW FA BL DIR",
+      "-2": "CST AP CL SL PR NDL LI CF SR LF MI OB GE LL LS ETS LT EU GM ID IM SDD NR AD CLR TAR SN LZ PSD NM PAL",
+      "-3": "AC AS MU IA GA DC CA GAN TR LU CC MDS GS ES DEG DE EB ELP ANC",
+      "split": "ML MA NLS PER AL TH POC PM PAL NP",
+      "why": "Divides regimes and doctrines of order, which require permits or ban strikes and protests (fascist corporatism, Juche, Legalism, absolute monarchy, one-party socialism), from anarchists, libertarians, council communists, democratic socialists and liberals, for whom the right to strike and assemble is a precondition not a favour. Satyagraha and civil disobedience make the Gandhian and Christian-anarchist answer doctrinal.",
+      "notes": {
+        "IF": "Under the 1926 Rocco law and the Carta del Lavoro strikes were crimes and syndicates were state-supervised: 3.",
+        "GAN": "Satyagraha and civil disobedience, deliberately defying unjust permission regimes (Salt March, 1930), are Gandhi's core method: -3.",
+        "CC": "Council communists defend wildcat strikes against union and party bureaucracies (KAPD, Pannekoek): -3.",
+        "JA": "The Jacobin-era Le Chapelier law (1791) banned strikes and workers' associations in the name of the general will: 1.",
+        "MDS": "The right to strike is a core demand of the democratic left and of the labour movement: -3.",
+        "KE": "Kemalist Turkey banned strikes and independent unions until the 1960s: 2.",
+        "AL": "Authoritarian liberals (Schmitt's 'strong state, free economy', Papen-era Weimar, Hayek's praise of Chile) restrict mass pressure to protect markets: 2.",
+        "NOA": "Non-alignment concerns foreign policy only and has no stake in domestic protest rules: 0."
+      }
+    },
+    "change.pace.7": {
+      "1": "GS US CL SL OR THW FA PSD ETS AC MU CST DI NC ARC AMC PA NAC GC RET GAU HES MC TW BK GM DEG CF SR TI LS CN LN NOA CLR JR NR BL CC",
+      "2": "PC NM SMCD BC CM LC DC CA GAN EU LU ONC COL CIN SN ID IM EB RE AD",
+      "3": "POC SDD SU",
+      "-1": "PM MDS LT AS IA GA MA NE CR CAE AUC PE TE RC SC UT EC MO XC ME NS DIR ES DE EM PER ELP AP NEO PR NDL LI LF MI GE PAL LL RS GOC EN PN LZ REZ VEF CT BN HI IB RZ NP WC TAR LEG COR NLS TP NA UJ",
+      "-2": "ML ST TR JU HO GU TH BIC MR HS KS DS IF NAZ NATC JM CH AL OB ANC AM EA IR KE WA JA PP CI RT BA",
+      "-3": "ACK PG LE NEOR",
+      "split": "NAC GAU HES THW DEG CC SR LS TI AMC TH MA PR BA",
+      "why": "Divides consensus-seeking and consociational traditions (Nordic and Dutch corporatism, Swiss direct democracy, Pancasila musyawarah, Luxemburgist mass democracy) from vanguards, strongmen and technocrats who hold that reform should be led, not negotiated. Legalism and Platonic guardianship are doctrinally opposed; conservative gradualists agree for different reasons.",
+      "notes": {
+        "POC": "Consensus corporatism makes negotiation among state, unions and employers before major policy its defining method: 3.",
+        "SDD": "Optional and mandatory referendums, the popular veto and concordance government make consensus a structural precondition for change: 3.",
+        "SU": "Sukarno's Pancasila fourth principle and the practice of musyawarah-mufakat (deliberation to consensus) is doctrinal: 3.",
+        "LE": "The Book of Lord Shang says the people cannot share in planning the beginnings of reform, only in enjoying its results: -3.",
+        "PG": "Plato's guardians decide by knowledge, not by popular consent; the Republic ridicules rule by opinion: -3.",
+        "LU": "Luxemburg held that the proletarian revolution must be the conscious act of the great majority, not of a minority vanguard: 2.",
+        "NEOR": "Moldbug's sovereign-CEO model rejects consent as the basis of reform: -3.",
+        "TH": "Thatcher's 'conviction politics' and 'the lady's not for turning' rejects waiting for consensus: -2."
+      }
+    },
+    "foreign.intervention.4": {
+      "1": "JU IA CA TP GAN CAE CST SC UT AMC TH MDS GS US ETS MC NATC JM DEG ELP SL PR NDL CF RE SR RS LS CN CIN SN ID CT WA IM EB JR NR PSD THW COR",
+      "2": "ST HO EU CC MU GA NA NOA BA SU LT NE LI MO TI PN LN ES CH NM",
+      "3": "ML MA TR GU LU NLS AC AS DC UJ VEF IB JA",
+      "-1": "ACK PE PC RC POC TE SMCD DI NC CR GC LC GAU RET EC PM BK XC KS NS DIR IF GM DE EM PER AP CL NEO OR COL ANC GE LL GOC AM EA CM LEG EN IR KE LZ REZ BN HI RZ AD CLR FA BL RT CI",
+      "-2": "MR AUC PG HS HES BC ARC ONC NAC BIC LE TW ME DS NAZ AL LF MI OB PAL SDD NP WC PP TAR NEOR",
+      "-3": "PA",
+      "split": "NOA AMC TH NE JM WA CN CT SN GAN CA RS PSD THW ELP",
+      "why": "Divides internationalist traditions that hold solidarity with foreign revolutions or resistance a duty (Leninist and Trotskyist internationalism, anarchist solidarity, Vietnamese communism, Iranian and Islamist movements, Jacobin fraternity) from sovereigntists, isolationists, realists and order-minded conservatives who see it as meddling. Liberal interventionists and neoconservatives agree only for causes they favour, while paleoconservatives are doctrinally against.",
+      "notes": {
+        "ML": "Proletarian internationalism ('Workers of the world, unite') and the Comintern made aid to foreign revolutions a duty: 3.",
+        "NLS": "Vietnamese communist doctrine and practice of 'nghia vu quoc te' (internationalist duty), including aid to Laos and Cambodia, treats this as a duty: 3.",
+        "UJ": "Nyerere's Tanzania hosted the OAU Liberation Committee and gave bases to ANC, FRELIMO and others: 3.",
+        "VEF": "Article 154 of Iran's constitution commits the state to support the struggle of the oppressed against the arrogant everywhere: 3.",
+        "JA": "The Convention's Decree of Fraternity (November 1792) promised aid to all peoples wishing to recover their liberty: 3.",
+        "PA": "Buchanan and Taft-style paleoconservatives reject entangling aid to foreign insurgents and the 'democratic crusade': -3.",
+        "SDD": "Permanent neutrality rules out state military aid to foreign revolutions or resistance: -2.",
+        "AC": "The CNT-FAI and the international volunteers in Spain (1936) and the anarchist tradition of solidarity make this a duty: 3."
+      }
+    }
+  }
+}

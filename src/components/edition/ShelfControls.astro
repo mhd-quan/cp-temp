@@ -1,0 +1,24 @@
+---
+// The controls of a shelf that slides (lib/editionShelf.ts): one view of books
+// (or of whatever the shelf holds) back, one on. Hidden until the script finds
+// the shelf wider than its place, and never shown where there is no pointer to
+// use them.
+import Glyph from './Glyph.astro';
+
+interface Props {
+  for: string;
+  /** What each control brings into view, said to a screen reader. */
+  back?: string;
+  on?: string;
+}
+const { for: target, back = 'Những cuốn trước', on = 'Những cuốn tiếp theo' } = Astro.props;
+---
+<div class="shelf-controls" data-shelf-controls={target} hidden>
+  <button class="shelf-controls__step" type="button" data-step="-1" aria-controls={target} aria-label={back}><Glyph name="previous" size={18} /></button>
+  <button class="shelf-controls__step" type="button" data-step="1" aria-controls={target} aria-label={on}><Glyph name="next" size={18} /></button>
+</div>
+
+<script>
+  import { initShelves } from '../../lib/editionShelf';
+  initShelves();
+</script>

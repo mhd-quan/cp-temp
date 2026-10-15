@@ -1,0 +1,33 @@
+---
+// How to put the publication on a home screen, where the browser has no button
+// of its own for it (Safari, on iPhone, iPad and Mac): the app as it will
+// stand there, and the two or three taps it takes, named as the system names
+// them. A browser that can install it by itself (Chrome, Edge, Samsung
+// Internet) is simply asked to (lib/editionInstall.ts). Held back from the
+// page and fetched only where it can be shown (scripts/later-fragments.mjs).
+import { INSTALL } from '../../lib/editionNav';
+import Glyph from './Glyph.astro';
+---
+<dialog class="app-sheet" aria-labelledby="app-sheet-title" data-app-sheet>
+  <div class="app-sheet__head">
+    <h2 class="caps" id="app-sheet-title" data-app-sheet-title>{INSTALL}</h2>
+    <button class="icon-button" type="button" data-app-sheet-close aria-label="Đóng"><Glyph name="close" size={20} /></button>
+  </div>
+  <div class="app-sheet__body">
+    <div class="app-sheet__app">
+      <img src="/brand/apple-touch-icon.png" width="60" height="60" alt="" />
+      <p><span class="app-sheet__name">Pensées</span><span class="app-sheet__site">cochinchinepensees.studio</span></p>
+    </div>
+    <ol class="app-sheet__steps" role="list" data-for="ios">
+      <li>Nhấn <b><Glyph name="share" inline /> Chia sẻ</b> trên thanh công cụ của Safari. Trên iPhone, nút này có thể nằm trong <b>•••</b>.</li>
+      <li>Chọn <b><Glyph name="install" inline /> Thêm vào MH chính</b>.</li>
+      <li>Nhấn <b>Thêm</b>.</li>
+    </ol>
+    <ol class="app-sheet__steps" role="list" data-for="mac" hidden>
+      <li>Trong Safari, chọn <b>Tệp</b> › <b>Thêm vào Dock</b>.</li>
+      <li>Nhấn <b>Thêm</b>.</li>
+    </ol>
+    <p class="app-sheet__note" data-for="in-app" hidden>Trình duyệt trong ứng dụng này không thêm được trang vào màn hình chính. Mở trang trong Safari (<b>•••</b> › <b>Mở trong Safari</b>), rồi làm lại từ đó.</p>
+    <p class="app-sheet__note" data-for="ios mac">Trang sẽ mở như một ứng dụng, đầy màn hình. Những bài bạn đã đọc vẫn mở được khi không có mạng.</p>
+  </div>
+</dialog>

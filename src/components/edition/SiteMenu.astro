@@ -1,0 +1,68 @@
+---
+// The phone menu: search first, then the same groups as the footer, in the
+// same order (lib/editionNav.ts), then the appearance, and at the foot of the
+// sheet, always in reach, the one call to action: Nhận bài mới. Opens over the
+// page as one layer of material (the page shows through, blurred); the name
+// stays at the left, the rules of the menu button cross into the close button
+// in the same corner, and the entries rise into place one after another.
+// Closing runs it backwards.
+import { GROUPS, INSTALL } from '../../lib/editionNav';
+import Appearance from './Appearance.astro';
+import Glyph from './Glyph.astro';
+
+const path = Astro.url.pathname.replace(/\/$/, '') || '/';
+const current = (href: string) =>
+  path === href || path.startsWith(`${href}/`) ? 'page' : undefined;
+const entries = GROUPS.reduce((count, group) => count + group.links.length, 0);
+---
+<div id="site-menu" class="menu" popover aria-labelledby="menu-title" data-pagefind-ignore>
+  <div class="menu__head wrap">
+    <p class="menu__name" id="menu-title"><a href="/"><span class="bar__the">The</span> Cochinchine Pensées</a></p>
+    <button class="icon-button menu-button menu__close" type="button" popovertarget="site-menu" popovertargetaction="hide" aria-label="Đóng menu">
+      <span class="burger" aria-hidden="true"><i></i><i></i><i></i></span>
+    </button>
+  </div>
+  <div class="menu__scroll">
+  <div class="menu__body wrap">
+    <button class="menu__search" type="button" data-search-open style="--i:0">
+      <Glyph name="search" size={20} /><span>Tìm bài, tác giả, chủ đề</span>
+    </button>
+    {GROUPS.map((group, index) => (
+      <nav class:list={['menu__group', `menu__group--${group.id}`]} aria-labelledby={`menu-${group.id}`}>
+        <h2 class="caps menu__label" id={`menu-${group.id}`}>{group.label}</h2>
+        <ul role="list">
+          {group.links.map((link, position) => (
+            <li style={`--i:${index * 3 + position + 1}`}>
+              <a href={link.href} rel={link.external ? 'external' : undefined} aria-current={link.href.startsWith('/') ? current(link.href) : undefined}>
+                <span>{link.label}</span><Glyph name={link.glyph ?? 'forward'} size={18} />
+              </a>
+            </li>
+          ))}
+          {group.id === 'follow' && (
+            <li style={`--i:${index * 3 + group.links.length + 1}`} data-install-entry hidden>
+              <button type="button" data-install><span>{INSTALL}</span><Glyph name="install" size={18} /></button>
+            </li>
+          )}
+        </ul>
+      </nav>
+    ))}
+    <div class="menu__group menu__group--appearance" style={`--i:${entries}`}>
+      <h2 class="caps menu__label" id="menu-appearance">Giao diện</h2>
+      <Appearance name="menu-appearance" labelledby="menu-appearance" class="appearance--paper" />
+    </div>
+  </div>
+  </div>
+  <div class="menu__foot wrap" style="--i:1">
+    <a class="button button--ink menu__subscribe" href="/subscribe">Nhận bài mới</a>
+  </div>
+</div>
+
+<script>
+  // Any link or search in the menu closes it first, so the page (or the search
+  // sheet) is what the reader sees next.
+  const menu = document.getElementById('site-menu');
+  menu?.addEventListener('click', (event) => {
+    const target = (event.target as Element).closest('a, [data-search-open], [data-install]');
+    if (target && menu.matches(':popover-open')) menu.hidePopover();
+  });
+</script>

@@ -1,0 +1,125 @@
+---
+// Trang đọc: a popover (desktop) or bottom sheet (mobile) of native radio
+// groups. Every change applies at once and keeps the reader's place.
+// Size steps differ by device and are remembered separately.
+import Glyph from './Glyph.astro';
+
+const sizes = ['Rất nhỏ', 'Nhỏ', 'Vừa', 'Lớn', 'Rất lớn'];
+// Four faces for reading: the publication's Pliego, a classic Garamond, a
+// contemporary grotesque, and Lexend, drawn for readers with dyslexia (wide
+// letterforms and spacing; checked to set every Vietnamese mark correctly,
+// which OpenDyslexic does not). Each is shown only as "Aa" set in itself: the
+// face is the choice, and its name is for screen readers.
+const fonts = [
+  { value: 'text', label: 'Pliego', family: 'var(--font-text)' },
+  { value: 'classic', label: 'Garamond', family: 'var(--font-classic)' },
+  { value: 'grotesque', label: 'Bricolage Grotesque', family: 'var(--font-grotesque)' },
+  {
+    value: 'lexend',
+    label: 'Lexend, dễ đọc với người mắc chứng khó đọc (dyslexia)',
+    family: 'var(--font-lexend)',
+  },
+];
+const measures = [
+  { value: 'narrow', label: 'Hẹp' },
+  { value: 'normal', label: 'Vừa' },
+  { value: 'wide', label: 'Rộng' },
+];
+const leadings = [
+  { value: 'tight', label: 'Gọn' },
+  { value: 'normal', label: 'Vừa' },
+  { value: 'loose', label: 'Thoáng' },
+];
+// Each paper is shown only as its own colour; the name is for screen readers.
+const papers = [
+  { value: 'giay', label: 'Giấy' },
+  { value: 'nga', label: 'Ngà' },
+  { value: 'suong', label: 'Sương' },
+  { value: 'reu', label: 'Rêu' },
+];
+---
+<div id="reader-settings" class="sheet settings" popover data-pagefind-ignore aria-labelledby="settings-title">
+  <div class="sheet__head">
+    <h2 class="caps" id="settings-title">Trang đọc</h2>
+    <button class="icon-button" type="button" popovertarget="reader-settings" popovertargetaction="hide" aria-label="Đóng"><Glyph name="close" size={20} /></button>
+  </div>
+  <div class="sheet__body">
+
+  <fieldset class="setting">
+    <legend class="caps">Cỡ chữ</legend>
+    <div class="seg seg--size">
+      {sizes.map((label, index) => (
+        <label title={label}>
+          <input type="radio" name="read-size" value={String(index + 1)} checked={index === 2} />
+          <span class="seg__a" style={`font-size:${14 + index * 3}px`} aria-hidden="true">A</span>
+          <span class="sr-only">{label}</span>
+        </label>
+      ))}
+    </div>
+  </fieldset>
+
+  <fieldset class="setting">
+    <legend class="caps">Kiểu chữ</legend>
+    <div class="seg seg--font">
+      {fonts.map((font, index) => (
+        <label>
+          <input type="radio" name="read-font" value={font.value} checked={index === 0} />
+          <span class="seg__sample" style={`font-family:${font.family}`} aria-hidden="true">Aa</span>
+          <span class="sr-only">{font.label}</span>
+        </label>
+      ))}
+    </div>
+  </fieldset>
+
+  <div class="setting-row">
+    <fieldset class="setting setting--measure">
+      <legend class="caps">Độ rộng dòng</legend>
+      <div class="seg seg--icons">
+        {measures.map((item, index) => (
+          <label title={item.label}>
+            <input type="radio" name="read-measure" value={item.value} checked={index === 1} />
+            <span class={`bars bars--${item.value}`} aria-hidden="true"><i></i><i></i><i></i></span>
+            <span class="sr-only">{item.label}</span>
+          </label>
+        ))}
+      </div>
+    </fieldset>
+    <fieldset class="setting">
+      <legend class="caps">Giãn dòng</legend>
+      <div class="seg seg--icons">
+        {leadings.map((item, index) => (
+          <label title={item.label}>
+            <input type="radio" name="read-leading" value={item.value} checked={index === 1} />
+            <span class={`lines lines--${item.value}`} aria-hidden="true"><i></i><i></i><i></i></span>
+            <span class="sr-only">{item.label}</span>
+          </label>
+        ))}
+      </div>
+    </fieldset>
+  </div>
+
+  <fieldset class="setting">
+    <legend class="caps">Nền</legend>
+    <div class="seg seg--paper">
+      {papers.map((paper, index) => (
+        <label>
+          <input type="radio" name="read-paper" value={paper.value} checked={index === 0} />
+          <span class={`paper-swatch paper-swatch--${paper.value}`} aria-hidden="true">Aa</span>
+          <span class="sr-only">{paper.label}</span>
+        </label>
+      ))}
+    </div>
+  </fieldset>
+
+  <fieldset class="setting">
+    <legend class="caps">Giao diện</legend>
+    <div class="seg seg--appearance">
+      <label><input type="radio" name="read-appearance" value="light" data-appearance /><Glyph name="sun" size={18} /><span class="seg__label">Sáng</span></label>
+      <label><input type="radio" name="read-appearance" value="dark" data-appearance /><Glyph name="moon" size={18} /><span class="seg__label">Tối</span></label>
+      <label><input type="radio" name="read-appearance" value="auto" data-appearance checked /><Glyph name="auto" size={18} /><span class="seg__label">Tự động</span></label>
+    </div>
+  </fieldset>
+
+  <button class="caps-link settings__reset" type="button" data-settings-reset><span>Về mặc định</span></button>
+  </div>
+</div>

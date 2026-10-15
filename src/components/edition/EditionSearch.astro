@@ -1,0 +1,62 @@
+---
+// Search opens as a sheet over the current page and reuses the existing
+// Pagefind engine and Vietnamese ranking. Links to /search keep working
+// without JavaScript; with it, they open this dialog instead.
+import SearchResults from '../search/SearchResults.astro';
+import Glyph from './Glyph.astro';
+---
+<dialog class="search-sheet" aria-labelledby="search-sheet-title">
+  <h2 id="search-sheet-title" class="sr-only">Tìm kiếm</h2>
+  <button type="button" class="icon-button search-sheet__close" data-search-close aria-label="Đóng tìm kiếm"><Glyph name="close" size={22} /></button>
+  <SearchResults id="edition-search" modal />
+</dialog>
+
+<script>
+  const sheet = document.querySelector<HTMLDialogElement>('.search-sheet');
+  if (sheet) {
+    let opener: HTMLElement | null = null;
+    const input = () => sheet.querySelector<HTMLInputElement>('input[type="search"]');
+    const field = input();
+    if (field) field.placeholder = 'Tên bài, tác giả, chủ đề';
+    const open = (trigger: HTMLElement | null) => {
+      if (sheet.open) return;
+      opener = trigger;
+      sheet.showModal();
+      input()?.focus();
+    };
+    const close = () => sheet.open && sheet.close();
+
+    document.querySelectorAll<HTMLElement>('[data-search-open], a[href="/search"]').forEach((trigger) =>
+      trigger.addEventListener('click', (event) => {
+        if (event instanceof MouseEvent && (event.metaKey || event.ctrlKey || event.shiftKey || event.altKey)) return;
+        event.preventDefault();
+        open(trigger);
+      }),
+    );
+    sheet.querySelector('[data-search-close]')?.addEventListener('click', close);
+    // A click on the backdrop lands on the dialog element itself.
+    sheet.addEventListener('click', (event) => {
+      if (event.target === sheet) close();
+    });
+    sheet.addEventListener('close', () => opener?.focus({ preventScroll: true }));
+    // A search field would spend the first Escape clearing itself; close at once instead.
+    sheet.addEventListener('keydown', (event) => {
+      if (event.key !== 'Escape') return;
+      event.preventDefault();
+      close();
+    });
+
+    // ⌘K / Ctrl K and "/" stay available; they are simply not advertised.
+    const typing = (target: EventTarget | null) =>
+      target instanceof HTMLElement && (target.isContentEditable || /^(INPUT|TEXTAREA|SELECT)$/.test(target.tagName));
+    document.addEventListener('keydown', (event) => {
+      if ((event.metaKey || event.ctrlKey) && event.key.toLowerCase() === 'k') {
+        event.preventDefault();
+        sheet.open ? close() : open(document.activeElement as HTMLElement);
+      } else if (event.key === '/' && !sheet.open && !typing(event.target)) {
+        event.preventDefault();
+        open(document.activeElement as HTMLElement);
+      }
+    });
+  }
+</script>

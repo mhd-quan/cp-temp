@@ -1,0 +1,518 @@
+{
+  "parties": [
+    {
+      "id": "gaelic-league",
+      "name": "Liên đoàn Gaelic",
+      "country": "Ireland",
+      "period": "1893–nay",
+      "variants": [
+        "cultural-nationalism"
+      ],
+      "emblem": {
+        "shape": "disc",
+        "field": "#169b62",
+        "ink": "#ffffff",
+        "motif": "book-open"
+      }
+    },
+    {
+      "id": "snp",
+      "name": "Đảng Quốc gia Scotland",
+      "abbr": "SNP",
+      "country": "Scotland",
+      "period": "1934–nay",
+      "variants": [
+        "civic-nationalism"
+      ],
+      "emblem": {
+        "shape": "disc",
+        "field": "#ffdd00",
+        "ink": "#000000",
+        "motif": "thistle"
+      }
+    },
+    {
+      "id": "dai-viet-quoc-dan-dang",
+      "name": "Đại Việt Quốc dân Đảng",
+      "abbr": "ĐVQDĐ",
+      "country": "Việt Nam",
+      "period": "1939–1975",
+      "variants": [
+        "ethnic-nationalism"
+      ],
+      "emblem": {
+        "shape": "shield",
+        "field": "#f2c200",
+        "ink": "#b22222",
+        "motif": "flag-banner"
+      }
+    },
+    {
+      "id": "giovine-italia",
+      "name": "Nước Ý Trẻ",
+      "country": "Ý",
+      "period": "1831–1848",
+      "variants": [
+        "liberal-nationalism"
+      ],
+      "emblem": {
+        "shape": "disc",
+        "field": "#009246",
+        "ink": "#ffffff",
+        "motif": "flag-banner",
+        "ring": "#ce2b37"
+      }
+    },
+    {
+      "id": "cpp-ghana",
+      "name": "Đảng Nhân dân Đại hội",
+      "abbr": "CPP",
+      "country": "Ghana",
+      "period": "1949–1966",
+      "variants": [
+        "pan-nationalism",
+        "national-liberation-socialism",
+        "non-alignment"
+      ],
+      "emblem": {
+        "shape": "disc",
+        "field": "#ffffff",
+        "ink": "#ce1126",
+        "motif": "cockerel",
+        "ring": "#006b3f"
+      }
+    },
+    {
+      "id": "chp",
+      "name": "Đảng Nhân dân Cộng hoà",
+      "abbr": "CHP",
+      "country": "Thổ Nhĩ Kỳ",
+      "period": "1923–nay",
+      "variants": [
+        "kemalism"
+      ],
+      "emblem": {
+        "shape": "disc",
+        "field": "#e30a17",
+        "ink": "#ffffff",
+        "motif": "six-arrows"
+      }
+    },
+    {
+      "id": "mapai",
+      "name": "Đảng Công nhân Đất Israel",
+      "abbr": "Mapai",
+      "country": "Israel",
+      "period": "1930–1968",
+      "variants": [
+        "labour-zionism"
+      ],
+      "emblem": {
+        "shape": "disc",
+        "field": "#c8102e",
+        "ink": "#ffffff",
+        "motif": "flag-banner"
+      }
+    },
+    {
+      "id": "herut",
+      "name": "Đảng Herut (Tự do)",
+      "abbr": "Herut",
+      "country": "Israel",
+      "period": "1948–1988",
+      "variants": [
+        "revisionist-zionism"
+      ],
+      "emblem": {
+        "shape": "disc",
+        "field": "#1f3a68",
+        "ink": "#ffffff",
+        "motif": "star-of-david"
+      }
+    },
+    {
+      "id": "parti-quebecois",
+      "name": "Đảng Québécois",
+      "abbr": "PQ",
+      "country": "Québec",
+      "period": "1968–nay",
+      "variants": [
+        "secessionist-nationalism"
+      ],
+      "emblem": {
+        "shape": "disc",
+        "field": "#003da5",
+        "ink": "#ffffff",
+        "motif": "fleur-de-lis"
+      }
+    },
+    {
+      "id": "erc",
+      "name": "Cánh tả Cộng hoà Catalonia",
+      "abbr": "ERC",
+      "country": "Catalonia",
+      "period": "1931–nay",
+      "variants": [
+        "secessionist-nationalism"
+      ],
+      "emblem": {
+        "shape": "disc",
+        "field": "#ffb612",
+        "ink": "#1b1b1b",
+        "motif": "star",
+        "ring": "#da121a"
+      }
+    }
+  ],
+  "states": [
+    {
+      "id": "ireland-1932-1948",
+      "name": "Ireland",
+      "period": "1932–1948",
+      "note": "Thời Éamon de Valera: phục hưng tiếng Ireland",
+      "variants": [
+        "cultural-nationalism"
+      ],
+      "flag": "ireland"
+    },
+    {
+      "id": "france-1870-1940",
+      "name": "Pháp",
+      "period": "1870–1940",
+      "note": "Đệ tam Cộng hoà: quốc gia công dân, trường thế tục",
+      "variants": [
+        "civic-nationalism"
+      ],
+      "flag": "france"
+    },
+    {
+      "id": "latvia-1934-1940",
+      "name": "Latvia",
+      "period": "1934–1940",
+      "note": "Thời Kārlis Ulmanis: ‘Latvia của người Latvia’",
+      "variants": [
+        "ethnic-nationalism"
+      ],
+      "flag": "latvia"
+    },
+    {
+      "id": "czechoslovakia-1918-1938",
+      "name": "Tiệp Khắc",
+      "period": "1918–1938",
+      "note": "Đệ nhất Cộng hoà, thời Tomáš Masaryk",
+      "variants": [
+        "liberal-nationalism"
+      ],
+      "flag": "czechoslovakia"
+    },
+    {
+      "id": "hungary-1920-1944",
+      "name": "Hungary",
+      "period": "1920–1944",
+      "note": "Thời Horthy: đòi xét lại Hiệp ước Trianon",
+      "variants": [
+        "irredentism"
+      ],
+      "flag": "hungary"
+    },
+    {
+      "id": "ghana-1957-1966",
+      "name": "Ghana",
+      "period": "1957–1966",
+      "note": "Thời Kwame Nkrumah",
+      "variants": [
+        "pan-nationalism",
+        "national-liberation-socialism",
+        "non-alignment"
+      ],
+      "flag": "ghana"
+    },
+    {
+      "id": "turkey-1923-1946",
+      "name": "Cộng hoà Thổ Nhĩ Kỳ",
+      "period": "1923–1946",
+      "note": "Atatürk rồi İnönü: chế độ một đảng CHP, cải cách chữ viết, trang phục và luật dân sự",
+      "variants": [
+        "kemalism"
+      ],
+      "flag": "turkey"
+    },
+    {
+      "id": "israel-1948-1977",
+      "name": "Israel",
+      "period": "1948–1977",
+      "note": "Đảng Mapai rồi Công đảng cầm quyền liên tục, từ Ben-Gurion đến Yitzhak Rabin",
+      "variants": [
+        "labour-zionism"
+      ],
+      "flag": "israel"
+    },
+    {
+      "id": "israel-1977-1983",
+      "name": "Israel",
+      "period": "1977–1983",
+      "note": "Chính phủ Begin: tự do hoá kinh tế, hoà ước với Ai Cập (1979), chiến tranh Liban (1982)",
+      "variants": [
+        "revisionist-zionism"
+      ],
+      "flag": "israel"
+    }
+  ],
+  "figures": [
+    {
+      "id": "johann-gottfried-herder",
+      "name": "Johann Gottfried Herder",
+      "life": "1744–1803",
+      "role": "Triết gia Đức, cha đẻ dân tộc văn hoá",
+      "variant": "cultural-nationalism",
+      "axes": {
+        "foreign": 75
+      },
+      "wiki": "Johann Gottfried Herder"
+    },
+    {
+      "id": "pham-quynh",
+      "name": "Phạm Quỳnh",
+      "life": "1892–1945",
+      "role": "Chủ bút Nam Phong, Thượng thư triều Nguyễn",
+      "variant": "cultural-nationalism",
+      "axes": {
+        "change": 10
+      },
+      "wiki": "Phạm Quỳnh"
+    },
+    {
+      "id": "douglas-hyde",
+      "name": "Douglas Hyde",
+      "life": "1860–1949",
+      "role": "Sáng lập Liên đoàn Gaelic, Tổng thống Ireland",
+      "variant": "cultural-nationalism",
+      "wiki": "Douglas Hyde"
+    },
+    {
+      "id": "ernest-renan",
+      "name": "Ernest Renan",
+      "life": "1823–1892",
+      "role": "Sử gia Pháp, tác giả ‘Dân tộc là gì?’ (1882)",
+      "variant": "civic-nationalism",
+      "axes": {
+        "elites": 25
+      },
+      "wiki": "Ernest Renan"
+    },
+    {
+      "id": "nicola-sturgeon",
+      "name": "Nicola Sturgeon",
+      "life": "s. 1970",
+      "role": "Thủ hiến Scotland (2014–2023)",
+      "variant": "civic-nationalism",
+      "axes": {
+        "distribution": 30,
+        "lifestyle": 80,
+        "identity": 70,
+        "environment": 65
+      },
+      "wiki": "Nicola Sturgeon"
+    },
+    {
+      "id": "johann-gottlieb-fichte",
+      "name": "Johann Gottlieb Fichte",
+      "life": "1762–1814",
+      "role": "Triết gia Đức, ‘Diễn từ gửi dân tộc Đức’",
+      "variant": "ethnic-nationalism",
+      "axes": {
+        "economy": 25,
+        "trade": 10
+      },
+      "wiki": "Johann Gottlieb Fichte"
+    },
+    {
+      "id": "roman-dmowski",
+      "name": "Roman Dmowski",
+      "life": "1864–1939",
+      "role": "Lãnh tụ phong trào Dân chủ Quốc gia Ba Lan",
+      "variant": "ethnic-nationalism",
+      "wiki": "Roman Dmowski"
+    },
+    {
+      "id": "giuseppe-mazzini",
+      "name": "Giuseppe Mazzini",
+      "life": "1805–1872",
+      "role": "Nhà cách mạng Ý, sáng lập Nước Ý Trẻ",
+      "variant": "liberal-nationalism",
+      "wiki": "Giuseppe Mazzini"
+    },
+    {
+      "id": "tomas-masaryk",
+      "name": "Tomáš Masaryk",
+      "life": "1850–1937",
+      "role": "Tổng thống đầu tiên của Tiệp Khắc",
+      "variant": "liberal-nationalism",
+      "wiki": "Tomáš Garrigue Masaryk"
+    },
+    {
+      "id": "lajos-kossuth",
+      "name": "Lajos Kossuth",
+      "life": "1802–1894",
+      "role": "Lãnh tụ cách mạng Hungary 1848",
+      "variant": "liberal-nationalism",
+      "wiki": "Lajos Kossuth"
+    },
+    {
+      "id": "paul-deroulede",
+      "name": "Paul Déroulède",
+      "life": "1846–1914",
+      "role": "Nhà thơ, thủ lĩnh phái phục thù Pháp",
+      "variant": "irredentism",
+      "wiki": "Paul Déroulède"
+    },
+    {
+      "id": "gabriele-dannunzio",
+      "name": "Gabriele D'Annunzio",
+      "life": "1863–1938",
+      "role": "Nhà thơ Ý, chiếm Fiume (1919–1920)",
+      "variant": "irredentism",
+      "wiki": "Gabriele D'Annunzio"
+    },
+    {
+      "id": "kwame-nkrumah",
+      "name": "Kwame Nkrumah",
+      "life": "1909–1972",
+      "role": "Người lập quốc Ghana, nhà tư tưởng Liên Phi",
+      "variant": "pan-nationalism",
+      "axes": {
+        "economy": 25,
+        "distribution": 25,
+        "power": 15
+      },
+      "wiki": "Kwame Nkrumah"
+    },
+    {
+      "id": "okakura-kakuzo",
+      "name": "Okakura Tenshin",
+      "life": "1863–1913",
+      "role": "Nhà tư tưởng Nhật, ‘châu Á là một’",
+      "variant": "pan-nationalism",
+      "axes": {
+        "change": 30
+      },
+      "wiki": "Okakura Kakuzō"
+    },
+    {
+      "id": "marcus-garvey",
+      "name": "Marcus Garvey",
+      "life": "1887–1940",
+      "role": "Nhà hoạt động Jamaica, phong trào Liên Phi",
+      "variant": "pan-nationalism",
+      "axes": {
+        "identity": 10
+      },
+      "wiki": "Marcus Garvey"
+    },
+    {
+      "id": "mustafa-kemal-ataturk",
+      "name": "Mustafa Kemal Atatürk",
+      "life": "1881–1938",
+      "role": "Người lập nước Cộng hoà Thổ Nhĩ Kỳ",
+      "variant": "kemalism",
+      "wiki": "Mustafa Kemal Atatürk"
+    },
+    {
+      "id": "ismet-inonu",
+      "name": "İsmet İnönü",
+      "life": "1884–1973",
+      "role": "Tổng thống Thổ Nhĩ Kỳ (1938–1950)",
+      "variant": "kemalism",
+      "wiki": "İsmet İnönü"
+    },
+    {
+      "id": "habib-bourguiba",
+      "name": "Habib Bourguiba",
+      "life": "1903–2000",
+      "role": "Tổng thống đầu tiên của Tunisia, hiện đại hoá thế tục",
+      "variant": "kemalism",
+      "wiki": "Habib Bourguiba",
+      "axes": {
+        "foreign": 65
+      }
+    },
+    {
+      "id": "david-ben-gurion",
+      "name": "David Ben-Gurion",
+      "life": "1886–1973",
+      "role": "Thủ tướng đầu tiên của Israel",
+      "variant": "labour-zionism",
+      "wiki": "David Ben-Gurion"
+    },
+    {
+      "id": "berl-katznelson",
+      "name": "Berl Katznelson",
+      "life": "1887–1944",
+      "role": "Nhà lý luận phong trào lao động Do Thái, đồng sáng lập Histadrut",
+      "variant": "labour-zionism",
+      "wiki": "Berl Katznelson"
+    },
+    {
+      "id": "golda-meir",
+      "name": "Golda Meir",
+      "life": "1898–1978",
+      "role": "Thủ tướng Israel (1969–1974)",
+      "variant": "labour-zionism",
+      "wiki": "Golda Meir"
+    },
+    {
+      "id": "zeev-jabotinsky",
+      "name": "Ze'ev Jabotinsky",
+      "life": "1880–1940",
+      "role": "Người sáng lập phái Phục quốc Do Thái xét lại",
+      "variant": "revisionist-zionism",
+      "wiki": "Ze'ev Jabotinsky"
+    },
+    {
+      "id": "menachem-begin",
+      "name": "Menachem Begin",
+      "life": "1913–1992",
+      "role": "Chỉ huy Irgun, Thủ tướng Israel (1977–1983)",
+      "variant": "revisionist-zionism",
+      "wiki": "Menachem Begin"
+    },
+    {
+      "id": "yitzhak-shamir",
+      "name": "Yitzhak Shamir",
+      "life": "1915–2012",
+      "role": "Thủ tướng Israel, từng chỉ huy nhóm vũ trang Lehi",
+      "variant": "revisionist-zionism",
+      "wiki": "Yitzhak Shamir"
+    },
+    {
+      "id": "rene-levesque",
+      "name": "René Lévesque",
+      "life": "1922–1987",
+      "role": "Thủ hiến Québec, người sáng lập Đảng Québécois",
+      "variant": "secessionist-nationalism",
+      "wiki": "René Lévesque",
+      "axes": {
+        "economy": 40
+      }
+    },
+    {
+      "id": "alex-salmond",
+      "name": "Alex Salmond",
+      "life": "1954–2024",
+      "role": "Thủ hiến Scotland, dẫn dắt cuộc trưng cầu độc lập 2014",
+      "variant": "secessionist-nationalism",
+      "wiki": "Alex Salmond"
+    },
+    {
+      "id": "carles-puigdemont",
+      "name": "Carles Puigdemont",
+      "life": "s. 1962",
+      "role": "Chủ tịch chính quyền Catalonia, tổ chức trưng cầu 2017",
+      "variant": "secessionist-nationalism",
+      "wiki": "Carles Puigdemont",
+      "axes": {
+        "economy": 60
+      }
+    }
+  ]
+}

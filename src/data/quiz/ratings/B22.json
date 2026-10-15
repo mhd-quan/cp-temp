@@ -1,0 +1,252 @@
+{
+  "rater": "B",
+  "block": "B22",
+  "items": {
+    "knowledge.2": {
+      "0": "MR AUC PE SUL SC HS NC LE TW BK MO KS ME NS DIR DS IS NATC JM NAS EM CL OR RE ANC PAL RS AM LEG CN IR PN CT BN WA IM RZ JR TRA CRA COR CI NEOR EUR GC",
+      "1": "TP STC HES UT BC ARC BIC MC XC IF EA AL KE CLR HF FA RT",
+      "2": "TE PG EC PM COL",
+      "-1": "NOA BA SU CAE COA PC RC CO DI JU AMC CR TH NE PA NAC LC RET ONC DE SL NEO LI CF LF MI OB GE LL GOC CM EN VEF HI IB NAZ",
+      "-2": "IA NLS NA GAN UJ POC SMCD CST ML ST MA TR EU HO GU GAU MDS LT GS US ETS LIF SF RF GM ES DEG CH PER ELP AP PR NDL SR TI LS CIN LN LZ REZ SN ID EB JA SDD NR NP WC PP TAR NM PSD THW BL PIP",
+      "-3": "AC AS MU GA CA DC LU CC ACK AD",
+      "split": "COL SL CL JR COR UT",
+      "why": "Plural voting by education splits meritocratic/technocratic and examination traditions (agree) from egalitarian democrats, socialists and anarchists (strong disagree); most states-and-economy schools simply have no stake.",
+      "notes": {
+        "COL": "Guizot's cens capacitaire and Tocqueville's fear of mass rule favour capacity-based franchise: 2.",
+        "UT": "J. S. Mill proposed plural votes for the educated in Considerations on Representative Government, though Bentham-style utilitarians backed equal suffrage: 1.",
+        "PM": "Daniel Bell's vertical meritocracy gives the competent more political weight than one-person-one-vote: 2.",
+        "ACK": "Khmer Rouge persecuted the educated as class enemies; elevating them is the opposite of its practice: -3.",
+        "AD": "Athenian isonomia and the equal lot/vote of citizens is the core of the system: -3.",
+        "MA": "Mao's 'red over expert' and Cultural Revolution attacks on intellectuals: -2."
+      }
+    },
+    "elites.decision.9": {
+      "0": "HF CAE STC NOA JM SC HS TW BK IS ME NS CN RC ANC KE BIC TRA RS",
+      "1": "MC LE KS HES EA AM LEG DIR DS FA EM AL GAU",
+      "2": "PM PG TE XC MO TP",
+      "3": "EC",
+      "-1": "ML ST JU HO NLS MR AUC PE COA BA NA IF NATC NAS BC ONC TH NE NAC GC LC CL NEO OR COL PAL UT LIF THW PC POC VEF WA IM IR PN CI RT NEOR EUR RE GOC GU",
+      "-2": "MA ACK TR IA NAZ SUL SU GAN UJ ARC AMC CR PA RET MDS LT GS US ETS SF RF GM ES DE DEG CH PER ELP AP NM PSD BL CO SMCD CST DI NC ID CT BN HI IB RZ EB CIN EN LN LZ REZ SN NP WC PP TAR CRA PIP COR CLR JA JR NR SL PR NDL LI CF SR LF MI OB GE LL MU TI LS CM EU",
+      "-3": "AC AS GA CA DC AD SDD LU CC",
+      "split": "PM TP GAU DS RC NEOR MC",
+      "why": "Appointing ministers by competitive examination is the Confucian-bureaucratic and technocratic ideal; democrats, anarchists and most parties see ministers as accountable political offices that the people must choose.",
+      "notes": {
+        "EC": "The examination state (Lê Thánh Tông's Hồng Đức order, Song and Nguyễn courts) staffed the whole administration by examination: 3.",
+        "TP": "Sun Yat-sen's five-power constitution has an Examination Yuan that qualifies all officials, alongside elected people's power: 2.",
+        "MA": "Mao's 'red over expert' and the Cultural Revolution attacked exam-selected specialists: -2.",
+        "AD": "Athenian democracy chose officials by lot or election and distrusted professional rulers: -3.",
+        "FA": "The Webbs wanted expert, trained administrators to run the state: 1.",
+        "RE": "Phan Châu Trinh attacked the old khoa cử examination as sterile, and stressed dân quyền: -1."
+      }
+    },
+    "class.3": {
+      "0": "CA TP NOA MR AUC PE COA PC RC TE SC ARC CR LC GAU EC LE TW BK MO XC ME NS DIR DS IF NAZ NAS GM DE SL CF RE COL GE CM LEG KE ID CT WA RZ CLR NP PP PIP RT",
+      "1": "SUL PG HS GU AMC NE BIC MC PM KS LIF EM LI OR AL AM EA JR HF NEOR TRA IM GAN LL",
+      "2": "CAE UT TH CL NEO LF MI PAL TAR CRA",
+      "3": "IA OB ANC",
+      "-1": "MU GA NA BA SU STC POC SMCD CST DI NC BC ONC PA GC RET US ETS IS NATC JM DEG CH PER PR NDL RS GOC LS CIN LN LZ REZ BN IB EB NR WC THW FA COR VEF JU",
+      "-2": "AC AS DC UJ CO HES ST EU ACK NAC MDS LT GS SF RF ES ELP AP SR TI CN EN IR PN SN HI AD JA SDD NM PSD BL CI EUR TR",
+      "-3": "NLS ML MA LU CC HO",
+      "split": "IF NAZ CAE GU CA TP COL",
+      "why": "The item splits methodological individualists (libertarians, utilitarians, Stirner, Rand) from every school whose core theory is class, nation, people or community as the agent of history (Marxists, nationalists, communitarians).",
+      "notes": {
+        "TH": "Thatcher: 'there is no such thing as society, only individual men and women and families': 2.",
+        "IA": "Stirner's 'Der Einzige' treats collectives (state, class, humanity) as spooks, only the ego acts: 3.",
+        "MA": "Mao: 'the people, and the people alone, are the motive force in the making of world history': -3.",
+        "NLS": "Hồ Chí Minh and Cabral treat the people's mass struggle as the maker of history: -3.",
+        "CA": "Tolstoy's War and Peace denies that great men make history, but locates it in innumerable individual wills and conscience: 0.",
+        "UT": "Bentham calls the community a 'fictitious body' composed of individuals: 2."
+      }
+    },
+    "change.means.7": {
+      "0": "AUC PE COA SUL STC DI NC PG SC HES EU LU CC ARC CR TH PA BIC LT EC PM ME DIR DS IS RF EM AP NEO LI OR AL MI OB ANC PAL LL RS LS GOC AM EA LN LZ CT BN AD CLR HF NP WC TAR CRA CI NEOR EUR",
+      "1": "HS SF ES TE ELP IM NDL MU IA UJ NOA PC RC CO SMCD CST UT BC ONC GC LC RET MDS GS US BK SL PR COL SR LF GE CM CIN ID SDD NR PSD THW BL TRA DE DEG LIF",
+      "2": "NM TW GM CF SN POC FA CN PIP ETS",
+      "3": "CA GAN EB RE",
+      "-1": "KS MR CAE AS ACK AMC NE NAC MC LE XC NS MO NATC JM EN PN VEF HI WA IB RZ PP COR RT TI PER CL",
+      "-2": "AC GA DC TP NA BA SU ML ST TR JU HO GAU IF NAZ NAS CH IR KE REZ JA JR",
+      "-3": "NLS MA GU LEG",
+      "split": "LT EC LN TP CL MC AS NA",
+      "why": "Whether colonised peoples should resist by non-violence or by arms separates Gandhian, Tolstoyan, Buddhist and Phan Châu Trinh-style reformers (peaceful) from Marxist-Leninist, Maoist, Guevarist, nationalist and loyalist-restoration camps for whom armed struggle is the path.",
+      "notes": {
+        "GAN": "Satyagraha and ahimsa are the core of Gandhi's method against British rule: 3.",
+        "RE": "Phan Châu Trinh rejected Phan Bội Châu's armed Đông Du/uprising line for dân quyền, dân trí and open reform: 3.",
+        "NLS": "Hồ Chí Minh and Cabral made armed struggle under a communist-led front the doctrine of liberation: -3.",
+        "MA": "Mao: 'political power grows out of the barrel of a gun': -3.",
+        "LEG": "The Cần Vương movement (1885-96) and Phan Đình Phùng were armed uprisings in the king's name: -3.",
+        "CA": "Tolstoy's non-resistance to evil (The Kingdom of God Is Within You) rules out violent resistance even to foreign rule: 3."
+      }
+    },
+    "foreign.rules.2": {
+      "0": "CO GS US MC TW BK MO CL AL LF ANC CIN PN IM NR HF LS GU",
+      "1": "GAN PE NC PG DI ML BC ARC ONC GC RET EC XC PM ELP COL OB MI CM CN LZ SN ID IB CLR TAR BL COR RT RE GOC",
+      "2": "RS NLS TP NA UJ BA SU CAE MR AUC COA SUL STC ST MA ACK AMC CR TH NE BIC LE KS ME NS DIR DS IS NATC NAS PER AP PAL TI AM EA LEG KE CT BN WA AD JA SDD JR WC NEOR",
+      "3": "HS HES JU HO NOA NAC PA GAU IF NAZ JM EN IR REZ CH VEF HI RZ NP PP EUR",
+      "-1": "PC RC POC SMCD CST UT EU MDS LT ETS GM ES DE DEG EM SL NEO NDL OR GE LN SR EB PSD FA CRA PIP CI LC",
+      "-2": "TE TR LU CC LIF SF RF PR NM THW TRA LL MU DC SC",
+      "-3": "AC AS IA GA CA LI CF",
+      "split": "CL ML PE GU SN CIN IM NEO OB",
+      "why": "Absolute sovereignty against international bodies splits Hobbesian, fascist, nationalist and self-reliance regimes (strong agree) from cosmopolitan federalists, interventionists, internationalists and anarchists who deny the state's last word.",
+      "notes": {
+        "HS": "Hobbes and Bodin make sovereignty indivisible and answerable to no outside authority: 3.",
+        "JU": "Juche's chaju (self-reliance and independence) rejects any outside authority over Korean affairs: 3.",
+        "NOA": "Bandung's Ten Principles and Panchsheel put non-interference and sovereignty first: 3.",
+        "CF": "Kant's federation of free states and Spinelli's Ventotene Manifesto put sovereignty into a higher federal authority: -3.",
+        "LI": "The Responsibility to Protect and Blair's 1999 doctrine override sovereignty when a state abuses its people: -3.",
+        "PP": "Duterte withdrew from the ICC and Bukele dismisses outside criticism of his security policy: 3.",
+        "AC": "Anarchists reject the state's claim to sovereignty at all, national or international: -3."
+      }
+    },
+    "community.3": {
+      "0": "NP CA NLS NA NOA BA PE PC POC SMCD CST SC MA JU EU HO GU CR TH NAC ETS MC BK NS IS LIF CL SL PR NDL CF RE SR LL LS CN CIN EN LN REZ HI IM NM TRA CRA WC",
+      "1": "MU RC NC TP SU UJ AMC PA GC RET MDS LT GS TW SF RF ES DE CH ELP AP GE PAL TI SN EB BL TAR COL TR",
+      "2": "AC AS GA CO DI LU CC US GM DEG LZ JR JA PIP",
+      "3": "DC GAN AD SDD",
+      "-1": "IA CAE MR AUC COA SUL STC UT ML ST ACK ONC NE LC GAU BIC EC XC ME DIR DS NATC EM PER NEO LI OR LF MI GOC RS CM LEG IR PN KE ID BN IB RZ CLR NR PP PSD THW FA EUR CT",
+      "-2": "BC ARC HS HES TE LE PM KS MO IF NAZ JM NAS OB ANC AL AM EA VEF WA COR CI RT NEOR",
+      "-3": "PG HF",
+      "split": "COL UJ SU TR CT LU CC AC",
+      "why": "Whether local affairs should be settled by the whole assembled community without delegates divides direct democrats (Athens, Swiss Landsgemeinde, Bookchin's municipalism, Gandhian village republics) from Federalist, Burkean, elitist and authoritarian schools that insist on representation or hierarchy.",
+      "notes": {
+        "AD": "The Athenian ekklesia decided by direct vote of all citizens present: 3.",
+        "SDD": "The Landsgemeinde is exactly an open-air assembly of all citizens voting by hand: 3.",
+        "DC": "Bookchin's libertarian municipalism and Rojava's commune assemblies rest on face-to-face popular assemblies: 3.",
+        "HF": "Madison in Federalist 10 contrasts pure democracy with a republic of representatives and prefers the latter: -3.",
+        "GAN": "Gandhi's gram swaraj and Vinoba's gramdan make the village assembly sovereign over village affairs: 3.",
+        "COL": "Tocqueville praised New England town meetings as the school of liberty, but feared mass rule nationally: 1."
+      }
+    },
+    "community.4": {
+      "0": "NA NOA BA SU MR SUL PE CO PG HS ML GU ONC CR BIC MC PM MO NS DIR DS IS PER AP RS EA PN KE REZ AD CLR JA PP WC BL BK",
+      "1": "NLS TP GAN CAE AUC COA POC TE DI NC LT GS ETS GAU ES DE DEG CH AL COL SR TI LS GOC CM LN LZ SN IM SDD NR HF TAR PSD FA",
+      "2": "AC AS MU GA CA DC PC RC SMCD CST HES UT TR EU LU CC AMC TH NE LC MDS US TW LIF SF RF GM EM ELP SL NEO PR NDL LI OR CF RE CIN ID NM THW TRA PIP GE LL PAL JR EB",
+      "3": "CL LF MI OB ANC CRA IA SC NEOR",
+      "-1": "UJ STC BC PA NAC GC RET EC XC KS ME IF JM NAS MA AM LEG CN IR BN HI RZ NP EUR",
+      "-2": "ST JU HO ARC LE NAZ NATC EN VEF CT WA IB COR CI RT",
+      "-3": "ACK",
+      "split": "CO CN PA NAC LZ MC BC AD",
+      "why": "The right to exit one's birth community against its will divides liberal, libertarian and cosmopolitan schools (strong yes) from theocratic, ethnic, traditionalist and totalitarian-collectivist ones that treat belonging as binding.",
+      "notes": {
+        "CL": "Locke and Constant make personal liberty, including leaving one's society, the first right: 3.",
+        "NEOR": "Yarvin's 'exit over voice' (patchwork of competing realms) makes free exit the central check on rulers: 3.",
+        "ACK": "The Khmer Rouge forcibly emptied the cities and bound the people to cooperatives, no leaving: -3.",
+        "VEF": "Apostasy from Islam is punishable in classical fiqh enforced in Iran, so one cannot freely leave the umma: -2.",
+        "ST": "Stalin's internal passport and kolkhoz regime tied peasants to their villages: -2.",
+        "SC": "Stoics, as 'citizens of the cosmos' (Marcus Aurelius), see no ties of birth-city that bind: 3."
+      }
+    },
+    "market.10": {
+      "0": "TP NOA SU PE NC PG SC CO BC ARC NAC US MC EC LE BK MO XC KS NAZ NAS LIF RF EM RE TI LS GOC LEG CN CIN EN LN IR PN LZ REZ SN BN HI IM RZ AD CLR SDD PP TRA COR CI EUR JU",
+      "1": "NA BA PSD FA LI CF COL CAE MR COA SUL STC POC SMCD HS HES UT ONC NE LC GAU BIC PM ME NS IS IF NATC JM SL NDL AL RS AM EA CM KE THW NM",
+      "2": "PC RC TE DIR DS AUC HF",
+      "-1": "NLS PR WC NR UJ CST ML ST MA EU HO GU ACK CR TH GC MDS LT GS ETS TW GM DE CH PER NEO SR VEF ID WA IB EB JA NP BL PIP RT NEOR AMC",
+      "-2": "GAN DI TR LU CC PA RET SF ES DEG ELP AP CL OR MI GE LL CT",
+      "-3": "AC AS MU IA GA CA DC LF OB ANC PAL JR TAR CRA",
+      "split": "NEO AMC NP PR TH AUC NM NEOR",
+      "why": "Bank bailouts divide state-guided, technocratic and establishment-conservative schools (rescue to protect the system) from anarchists, libertarians, populists and the anti-finance left or religious right who see them as socialising losses.",
+      "notes": {
+        "TAR": "The Tea Party was born in protest at TARP and the 2008-09 bank bailouts: -3.",
+        "CRA": "Bitcoin's genesis block cites the 'second bailout for banks'; cypherpunk money is built to end bank rescues: -3.",
+        "OR": "Eucken's liability principle (Haftung) says owners and creditors, not the taxpayer, bear failure: -2.",
+        "JR": "Jefferson held that 'banking establishments are more dangerous than standing armies': -3.",
+        "HF": "Hamilton's First Bank and assumption of state debts used national fiscal power to stabilise credit: 2.",
+        "PC": "Schmidt's and Merkel's governments backed bank rescues (Hypo Real Estate, 2008) as systemic necessity: 2."
+      }
+    },
+    "empire.5": {
+      "0": "CST ME DS IS EB NM FA LS GOC NOA CAE MR COA SUL STC CO DI PG UT ML TR EU ONC AMC CR TH NE GC GAU RET LT BK MO DIR ELP AP EA CM LZ SN ID CT BN WA CLR JA HF NP PP TAR COR CI NEOR DC",
+      "1": "GAN UJ AUC HES ST HO GU ACK NAC NS NATC JM PER RE MC PM TI LN REZ AM LEG VEF RT",
+      "2": "NLS TP SU PE MA BIC EC LE XC KS IF NAS CH RS CN IB IM RZ",
+      "3": "NA BA JU NAZ EN IR PN HI EUR",
+      "-1": "TE SF RF ES PSD THW BL PIP CRA TRA MU GA PC RC POC SMCD NC SC HS LU CC BC ARC PA LC MDS GS US ETS TW LIF GM DE DEG EM CL SL NEO PR NDL LI OR CF AL COL SR GE LL AD SDD JR NR WC KE",
+      "-2": "AC AS IA CA LF MI OB ANC CIN PAL",
+      "split": "LN REZ GAN PM SN DC ST TI",
+      "why": "Reunifying peoples split by colonial borders divides pan-nationalists, ethnic nationalists and irredentists (Ba'ath, Nasser, Juche, Hindutva, Eurasianism) from civic, liberal, libertarian and anarchist schools that reject redrawing borders for an ethnic or historical nation.",
+      "notes": {
+        "BA": "Aflaq's Ba'ath holds that the Arab nation is one and its colonial partition must be undone: 3.",
+        "JU": "Korean reunification of the divided nation is a cornerstone of Kim Il Sung's line: 3.",
+        "HI": "Savarkar and Golwalkar's Akhand Bharat calls for undoing the 1947 partition: 3.",
+        "CIN": "Renan's 'daily plebiscite' defines nation by present consent, not by shared ethnicity or past borders: -2.",
+        "NLS": "Hồ Chí Minh's 'Nước Việt Nam là một, dân tộc Việt Nam là một' made reunification of Vietnam a cardinal aim: 2.",
+        "GAN": "Gandhi opposed the 1947 partition, but pursued no state-merging programme: 1."
+      }
+    },
+    "world.4": {
+      "0": "GAN BA SU PE CO DI NC SC ONC GC RET EC TW PM MO XC DIR DS IS LU CC ML RF DE EM PER AP CL NEO RE COL LF MI GOC LEG CN LZ BN IM NR THW BL TRA CRA JR",
+      "1": "NLS TP NA UJ RC TE EU LT GS US ETS BK LIF SF ES DEG ELP NDL OR GE LL LS CM CIN LN KE SN ID EB SDD FA PIP LC GAU",
+      "2": "NOA PC POC SMCD CST MDS GM CH SL PR CF SR RS TI NM PSD",
+      "-1": "AC AS MU GA CA DC MR AUC COA STC UT ST MA TR JU HO BC ARC TH AL OB ANC PAL MC NS VEF CT HI WA IB PN AD CLR HF WC PP TAR",
+      "-2": "IA CAE SUL PG HS HES GU ACK AMC CR PA NAC BIC LE KS ME IF NATC JM NAS AM EA EN REZ RZ JA NP COR CI RT NEOR EUR LI",
+      "-3": "NE NAZ IR",
+      "split": "LI THW TH CH ML UT AUC RS",
+      "why": "Requiring UN authorisation for any use of force splits multilateral, social-democratic, Christian-democratic and non-aligned schools (yes) from neoconservative, sovereigntist, imperial and fascist schools that reserve force to the state or to its own judgement.",
+      "notes": {
+        "NE": "Kristol/Wolfowitz-style neoconservatism holds that US power may act without UNSC consent (Iraq 2003, Defense Planning Guidance 1992): -3.",
+        "LI": "Blair's 1999 Chicago doctrine justified Kosovo intervention without a Security Council mandate, while R2P (2005) works through the UN: -2.",
+        "NOA": "Bandung and the Non-Aligned Movement anchored themselves in the UN Charter's ban on unilateral force: 2.",
+        "HS": "Hobbes's sovereign answers to no higher authority, so no UN can license or bar its wars: -2.",
+        "GM": "Petra Kelly's Greens opposed military action outside the UN and collective security (though Fischer's 1999 Kosovo turn caused a split): 2.",
+        "AMC": "Reagan-Buckley conservatism distrusts the UN as a constraint on US sovereignty and power: -2."
+      }
+    },
+    "foreign.force.4": {
+      "0": "LS NOA COA SUL CST NC SC EU LU CC BC ONC CR NE PA GS US ETS MC EC IS EM AP LI OR AL RE CM CN SN ID CT BN WA IM HF NP FA CI ELP",
+      "1": "DC AUC POC PC RC SMCD DI HS TR GU ARC GC RET PM MO XC ME NS DIR NDL COL AM LEG PN HI IB NR WC PP NM PSD BL COR",
+      "2": "NLS TP NA UJ BA SU CAE MR PE STC CO PG HES ML ST MA JU HO ACK NAC GAU BIC KS DS NATC CH PER SR RS TI GOC EA CIN EN LN IR KE REZ VEF RZ AD JA JR RT EUR",
+      "3": "LE IF NAZ JM NAS LZ SDD CLR",
+      "-1": "TE UT AMC TH LC MDS LT BK LIF SF GM ES DEG CL SL NEO PR CF GE TAR THW TRA NEOR",
+      "-2": "MU GAN TW RF DE LL MI EB CRA PIP",
+      "-3": "AC AS IA GA CA LF OB ANC PAL",
+      "split": "DC PC RC NAC KE CL COL NM TR SR",
+      "why": "Compulsory service divides statist, nationalist, republican-militia and fascist schools (duty to serve) from anarchists, libertarians, pacifists and ethical-religious objectors who see the draft as servitude or sin.",
+      "notes": {
+        "SDD": "Switzerland's militia army (Milizarmee) with universal male service is the centre of its civic identity: 3.",
+        "CLR": "Machiavelli's Discourses and the Roman Republic want citizen-soldiers, not mercenaries, as the foundation of liberty: 3.",
+        "OB": "Rand called conscription 'the most blatant violation of individual rights' (The Objectivist, 1967): -3.",
+        "PAL": "Ron Paul's bills to end draft registration and Rockwell's anti-statism: -3.",
+        "IF": "The fascist regime made military training of the whole nation a duty from youth (Opera Nazionale Balilla): 3.",
+        "EB": "Thích Nhất Hạnh championed conscientious objection and refusal to kill: -2."
+      }
+    },
+    "religion.law.1": {
+      "0": "NA MR COA SUL CO PG HS HES TH NE GAU BIC US MC EC TW PM XC KS NAS DE CH AP OR COL CM EN IR PN REZ HF AD CLR SDD WC PP TAR IM NEOR",
+      "1": "DEG MU GA TP UJ NOA SU CAE AUC PC POC SC MDS GS ME NS DIR DS IS IF NAZ LC NEO AL LF GE EB SN LN JA CRA",
+      "2": "AC AS IA DC NLS BA RC TE LE LIF SF RF GM ES EM ELP CL PR NDL LI CF RE MI ANC LL RS TI LS GOC EA CIN LZ JR NR NM PSD THW FA TRA PIP TR JU EU LU CC GU",
+      "3": "ML ST MA HO ACK UT SL OB SR KE",
+      "-1": "GAN PE SMCD CST DI ONC AMC NAC GC BK JM PER PAL ID HI AM LEG CN NP BL EUR",
+      "-2": "CA STC NC BC ARC PA RET LT ETS MO BN RT",
+      "-3": "CR NATC VEF CT WA IB RZ COR CI",
+      "split": "ID PAL COL LT NA CAE HI REZ CST",
+      "why": "Keeping scripture out of law splits secularist, Marxist, liberal and laicist schools (agree) from theocratic, integralist and confessional-conservative schools whose core claim is that law must rest on revealed texts.",
+      "notes": {
+        "KE": "Laiklik (secularism) is one of Ataturk's Six Arrows and he abolished the caliphate and sharia courts: 3.",
+        "SR": "The French Radicals of Combes pushed the 1905 separation of church and state: 3.",
+        "VEF": "Khomeini's Islamic Republic grounds law in sharia under the guardianship of the jurist: -3.",
+        "CR": "The Moral Majority and Falwell/Robertson want biblical morality written into law: -3.",
+        "CI": "Pius IX's Syllabus of Errors (1864) condemns separation of law from the Church; Vermeule's integralism holds the same: -3.",
+        "CA": "Tolstoy would replace state law with the Sermon on the Mount, a scriptural basis for conduct though without coercion: -2.",
+        "SL": "Rawls's public reason bars arguments from comprehensive religious doctrines as grounds for coercive law: 3."
+      }
+    },
+    "nature-of-man.2": {
+      "0": "TAR BK SC SL NDL RE SR LF PAL RS LS GOC ST MA HO TP NA NOA BA SU PC RC POC CO DI NS DIR DS IS EM PER EN IR PN ID BN HI IM RZ CRA THW BL EUR GC RET LC ONC NC",
+      "1": "AMC TH WC NP STC PE COA HES EC PM CM LEG CL NEO LI COL MI SMCD CST TE ME KE REZ IB NR GAU",
+      "2": "CAE MR AUC CI RT NEOR BC ARC NE PA NAC SUL IF NAZ NATC JM NAS PG UT MO AM EA OR CF AL VEF WA BIC",
+      "3": "HS LE XC COR CR CT PP KS CLR HF",
+      "-1": "PR OB GE LL TI JU ACK NLS LT ETS LIF RF CH AP SN CN CIN LN LZ AD JA SDD JR PSD FA TRA PIP",
+      "-2": "ML TR EU LU CC GU AS MU IA CA DC GAN UJ MDS GS SF GM ES DE DEG ELP EB NM MC ANC",
+      "-3": "AC GA US TW",
+      "split": "NC CL SC ST MA CA LT CST CIN MC",
+      "why": "Whether people would turn bad without law splits pessimists about human nature (Hobbes, Xunzi, Han Fei, Calvin, Maistre, the Federalist) from optimists who think the good is natural and crime comes from institutions (anarchists, Taoists, utopian socialists, Mencius).",
+      "notes": {
+        "HS": "Hobbes: without a common power men are in a 'war of all against all' and life is 'nasty, brutish and short': 3.",
+        "XC": "Xunzi's xing e (human nature is bad) is the base of rule by ritual and law: 3.",
+        "HF": "Madison in Federalist 51: 'If men were angels, no government would be necessary': 3.",
+        "AC": "Kropotkin's Mutual Aid argues cooperation, not predation, is the natural basis of society: -3.",
+        "US": "Owen and Fourier held that character is formed by environment and that harmony frees natural goodness: -3.",
+        "TW": "Laozi: 'the more laws are promulgated, the more thieves and robbers there will be': -3.",
+        "CT": "Calvin and Rushdoony's total depravity doctrine makes the civil magistrate God's restraint on sin: 3."
+      }
+    }
+  }
+}

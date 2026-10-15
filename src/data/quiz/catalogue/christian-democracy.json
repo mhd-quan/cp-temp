@@ -1,0 +1,219 @@
+{
+  "parties": [
+    {
+      "id": "cdu",
+      "name": "Liên minh Dân chủ Kitô giáo Đức",
+      "abbr": "CDU",
+      "country": "Đức",
+      "period": "1945–nay",
+      "variants": [
+        "social-market-christian-democracy",
+        "ordoliberalism",
+        "liberal-conservatism"
+      ],
+      "emblem": {
+        "shape": "disc",
+        "field": "#000000",
+        "ink": "#ffcc00",
+        "motif": "flag-banner",
+        "ring": "#dd0000"
+      }
+    },
+    {
+      "id": "christian-democracy-italy",
+      "name": "Đảng Dân chủ Kitô giáo Ý",
+      "abbr": "DC",
+      "country": "Ý",
+      "period": "1943–1994",
+      "variants": [
+        "social-market-christian-democracy",
+        "catholic-social-teaching"
+      ],
+      "emblem": {
+        "shape": "shield",
+        "field": "#ffffff",
+        "ink": "#d6001c",
+        "motif": "cross",
+        "ring": "#d6001c"
+      }
+    },
+    {
+      "id": "cda",
+      "name": "Đảng Dân chủ Kitô giáo Hà Lan",
+      "abbr": "CDA",
+      "country": "Hà Lan",
+      "period": "1980–nay",
+      "variants": [
+        "social-market-christian-democracy",
+        "polder-consensus",
+        "neo-calvinism"
+      ],
+      "emblem": {
+        "shape": "disc",
+        "field": "#ffffff",
+        "ink": "#007b5f",
+        "motif": "disc"
+      }
+    },
+    {
+      "id": "italian-peoples-party-1919",
+      "name": "Đảng Nhân dân Ý",
+      "abbr": "PPI",
+      "country": "Ý",
+      "period": "1919–1926",
+      "variants": [
+        "catholic-social-teaching",
+        "social-market-christian-democracy"
+      ],
+      "emblem": {
+        "shape": "shield",
+        "field": "#ffffff",
+        "ink": "#d6001c",
+        "motif": "cross",
+        "ring": "#1f3d7a"
+      }
+    },
+    {
+      "id": "arp",
+      "name": "Đảng Chống Cách mạng (Hà Lan)",
+      "abbr": "ARP",
+      "country": "Hà Lan",
+      "period": "1879–1980",
+      "variants": [
+        "neo-calvinism"
+      ],
+      "emblem": {
+        "shape": "disc",
+        "field": "#00827f",
+        "ink": "#ffffff",
+        "motif": "book-open"
+      }
+    }
+  ],
+  "states": [
+    {
+      "id": "west-germany-1949-1966",
+      "name": "Tây Đức",
+      "period": "1949–1966",
+      "note": "Adenauer và Erhard: kinh tế thị trường xã hội",
+      "variants": [
+        "social-market-christian-democracy",
+        "ordoliberalism"
+      ],
+      "flag": "germany"
+    },
+    {
+      "id": "italy-1948-1953",
+      "name": "Ý",
+      "period": "1948–1953",
+      "note": "Chính phủ De Gasperi sau thắng lợi bầu cử 1948",
+      "variants": [
+        "social-market-christian-democracy"
+      ],
+      "flag": "italy"
+    },
+    {
+      "id": "chile-1964-1970",
+      "name": "Chile",
+      "period": "1964–1970",
+      "note": "Eduardo Frei Montalva: “Cách mạng trong tự do”",
+      "variants": [
+        "catholic-social-teaching",
+        "social-market-christian-democracy"
+      ],
+      "flag": "chile"
+    },
+    {
+      "id": "netherlands-1901-1905",
+      "name": "Hà Lan",
+      "period": "1901–1905",
+      "note": "Nội các Abraham Kuyper",
+      "variants": [
+        "neo-calvinism"
+      ],
+      "flag": "netherlands"
+    }
+  ],
+  "figures": [
+    {
+      "id": "konrad-adenauer",
+      "name": "Konrad Adenauer",
+      "life": "1876–1967",
+      "role": "Thủ tướng đầu tiên của Tây Đức",
+      "variant": "social-market-christian-democracy",
+      "wiki": "Konrad Adenauer"
+    },
+    {
+      "id": "alcide-de-gasperi",
+      "name": "Alcide De Gasperi",
+      "life": "1881–1954",
+      "role": "Thủ tướng Ý, sáng lập Đảng Dân chủ Kitô giáo",
+      "variant": "social-market-christian-democracy",
+      "wiki": "Alcide De Gasperi"
+    },
+    {
+      "id": "helmut-kohl",
+      "name": "Helmut Kohl",
+      "life": "1930–2017",
+      "role": "Thủ tướng Đức, người thống nhất nước Đức",
+      "variant": "social-market-christian-democracy",
+      "wiki": "Helmut Kohl"
+    },
+    {
+      "id": "pope-leo-xiii",
+      "name": "Giáo hoàng Lêô XIII",
+      "life": "1810–1903",
+      "role": "Giáo hoàng, tác giả thông điệp Rerum Novarum",
+      "variant": "catholic-social-teaching",
+      "wiki": "Pope Leo XIII"
+    },
+    {
+      "id": "jacques-maritain",
+      "name": "Jacques Maritain",
+      "life": "1882–1973",
+      "role": "Triết gia Công giáo Pháp, thuyết nhân vị",
+      "variant": "catholic-social-teaching",
+      "wiki": "Jacques Maritain"
+    },
+    {
+      "id": "eduardo-frei-montalva",
+      "name": "Eduardo Frei Montalva",
+      "life": "1911–1982",
+      "role": "Tổng thống Chile (1964–1970)",
+      "variant": "catholic-social-teaching",
+      "wiki": "Eduardo Frei Montalva"
+    },
+    {
+      "id": "g-k-chesterton",
+      "name": "G. K. Chesterton",
+      "life": "1874–1936",
+      "role": "Nhà văn Anh, lý thuyết gia chủ nghĩa phân phối",
+      "variant": "distributism",
+      "wiki": "G. K. Chesterton"
+    },
+    {
+      "id": "hilaire-belloc",
+      "name": "Hilaire Belloc",
+      "life": "1870–1953",
+      "role": "Nhà văn Anh gốc Pháp, đồng lập thuyết phân phối",
+      "variant": "distributism",
+      "wiki": "Hilaire Belloc"
+    },
+    {
+      "id": "abraham-kuyper",
+      "name": "Abraham Kuyper",
+      "life": "1837–1920",
+      "role": "Thủ tướng Hà Lan, nhà thần học Calvin",
+      "variant": "neo-calvinism",
+      "wiki": "Abraham Kuyper"
+    },
+    {
+      "id": "herman-dooyeweerd",
+      "name": "Herman Dooyeweerd",
+      "life": "1894–1977",
+      "role": "Triết gia Hà Lan, trường phái Tân Calvin",
+      "variant": "neo-calvinism",
+      "wiki": "Herman Dooyeweerd"
+    }
+  ]
+}

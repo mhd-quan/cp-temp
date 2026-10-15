@@ -1,0 +1,936 @@
+/* Ấn bản: the shell's later half. What no first screen shows: the colophon
+   at the foot of every page, and what opens over a page only when asked (the
+   menu, the search sheet, the appearance trays in them, back to the top, the
+   edge probe). It arrives as one small stylesheet, cached for a year and
+   shared by every page (lib/editionStyles.ts), linked where the page no
+   longer needs its first screen: the head carries only what is drawn first
+   (foundation.css). */
+
+/* Two strips of nearly clear paper, shown for a moment after a change of
+   paper so Safari reads the colour of the screen's edges again
+   (EditionLayout: rereadEdges). WebKit takes an edge's colour from a fixed
+   layer as wide as the screen, taller than 10px, with a background colour;
+   at 2% paper over the bar's solid top, and over a sheet, they are not seen.
+   The foot is shown only over a sheet that stands at the bottom edge. */
+.edge-probe {
+  inset: 0 0 auto;
+  width: 100%;
+  height: 0;
+  margin: 0;
+  padding: 0;
+  overflow: visible;
+  border: 0;
+  background: none;
+  pointer-events: none;
+}
+.edge-probe i {
+  position: fixed;
+  inset: 0 0 auto;
+  height: 16px;
+  background-color: color-mix(in srgb, var(--paper) 2%, transparent);
+  pointer-events: none;
+}
+.edge-probe i + i {
+  display: none;
+  inset: auto 0 0;
+}
+.edge-probe[data-foot] i + i {
+  display: block;
+}
+/* ---------- search sheet ---------- */
+/* Search opens as a sheet, of the same glass as the reader's sheets. */
+.search-sheet {
+  z-index: calc(var(--layer-bar) + 2);
+  width: min(720px, 100% - 2rem);
+  max-height: min(760px, 100dvh - 4rem);
+  margin: clamp(1rem, 9vh, 7rem) auto auto;
+  padding: 0;
+  border: 1px solid var(--rim-soft);
+  border-top-color: var(--rim);
+  border-radius: 10px;
+  background: var(--material) padding-box;
+  -webkit-backdrop-filter: var(--blur);
+  backdrop-filter: var(--blur);
+  color: var(--ink);
+  box-shadow:
+    0 0 0 1px var(--glass-edge),
+    0 24px 64px -24px oklch(0 0 0 / 0.45);
+  overflow: hidden;
+  opacity: 0;
+  transform: translateY(8px) scale(0.985);
+  transition:
+    opacity var(--d-close) var(--ease-leave),
+    transform var(--d-close) var(--ease-leave),
+    overlay var(--d-close) allow-discrete,
+    display var(--d-close) allow-discrete;
+}
+.search-sheet[open] {
+  display: flex;
+  flex-direction: column;
+  opacity: 1;
+  transform: none;
+  transition-duration: var(--d-base);
+  transition-timing-function: var(--ease-out);
+}
+@starting-style {
+  .search-sheet[open] {
+    opacity: 0;
+    transform: translateY(8px) scale(0.985);
+  }
+}
+.search-sheet::backdrop {
+  background: color-mix(in oklab, var(--night) 45%, transparent);
+  opacity: 0;
+  transition:
+    opacity var(--d-close) var(--ease-leave),
+    overlay var(--d-close) allow-discrete,
+    display var(--d-close) allow-discrete;
+}
+.search-sheet[open]::backdrop {
+  opacity: 1;
+  transition-duration: var(--d-base);
+  transition-timing-function: var(--ease-out);
+}
+@starting-style {
+  .search-sheet[open]::backdrop {
+    opacity: 0;
+  }
+}
+html:has(.search-sheet[open]) {
+  overflow: hidden;
+}
+.search-sheet__close {
+  position: absolute;
+  top: var(--s-3);
+  right: var(--s-3);
+  z-index: 2;
+}
+.search-sheet publication-search {
+  min-height: 0;
+  padding: var(--s-4) var(--s-6) var(--s-5);
+  overflow-y: auto;
+  overscroll-behavior: contain;
+}
+/* The field stays at the top while results pass under it, blurred: glass
+   within the glass sheet, so it shows the sheet's own results, not the page. */
+.search-sheet .search-form {
+  position: sticky;
+  top: calc(-1 * var(--s-4));
+  z-index: 1;
+  margin-right: 2.5rem;
+  background: var(--material);
+  -webkit-backdrop-filter: var(--blur-thin);
+  backdrop-filter: var(--blur-thin);
+}
+.search-sheet .search-form input {
+  font-size: var(--t-dek);
+}
+
+/* ---------- colophon (footer) ----------
+   The last page mirrors the menu: the same groups (Đọc, Về chúng tôi, Theo dõi)
+   in the same order, set as a table of contents on four equal columns of the
+   twelve, then the appearance, the name of the publication, and the imprint. */
+.colophon {
+  margin-top: var(--section);
+  background: var(--night);
+  color: var(--on-night);
+  --focus: 2px solid var(--on-night);
+}
+.colophon a {
+  text-decoration: none;
+}
+.colophon__cta {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: end;
+  justify-content: space-between;
+  gap: var(--s-5) var(--s-7);
+  padding-block: clamp(3rem, 2rem + 4vw, 6rem) clamp(2.5rem, 2rem + 2vw, 4rem);
+}
+/* The call to subscribe is typography, not a panel of explanation. */
+.colophon__subscribe {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.3em;
+  font: 500 var(--t-display) / 1.08 var(--font-text);
+  letter-spacing: -0.02em;
+  background: linear-gradient(currentColor, currentColor) no-repeat 0 100% / 0 2px;
+  padding-bottom: 0.06em;
+  transition: background-size var(--d-slow) var(--ease-out);
+}
+.colophon__subscribe .glyph {
+  width: 0.62em;
+  height: 0.62em;
+  stroke-width: 2.5;
+  transition: translate var(--d-base) var(--ease-out);
+}
+:where(:root:not([data-resting])) .colophon__subscribe:hover {
+  background-size: 100% 2px;
+}
+:where(:root:not([data-resting])) .colophon__subscribe:hover .glyph {
+  translate: 0.06em -0.06em;
+}
+.colophon__search {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--s-3);
+  min-width: min(100%, 20rem);
+  min-height: 52px;
+  padding: 0 var(--s-4);
+  border: 1px solid var(--night-rule);
+  border-radius: 6px;
+  color: var(--night-muted);
+  font: italic var(--t-body) / 1 var(--font-text);
+  transition:
+    border-color var(--d-quick) var(--ease-out),
+    color var(--d-quick) var(--ease-out);
+}
+:where(:root:not([data-resting])) .colophon__search:hover {
+  border-color: var(--night-muted);
+  color: var(--on-night);
+}
+.colophon__nav {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: var(--s-7) var(--gutter);
+  padding-block: var(--s-6) var(--s-8);
+  border-top: 1px solid var(--night-rule);
+}
+.colophon__group h2 {
+  padding-bottom: var(--s-3);
+  color: var(--night-muted);
+  font-family: var(--font-sans);
+  font-stretch: var(--sans-width);
+  font-size: var(--t-meta);
+  font-weight: 600;
+  letter-spacing: var(--caps-tracking);
+  text-transform: uppercase;
+}
+.colophon__group ul {
+  border-top: 1px solid var(--night-rule);
+}
+.colophon__group li {
+  border-bottom: 1px solid var(--night-rule);
+}
+/* Each entry is a row of a contents page: the name, and an arrow that
+   moves in when pointed at. The rows are the apparatus of the page, not its
+   text, so they are set in the sans of every other way through the
+   publication: small, level, and never long enough to wrap. */
+.colophon__group :is(a, button) {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--s-3);
+  min-height: 48px;
+  font: 500 var(--t-nav) / 1.25 var(--font-sans);
+  font-stretch: var(--sans-width);
+  transition: color var(--d-quick) var(--ease-out);
+}
+.colophon__group :is(a, button) .glyph {
+  color: var(--night-muted);
+  opacity: 0.5;
+  translate: -4px 0;
+  transition:
+    opacity var(--d-base) var(--ease-out),
+    translate var(--d-base) var(--ease-out);
+}
+:where(:root:not([data-resting])) .colophon__group :is(a, button):hover .glyph,
+.colophon__group :is(a, button):focus-visible .glyph {
+  opacity: 1;
+  translate: 0 0;
+}
+/* The appearance is one more row of the table: the tray in place of a name. */
+.colophon .appearance {
+  padding-block: 4px;
+  border-block: 1px solid var(--night-rule);
+}
+.colophon__group a[rel='external'] .glyph,
+.colophon__group a[href^='mailto'] .glyph,
+.colophon__group a[href$='.xml'] .glyph,
+.colophon__group [data-install] .glyph {
+  translate: 0 0;
+}
+/* The one row that is a button (lib/editionInstall.ts) is set as the links are. */
+.colophon__group button,
+.menu__group button {
+  width: 100%;
+  color: inherit;
+  text-align: start;
+}
+/* The full name set across the page: the publication signs its last page. */
+.colophon__mark {
+  container-type: inline-size;
+  overflow: hidden;
+}
+.colophon__mark span {
+  display: block;
+  font: 500 8.75cqi / 0.9 var(--font-brand);
+  letter-spacing: -0.025em;
+  white-space: nowrap;
+  color: color-mix(in oklab, var(--on-night) 92%, var(--night));
+}
+.colophon__base {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--s-4);
+  padding-block: var(--s-5) calc(var(--s-6) + env(safe-area-inset-bottom));
+  border-top: 1px solid var(--night-rule);
+  margin-top: var(--s-4);
+  color: var(--night-muted);
+}
+.colophon__base .caps {
+  font-size: var(--t-meta);
+  font-weight: 500;
+}
+
+/* Appearance (Appearance.astro): three glyphs in a tray, the way the reader's
+   settings are set; the chosen one rests on a lifted tile that slides to it.
+   The tile and the lit glyph follow the root's theme (set before the first
+   paint), not the checked radio, so nothing moves until the reader does. */
+.appearance {
+  --cell: 44px;
+  --at: 2;
+  --tray: color-mix(in oklab, var(--on-night) 7%, transparent);
+  --tile: color-mix(in oklab, var(--on-night) 15%, var(--night));
+  --tile-edge: color-mix(in oklab, var(--on-night) 12%, transparent);
+  --off: var(--night-muted);
+  --on: var(--on-night);
+  min-width: 0;
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+:root[data-theme='light'] .appearance {
+  --at: 0;
+}
+:root[data-theme='dark'] .appearance {
+  --at: 1;
+}
+.appearance__tray {
+  position: relative;
+  isolation: isolate;
+  display: inline-grid;
+  grid-auto-flow: column;
+  grid-auto-columns: var(--cell);
+  gap: 2px;
+  padding: 3px;
+  border-radius: 999px;
+  background: var(--tray);
+}
+.appearance__tray::before {
+  content: '';
+  position: absolute;
+  inset-block: 3px;
+  left: 3px;
+  z-index: -1;
+  width: var(--cell);
+  border-radius: inherit;
+  background: var(--tile);
+  box-shadow:
+    0 0 0 1px var(--tile-edge),
+    0 1px 2px oklch(0 0 0 / 0.14);
+  translate: calc(var(--at) * (var(--cell) + 2px)) 0;
+  transition: translate var(--d-base) var(--ease-out);
+}
+.appearance label {
+  position: relative;
+  display: grid;
+  place-items: center;
+  height: 34px;
+  border-radius: 999px;
+  color: var(--off);
+  cursor: pointer;
+  transition: color var(--d-base) var(--ease-out);
+}
+/* A touch target of 44px, taller than the tile it draws. */
+.appearance label::after {
+  content: '';
+  position: absolute;
+  inset: -5px 0;
+}
+.appearance input {
+  position: absolute;
+  opacity: 0;
+  pointer-events: none;
+}
+:root[data-theme='light'] .appearance [data-mode='light'],
+:root[data-theme='dark'] .appearance [data-mode='dark'],
+:root:not([data-theme]) .appearance [data-mode='auto'] {
+  color: var(--on);
+}
+.appearance label:has(input:focus-visible) {
+  outline: var(--focus);
+  outline-offset: 1px;
+}
+@media (hover: hover) {
+  :where(:root:not([data-resting])) .appearance label:hover {
+    color: var(--on);
+  }
+}
+.appearance .glyph {
+  transition: scale var(--d-base) var(--ease-out);
+}
+.appearance label:active .glyph {
+  scale: 0.88;
+  transition-duration: var(--d-press);
+}
+/* The glyph just chosen turns once (data-turn, set on a change, never on
+   load): the sun a quarter turn, which leaves its rays where they were; the
+   moon rocks and settles; "follow the system" turns a full day. */
+@media (prefers-reduced-motion: no-preference) {
+  .appearance [data-turn] .glyph {
+    animation: appearance-turn 640ms var(--ease-out);
+  }
+  .appearance [data-turn][data-mode='dark'] .glyph {
+    animation-name: appearance-rock;
+  }
+  .appearance [data-turn][data-mode='auto'] .glyph {
+    animation-name: appearance-day;
+    animation-duration: 760ms;
+  }
+}
+@keyframes appearance-turn {
+  from {
+    rotate: -90deg;
+  }
+}
+@keyframes appearance-rock {
+  35% {
+    rotate: -24deg;
+  }
+  70% {
+    rotate: 7deg;
+  }
+}
+@keyframes appearance-day {
+  from {
+    rotate: -360deg;
+  }
+}
+/* The same tray on paper (in the menu), as the reader's settings draw it. */
+.appearance--paper {
+  --tray: var(--raised);
+  --tile: var(--paper);
+  --tile-edge: color-mix(in oklab, var(--ink) 8%, transparent);
+  --off: var(--muted);
+  --on: var(--ink);
+}
+/* Inside the open menu the three rules cross: the button is now "close".
+   They meet in the middle first (the middle rule drawn in to nothing from
+   both ends), then turn; closing, they turn back first, then part, so the
+   cross never swings about a point that is still moving. */
+.menu__close .burger i {
+  --turn: 90ms;
+}
+.menu__close .burger i:nth-child(1) {
+  translate: 0 6.2px;
+  rotate: 45deg;
+}
+.menu__close .burger i:nth-child(2) {
+  scale: 0 1;
+  opacity: 0;
+}
+.menu__close .burger i:nth-child(3) {
+  translate: 0 -6.2px;
+  rotate: -45deg;
+}
+@starting-style {
+  .menu:popover-open .menu__close .burger i {
+    translate: none;
+    rotate: none;
+    scale: none;
+    opacity: 1;
+  }
+}
+/* The sheet is one layer of material over the page: a head, a scrolling
+   middle, and a foot, as rows of one grid. Everything that shapes it is set on
+   .menu itself, never only while open: while it closes it is still displayed
+   (display and overlay are held for the fade), and a layout that switched back
+   mid-fade would flash a different arrangement for those frames. */
+.menu {
+  position: fixed;
+  z-index: calc(var(--layer-bar) + 2);
+  inset: 0;
+  grid-template-rows: auto minmax(0, 1fr) auto;
+  width: 100%;
+  max-width: none;
+  height: 100dvh;
+  max-height: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  border: 0;
+  background: var(--material-thick);
+  -webkit-backdrop-filter: var(--blur-thick);
+  backdrop-filter: var(--blur-thick);
+  color: var(--ink);
+  opacity: 0;
+  transition:
+    opacity var(--d-close) var(--ease-leave),
+    overlay var(--d-close) allow-discrete,
+    display var(--d-close) allow-discrete;
+}
+.menu:popover-open {
+  display: grid;
+  opacity: 1;
+  transition-duration: var(--d-base);
+  transition-timing-function: var(--ease-out);
+}
+@starting-style {
+  .menu:popover-open {
+    opacity: 0;
+  }
+}
+html:has(.menu:popover-open) {
+  overflow: hidden;
+}
+.menu__head {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) 44px;
+  align-items: center;
+  gap: var(--s-3);
+  min-height: var(--bar-height);
+}
+.menu__close {
+  display: inline-grid;
+  justify-self: end;
+  margin-right: -11px;
+}
+.menu__name {
+  overflow: hidden;
+  font: 500 var(--t-brand-bar) / 1 var(--font-brand);
+  letter-spacing: -0.01em;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+.menu__name a {
+  text-decoration: none;
+}
+/* Only the middle scrolls; it fades out under the head and the foot (a scroll
+   edge, not a rule), so the sheet stays one surface. */
+.menu__scroll {
+  overflow-y: auto;
+  overscroll-behavior: contain;
+  -webkit-mask-image: linear-gradient(transparent, #000 var(--s-4), #000 calc(100% - var(--s-6)), transparent);
+  mask-image: linear-gradient(transparent, #000 var(--s-4), #000 calc(100% - var(--s-6)), transparent);
+}
+.menu__body {
+  display: grid;
+  align-content: start;
+  gap: var(--s-7);
+  padding-block: var(--s-5) var(--s-7);
+}
+.menu__foot {
+  padding-block: var(--s-2) calc(var(--s-4) + env(safe-area-inset-bottom));
+}
+/* Closing is the opening run backwards: the rules uncross into the menu
+   button, the entries sink a little as the sheet fades. */
+.menu:not(:popover-open) :is(.menu__body, .menu__foot) {
+  opacity: 0;
+  translate: 0 10px;
+  transition:
+    opacity var(--d-close) var(--ease-leave),
+    translate var(--d-close) var(--ease-leave);
+}
+.menu:not(:popover-open) .menu__close .burger i {
+  --turn: 0ms;
+  --turning: var(--d-quick);
+  --part: 70ms;
+  translate: none;
+  rotate: none;
+  scale: none;
+  opacity: 1;
+}
+.menu__subscribe {
+  width: 100%;
+  min-height: 54px;
+}
+.menu__search {
+  display: flex;
+  align-items: center;
+  gap: var(--s-3);
+  min-height: 52px;
+  padding: 0 var(--s-4);
+  border: 1px solid var(--rule);
+  border-radius: 8px;
+  background: var(--raised);
+  color: var(--muted);
+  font: italic var(--t-body) / 1 var(--font-text);
+  text-align: left;
+}
+.menu__label {
+  padding-bottom: var(--s-2);
+  color: var(--muted);
+  font-size: var(--t-meta);
+}
+.menu__group ul {
+  border-top: 1px solid var(--ink);
+}
+.menu__group li {
+  border-bottom: 1px solid var(--rule);
+}
+/* The menu is a table of contents, and every entry in it is set as one:
+   in Pliego, the voice of every title. The sections of the publication at
+   the size of a page's title, the house and the ways to follow it a step
+   below. Two faces had shared one list (the house was set in the sans, as
+   the colophon sets it) and read as two lists. Only the group labels and
+   the one button are apparatus, in the sans capitals, as everywhere else. */
+.menu__group :is(a, button) {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--s-3);
+  min-height: 52px;
+  font: 500 var(--t-title-xs) / 1.2 var(--font-text);
+  letter-spacing: -0.006em;
+  text-decoration: none;
+}
+.menu__group--read a {
+  min-height: 58px;
+  font-size: var(--t-title-l);
+  line-height: 1.1;
+  letter-spacing: -0.012em;
+}
+.menu .appearance {
+  padding-block: 6px;
+  border-top: 1px solid var(--ink);
+  border-bottom: 1px solid var(--rule);
+}
+.menu__group :is(a, button) .glyph {
+  color: var(--muted);
+  transition:
+    translate var(--d-base) var(--ease-out),
+    color var(--d-quick) var(--ease-out);
+}
+/* The way on leans toward where it leads: the arrow forward, the arrow out
+   up and out, as the row is pressed (or, with a mouse, pointed at). */
+.menu__group .glyph[data-glyph='forward'] {
+  --lean: 3px 0;
+}
+.menu__group .glyph[data-glyph='external'] {
+  --lean: 2px -2px;
+}
+.menu__group :is(a, button):active .glyph {
+  color: var(--ink);
+  translate: var(--lean);
+  transition-duration: var(--d-press);
+}
+@media (hover: hover) {
+  :where(:root:not([data-resting])) .menu__group :is(a, button):hover .glyph {
+    color: var(--ink);
+    translate: var(--lean);
+  }
+}
+.menu__group a[aria-current] {
+  color: var(--topic-text, var(--ink));
+}
+.menu__group a[aria-current] span {
+  text-decoration: underline;
+  text-decoration-thickness: 1px;
+  text-underline-offset: 0.18em;
+}
+/* Entries rise into place one after another as the menu opens. */
+@media (prefers-reduced-motion: no-preference) {
+  .menu:popover-open .menu__search,
+  .menu:popover-open .menu__group li,
+  .menu:popover-open .menu__group--appearance,
+  .menu:popover-open .menu__foot {
+    animation: menu-rise var(--d-slow) var(--ease-out) both;
+    animation-delay: calc(60ms + var(--i, 0) * 30ms);
+  }
+}
+@keyframes menu-rise {
+  from {
+    opacity: 0;
+    transform: translateY(14px);
+  }
+}
+
+/* ---------- back to the top ---------- */
+.to-top {
+  position: fixed;
+  right: calc(var(--margin) - 4px);
+  bottom: calc(var(--s-5) + env(safe-area-inset-bottom));
+  z-index: var(--layer-bar);
+  display: grid;
+  place-items: center;
+  width: 48px;
+  height: 48px;
+  border: 1px solid var(--rim-soft);
+  border-top-color: var(--rim);
+  border-radius: 50%;
+  background: var(--material-thin) padding-box;
+  -webkit-backdrop-filter: var(--blur-thin);
+  backdrop-filter: var(--blur-thin);
+  color: var(--ink);
+  box-shadow:
+    0 0 0 1px var(--glass-edge),
+    0 10px 24px -12px oklch(0 0 0 / 0.4);
+  opacity: 0;
+  scale: 0.8;
+  visibility: hidden;
+  transition:
+    opacity var(--d-close) var(--ease-leave),
+    scale var(--d-close) var(--ease-leave),
+    background-color var(--d-quick) var(--ease-out),
+    visibility 0s linear var(--d-close);
+}
+.to-top[data-shown='true'] {
+  opacity: 1;
+  scale: 1;
+  visibility: visible;
+  transition:
+    opacity var(--d-base) var(--ease-out),
+    scale var(--d-base) var(--ease-out),
+    background-color var(--d-quick) var(--ease-out),
+    visibility 0s;
+}
+@media (hover: hover) {
+  :where(:root:not([data-resting])) .to-top:hover {
+    background-color: var(--paper);
+  }
+  :where(:root:not([data-resting])) .to-top:hover .glyph {
+    translate: 0 -2px;
+  }
+}
+/* Pressed at once, let go as it settles; the arrow lifts toward the top. */
+.to-top:active {
+  scale: 0.94;
+  transition-duration: var(--d-press);
+}
+.to-top .glyph {
+  transition: translate var(--d-base) var(--ease-out);
+}
+.to-top:active .glyph {
+  translate: 0 -2px;
+  transition-duration: var(--d-press);
+}
+
+/* ---------- the app on a home screen ----------
+   Where a browser has no button of its own for it (Safari), how to put the
+   publication on a home screen (AppSheet.astro): the search sheet's glass,
+   set as a phone sets its own sheets. On a phone it is attached to the
+   bottom edge and slides up, whole, in --d-slow as it settles, and back down
+   past the edge in --d-base, leaving; the glass stays glass all the way. On a
+   wider screen it stands in the middle, rising into place as the search does. */
+.app-sheet {
+  z-index: calc(var(--layer-bar) + 2);
+  width: min(26rem, 100% - 2rem);
+  max-height: min(40rem, 100dvh - 4rem);
+  margin: auto;
+  padding: 0;
+  border: 1px solid var(--rim-soft);
+  border-top-color: var(--rim);
+  border-radius: 10px;
+  background: var(--material) padding-box;
+  -webkit-backdrop-filter: var(--blur);
+  backdrop-filter: var(--blur);
+  color: var(--ink);
+  box-shadow:
+    0 0 0 1px var(--glass-edge),
+    0 24px 64px -24px oklch(0 0 0 / 0.45);
+  overflow: hidden;
+  opacity: 0;
+  transform: translateY(8px) scale(0.985);
+  transition:
+    opacity var(--d-close) var(--ease-leave),
+    transform var(--d-close) var(--ease-leave),
+    overlay var(--d-close) allow-discrete,
+    display var(--d-close) allow-discrete;
+}
+.app-sheet[open] {
+  display: flex;
+  flex-direction: column;
+  opacity: 1;
+  transform: none;
+  transition-duration: var(--d-base);
+  transition-timing-function: var(--ease-out);
+}
+@starting-style {
+  .app-sheet[open] {
+    opacity: 0;
+    transform: translateY(8px) scale(0.985);
+  }
+}
+.app-sheet::backdrop {
+  background: color-mix(in oklab, var(--night) 45%, transparent);
+  opacity: 0;
+  transition:
+    opacity var(--d-close) var(--ease-leave),
+    overlay var(--d-close) allow-discrete,
+    display var(--d-close) allow-discrete;
+}
+.app-sheet[open]::backdrop {
+  opacity: 1;
+  transition-duration: var(--d-base);
+  transition-timing-function: var(--ease-out);
+}
+@starting-style {
+  .app-sheet[open]::backdrop {
+    opacity: 0;
+  }
+}
+html:has(.app-sheet[open]) {
+  overflow: hidden;
+}
+.app-sheet__head {
+  display: flex;
+  flex: none;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--s-3);
+  padding: var(--s-4) var(--s-3) var(--s-2) var(--s-5);
+}
+.app-sheet__body {
+  min-height: 0;
+  padding: var(--s-2) var(--s-5) var(--s-5);
+  overflow-y: auto;
+  overscroll-behavior: contain;
+}
+/* The app as it will stand on the home screen: its icon in the system's own
+   shape (a rounded square, its corners at about a fifth of its side), its
+   name beneath as a home screen sets it, and where it comes from. */
+.app-sheet__app {
+  display: flex;
+  align-items: center;
+  gap: var(--s-4);
+  padding-bottom: var(--s-5);
+  border-bottom: 1px solid var(--rule);
+}
+.app-sheet__app img {
+  flex: none;
+  width: 60px;
+  height: 60px;
+  border-radius: 13.5px;
+  box-shadow: 0 0 0 1px var(--glass-edge);
+}
+.app-sheet__app p {
+  display: grid;
+  gap: 2px;
+}
+.app-sheet__name {
+  font: 500 var(--t-title-s) / 1.15 var(--font-text);
+}
+.app-sheet__site {
+  color: var(--muted);
+  font: 500 var(--t-meta) / 1.25 var(--font-sans);
+  font-stretch: var(--sans-width);
+  letter-spacing: 0.02em;
+}
+/* Each step a row, its number in the margin, the system's own words in bold. */
+.app-sheet__steps {
+  counter-reset: step;
+}
+.app-sheet__steps li {
+  position: relative;
+  padding: var(--s-4) 0 var(--s-4) 2.25rem;
+  border-bottom: 1px solid var(--rule);
+  font: var(--t-ui) / 1.5 var(--font-text);
+  counter-increment: step;
+}
+.app-sheet__steps li::before {
+  content: counter(step);
+  position: absolute;
+  top: var(--s-4);
+  left: 0;
+  display: grid;
+  place-items: center;
+  width: 1.5rem;
+  height: 1.5rem;
+  border-radius: 50%;
+  background: var(--ink);
+  color: var(--paper);
+  font: 600 var(--t-meta) / 1 var(--font-sans);
+  font-variant-numeric: lining-nums;
+}
+.app-sheet__steps b {
+  font-weight: 500;
+  white-space: nowrap;
+}
+.app-sheet__steps .glyph--inline {
+  display: inline-block;
+  vertical-align: -0.2em;
+  margin: 0;
+}
+.app-sheet__note {
+  margin-top: var(--s-4);
+  color: var(--muted);
+  font: var(--t-note) / 1.55 var(--font-text);
+}
+
+/* The colophon is laid out when it comes near the screen, holding its room
+   until then (as the homepage's modules do, home-later.css). */
+.colophon {
+  content-visibility: auto;
+  contain-intrinsic-size: auto 840px;
+}
+
+/* ---------- responsive ---------- */
+@media (max-width: 760px) {
+  /* A phone's sheet: attached to the bottom edge, sliding whole. */
+  .app-sheet {
+    width: 100%;
+    max-width: none;
+    max-height: 88dvh;
+    margin: auto 0 0;
+    border-radius: 14px 14px 0 0;
+    opacity: 1;
+    transform: translateY(calc(100% + 2px));
+    transition:
+      transform var(--d-base) var(--ease-leave),
+      overlay var(--d-base) allow-discrete,
+      display var(--d-base) allow-discrete;
+  }
+  .app-sheet[open] {
+    transform: none;
+    transition-duration: var(--d-slow);
+  }
+  @starting-style {
+    .app-sheet[open] {
+      opacity: 1;
+      transform: translateY(calc(100% + 2px));
+    }
+  }
+  .app-sheet__body {
+    padding-bottom: calc(var(--s-5) + env(safe-area-inset-bottom));
+  }
+  .colophon {
+    contain-intrinsic-size: auto 810px;
+  }
+  /* The menu's name is the bar's lockup (foundation.css), in the same place. */
+  .menu__name {
+    font-size: min(var(--t-title-m), (100vw - 2 * var(--margin) - 3.25rem) / 9.6);
+    line-height: 0.94;
+  }
+  .menu__name .bar__the {
+    display: block;
+    margin-bottom: 0.16em;
+    font-size: var(--the);
+    letter-spacing: var(--the-tracking);
+  }
+  .colophon__nav {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+  .search-sheet {
+    width: calc(100% - 1rem);
+    max-height: calc(100dvh - 1rem);
+    margin-top: 0.5rem;
+  }
+  .search-sheet publication-search {
+    padding-inline: var(--s-4);
+  }
+}
+@media (max-width: 520px) {
+  .colophon {
+    contain-intrinsic-size: auto 1250px;
+  }
+  .colophon__nav {
+    grid-template-columns: minmax(0, 1fr);
+    gap: var(--s-6);
+  }
+  .colophon__base {
+    flex-wrap: wrap;
+  }
+}
+

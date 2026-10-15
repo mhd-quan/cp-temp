@@ -1,0 +1,499 @@
+{
+  "generatedBy": "scripts/edition-palette.mjs",
+  "definitions": [
+    {
+      "key": "son",
+      "name": "Son",
+      "topic": "Chính trị",
+      "slug": "chinh-tri",
+      "H": 31,
+      "note": "Mực son của châu phê: lời phán quyết của quyền lực."
+    },
+    {
+      "key": "nghe",
+      "name": "Nghệ",
+      "topic": "Kinh tế",
+      "slug": "kinh-te",
+      "H": 78,
+      "note": "Vàng nghệ, đồng thau: hàng hóa và trao đổi."
+    },
+    {
+      "key": "luc",
+      "name": "Lục",
+      "topic": "Xã hội",
+      "slug": "xa-hoi",
+      "H": 152,
+      "note": "Xanh lục đồng: đời sống chung, phố và làng."
+    },
+    {
+      "key": "lam",
+      "name": "Lam",
+      "topic": "Hiện đại",
+      "slug": "hien-dai",
+      "H": 228,
+      "note": "Lam cobalt: màu tổng hợp của kỹ nghệ."
+    },
+    {
+      "key": "cham",
+      "name": "Chàm",
+      "topic": "Tư tưởng",
+      "slug": "tu-tuong",
+      "H": 281,
+      "note": "Chàm: suy tưởng, gốc của nhận diện."
+    },
+    {
+      "key": "tia",
+      "name": "Tía",
+      "topic": "Căn tính",
+      "slug": "can-tinh",
+      "H": 348,
+      "note": "Tía: màu của dòng tộc và ký ức."
+    }
+  ],
+  "neutrals": {
+    "light": {
+      "paper": "#faf9f6",
+      "raised": "#f4f2ee",
+      "ink": "#161828",
+      "muted": "#585a66",
+      "rule": "#d4d5db",
+      "night": "#131524",
+      "on-night": "#f0eee9",
+      "night-muted": "#aeb0bb",
+      "night-rule": "#393c4d",
+      "checks": {
+        "ink/paper": 16.69,
+        "ink/raised": 15.71,
+        "muted/paper": 6.5,
+        "muted/raised": 6.12,
+        "on-night/night": 15.61,
+        "night-muted/night": 8.38
+      }
+    },
+    "dark": {
+      "paper": "#11131b",
+      "raised": "#191b24",
+      "ink": "#ebeae2",
+      "muted": "#b4b1a7",
+      "rule": "#373a43",
+      "night": "#0a0c12",
+      "on-night": "#ebeae2",
+      "night-muted": "#adaba1",
+      "night-rule": "#2b2d36",
+      "checks": {
+        "ink/paper": 15.36,
+        "ink/raised": 14.22,
+        "muted/paper": 8.64,
+        "muted/raised": 8,
+        "on-night/night": 16.2,
+        "night-muted/night": 8.49
+      }
+    }
+  },
+  "inks": [
+    {
+      "key": "son",
+      "name": "Son",
+      "topic": "Chính trị",
+      "light": {
+        "text": "#9a2b1b",
+        "pigment": "#d24f3b",
+        "plate-ink": "#651005",
+        "tint": "#fcd8d1",
+        "wash": "#ffebe7",
+        "mark": "#ffcbc1",
+        "checks": {
+          "text/paper": 7.29,
+          "text/raised": 6.87,
+          "text/wash": 6.69,
+          "text/mark": 5.32,
+          "ink/wash": 15.3,
+          "pigment/paper (non-text 3:1)": 4.05
+        }
+      },
+      "dark": {
+        "text": "#f7a696",
+        "pigment": "#f47d69",
+        "plate-ink": "#551209",
+        "tint": "#e9bfb7",
+        "wash": "#341f1b",
+        "mark": "#572921",
+        "checks": {
+          "text/paper": 9.58,
+          "text/raised": 8.87,
+          "text/wash": 7.99,
+          "text/mark": 6.22,
+          "ink/wash": 12.81,
+          "pigment/paper (non-text 3:1)": 7.05
+        }
+      }
+    },
+    {
+      "key": "nghe",
+      "name": "Nghệ",
+      "topic": "Kinh tế",
+      "light": {
+        "text": "#755000",
+        "pigment": "#a97500",
+        "plate-ink": "#493000",
+        "tint": "#f1dfc3",
+        "wash": "#f8efe0",
+        "mark": "#f3d4a5",
+        "checks": {
+          "text/paper": 6.87,
+          "text/raised": 6.47,
+          "text/wash": 6.34,
+          "text/mark": 5.09,
+          "ink/wash": 15.4,
+          "pigment/paper (non-text 3:1)": 3.81
+        }
+      },
+      "dark": {
+        "text": "#e1b671",
+        "pigment": "#d79700",
+        "plate-ink": "#3f2900",
+        "tint": "#ddc7a7",
+        "wash": "#2f2311",
+        "mark": "#4c3301",
+        "checks": {
+          "text/paper": 9.83,
+          "text/raised": 9.1,
+          "text/wash": 8.13,
+          "text/mark": 6.25,
+          "ink/wash": 12.71,
+          "pigment/paper (non-text 3:1)": 7.34
+        }
+      }
+    },
+    {
+      "key": "luc",
+      "name": "Lục",
+      "topic": "Xã hội",
+      "light": {
+        "text": "#006a34",
+        "pigment": "#009a4e",
+        "plate-ink": "#00411d",
+        "tint": "#ceead4",
+        "wash": "#e6f5e9",
+        "mark": "#b7e7c3",
+        "checks": {
+          "text/paper": 6.41,
+          "text/raised": 6.04,
+          "text/wash": 5.98,
+          "text/mark": 4.9,
+          "ink/wash": 15.56,
+          "pigment/paper (non-text 3:1)": 3.48
+        }
+      },
+      "dark": {
+        "text": "#8cd19e",
+        "pigment": "#4dbf74",
+        "plate-ink": "#003918",
+        "tint": "#b3d4bb",
+        "wash": "#182a1d",
+        "mark": "#164225",
+        "checks": {
+          "text/paper": 10.35,
+          "text/raised": 9.59,
+          "text/wash": 8.45,
+          "text/mark": 6.37,
+          "ink/wash": 12.54,
+          "pigment/paper (non-text 3:1)": 7.96
+        }
+      }
+    },
+    {
+      "key": "lam",
+      "name": "Lam",
+      "topic": "Hiện đại",
+      "light": {
+        "text": "#00617f",
+        "pigment": "#008db7",
+        "plate-ink": "#003b4f",
+        "tint": "#c5e8f8",
+        "wash": "#e2f3fc",
+        "mark": "#a9e3fe",
+        "checks": {
+          "text/paper": 6.61,
+          "text/raised": 6.23,
+          "text/wash": 6.12,
+          "text/mark": 5.01,
+          "ink/wash": 15.44,
+          "pigment/paper (non-text 3:1)": 3.63
+        }
+      },
+      "dark": {
+        "text": "#73cbf0",
+        "pigment": "#00b4e9",
+        "plate-ink": "#003345",
+        "tint": "#a9d2e5",
+        "wash": "#112933",
+        "mark": "#003e53",
+        "checks": {
+          "text/paper": 10.18,
+          "text/raised": 9.42,
+          "text/wash": 8.3,
+          "text/mark": 6.36,
+          "ink/wash": 12.53,
+          "pigment/paper (non-text 3:1)": 7.68
+        }
+      }
+    },
+    {
+      "key": "cham",
+      "name": "Chàm",
+      "topic": "Tư tưởng",
+      "light": {
+        "text": "#4d48a8",
+        "pigment": "#716fe2",
+        "plate-ink": "#2e2870",
+        "tint": "#dcdffd",
+        "wash": "#edefff",
+        "mark": "#d2d6ff",
+        "checks": {
+          "text/paper": 7.1,
+          "text/raised": 6.69,
+          "text/wash": 6.55,
+          "text/mark": 5.27,
+          "ink/wash": 15.39,
+          "pigment/paper (non-text 3:1)": 3.93
+        }
+      },
+      "dark": {
+        "text": "#b2b6fd",
+        "pigment": "#9597ff",
+        "plate-ink": "#27245e",
+        "tint": "#c4c7eb",
+        "wash": "#222336",
+        "mark": "#32335b",
+        "checks": {
+          "text/paper": 9.71,
+          "text/raised": 8.99,
+          "text/wash": 8.08,
+          "text/mark": 6.25,
+          "ink/wash": 12.78,
+          "pigment/paper (non-text 3:1)": 7.19
+        }
+      }
+    },
+    {
+      "key": "tia",
+      "name": "Tía",
+      "topic": "Căn tính",
+      "light": {
+        "text": "#902a66",
+        "pigment": "#c54d92",
+        "plate-ink": "#5e1040",
+        "tint": "#f8d7e6",
+        "wash": "#fceaf3",
+        "mark": "#fdc7e1",
+        "checks": {
+          "text/paper": 7.36,
+          "text/raised": 6.93,
+          "text/wash": 6.72,
+          "text/mark": 5.33,
+          "ink/wash": 15.23,
+          "pigment/paper (non-text 3:1)": 4.11
+        }
+      },
+      "dark": {
+        "text": "#eea3c9",
+        "pigment": "#e77ab5",
+        "plate-ink": "#4f1236",
+        "tint": "#e4bed0",
+        "wash": "#321e28",
+        "mark": "#52283e",
+        "checks": {
+          "text/paper": 9.46,
+          "text/raised": 8.76,
+          "text/wash": 7.93,
+          "text/mark": 6.19,
+          "ink/wash": 12.87,
+          "pigment/paper (non-text 3:1)": 6.93
+        }
+      }
+    }
+  ],
+  "plates": [
+    {
+      "ink": "son",
+      "paper": "son",
+      "ratio": 9.75
+    },
+    {
+      "ink": "son",
+      "paper": "nghe",
+      "ratio": 9.87
+    },
+    {
+      "ink": "son",
+      "paper": "luc",
+      "ratio": 10.03
+    },
+    {
+      "ink": "son",
+      "paper": "lam",
+      "ratio": 9.99
+    },
+    {
+      "ink": "son",
+      "paper": "cham",
+      "ratio": 9.83
+    },
+    {
+      "ink": "son",
+      "paper": "tia",
+      "ratio": 9.73
+    },
+    {
+      "ink": "nghe",
+      "paper": "son",
+      "ratio": 9.31
+    },
+    {
+      "ink": "nghe",
+      "paper": "nghe",
+      "ratio": 9.43
+    },
+    {
+      "ink": "nghe",
+      "paper": "luc",
+      "ratio": 9.58
+    },
+    {
+      "ink": "nghe",
+      "paper": "lam",
+      "ratio": 9.54
+    },
+    {
+      "ink": "nghe",
+      "paper": "cham",
+      "ratio": 9.39
+    },
+    {
+      "ink": "nghe",
+      "paper": "tia",
+      "ratio": 9.29
+    },
+    {
+      "ink": "luc",
+      "paper": "son",
+      "ratio": 8.95
+    },
+    {
+      "ink": "luc",
+      "paper": "nghe",
+      "ratio": 9.07
+    },
+    {
+      "ink": "luc",
+      "paper": "luc",
+      "ratio": 9.21
+    },
+    {
+      "ink": "luc",
+      "paper": "lam",
+      "ratio": 9.17
+    },
+    {
+      "ink": "luc",
+      "paper": "cham",
+      "ratio": 9.03
+    },
+    {
+      "ink": "luc",
+      "paper": "tia",
+      "ratio": 8.94
+    },
+    {
+      "ink": "lam",
+      "paper": "son",
+      "ratio": 9.14
+    },
+    {
+      "ink": "lam",
+      "paper": "nghe",
+      "ratio": 9.25
+    },
+    {
+      "ink": "lam",
+      "paper": "luc",
+      "ratio": 9.4
+    },
+    {
+      "ink": "lam",
+      "paper": "lam",
+      "ratio": 9.36
+    },
+    {
+      "ink": "lam",
+      "paper": "cham",
+      "ratio": 9.21
+    },
+    {
+      "ink": "lam",
+      "paper": "tia",
+      "ratio": 9.12
+    },
+    {
+      "ink": "cham",
+      "paper": "son",
+      "ratio": 9.6
+    },
+    {
+      "ink": "cham",
+      "paper": "nghe",
+      "ratio": 9.73
+    },
+    {
+      "ink": "cham",
+      "paper": "luc",
+      "ratio": 9.88
+    },
+    {
+      "ink": "cham",
+      "paper": "lam",
+      "ratio": 9.84
+    },
+    {
+      "ink": "cham",
+      "paper": "cham",
+      "ratio": 9.69
+    },
+    {
+      "ink": "cham",
+      "paper": "tia",
+      "ratio": 9.59
+    },
+    {
+      "ink": "tia",
+      "paper": "son",
+      "ratio": 9.78
+    },
+    {
+      "ink": "tia",
+      "paper": "nghe",
+      "ratio": 9.9
+    },
+    {
+      "ink": "tia",
+      "paper": "luc",
+      "ratio": 10.06
+    },
+    {
+      "ink": "tia",
+      "paper": "lam",
+      "ratio": 10.02
+    },
+    {
+      "ink": "tia",
+      "paper": "cham",
+      "ratio": 9.86
+    },
+    {
+      "ink": "tia",
+      "paper": "tia",
+      "ratio": 9.76
+    }
+  ]
+}

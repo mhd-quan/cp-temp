@@ -1,0 +1,171 @@
+{
+  "parties": [
+    {
+      "id": "greens-germany",
+      "name": "Đảng Xanh Đức (Liên minh 90/Đảng Xanh)",
+      "abbr": "Grüne",
+      "country": "Đức",
+      "period": "1980–nay",
+      "variants": [
+        "green-mainstream"
+      ],
+      "emblem": {
+        "shape": "disc",
+        "field": "#46962b",
+        "ink": "#ffee00",
+        "motif": "flower"
+      }
+    },
+    {
+      "id": "greens-austria",
+      "name": "Đảng Xanh Áo",
+      "abbr": "Grüne",
+      "country": "Áo",
+      "period": "1986–nay",
+      "variants": [
+        "green-mainstream"
+      ],
+      "emblem": {
+        "shape": "disc",
+        "field": "#6ab023",
+        "ink": "#ffffff",
+        "motif": "leaf"
+      }
+    },
+    {
+      "id": "red-green-alliance-denmark",
+      "name": "Liên minh Đỏ–Xanh (Đan Mạch)",
+      "abbr": "EL",
+      "country": "Đan Mạch",
+      "period": "1989–nay",
+      "variants": [
+        "eco-socialism"
+      ],
+      "emblem": {
+        "shape": "disc",
+        "field": "#c8102e",
+        "ink": "#ffffff",
+        "motif": "plant",
+        "ring": "#3a9a3a"
+      }
+    },
+    {
+      "id": "earth-first",
+      "name": "Earth First!",
+      "country": "Hoa Kỳ",
+      "period": "1980–nay",
+      "variants": [
+        "deep-ecology"
+      ],
+      "emblem": {
+        "shape": "disc",
+        "field": "#2e7d32",
+        "ink": "#ffffff",
+        "motif": "hand-fist"
+      }
+    }
+  ],
+  "states": [
+    {
+      "id": "germany-1998-2005",
+      "name": "Đức",
+      "period": "1998–2005",
+      "note": "Liên minh Đỏ–Xanh Schröder–Fischer: bỏ điện hạt nhân",
+      "variants": [
+        "green-mainstream",
+        "third-way"
+      ],
+      "flag": "germany"
+    }
+  ],
+  "figures": [
+    {
+      "id": "petra-kelly",
+      "name": "Petra Kelly",
+      "life": "1947–1992",
+      "role": "Đồng sáng lập Đảng Xanh Đức",
+      "variant": "green-mainstream",
+      "wiki": "Petra Kelly"
+    },
+    {
+      "id": "joschka-fischer",
+      "name": "Joschka Fischer",
+      "life": "s. 1948",
+      "role": "Ngoại trưởng Đức (1998–2005), Đảng Xanh",
+      "variant": "green-mainstream",
+      "wiki": "Joschka Fischer"
+    },
+    {
+      "id": "alexander-van-der-bellen",
+      "name": "Alexander Van der Bellen",
+      "life": "s. 1944",
+      "role": "Tổng thống Áo, cựu lãnh đạo Đảng Xanh Áo",
+      "variant": "green-mainstream",
+      "wiki": "Alexander Van der Bellen"
+    },
+    {
+      "id": "michael-lowy",
+      "name": "Michael Löwy",
+      "life": "s. 1938",
+      "role": "Nhà xã hội học Pháp–Brazil, lý luận sinh thái XHCN",
+      "variant": "eco-socialism",
+      "wiki": "Michael Löwy"
+    },
+    {
+      "id": "joel-kovel",
+      "name": "Joel Kovel",
+      "life": "1936–2018",
+      "role": "Học giả Mỹ, đồng tác giả Tuyên ngôn Sinh thái XHCN",
+      "variant": "eco-socialism",
+      "wiki": "Joel Kovel"
+    },
+    {
+      "id": "arne-naess",
+      "name": "Arne Næss",
+      "life": "1912–2009",
+      "role": "Triết gia Na Uy, cha đẻ khái niệm sinh thái sâu",
+      "variant": "deep-ecology",
+      "wiki": "Arne Næss"
+    },
+    {
+      "id": "george-sessions",
+      "name": "George Sessions",
+      "life": "1938–2016",
+      "role": "Triết gia Mỹ, đồng soạn cương lĩnh Sinh thái sâu",
+      "variant": "deep-ecology",
+      "wiki": "George Sessions"
+    },
+    {
+      "id": "serge-latouche",
+      "name": "Serge Latouche",
+      "life": "s. 1940",
+      "role": "Nhà kinh tế Pháp, lý thuyết gia giảm tăng trưởng",
+      "variant": "degrowth",
+      "wiki": "Serge Latouche"
+    },
+    {
+      "id": "jason-hickel",
+      "name": "Jason Hickel",
+      "life": "s. 1982",
+      "role": "Nhà nhân học kinh tế, tác giả “Less Is More”",
+      "variant": "degrowth",
+      "wiki": "Jason Hickel"
+    },
+    {
+      "id": "stewart-brand",
+      "name": "Stewart Brand",
+      "life": "s. 1938",
+      "role": "Nhà văn Mỹ, sáng lập Whole Earth Catalog",
+      "variant": "eco-modernism",
+      "wiki": "Stewart Brand"
+    },
+    {
+      "id": "ted-nordhaus",
+      "name": "Ted Nordhaus",
+      "life": "s. 1965",
+      "role": "Đồng sáng lập Viện Breakthrough (Mỹ)",
+      "variant": "eco-modernism",
+      "wiki": "Ted Nordhaus"
+    }
+  ]
+}

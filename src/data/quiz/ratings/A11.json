@@ -1,0 +1,254 @@
+{
+  "rater": "A",
+  "block": "A11",
+  "items": {
+    "market.1": {
+      "0": "GE",
+      "1": "AMC CR BC ARC BIC LEG WA IB COL OR TAR RT NEOR COR",
+      "2": "LF MI CL JR GAU PA",
+      "3": "ANC OB PAL",
+      "-1": "IA CA TP GAN NOA MR AUC PE PC RC POC CST DI NC PG SC ONC TH NE NAC GC LC RET MC EC TW PM BK MO XC KS ME NS NATC DEG AL RE LL AM EA CM CN CIN EN LN IR PN KE REZ SN VEF ID CT BN HI IM RZ EB AD CLR SDD NR NP WC PP BL CI",
+      "-2": "AS MU GA DC NLS NA UJ BA SU CAE TE SMCD HS HES UT ML ST MA TR JU EU LU CC HO GU MDS LT GS US ETS LE DIR DS IF NAZ JM GM ES DE EM CH PER ELP AP SL NEO PR NDL LI CF SR RS TI LS GOC LZ JA NM PSD THW FA",
+      "-3": "AC ACK",
+      "split": "AMC PA CL OR LEG WA IB RT TAR",
+      "why": "Hard-money libertarians and Rothbard/Rand followers make the gold standard doctrine, old-order conservatives and Gaullists lean toward it, while nearly everyone on the left, in managed-economy camps and in Keynesian or nationalist-statist traditions wants the state to keep control of money.",
+      "notes": {
+        "ANC": "Rothbard, What Has Government Done to Our Money?: 100% gold money, abolish central banking: 3.",
+        "OB": "Ayn Rand, 'Gold and Economic Freedom': gold standard protects property from welfare-state confiscation: 3.",
+        "GAU": "De Gaulle's 1965 press conference and Jacques Rueff urged a return to gold as the only neutral standard: 2.",
+        "AP": "Bryan's 'Cross of Gold' speech: populist farmers wanted looser money (silver, greenbacks), not gold: -2.",
+        "MU": "Proudhon's Banque du Peuple and mutual credit replace metallic money with free credit: -2.",
+        "AC": "Kropotkin's The Conquest of Bread abolishes money and wages altogether: -3.",
+        "JA": "The Revolution financed itself with assignats, paper money issued by the state: -2.",
+        "GE": "George's stake is land rent, not the monetary regime: 0."
+      }
+    },
+    "market.2": {
+      "0": "CST SC GE",
+      "1": "AUC PE PC RC NC EC PM BC ONC AMC TH NE GC EM CL SL PR LI CF RE COL CM CIN LN REZ SN ID IM NR NM",
+      "2": "POC TE SMCD UT LC NEO AL THW",
+      "3": "OR",
+      "-1": "MU IA CA DI PG EU ARC CR PA NAC GAU BIC RET MDS LT US ETS MC TW BK MO XC GM DE DEG NDL SR LF MI LL RS LEG CN PN LZ CT BN HI IB RZ EB CLR SDD TAR PSD FA GAN RT",
+      "-2": "AC AS GA DC NLS TP NA UJ NOA BA SU CAE MR HES TR LU CC GU GS KS ME NS DIR DS NATC ES CH ELP AP OB ANC PAL TI LS GOC EA EN IR KE WA AD JR NP WC PP BL COR CI NEOR",
+      "-3": "HS ML ST MA JU HO ACK LE IF NAZ JM PER AM VEF JA",
+      "split": "CL LF MI CR NR SN CM EU PSD",
+      "why": "An independent central bank is core doctrine for ordoliberals and technocratic or consensus-managerial camps, while Leninists, fascists, absolutists, populists and developmental-state camps want money subordinated to the government, and anarchists and hard-money libertarians reject the central bank altogether.",
+      "notes": {
+        "OR": "Eucken and the Bundesbank model: a monetary constitution insulated from political pressure: 3.",
+        "THW": "Blair and Brown gave the Bank of England operational independence in 1997: 2.",
+        "AUC": "Chile's 1989 autonomous central bank under the Chicago Boys, and Singapore's insulated MAS: 1.",
+        "PER": "Peron nationalised the Banco Central in 1946 and made it serve the government's plan: -3.",
+        "ML": "Lenin's single state bank under the plan, later Gosbank: banks are organs of the proletarian state: -3.",
+        "HS": "Hobbes, Leviathan: coining money is a right of the sovereign, who answers to no other body: -3.",
+        "ANC": "Rothbard: the Fed is a state-sponsored cartel, so independence from government is a fig leaf: -2.",
+        "TH": "Monetarist rules appealed to Thatcher, but she declined to hand the Bank of England independence: 1."
+      }
+    },
+    "market.3": {
+      "0": "GE",
+      "1": "CL MI OB DEG DE TW US PA TAR",
+      "2": "PAL LL LF",
+      "3": "ANC IA MU",
+      "-1": "AC AS GA DC CA ES GC BC ARC AMC CR LC PE PC RC POC CST DI NC UT GAN LT GS MC MO AP RE COL NEO SN ID IM IB EB SDD JR RT NEOR CN",
+      "-2": "ONC TH NE NAC GAU BIC RET CAE MR AUC TE SMCD PG HES NLS TP NA UJ NOA BA SU MDS ETS EC PM BK XC KS ME NS DIR DS NATC GM EM CH PER ELP SL PR NDL LI OR CF AL SR RS TI LS GOC EA CM LEG CIN EN LN IR PN LZ REZ VEF CT BN HI WA RZ AD CLR NR NP WC PP NM PSD THW FA BL COR CI TR EU LU CC GU SC",
+      "-3": "HS ML ST MA JU HO ACK LE IF NAZ JM AM KE JA",
+      "split": "CL LF MI OB NEO AMC PA TAR AC AS",
+      "why": "Free-banking and mutualist anarchists, and Rothbardian libertarians, treat a state currency monopoly as illegitimate, while nearly every camp that values state sovereignty, planning, monetary stability or nationhood wants the state's money to be the only legal tender.",
+      "notes": {
+        "ANC": "Hayek's Denationalisation of Money and Rothbard's private gold mints: competing private currencies: 3.",
+        "MU": "Proudhon's Bank of the People and Tucker/Carson's mutual banking issue private credit money: 3.",
+        "IA": "Spooner and Tucker fought the legal-tender and banking monopoly as state privilege: 3.",
+        "US": "Owen's Equitable Labour Exchange (1832) issued private labour notes: 1.",
+        "HS": "Hobbes, Leviathan: coinage and its value are the sovereign's prerogative: -3.",
+        "KE": "Kemalist etatism treats the lira and national bank as pillars of sovereignty: -3.",
+        "SDD": "Switzerland tolerates private WIR complementary money, but its voters still centre on the franc: -1.",
+        "GE": "Georgism's stake is land rent, not the issuer of money: 0."
+      }
+    },
+    "market.4": {
+      "0": "NOA MO AD PP",
+      "1": "IM CST NATC IA IF JM EU NLS TP NA BA SU RET MDS GS RS TI MC EC LE TW BK BN EB LZ DE CH PER ELP NP CLR JA JR NR LEG EN BL COR PE RZ",
+      "2": "ID CI RT DI AS DC GA ML ST MA TR JU HO GU LU CC UJ GAN LT US ETS DEG ES AP PG",
+      "3": "IB VEF WA MU AC CA NAZ ACK",
+      "-1": "CT SMCD ARC ONC CR PA NAC GC GAU PR NDL SR LL LS GOC PM XC DIR DS GM HI SDD WC AM CM CIN IR PN KE SN FA CAE MR SC HS HES CN",
+      "-2": "NC BC AMC NE LC BIC SL LI OR CF AL RE COL KS ME NS EM TAR LN EA PSD THW NM NEOR PC RC POC TE REZ GE",
+      "-3": "TH CL NEO LF MI OB ANC PAL AUC UT",
+      "split": "IM CST CT CR LL RZ BK ID LS",
+      "why": "Usury doctrine splits the Islamic, Catholic-traditionalist, mutualist, communist and anarchist camps, who treat interest as unearned or exploitative, from liberal, libertarian and market-conservative camps for whom interest is the legitimate price of time and capital.",
+      "notes": {
+        "IB": "Riba is forbidden in the Quran (2:275-279); Muslim Brotherhood thinkers back interest-free Islamic banking: 3.",
+        "VEF": "Iran's 1983 Usury-Free Banking Law replaced interest with profit-sharing contracts: 3.",
+        "NAZ": "Gottfried Feder's 'breaking interest-slavery' was a founding plank of the NSDAP programme: 3.",
+        "MU": "Proudhon's gratuite du credit: interest-free mutual credit is the centre of the doctrine: 3.",
+        "UT": "Bentham's Defence of Usury (1787) argued interest caps are harmful and lending at interest is legitimate: -3.",
+        "GE": "George held interest is the legitimate return of capital, unlike land rent: -2.",
+        "CI": "Aquinas, Summa II-II q.78: taking interest on a loan is unjust, and integralists follow him: 2.",
+        "NC": "Calvin and Kuyper allowed moderate interest and a market economy under God's law: -2."
+      }
+    },
+    "market.5": {
+      "0": "NR ID IB RZ EB SC HS AD CLR SDD CM LEG WC PP DE POC GS US LI",
+      "1": "NOA UJ EU LU TI NM THW BL PG MO MC EC BK SL PR CF SR ONC GC VEF IM BN HI JA AM NP CN CIN EN LN IR PN SN DEG CI SMCD CST HES UT PE PC RC ETS LT",
+      "2": "ME GAU NA BA SU NLS TP TR GU GOC RS MDS PSD FA AUC CAE MR TE PM LE KS XC CH PER ELP AP NDL NAC RET LZ EA GM ES EM NAZ NATC JM BIC",
+      "3": "DS DIR NS IF KE ML ST MA JU HO LS",
+      "-1": "GAN CC BC ARC LC NE PA COR RT DI NC AL RE LL GE REZ CT WA",
+      "-2": "TW OR COL AMC CR JR NEOR MU DC ACK",
+      "-3": "AC AS IA GA CA CL NEO LF MI OB ANC PAL TH TAR",
+      "split": "CST EU LU TI AP NE PA CC DC",
+      "why": "State investment banking is the central instrument of developmentalist, dirigiste, List-style, fascist and Leninist camps, while classical-liberal, libertarian, Thatcherite and anarchist camps reject state allocation of credit as picking winners and abusing state power.",
+      "notes": {
+        "DS": "Korea's KDB and Japan's Development Bank channelled cheap long-term credit to targeted industries: 3.",
+        "DIR": "Postwar French planning used Credit National and Caisse des Depots to steer investment: 3.",
+        "NS": "List's National System of Political Economy and Germany's later KfW: state credit to build industry: 3.",
+        "KE": "Kemalist devletcilik (etatism) founded the Sumerbank and Is Bank to build industry: 3.",
+        "LS": "Lange's market socialism has the Central Planning Board set interest rates and direct investment: 3.",
+        "CC": "Council communists distrust any state bank, which would rule over the workers' councils: -1.",
+        "TH": "Thatcher privatised state industries and shut down subsidised industrial lending: -3.",
+        "OB": "Rand: picking industries with state loans is looting by force: -3."
+      }
+    },
+    "market.6": {
+      "0": "PG SC LI PP LE PM RZ EN IR CLR",
+      "1": "GS US JU CC HO GU NLS TP UJ NOA MR AUC PE POC TE SMCD HS HES NAC GC GAU BIC RET CF SR AP WC MC EC BK XC NATC VEF ID BN HI IB IM EB EA CM CIN LN PN KE SN AD JA NR CI CN",
+      "2": "SL FA THW NM RS ES GM EM PR CH PER BL LS TI GOC LT ETS ML ST MA EU LU NA BA SU CAE PC RC ONC UT NP KS ME NS DIR DS IF JM LZ CST",
+      "3": "PSD MDS ELP NDL NAZ TR",
+      "-1": "DE DEG ACK GAN DI NC BC ARC CR NE LC RE LL GE DC CT WA MO AM LEG REZ COR RT",
+      "-2": "AMC PA CL NEO OR AL COL MI TW SDD JR AS MU CA NEOR",
+      "-3": "TH LF OB ANC PAL AC IA GA TAR",
+      "split": "POC SMCD NE LL DEG ONC OR NAC GC",
+      "why": "Counter-cyclical deficit spending is core for Keynesian, social-democratic and anti-austerity camps and for interwar activist states, while Austrian, libertarian, ordoliberal, Thatcherite and anarchist camps reject deficit stimulus as destructive of sound money or of free markets.",
+      "notes": {
+        "PSD": "Postwar Keynesian settlement: full employment as the government's duty (Beveridge, Keynes): 3.",
+        "ELP": "Syriza, Podemos and Melenchon: anti-austerity investment funded by borrowing is their founding platform: 3.",
+        "NAZ": "Schacht's Mefo bills and the Reinhardt programme financed public works by deficit to cut unemployment: 3.",
+        "NDL": "FDR's WPA and CCC deficit spending to put men to work: 3.",
+        "SDD": "Swiss voters adopted the Schuldenbremse debt brake by referendum in 2001: -2.",
+        "JR": "Jefferson: public debt is a curse on later generations, pay it off: -2.",
+        "OR": "German ordoliberals defend the Schwarze Null and rules over discretionary stimulus: -2.",
+        "TH": "Thatcher's 1981 budget raised taxes in a recession on monetarist grounds: -3."
+      }
+    },
+    "market.7": {
+      "0": "GA CA GE RE PG GAU AM CM CN IR PN SN VEF BN HI IM RZ EB AD NR PP DE CI RT",
+      "1": "ANC CR OR SMCD BC ARC LC BIC NC DI MU IA SC AL COL UJ MC EC LE TW PM BK XC KS ME IF NATC CT WA IB CLR NEOR COR LEG MA ST JU EN REZ KE POC",
+      "2": "LF MI OB PAL CL TH AMC PA TAR SDD JR HO MO AUC EA GAN",
+      "-1": "NEO NE NAC GC ONC RET CST AC AS DC NLS TP NOA GS US PE PC RC TE CAE MR HS HES GU CC PER AP CF SR LL GOC NS DS GM EM DEG LZ CIN LN ID JA NP WC NM THW BL ACK",
+      "-2": "UT ML EU LU NA BA SU MDS LT ETS DIR NAZ JM ES CH SL PR NDL LI RS TI LS PSD FA",
+      "-3": "TR ELP",
+      "split": "OR MA ST IF POC GAN TH NEO NS",
+      "why": "A rule of always balancing the budget is an article of faith for hard-money and small-state camps and for frugal or self-reliant traditions (Singapore, Mohists, Hoxha), and is rejected as self-defeating by Keynesians, social democrats and anti-austerity camps who want deficits in downturns.",
+      "notes": {
+        "SDD": "Swiss voters wrote the Schuldenbremse debt brake into the constitution by referendum (2001): 2.",
+        "AUC": "Singapore's Constitution (Art. 144) bars the government from borrowing beyond what Parliament approves, and each term must keep reserves intact: 2.",
+        "HO": "Hoxha's 1976 constitution banned foreign credit and loans and demanded self-reliance: 2.",
+        "MO": "Mozi's jie yong (economy of use) condemns waste and burdensome state spending: 2.",
+        "JR": "Jefferson urged paying off public debt and a constitutional bar on borrowing: 2.",
+        "ELP": "Anti-austerity is the defining plank of Syriza, Podemos and Melenchon: -3.",
+        "TR": "The Transitional Program demands public works against unemployment regardless of deficits: -3.",
+        "MA": "Mao's China in the 1960s boasted of having neither internal nor external debt: 1."
+      }
+    },
+    "market.8": {
+      "1": "MU LL",
+      "2": "IA",
+      "3": "ANC PAL",
+      "-1": "NEOR TW",
+      "-2": "AC AS GA CA DC GAN GS US AP DE DEG SC RC NEO CL LF AUC TAR UT PA GE RZ EB",
+      "-3": "NLS TP NA UJ NOA BA SU CAE MR PE PC POC TE SMCD CST DI NC PG HS HES ML ST MA TR JU EU LU CC HO GU ACK BC ARC ONC AMC CR TH NE NAC GC LC GAU BIC RET MDS LT ETS MC EC LE PM BK MO XC KS ME NS DIR DS IF NAZ NATC JM GM ES EM CH PER ELP SL PR NDL LI OR CF AL RE COL SR MI OB RS TI LS GOC AM EA CM LEG CN CIN EN LN IR PN KE LZ REZ SN VEF ID CT BN HI WA IB IM AD CLR JA SDD JR NR NP WC PP NM PSD THW FA BL COR CI RT",
+      "split": "MU LL NEOR PA UT RZ TAR",
+      "why": "Only market anarchists (Rothbardian anarcho-capitalists and paleolibertarians, with individualist anarchists and mutualists close behind) accept private competing protection and courts, while every other camp, including minarchists, Objectivists and communist anarchists, holds that force and justice must be a public, non-commercial function.",
+      "notes": {
+        "ANC": "Rothbard's For a New Liberty and Friedman's Machinery of Freedom: competing defence agencies and courts: 3.",
+        "PAL": "Hoppe, 'The Private Production of Defense': insurers and private courts replace the state: 3.",
+        "IA": "Tucker's Instead of a Book and Molinari's free market in security: voluntary protection associations, not a monopoly state: 2.",
+        "OB": "Rand, 'The Nature of Government': a government monopoly on retaliatory force is essential, and competing agencies would be gang warfare: -3.",
+        "MI": "Nozick-style and Rand-style minarchism makes the monopoly on force the one justified state function: -3.",
+        "HS": "Hobbes, Leviathan: without one sovereign judge and sword there is only the war of all against all: -3.",
+        "AC": "Anarcho-communists want community self-defence and popular justice, not for-profit firms: -2.",
+        "NEOR": "Moldbug's neocameralism makes the state a sovereign joint-stock corporation, not one of many competing security vendors: -1."
+      }
+    },
+    "market.9": {
+      "0": "DE",
+      "1": "AS ST MA EU HO NLS CA US SC",
+      "2": "CC TW LU TR GA GU ML",
+      "3": "AC ACK",
+      "-1": "DEG DC JU LT ES GAN GS ETS BK PG UJ EB",
+      "-2": "MU IA MC EC MO XC HS HES UT LL SL PR NDL LI CF RE SR CR GC RET PE CST DI NC NOA TP CH ELP AP TI BN GE RS",
+      "-3": "NA BA SU CAE MR AUC PC RC POC TE SMCD BC ARC ONC AMC TH NE PA NAC LC GAU BIC MDS LE PM KS ME NS DIR DS IF NAZ NATC JM GM EM PER CL NEO OR AL COL LF MI OB ANC PAL LS GOC AM EA CM LEG CN CIN EN LN IR PN KE LZ REZ SN VEF ID CT HI WA IB IM RZ AD CLR JA SDD JR NR NP WC PP TAR NM PSD THW FA BL COR CI RT NEOR",
+      "split": "AS ST MA EU GAN US SC CA BK PG TW DEG DC",
+      "why": "Only communist anarchists and the Khmer Rouge hold moneylessness as a goal, with council communists, Marxist-Leninist end-state theory, primitivists, Taoists and Zeno's Stoics as sympathetic, while market anarchists, liberals, conservatives and nationalists see money as indispensable for prices, coordination and freedom.",
+      "notes": {
+        "AC": "Kropotkin, The Conquest of Bread: 'from each according to ability, to each according to need' with no wages or money: 3.",
+        "ACK": "In April 1975 the Khmer Rouge emptied the cities and abolished money and markets: 3.",
+        "CC": "The GIK's Grundprinzipien (1930) replace money with labour-time accounting by worker councils: 2.",
+        "SC": "Zeno's lost Republic reportedly banned coinage for exchange and travel: 1.",
+        "TW": "Laozi ch. 80 returns people to knotted cords and a small, self-sufficient village: 2.",
+        "CL": "Mises's calculation argument: without money prices there is no rational economy: -3.",
+        "OB": "Rand, Atlas Shrugged ('Money speech'): money is the root of all good: -3.",
+        "PG": "Plato's Republic bars the guardians from owning gold or silver, but the other classes trade with money: -1."
+      }
+    },
+    "empire.1": {
+      "0": "NATC HES ID IM BN",
+      "1": "IB RZ ACK NLS TP SU NAC HI JM LE KS ME NS REZ ST CAE",
+      "2": "PN EN IF NA JU",
+      "3": "IR NAZ BA",
+      "-1": "MR AUC PG HS MA HO BIC ARC PM XC PER NP AM EA LEG LZ CN WA COR RT JR JA VEF",
+      "-2": "UJ NOA PE PC RC POC TE SMCD CST DI NC UT BC ONC CR TH NE PA GC GAU RET MC EC BK DIR DS CH AP WC PP LI AL COL GOC CM LN KE SN CT AD CLR CI NEOR BL PAL GAN",
+      "-3": "AC AS MU IA GA CA DC SC ML TR EU LU CC GU AMC LC MDS LT GS US ETS TW MO GM ES DE DEG EM ELP CL SL NEO PR NDL OR CF RE SR LF MI OB ANC GE LL RS TI LS CIN EB SDD NR TAR NM PSD THW FA",
+      "split": "ST ACK NAC IB RZ REZ JM LN SN JA NATC",
+      "why": "Irredentism is core doctrine for ethnic, pan-nationalist and Ba'athist camps and for Nazism, while liberal, socialist, anarchist and internationalist camps reject annexation by ethnicity, and most conservative and moderate camps treat existing borders as settled.",
+      "notes": {
+        "NAZ": "Hitler's 'Heim ins Reich' and the Anschluss and Sudetenland claims: bring every Volksdeutsche into one Reich: 3.",
+        "BA": "Aflaq's slogan 'unity, freedom, socialism': one Arab nation, one state, borders being colonial: 3.",
+        "IR": "Irredentism is defined as reclaiming kin-populated territory beyond the border (Italia irredenta, Greater Albania): 3.",
+        "ST": "Stalin's 1939-40 annexations of western Ukraine and western Belarus were presented as reuniting the same peoples: 1.",
+        "ACK": "Khmer Rouge Democratic Kampuchea claimed Kampuchea Krom in the Mekong delta and raided Vietnam: 1.",
+        "ML": "Lenin condemned annexation of any nation against its will as imperialism: -3.",
+        "MO": "Mozi's 'Against Offensive War' (Fei Gong) condemns annexing others' lands outright: -3.",
+        "LN": "Mazzini and Mill tie nationality to consent of the governed, not forced absorption: -2."
+      }
+    },
+    "empire.2": {
+      "1": "PN NA JM ST JU CN AM EA KS LE ME CAE BN WA NP CH RT",
+      "2": "EN ACK HI LZ TP MA SU NATC IB LEG PER BA NAC",
+      "3": "IR RZ REZ IF NAZ",
+      "-1": "NLS HO CM CR ARC PA MR AUC CI VEF BK EC PM NS WC PP CLR JR COR HS HES XC",
+      "-2": "ML KE SN BC ONC AMC TH NE GC GAU BIC RET TE PE CST DI NC ID CT IM DIR DS MC TAR AP AD JA NEOR UJ NOA LN AL COL LI BL GOC",
+      "-3": "AC AS MU IA GA CA DC GAN PC RC POC SMCD PG SC UT TR EU LU CC GU LC MDS LT GS US ETS TW MO GM ES DE DEG EM ELP CL SL NEO PR NDL OR CF RE SR LF MI OB ANC GE PAL LL RS TI LS CIN EB SDD NR NM PSD THW FA",
+      "split": "NAC LZ LEG PER BA IB JM ST CN BN WA CH NLS HO",
+      "why": "Historical-claim irredentism is doctrinal for Zionist, Hindutva, Ba'athist and fascist camps, which treat ancient or imperial extent as a title, while liberal, socialist, anarchist and prescriptive-conservative camps hold that present residents' rights and settled borders outweigh old claims.",
+      "notes": {
+        "RZ": "Religious Zionism holds the biblical Land of Israel, including Judea and Samaria, a divine and historical entitlement: 3.",
+        "REZ": "Jabotinsky's anthem and slogan claimed both banks of the Jordan as the Jewish homeland: 3.",
+        "IF": "Mussolini's Mare Nostrum and claims on Dalmatia and Nice rested on the Roman Empire's former extent: 3.",
+        "HI": "Savarkar and the Akhand Bharat idea: the historical cultural India from the Indus to the sea: 2.",
+        "PER": "Peronism makes the Malvinas claim a national cause based on Argentina's inheritance from Spain: 2.",
+        "BC": "Burke's doctrine of prescription: long, settled possession confers legitimate title against old claims: -2.",
+        "LC": "Liberal conservatives treat existing borders and present residents' rights as the settled order: -3.",
+        "KE": "Ataturk's 'peace at home, peace in the world' abandoned Ottoman revanchism: -2."
+      }
+    },
+    "empire.3": {
+      "1": "CIN CN IR CA DC GE PA CST DI GS US TW LT GM ES DEG ELP AP SL PR LI AD GU ST EU NM TAR",
+      "2": "AC AS MU GA DE LF MI CL LL LN EN TR NEOR SDD JR",
+      "3": "SN ML ANC PAL IA",
+      "-1": "PN NAZ OB NEO NC SMCD PE PC RC POC GC UT MA CC MDS ETS MC BK EM NDL CF RE SR LS ID CT IM RZ EB CLR NR NP THW FA BL PSD RT RS GAU LZ",
+      "-2": "IF JM BC ARC ONC AMC CR TH NE NAC LC RET TE PG SC TP NA GAN NLS UJ NOA LU HO JU TI GOC EC PM MO XC NS DIR DS CH OR COL CM LEG BN IB WC PP COR CI REZ",
+      "-3": "NATC CAE MR AUC HS HES BIC BA SU AM EA KS LE ME PER AL VEF HI WA JA ACK KE",
+      "split": "CIN PA GAU NAC UJ LI MDS LU ST MA TI UT NP RZ DC",
+      "why": "Secession by majority vote is doctrine for Leninist self-determination, libertarian and market-anarchist camps and secessionists, while unitary-state traditions (Jacobin, Caesarist, Kemalist, Hindutva, Ba'athist, fascist, absolutist) hold the state indivisible, and mainstream conservatives and social democrats defend existing unions.",
+      "notes": {
+        "ML": "Lenin, 'The Right of Nations to Self-Determination': the right to secede, including by plebiscite, is part of the programme: 3.",
+        "PAL": "Hoppe: the right of secession down to the smallest unit is the key to liberty: 3.",
+        "IA": "Spencer and Thoreau-style 'right to ignore the state': any person or group may secede: 3.",
+        "LU": "Luxemburg's 'The National Question' attacked the self-determination slogan as empty: -2.",
+        "JA": "The Jacobin republic was 'one and indivisible', and Vendee and federalist revolts were crushed: -3.",
+        "KE": "Kemalism's unitary Turkish nation-state denies a right to secede (Kurdish question): -3.",
+        "SDD": "The Swiss Jura canton was created by plebiscites from Bern in 1974-79: 2.",
+        "MA": "The 1931 CCP constitution granted minorities a right to secede, abandoned by 1949: -1."
+      }
+    }
+  }
+}

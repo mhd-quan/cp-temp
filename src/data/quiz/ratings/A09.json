@@ -1,0 +1,298 @@
+{
+  "rater": "A",
+  "block": "A09",
+  "items": {
+    "distribution.labour.1": {
+      "0": "SC DE LI CF AM CM LEG CN CIN EN LN IR PN SN BN IM RZ AD CLR PP RT",
+      "1": "IA BC CR NE PA LC RC TE UT HS OR THW COL EM REZ GE DS CAE MR LL ID HI WA TW SDD JR EA RE",
+      "2": "MI PAL CL NEO AL TH AMC AUC TAR NEOR CT",
+      "3": "LF ANC OB",
+      "-1": "PC POC SMCD DI NC PG HES ARC ONC NAC GC GAU BIC GM MC EC PM BK MO XC ME NS IF NAZ NATC JM VEF IB EB JA RS LS SL NDL SR KE WC NP AP NM COR GAN NOA PE TP",
+      "-2": "MU GA CA DC NLS NA UJ BA SU CST RET LT US ETS DEG ES PER ELP PR NR TI GOC DIR KS LE CI FA PSD BL LZ EU",
+      "-3": "AC AS GS ML ST MA TR JU LU CC HO GU ACK MDS CH",
+      "split": "PC TE UT DS MR NM AP ID HI PA LL GE EA NP NAC GAU CAE SL NOA CST",
+      "why": "Whether employers may hire and fire at will: laissez-faire and authoritarian-market camps say yes, while corporatist, Christian-social and social-democratic camps want dismissal protection and socialists want worker control.",
+      "notes": {
+        "NR": "Pettit and Lovett treat an employer's arbitrary power to fire as domination, hence workplace-republican opposition: -2.",
+        "CH": "Chávez's decree of job immovability (inamovilidad laboral) banned dismissals for years: -3.",
+        "SDD": "Swiss employment law (Code of Obligations art. 335) allows dismissal without cause, and voters keep rejecting tighter rules: 1.",
+        "KS": "Arthashastra has state superintendents who fix wages and regulate artisans and labour: -2.",
+        "BC": "Burke's Thoughts on Scarcity defends the free labour market against paternalist wage fixing: 1.",
+        "TH": "Thatcher's Employment Acts lengthened qualifying periods for unfair-dismissal claims: 2.",
+        "TI": "Yugoslav workers' councils gave strong job security; firing was a council decision: -2."
+      }
+    },
+    "distribution.labour.2": {
+      "0": "SC NOA NS DE LI CF RE SN CM LEG CN CIN EN LN IR PN AD CLR BN IM IB MC TW BK RZ",
+      "1": "AC MU IA DC CH DEG GM DI NC ONC RET HES UT SR AP PC THW US NR LL ID SU DIR SDD EB TI NLS ML CI WC",
+      "2": "LT TR LU CC ETS SMCD CA SL PR NDL FA BL ELP PER EU LS POC GAN ES",
+      "3": "AS NM PSD MDS GS CST LZ",
+      "-1": "GA RC TE PE TP GAU BC MA GU GOC CR NE PA NAC GC LC EM CL OR COL GE REZ CT HI JR PP PM XC MO KS EC EA RT NP ANC",
+      "-2": "LF OB TH MI NEO PAL AMC TAR NA UJ BA ARC ME ST RS KE VEF JA DS HS PG BIC CAE AM COR NEOR",
+      "-3": "AL AUC MR JU HO ACK IF NAZ NATC JM LE WA",
+      "split": "AC MU IA ML CH TI NLS BC CL NAC NP WC GE",
+      "why": "Strong unions independent of employers: labour-based and Catholic-social camps call them necessary, market-liberal and conservative camps tolerate voluntary unions at most, and one-party, fascist and authoritarian regimes replace them with state or party bodies.",
+      "notes": {
+        "CST": "Rerum Novarum (1891) defends workers' right to form associations and Laborem Exercens (1981) backs solidarity unions: 3.",
+        "LZ": "Histadrut, the general labour federation, was the backbone of the labour-Zionist state-building: 3.",
+        "JA": "The Le Chapelier law (1791) banned guilds and workers' coalitions and the Jacobins never repealed it: -2.",
+        "WA": "Saudi Arabia bans independent unions and strikes: -3.",
+        "AL": "Pinochet-style authoritarian liberalism broke the unions to protect the market (Labour Plan 1979): -3.",
+        "MU": "Proudhon distrusted strikes and coalitions while Carson backs worker syndicates: 1, split.",
+        "GAN": "Gandhi founded the Ahmedabad textile labour association (Majur Mahajan), non-political and arbitration-minded: 2.",
+        "KE": "Kemalist doctrine of a classless nation barred class-based unions and strikes until 1947 and later: -2."
+      }
+    },
+    "distribution.labour.3": {
+      "0": "PG SC GC NOA DE EM AP LI CF RE AM EA CM LEG CN CIN EN LN IR PN SN BN IM RZ AD CLR PP RT EC XC NS MR JM",
+      "1": "JU HO GU NAC ONC LC PC RC TE DI HS HES SR EB DEG LL ID VEF IB HI IF NAZ NATC JA MC PM BK MO CI KE SU CAE PE TP GAN TI NP SMCD US GS PA",
+      "2": "ST MA ELP NLS LU CST GM SL POC GAU RET WC LZ RS LS GOC NA BA UJ DIR KS NR BL ETS LT",
+      "3": "MDS ML TR EU CH PER ES PR NDL THW FA PSD",
+      "-1": "DC CR NE OR COL AUC NM SDD WA NC UT REZ ME LE DS COR BIC CC",
+      "-2": "MU GA CA BC ARC AMC TH CL NEO AL MI PAL TAR TW GE CT JR NEOR",
+      "-3": "AC AS IA ANC LF OB ACK",
+      "split": "SMCD TE UT NC NM AUC NP CR AMC NAC PA SDD DS PC CAE CL AS DC",
+      "why": "Whether the state should fix a statutory minimum wage: labour, planning and social-market camps say yes, free-market and anarchist camps call it interference or reject the state altogether, and Nordic or Swiss traditions leave wages to bargaining.",
+      "notes": {
+        "FA": "The Webbs coined the doctrine of the 'national minimum' of wages and conditions: 3.",
+        "NM": "Sweden, Denmark and Finland have no statutory minimum wage, leaving it to collective bargaining: -1, split.",
+        "SDD": "Swiss voters rejected a national minimum wage by 76% in 2014, though cantons like Neuchatel and Jura have one: -1.",
+        "AUC": "Singapore has deliberately no minimum wage (only progressive wage schemes): -1, split.",
+        "CH": "Chávez raised the minimum wage repeatedly and tied it to the missions' social programme: 3.",
+        "ACK": "Democratic Kampuchea abolished money and wages altogether: -3.",
+        "TH": "Thatcher's governments narrowed then abolished the Wages Councils (1986, 1993) and opposed a statutory minimum: -2.",
+        "THW": "Blair's 1998 National Minimum Wage Act was a flagship Third Way measure: 3."
+      }
+    },
+    "distribution.labour.4": {
+      "0": "COR RT HS HES PG SC DE CF LI AD CLR EC XC KS CN CIN EN LN IR PN SN BN HI WA IM RZ AM EA CM LEG PP JM NOA CR",
+      "1": "BA UJ NM SL GAU DIR ONC AC AS DC US GS LL WC LZ VEF ID IB EB JA NR CAE PE NAZ PM BK MO GAN TP SU DEG GM NAC PA SMCD LS GOC MA JU HO GU CC",
+      "2": "CI MDS PR ES PSD ELP CH ETS BL RET EU ML NLS LU NA FA CA DI NATC IF MC ST",
+      "3": "CST NDL PER LT TR",
+      "-1": "THW POC LC PC RC TE MU GA BC ARC GC UT EM COL RE SR AP JR RS TI KE REZ MR NP NE DS NS BIC NC TW",
+      "-2": "AMC TH CL OR SDD MI NEO PAL GE AL AUC CT LE ME ACK NEOR",
+      "-3": "LF ANC OB TAR IA",
+      "split": "AC AS DC SMCD NAC PA NP AP NR CC CA LZ NM",
+      "why": "A family-supporting minimum wage even at the cost of small firms: Catholic-social, Peronist, New Deal and Trotskyist camps make it a moral floor, while market, small-business and many centrist camps put firm survival first.",
+      "notes": {
+        "CST": "Rerum Novarum and Quadragesimo Anno require a wage sufficient to support a worker and his family, regardless of what the employer finds convenient: 3.",
+        "NDL": "FDR in 1933: no business that depends on paying less than living wages has any right to continue; FLSA 1938: 3.",
+        "PER": "Argentina's constitution (1949, then art. 14 bis) guarantees a 'salario vital, mínimo y móvil' for the worker and family: 3.",
+        "TR": "The Transitional Programme demands a sliding scale of wages sufficient for life; if capitalists cannot pay it they must go: 3.",
+        "MC": "Mencius 1A7 says the ruler must secure the people's livelihood so they can support parents, wife and children: 2.",
+        "TAR": "Poujade's small-trader movement revolted against levies that crush small firms: -3.",
+        "NATC": "Franco's Fuero del Trabajo (1938) promised wages sufficient for the worker's family: 2."
+      }
+    },
+    "distribution.labour.5": {
+      "0": "MC GAU SC GC NOA SU NATC KE HS AM EA LEG CN CIN EN LN IR PN SN IM ID BN RZ WA PP AD EC COR RT BK SR RE LI CF HES NAC PA JR",
+      "1": "TP PR NDL CST DI NM FA BL SL ONC NLS BA NAZ JM PER AP CI CLR UT NR DE IB VEF MU MO DIR",
+      "2": "US MDS ES TI TR MA GU HO ML EU LS PSD ETS LT AC AS DC CA GA ACK RET GAN NA CH ELP EB GM JA TW LZ",
+      "3": "PG GS CC LU DEG UJ",
+      "-1": "NC SMCD PC TE BC ARC BIC MR CAE PE POC GE REZ IF WC TAR EM SDD CM DS ME NS KS PM HI GOC JU",
+      "-2": "RC AMC CR NE LC NEO CL COL OR LL AUC RS LE XC NP ST THW CT NEOR",
+      "-3": "LF ANC OB MI TH PAL AL IA",
+      "split": "AC AS GA MU NM SL UT DIR NAC PA NP NAZ JM LZ POC TAR",
+      "why": "Whether law should cap top pay relative to the lowest wage: egalitarian, council, guild and some religious or republican camps say yes, while liberal, libertarian and conservative camps treat it as a violation of contract and property.",
+      "notes": {
+        "PG": "Plato's Laws (744e) caps the richest citizen's property at four times the poorest class: 3.",
+        "UJ": "Nyerere's Arusha Declaration and Leadership Code capped leaders' salaries and barred them from private income: 3.",
+        "LU": "The Paris Commune model Marx and Luxemburg admired paid officials a workman's wage: 3.",
+        "DEG": "Degrowth writers (Latouche, Hickel) call for maximum income and pay-ratio limits: 3.",
+        "ST": "Stalin's 1931 attack on uravnilovka (wage levelling) defended wide pay differentials: -2.",
+        "TW": "Daodejing 77: the Way of Heaven takes from those with surplus to give those in want: 2.",
+        "SDD": "Swiss voters rejected the 1:12 initiative by 65% in 2013: -1.",
+        "TH": "Thatcherism holds pay is set by the market and taxes should fall at the top: -3."
+      }
+    },
+    "distribution.labour.6": {
+      "0": "NAC PA GC SC TW DE ID IM RZ US AD CLR LI CF RE WC CM LEG CN CIN EN LN IR PN SN BN",
+      "1": "LF OB ANC MI CR NE LC BC GAU CL COL EM RC PC POC EC MC BK MO HES UT NS DIR NOA SU NLS TI MU CT HI IB NP THW FA SR EA COR CI RT GU MA GE JR",
+      "2": "ML BA CAE AMC ARC BIC NEO PAL OR TE PM XC KS PG HS ME DS KE NA UJ TP RS GOC VEF JA SDD REZ NEOR AM PE PP TAR",
+      "3": "ST JU HO ACK IF NAZ NATC JM MR WA AL LE TH AUC",
+      "-1": "ONC RET SMCD CST DI NC GAN LS EU IA GA SL NDL PER CH BL ETS EB NR LZ LL AP",
+      "-2": "CC TR AC DC CA MDS PSD NM PR ELP LT GS ES GM DEG",
+      "-3": "AS LU",
+      "split": "MU UT PC THW FA LF OB ANC TI GE NAC PA ID LZ CI SMCD",
+      "why": "Whether strikes hurt the economy more than they help workers: order-first, authoritarian and market camps agree (often banning strikes), while syndicalists, council communists and social democrats treat the strike as the workers' main weapon.",
+      "notes": {
+        "AS": "The general strike is the revolutionary core of anarcho-syndicalism (Rocker, CNT 1936): -3.",
+        "LU": "Luxemburg's The Mass Strike (1906) makes spontaneous strikes the engine of revolution: -3.",
+        "ST": "Soviet strikes were criminalised as sabotage under Stalin: 3.",
+        "IF": "Fascist Italy's Rocco law (1926) outlawed strikes and lockouts as crimes against the national economy: 3.",
+        "SDD": "The 1937 Swiss peace agreement in the metal industry made strikes rare and labour peace a national norm: 2.",
+        "GAN": "Gandhi led the 1918 Ahmedabad mill strike but demanded it be non-violent and arbitrable: -1.",
+        "MU": "Proudhon condemned strikes as futile and coercive though Carson's syndicalist mutualists back them: 1, split.",
+        "TH": "Thatcher's 1984-85 miners' strike confrontation and the Employment Acts curbing strike law: 3."
+      }
+    },
+    "distribution.labour.7": {
+      "0": "CF GU NOA UT PG SC RE LI DE CM LEG CN CIN EN LN IR PN SN BN IM RZ AD CLR JA MC EC TW MO BK PA IB ID BIC",
+      "1": "ONC FA NDL NLS BA SU TP GAN CA GA PC RC NC GC NAC HES SR DIR NATC WC VEF EB SDD AP COR CI HO ML IF",
+      "2": "US POC PSD CST RET BL ETS SL PR NR ES ELP DC EU LT DEG GM MA UJ PER GAU PE DI AS AC MU CC LU TR LZ",
+      "3": "SMCD NM MDS GS TI NA CH LS",
+      "-1": "THW TE ST JU GOC RS CAE BC CR NE LC HS OR GE LL COL EM PM XC NS NAZ JM REZ CT HI JR KE EA PP NP RT",
+      "-2": "ARC AMC MR AUC CL NEO MI ANC PAL LE KS ME DS TAR AM WA",
+      "-3": "TH LF OB AL IA NEOR ACK",
+      "split": "AS AC CC LU ML IF NAC NP DIR GAU PER",
+      "why": "Whether workers should sit on the boards of large firms: co-determination, Nordic and social-Catholic camps make it a standing right, radical camps accept it but want full worker control (some dismiss it as co-optation), and market and authoritarian camps defend owners' sole control.",
+      "notes": {
+        "SMCD": "German Mitbestimmung, which Adenauer's CDU enacted for coal and steel in 1951, is the model: 3.",
+        "NM": "Sweden, Norway and Denmark legally require employee representatives on company boards: 3.",
+        "NA": "Nasser's 1961 socialist decrees gave workers 25 percent of board seats and 25 percent of profits: 3.",
+        "CH": "Chavismo's co-management (cogestion) experiments in Alcasa and other state firms put workers on management: 3.",
+        "NAZ": "The 1934 AOG replaced works councils with the Betriebsfuehrer principle, ending worker representation: -1.",
+        "LU": "Luxemburg wanted workers' councils to run industry, so board seats are a step but not the goal: 2, split.",
+        "LL": "Left-libertarians favour voluntary worker co-ops but not a mandate on private firms: -1.",
+        "TH": "Thatcherism treats board composition as owners' business and fought the EU Social Chapter's participation rules: -3."
+      }
+    },
+    "distribution.labour.9": {
+      "0": "HS TE DI US LU SU NOA RS KE NS ME EC MC BK MO XC KS DE DEG GM EB SC PG CN CIN EN LN IR PN SN BN IM RZ AD CLR WC PP COR CI RT CM AM EA LEG UT SR LI CF LS VEF NR",
+      "1": "CST RET NE AUC COL BC ARC ONC GAU GC GE EM RC PC POC NM SL THW AC GA DC CAE MR PE TW ID HI WA IB JA SDD NP RE AP DS NEOR BIC",
+      "2": "LL CR CL OR LC SMCD NC CT MU CA GAN JR TAR PA",
+      "3": "AMC TH LF ANC OB MI IA PAL AL NEO REZ",
+      "-1": "NAC PR FA BL ETS LT ES EU TR GU CC TP NLS TI GOC DIR LE PM HES CH ELP",
+      "-2": "NDL PSD MDS GS ML ST MA JU HO ACK AS NA UJ BA PER JM LZ",
+      "-3": "IF NAZ NATC",
+      "split": "ONC NAC CC LU RS DIR DS NP BL PR CAE TE CST",
+      "why": "Whether union membership or dues may be made a condition of a job (right-to-work): libertarian, Thatcherite and American-conservative camps say never, social-democratic, syndicalist and corporatist camps defend closed or agency shops, and fascist and single-party systems made membership compulsory.",
+      "notes": {
+        "AMC": "Taft-Hartley (1947) let states ban union-security clauses and 26 states have right-to-work laws: 3.",
+        "TH": "The Employment Acts of 1980, 1982 and 1990 made the closed shop unenforceable and then unlawful in Britain: 3.",
+        "REZ": "Revisionists fought the Histadrut's monopoly over jobs and health cover and built a rival National Labour Federation: 3.",
+        "LZ": "Histadrut membership was the gateway to jobs, the Kupat Holim health fund and housing: -2.",
+        "NATC": "Franco's Sindicato Vertical enrolled all workers and employers compulsorily and levied dues: -3.",
+        "IF": "Under the Rocco law (1926) the recognised fascist syndicate levied dues on every worker in its category, member or not: -3.",
+        "NC": "Dutch neo-Calvinists built Christian unions precisely to avoid forced membership in socialist ones: 2.",
+        "PER": "Peronism's CGT relied on the 'cuota sindical' and a union monopoly per trade, with dues automatically deducted: -2."
+      }
+    },
+    "trade.goods.1": {
+      "0": "MU CA DC MR HS HES EU LU CC US BK MO XC TI CM LEG CN CIN LN IM RZ AD CLR NR PP PSD FA CI",
+      "1": "AC AS CAE PC TE SMCD SC BC CR NE TW AP NDL LI SL COL RS LS REZ SN ID CT WA SDD TAR NEOR NLS NC",
+      "2": "AUC RC POC UT AMC TH LC OR CF AL MC JR MI PAL LL NM THW",
+      "3": "IA CL NEO LF OB ANC GE EM",
+      "-1": "PE TR GU ONC GAU RET GS ETS EC PM DIR DS GM ELP PR RE SR EN IR PN KE LZ BN IB EB JA WC COR EA PG CST NOA GOC",
+      "-2": "GA TP NA UJ BA SU ARC NAC GC BIC MDS LT LE KS NS NATC JM ES DE DEG CH PER VEF HI NP BL RT DI ML ST MA AM",
+      "-3": "GAN JU HO ACK PA ME IF NAZ",
+      "split": "MU AP TAR DS NLS PSD CST RE NC SDD PR MR NDL CF PN",
+      "why": "Free trade against protection: classical-liberal, libertarian and ecomodernist camps want tariff-free cheap imports, while mercantilist, autarkic, agrarian, Gandhian and national-populist camps defend tariffs or self-reliance and left camps are split by anti-globalism.",
+      "notes": {
+        "GAN": "Swadeshi, boycotting foreign cloth in favour of the village spinning wheel, is a Gandhian core doctrine: -3.",
+        "ME": "Colbert's tariffs of 1664 and 1667 and the pursuit of a trade surplus are the very definition of mercantilism: -3.",
+        "BIC": "Bismarck's 1879 turn to tariffs on iron and rye allied Junkers and heavy industry: -2.",
+        "CAE": "Napoleon III signed the Cobden-Chevalier free-trade treaty with Britain in 1860: 1.",
+        "MC": "Mencius 1B5 and 2A5 want the border posts to inspect but not tax goods, so merchants come freely: 2.",
+        "PA": "Buchanan's 'The Great Betrayal' attacks free trade and defends tariffs for national self-sufficiency: -3.",
+        "LE": "Shang Yang's legalism restricts merchants and favours farming and war over commerce: -2.",
+        "JU": "Juche demands absolute economic self-reliance (charip): -3."
+      }
+    },
+    "trade.goods.2": {
+      "0": "LS AC AS CA PG HS HES EU CC GS US ETS PM BK MO XC TI CM LEG CN CIN LN IM RZ AD CLR NR PP WA SDD COL FA PSD GM AUC BC",
+      "1": "ONC AP NLS RS MR PE CST RET DC MDS LT ES DE ELP RE GOC EA EN IR PN LZ BN IB EB JA CI RT NOA PR ACK GU",
+      "2": "GAN NAC GC NATC JU HO ML ST MA DS DIR GAU CH NA UJ BA SU TP DI MU GA KE EC LE KS JM DEG AM VEF HI WC SR COR BL",
+      "3": "ME NS PA ARC BIC NP IF NAZ PER",
+      "-1": "CAE PC TE SMCD NC SC TR LU AMC CR NE MC TW SL LI REZ SN NM JR NDL ID",
+      "-2": "RC POC UT TH LC OR CF AL PAL LL TAR THW NEOR CT MI",
+      "-3": "IA CL NEO LF OB ANC GE EM",
+      "split": "AP AMC SDD PR NDL GM AUC TAR ONC DS NLS RE CAE DIR",
+      "why": "High tariffs to shield farmers and producers: mercantilist, national-system, agrarian-conservative, fascist and national-populist camps say yes, free-trade liberal and libertarian camps say never, and left, centrist and Christian camps lean according to how much they prize farmers over consumers.",
+      "notes": {
+        "NS": "List's National System of Political Economy calls for protective tariffs for infant industry and agriculture-industry balance: 3.",
+        "ARC": "Junker and landed-aristocratic conservatism demanded grain tariffs to protect their estates: 3.",
+        "PER": "Peronist industrialisation rested on import substitution behind high tariffs and exchange controls: 3.",
+        "KS": "The Arthashastra sets customs duties on foreign goods up to 20 percent and protects domestic production: 2.",
+        "SR": "French Radicals backed the 1892 Meline tariff to protect small farmers and artisans: 2.",
+        "TAR": "Tariffs are taxes, which anti-tax populists resent, though small farmers among them want protection: -2, split.",
+        "EC": "Imperial Confucian doctrine ranked farmers first and merchants last, restricting foreign trade: 2.",
+        "SDD": "Switzerland protects its agriculture with high tariffs although it is otherwise open: 0, split."
+      }
+    },
+    "power.local.1": {
+      "0": "SC UT NS EM LI NDL LEG CN PN HI COR CI RT IM RZ NP WC PSD BN",
+      "1": "TP TE RC BIC BK MC HES NOA LZ REZ EN IR NAC CH PER FA IB",
+      "2": "ML MA NLS RS GAU SU AUC HS PG PM XC ME DIR DS GOC EA VEF PP NEOR GU",
+      "3": "CAE JA EC LE ST JU HO ACK NA BA UJ KE MR PE MO KS AL IF NAZ NATC JM AM WA",
+      "-1": "PC POC ONC NE TR CM CIN LN RE SR LL LS ELP ES NEO PR SL GE THW LT TH EB ID",
+      "-2": "BC ARC CR PA LC MDS GS US ETS GM AP CL OR CF NR TAR NM BL SN CT LF OB MI CLR TW TI EU LU",
+      "-3": "COL AC AS MU IA GA CA DC SMCD CST DI NC GC RET DE DEG CC SDD JR AD AMC PAL GAN ANC",
+      "split": "TP HES UT TH NAC CH PER PSD NP COR IB LZ GAU AUC RC DS PM ME",
+      "why": "Appointed governors from the centre versus locally elected ones: Napoleonic, Jacobin, Legalist, imperial-Chinese, party-state and fascist camps defend centrally appointed prefects, while federalist, subsidiarity, anarchist and localist camps insist on local election.",
+      "notes": {
+        "CAE": "The Napoleonic prefect, appointed by Paris to run each departement, is the archetype of this item: 3.",
+        "EC": "Imperial examination bureaucracy rotated centrally appointed magistrates under the rule of avoidance to prevent local power bases: 3.",
+        "LE": "Qin legalism replaced hereditary lords with centrally appointed commandery and county officials: 3.",
+        "COL": "Tocqueville's Democracy in America and The Old Regime make local self-government the antidote to administrative despotism: -3.",
+        "SDD": "Swiss cantons are sovereign and elect their own governments: -3.",
+        "AL": "Pinochet's regime appointed all intendentes and mayors, abolishing local elections until 1992: 3.",
+        "MO": "Mohist 'identifying upward' (shang tong) has each district head chosen from above and subordinates conform to superiors: 3.",
+        "AMC": "States' rights and local control against Washington are central to American conservatism: -3."
+      }
+    },
+    "power.local.2": {
+      "0": "OB RC ONC LEG CM CN IM RZ NP CI RT SC BK MC EM LI",
+      "1": "CR LL LN CIN LC PC POC LT GS LU TP NEO BL COR NM THW CLR NR EB ID LS EU",
+      "2": "AMC SMCD NC CL LF MI CF GE GM US CC OR AP TAR PA ARC BC",
+      "3": "AC AS MU IA GA CA DC SDD JR GC RET DI CST COL PAL ANC SN DEG DE GAN TW AD CT TI NEOR",
+      "-1": "NE NAC MDS ETS ES RS AL RE SR UT NOA NS LZ REZ PN HI IB ELP SL PR WC",
+      "-2": "PSD TH GAU TR MA GU NLS UJ AUC HS HES ME DIR DS CH PER NDL EN BN PM XC KS WA PP GOC VEF PG TE EA FA BIC",
+      "-3": "ML ST JU HO ACK NA BA SU KE CAE MR PE EC LE MO IF NAZ NATC JM AM IR JA",
+      "split": "RS RC NP ONC CH PER SMCD NAC LL NEO AL TP EU",
+      "why": "Whether provinces should control most of their own revenue, spending and policy: anarchist, federalist, subsidiarity, cantonal and localist camps say yes, while Jacobin, Napoleonic, imperial, party-state and fascist camps insist on a unitary centre.",
+      "notes": {
+        "SDD": "Swiss cantons keep most taxing and spending powers and compete fiscally: 3.",
+        "CST": "Quadragesimo Anno states the subsidiarity principle: higher bodies should not take over what lower ones can do: 3.",
+        "JA": "The Jacobins crushed the federalist revolt of 1793 and held the Republic 'one and indivisible': -3.",
+        "ML": "Democratic centralism subordinates lower organs to higher in every domain, including budgets: -3.",
+        "KE": "Kemalism's unitary nation-state rejected any federal or autonomous status after the Sevres trauma: -3.",
+        "TI": "Yugoslav self-management gave republics and communes large budgetary and policy powers (1963 and 1974 constitutions): 3.",
+        "NEOR": "Moldbug's Patchwork splits the world into hundreds of fully sovereign mini-realms: 3.",
+        "COL": "Tocqueville treats decentralised self-government as the antidote to centralised despotism: 3."
+      }
+    },
+    "power.local.3": {
+      "0": "AS SC NOA GE LF NAC NP WC CLR HI ID BN LN IR PN",
+      "1": "AC MU AD BK MC LEG KS EN SN SU UJ EB GM LT GS US BL RT TAR AMC ONC ANC",
+      "2": "CA DC DI BC CST NC SDD JR ARC PA PAL DE DEG AP COR",
+      "3": "GA GAN GC RET TW COL EC CN",
+      "-1": "CM CIN REZ AUC PC RC POC SMCD TP CR TH LC IA TI LS MI SL NDL LL XC PM ME NS DS RS LZ CH PER ELP MDS ETS NM IB IM RZ CI NR PP NATC NEOR CC CT ES",
+      "-2": "AM EA MR PE NLS NA TE HS HES GAU BIC CL NEO PR LI OR CF AL SR OB GOC VEF DIR JM PSD THW FA NE PG EM GU TR EU LU",
+      "-3": "LE MO KE CAE ST ML MA JU HO ACK BA UT RE JA WA IF NAZ",
+      "split": "RS UJ HI AS CT NAC EC CN CM AMC ANC IA TP CC",
+      "why": "Whether villages should keep their own customs even against the sovereign's law: localist, Taoist, Confucian-bureaucratic and agrarian camps cherish village autonomy, while modernisers, codifiers, Jacobins and Marxists treat custom as backwardness to be reformed by uniform law.",
+      "notes": {
+        "EC": "The Confucian examination state governed only down to the county and let villages and lineages keep their own rules (the item echoes this): 3.",
+        "TW": "Daodejing 80: a small state with few people, who are content in their customs and have no need to travel: 3.",
+        "UT": "Bentham's codification project and attacks on common law and custom as 'dog law' require uniform statute: -3.",
+        "RE": "Phan Chau Trinh and the Duy tan reformers denounced village customs (huong uoc, banquets, superstitions) as backwardness: -3.",
+        "CAE": "The Napoleonic Civil Code replaced local customary laws with one uniform code: -3.",
+        "GAN": "Gandhi's gram swaraj makes self-governing village republics the basis of the nation: 3.",
+        "JA": "Jacobins abolished provincial privileges and customs and suppressed patois for a uniform republic: -3.",
+        "RS": "Vietnam's Doi Moi revived huong uoc (village conventions) within state law, while the party still insists the law outranks custom: -1, split."
+      }
+    },
+    "power.local.4": {
+      "0": "PN SMCD LT BK MC IM CT EB RT LEG BL LF GE LL OR ID",
+      "1": "NEO AL EN IR NOA CH PER ELP AD CLR CR TH NE LC BIC EU GU LS KS PM NS DS WC NP THW PC RC CM MI OB ETS ES NR",
+      "2": "SC EC MA AUC RS CL SL PR NDL LI CF RE CIN LN TP ONC NAC MDS EM TR GOC TE XC ME DIR BN HI IB RZ CI LZ REZ PP NM PSD PG",
+      "3": "JA CAE UT EA LE ML ST JU HO ACK KE NA BA NLS IF NAZ NATC JM MR PE AM HS HES SR SU UJ GAU MO VEF WA FA",
+      "-1": "CST BC ARC PA GS US GM LU TAR AP CN COR POC",
+      "-2": "DI NC AMC GC RET DE DEG CC AS MU IA CA TI SN COL",
+      "-3": "SDD JR AC GA DC TW ANC PAL NEOR GAN",
+      "split": "SMCD CR RC AMC OR NM CT ID LF NS CIN LL EU",
+      "why": "Whether laws should be the same across the whole country: Jacobin, Napoleonic, legalist, communist and fascist camps and those that prize equal citizenship want one code, while anarchist, federalist, localist, cantonal and polycentric-law camps defend local variation.",
+      "notes": {
+        "CAE": "The Code Napoleon replaced the patchwork of provincial customary laws with one civil code for all of France: 3.",
+        "UT": "Bentham's Constitutional Code and codification campaign demand one rational code replacing local and common-law diversity: 3.",
+        "HES": "Hegel (Philosophy of Right, par. 211-215) defends codification and universal law against the Historical School: 3.",
+        "MU": "Proudhon's The Federative Principle makes federation of autonomous units the answer to centralised law: -2.",
+        "ANC": "Anarcho-capitalism envisions competing private legal codes (Friedman, Rothbard) instead of one uniform law: -3.",
+        "SDD": "Swiss cantons keep their own civil and criminal procedure and tax laws, as a point of national pride: -3.",
+        "FA": "The Webbs' 'national minimum' demands standard conditions across the country enforced by a central bureaucracy: 3.",
+        "GAU": "Gaullist republicanism is 'one and indivisible' and the 1969 regionalisation referendum failed: 3."
+      }
+    }
+  }
+}

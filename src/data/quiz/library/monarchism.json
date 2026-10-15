@@ -1,0 +1,57 @@
+{
+  "family": {
+    "id": "monarchism",
+    "name": "Quân chủ",
+    "en": "Monarchism",
+    "summary": "Một vị vua, thường cha truyền con nối, là trung tâm và biểu tượng của quốc gia; các biến thể khác nhau ở chỗ vua trị vì hay cai trị."
+  },
+  "variants": [
+    {
+      "id": "absolute-monarchy",
+      "name": "Quân chủ chuyên chế",
+      "en": "Absolute monarchy",
+      "summary": "Vua nhận mệnh trời, nắm trọn quyền lập pháp, hành pháp và tư pháp; quan lại là bề tôi, mọi quyền lực quy về triều đình.",
+      "exemplars": ["Louis XIV", "Minh Mạng"],
+      "period": "1500–1850",
+      "axes": { "economy": 35, "distribution": 55, "trade": 25, "power": 0, "liberty": 10, "elites": 10, "lifestyle": 10, "religion": 75, "identity": 30, "environment": 40, "foreign": 30, "change": 5 },
+      "status": "draft",
+      "raters": ["claude"]
+    },
+    {
+      "id": "enlightened-absolutism",
+      "name": "Chuyên chế khai minh",
+      "en": "Enlightened absolutism",
+      "summary": "Vua có quyền tuyệt đối nhưng dùng nó để cải cách theo lý trí: thống nhất luật lệ, mở mang giáo dục, khoan dung tôn giáo.",
+      "exemplars": ["Friedrich II (Phổ)", "Joseph II (Áo)", "Ekaterina II (Nga)"],
+      "period": "1740–1800",
+      "axes": { "economy": 40, "distribution": 50, "trade": 40, "power": 5, "liberty": 35, "elites": 10, "lifestyle": 45, "religion": 35, "identity": 45, "environment": 40, "foreign": 25, "change": 45 },
+      "facets": { "religion.state": 30, "religion.law": 20, "religion.public": 50, "change.pace": 55, "change.means": 20, "change.depth": 60 },
+      "status": "draft",
+      "raters": ["claude"]
+    },
+    {
+      "id": "constitutional-monarchy",
+      "name": "Quân chủ lập hiến",
+      "en": "Constitutional monarchism",
+      "summary": "Vua trị vì nhưng không cai trị: là biểu tượng của sự liên tục và đoàn kết, còn quyền lực thuộc về quốc hội dân cử.",
+      "exemplars": ["Walter Bagehot", "Vương quốc Anh", "Nhật Bản sau 1947"],
+      "period": "1689–nay",
+      "axes": { "economy": 60, "distribution": 55, "trade": 65, "power": 80, "liberty": 70, "elites": 35, "lifestyle": 40, "religion": 55, "identity": 40, "environment": 50, "foreign": 55, "change": 10 },
+      "facets": { "elites.decision": 45, "elites.rank": 25, "elites.trust": 35 },
+      "status": "draft",
+      "raters": ["claude"]
+    },
+    {
+      "id": "legitimism",
+      "name": "Trung quân",
+      "en": "Legitimism (royalist restoration)",
+      "summary": "Trung thành với dòng vua chính thống, đứng lên giành lại ngai vàng và chủ quyền từ tay kẻ tiếm quyền hay ngoại bang.",
+      "exemplars": ["Phong trào Cần Vương (1885–1896)", "Phan Đình Phùng", "Phái Chính thống (Pháp)"],
+      "period": "1688–1900",
+      "axes": { "economy": 40, "distribution": 55, "trade": 25, "power": 15, "liberty": 25, "elites": 15, "lifestyle": 10, "religion": 70, "identity": 15, "environment": 45, "foreign": 30, "change": 65 },
+      "facets": { "change.pace": 60, "change.means": 85, "change.depth": 50 },
+      "status": "draft",
+      "raters": ["claude"]
+    }
+  ]
+}

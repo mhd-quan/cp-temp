@@ -1,0 +1,58 @@
+---
+// One series: its parts as chapters, each opened by its numeral in the
+// series' ink, with the print beside it. Announced parts keep their place.
+import { getCollection } from 'astro:content';
+import type { GetStaticPaths } from 'astro';
+import Glyph from '~/components/edition/Glyph.astro';
+import PageHead from '~/components/edition/PageHead.astro';
+import Plate from '~/components/edition/Plate.astro';
+import Rubric from '~/components/edition/Topics.astro';
+import EditionLayout from '~/layouts/EditionLayout.astro';
+import { longDate, readingMinutes, text } from '~/lib/edition';
+import { volumesOf } from '~/lib/editionData';
+
+export const getStaticPaths = (async () => {
+  const volumes = await volumesOf(await getCollection('essays', ({ data }) => !data.draft));
+  return volumes.map((volume) => ({ params: { slug: volume.slug }, props: { volume } }));
+}) satisfies GetStaticPaths;
+
+const { volume } = Astro.props;
+const numerals = ['I', 'II', 'III', 'IV', 'V', 'VI', 'VII', 'VIII'];
+---
+<EditionLayout title={volume.name} description={`${volume.name}: loạt ${volume.parts.length} tiểu luận của The Cochinchine Pensées, đọc theo thứ tự.`} noindex={false}>
+  <PageHead title={volume.name} parent={{ href: '/series', label: 'Chuyên đề' }}>
+    <p class="caps chapter__meta" data-ink={volume.ink.key}>{volume.parts.length} bài<span aria-hidden="true"> · </span>{volume.minutes} phút đọc</p>
+    <div class="series-start">
+      <a class="button button--ink" href={`/essays/${volume.parts[0].id}`}>Bắt đầu từ phần I<Glyph name="forward" /></a>
+    </div>
+  </PageHead>
+  <div class="page-body wrap">
+    <ol class="chapters" role="list" data-ink={volume.ink.key}>
+      {volume.parts.map((part, position) => (
+        <li class="chapter printed">
+          {part.data.coverImage && (
+            <a class="chapter__plate" href={`/essays/${part.id}`} tabindex="-1" aria-hidden="true">
+              <Plate src={part.data.coverImage} topics={part.data.topics} ink={volume.ink.key} sizes="(min-width: 900px) 56vw, 100vw" fallbackWidth={960} />
+            </a>
+          )}
+          <div class="chapter__text">
+            <span class="chapter__numeral" aria-hidden="true">{numerals[position]}</span>
+            <Rubric topics={part.data.topics} />
+            <h2 class="chapter__title"><span class="sr-only">Phần {position + 1}: </span><a class="title-link" href={`/essays/${part.id}`}>{text(part.data.title)}</a></h2>
+            {part.data.subtitle && <p class="chapter__dek">{text(part.data.subtitle)}</p>}
+            <p class="caps chapter__meta"><time datetime={part.data.date.toISOString()}>{longDate(part.data.date)}</time><span aria-hidden="true"> · </span>{readingMinutes(part.body)} phút đọc</p>
+          </div>
+        </li>
+      ))}
+      {volume.upcoming.map((part, position) => (
+        <li class="chapter chapter--upcoming">
+          <div class="chapter__text">
+            <span class="chapter__numeral" aria-hidden="true">{numerals[volume.parts.length + position]}</span>
+            <h2 class="chapter__title">{text(part.data.title)}</h2>
+            <p class="caps chapter__meta">Sắp ra</p>
+          </div>
+        </li>
+      ))}
+    </ol>
+  </div>
+</EditionLayout>

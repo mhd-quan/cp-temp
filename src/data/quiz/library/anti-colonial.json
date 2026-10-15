@@ -1,0 +1,106 @@
+{
+  "family": {
+    "id": "anti-colonial",
+    "name": "Giải phóng dân tộc",
+    "en": "Anti-colonial nationalism",
+    "summary": "Giành độc lập khỏi đế quốc thực dân là mục tiêu tối thượng; sau đó dựng một quốc gia mới, thường theo con đường phát triển do nhà nước dẫn dắt."
+  },
+  "variants": [
+    {
+      "id": "national-liberation-socialism",
+      "name": "Giải phóng dân tộc gắn với chủ nghĩa xã hội",
+      "en": "National liberation socialism",
+      "summary": "Đấu tranh vũ trang giành độc lập bằng một mặt trận dân tộc rộng rãi do đảng cộng sản lãnh đạo, rồi đi lên chủ nghĩa xã hội.",
+      "exemplars": ["Hồ Chí Minh", "Amílcar Cabral", "Samora Machel"],
+      "period": "1930–1990",
+      "axes": { "economy": 20, "distribution": 20, "trade": 25, "power": 10, "liberty": 20, "elites": 40, "lifestyle": 40, "religion": 20, "identity": 25, "environment": 30, "foreign": 35, "change": 90 },
+      "status": "draft",
+      "raters": ["claude"]
+    },
+    {
+      "id": "three-principles",
+      "name": "Tam dân chủ nghĩa",
+      "en": "Three Principles of the People",
+      "summary": "Dân tộc độc lập, dân quyền và dân sinh với bình quân địa quyền; cách mạng lật đổ quân chủ để lập cộng hoà, qua một giai đoạn huấn chính do đảng dẫn dắt.",
+      "exemplars": ["Tôn Trung Sơn", "Nguyễn Thái Học (Việt Nam Quốc dân Đảng)", "Phan Bội Châu (Việt Nam Quang phục Hội)"],
+      "period": "1905–1949",
+      "axes": { "economy": 40, "distribution": 35, "trade": 40, "power": 45, "liberty": 50, "elites": 45, "lifestyle": 50, "religion": 30, "identity": 25, "environment": 40, "foreign": 45, "change": 80 },
+      "facets": { "power.pluralism": 30, "power.checks": 60, "power.local": 45, "distribution.tax": 20 },
+      "status": "draft",
+      "raters": ["claude"]
+    },
+    {
+      "id": "nasserism",
+      "name": "Chủ nghĩa Nasser",
+      "en": "Nasserism (Arab socialism)",
+      "summary": "Quốc hữu hoá kênh đào Suez và các ngành lớn, cải cách ruộng đất, thống nhất thế giới Ả Rập; một đảng duy nhất do quân đội hậu thuẫn, nhà nước thế tục.",
+      "exemplars": ["Gamal Abdel Nasser", "Michel Aflaq (Đảng Ba'ath)"],
+      "period": "1952–1970",
+      "axes": { "economy": 25, "distribution": 30, "trade": 25, "power": 10, "liberty": 20, "elites": 40, "lifestyle": 45, "religion": 35, "identity": 20, "environment": 30, "foreign": 30, "change": 75 },
+      "facets": { "religion.state": 35, "religion.law": 20, "religion.public": 50 },
+      "status": "draft",
+      "raters": ["claude"]
+    },
+    {
+      "id": "gandhism",
+      "name": "Chủ nghĩa Gandhi",
+      "en": "Gandhism",
+      "summary": "Đấu tranh bất bạo động, tự lực kinh tế làng xã với khung cửi tự dệt, đời sống giản dị và hoà hợp giữa các tôn giáo.",
+      "exemplars": ["Mahatma Gandhi", "Vinoba Bhave"],
+      "period": "1906–nay",
+      "axes": { "economy": 40, "distribution": 25, "trade": 15, "power": 85, "liberty": 70, "elites": 80, "lifestyle": 35, "religion": 65, "identity": 45, "environment": 80, "foreign": 95, "change": 55 },
+      "facets": { "change.pace": 60, "change.means": 0, "change.depth": 90, "trade.selfreliance": 0, "power.local": 95, "religion.state": 60, "religion.law": 40, "religion.public": 85 },
+      "status": "draft",
+      "raters": ["claude"]
+    },
+    {
+      "id": "ujamaa",
+      "name": "Ujamaa",
+      "en": "Ujamaa (African socialism)",
+      "summary": "Chủ nghĩa xã hội dựa trên tinh thần đại gia đình và làng xã truyền thống châu Phi: tập thể hoá nông thôn, tự lực cánh sinh, một đảng duy nhất.",
+      "exemplars": ["Julius Nyerere", "Tanzania (1967–1985)"],
+      "period": "1967–1985",
+      "axes": { "economy": 20, "distribution": 20, "trade": 25, "power": 20, "liberty": 35, "elites": 55, "lifestyle": 35, "religion": 40, "identity": 40, "environment": 50, "foreign": 75, "change": 55 },
+      "facets": { "trade.selfreliance": 10 },
+      "status": "draft",
+      "raters": ["claude"]
+    },
+    {
+      "id": "non-alignment",
+      "name": "Không liên kết",
+      "en": "Non-alignment",
+      "summary": "Các nước mới độc lập không đứng về khối nào trong Chiến tranh Lạnh: chống thực dân, cùng tồn tại hoà bình, hợp tác giữa các nước đang phát triển.",
+      "exemplars": ["Jawaharlal Nehru", "Sukarno", "Hội nghị Bandung (1955)"],
+      "period": "1955–1991",
+      "axes": { "economy": 35, "distribution": 35, "trade": 35, "power": 60, "liberty": 55, "elites": 40, "lifestyle": 45, "religion": 40, "identity": 45, "environment": 40, "foreign": 80, "change": 40 },
+      "facets": { "foreign.force": 70, "foreign.rules": 75, "foreign.intervention": 95 },
+      "sd": { "power": 20 },
+      "status": "draft",
+      "raters": ["claude"]
+    },
+    {
+      "id": "baathism",
+      "name": "Chủ nghĩa Ba'ath",
+      "en": "Ba'athism",
+      "summary": "Thống nhất, tự do, chủ nghĩa xã hội: một dân tộc Ả Rập với sứ mệnh vĩnh cửu, do một đảng tiên phong thế tục dẫn dắt; thực tế ở Syria và Iraq là độc tài quân sự–gia tộc.",
+      "exemplars": ["Michel Aflaq", "Salah al-Din al-Bitar", "Syria (1963–2024)", "Iraq (1968–2003)"],
+      "period": "1947–2024",
+      "axes": { "economy": 25, "distribution": 35, "trade": 25, "power": 3, "liberty": 3, "elites": 20, "lifestyle": 45, "religion": 25, "identity": 15, "environment": 20, "foreign": 15, "change": 70 },
+      "facets": { "economy.ownership": 20, "economy.planning": 30, "economy.steering": 20, "distribution.tax": 40, "distribution.welfare": 25, "distribution.labour": 40, "power.pluralism": 5, "power.checks": 0, "power.local": 5, "liberty.expression": 0, "liberty.justice": 0, "liberty.privacy": 10, "elites.decision": 5, "elites.rank": 40, "elites.trust": 20, "lifestyle.family": 35, "lifestyle.gender": 55, "lifestyle.autonomy": 40, "religion.state": 15, "religion.law": 25, "religion.public": 40, "identity.nation": 10, "identity.culture": 15, "identity.migration": 25, "environment.nature": 10, "foreign.force": 5, "foreign.rules": 10, "foreign.intervention": 20, "change.pace": 70, "change.means": 90, "change.depth": 60 },
+      "status": "draft",
+      "raters": ["claude"]
+    },
+    {
+      "id": "sukarnoism",
+      "name": "Chủ nghĩa Sukarno (Dân chủ có hướng dẫn)",
+      "en": "Sukarnoism (Guided Democracy, Nasakom)",
+      "summary": "Pancasila, chủ nghĩa Marhaen của người tiểu nông nghèo và khối Nasakom gộp dân tộc, tôn giáo, cộng sản, trong nền dân chủ có hướng dẫn: đồng thuận quanh một lãnh tụ thay cho đa đảng.",
+      "exemplars": ["Sukarno", "Indonesia (1959–1966)"],
+      "period": "1945–1966",
+      "axes": { "economy": 30, "distribution": 30, "trade": 15, "power": 20, "liberty": 25, "elites": 50, "lifestyle": 35, "religion": 55, "identity": 30, "environment": 25, "foreign": 20, "change": 80 },
+      "facets": { "economy.ownership": 35, "economy.planning": 35, "economy.steering": 15, "trade.goods": 25, "trade.capital": 5, "trade.selfreliance": 10, "power.pluralism": 25, "power.checks": 10, "power.local": 20, "elites.decision": 30, "elites.rank": 70, "elites.trust": 60, "religion.state": 65, "religion.law": 30, "religion.public": 70, "identity.nation": 20, "identity.culture": 30, "identity.migration": 30, "foreign.force": 15, "foreign.rules": 10, "foreign.intervention": 30, "change.pace": 75, "change.means": 75, "change.depth": 85 },
+      "status": "draft",
+      "raters": ["claude"]
+    }
+  ]
+}

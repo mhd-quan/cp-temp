@@ -1,0 +1,425 @@
+[
+  {
+    "id": "economy",
+    "name": "Kinh tế",
+    "question": "Ai điều khiển nền kinh tế?",
+    "poles": ["Nhà nước", "Thị trường"],
+    "anchors": [
+      "Mọi tư liệu sản xuất thuộc sở hữu công, nhà nước kế hoạch hoá toàn bộ",
+      "Nhà nước giữ các ngành then chốt và dẫn dắt phần lớn nền kinh tế",
+      "Kinh tế hỗn hợp: thị trường là chính, nhà nước điều tiết và giữ vài ngành",
+      "Thị trường tự do, nhà nước chỉ sửa những thất bại rõ ràng",
+      "Nhà nước không có vai trò kinh tế nào"
+    ],
+    "facets": [
+      {
+        "id": "economy.ownership",
+        "name": "Sở hữu",
+        "poles": ["Tư liệu sản xuất thuộc nhà nước hay tập thể", "Tư hữu là nền tảng"]
+      },
+      {
+        "id": "economy.planning",
+        "name": "Kế hoạch và giá cả",
+        "poles": [
+          "Nhà nước lên kế hoạch sản xuất và định giá",
+          "Cung cầu quyết định giá cả và sản lượng"
+        ]
+      },
+      {
+        "id": "economy.steering",
+        "name": "Điều tiết và dẫn dắt",
+        "poles": [
+          "Nhà nước điều tiết chặt và chọn ngành mũi nhọn",
+          "Nhà nước đứng ngoài, luật lệ tối thiểu"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "distribution",
+    "name": "Phân phối",
+    "question": "Của cải nên được chia thế nào?",
+    "poles": ["Bình đẳng, tái phân phối", "Theo năng lực, ít thuế"],
+    "anchors": [
+      "San bằng thu nhập và tài sản",
+      "Thuế luỹ tiến cao, phúc lợi phổ quát rộng",
+      "Lưới an sinh vừa phải, thuế trung bình",
+      "Thuế thấp, chỉ trợ giúp người thật sự khốn khó",
+      "Không tái phân phối, ai làm nấy hưởng"
+    ],
+    "facets": [
+      {
+        "id": "distribution.tax",
+        "name": "Thuế và tài sản",
+        "poles": [
+          "Đánh thuế nặng người giàu, hạn chế tích luỹ và thừa kế lớn",
+          "Thuế thấp, tài sản và thừa kế bất khả xâm phạm"
+        ]
+      },
+      {
+        "id": "distribution.welfare",
+        "name": "An sinh",
+        "poles": [
+          "Nhà nước lo y tế, giáo dục, hưu trí cho mọi người",
+          "Cá nhân, gia đình và cộng đồng tự lo"
+        ]
+      },
+      {
+        "id": "distribution.labour",
+        "name": "Lao động",
+        "poles": [
+          "Công đoàn mạnh, lương tối thiểu cao, khó sa thải",
+          "Thị trường lao động linh hoạt, lương do thoả thuận"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "trade",
+    "name": "Thương mại",
+    "question": "Hàng hoá và vốn có nên qua biên giới tự do?",
+    "poles": ["Bảo hộ, tự chủ", "Mở cửa"],
+    "anchors": [
+      "Tự cung tự cấp, đóng cửa với bên ngoài",
+      "Bảo hộ mạnh, kiểm soát ngoại thương và dòng vốn",
+      "Mở cửa có chọn lọc, bảo vệ các ngành nhạy cảm",
+      "Tự do thương mại với ít ngoại lệ",
+      "Biên giới hoàn toàn mở cho hàng hoá và vốn"
+    ],
+    "facets": [
+      {
+        "id": "trade.goods",
+        "name": "Hàng hoá",
+        "poles": ["Thuế quan và hạn ngạch bảo vệ sản xuất trong nước", "Tự do thương mại"]
+      },
+      {
+        "id": "trade.capital",
+        "name": "Vốn nước ngoài",
+        "poles": [
+          "Hạn chế đầu tư và sở hữu của người nước ngoài",
+          "Mở cửa cho vốn và doanh nghiệp nước ngoài"
+        ]
+      },
+      {
+        "id": "trade.selfreliance",
+        "name": "Tự chủ",
+        "poles": [
+          "Tự sản xuất mọi thứ thiết yếu, không lệ thuộc bên ngoài",
+          "Chuyên môn hoá, dựa vào chuỗi cung ứng thế giới"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "power",
+    "name": "Quyền lực",
+    "question": "Quyền lực nên nằm ở đâu?",
+    "poles": ["Tập trung", "Phân tán, đa nguyên"],
+    "anchors": [
+      "Một người hay một lực lượng nắm toàn quyền, không giới hạn",
+      "Quyền lực tập trung, có vài thể chế tham vấn",
+      "Có bầu cử và giới hạn, nhưng hành pháp rất mạnh",
+      "Đa đảng, tam quyền phân lập, toà án độc lập",
+      "Quyền lực phân tán về các cộng đồng, không có trung tâm"
+    ],
+    "facets": [
+      {
+        "id": "power.pluralism",
+        "name": "Cạnh tranh chính trị",
+        "poles": ["Một lực lượng duy nhất lãnh đạo", "Nhiều đảng cạnh tranh, thay nhau cầm quyền"]
+      },
+      {
+        "id": "power.checks",
+        "name": "Giới hạn quyền lực",
+        "poles": [
+          "Quyền lực thống nhất trong tay người lãnh đạo",
+          "Tam quyền phân lập, toà án độc lập, giới hạn nhiệm kỳ"
+        ]
+      },
+      {
+        "id": "power.local",
+        "name": "Trung ương và địa phương",
+        "poles": ["Trung ương quyết mọi việc", "Địa phương và cộng đồng tự quản"]
+      }
+    ]
+  },
+  {
+    "id": "liberty",
+    "name": "Tự do",
+    "question": "Tự do cá nhân hay trật tự chung?",
+    "poles": ["Trật tự, an ninh", "Tự do dân sự"],
+    "anchors": [
+      "Nhà nước kiểm soát ngôn luận, hội họp và đời tư",
+      "Đời sống riêng khá tự do, nhưng chính trị bị kiểm soát chặt",
+      "Tự do có giới hạn đáng kể vì an ninh và thuần phong",
+      "Tự do dân sự rộng, giới hạn hẹp và do toà án xét",
+      "Gần như không giới hạn tự do cá nhân"
+    ],
+    "facets": [
+      {
+        "id": "liberty.expression",
+        "name": "Ngôn luận và hội họp",
+        "poles": [
+          "Kiểm soát báo chí và hội họp vì ổn định",
+          "Tự do ngôn luận, báo chí, lập hội, biểu tình"
+        ]
+      },
+      {
+        "id": "liberty.justice",
+        "name": "Tư pháp hình sự",
+        "poles": [
+          "Trừng phạt nghiêm, cảnh sát có quyền rộng",
+          "Quyền của người bị buộc tội, án nhẹ, cải tạo"
+        ]
+      },
+      {
+        "id": "liberty.privacy",
+        "name": "Riêng tư",
+        "poles": ["Giám sát công dân vì an ninh", "Đời tư được bảo vệ trước nhà nước"]
+      }
+    ]
+  },
+  {
+    "id": "elites",
+    "name": "Tinh hoa",
+    "question": "Ai nên quyết việc lớn?",
+    "poles": ["Tinh hoa", "Số đông"],
+    "anchors": [
+      "Một tầng lớp được chọn, theo tài, học vấn hay xuất thân, cai trị; dân không tham dự",
+      "Tinh hoa quyết, dân được tham vấn",
+      "Dân chủ đại diện, chuyên gia có vai trò lớn",
+      "Dân quyết trực tiếp nhiều việc, nghi ngờ giới tinh hoa",
+      "Mọi việc do số đông quyết trực tiếp, không có tinh hoa"
+    ],
+    "facets": [
+      {
+        "id": "elites.decision",
+        "name": "Ai quyết định",
+        "poles": [
+          "Chuyên gia và người đại diện quyết",
+          "Dân quyết trực tiếp qua trưng cầu, hội đồng, bốc thăm"
+        ]
+      },
+      {
+        "id": "elites.rank",
+        "name": "Đẳng cấp",
+        "poles": ["Vai trò xã hội theo xuất thân và thứ bậc", "Mọi người ngang nhau về địa vị"]
+      },
+      {
+        "id": "elites.trust",
+        "name": "Niềm tin vào giới tinh hoa",
+        "poles": ["Giới tinh hoa xứng đáng dẫn dắt", "Giới tinh hoa phản bội lợi ích dân thường"]
+      }
+    ]
+  },
+  {
+    "id": "lifestyle",
+    "name": "Lối sống",
+    "question": "Lối sống và gia đình theo khuôn nào?",
+    "poles": ["Truyền thống", "Cá nhân tự chọn"],
+    "anchors": [
+      "Pháp luật áp đặt khuôn mẫu gia đình, giới và đạo đức truyền thống",
+      "Nhà nước ưu tiên và khuyến khích truyền thống",
+      "Truyền thống được tôn trọng, pháp luật khoan dung",
+      "Cá nhân tự chọn lối sống, nhà nước trung lập",
+      "Chủ động phá bỏ các chuẩn mực truyền thống"
+    ],
+    "facets": [
+      {
+        "id": "lifestyle.family",
+        "name": "Gia đình",
+        "poles": [
+          "Gia đình nhiều thế hệ, con cái vâng lời cha mẹ",
+          "Nhiều kiểu gia đình, cá nhân tự chọn"
+        ]
+      },
+      {
+        "id": "lifestyle.gender",
+        "name": "Giới và tính dục",
+        "poles": [
+          "Vai trò giới truyền thống, hôn nhân nam nữ",
+          "Bình đẳng giới, quyền của người LGBT"
+        ]
+      },
+      {
+        "id": "lifestyle.autonomy",
+        "name": "Tự quyết",
+        "poles": [
+          "Luật cấm các thói hư: ma tuý, cờ bạc, mại dâm",
+          "Người trưởng thành tự quyết về thân thể và thú vui"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "religion",
+    "name": "Tôn giáo",
+    "question": "Tôn giáo có chỗ trong việc công?",
+    "poles": ["Thế tục", "Có vai trò công"],
+    "anchors": [
+      "Nhà nước bài trừ tôn giáo",
+      "Thế tục nghiêm ngặt, tôn giáo ra khỏi đời sống công",
+      "Tách biệt và trung lập, tôn trọng tín ngưỡng",
+      "Tôn giáo hay tín ngưỡng truyền thống có vị trí chính thức trong đời sống công",
+      "Luật và nhà nước dựa trên giáo lý, giáo sĩ cai trị"
+    ],
+    "facets": [
+      {
+        "id": "religion.state",
+        "name": "Nhà nước và tôn giáo",
+        "poles": [
+          "Nhà nước quản lý, hạn chế tôn giáo",
+          "Có quốc giáo hay tôn giáo được nhà nước bảo trợ"
+        ]
+      },
+      {
+        "id": "religion.law",
+        "name": "Luật và giáo lý",
+        "poles": ["Luật hoàn toàn thế tục", "Luật theo giáo lý tôn giáo"]
+      },
+      {
+        "id": "religion.public",
+        "name": "Đời sống công",
+        "poles": [
+          "Tôn giáo là chuyện riêng, không vào trường học và nghi lễ nhà nước",
+          "Tôn giáo và tín ngưỡng hiện diện trong giáo dục, nghi lễ, đạo đức công"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "identity",
+    "name": "Bản sắc",
+    "question": "Ta trước hết thuộc về dân tộc hay thế giới?",
+    "poles": ["Dân tộc, bản địa", "Thế giới, đa văn hoá"],
+    "anchors": [
+      "Dân tộc là trên hết, loại trừ người ngoài",
+      "Ưu tiên bản sắc dân tộc, hạn chế nhập cư, dè chừng văn hoá ngoại",
+      "Yêu nước nhưng cởi mở",
+      "Đa văn hoá, nhập cư rộng rãi, bản sắc linh hoạt",
+      "Công dân thế giới, không biên giới"
+    ],
+    "facets": [
+      {
+        "id": "identity.nation",
+        "name": "Lòng trung thành",
+        "poles": ["Dân tộc là trên hết", "Nhân loại là trên hết"]
+      },
+      {
+        "id": "identity.culture",
+        "name": "Văn hoá",
+        "poles": ["Giữ gìn văn hoá dân tộc thuần tuý", "Giao thoa, đa văn hoá"]
+      },
+      {
+        "id": "identity.migration",
+        "name": "Nhập cư và quốc tịch",
+        "poles": ["Hạn chế nhập cư, quốc tịch theo huyết thống", "Cửa mở cho người nhập cư"]
+      }
+    ]
+  },
+  {
+    "id": "environment",
+    "name": "Môi trường",
+    "question": "Tăng trưởng hay thiên nhiên đi trước?",
+    "poles": ["Tăng trưởng", "Sinh thái"],
+    "anchors": [
+      "Tăng trưởng trên hết, khai thác tối đa",
+      "Tăng trưởng trước, môi trường sửa sau",
+      "Cân bằng giữa hai bên",
+      "Ưu tiên môi trường, chấp nhận tăng trưởng chậm",
+      "Thiên nhiên có quyền tự thân, từ bỏ tăng trưởng"
+    ],
+    "facets": [
+      {
+        "id": "environment.growth",
+        "name": "Tăng trưởng",
+        "poles": [
+          "Tăng trưởng kinh tế là ưu tiên số một",
+          "Chấp nhận tăng trưởng chậm hay ngừng vì môi trường"
+        ]
+      },
+      {
+        "id": "environment.nature",
+        "name": "Thiên nhiên và khí hậu",
+        "poles": [
+          "Thiên nhiên là tài nguyên để khai thác",
+          "Bảo tồn thiên nhiên, chống biến đổi khí hậu dù tốn kém"
+        ]
+      },
+      {
+        "id": "environment.technology",
+        "name": "Công nghệ",
+        "poles": [
+          "Công nghệ lớn sẽ giải quyết vấn đề môi trường",
+          "Phải đổi lối sống, dè chừng công nghệ lớn"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "foreign",
+    "name": "Đối ngoại",
+    "question": "Quốc gia nên hành xử với bên ngoài bằng gì?",
+    "poles": ["Sức mạnh, can thiệp", "Luật lệ, hoà hiếu"],
+    "anchors": [
+      "Chinh phục, bành trướng bằng vũ lực",
+      "Quân sự mạnh, sẵn sàng can thiệp, hành động đơn phương",
+      "Phòng thủ vững, ngoại giao thực dụng",
+      "Đa phương, tuân thủ luật quốc tế, hạn chế vũ lực",
+      "Hoà bình tuyệt đối, giải trừ quân bị, chính quyền chung của thế giới"
+    ],
+    "facets": [
+      {
+        "id": "foreign.force",
+        "name": "Sức mạnh quân sự",
+        "poles": ["Quân đội mạnh, sẵn sàng dùng vũ lực", "Hoà bình, giảm quân bị"]
+      },
+      {
+        "id": "foreign.rules",
+        "name": "Luật chơi quốc tế",
+        "poles": [
+          "Chủ quyền tuyệt đối, hành động đơn phương khi cần",
+          "Tuân thủ luật và định chế quốc tế, sẵn sàng chia sẻ chủ quyền"
+        ]
+      },
+      {
+        "id": "foreign.intervention",
+        "name": "Can thiệp",
+        "poles": [
+          "Can thiệp vào nước khác vì lý tưởng hay lợi ích",
+          "Không can thiệp vào nội bộ nước khác"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "change",
+    "name": "Thay đổi",
+    "question": "Xã hội nên thay đổi bằng cách nào?",
+    "poles": ["Tiệm tiến", "Cách mạng"],
+    "anchors": [
+      "Giữ nguyên hiện trạng",
+      "Cải cách từng bước, thận trọng",
+      "Cải cách lớn nhưng trong khuôn khổ",
+      "Thay đổi toàn diện và nhanh",
+      "Cách mạng, lật đổ trật tự cũ bằng mọi giá"
+    ],
+    "facets": [
+      {
+        "id": "change.pace",
+        "name": "Nhịp độ",
+        "poles": ["Từng bước nhỏ, thử rồi mới làm", "Nhanh và toàn diện"]
+      },
+      {
+        "id": "change.means",
+        "name": "Phương tiện",
+        "poles": ["Chỉ qua con đường hợp pháp, ôn hoà", "Chấp nhận bạo lực hay bất tuân khi cần"]
+      },
+      {
+        "id": "change.depth",
+        "name": "Chiều sâu",
+        "poles": ["Giữ nền tảng, chỉ sửa chính sách", "Thay đổi tận gốc hệ thống và con người"]
+      }
+    ]
+  }
+]

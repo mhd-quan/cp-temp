@@ -1,0 +1,180 @@
+/* Ấn bản: the door to La bàn Tư tưởng (components/edition/CompassDoor.astro).
+   The cube is the quiz's own (quiz.css, "the cube"), drawn bare: hairlines of
+   the page's ink, every variant a dot in its family's colour, nothing written
+   on it. The compass's name is set at the cube's heart, in the face of every
+   title, lifted off the drawing by a breath of paper; the dots sit around and
+   behind it. One link: the whole door answers. */
+.door {
+  /* The cube's width; a page that sets the door beside other things sets it smaller. */
+  --cube: 28rem;
+  position: relative;
+  container-type: inline-size;
+}
+.door__section {
+  position: relative;
+  z-index: 4;
+  border-top: 1px solid var(--ink);
+}
+/* Narrower than its column, the cube stands in the middle of it; the words
+   under it keep the column's edge, with the section's name. */
+.door__body {
+  display: grid;
+  width: min(100%, var(--cube));
+  margin: var(--s-3) auto 0;
+}
+.door__body > * {
+  grid-area: 1 / 1;
+}
+/* The sketch's own proportions (compass.ts, SKETCH). */
+.door__cube {
+  position: relative;
+  aspect-ratio: 280 / 290;
+}
+/* At rest the cube's outline runs from 129.65 left of the sketch's origin to
+   118.95 right of it (compass.ts, project): the drawing moves right by half
+   the difference, so the outline, not its frame, is what stands centred. */
+.door .cube__plot {
+  position: absolute;
+  inset: 0;
+  left: calc(100% * 5.35 / 280);
+  width: 100%;
+  height: 100%;
+  overflow: visible;
+}
+/* The cube in motion (lib/quiz/doorScene.ts), over the drawing it takes the
+   place of: the same units about the same centre, reaching as far as the
+   cube goes on its path (REACH: 148 units left of the centre and 150 above
+   it, 296 by 310). The drawing's centre stands 145.35 units in and 134 down
+   (above), so the canvas starts 2.65 units left of the box and 16 above. */
+.door .cube__canvas {
+  position: absolute;
+  top: calc(100% * -16 / 290);
+  left: calc(100% * -2.65 / 280);
+  width: calc(100% * 296 / 280);
+  height: calc(100% * 310 / 290);
+  pointer-events: none;
+}
+/* On paper, the drawing, not a frame of the motion. */
+@media print {
+  .door .cube__canvas {
+    display: none;
+  }
+  .door .cube__plot {
+    visibility: visible !important;
+  }
+}
+.door .cube__edge,
+.door .cube__axis {
+  fill: none;
+  vector-effect: non-scaling-stroke;
+}
+.door .cube__edge--front {
+  stroke: color-mix(in oklab, var(--ink) 40%, transparent);
+}
+.door .cube__edge--back {
+  stroke: color-mix(in oklab, var(--ink) 20%, transparent);
+  stroke-dasharray: 2 3;
+}
+.door .cube__floor {
+  fill: color-mix(in oklab, var(--ink) 4%, transparent);
+}
+.door .cube__axis {
+  stroke: color-mix(in oklab, var(--ink) 14%, transparent);
+  stroke-dasharray: 1 3;
+}
+/* Each family's dots: one path of zero-length strokes, round-capped into dots,
+   in the family's pigment by day and by night (compass.ts, cubeSketch). */
+.door .cube__dots {
+  opacity: 0.82;
+}
+.door .cube__dots path {
+  fill: none;
+  stroke: var(--day);
+  stroke-width: 5.2;
+  stroke-linecap: round;
+}
+:root[data-theme='dark'] .door .cube__dots path {
+  stroke: var(--night);
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme='light']) .door .cube__dots path {
+    stroke: var(--night);
+  }
+}
+/* Centred on the cube as it is seen at rest: across, the outline is centred
+   already (above); down, its middle is 148 of the sketch's 290 units (the
+   near corners, drawn larger, carry it a little below the origin), in the
+   units of the cube's width, less half a line. Above the drawing without
+   being positioned or moved (a transform would hold its link's reach), so the
+   link stretches over the whole door, not the title alone. */
+.door__title {
+  z-index: 1;
+  align-self: start;
+  justify-self: center;
+  max-width: 88%;
+  margin: calc(100% * 148 / 280 - 0.5lh) 0 0;
+  /* In proportion to the cube: a tenth of its width, the name across most of
+     its face and never out past its edges. */
+  font-size: min(10.5cqw, var(--cube) * 0.105);
+  line-height: 1.04;
+  letter-spacing: -0.02em;
+  text-align: center;
+  text-wrap: balance;
+  /* A breath of paper under the letters, so the dots behind never cut them. */
+  text-shadow:
+    0 0 0.5em var(--paper),
+    0 0 0.2em var(--paper),
+    0 0 0.08em var(--paper);
+}
+.door__dek {
+  max-width: 30ch;
+  margin-top: var(--s-3);
+  color: var(--muted);
+  font-size: var(--t-ui);
+  font-style: italic;
+  line-height: 1.38;
+}
+.door__meta {
+  margin-top: var(--s-3);
+  color: var(--muted);
+  font-size: var(--t-meta);
+  font-weight: 500;
+}
+.door__go {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5em;
+  margin-top: var(--s-4);
+  font-size: var(--t-label);
+  font-weight: 600;
+}
+.door__go .glyph {
+  transition: translate var(--d-base) var(--ease-out);
+}
+:where(:root:not([data-resting])) .door:has(.door__title a:hover) .door__go .glyph,
+.door:has(.door__title a:focus-visible) .door__go .glyph {
+  translate: 3px 0;
+}
+/* Wide enough, the words stand beside the cube, level with its foot. */
+@container (min-width: 40rem) {
+  .door__layout {
+    display: grid;
+    grid-template-columns: minmax(0, var(--cube)) minmax(0, 1fr);
+    column-gap: var(--gutter);
+    align-items: end;
+  }
+  .door__text {
+    padding-bottom: var(--s-2);
+  }
+  .door__dek {
+    margin-top: 0;
+  }
+}
+@media (forced-colors: active) {
+  .door .cube__dots path {
+    stroke: CanvasText;
+  }
+  .door__title {
+    text-shadow: none;
+  }
+}

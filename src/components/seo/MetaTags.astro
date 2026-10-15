@@ -1,0 +1,64 @@
+---
+/**
+ * MetaTags — single source for head meta, OG, Twitter card, canonical.
+ * Used by EditionLayout. A page without a picture of its own (every page
+ * but an essay with a cover) shares the site's card, drawn by
+ * scripts/social-card.mjs.
+ */
+import { SITE_TAGLINE } from '~/lib/editionVoice.mjs';
+import { canonicalUrl as normalizeCanonical } from '~/lib/seo/publication.mjs';
+
+interface Props {
+  title: string;
+  description: string;
+  canonicalUrl?: string;
+  ogImage?: string;
+  ogImageAlt?: string;
+  lang?: 'vi' | 'en';
+  noindex?: boolean;
+  ogType?: 'website' | 'article';
+}
+
+const CARD = '/social-card.png';
+const {
+  title,
+  description,
+  canonicalUrl,
+  ogImage = CARD,
+  ogImageAlt = ogImage === CARD ? `The Cochinchine Pensées — ${SITE_TAGLINE}` : undefined,
+  lang = 'vi',
+  noindex = false,
+  ogType = 'website',
+} = Astro.props;
+
+const siteUrl = Astro.site ?? new URL('https://cochinchinepensees.studio');
+const canonical = normalizeCanonical(canonicalUrl ?? Astro.url.pathname);
+const ogImageUrl = new URL(ogImage, siteUrl).toString();
+---
+
+<title>{title}</title>
+<meta name="description" content={description} />
+<link rel="canonical" href={canonical} />
+{noindex && <meta name="robots" content="noindex, follow" />}
+
+<meta property="og:type" content={ogType} />
+<meta property="og:title" content={title} />
+<meta property="og:description" content={description} />
+<meta property="og:url" content={canonical} />
+<meta property="og:image" content={ogImageUrl} />
+{ogImage === CARD && (
+  <Fragment>
+    <meta property="og:image:type" content="image/png" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+  </Fragment>
+)}
+{ogImageAlt && <meta property="og:image:alt" content={ogImageAlt} />}
+{ogImageAlt && <meta name="twitter:image:alt" content={ogImageAlt} />}
+<meta property="og:site_name" content="The Cochinchine Pensées" />
+<meta property="og:locale" content={lang === 'vi' ? 'vi_VN' : 'en_US'} />
+
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:title" content={title} />
+<meta name="twitter:description" content={description} />
+<meta name="twitter:image" content={ogImageUrl} />

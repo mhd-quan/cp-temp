@@ -1,0 +1,282 @@
+{
+  "rater": "A",
+  "block": "A18",
+  "items": {
+    "elites.decision.7": {
+      "0": "IA CA NA BA AUC PE SUL STC CO DI SC ST JU HO GU ACK CR RET MDS MC TW BK MO NATC JM NAS SF RF DE PR ANC PAL LL TI LS AM EA LEG CN CIN EN IR PN REZ VEF CT BN HI WA IB RZ EB JR TRA CRA COR CI RT NEOR EUR",
+      "1": "RC NLS UJ MR CST NC PG HS ML EU BIC EC LE PM XC KS NE ME NS DS IS NEO LI CF AL RE LF MI RS GOC ID IM KE LZ CLR NR NM THW ETS EM",
+      "2": "ARC ONC AMC TH GC LC PC NOA POC TE HES UT SMCD DIR OR COL SR CL SL NDL LIF CM PSD FA OB",
+      "3": "BC HF",
+      "-1": "MU GAN SU COA MA TR LU CC PA NAC LT GS US IF NAZ ES DEG PER GE LN PP BL",
+      "-2": "AC AS GA DC TP CAE GAU GM CH ELP AP SN NP WC TAR PIP JA",
+      "-3": "AD SDD",
+      "split": "JA GAU NAC PA GE LN CR",
+      "why": "Splits representative-government camps (Burke, Federalists, liberals, Christian democrats) from direct-democracy and plebiscitary camps (Swiss, Athenian, populists, Greens, Sun Yat-sen's initiative and referendum, de Gaulle); anti-democratic camps have little stake in the elected-reps-versus-referendum choice.",
+      "notes": {
+        "BC": "Burke's Speech to the Electors of Bristol (1774): a representative owes his judgment, not mere obedience to instructions: 3.",
+        "HF": "Federalist Nos. 10 and 63: a republic filters popular passions through representatives, as opposed to pure democracy: 3.",
+        "SDD": "Initiative and referendum are the core institutions of Swiss democracy (1848, 1891): -3.",
+        "AD": "The Athenian Assembly decided major matters directly by show of hands; officials were chosen by lot: -3.",
+        "TP": "Sun Yat-sen's Principle of Democracy lists election, recall, initiative and referendum as the four people's powers: -2.",
+        "GAU": "De Gaulle used referendums (1958, 1962, 1969) and resigned after losing one, Article 11 of the Fifth Republic: -2.",
+        "GM": "German Greens' founding programme demands federal referendums and grassroots democracy (Basisdemokratie): -2.",
+        "AP": "The 1892 Omaha Platform of the People's Party demanded the initiative and referendum: -2."
+      }
+    },
+    "lifestyle.family.6": {
+      "0": "TP BA PC POC PG SC HS GU MA TH TW LE KS BK MO ME NS DIR DS IS NAZ AL AP CLR SDD JR NR RS GOC CM IR PN REZ VEF BN IB RZ EB COA SUL ETS PER WC TAR",
+      "1": "MU GAN NA UJ SU CAE MR AUC JU HO ACK BC ONC AMC NE GC GAU BIC LT MC PM OR COL AM CN EN HI IM HF NP PP BL NEOR JM",
+      "2": "DI NC CO SMCD STC HES ST ARC PA NAC RET EC XC CT IF NAS COR RT EUR CR LEG",
+      "3": "PE CST NATC CI",
+      "-1": "CA NLS NOA RC TE ML EU LC MDS GS DE DEG CH CL NEO NDL LI RE TI EA CIN LN LZ SN ID PSD THW FA PAL WA AD",
+      "-2": "AS GA DC UT TR LU CC LIF SF RF GM ES EM ELP SL PR CF SR LF MI GE LL LS KE NM TRA PIP JA US",
+      "-3": "AC IA OB ANC CRA",
+      "split": "MU CA PER PAL ETS ML",
+      "why": "Splits family-protective camps (Catholic, Calvinist, traditionalist, fascist-clerical, Stalinist) who want divorce made harder from liberal, feminist, socialist and libertarian camps who treat easy divorce as a freedom; anarchists and anarcho-capitalists reject any legal gatekeeping of marriage.",
+      "notes": {
+        "PE": "Diem's 1959 Family Law (Luat Gia dinh) banned divorce outright, with Madame Nhu as its champion: 3.",
+        "NATC": "Franco abolished the 1932 divorce law in 1939 and the Church held marriage indissoluble: 3.",
+        "CST": "Casti Connubii (1930) and canon law teach the indissolubility of marriage: 3.",
+        "ST": "The 1944 Soviet Family Law made divorce costly and court-bound after Lenin's 1918 liberal code: 2.",
+        "KE": "Ataturk's 1926 Civil Code replaced sharia repudiation with court divorce on equal terms: -2.",
+        "JA": "The Revolutionary divorce law of September 1792 allowed divorce by mutual consent or incompatibility: -2.",
+        "MU": "Proudhon's La Pornocratie and De la justice opposed divorce and defended patriarchal marriage, unlike most anarchists: 1.",
+        "EC": "The Hong Duc code limited divorce to defined grounds (the seven grounds of repudiation) under Confucian family norms: 2.",
+        "AC": "Goldman and Kropotkin rejected state or church regulation of marriage and defended free union: -3."
+      }
+    },
+    "elites.trust.4": {
+      "0": "PN NOA NC EU GU TH PER NEO RE COL TI RET GS US ETS MC CN LN SN ID IM EB PP",
+      "1": "NLS TP NA UJ BA SU COA SUL CO SC BC GC NE NAZ NAS SL PR LI OR CF AL SR RS LS GOC CM CIN EN IR LZ REZ BN HI IB RZ HF NM TRA RT EUR BK ME NS IS",
+      "2": "PG ST PE CAE MR AUC STC PC POC SMCD CST RC ML HO ACK HS HES ARC ONC LC GAU BIC EC MO XC PM AM EA LEG DIR DS IF NATC JM EM FA THW KE VEF CT WA PSD NDL COR CI",
+      "3": "TE JU",
+      "-1": "GAN DI UT TR LU CC MA CR PA NAC AMC MDS LT LIF SF GM ES DEG CH CL GE WC BL JA SDD",
+      "-2": "AS MU CA DC TW LE KS RF DE ELP AP LF MI OB PAL LL AD CLR JR NR NP TAR NEOR PIP",
+      "-3": "AC IA GA ANC CRA",
+      "split": "CR AMC NE LI NAZ",
+      "why": "Divides camps that rest legitimacy on expertise, office or inherited authority (technocrats, Juche, Platonic guardians, Stalinists, throne-and-altar) from those whose core is vigilance against power (anarchists, libertarians, republicans of contestation, populists).",
+      "notes": {
+        "TE": "Technocracy's premise is rule by qualified engineers and experts, so reflexive distrust of them is the enemy: 3.",
+        "JU": "Juche demands unquestioning loyalty to the Leader (monolithic ideological system): 3.",
+        "LE": "Han Fei's advice to the ruler is to trust no minister and rely on law and technique: -2.",
+        "KS": "The Arthashastra builds a spy network to test ministers and officials, assuming all may be corrupt: -2.",
+        "JR": "Jefferson: 'eternal vigilance' and the Kentucky Resolutions' 'bind him down from mischief by the chains of the constitution': -2.",
+        "NR": "Pettit's republicanism makes contestation of power central; the free citizen must be able to challenge rulers: -2.",
+        "NEOR": "Yarvin's 'Cathedral' (universities and press as ruling establishment) is the object of the movement's contempt: -2.",
+        "CRA": "The Crypto Anarchist Manifesto builds tools to evade state and institutional authority: -3.",
+        "PM": "Bell's The China Model argues for trusting selected and tested political elites over the mass vote: 2."
+      }
+    },
+    "lifestyle.gender.3": {
+      "0": "ST CC LC GAU GE DE UT SC HS DIR IS CIN LN PN TW MO CM COA PC POC GOC RE ID IM AP NA SU GAN TP JA SDD ACK",
+      "1": "MA TR LU JU HO GU DEG EM LT GS US ETS PSD FA SL NDL LI CF SR CH UJ NOA BA KE SN EB NR TRA PIP RS TI LS SMCD RC PG LZ",
+      "2": "LIF ML NLS EU ES MDS THW PER ELP",
+      "3": "RF SF GM DC PR NM",
+      "-1": "AC AS MU GA CA LL NE GC ONC RET TE CO CST NC PE CAE MR AUC SUL BL ME NS DS MC LE PM BK KS EA CN IR REZ BN HI JR HF CLR AD WC PP CRA COL",
+      "-2": "IA LF MI BC ARC AMC TH NAC BIC CL NEO OR AL STC DI HES EC XC AM LEG EN VEF IB RZ NP TAR CI EUR IF NAS",
+      "-3": "OB ANC PAL CR PA NAZ NATC JM CT WA COR RT NEOR",
+      "split": "PER SMCD ID LC GAU ONC",
+      "why": "Divides camps that endorse active state measures for gender parity (feminists, Greens, Nordic social democrats, Rojava confederalists) from market-liberal, libertarian and traditionalist camps that oppose quotas or reject a political role for women, with anarchists objecting on the state-action half.",
+      "notes": {
+        "DC": "Rojava's Social Contract and Ocalan's women's liberation line mandate co-chairs and at least 40 percent women in every body: 3.",
+        "GM": "The German Greens' Frauenstatut and the 50 percent quota (Quotierung) have been party doctrine since 1986: 3.",
+        "NM": "Norway's 2003 law required 40 percent women on corporate boards and Nordic parties use list quotas: 3.",
+        "OB": "Rand's Objectivism rejects preferential treatment by sex as collectivist violation of individual rights: -3.",
+        "PG": "Plato's Republic (Book V) lets women train and serve as guardians on equal terms, though without modern quota logic: 1.",
+        "PER": "Eva Peron's Female Peronist Party and Argentina's 1991 quota law (passed under Peronist Menem) lean agree, but many Peronists are Catholic conservatives: 2.",
+        "KE": "Ataturk's regime gave women the vote and seats in parliament (1934-35) as state policy: 1.",
+        "CT": "Rushdoony and Calvin's Geneva hold male headship in church, family and civil rule: -3."
+      }
+    },
+    "gender.3": {
+      "0": "ONC NAC GC GAU EB ST MA TR JU HO GU ACK CAE MR AUC COA NLS TP NA UJ NOA SU PC RC TE CO SMCD NC PG SC HS DE DEG CH PER AP SL PR NDL LI CF RE SR GS US BK ME NS DIR DS IS RS TI LS GOC CN CIN EN LN IR PN LZ REZ JA NR NP WC THW",
+      "1": "DC CR RET GM ES MDS LT ETS ELP PSD FA BL SN GAN DI ML EU LU CC",
+      "2": "SF NM CST",
+      "3": "RF",
+      "-1": "LIF CA BC ARC AMC TH NE PA LC BIC PE SUL STC BA HES IF NAZ NATC JM NAS EM OR COL MC EC LE TW PM MO XC AM EA CM LEG KE AD CLR SDD JR HF PP TAR COR CI RT NEOR EUR CT BN HI RZ",
+      "-2": "AC AS MU GA POC ID IM UT CL NEO AL KS LF MI GE LL PAL TRA PIP",
+      "-3": "IA OB ANC VEF WA IB CRA",
+      "split": "SF LIF CR ELP CST SMCD GM",
+      "why": "Divides the Nordic-model camp (radical and socialist feminists, Catholic social teaching) that treats the seller as victim and punishes only the buyer, from libertarians and liberals who favour decriminalising both sides and from Islamist and traditional-moral camps that punish both; liberal feminists are split from the radical wing.",
+      "notes": {
+        "RF": "Dworkin and MacKinnon treat prostitution as sexual exploitation of women and call for penalising buyers and pimps, not the prostituted: 3.",
+        "NM": "Sweden's 1999 Sex Purchase Act (Sexkopslagen) criminalised buying, not selling, and became the 'Nordic model': 2.",
+        "CST": "Pope Francis has called buying sex 'a criminal act' and backs penalising clients while protecting victims: 2.",
+        "LIF": "Mainstream liberal feminism (Amnesty, many feminists) favours decriminalising sex work as a matter of autonomy, though the camp is divided: -1.",
+        "UT": "Bentham and Mill-style harm reasoning finds no ground to punish consensual exchange: -2.",
+        "OB": "Rand's rights-based view treats voluntary sex-for-money as a protected trade between consenting adults: -3.",
+        "KS": "The Arthashastra regulates and taxes state-supervised courtesans (ganika) under an official superintendent: -2.",
+        "VEF": "Iran's penal code punishes both parties under zina and related offences: -3."
+      }
+    },
+    "religion.law.1": {
+      "0": "GAU CH PER AP HI JM COL CN EN IR PN REZ WC PP TAR",
+      "1": "GA CA NA SU MR AUC COA SUL POC PG HS HES MC TW KS IF NAZ DE DEG NEO OR GE GS US AD SDD HF NEOR LC NE EB CM",
+      "2": "AC AS MU NLS TP UJ BA CAE PC RC TE SC ME NS DIR DS IS GM ELP CL NDL LI AL RE LF MI ANC LL EA LN LZ SN CLR JA NR THW MDS LE",
+      "3": "IA DC NOA KE ML ST MA TR JU EU LU CC HO GU ACK UT LIF SF RF ES EM SL PR CF SR OB RS TI LS GOC NM PSD FA TRA CRA PIP CIN JR",
+      "-1": "GAN PE CO SMCD BC ONC AMC GC BIC TH NAS LT ETS PAL ID IM AM LEG EC XC PM BL NP EUR",
+      "-2": "STC CST DI NC ARC PA NAC CR RET BK MO BN RT",
+      "-3": "NATC VEF CT WA IB RZ COR CI",
+      "split": "CA GAN LT ETS CM ID IM HI PER CH",
+      "why": "Splits secular, materialist and rights-based camps that want law justified without scripture from confessional camps (theocrats, integralists, Calvinists, Catholic corporatists, Christian right) for whom revealed law is a source of legitimacy; moderate conservatives and Muslim democrats sit mildly against.",
+      "notes": {
+        "KE": "Kemalist laiklik replaced sharia and the caliphate with secular codes (Swiss civil code 1926) and removed Islam as state religion in 1928: 3.",
+        "SR": "Combes's 1905 separation law and Radical laicite insist the Republic recognise no religion in public law: 3.",
+        "VEF": "Khomeini's Islamic Republic makes sharia the standard for all legislation (Article 4 of the 1979 constitution): -3.",
+        "CI": "Pius IX's Syllabus of Errors condemns the separation of law from Church teaching; Vermeule seeks a common-good law informed by Catholic authority: -3.",
+        "NC": "Kuyper held that civil authority is accountable to God's ordinances in Scripture (sphere sovereignty, Lectures on Calvinism): -2.",
+        "CA": "Tolstoy and Day take the Sermon on the Mount as binding conduct but reject coercive state law altogether, so they stand unusually between the camps: 1.",
+        "BK": "Ashoka's Rock Edicts and Buddhist kingship ground royal law in the dhamma: -2.",
+        "LE": "Han Fei and Shang Yang rest law on the ruler's penal standards, not on classics or ritual texts: 2.",
+        "RZ": "Rabbi Kook's school holds Torah law as the ideal basis of the Jewish state: -3."
+      }
+    },
+    "religion.law.5": {
+      "0": "MC GA CA ID BN CO CST BC GC RET EC TW PM BK JM NAS GAN LZ CN IR PN PAL NEOR BL LEG IF",
+      "1": "NA SMCD PG ONC CR PA NAC XC ME DE DEG PER AP COL AM IA AC AS MU CRA WC PP TAR LT ETS AD CT IM",
+      "2": "NOA UJ BA TP PC RC POC TE SC HS HES MR AUC COA SUL PE ACK AMC TH NE LC MDS GS US CL LF MI NEO GE LL NDL LI OR AL RE NS DIR DS IS MO CM EA LN SN CLR SDD JR NR HF GM ES EM CH ELP EB TI LS GOC PSD THW FA NM TRA PIP NP",
+      "3": "HI KE CIN ML ST MA TR JU EU LU CC HO GU DC CAE BIC LE JA SR SL PR CF LIF SF RF RS UT NLS OB GAU",
+      "-1": "DI NC ARC KS EN REZ RT EUR SU",
+      "-2": "STC ANC NATC COR CI VEF WA IB",
+      "-3": "RZ NAZ",
+      "split": "ID LZ NOA GAN IM CT NA ETS",
+      "why": "Divides uniform-civil-code camps (Hindutva's Uniform Civil Code, Kemalism, French Republicanism, Marxism, feminism) from confessional-law camps (Islamist and sharia systems, Orthodox Jewish religious Zionism, integralists, estate-based traditionalism) that keep marriage under each community's own religious authority.",
+      "notes": {
+        "HI": "Savarkar-line Hindutva and the BJP demand a Uniform Civil Code replacing Muslim, Hindu and Christian personal laws: 3.",
+        "KE": "Ataturk's 1926 Civil Code ended religious marriage and polygamy for all Turkish citizens and made civil marriage compulsory: 3.",
+        "BIC": "Bismarck's 1875 Civil Marriage Act made civil registration compulsory for all Germans during the Kulturkampf: 3.",
+        "RZ": "Israel's rabbinate controls Jewish marriage and Religious Zionism defends that monopoly, so no uniform civil marriage: -3.",
+        "VEF": "In the Islamic Republic, family law follows sharia with recognised-minority exceptions, so religion determines the marriage law: -2.",
+        "KS": "The Arthashastra applies dharma and custom by varna and community in family matters rather than one code: -1.",
+        "NAZ": "The Nuremberg Laws (1935) made marriage law depend on descent, forbidding Jew-German marriages: -3.",
+        "NOA": "Nehru pushed the Hindu Code Bill but left Muslim personal law untouched, so adherents are divided: 2.",
+        "EB": "Ambedkar's drafting of the Hindu Code Bill aimed at one marriage law regardless of caste and creed: 2."
+      }
+    },
+    "religion.law.6": {
+      "0": "GA CA NA SU CAE SMCD BC ONC TH NE GC GAU ETS EC TW PM BK XC ME NS DIR DS IS RF DE CH PER AP AL PAL GOC CM CN IR PN REZ AD JA TAR CRA LU CC",
+      "1": "AC AS MU GAN UJ TP NLS BA PC RC HS HES UT SC CST AMC LC MDS GS US MO EA MC EU ES DEG NEO NDL LI OR COL LF MI ANC GE LL RS TI LS LZ SN ID IM EB CLR SDD JR HF NM PSD THW FA TRA PIP SF ELP",
+      "2": "SL LIF GM EM CL PR CF RE SR NR CIN LN KE OB TE IA DC NOA POC",
+      "-1": "MR AUC PE COA SUL STC DI NC ML ST MA TR JU HO GU ACK ARC PA NAC BIC LT LE KS NEOR HI EN NP WC PP BL CO LEG",
+      "-2": "PG IF NAZ NATC JM NAS AM CR RET BN RZ RT EUR",
+      "-3": "VEF CT WA IB COR CI",
+      "split": "CO CST CR LE JA SMCD GAN",
+      "why": "Rawlsian public-reason liberals and republicans accept that coercive law needs justification non-believers can share; theocratic, integralist and counter-revolutionary camps hold that revealed or sovereign authority legitimates law whether or not outsiders agree, and authoritarians and Marxists ground legitimacy in power or class instead.",
+      "notes": {
+        "SL": "Rawls's liberal principle of legitimacy (Political Liberalism, 1993) demands that coercive law be justifiable to all reasonable citizens: 2.",
+        "CL": "Locke's Letter Concerning Toleration limits civil law to civil interests and bars imposing salvation through law: 2.",
+        "CST": "Aquinas-Maritain natural law claims moral law is accessible to reason without faith, giving a mild lean toward shared justification: 1.",
+        "CO": "Sandel's critique (Liberalism and the Limits of Justice, Democracy's Discontent) rejects bracketing religious convictions from public argument: -1.",
+        "VEF": "Velayat-e faqih makes the jurist's reading of divine law the criterion of legitimacy, not the assent of non-Muslims: -3.",
+        "CI": "Vermeule's Common Good Constitutionalism holds that law must be ordered to the common good as the Church understands it, whether or not unbelievers agree: -3.",
+        "RET": "Milbank's Radical Orthodoxy denies that secular reason is neutral ground for public justification: -2.",
+        "LE": "Shang Yang and Han Fei ground law in the sovereign's command backed by reward and punishment, not subjects' reasons: -1.",
+        "IA": "Individualist anarchism treats consent of each person as the only source of binding obligation: 2."
+      }
+    },
+    "religion.public.6": {
+      "0": "TW GA NA CAE NDL LI OR AL COL DE NS ME DIR DS IS CN IR PN US CH COA",
+      "1": "PC POC UJ DEG MDS GS NEO LF ANC LN LZ SN EB NR PSD THW EA",
+      "2": "AC AS MU CA TP BA RC TE LE LIF GM ELP CL PR CF RE MI GE LL RS FA CRA PIP NOA UT",
+      "3": "ML ST MA TR JU EU LU CC HO GU ACK SF RF ES EM SL OB TI LS GOC CIN KE SR JR TRA IA DC NLS",
+      "-1": "SU MR SUL SC HS HES TH NE GC LC GAU ETS CO SMCD NM AP WC PP TAR NEOR HF IF NAZ CM EN REZ ID IM PM MO",
+      "-2": "GAN AUC PE STC PG CST DI NC BC ONC AMC PA NAC BIC LT MC KS NAS PER NP HI IB BL SDD JA CLR PAL BK",
+      "-3": "ARC CR RET EC XC NATC JM AM LEG VEF CT BN WA RZ AD COR CI RT EUR",
+      "split": "GAN GAU PER CAE LZ SDD JA SU",
+      "why": "Divides secular camps (Marxists, Kemalists, laicist republicans, feminists, Jeffersonians) that want ceremonies stripped of ritual from camps for which public rites are part of legitimate rule (throne-and-altar, Confucian ritual state, Shinto, theocracies, Orthodox Judaism, ancient republics).",
+      "notes": {
+        "JR": "Jefferson refused to proclaim national days of prayer and wrote the 'wall of separation' letter to the Danbury Baptists (1802): 3.",
+        "KE": "Kemalist laiklik ended state-sponsored religious ceremony and the caliphate's rites: 3.",
+        "XC": "Xunzi's whole order rests on ritual (li) performed by the state, including sacrifices to Heaven and ancestors: -3.",
+        "EC": "The Nam Giao sacrifice to Heaven performed by the Nguyen emperor and state rites in the Hong Duc order are core ceremonial functions: -3.",
+        "AD": "Athenian Assembly sessions opened with a purification sacrifice and prayers, and festivals were state cult: -3.",
+        "JM": "State Shinto made the emperor's rites and Yasukuni offerings official state ceremony: -3.",
+        "SDD": "The Landsgemeinde opens with a prayer and oath, a living tradition of Swiss direct democracy: -2.",
+        "GAN": "Gandhi's interfaith prayer meetings made inclusive public prayer a political practice: -2.",
+        "JA": "Robespierre's Festival of the Supreme Being (1794) made a civic cult official state ceremony: -2."
+      }
+    },
+    "religion.state.3": {
+      "0": "COA SUL PG EC PM MO XC KS ME NS DIR DS IS NAS WA HI BN AM EN IR AD WC PP NEOR RS ML",
+      "1": "GA CC GU NA BA SU CAE MR AUC STC TE SC HS HES UT ARC GAU GS US MC TW SF RF ES DE DEG CH PER ELP AP NEO PR OR CF AL RE GE LL TI LS GOC LEG CN CIN PN LZ REZ SN CLR SDD HF NP TAR FA TRA CRA PIP COR CI RT EUR IF NATC CT IB RZ VEF",
+      "2": "AC AS MU IA TR EU LU NLS TP UJ NOA PE PC RC POC CO SMCD DI NC BC ONC AMC TH NE PA NAC GC LC RET CR MDS LT ETS BK EA CM LIF GM EM NDL LI SL COL LF MI OB ANC PAL NM PSD THW BL NR IM EB LN",
+      "3": "CL CST GAN CA DC JR ID",
+      "-1": "LE BIC NAZ JM KE SR JA JU ST MA",
+      "-2": "ACK",
+      "-3": "HO",
+      "split": "ML VEF WA HI BIC KE SR JA CT",
+      "why": "Separates camps whose principle is freedom of conscience (liberals, Christian democrats, Gandhians, Jeffersonians, Islamic democrats) from regimes that treated militant secularisation or religious suppression as state work (Hoxha's Albania, Khmer Rouge, Stalinist and Maoist practice, Kulturkampf, Kemalist and Radical anticlericalism); confessional states mostly agree only for their own faith.",
+      "notes": {
+        "HO": "Albania under Hoxha declared itself the world's first atheist state in 1967, closing about 2,000 places of worship: -3.",
+        "ACK": "Democratic Kampuchea abolished religion, defrocked monks and closed pagodas as policy: -2.",
+        "CST": "Dignitatis Humanae (Vatican II, 1965) declares that no one may be forced to act against conscience in religious matters: 3.",
+        "JR": "Jefferson's Virginia Statute for Religious Freedom (1786): 'no man shall be compelled to ... support any religious worship': 3.",
+        "ML": "Lenin held religion a private matter vis-a-vis the state yet Soviet practice (League of the Militant Godless) coerced believers, so adherents are divided: 0.",
+        "SR": "Combes's 1901-04 laws dissolved teaching congregations and expelled religious orders, using state power against clerical influence: -1.",
+        "KE": "Ataturk's regime closed Sufi lodges (1925) and banned religious dress to reshape belief and practice: -1.",
+        "BK": "Ashoka's Rock Edict XII urges respect for all sects and bars denigrating others' faiths: 2.",
+        "BIC": "Bismarck's Kulturkampf (1871-78) expelled Jesuits and jailed bishops, using state power against Catholic institutions: -1."
+      }
+    },
+    "environment.growth.6": {
+      "0": "LI IR BN WC IA UJ PC POC CO SMCD PG SC HS HES UT TR LU CC GU ARC ONC CR NAC LC GAU EC PM MO KS IF NAZ NATC NAS LIF RF EM CH PER AP SL NDL OR COL SR MI ANC TI AM CM LEG CN CIN EN LN PN LZ REZ VEF CT IB IM RZ AD CLR JA NR PSD FA BL TRA CRA EUR COR JR",
+      "1": "NLS TP NA BA SU CAE MR PE COA SUL STC ML JU HO ACK AMC TH NE PA BIC LE ME NS DIR IS JM KE HI WA PP TAR NP HF PAL LF OB RE CL GOC EA NEOR",
+      "2": "DS AUC NEO NOA ST MA RS AL",
+      "-1": "AC AS MU CA RC TE DI NC BC EU RET LT GS US ETS MC BK XC SF CF GE LL LS SN ID SDD ELP THW CI RT PIP",
+      "-2": "DC GAN CST GC MDS TW EB PR GM ES NM",
+      "-3": "GA DE DEG",
+      "split": "EM CH NOA OR SMCD",
+      "why": "Divides growth-first camps (developmental states, Deng-style reformers, Pinochet-era market liberals, Nehru-Indira non-alignment) from ecology-first camps (deep ecology, degrowth, Green and eco-socialist, Gandhian, Laudato Si' Catholics, Nordic welfare states) that hold protection should not wait; most traditions with no ecological doctrine sit at 0.",
+      "notes": {
+        "DS": "Park Chung-hee's Korea and MITI-era Japan prioritised export industrialisation and treated pollution as a later cost: 2.",
+        "RS": "Deng's 'let some get rich first' and Doi Moi growth priority put development ahead of environmental spending: 2.",
+        "NOA": "Indira Gandhi at Stockholm 1972: 'Are not poverty and need the greatest polluters?', the Global South line within non-alignment: 2.",
+        "DEG": "Degrowth (Latouche, Hickel) holds that wealth growth itself drives ecological breakdown, so waiting is incoherent: -3.",
+        "DE": "Naess's eight-point platform gives nature intrinsic value that cannot be deferred until prosperity: -3.",
+        "CST": "Laudato Si' (2015) rejects the idea that growth will fix ecology and calls for integral ecology now: -2.",
+        "TW": "Laozi and Zhuangzi counsel harmony with nature rather than conquest for wealth: -2.",
+        "NM": "Sweden, Norway and Denmark built environmental agencies and carbon taxes while still poorer, treating protection as part of the model: -2.",
+        "MC": "Mencius (1A:3) advises that nets not enter the deep ponds and axes enter the hills only in season, so forests and fish are never exhausted: -1."
+      }
+    },
+    "identity.culture.5": {
+      "0": "CT AC AS MU CA NOA CAE MR AUC COA SUL PC POC SMCD PG HS UT ML ST MA EU GU HO ACK ARC AMC CR TH LC BIC MDS GS US ETS LE TW MO KS ME DIR DS IS NAZ LIF SF RF GM ES CH ELP AP CL SL PR NDL OR AL COL SR MI ANC GE LL RS TI LS GOC AM EA VEF ID WA IB IM AD CLR JA SDD JR NR HF PP TAR NM PSD FA CI NEOR",
+      "1": "GA DC TP NA GAN UJ BA SU PE STC CO CST DI NC HES JU BC ONC GC GAU LT MC EC PM BK NS IF JM NAS DE DEG PER CM LEG EN LN IR PN KE LZ REZ RZ EB WC BL COR PAL",
+      "2": "PA NAC RET NATC SN BN HI RT EUR NP XC",
+      "3": "CN",
+      "-1": "IA RC TE SC TR LU CC NE EM NEO LI CF RE LF OB THW TRA CRA PIP CIN NLS",
+      "split": "NLS CIN KE HES RE CL",
+      "why": "Phạm Quỳnh's formula that a people lives while its language and culture live divides cultural nationalists, traditionalists and stateless-nation movements (who agree) from civic, cosmopolitan, individualist and Marxist-liberationist camps who locate a people's survival in political sovereignty, citizenship or universal reason; many ideologies have no stake.",
+      "notes": {
+        "CN": "Herder's Volksgeist and Phạm Quỳnh's 'Truyện Kiều còn, tiếng ta còn, nước ta còn' state exactly this thesis: 3.",
+        "SN": "Quebec's Levesque and Scottish nationalists defend a nation's survival by its language and culture without sovereign statehood in the first instance: 2.",
+        "NLS": "Ho Chi Minh and Cabral held that culture is a weapon of national liberation but that without independence the people is still a colonial subject: -1.",
+        "CIN": "Renan's 'What is a Nation?' defines the nation as a daily plebiscite of will, not shared culture: -1.",
+        "SC": "Zeno, Seneca and Marcus Aurelius make citizenship of the cosmos, not any one people's culture, the primary identity: -1.",
+        "EUR": "Trubetskoy and Savitsky's Eurasianism sees each civilization surviving through its own cultural-geographic type: 2.",
+        "RE": "Phan Châu Trinh urged Vietnam to shed backward customs and learn Western civil rights, doubting that preserving old culture alone saves a people: -1."
+      }
+    },
+    "trade.selfreliance.2": {
+      "0": "ETS AS IA CA SUL POC NC SC TR EU LU CC BC ONC AMC CR NE LT MC PM BK XC LIF SF RF SL PR NDL LI RE COL LL TI LS GOC CM LEG CN CIN LN SN ID IM CT AD SDD NR TAR NM FA TRA CRA PIP CI NEOR",
+      "1": "AC MU DC TP NOA CAE MR AUC PE COA PC RC TE CO SMCD CST HS HES TW MO KS EC GU ARC RET GS US MDS DS ES GM DE CH ELP AP SR RS AM EA EN IR PN LZ REZ BN WA IB RZ EB CLR JA JR WC PP PSD BL COR RT",
+      "2": "KE GA GAN NLS NA BA SU STC DI PG ML ST MA ACK PA NAC GC GAU BIC LE ME NS DIR NATC JM NAS DEG PER HI VEF HF NP EUR",
+      "3": "UJ JU HO IS IF NAZ",
+      "-1": "UT TH LC OR CF AL MI EM THW GE PAL",
+      "-2": "CL NEO LF OB ANC",
+      "split": "AMC PSD NM MDS DS TH",
+      "why": "Economic nationalists, autarkic communists, fascists and self-reliance socialists back domestic production of vital goods whatever the cost; free-trade liberals and libertarians hold that comparative advantage and open markets are the better security; most traditions with no trade doctrine sit near zero.",
+      "notes": {
+        "UJ": "Nyerere's Arusha Declaration (1967) made self-reliance (kujitegemea) the national principle: 3.",
+        "JU": "Juche's chaju (independence) and jarip (self-sustenance) demand an economy that feeds and arms itself without foreign dependence: 3.",
+        "HO": "Hoxha's Albania forbade foreign credit and pursued full autarky after breaking with USSR and China: 3.",
+        "NAZ": "The 1936 Four Year Plan under Goering aimed at autarky in food, fuel and materials regardless of cost: 3.",
+        "IS": "Prebisch and CEPAL's import-substitution policy sought domestic production of manufactured and strategic goods behind tariffs: 3.",
+        "HF": "Hamilton's Report on Manufactures (1791) argued the US must produce arms, food and clothing at home for security even at a premium: 2.",
+        "CL": "Smith's Wealth of Nations (IV.ii) allows defence exceptions but otherwise argues against buying dearer at home what can be bought cheaper abroad: -2.",
+        "LF": "Cobden and Bastiat campaigned against the Corn Laws precisely over food protection: -2.",
+        "NM": "Small open Nordic economies depend on trade and rely on stockpiles and EU markets rather than costly autarky: 0."
+      }
+    }
+  }
+}

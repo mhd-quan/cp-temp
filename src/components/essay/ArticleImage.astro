@@ -1,0 +1,26 @@
+---
+import type { HTMLAttributes } from 'astro/types';
+import { responsiveImage, responsiveSource } from '~/lib/responsiveImage';
+import descriptions from '../../../editorial/image-descriptions.json';
+
+interface Props extends HTMLAttributes<'img'> {
+  src: string;
+}
+
+const { src, alt, ...attributes } = Astro.props;
+const imageDescriptions: Record<string, string> = descriptions;
+const description = alt || imageDescriptions[src];
+if (description === undefined) throw new Error(`Review image alt text: ${src}`);
+const sizes = '(min-width: 900px) 820px, calc(100vw - 2.5rem)';
+---
+
+<picture>
+  <source {...responsiveSource(src, sizes)} />
+  <img
+    {...attributes}
+    {...responsiveImage(src, sizes)}
+    alt={description}
+    loading="lazy"
+    decoding="async"
+  />
+</picture>

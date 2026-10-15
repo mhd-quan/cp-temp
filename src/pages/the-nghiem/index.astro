@@ -1,0 +1,27 @@
+---
+// Thể nghiệm: what the site makes to be done, not only read. One door for each piece,
+// the newest first; La bàn Tư tưởng is the first.
+import CompassDoor from '~/components/edition/CompassDoor.astro';
+import PageHead from '~/components/edition/PageHead.astro';
+import axes from '~/data/quiz/axes.json';
+import glyphs from '~/data/quiz/glyphs.json';
+import EditionLayout from '~/layouts/EditionLayout.astro';
+import { FIRST } from '~/lib/editionStyles';
+import { model } from '~/lib/quiz/load.ts';
+
+const families = Object.keys(glyphs.families).length;
+---
+<EditionLayout
+  first={FIRST.experiments}
+  title="Thể nghiệm"
+  description="Thể nghiệm của The Cochinchine Pensées: những hình thức ngoài bài viết, để người đọc tự làm và tự dò, bắt đầu với La bàn Tư tưởng."
+>
+  <PageHead title="Thể nghiệm" dek="Những thứ để làm, không chỉ để đọc." />
+  <div class="page-body wrap">
+    <section class="experiments" aria-labelledby="compass-title" data-door-region>
+      <CompassDoor id="compass-title" level={2}>
+        <p class="door__meta caps">{axes.length} trục · {model.variants.length} hướng trong {families} họ · từ hai mươi phút</p>
+      </CompassDoor>
+    </section>
+  </div>
+</EditionLayout>

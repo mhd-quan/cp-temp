@@ -1,0 +1,12 @@
+---
+// Tìm kiếm without JavaScript's sheet: the same results, on their own page.
+import PageHead from '~/components/edition/PageHead.astro';
+import SearchResults from '~/components/search/SearchResults.astro';
+import EditionLayout from '~/layouts/EditionLayout.astro';
+---
+<EditionLayout title="Tìm kiếm" description="Tìm bài viết trên The Cochinchine Pensées." noindex>
+  <PageHead title="Tìm kiếm" />
+  <div class="page-body wrap search-page" lang="vi">
+    <SearchResults id="page-search" />
+  </div>
+</EditionLayout>

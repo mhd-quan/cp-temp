@@ -1,0 +1,7 @@
+# The masthead page was withdrawn in v1.2.0; its readers land on the page
+# about the site.
+/masthead /about 301
+# La bàn Tư tưởng was La bàn Chính trị, under Mở rộng, until Thể nghiệm opened. A link
+# shared then carries its result in the hash, which the browser keeps across the redirect.
+/mo-rong/la-ban-chinh-tri /the-nghiem/la-ban-tu-tuong 301
+/mo-rong /the-nghiem 301

@@ -1,0 +1,228 @@
+{
+  "parties": [
+    {
+      "id": "psuv",
+      "name": "Đảng Xã hội chủ nghĩa Thống nhất Venezuela",
+      "abbr": "PSUV",
+      "country": "Venezuela",
+      "period": "2007–nay",
+      "variants": [
+        "chavismo"
+      ],
+      "emblem": {
+        "shape": "disc",
+        "field": "#e30613",
+        "ink": "#ffffff",
+        "motif": "star"
+      }
+    },
+    {
+      "id": "pj-argentina",
+      "name": "Đảng Công lý",
+      "abbr": "PJ",
+      "country": "Argentina",
+      "period": "1946–nay",
+      "variants": [
+        "peronism"
+      ],
+      "emblem": {
+        "shape": "shield",
+        "field": "#75aadb",
+        "ink": "#ffffff",
+        "motif": "handshake"
+      }
+    },
+    {
+      "id": "podemos",
+      "name": "Podemos",
+      "country": "Tây Ban Nha",
+      "period": "2014–nay",
+      "variants": [
+        "european-left-populism"
+      ],
+      "emblem": {
+        "shape": "disc",
+        "field": "#6a2e68",
+        "ink": "#ffffff",
+        "motif": "users-three"
+      }
+    },
+    {
+      "id": "lfi",
+      "name": "Nước Pháp Bất khuất",
+      "abbr": "LFI",
+      "country": "Pháp",
+      "period": "2016–nay",
+      "variants": [
+        "european-left-populism"
+      ],
+      "emblem": {
+        "shape": "disc",
+        "field": "#cc2443",
+        "ink": "#ffffff",
+        "motif": "phi"
+      }
+    },
+    {
+      "id": "peoples-party-us",
+      "name": "Đảng Nhân dân (Hoa Kỳ)",
+      "country": "Hoa Kỳ",
+      "period": "1892–1908",
+      "variants": [
+        "agrarian-populism"
+      ],
+      "emblem": {
+        "shape": "shield",
+        "field": "#4f7a28",
+        "ink": "#ffffff",
+        "motif": "grains"
+      }
+    },
+    {
+      "id": "bzns",
+      "name": "Liên minh Nông dân Bulgaria",
+      "abbr": "БЗНС",
+      "country": "Bulgaria",
+      "period": "1899–nay",
+      "variants": [
+        "agrarian-populism"
+      ],
+      "emblem": {
+        "shape": "disc",
+        "field": "#f39200",
+        "ink": "#ffffff",
+        "motif": "grains"
+      }
+    }
+  ],
+  "states": [
+    {
+      "id": "venezuela-1999-2013",
+      "name": "Venezuela",
+      "period": "1999–2013",
+      "note": "Thời Hugo Chávez",
+      "variants": [
+        "chavismo"
+      ],
+      "flag": "venezuela"
+    },
+    {
+      "id": "bolivia-2006-2019",
+      "name": "Bolivia",
+      "period": "2006–2019",
+      "note": "Thời Evo Morales",
+      "variants": [
+        "chavismo"
+      ],
+      "flag": "bolivia"
+    },
+    {
+      "id": "argentina-1946-1955",
+      "name": "Argentina",
+      "period": "1946–1955",
+      "note": "Hai nhiệm kỳ đầu của Juan Perón",
+      "variants": [
+        "peronism"
+      ],
+      "flag": "argentina"
+    },
+    {
+      "id": "greece-2015-2019",
+      "name": "Hy Lạp",
+      "period": "2015–2019",
+      "note": "Chính phủ SYRIZA của Alexis Tsipras",
+      "variants": [
+        "european-left-populism"
+      ],
+      "flag": "greece"
+    },
+    {
+      "id": "bulgaria-1919-1923",
+      "name": "Bulgaria",
+      "period": "1919–1923",
+      "note": "Chính phủ Liên minh Nông dân của Stamboliyski",
+      "variants": [
+        "agrarian-populism"
+      ],
+      "flag": "bulgaria"
+    }
+  ],
+  "figures": [
+    {
+      "id": "hugo-chavez",
+      "name": "Hugo Chávez",
+      "life": "1954–2013",
+      "role": "Tổng thống Venezuela 1999–2013",
+      "variant": "chavismo",
+      "wiki": "Hugo Chávez"
+    },
+    {
+      "id": "evo-morales",
+      "name": "Evo Morales",
+      "life": "s. 1959",
+      "role": "Tổng thống Bolivia 2006–2019",
+      "variant": "chavismo",
+      "wiki": "Evo Morales"
+    },
+    {
+      "id": "juan-peron",
+      "name": "Juan Perón",
+      "life": "1895–1974",
+      "role": "Tổng thống Argentina",
+      "variant": "peronism",
+      "wiki": "Juan Perón"
+    },
+    {
+      "id": "eva-peron",
+      "name": "Eva Perón",
+      "life": "1919–1952",
+      "role": "Đệ nhất phu nhân Argentina",
+      "variant": "peronism",
+      "wiki": "Eva Perón"
+    },
+    {
+      "id": "nestor-kirchner",
+      "name": "Néstor Kirchner",
+      "life": "1950–2010",
+      "role": "Tổng thống Argentina 2003–2007",
+      "variant": "peronism",
+      "wiki": "Néstor Kirchner"
+    },
+    {
+      "id": "jean-luc-melenchon",
+      "name": "Jean-Luc Mélenchon",
+      "life": "s. 1951",
+      "role": "Lãnh đạo phong trào Nước Pháp Bất khuất",
+      "variant": "european-left-populism",
+      "wiki": "Jean-Luc Mélenchon"
+    },
+    {
+      "id": "pablo-iglesias-turrion",
+      "name": "Pablo Iglesias",
+      "life": "s. 1978",
+      "role": "Đồng sáng lập Podemos (Tây Ban Nha)",
+      "variant": "european-left-populism",
+      "wiki": "Pablo Iglesias Turrión"
+    },
+    {
+      "id": "aleksandar-stamboliyski",
+      "name": "Aleksandar Stamboliyski",
+      "life": "1879–1923",
+      "role": "Thủ tướng Bulgaria 1919–1923",
+      "variant": "agrarian-populism",
+      "wiki": "Aleksandar Stamboliyski"
+    },
+    {
+      "id": "william-jennings-bryan",
+      "name": "William Jennings Bryan",
+      "life": "1860–1925",
+      "role": "Ứng viên tổng thống Hoa Kỳ 1896, 1900, 1908",
+      "variant": "agrarian-populism",
+      "axes": {
+        "religion": 80,
+        "foreign": 80
+      },
+      "wiki": "William Jennings Bryan"
+    }
+  ]
+}

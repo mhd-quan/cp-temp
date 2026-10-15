@@ -1,0 +1,43 @@
+---
+// Without a connection: what the service worker shows in place of a page it
+// cannot fetch and has not kept (lib/serviceWorker.js), with the pages this
+// device has kept, newest first, which open as they are. Its script is in
+// the page itself: the worker keeps the page, not the files it would fetch.
+import Glyph from '~/components/edition/Glyph.astro';
+import PageHead from '~/components/edition/PageHead.astro';
+import EditionLayout from '~/layouts/EditionLayout.astro';
+---
+<EditionLayout title="Ngoại tuyến" description="Trang này cần kết nối mạng; những bài đã đọc trên thiết bị này vẫn mở được." noindex>
+  <PageHead title="Ngoại tuyến" dek="Trang này cần kết nối mạng. Những bài đã đọc trên thiết bị này vẫn mở được." />
+  <div class="page-body wrap offline-page">
+    <ul class="feeds" role="list" data-kept hidden></ul>
+    <p class="ways">
+      <button class="caps-link" type="button" data-retry><span>Thử lại</span><Glyph name="forward" inline /></button>
+      <a class="caps-link" href="/"><span>Trang chủ</span><Glyph name="forward" inline /></a>
+    </p>
+  </div>
+  <template data-kept-row><li><a href=""><span></span><Glyph name="forward" size={20} /></a></li></template>
+  <script is:inline>
+    (async () => {
+      const list = document.querySelector('[data-kept]');
+      const row = document.querySelector('[data-kept-row]');
+      document.querySelector('[data-retry]')?.addEventListener('click', () => location.reload());
+      addEventListener('online', () => location.reload());
+      if (!list || !row || !('caches' in window)) return;
+      const cache = await caches.open('pensees-pages');
+      const keys = (await cache.keys()).reverse();
+      for (const request of keys) {
+        const url = new URL(request.url);
+        if (!/^\/essays\/[^/]+$/.test(url.pathname) || /^\/essays\/\d+$/.test(url.pathname)) continue;
+        const html = await (await cache.match(request))?.text();
+        const title = html?.match(/<title>([^<]*)<\/title>/)?.[1]?.replace(/ — The Cochinchine Pensées$/, '');
+        if (!title) continue;
+        const item = row.content.firstElementChild.cloneNode(true);
+        item.querySelector('a').href = url.pathname;
+        item.querySelector('span').innerHTML = title;
+        list.append(item);
+      }
+      list.hidden = !list.children.length;
+    })();
+  </script>
+</EditionLayout>

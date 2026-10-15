@@ -1,0 +1,278 @@
+{
+  "rater": "A",
+  "block": "A20",
+  "items": {
+    "change.pace.4": {
+      "0": "IA MR PE SUL TE DI SC HS CR NE NAC GS MO KS ME NS IS EM ELP AP PR LI CF OR GE PAL LL MI TI LS AM LEG EN LN PN REZ CT BN HI RZ AD HF WC TAR SN EUR RT CI NOA",
+      "1": "GA NA UJ SU CAE JU LU CC SF RF ES DE DEG DS NDL GAU PG UT EA JM LZ IR VEF NP PP TRA CRA COR NEOR LF OB ANC PER MDS LT",
+      "2": "AC AS ML ST MA TR HO GU LE IF NAZ NAS NEO TH AL KE BA JA CH NLS RC",
+      "3": "ACK",
+      "-1": "MU DC TP GAN AUC COA STC NATC CO CST NC AMC PA BIC RET US MC EC PM BK XC DIR LIF GM CL SL RE CN CIN ID WA IB IM EB CLR JR NR PIP PSD THW BL CA",
+      "-2": "PC POC SMCD HES ARC ONC GC LC ETS TW COL SR RS GOC CM SDD EU NM",
+      "-3": "BC FA",
+      "split": "AC AS GAN TP NEO TH UT PG TRA LU CC CH PER NA LIF NDL MU DI",
+      "why": "Whether a big reform should be done in one irreversible stroke or by gradual steps: revolutionaries, shock-therapists and regime-entrenchers say yes; Burkeans, Fabians, social democrats and Dengist reformers distrust the clean break.",
+      "notes": {
+        "ACK": "Year Zero 1975: cities emptied and money abolished overnight so nothing of the old order could return: 3.",
+        "FA": "Sidney Webb's 'inevitability of gradualness' is the Fabian motto, and the name recalls Fabius the delayer: -3.",
+        "BC": "Reflections on the Revolution in France: change must be slow, 'preserve and reform', never demolish and rebuild: -3.",
+        "RS": "Deng's 'crossing the river by feeling the stones' and Chen Yun's bird-in-cage favour step-by-step trial: -2.",
+        "NEO": "Sachs and Balcerowicz argued for shock therapy so reforms could not be reversed: 2 (split with the gradualists inside the IMF camp).",
+        "TH": "Keith Joseph and Thatcher wanted a 'irreversible shift' in the balance of power and wealth; 'there is no alternative': 2.",
+        "AL": "Pinochet's 1980 constitution and Chicago reforms were designed to be unreversible by later majorities: 2.",
+        "TW": "Laozi ch.60: ruling a large state is like cooking a small fish, too much poking spoils it: -2."
+      }
+    },
+    "class.1": {
+      "0": "TW SC MO KS ME IS LZ NOA JU GOC LS LL IA CRA SUL DEG AD NR LE US PR",
+      "1": "MU GS LT TI CH ELP AP ANC GE PSD CLR",
+      "2": "AC EU ES SF NLS MDS ACK",
+      "3": "ML ST MA TR HO GU LU CC AS",
+      "-1": "PC RS CL SL NDL LI CF AL RE COL LF MI PAL FA NM DI JA JR TAR PIP XC MC EC BK NS DIR VEF EB RF GM DE EM SU TE UT PG HES HS COA GA DC CA ONC ETS",
+      "-2": "POC RC THW SMCD NC CO NEO OR OB SR BC ARC AMC CR TH NE PA NAC GC LC GAU BIC RET COR CI RT NEOR EUR AM EA CM LEG CN CIN EN LN IR PN REZ SN ID CT BN HI WA IB IM RZ SDD HF NP WC PP TRA LIF PM DS PER BL JM CAE MR AUC PE TP NA GAN UJ BA",
+      "-3": "CST IF NAZ NATC NAS STC KE",
+      "split": "LF ANC GE CLR SU CH PSD LZ RF ONC TE",
+      "why": "Whether class conflict is the motor of history: Marxists and syndicalists say yes by doctrine, while Catholic social teaching, fascist and corporatist doctrines, Kemalism and nationalists of every kind reject it in favour of nation, faith or harmony.",
+      "notes": {
+        "CST": "Rerum Novarum (1891): 'the great mistake is to suppose that class is naturally hostile to class'; capital and labour need each other: -3.",
+        "IF": "Mussolini's Doctrine of Fascism rejects the 'class struggle as the pivot of history' in favour of the nation-state and corporatism: -3.",
+        "KE": "Kemalist 'populism' arrow holds that Turkish society is a classless, privilege-free whole: -3.",
+        "AS": "Rocker's syndicalism rests on the permanent class war of workers against capital and the state, culminating in the general strike: 3.",
+        "ANC": "Rothbard and Comte-Dunoyer: history is the struggle of productive people against a parasitic ruling class, a libertarian class theory: 1 (split).",
+        "CLR": "Machiavelli, Discourses I.4: the quarrel of nobles and people made Rome free; conflict as a creative force: 1 (split).",
+        "AP": "Populist producers-versus-parasites reading (Omaha Platform 1892: banks, railroads, monopolies against the toilers): 1.",
+        "TP": "Sun Yat-sen's Min Sheng lectures reject Marx's class struggle as a disease of society, not its motor: -2."
+      }
+    },
+    "class.2": {
+      "0": "MU IA CA DC NA NOA BA CAE MR AUC PE COA SUL STC PC RC POC TE CO SMCD CST DI NC PG SC HS HES UT JU BC ARC ONC AMC CR TH NE PA NAC GC LC GAU BIC RET US ETS MC EC LE TW PM BK MO XC KS ME NS DIR DS IS IF NAZ NATC JM NAS LIF RF GM DE DEG EM CH CL SL NEO PR NDL LI OR CF AL RE COL SR LF MI OB ANC GE PAL LL TI LS GOC AM EA CM LEG CN CIN EN LN IR PN KE LZ REZ SN VEF ID CT BN HI WA IB IM RZ EB AD CLR JA SDD JR NR HF NP WC PP TAR NM THW FA BL TRA CRA PIP COR CI RT NEOR EUR",
+      "1": "TP LT GA AC AP RS ES",
+      "2": "NLS GU UJ GAN SU",
+      "3": "MA ACK",
+      "-1": "ML ST HO PER ELP AS GS SF MDS PSD",
+      "-2": "LU CC EU",
+      "-3": "TR",
+      "split": "ML AC AS ES NA",
+      "why": "Whether the peasantry rather than the industrial working class is the revolutionary force in poor countries: Maoism and its Southeast Asian kin say yes by doctrine, Trotskyism and the council tradition say the proletariat must lead, and most non-revolutionary camps have no stake.",
+      "notes": {
+        "MA": "Mao, Report on the Hunan Peasant Movement (1927) and the whole people's-war strategy: peasants are the main force: 3.",
+        "TR": "Permanent revolution: in backward countries only the proletariat can lead, the peasantry has no independent political line: -3.",
+        "ACK": "Khmer Rouge made the 'base people' of the peasantry the vanguard and treated city workers and intellectuals as suspect: 3.",
+        "ML": "Lenin's 1920 Theses on the national and colonial question back peasant movements, but proletarian leadership stays orthodox: -1 (split).",
+        "GAN": "Gandhi: India lives in her seven hundred thousand villages; the kisan is the soul of the nation: 2.",
+        "SU": "Marhaenism is built on the poor smallholder Sukarno met in Bandung, not on the factory proletariat: 2.",
+        "PER": "Peronism's base was the urban descamisados and the CGT unions, not the countryside: -1."
+      }
+    },
+    "class.3": {
+      "0": "NA NOA MR AUC COA SUL PC RC SC JU GU CR NE LC GAU BIC LE TW PM BK XC KS ME DIR DS NAZ EM CH SL LI OR CF RE COL GE IM JR HF TAR PIP RT",
+      "1": "UT CA GAN HS AMC AL AM LEG LIF PP NEOR MC PAL NEO",
+      "2": "LF MI ANC LL CL CRA TRA TH EA CAE",
+      "3": "IA OB",
+      "-1": "MU GA TP SU PE TE SMCD DI PG ONC PA US EC MO IS NS RS LS GOC GM DE DEG PR NDL SR NP PER AP THW FA CLR NR VEF ID CT WA EB CM REZ CIN",
+      "-2": "AC AS DC NLS UJ BA STC POC CO CST NC BC ARC NAC GC RET MDS LT GS ETS IF NATC JM NAS SF RF ES ELP WC NM PSD BL COR CI EUR AD JA SDD LN IR PN CN EN BN HI IB RZ KE ST TR HO TI LZ SN EU LU CC ACK",
+      "-3": "HES ML MA",
+      "split": "NAZ GU JU CAE CA TH CLR MC NEOR AL LIF",
+      "why": "Great-man or individualist history against collective-subject history: libertarians and Objectivists put agency in individuals, while Marxists, Hegelians, nationalists, corporatists and religious communitarians name masses, peoples, classes or Spirit.",
+      "notes": {
+        "IA": "Stirner, The Ego and Its Own: only the unique one acts; classes, peoples and humanity are spooks: 3.",
+        "OB": "Rand: the mind is an attribute of the individual, there is no collective brain, and the 'prime movers' make history: 3.",
+        "MA": "Mao, On Coalition Government: 'the people, and the people alone, are the motive force in the making of world history': -3.",
+        "HES": "Hegel: world-historical individuals are only instruments of the Volksgeist and of Spirit's advance in freedom: -3.",
+        "CA": "Tolstoy, War and Peace epilogue: history is the sum of countless individual wills, not of kings or collectives: 1 (split).",
+        "TH": "'There is no such thing as society, there are individual men and women, and there are families' (1987): 2.",
+        "NAZ": "Hitler's Fuhrerprinzip makes the great man the engine of history, yet race and Volk are the true historical subject: 0 (split).",
+        "KE": "Ataturk's Nutuk credits the Turkish nation's will even while narrating his own deeds; the Six Arrows are collectivist: -2."
+      }
+    },
+    "class.4": {
+      "0": "GAN SUL PC RC POC TE CO DI PG ACK ARC AMC NE MC EC BK XC KS EM ELP NDL OR COL SR PAL AM EA ID IM CLR SDD JR PP TAR AD TW",
+      "1": "LEG LE PM RS CH DIR IS HS BC TH GC RET AP CM BL HF RE SU PN NOA UJ NLS EUR PE AUC COA",
+      "2": "CN LN CIN IR KE TP NA NAZ HES PA GAU ONC HI BIC JU ME NS DS CAE MR STC NATC JM LZ BN RZ JA NP WC PER",
+      "3": "EN IF NAS NAC BA REZ SN",
+      "-1": "ST HO SMCD CST NC CT VEF WA LC CR ETS LT PSD THW FA NR LIF CL SL NEO PR LI AL DE DEG GM MO GOC TI GE MI NM COR RT NEOR",
+      "-2": "MA GU EU MU GA DC MDS GS US UT LS CF RF ES LF ANC LL IB EB TRA CRA PIP CI",
+      "-3": "ML TR LU CC AC AS SF SC IA CA OB",
+      "split": "NLS NAZ ST JU ACK RS PN AP LZ HI",
+      "why": "Nation versus class as the subject of history: nationalists, fascists and Ba'athists answer nation by doctrine, while Marxists, anarchists, cosmopolitan Stoics and Objectivists reject it, and economic nationalists and one-nation Tories lean toward the nation.",
+      "notes": {
+        "ML": "Marx and Lenin: the proletariat of all lands is the historical subject; nations are a stage in capital's development: -3.",
+        "SC": "Zeno and Marcus Aurelius: all rational beings are citizens of one cosmopolis; the polis or nation is secondary: -3.",
+        "BA": "Aflaq: the Arab nation, 'an eternal mission', precedes and outranks class; socialism serves the nation: 3.",
+        "ONC": "Disraeli's Sybil: the two nations of rich and poor must be healed into one; the nation, not class, is the unit: 2.",
+        "KE": "Six Arrows: nationalism and populism mean a classless society whose unity is the nation: 2.",
+        "NLS": "Ho Chi Minh and Mao put national liberation first, yet in a communist party's class frame: 1 (split).",
+        "DC": "Ocalan and Bookchin reject the nation-state as a hierarchical form and prize democratic communes over nationhood: -2.",
+        "IB": "Qutb and Banna: the ummah of believers, not the territorial nation, is the true community: -2."
+      }
+    },
+    "class.5": {
+      "0": "GA GAN NOA MR COA SUL PC POC PG HS HES ONC TH NE LC GAU US MC EC TW PM XC KS ME NS DIR DS IS GM DE DEG EM CH PER AP CL SL NEO LI OR AL RE LF MI ANC GE LL LS GOC EA CM CN IR PN REZ AD CLR SDD JR HF NP PP TAR NEOR",
+      "1": "PE STC CO BC ARC AMC NAC GC COL PAL AM LEG BK EUR SMCD EB ETS DI RT BL",
+      "2": "ID HI IM COR CR CST CA LT NC PA RET",
+      "3": "VEF CT BN WA IB RZ CI NATC",
+      "-1": "MU DC TP NA SU CAE AUC RC UT BIC GS JM LIF CIN EN LN LZ SN WC NR ELP PR NDL CRA PIP RS TI IA THW",
+      "-2": "EU JU NLS RF ES MDS UJ BA SC TE KE LE IF NAS JA SR CF NM PSD FA TRA MO OB",
+      "-3": "ML ST MA TR HO LU CC ACK GU AC AS SF NAZ",
+      "split": "ID IM CST LT BK EB BL NC PA GAN NLS",
+      "why": "Whether shared faith binds more than shared class: confessional and theocratic camps say yes, while Marxists, syndicalists, secular republicans and Social Democrats hold that class position outweighs creed.",
+      "notes": {
+        "VEF": "Khomeini's ummah doctrine: believers are one body across class and frontier, and a fellow Muslim is closer than a fellow countryman: 3.",
+        "IB": "Hasan al-Banna: the bond of creed outranks bonds of land, blood and class; Qutb's 'Social Justice in Islam' rejects class war: 3.",
+        "ML": "Marx and Lenin: religion is the opium of the people and class interest decides alliances: -3.",
+        "NAZ": "Blood and race, not creed, define the Volk; the churches were to be subordinated: -3.",
+        "KE": "Laicism arrow plus populism: religion is a private matter, citizens are classless and bonded by the nation: -2.",
+        "SR": "Radical-Socialist laicite (1905 law separating church and state): civic republican bonds trump confessional ones: -2.",
+        "OB": "Rand: faith is irrationality, so shared faith is no basis for association: -2.",
+        "STC": "Dollfuss's Ständestaat and Salazar's Estado Novo drew on Catholic social doctrine to place faith above class conflict: 1."
+      }
+    },
+    "class.6": {
+      "0": "NOA COA SUL NC SC JU CR NE PA GC GS LIF DE DEG EM AP LI CF COL TI CN EN LN IR PN SN CT WA RZ AD PP TRA PIP RT NEOR LE",
+      "1": "NLS ARC OR BL TE PR RC LC RET BC ETS DI AUC HS UT RE LEG CIN LZ SDD NR HF VEF ID BN HI EB MO KS ME NS DS WC COR CI EUR GM CH US LS",
+      "2": "CST SMCD PE GAU NM PSD THW FA CO NDL SL PC NAC NAZ JM MR TP UJ BA SU PG RS GOC AM EA CM REZ IB IM JA MC EC PM BK XC DIR IS",
+      "3": "STC IF NATC NAS BIC HES ONC CAE KE PER SR CLR POC NA",
+      "-1": "MDS LT EU SF RF ELP GAN JR NP CL NEO AL GE",
+      "-2": "ST MA GU MU TW ES LL MI PAL TAR AMC TH",
+      "-3": "ML TR LU CC HO ACK AC AS IA GA CA DC LF OB ANC CRA",
+      "split": "GAN NEO AL LS MU RF ELP COL CR PA NOA MDS",
+      "why": "Whether the state should arbitrate between classes to keep society whole: corporatists, solidarists, Hegelians, Bonapartists and Peronists make it the state's very purpose, Marxists see the state as one class's instrument, and anarchists and libertarians reject the arbiter altogether.",
+      "notes": {
+        "STC": "Estado Novo and Ständestaat: state-chartered corporations replace class organisations, strikes are banned, class struggle is replaced by 'collaboration': 3.",
+        "HES": "Hegel, Philosophy of Right paras. 250-256 and 289: the corporation and the civil service reconcile the poverty and wealth of civil society inside the state: 3.",
+        "PER": "Peron's 'Third Position': the state harmonises capital and labour, with the CGT as an organ of the state: 3.",
+        "SR": "Leon Bourgeois' solidarisme: the republic mediates between the classes through social insurance and income tax so no class war arises: 3.",
+        "CLR": "Polybius and Machiavelli: the mixed constitution exists to balance the few and the many; Polybius VI: 3.",
+        "ML": "Lenin, State and Revolution: the state is the organ of class domination, to be seized, not to arbitrate: -3.",
+        "AMC": "Fusionist ideal of limited federal government avoids brokering group interests; Goldwater and Reagan scorned the 'broker state': -2.",
+        "TH": "Thatcher broke the tripartite corporatism of the 1970s (Social Contract, NEDC) and refused to broker between unions and employers: -2."
+      }
+    },
+    "knowledge.1": {
+      "0": "TR LU CC GOC TI KS BK SC HS BC PA NAC GC RET CR COA STC PE CO CST DI NC UJ NOA BA SU NDL LI CF LF MI OB GE PAL LL CN EN IR PN LZ REZ SN LN ID BN HI RZ EB CLR SDD JR NR NP WC PP TAR BL CRA PIP ES DE DEG GM PER ELP AP MDS GS ETS US IF NAS AM CM LEG NEOR EUR ME IS",
+      "1": "ML ST NLS EU LS PG LE ONC AMC TH NE LC BIC AUC MR PC POC SMCD CL SL NEO AL COL IM NM PSD THW HF TRA EM EA NA JM NS",
+      "2": "MC XC MO UT OR CIN JA SR RE KE HES GAU CAE RC FA DIR LIF DS",
+      "3": "EC PM RS TP TE",
+      "-1": "ARC GAN JU GU HO AS MU CA DC PR SF RF ANC VEF WA IB CT AD CH LT NAZ NATC COR CI RT",
+      "-2": "MA TW AC IA GA SUL",
+      "-3": "ACK",
+      "split": "ML RS MA CR PR NM TE AD EC",
+      "why": "Whether one open, impersonal exam is the fairest gate to university: the Chinese examination tradition, Sun Yat-sen's Examination Yuan, technocrats and meritocratic republicans say yes, while Maoists, Khmer Rouge, anarchists and parties favouring class, ideological or patronage selection reject it.",
+      "notes": {
+        "EC": "The keju system from the Song dynasty to 1905 chose officials by anonymised, copied and publicly posted papers; fairness is its founding claim: 3.",
+        "RS": "Deng Xiaoping restored the gaokao in 1977 after the Cultural Revolution as the foundation of the reform era: 3.",
+        "MA": "Mao's 1966 abolition of the exam and 'recommended worker-peasant-soldier students' made class background the gate: -2.",
+        "TP": "Sun Yat-sen's five-power constitution had an independent Examination Yuan so that officials be chosen by open competitive exam: 3.",
+        "VEF": "Iran's konkur is exam-based but the gozinesh screens candidates for ideological and religious loyalty: -1.",
+        "PR": "Equity-minded progressives often back test-optional and race-conscious admissions to offset unequal prep: -1 (split).",
+        "TW": "Daodejing ch.3: not exalting the worthy keeps the people from contending, so no competitive selection: -2.",
+        "ACK": "Democratic Kampuchea closed schools and universities and killed the educated: -3."
+      }
+    },
+    "knowledge.2": {
+      "0": "UT CL AM LEG MR AUC SUL CLR HF CN PN WA EM ME NS IS RS TRA EUR RC SC LE TW BK KS ANC PE STC",
+      "1": "MC BC HES EA AL CT IM TP RE DIR DS COR CI MO",
+      "2": "PM TE EC XC COL NEOR ARC VEF RT",
+      "3": "PG",
+      "-1": "SL NEO LI OR LF MI PAL OB JR CM COA ONC AMC TH NE PA NAC GC LC EN IR KE BN HI IB RZ NOA IF NATC JM NAS CRA GOC PC CO NC HS US LN RET",
+      "-2": "CAE GAU BIC CIN LZ REZ SN ID EB NLS NA UJ BA SU NAZ GE LL CF NR NDL MU IA POC CST SMCD DI DE ML ST TR CC HO GU JU PP PIP GS ETS CR FA SR",
+      "-3": "AD SDD JA MA LU EU ACK AC AS GA CA DC NM PSD THW BL GAN PR LIF SF RF GM ES DEG CH PER ELP AP TI LS NP WC TAR MDS LT",
+      "split": "UT SL CL COL PM TE VEF IM TP RE AL",
+      "why": "Whether votes should be weighted by education: Platonic guardianship, the Confucian meritocracies, technocrats and conservative-liberal capacity franchises say yes, while democrats, socialists, populists and egalitarian republicans hold one person, one vote.",
+      "notes": {
+        "PG": "Republic bk. VI-VII: only those who have completed the long education in dialectic may rule, so knowledge outranks the headcount: 3.",
+        "PM": "Daniel Bell, The China Model (2015): universal suffrage at the top is replaced by promotion by merit; he also floats extra votes for the educated: 2 (split).",
+        "COL": "Guizot's pays legal limited the vote to a capacitaire elite; Tocqueville was milder but distrusted raw majorities: 2.",
+        "SL": "Mill's Considerations on Representative Government proposed plural votes for the educated, which later liberals and Rawls dropped (equal liberty first): -1 (split).",
+        "AD": "Ekklesia and isegoria gave every citizen one vote and offices by lot, precisely to disempower the learned few: -3.",
+        "ACK": "Khmer Rouge treated holders of diplomas and glasses as enemies, so educational privilege in voting is unthinkable: -3.",
+        "NP": "National populism defines itself against 'credentialed elites'; Brexit and Trump campaigns attacked expert rule: -3.",
+        "VEF": "Iran's Assembly of Experts and Guardian Council give clerics trained in fiqh a veto over elected organs: 2."
+      }
+    },
+    "knowledge.3": {
+      "0": "COA SUL LN SN LC NDL UT HS TW AS MU GA DC NA GOC CM JR NP WC AP GS ES DEG SR",
+      "1": "UJ MO NC DI AD IM LT CAE AUC CN CIN EN IR PN KE LZ REZ ONC AMC TH GC GAU BIC COL PAL CH RS BA SU TP DE BL NR PP EUR SMCD",
+      "2": "EC PM BK CA CST CO CLR SC HES ID BN HI EB RT CR ETS ML ST HO ACK NLS IF NAZ NAS MR STC GAN PER BC ARC NE PA NAC RET AM LEG US",
+      "3": "MC XC CT PE JA PG VEF WA IB RZ CI COR NATC MA JU GU JM",
+      "-1": "TR LU CC EU CL SL PR LI OR CF AL RE GE LL AC KS ME NS DIR DS IS LIF SF RF GM ELP TI LS EA HF TAR NM PSD PC POC MDS NEOR SDD NOA",
+      "-2": "NEO LF MI ANC IA FA THW TRA CRA PIP RC TE EM",
+      "-3": "OB LE",
+      "split": "LT AC PR RS US MA ETS UT NA TP",
+      "why": "Whether the school's first job is character and virtue rather than knowledge: Confucian, religious, republican-civic and mobilising regimes place moral formation first, while liberals, technocrats, libertarians and Legalists want skills or leave morals to families and law.",
+      "notes": {
+        "XC": "Xunzi, Encouraging Learning: study exists to transform the crude nature into ritual and virtue, and begins with the classics of conduct: 3.",
+        "JM": "The 1890 Imperial Rescript on Education and the shushin (ethics) course made loyalty and filial piety the first subject: 3.",
+        "MA": "Mao's 1957 formula that education serve 'moral, intellectual and physical development', 'red' before 'expert': 3 in the Cultural Revolution, but split by earlier pragmatists.",
+        "JA": "Robespierre and Saint-Just on national education: public virtue is formed in common schools before letters: 3.",
+        "LE": "Han Feizi: 'the enlightened ruler does not teach virtue but shows law'; moral schooling is sophistry: -3.",
+        "OB": "Rand: moral life follows from reason and knowledge; selfless duty-teaching is the poison, not the cure: -3.",
+        "NEO": "Human-capital view (Becker, Friedman): schooling's job is skills and returns; character teaching is a family matter: -2.",
+        "SR": "Ferry laws made the school secular with an 'instruction morale et civique', yet its mission was instruction first: 0."
+      }
+    },
+    "knowledge.4": {
+      "0": "WA SDD SN CI NATC NP WC PP NR HF NOA AS NE HI BN EB LI OR AL CM SUL RC GS US TRA TW SC BK ARC ONC GE",
+      "1": "TH NEO CO GA AC DC BC GC LC SMCD IB COR RT NEOR JR AP PIP DE DEG GAN LEG COL",
+      "2": "MI OB AMC CA IA MU CL DI RET PA ID RZ TAR CRA",
+      "3": "LF ANC PAL CR NC CST CT",
+      "-1": "PE COA STC PC POC HS UT SL NDL CF RE LIF LL AM MC EC KS ME NS DIR IS GM ES EM ELP LS GOC CN CIN EN LN PN REZ IM BL TP LU CC EUR NAC GAU ETS LT",
+      "-2": "TR EU NLS MDS CAE MR AUC TE HES AD CLR PR SF RF EA LE PM MO XC DS CH PER RS TI IR LZ VEF NM PSD THW FA UJ NA BA SU BIC",
+      "-3": "ML ST MA HO JU GU ACK IF NAZ NAS JM PG JA SR KE",
+      "split": "UT COL TH GAN AL CIN IM ID WA NATC",
+      "why": "Parental authority over schooling against state control: libertarians, Calvinists, Catholic social teaching and the Christian right defend parental choice and homeschooling, while totalising, laicist and republican-unifying camps (Marxist-Leninist, fascist, Jacobin, Kemalist, Platonic) put the child's formation in the state's hands.",
+      "notes": {
+        "CST": "Gravissimum educationis and Pius XI's Divini illius Magistri: parents are the first and primary educators and have the right to choose schools: 3.",
+        "NC": "Kuyper's 'Free School' campaign and the Dutch Pacification of 1917: the parent's sphere precedes the state's, so denominational schools are state-funded: 3.",
+        "NAZ": "Reich Compulsory Schooling Law (1938) outlawed homeschooling in the Nazi state; parents were to cede the child to the Volk: -3.",
+        "KE": "The 1924 Law of Unification of Education (Tevhid-i Tedrisat) closed religious schools and put all schooling under the Ministry: -3.",
+        "PG": "Republic bk. V: children raised in common by the guardians and the state, with no private family control of their upbringing: -3.",
+        "SR": "Radical Republic's school monopoly (Ferry, Combes 1904 ban on congregational teaching): the state school forms the citizen: -3.",
+        "ANC": "Rothbard, Education: Free and Compulsory: all compulsory schooling is state coercion, so schooling is a parental market choice: 3.",
+        "UT": "Mill, On Liberty ch.5: the state may require education but should not provide it; parents choose schools: -1 (split)."
+      }
+    },
+    "knowledge.5": {
+      "0": "HES HF NE PA TAR CO DI TW BK MC IS NS DIR RET LZ REZ GAN AP",
+      "1": "GA PAL RF BL ID SR AD CLR US LT ELP GC TH AMC SMCD EB EA CM SC NOA LS",
+      "2": "LIF PR NDL LI NR EU CC TR AS MU DC CA GE GM ES DE DEG SF MDS ETS FA PSD THW PC RC POC TE UT COL IM LN CIN SN SDD JR GS NEO OR RE LC",
+      "3": "CL SL CF LU AC IA LF MI OB ANC LL CRA PIP TRA EM NM NC",
+      "-1": "AL CR NAC NP WC TI GOC RT NEOR HI RZ PM MO BC ONC GAU LEG CN PN ME DS CST",
+      "-2": "PP COA SUL STC PE CAE KE NLS NA UJ SU TP RS CH IB CT COR BN XC EC KS PG HS ARC BIC EN IR EUR GU JA NAS",
+      "-3": "ML ST MA HO JU ACK IF NAZ JM NATC MR AUC BA PER VEF WA CI LE AM",
+      "split": "HES CST LT RS TP AL AMC PM EC CR TH",
+      "why": "Whether the academy may teach and research against the state's wishes: liberals, libertarians, Neo-Calvinists and council communists defend it as a matter of principle, while Marxist-Leninist, fascist, theocratic and absolutist regimes subordinate learning to the state or dogma.",
+      "notes": {
+        "NC": "Kuyper's sphere sovereignty: scholarship has its own sphere, the state may not dictate science (Free University of Amsterdam, 1880): 3.",
+        "CL": "Humboldt's Lehrfreiheit and Mill's On Liberty ch.2: the state has no right to prescribe opinion in teaching or inquiry: 3.",
+        "ML": "Party control of science (Lysenko affair, Zhdanov decrees, partiinost'): research serves the party line: -3.",
+        "HS": "Leviathan ch.18 and 30: the sovereign judges which doctrines are fit to be taught; Hobbes wanted the universities to teach his civil science: -2.",
+        "NAZ": "The 1933 Law for the Restoration of the Civil Service purged Jewish and dissenting professors; Gleichschaltung of the university: -3.",
+        "RS": "Deng's reforms freed natural science but 1989 and Document 9 (2013) keep the humanities and social science under party ideology: -2 (split).",
+        "EA": "Frederick II: 'argue as much as you will, but obey'; Kant's answer to What is Enlightenment? licensed scholarly freedom under an absolute throne: 1.",
+        "AL": "Pinochet's government purged and intervened in universities while Chicago Boys flourished; Hayek's constitution says nothing: -1."
+      }
+    },
+    "knowledge.6": {
+      "0": "LIF MR UT GC BIC GAU DIR IS ME NS CAE SUL STC NATC NAS TW KS HS SC AD CLR SDD JR SR DE EM GA WA BN RZ CT CN LN IR PN KE SN CF LI COL EA CM LEG TRA PIP PC RC NC IA EUR",
+      "1": "NM FA GS US LL GE ST JU CC MU TI RF SU TP NOA BA ACK ONC RET MC MO BK JA NR GM DEG CIN LZ NDL RE POC CO SMCD DI PE ID IB IM CI AP VEF CA",
+      "2": "PR SL PSD THW ETS CST ES ELP CH PER ML HO GU NLS TR LU EU AC AS DC NA UJ GAN LS EB",
+      "3": "LT MDS MA SF",
+      "-1": "RS GOC CR NP TH BC ARC DS HI REZ EN WC PP COA IF JM XC PG HES HF AM CRA COR OR LC BL",
+      "-2": "PM EC LE NEO AMC NE PA NAC AUC NAZ TAR RT AL CL",
+      "-3": "TE LF MI OB ANC PAL NEOR",
+      "split": "ST JU CST HI RS NA GAN CIN LL LIF VEF NDL",
+      "why": "Whether admissions should favour poor pupils over higher scorers: liberation theology, democratic socialism, Maoism and socialist feminism say yes, class-preference regimes lean yes, while libertarians, technocrats, Confucian meritocrats and Legalists defend rank by score.",
+      "notes": {
+        "LT": "Medellin 1968 and Puebla 1979: the Church's 'preferential option for the poor' extends to priority access to education: 3.",
+        "MA": "Cultural Revolution (1966-76) ended gaokao and admitted 'worker-peasant-soldier students' on class background despite lower scores: 3.",
+        "SL": "Rawls's fair equality of opportunity (A Theory of Justice, sec. 14) accepts compensatory measures so that talent, not birth, decides: 2.",
+        "TE": "Technocracy puts the best-measured ability in the seat; preference lower than merit wastes talent: -3.",
+        "LF": "Friedman and Mises treat priority places as coercive transfers that distort selection: -3.",
+        "PM": "Daniel Bell's meritocracy rests on selection by tested ability at every level, not on quotas for the poor: -2.",
+        "NA": "Nasser's 1961 Socialist Laws and free university reserved 50% of seats for workers and peasants: 2.",
+        "AMC": "Fusionists opposed preferences (Bakke, Fisher), though some back school vouchers for the poor: -2."
+      }
+    }
+  }
+}

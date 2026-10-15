@@ -1,0 +1,55 @@
+{
+  "family": {
+    "id": "left-populism",
+    "name": "Dân tuý cánh tả",
+    "en": "Left-wing populism",
+    "summary": "Người lao động chống lại giới tài phiệt và tinh hoa; đòi chia lại của cải, quốc hữu hoá tài nguyên và chủ quyền kinh tế trước các định chế tài chính quốc tế."
+  },
+  "variants": [
+    {
+      "id": "chavismo",
+      "name": "Chủ nghĩa Chávez",
+      "en": "Chavismo (Bolivarianism)",
+      "summary": "Quốc hữu hoá dầu mỏ, các chương trình xã hội cho người nghèo, hội đồng cộng đồng, một lãnh tụ uy tín và chống ảnh hưởng của Mỹ.",
+      "exemplars": ["Hugo Chávez", "Evo Morales"],
+      "period": "1999–nay",
+      "axes": { "economy": 20, "distribution": 10, "trade": 25, "power": 25, "liberty": 30, "elites": 80, "lifestyle": 45, "religion": 50, "identity": 35, "environment": 30, "foreign": 40, "change": 80 },
+      "status": "draft",
+      "raters": ["claude"]
+    },
+    {
+      "id": "peronism",
+      "name": "Chủ nghĩa Perón",
+      "en": "Peronism",
+      "summary": "Liên minh giữa lãnh tụ, công đoàn và người lao động nghèo: công bằng xã hội, độc lập kinh tế, chủ quyền chính trị; vừa tả vừa hữu.",
+      "exemplars": ["Juan Perón", "Eva Perón", "Argentina (1946–1955)"],
+      "period": "1946–nay",
+      "axes": { "economy": 35, "distribution": 25, "trade": 20, "power": 35, "liberty": 40, "elites": 75, "lifestyle": 30, "religion": 50, "identity": 35, "environment": 30, "foreign": 40, "change": 50 },
+      "facets": { "distribution.labour": 5 },
+      "status": "draft",
+      "raters": ["claude"]
+    },
+    {
+      "id": "european-left-populism",
+      "name": "Dân tuý cánh tả châu Âu",
+      "en": "European left populism",
+      "summary": "Chống thắt lưng buộc bụng và các thể chế tài chính châu Âu; người dân đối đầu giới đầu sỏ, qua bầu cử và phong trào xã hội.",
+      "exemplars": ["Jean-Luc Mélenchon", "Pablo Iglesias (Podemos)", "SYRIZA (2015)"],
+      "period": "2010–nay",
+      "axes": { "economy": 20, "distribution": 15, "trade": 35, "power": 75, "liberty": 70, "elites": 85, "lifestyle": 75, "religion": 20, "identity": 70, "environment": 70, "foreign": 70, "change": 60 },
+      "status": "draft",
+      "raters": ["claude"]
+    },
+    {
+      "id": "agrarian-populism",
+      "name": "Dân tuý nông dân",
+      "en": "Agrarian populism",
+      "summary": "Người làm ruộng là xương sống của dân tộc; chống ngân hàng, độc quyền đường sắt và đô thị; đòi tín dụng rẻ và ruộng đất cho nông dân.",
+      "exemplars": ["Đảng Nhân dân (Mỹ, thập niên 1890)", "Phong trào Narodnik (Nga)", "Aleksandar Stamboliyski (Bulgaria)"],
+      "period": "1860–1940",
+      "axes": { "economy": 40, "distribution": 25, "trade": 25, "power": 70, "liberty": 55, "elites": 85, "lifestyle": 25, "religion": 55, "identity": 30, "environment": 55, "foreign": 60, "change": 55 },
+      "status": "draft",
+      "raters": ["claude"]
+    }
+  ]
+}

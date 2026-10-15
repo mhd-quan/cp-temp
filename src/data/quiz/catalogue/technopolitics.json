@@ -1,0 +1,114 @@
+{
+  "figures": [
+    {
+      "id": "julian-huxley",
+      "name": "Julian Huxley",
+      "life": "1887–1975",
+      "role": "Nhà sinh học Anh, đặt ra từ transhumanism, Tổng giám đốc đầu tiên của UNESCO",
+      "variant": "transhumanism",
+      "axes": {
+        "environment": 75
+      },
+      "wiki": "Julian Huxley"
+    },
+    {
+      "id": "nick-bostrom",
+      "name": "Nick Bostrom",
+      "life": "s. 1973",
+      "role": "Triết gia Thuỵ Điển, đồng sáng lập Hội Siêu nhân học Thế giới (1998)",
+      "variant": "transhumanism",
+      "wiki": "Nick Bostrom"
+    },
+    {
+      "id": "james-hughes-sociologist",
+      "name": "James Hughes",
+      "life": "s. 1961",
+      "role": "Nhà xã hội học Mỹ, tác giả Citizen Cyborg (2004), người định hình dòng siêu nhân học tiến bộ",
+      "variant": "transhumanism",
+      "wiki": "James Hughes (sociologist)"
+    },
+    {
+      "id": "timothy-c-may",
+      "name": "Timothy C. May",
+      "life": "1951–2018",
+      "role": "Kỹ sư Intel, tác giả Tuyên ngôn Vô chính phủ Mật mã (1988)",
+      "variant": "crypto-anarchism",
+      "wiki": "Timothy C. May"
+    },
+    {
+      "id": "john-perry-barlow",
+      "name": "John Perry Barlow",
+      "life": "1947–2018",
+      "role": "Đồng sáng lập EFF, tác giả Tuyên ngôn Độc lập của Không gian mạng (1996)",
+      "variant": "crypto-anarchism",
+      "wiki": "John Perry Barlow"
+    },
+    {
+      "id": "john-gilmore",
+      "name": "John Gilmore",
+      "life": "s. 1955",
+      "role": "Đồng sáng lập nhóm Cypherpunks và EFF",
+      "variant": "crypto-anarchism",
+      "wiki": "John Gilmore (activist)"
+    },
+    {
+      "id": "rick-falkvinge",
+      "name": "Rick Falkvinge",
+      "life": "s. 1972",
+      "role": "Người sáng lập Đảng Cướp biển Thuỵ Điển (2006)",
+      "variant": "pirate-politics",
+      "wiki": "Rick Falkvinge"
+    },
+    {
+      "id": "birgitta-jonsdottir",
+      "name": "Birgitta Jónsdóttir",
+      "life": "s. 1967",
+      "role": "Nhà thơ, nghị sĩ Iceland, đồng sáng lập Đảng Cướp biển Iceland",
+      "variant": "pirate-politics",
+      "wiki": "Birgitta Jónsdóttir"
+    },
+    {
+      "id": "aaron-swartz",
+      "name": "Aaron Swartz",
+      "life": "1986–2013",
+      "role": "Lập trình viên, nhà hoạt động cho truy cập mở",
+      "variant": "pirate-politics",
+      "wiki": "Aaron Swartz"
+    }
+  ],
+  "parties": [
+    {
+      "id": "piratpartiet",
+      "name": "Đảng Cướp biển Thuỵ Điển",
+      "abbr": "PP",
+      "country": "Thuỵ Điển",
+      "period": "2006–nay",
+      "variants": [
+        "pirate-politics"
+      ],
+      "emblem": {
+        "shape": "disc",
+        "field": "#ffffff",
+        "ink": "#111111",
+        "motif": "flag",
+        "ring": "#572b85"
+      }
+    },
+    {
+      "id": "czech-pirate-party",
+      "name": "Đảng Cướp biển Séc",
+      "abbr": "Piráti",
+      "country": "Séc",
+      "period": "2009–nay",
+      "variants": [
+        "pirate-politics"
+      ],
+      "emblem": {
+        "shape": "disc",
+        "field": "#111111",
+        "ink": "#ffffff",
+        "motif": "flag"
+      }
+    }
+  ]
+}

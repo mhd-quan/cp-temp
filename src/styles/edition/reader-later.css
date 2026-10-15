@@ -1,0 +1,626 @@
+/* Ấn bản reader, after the text: the end of the essay (its actions, its
+   series, its neighbours, the letters), the sheets that open over it (the
+   page's settings, the contents, a note), the way back to where one stopped
+   and the tools for a quotation. None of it is in the first screen of an
+   essay; it is linked after the text (lib/editionStyles.ts), and the head
+   carries the text alone (reader.css). */
+
+/* ---------- end ---------- */
+.article-end {
+  width: min(100% - 2 * var(--margin), 58rem);
+  margin: clamp(2.5rem, 5vw, 4rem) auto 0;
+}
+.article-end__mark {
+  color: var(--topic-text);
+  font: var(--t-title-l) / 1 var(--font-text);
+  text-align: center;
+}
+.article-end__actions {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: var(--s-2) var(--s-3);
+  margin-top: var(--s-6);
+}
+.article-end__status {
+  color: var(--muted);
+}
+.series-nav {
+  margin-top: var(--s-8);
+  padding-top: var(--s-4);
+  border-top: 1px solid var(--ink);
+}
+.series-nav__label {
+  color: var(--muted);
+}
+.series-nav__label a {
+  color: var(--topic-text);
+  text-decoration: none;
+}
+.series-nav__parts {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: var(--gutter);
+  margin-top: var(--s-4);
+}
+.series-nav__parts li {
+  display: grid;
+  gap: var(--s-1);
+}
+.series-nav__numeral {
+  color: var(--topic-text);
+  font: italic 400 var(--t-dek) / 1 var(--font-text);
+}
+.series-nav__title {
+  font: 500 var(--t-title-s) / 1.18 var(--font-text);
+  text-decoration: none;
+}
+.series-nav li[aria-current] .series-nav__title {
+  color: var(--muted);
+}
+.neighbours {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: var(--gutter);
+  margin-top: var(--s-8);
+}
+.neighbour {
+  position: relative;
+}
+.neighbour__plate {
+  margin-bottom: var(--s-3);
+}
+.neighbour__label {
+  color: var(--muted);
+}
+.neighbour__title {
+  margin-top: var(--s-1);
+  font-size: var(--t-title-m);
+  line-height: 1.12;
+}
+.neighbour__dek {
+  margin-top: var(--s-1);
+  color: var(--muted);
+  font-style: italic;
+}
+:where(:root:not([data-resting])) .neighbour:has(a:hover) .title-link {
+  background-size: 100% 1px;
+}
+.letters {
+  margin-top: var(--s-8);
+  padding-top: var(--s-4);
+  border-top: 1px solid var(--rule);
+  text-align: center;
+}
+.letters h2 {
+  font-size: var(--t-title-s);
+}
+.letters p {
+  margin-top: var(--s-2);
+}
+.letters__source,
+.letters__history summary {
+  color: var(--muted);
+}
+.letters__history summary {
+  font-size: var(--t-meta);
+}
+.letters__source a {
+  text-decoration: none;
+}
+/* The publication history unfolds and folds back (where the browser can
+   animate a height to auto; elsewhere it simply opens). */
+.letters__history {
+  interpolate-size: allow-keywords;
+}
+.letters__history::details-content {
+  block-size: 0;
+  overflow: clip;
+  opacity: 0;
+  transition:
+    block-size var(--d-close) var(--ease-leave),
+    opacity var(--d-close) var(--ease-leave),
+    content-visibility var(--d-close) allow-discrete;
+}
+.letters__history[open]::details-content {
+  block-size: auto;
+  opacity: 1;
+  transition-duration: var(--d-base);
+  transition-timing-function: var(--ease-out);
+}
+
+/* ---------- sheets (popover) ----------
+   Regular glass (foundation.css, materials): the reader's paper,
+   translucent, over a blur of the page, so a sheet takes on the colour of
+   what it covers, its edge lit by what lies beneath.
+   Its controls keep their own solid trays and lifted choices. A head, then a
+   body that scrolls and fades at its edges; the shape is set on .sheet itself
+   so nothing rearranges while a sheet fades out.
+   On a wide page a sheet hangs under the bar, from the corner of the control
+   that opens it: it grows from there and goes back into it, half the way,
+   as it fades (docs/motion.md). On a phone it is a pane of glass attached to
+   the bottom edge (below): it slides up from the edge and back down past it,
+   whole, never fading, as a sheet does on the phone itself.
+   While it closes it has left the top layer in Safari (which holds nothing
+   there for the way out), so it keeps its own place above the page and the
+   bar: the page no longer draws over a sheet on its way out. */
+.sheet {
+  position: fixed;
+  z-index: calc(var(--layer-bar) + 2);
+  inset: calc(var(--bar-height) + 0.5rem) var(--margin) auto auto;
+  flex-direction: column;
+  width: min(26rem, 100vw - 2rem);
+  max-height: min(80dvh, 46rem);
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  border: 1px solid var(--rim-soft);
+  border-top-color: var(--rim);
+  border-radius: 10px;
+  background: var(--material) padding-box;
+  -webkit-backdrop-filter: var(--blur);
+  backdrop-filter: var(--blur);
+  color: var(--ink);
+  box-shadow:
+    0 0 0 1px var(--glass-edge),
+    0 28px 60px -24px oklch(0 0 0 / 0.4);
+  transform-origin: calc(100% - 1.5rem) 0;
+  opacity: 0;
+  transform: translateY(-3px) scale(0.985);
+  transition:
+    opacity var(--d-close) var(--ease-leave),
+    transform var(--d-close) var(--ease-leave),
+    overlay var(--d-close) allow-discrete,
+    display var(--d-close) allow-discrete;
+}
+.sheet:popover-open {
+  display: flex;
+  opacity: 1;
+  transform: none;
+  transition-duration: var(--d-base);
+  transition-timing-function: var(--ease-out);
+}
+@starting-style {
+  .sheet:popover-open {
+    opacity: 0;
+    transform: translateY(-6px) scale(0.97);
+  }
+}
+.sheet__head {
+  display: flex;
+  flex: none;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--s-3);
+  padding: var(--s-4) var(--s-3) var(--s-2) var(--s-5);
+}
+.sheet__body {
+  flex: 1 1 auto;
+  min-height: 0;
+  padding: var(--s-1) var(--s-5) var(--s-5);
+  overflow-y: auto;
+  overscroll-behavior: contain;
+  -webkit-mask-image: linear-gradient(transparent, #000 var(--s-3));
+  mask-image: linear-gradient(transparent, #000 var(--s-3));
+}
+.sheet__head h2 {
+  font-size: var(--t-label);
+}
+/* The note sheet is always attached to the bottom edge, below the text it
+   annotates: it slides as a phone's sheets do (below). */
+.note-sheet {
+  inset: auto 0 0;
+  width: min(44rem, 100%);
+  max-height: 46dvh;
+  margin-inline: auto;
+  border-radius: 12px 12px 0 0;
+}
+.note-sheet .sheet__body {
+  padding-bottom: calc(var(--s-5) + env(safe-area-inset-bottom));
+}
+.note-sheet__nav {
+  display: flex;
+}
+.note-sheet__body {
+  font: var(--t-ui) / 1.55 var(--font-text);
+  overflow-wrap: anywhere;
+}
+
+.setting {
+  min-width: 0;
+  margin: var(--s-5) 0 0;
+  padding: 0;
+  border: 0;
+}
+/* A floated legend joins the normal flow, so its spacing behaves like any heading. */
+.setting legend {
+  float: left;
+  width: 100%;
+  margin-bottom: var(--s-2);
+  padding: 0;
+  color: var(--muted);
+  font-size: var(--t-meta);
+}
+.setting legend + * {
+  clear: both;
+}
+.sheet__body > .setting:first-child {
+  margin-top: var(--s-2);
+}
+.setting-row {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: var(--s-4);
+}
+/* Segmented controls: native radios in a tray; the chosen one rests on a
+   lifted tile, and the tile slides to the next choice (as the appearance
+   does in the colophon and the menu). The tile's place is counted from the
+   checked radio, so no script measures anything. */
+.seg {
+  --n: 2;
+  --i: 0;
+  position: relative;
+  isolation: isolate;
+  display: grid;
+  grid-auto-flow: column;
+  grid-auto-columns: minmax(0, 1fr);
+  gap: 3px;
+  padding: 3px;
+  border-radius: 8px;
+  background: var(--raised);
+}
+.seg:has(> label:nth-child(3)) {
+  --n: 3;
+}
+.seg:has(> label:nth-child(4)) {
+  --n: 4;
+}
+.seg:has(> label:nth-child(5)) {
+  --n: 5;
+}
+.seg:has(> label:nth-child(2) input:checked) {
+  --i: 1;
+}
+.seg:has(> label:nth-child(3) input:checked) {
+  --i: 2;
+}
+.seg:has(> label:nth-child(4) input:checked) {
+  --i: 3;
+}
+.seg:has(> label:nth-child(5) input:checked) {
+  --i: 4;
+}
+.seg::before {
+  content: '';
+  position: absolute;
+  inset-block: 3px;
+  left: 3px;
+  z-index: -1;
+  width: calc((100% - 6px - (var(--n) - 1) * 3px) / var(--n));
+  border-radius: 6px;
+  background: var(--paper);
+  box-shadow:
+    0 1px 2px oklch(0 0 0 / 0.12),
+    0 0 0 1px color-mix(in oklab, var(--ink) 8%, transparent);
+  translate: calc(var(--i) * (100% + 3px)) 0;
+  transition: translate var(--d-base) var(--ease-out);
+}
+.seg label {
+  position: relative;
+  display: grid;
+  place-items: center;
+  gap: 2px;
+  min-height: 44px;
+  padding: var(--s-1);
+  border-radius: 6px;
+  color: var(--muted);
+  cursor: pointer;
+  transition: color var(--d-base) var(--ease-out);
+}
+.seg input {
+  position: absolute;
+  opacity: 0;
+  pointer-events: none;
+}
+@media (hover: hover) {
+  :where(:root:not([data-resting])) .seg label:hover {
+    color: var(--ink);
+  }
+}
+/* What a choice shows (the A, the face, the paper, the glyph) gives under
+   the finger; the tile then slides to it. */
+.seg label > :not(input, .sr-only) {
+  transition: scale var(--d-base) var(--ease-out);
+}
+.seg label:active > :not(input, .sr-only) {
+  scale: 0.92;
+  transition-duration: var(--d-press);
+}
+.seg label:has(input:checked) {
+  color: var(--ink);
+}
+.seg label:has(input:focus-visible) {
+  outline: var(--focus);
+  outline-offset: 1px;
+}
+.seg__a {
+  font-family: var(--font-text);
+  font-weight: 500;
+  line-height: 1;
+}
+.seg--font label,
+.seg--paper label,
+.seg--appearance label {
+  padding-block: var(--s-2);
+}
+.seg--font label {
+  min-height: 52px;
+}
+.seg__sample {
+  font-size: var(--t-title-s);
+  line-height: 1;
+}
+.seg__label {
+  font: 600 var(--t-meta) / 1.2 var(--font-sans);
+  font-stretch: var(--sans-width);
+  text-transform: uppercase;
+  letter-spacing: var(--caps-tracking);
+}
+.seg--appearance label {
+  grid-auto-flow: column;
+  gap: var(--s-2);
+}
+.paper-swatch {
+  display: grid;
+  place-items: center;
+  width: 2.25rem;
+  height: 2.25rem;
+  border-radius: 50%;
+  box-shadow: inset 0 0 0 1px oklch(0 0 0 / 0.12);
+  font: 500 var(--t-note) / 1 var(--font-text);
+}
+.paper-swatch--giay { background: #faf9f6; color: #161828; }
+.paper-swatch--nga { background: #f6efe1; color: #2a2318; }
+.paper-swatch--suong { background: #eef1f3; color: #18202a; }
+.paper-swatch--reu { background: #e9eee5; color: #1c241b; }
+:root[data-theme='dark'] .paper-swatch--giay { background: #11131b; color: #ebeae2; }
+:root[data-theme='dark'] .paper-swatch--nga { background: #1c1812; color: #ede4d2; }
+:root[data-theme='dark'] .paper-swatch--suong { background: #12181e; color: #e1e8ed; }
+:root[data-theme='dark'] .paper-swatch--reu { background: #131a14; color: #e0e8dc; }
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme='light']) .paper-swatch--giay { background: #11131b; color: #ebeae2; }
+  :root:not([data-theme='light']) .paper-swatch--nga { background: #1c1812; color: #ede4d2; }
+  :root:not([data-theme='light']) .paper-swatch--suong { background: #12181e; color: #e1e8ed; }
+  :root:not([data-theme='light']) .paper-swatch--reu { background: #131a14; color: #e0e8dc; }
+}
+.paper-swatch {
+  box-shadow: inset 0 0 0 1px color-mix(in oklab, currentColor 20%, transparent);
+}
+/* Small drawings of what each measure and leading do. */
+.bars,
+.lines {
+  display: grid;
+  gap: 3px;
+  width: 1.75rem;
+}
+.bars i,
+.lines i {
+  display: block;
+  height: 2px;
+  border-radius: 1px;
+  background: currentColor;
+}
+.bars--narrow {
+  width: 1.1rem;
+}
+.bars--wide {
+  width: 2.25rem;
+}
+.lines--tight {
+  gap: 2px;
+}
+.lines--loose {
+  gap: 6px;
+}
+.settings__reset {
+  margin-top: var(--s-3);
+  color: var(--muted);
+}
+
+/* ---------- resume and quotation ---------- */
+.resume {
+  position: fixed;
+  left: 50%;
+  bottom: calc(1.25rem + env(safe-area-inset-bottom));
+  z-index: var(--layer-bar);
+  display: flex;
+  align-items: center;
+  gap: var(--s-1);
+  padding: var(--s-1);
+  border-radius: 8px;
+  background: var(--ink);
+  color: var(--paper);
+  box-shadow: 0 18px 40px -18px oklch(0 0 0 / 0.5);
+  transform: translateX(-50%);
+}
+.resume .icon-button {
+  color: var(--paper);
+}
+.quote-tools {
+  position: fixed;
+  z-index: var(--layer-bar);
+  display: flex;
+  gap: 2px;
+  padding: 3px;
+  border-radius: 8px;
+  background: var(--ink);
+  color: var(--paper);
+  box-shadow: 0 12px 28px -12px oklch(0 0 0 / 0.5);
+}
+.quote-tools button {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--s-2);
+  min-height: 40px;
+  padding: 0 var(--s-3);
+  border-radius: 6px;
+  font: 600 var(--t-meta) / 1 var(--font-sans);
+  font-stretch: var(--sans-width);
+  text-transform: uppercase;
+  letter-spacing: var(--caps-tracking);
+  transition: background-color var(--d-quick) var(--ease-out);
+}
+:where(:root:not([data-resting])) .quote-tools button:hover {
+  background: color-mix(in oklab, var(--paper) 14%, transparent);
+}
+
+/* The end of an essay is laid out when the reader nears it (as the
+   homepage's modules are, home-later.css), holding its room until then. */
+.article-end {
+  content-visibility: auto;
+  contain-intrinsic-size: auto 740px;
+}
+
+/* ---------- responsive ---------- */
+@media (max-width: 760px) {
+  .article-end {
+    contain-intrinsic-size: auto 1080px;
+  }
+  .sheet {
+    inset: auto 0 0;
+    width: 100%;
+    max-height: 84dvh;
+    border-radius: 14px 14px 0 0;
+  }
+  .sheet__body {
+    padding-bottom: calc(var(--s-5) + env(safe-area-inset-bottom));
+  }
+  .setting--measure {
+    display: none;
+  }
+  .contents-sheet__list a {
+    display: flex;
+    align-items: center;
+    min-height: 44px;
+    font-size: var(--t-body);
+  }
+  .setting-row {
+    grid-template-columns: 1fr;
+  }
+  .series-nav__parts,
+  .neighbours {
+    grid-template-columns: 1fr;
+  }
+  .quote-tools {
+    left: 50%;
+    bottom: calc(1rem + env(safe-area-inset-bottom));
+    transform: translateX(-50%);
+  }
+}
+/* On a wide page a sheet is emptied before its glass goes. A pane of glass
+   that fades shows the page beneath it sharp through its own blur (and, with
+   the words still on it, both at once): the settings went see-through the
+   moment they began to close. So what the sheet holds fades and lifts
+   first, in --d-quick, while the pane draws back toward its control in
+   --d-close; only in the second half of that, when it is empty, does the
+   pane itself dissolve, its frost thawing as its tint fades. Opening runs
+   the same way in: the pane arrives at once, frosting over as it settles,
+   and its contents settle into it a beat later. */
+@media (min-width: 761px) {
+  .sheet:not(.note-sheet) {
+    transition:
+      transform var(--d-close) var(--ease-leave),
+      opacity var(--d-press) var(--ease-leave) var(--d-press),
+      -webkit-backdrop-filter var(--d-press) var(--ease-leave) var(--d-press),
+      backdrop-filter var(--d-press) var(--ease-leave) var(--d-press),
+      overlay var(--d-close) allow-discrete,
+      display var(--d-close) allow-discrete;
+  }
+  .sheet:not(.note-sheet):popover-open {
+    transition:
+      transform var(--d-base) var(--ease-out),
+      opacity var(--d-press) var(--ease-out),
+      -webkit-backdrop-filter var(--d-base) var(--ease-out),
+      backdrop-filter var(--d-base) var(--ease-out),
+      overlay var(--d-base) allow-discrete,
+      display var(--d-base) allow-discrete;
+  }
+  .sheet:not(.note-sheet, :popover-open) {
+    -webkit-backdrop-filter: blur(0) saturate(1);
+    backdrop-filter: blur(0) saturate(1);
+  }
+  .sheet:not(.note-sheet) > * {
+    transition:
+      opacity var(--d-quick) var(--ease-leave),
+      translate var(--d-quick) var(--ease-leave);
+  }
+  .sheet:not(.note-sheet, :popover-open) > * {
+    opacity: 0;
+    translate: 0 -4px;
+  }
+  .sheet:not(.note-sheet):popover-open > * {
+    transition-duration: var(--d-base);
+    transition-timing-function: var(--ease-out);
+    transition-delay: 40ms;
+  }
+  @starting-style {
+    .sheet:not(.note-sheet):popover-open {
+      -webkit-backdrop-filter: blur(0) saturate(1);
+      backdrop-filter: blur(0) saturate(1);
+    }
+    .sheet:not(.note-sheet):popover-open > * {
+      opacity: 0;
+      translate: 0 -4px;
+    }
+  }
+}
+/* A sheet attached to the bottom edge slides, whole: up from past the edge
+   in --d-slow as it settles, back down past it in --d-base, leaving. The
+   glass stays glass all the way (a fading pane of glass is neither pane nor
+   page). The way out is the way in, at two thirds of its time: long travel
+   wants the time a short fade does not. */
+@media (max-width: 760px) {
+  .sheet {
+    opacity: 1;
+    transform: translateY(calc(100% + 2px));
+    transition:
+      transform var(--d-base) var(--ease-leave),
+      overlay var(--d-base) allow-discrete,
+      display var(--d-base) allow-discrete;
+  }
+  .sheet:popover-open {
+    transition-duration: var(--d-slow);
+  }
+  @starting-style {
+    .sheet:popover-open {
+      transform: translateY(calc(100% + 2px));
+    }
+  }
+}
+.note-sheet {
+  opacity: 1;
+  transform: translateY(calc(100% + 2px));
+  transition:
+    transform var(--d-base) var(--ease-leave),
+    overlay var(--d-base) allow-discrete,
+    display var(--d-base) allow-discrete;
+}
+.note-sheet:popover-open {
+  transition-duration: var(--d-slow);
+}
+@starting-style {
+  .note-sheet:popover-open {
+    transform: translateY(calc(100% + 2px));
+  }
+}
+@media print {
+  .article-body__contents,
+  .article-body__notes,
+  .article-end__actions,
+  .resume,
+  .quote-tools,
+  .sheet {
+    display: none !important;
+  }
+}

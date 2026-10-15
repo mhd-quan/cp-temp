@@ -1,0 +1,299 @@
+{
+  "rater": "A",
+  "block": "A10",
+  "items": {
+    "power.local.5": {
+      "0": "NOA PC POC SC CM CN PP IM CI",
+      "1": "IA CA RC UT ARC CR GC LC BIC MDS LT ES ELP AP SL NEO OR COL MC OB GE LN ID CT EB AD NR THW TAR EU",
+      "2": "AC AS CC GA GAN SMCD CST DI NC AMC RET GS US TW MI LL SN LEG CLR NEOR BL DE DEG GM CL LF",
+      "3": "MU DC CF TI SDD JR PAL ANC PA",
+      "-1": "TP TE BC ONC TH NE PR NDL LI AL RE SR RS LS PM BK EM NM PSD FA CIN PN LZ IB COR RT NP WC NS ETS",
+      "-2": "NLS NA UJ BA SU MR AUC PE PG HES MA TR LU GU NAC GAU EC MO XC KS ME DIR DS EA EN IR REZ VEF BN WA RZ CH PER GOC",
+      "-3": "CAE HS ML ST JU HO ACK IF NAZ NATC JM LE AM KE HI JA",
+      "split": "BC COR BIC MC UT TP",
+      "why": "Federalism versus unitary centralism: decentralists (mutualists, confederalists, US-style and Swiss federalists, libertarians) are strongly for; Jacobins, Kemalists, Hindutva, Hobbesian sovereignty, fascists and Leninists hold indivisible central authority doctrinally.",
+      "notes": {
+        "MU": "Proudhon's Du principe fédératif makes federation the core political principle: +3.",
+        "JA": "La République une et indivisible; Jacobins crushed the Girondin 'federalists' in 1793: -3.",
+        "KE": "Turkish constitution's indivisible unitary republic is a Kemalist pillar: -3.",
+        "TI": "Kardelj's Yugoslav federation of self-managing republics: +3.",
+        "HI": "Golwalkar's 'One Country, One State' called for scrapping federalism for a unitary Bharat: -3.",
+        "ML": "Democratic centralism is doctrinal even in a nominally federal USSR: -3.",
+        "NEOR": "Moldbug's patchwork of small sovereign realms favours splitting authority into many jurisdictions: +2.",
+        "HS": "Hobbes holds sovereignty must be indivisible; divided sovereignty dissolves the commonwealth: -3."
+      }
+    },
+    "power.local.6": {
+      "0": "NOA SC CM CIN IM PP THW",
+      "1": "ES NR AD PC RC POC TP ONC CR LC LU EU SL NEO COL SR OB GE CT ID NM CN LN ELP CI RT BK MC",
+      "2": "AS IA CA MI LL CL LF BL GM DEG DE AMC TAR CLR CF TI GS US CC OR BC ARC GC LT AP LEG SN EB",
+      "3": "CST SMCD DI NC DC AC GAN GA ANC PAL RET TW PA JR SDD MU",
+      "-1": "SU HES UT TH NE NAC GAU BIC MDS ETS PM NS EM CH PR NDL LI AL RE RS GOC EN PN LZ BN HI IB RZ NP WC PSD FA COR NEOR GU",
+      "-2": "NLS NA UJ BA PER MR AUC PE NATC MA TR ML TE PG EA AM EC XC KS MO ME DIR DS LS IR REZ KE VEF WA",
+      "-3": "ST JU HO ACK CAE IF NAZ JM LE HS JA",
+      "split": "UT PC THW CI HI MC",
+      "why": "Subsidiarity as a principle: Catholic/Reformed subsidiarity, anarchist, localist and libertarian camps hold it near-doctrinally; centralisers (Leninists, fascists, Legalists, Jacobins, developmental states) reserve the right of the upper level to intervene anywhere.",
+      "notes": {
+        "CST": "Quadragesimo Anno (1931) states the subsidiarity principle: higher bodies must not absorb what lesser communities can do: +3.",
+        "NC": "Kuyper's sphere sovereignty gives families, churches and local bodies authority not derived from the state: +3.",
+        "TW": "Laozi's wu-wei: the best ruler is barely noticed, people say 'we did it ourselves': +3.",
+        "OR": "Ordoliberals (Röpke, Eucken) cite subsidiarity and small-scale order as a pillar: +2.",
+        "ML": "Democratic centralism subordinates lower organs to higher ones on every matter: -2.",
+        "JA": "Jacobin centralism under the Terror (representatives on mission, Paris over communes): -3.",
+        "LE": "Han Feizi's centralised bureaucracy leaves no sphere outside the ruler's reach: -3.",
+        "NEOR": "Moldbug's neocameralism gives the sovereign CEO total authority within his realm, no autonomous lower tier: -1."
+      }
+    },
+    "power.local.7": {
+      "0": "NOA SC SMCD MC IM CN LN",
+      "1": "TP NM PC RC POC UT EU LU BC ONC NE BIC MDS ETS BK ES EM SL NEO OR CF RE COL SR RS CM CIN LZ CT IB NP WC PP THW CI RT COR NR",
+      "2": "NLS NA UJ BA SU AUC PE TE PG HES TR GU TH NAC GAU EC PM XC KS ME NS DIR DS NATC PR NDL LI AL LS GOC REZ EN IR PN BN HI WA RZ PSD FA CH PER NEOR",
+      "3": "ML ST JU HO ACK MA JA HS LE IF NAZ JM KE MO VEF CAE MR AM EA",
+      "-1": "CST CR GC LC RET LT GM DE ELP CL OB GE LL TI LEG ID EB AD CLR",
+      "-2": "DI NC DC GAN CC GS US AMC PA AP LF MI SDD TAR BL DEG TW ARC",
+      "-3": "AC AS MU IA GA CA ANC PAL JR SN",
+      "split": "CL SMCD DC AMC CR TI",
+      "why": "Central veto over local acts: Leninist, fascist, Legalist, Jacobin and strongman camps make it doctrine; anarchists, secessionists, states'-rights and subsidiarity camps reject it, while liberal federalists and Christian democrats accept it only for constitutional or rights limits.",
+      "notes": {
+        "ML": "Democratic centralism: lower organs are bound by the decisions of higher ones and may be annulled: +3.",
+        "MO": "Mozi's shang tong (conforming upward) requires every level to adopt the superior's standard: +3.",
+        "JR": "Jefferson and Madison's Kentucky and Virginia Resolutions of 1798 assert state power to nullify unconstitutional federal acts: -3.",
+        "SN": "Secessionists reject any central veto over local self-rule, that is the grievance: -3.",
+        "TI": "Yugoslav self-management doctrine gave republics and communes constitutional autonomy, though the League of Communists intervened in practice: -1.",
+        "KE": "Kemalist unitary republic with prefects appointed by Ankara: +3.",
+        "CL": "Madison wanted a federal veto over state laws, yet the classical-liberal tradition mostly rests on limited central power: -1.",
+        "VEF": "Guardian Council and the Supreme Leader can void any act, local or national: +3."
+      }
+    },
+    "power.local.8": {
+      "0": "NOA SC",
+      "1": "TI LL NEOR SDD PA TAR BL RET DI GM GS EB AP",
+      "2": "CC DEG DE SN PAL JR TW US",
+      "3": "DC MU AC AS GA IA ANC CA GAN",
+      "-1": "MI AMC ES CST SMCD NC ETS LT MC BK RC POC ARC GC UT ELP GE LEG CN PN",
+      "-2": "CF EM MDS RS PSD THW FA NM EC PM XC KS EU LU TP UJ PC TE BC ONC CR TH NE LC BIC ME NS DIR DS CH PER CL SL NEO PR NDL LI OR AL RE COL SR LF LS GOC CM CIN LN LZ ID CT IM AD CLR NR NP WC PP RT",
+      "-3": "PG HS HES ML ST MA TR JU HO GU ACK NLS NA BA SU CAE MR AUC PE NAC GAU IF NAZ NATC JM AM EA EN IR KE REZ VEF BN HI WA IB RZ JA COR CI OB LE MO",
+      "split": "UT SDD TI PN DE",
+      "why": "A centre with no power to command: confederalists, anarchist federations, Gandhian oceanic circles and secessionists accept it, while nearly every doctrine that needs a state with sovereignty or enforcement (Hobbes, Hegel, Leninists, fascists, liberal rule-of-law camps) rejects it.",
+      "notes": {
+        "DC": "Bookchin's confederalism and Öcalan's model make the confederal council a delegate body coordinating self-governing assemblies: +3.",
+        "GAN": "Gandhi's 'oceanic circles' put the village at the centre and the top as a ring that serves, not commands: +3.",
+        "MU": "Proudhon's federative principle: the centre only has the powers the contracting units delegate: +3.",
+        "HS": "Hobbes's sovereign must hold the undivided power to command: -3.",
+        "OB": "Rand holds government must keep a monopoly on retaliatory force, hence a real commanding authority: -3.",
+        "CC": "Pannekoek's council system federates workers' councils from below with revocable delegates, no commanding centre: +2.",
+        "SDD": "Swiss Confederation is built on cantonal sovereignty (Art. 3), yet federal law binds the cantons: +1.",
+        "NOA": "A non-aligned state asked about its own country has no doctrinal stake in internal centre-local structure: 0."
+      }
+    },
+    "power.local.9": {
+      "0": "TR NOA SC MC EM PER IR PN IM NS GU",
+      "1": "MO TE POC NLS ML ST MA JU HO ACK HS HES UT JA NAZ NATC JM DIR DS NA BA XC FA AL RE VEF WA AM NEOR BK KE LS GOC ME",
+      "2": "EC PM LE CAE MR AUC GAU IF PG EA PR KS",
+      "-1": "NEO PC RC PE BIC CM CN CIN EN LN LZ REZ ID CT BN HI IB RZ MDS ETS ES RS TI CH PP SMCD TAR GE CLR NR EU LU SU UJ PSD THW LI OR CF COL SR LC TH NE ONC COR CI NDL SL",
+      "-2": "GA IA CA SDD JR AMC PA RET BL BC ARC DI NC CST CL LF LT GS US GM DE DEG ELP AP NP WC MI OB PAL LL TW CR NAC GC RT LEG TP EB NM",
+      "-3": "DC AC AS CC MU GAN SN AD ANC",
+      "split": "MC PER BIC POC KE",
+      "why": "Rule that a local head must come from elsewhere: bureaucratic-imperial and centralist camps (Chinese law of avoidance, Napoleonic prefects, Party cadre rotation) accept it as anti-nepotism, while self-governing, localist and rooted-community camps want leaders drawn from and accountable to their own people.",
+      "notes": {
+        "EC": "The Ming-Qing 'law of avoidance' barred magistrates from serving in their home province, and Vietnam's Nguyen court copied it: +2.",
+        "GAU": "French prefects and sous-prefects are posted away from their home departments by the Napoleonic system: +2.",
+        "PR": "The Progressive city-manager movement hired professional administrators from outside to break machine patronage: +2.",
+        "DC": "Libertarian municipalism makes the assembly of the commune the source of every office, so officials must be members of it: -3.",
+        "AD": "Athenian officials were drawn by lot from among the citizens enrolled in the demes, so being local was the qualification: -3.",
+        "POC": "Dutch mayors are crown-appointed and customarily not natives of the municipality: +1.",
+        "BC": "Burke's 'little platoons' and prescriptive local attachments favour leaders rooted in the community: -2.",
+        "CL": "Barring citizens from office by birthplace is an arbitrary restriction on equal political rights: -2."
+      }
+    },
+    "liberty.expression.1": {
+      "0": "NOA ME NS",
+      "1": "AL ARC NAC GAU TE CST DI MC EC TW EA TP NP WC PP CN SN IB RZ LS",
+      "2": "PR NDL THW LI COL OR NEO SR FA PSD BL RS ES DEG DE EM US GS LT CC TR ELP AP BC ONC AMC CR TH NE PA GC RET PC RC POC SMCD NC SC DIR CM LN CIN LZ REZ ID IM EB CLR SDD NR TAR",
+      "3": "CL LF MI OB ANC PAL LL IA AC AS MU GA CA DC SL RE CF UT AD JR GAN MDS ETS NM GM EU LU LC GE",
+      "-1": "BIC PM BK MO KS DS CH LEG EN IR PN JA RT NEOR TI GOC BN HI HES",
+      "-2": "GU MA NLS PER ML CAE MR AUC PE PG HS XC KE NA BA SU UJ COR CI CT",
+      "-3": "ST JU HO ACK IF NAZ NATC JM AM LE VEF WA",
+      "split": "TP EA NP LEG TR AL NEOR",
+      "why": "Press freedom against government: liberals, democrats, social democrats, greens and anarchists treat it as a core check on power, while Leninist-Stalinist, fascist, theocratic, absolutist and Legalist camps see the press as an instrument of the ruling authority.",
+      "notes": {
+        "UT": "Bentham's 'Securities against Misrule' and Mill make a free press the chief check on rulers: +3.",
+        "JR": "Jefferson: 'were it left to me to decide whether we should have a government without newspapers, or newspapers without a government, I should not hesitate to prefer the latter': +3.",
+        "LU": "'Freedom is always and exclusively freedom for the one who thinks differently' (Luxemburg on the Russian Revolution): +3.",
+        "ML": "Lenin treats 'bourgeois freedom of the press' as a sham and banned opposition papers in 1917-18; the press serves the party: -2.",
+        "HS": "Leviathan ch. 18: the sovereign judges which doctrines may be published, so criticism can be suppressed: -2.",
+        "VEF": "Iran's press law punishes content held to insult Islam or the Leader; reformist papers are closed: -3.",
+        "EA": "Frederick II let people say what they wished as long as he did what he wished; Joseph II's 1781 press patent loosened censorship: +1.",
+        "KE": "Kemalist single-party press laws and the 'insulting Turkishness' clause (Art. 301) punish critics: -2."
+      }
+    },
+    "liberty.expression.2": {
+      "0": "NOA ME NS",
+      "1": "TP TE BC ARC NAC GAU EC BK TI LS LEG CN PN RZ PP AL",
+      "2": "NLS NA UJ BA SU CAE PE PG HES GU BIC PM MO XC KS DS EA GOC CH PER EN IR KE CT BN HI JA COR CI RT",
+      "3": "ST JU HO ACK IF NAZ NATC JM VEF WA LE AM MR AUC HS ML MA",
+      "-1": "PC POC CST SMCD DI SC TR ONC NE TH GC RET US ES EM PR LI OR COL SR RS DIR AP MC CIN LN LZ REZ ID IB IM CLR NP WC NM PSD THW FA BL",
+      "-2": "MDS NEOR RC UT GAN NC AMC CR PA LC EU LT GS ETS TW GM DE DEG ELP SL NEO NDL CF RE CM SN EB SDD NR TAR AD",
+      "-3": "AC AS MU IA GA CA DC LU CC CL LF MI OB ANC PAL LL GE JR",
+      "split": "TE BC NE NP TR",
+      "why": "State takedown of 'destabilising' online content: Leninist, fascist, theocratic, absolutist and Legalist camps give the state that discretion, while liberals, libertarians, anarchists, council communists and free-press democrats see an open-ended power to silence critics.",
+      "notes": {
+        "ML": "Lenin's Decree on the Press (Oct 1917) closed 'counter-revolutionary' papers; the same logic extends to online content today: +3.",
+        "HS": "Hobbes (Leviathan ch. 18) gives the sovereign the right to judge which doctrines are fit to be published for peace: +3.",
+        "AUC": "Singapore's POFMA and China's Great Firewall are the template of authoritarian capitalism for removing 'destabilising' content: +3.",
+        "JR": "Sedition Act of 1798 was condemned by Jefferson, who pardoned its victims and wrote the Kentucky Resolutions against it: -3.",
+        "LU": "Luxemburg's 'freedom for the one who thinks differently' leaves no room for state takedowns: -3.",
+        "UT": "Mill's harm principle and Bentham's publicity doctrine allow limits only for concrete harm, not vague 'instability': -2.",
+        "BIC": "Bismarck's Anti-Socialist Laws (1878) banned socialist publications as a danger to public order: +2.",
+        "TR": "Trotsky demanded freedom for all soviet parties' press against Stalinist censorship, though he accepted wartime suppression: -1."
+      }
+    },
+    "liberty.expression.3": {
+      "0": "ME NS NOA",
+      "1": "TH SC MC IM IB NP WC PP NAC GAU TE DIR TP HES TW BK CH PER CN LS JA RZ",
+      "2": "LF DE DEG GE PR NDL THW LI OR NEO COL FA PSD RS EM US AP TAR PC RC POC SMCD DI BC ARC ONC AMC CR NE PA GC RET CM CIN LN LZ REZ ID SN CLR NR TR LC",
+      "3": "CL SL MDS ETS NM GM EU LU CC LL MI OB ANC PAL IA AC AS MU GA CA DC RE CF UT AD JR GAN SDD EB SR BL ES GS LT CST NC ELP",
+      "-1": "BIC AL DS PE AUC SU NLS GU EC PM MO XC TI GOC EN IR PN CT BN HI NEOR RT CI LEG",
+      "-2": "CAE ML MA NA UJ BA PG HS KS KE EA VEF COR",
+      "-3": "MR ST JU HO ACK LE IF NAZ NATC JM AM WA",
+      "split": "TH HES JA AUC HI",
+      "why": "Freedom of association and peaceful assembly is near-universal among liberal, democratic, socialist-pluralist, Christian-social and anarchist camps, while regimes built on a single party or authority (Stalinist, fascist, Legalist, absolutist, theocratic, military) treat unlicensed associations as a threat.",
+      "notes": {
+        "CST": "Rerum Novarum (1891) defends the natural right of workers to form associations, and Pacem in Terris extends it: +3.",
+        "SR": "French Radicals passed the 1901 Law on Associations (Waldeck-Rousseau and Combes), founding association rights in France: +3.",
+        "GAN": "Satyagraha rests on peaceful public assembly and marches such as the 1930 Salt March: +3.",
+        "HS": "Hobbes calls unlicensed bodies 'worms in the entrails of a natural man' (Leviathan ch. 29); assembly needs the sovereign's leave: -2.",
+        "LE": "Shang Yang's mutual-surveillance groups and Han Feizi ban private associations that rival the ruler's authority: -3.",
+        "ML": "Soviet constitutions guaranteed assembly only 'in accordance with the interests of the working people' and under party leadership: -2.",
+        "AUC": "Singapore requires police permits for outdoor assembly and confines protest to Speakers' Corner, and its adherents defend that: -1.",
+        "JA": "Jacobin clubs were themselves associations, yet the Convention shut women's and popular societies in 1793: +1."
+      }
+    },
+    "liberty.expression.4": {
+      "0": "NOA ME NS",
+      "1": "TP UJ SU SMCD CST DI HES ARC NAC GAU MC PM BK DS CN PN RZ TI LS GOC EA CH AL NP WC PP",
+      "2": "NLS NA BA CAE MR AUC PE PER ML GU BC BIC EC MO KS BN HI IB JA KE EN IR RT LEG",
+      "3": "ST JU HO ACK IF NAZ NATC JM LE VEF WA CT CI COR PG HS XC MA AM",
+      "-1": "PC RC POC TE NC SC TR CR TH NE GC RET US ONC COL SR RS DIR TW ES DE EM AP PR NDL LI OR CF CM CIN LN LZ REZ ID IM NM PSD THW FA BL NR CLR NEOR AD",
+      "-2": "GAN DC GA UT EU CC AMC PA LC MDS LT GS ETS GM DEG ELP SL NEO RE MI GE PAL SN EB SDD TAR",
+      "-3": "AC AS MU IA CA LU CL LF OB ANC LL JR",
+      "split": "TR CR MC EA AD NEOR HES",
+      "why": "Whether some ideas are too dangerous to propagate: doctrines with a notion of heresy, counter-revolution or orthodoxy (Stalinist, fascist, theocratic, Legalist, integralist, Platonic) say yes, while liberals, libertarians, anarchists and democratic socialists hold that ideas are answered, not banned.",
+      "notes": {
+        "PG": "Republic Books II-III and X expel or censor poets and myths that corrupt the guardians: +3.",
+        "XC": "Xunzi's 'Against the Twelve Philosophers' and 'Rectifying Names' call for punishing those who coin deviant doctrines: +3.",
+        "CI": "Integralism holds that error has no rights and the temporal power must suppress heresy and apostasy under spiritual guidance: +3.",
+        "JA": "Saint-Just: 'no liberty for the enemies of liberty'; the Law of Suspects (1793) punished counter-revolutionary opinion: +2.",
+        "CL": "Mill's On Liberty chapter 2: silencing an opinion robs the human race, including the dissenters: -3.",
+        "AL": "Loewenstein's 'militant democracy' and the German Basic Law (Art. 21) ban parties and ideas hostile to the constitutional order: +1.",
+        "JR": "Jefferson's inaugural: 'error of opinion may be tolerated where reason is left free to combat it': -3.",
+        "SMCD": "German Christian Democrats back the Basic Law's ban on Nazi propaganda and extremist parties (Volksverhetzung, §86a StGB): +1."
+      }
+    },
+    "liberty.expression.5": {
+      "0": "NOA ME NS DIR TE",
+      "1": "PR LI CF COL SR FA PSD THW RS ES DEG DE EM US GS LT TH NE GC PC RC POC NC SC MC TW ELP AP TAR LZ SN EB SDD NR NEOR EA LS GAN LN",
+      "2": "AS GA CA DC CC TR SL NEO NDL OR MDS ETS GM EU NM AMC PA LC CM CLR CIN REZ AD",
+      "3": "CL LF MI OB ANC PAL LL IA AC MU UT LU RE JR GE",
+      "-1": "AL BL CR NAC GAU ARC ONC RET SMCD CST DI HES EC PM BK MO KS DS CH CN PN ID IB IM RZ NP WC JA TI GOC TP BC",
+      "-2": "BIC CAE AUC PE HS ML GU NLS XC PER NA UJ BA SU EN IR KE LEG BN HI COR RT PP",
+      "-3": "MR PG ST MA JU HO ACK LE IF NAZ NATC JM AM VEF CT WA CI",
+      "split": "PR BL BC NAC GC CR NP",
+      "why": "Protecting speech the majority finds offensive: Millian liberals, libertarians and anarchists make it the core of free speech, while orthodoxy-enforcing camps (fascist, Stalinist, theocratic, Legalist, integralist) and communitarian or majoritarian conservatives want offence to settled sentiment curbed.",
+      "notes": {
+        "UT": "Mill's On Liberty ch. 2 and 3: the tyranny of the prevailing opinion is the danger, and eccentric or offensive views must be protected: +3.",
+        "OB": "Objectivism holds that individual rights, including speech, may not be overridden by majority sentiment: +3.",
+        "AMC": "National Socialist Party v. Skokie (1977) and Texas v. Johnson are defended on First Amendment grounds by mainstream American conservatives: +2.",
+        "CT": "Calvin's Geneva executed Servetus and punished blasphemy against the majority faith: -3.",
+        "CI": "Catholic integralism holds that error has no rights and offence to the true faith may be repressed: -3.",
+        "HS": "Hobbes makes the sovereign judge of acceptable doctrines and speech, so majority or sovereign sensibilities decide: -2.",
+        "BL": "Blue Labour (Glasman) stresses rooted communal sensibilities against metropolitan liberal norms: -1.",
+        "AD": "Athenian isegoria and the freedom of comic poets such as Aristophanes to mock the demos and gods: +2."
+      }
+    },
+    "liberty.expression.6": {
+      "0": "NOA NS DIR",
+      "1": "TP GU HES AL TE GAU BIC BK ME TI LS PN HI JA RT",
+      "2": "NLS NA UJ SU PE DS HS EC PM MO XC KS GOC EA LEG EN IR KE BN COR CH PER",
+      "3": "ST JU HO ACK IF NAZ NATC JM ML MA AM MR CAE AUC LE VEF WA CT CI PG BA",
+      "-1": "SC CST DI ARC NAC MC TW CN LZ ID IB IM RZ FA BL RS NP WC PP NEOR PR",
+      "-2": "NEO NDL LI OR CF COL SR PC RC POC SMCD NC UT TR BC ONC CR TH NE GC RET LT GS US ES DE DEG EM ELP AP CIN LN REZ SN EB CLR NR PSD THW",
+      "-3": "AC AS MU IA GA CA DC CL LF SL RE EU LU CC AMC PA LC MDS ETS GM AD SDD JR CM TAR NM GAN MI OB ANC PAL LL GE",
+      "split": "TE HS JA ME",
+      "why": "State licensing of newspapers and news sites: authoritarian, totalitarian, absolutist and Legalist camps hold it as normal state control, while liberal, libertarian, socialist-pluralist and anarchist camps follow Milton's Areopagitica in rejecting prior permission.",
+      "notes": {
+        "CL": "Milton's Areopagitica (1644) is the founding attack on state licensing of printing; the 1695 lapse of the Licensing Act is a liberal landmark: -3.",
+        "CAE": "Napoleon III's decree of 17 Feb 1852 required government authorisation to found a newspaper, and the Second Empire used 'warnings' to close papers: +3.",
+        "AUC": "Singapore's Newspaper and Printing Presses Act requires an annual government permit and lets the state hold a management share: +3.",
+        "AMC": "Near v. Minnesota (1931) and the doctrine against prior restraint make licensing a First Amendment violation: -3.",
+        "ML": "Soviet press law (1917 onward) put every paper under party and state registration and control: +3.",
+        "UT": "Bentham's writings on the liberty of the press oppose any licensing, since publicity restrains misrule: -2.",
+        "KS": "The Arthashastra treats information as a state matter with spies and registered communications; no free private press: +2.",
+        "HS": "Hobbes's sovereign rules over what is published, which implies permission, though he never discusses newspapers: +2."
+      }
+    },
+    "liberty.expression.7": {
+      "0": "NOA ME NS DIR",
+      "1": "UJ SU DS TP RT EA EC PM BK KE EN IR PN BN PER HES JA",
+      "2": "NLS NA BA PE GU GOC COR CI AM MR CAE AUC HS KS XC MO LEG",
+      "3": "ST JU HO ACK IF NAZ NATC JM LE PG VEF WA CT ML MA",
+      "-1": "TI LS NEOR BIC CST ARC NAC GAU AL TE MC CN IB HI RZ CH NP WC PP",
+      "-2": "CM SMCD DI NC BC ONC CR TH NE GC RET NEO NDL PR LI OR CF COL SR PC RC POC SC LT GS US FA PSD THW BL RS ES DE DEG EM TW LZ REZ CIN LN SN ID IM ELP AP CLR NR TR",
+      "-3": "AC AS MU IA GA CA DC CL LF SL RE UT AMC PA LC MDS ETS NM EU LU CC GM EB TAR AD SDD JR GAN MI OB ANC PAL LL GE",
+      "split": "JA HES AUC CT",
+      "why": "Blanket prior censorship of every book, article and film: totalitarian, theocratic, Legalist and Platonic camps build it into their order, while liberal, democratic-socialist, libertarian and anarchist camps treat prior restraint as the paradigm violation of free expression.",
+      "notes": {
+        "ML": "Glavlit (1922) pre-screened all Soviet publications, the model for every Leninist state: +3.",
+        "PG": "Republic II-III has the guardians vet every story told to the young and expel poets who fail: +3.",
+        "CL": "Milton's Areopagitica and Blackstone's rule against prior restraint make pre-publication vetting the core evil: -3.",
+        "VEF": "Iran's Ministry of Culture and Islamic Guidance licenses every book and film before release: +3.",
+        "CST": "The Church's own imprimatur and Index were for Catholic publication, but modern social doctrine does not demand state vetting of all works: -1.",
+        "SMCD": "German Basic Law Art. 5(1) says 'there shall be no censorship', which Christian Democrats uphold: -2.",
+        "AUC": "Singapore's IMDA classifies and bans films before release and the PCA screens publications, though not every book: +2.",
+        "LU": "Luxemburg opposed Bolshevik press and cultural restrictions as the strangling of public life: -3."
+      }
+    },
+    "liberty.expression.8": {
+      "0": "NOA ME NS DIR AP",
+      "1": "DI NC TP FA ETS GS US BL ST MA HO GU CC LI OR AL SL BC ARC ONC LC GAU BIC RET CAE MR PE PC RC TE PG SC HES KS MC DS DE DEG EM PER AM EA LEG CN KE REZ CT IB IM EB CLR JA DC NA BA COR CI LS GAN",
+      "2": "SMCD CST SDD NM PSD THW MDS ES GM EU LT RS NLS ML TR LU PR NDL CF SR POC HS EC LE PM BK MO XC ID CH ELP NR CM CIN LN LZ UJ SU GOC WA VEF",
+      "3": "TI AUC",
+      "-1": "JU NATC NEO RE COL GE UT TH GC NAC TW NP WC PP SN IR PN BN HI RZ",
+      "-2": "JM CL LF MI LL AMC CR NE PA AD JR EN TAR NEOR RT AC AS MU GA CA ACK",
+      "-3": "NAZ IF OB ANC PAL IA",
+      "split": "ST HI RZ BN GAN SL GE",
+      "why": "Whether the law should punish ethnic or religious hate speech: social democrats, Christian democrats, Titoists, Leninists and order-first authoritarians accept it as protection of civic peace, while US-style liberals, libertarians, anarchists and ethno-nationalists oppose it as state policing of opinion.",
+      "notes": {
+        "TI": "Yugoslav Criminal Code Art. 133 punished inciting national, racial or religious hatred, a pillar of 'brotherhood and unity': +3.",
+        "AUC": "Singapore's Maintenance of Religious Harmony Act and Sedition Act punish racial and religious incitement, which its adherents defend as essential to stability: +3.",
+        "SMCD": "Germany's Volksverhetzung provision (§130 StGB) was backed by Christian Democrats after Nazism: +2.",
+        "CL": "Mill and the Brandenburg v. Ohio line protect even hateful opinion unless it produces imminent violence: -2.",
+        "OB": "Rand treats punishing speech as a violation of individual rights and thought-policing: -3.",
+        "MO": "Mozi's jian ai (impartial care for all) counts hatred between groups as the root of social disorder: +2.",
+        "SR": "French Radicals and the Marchandeau decree of 1939 banned racial defamation in the press: +2.",
+        "AC": "Anarchists condemn bigotry but refuse to hand the state a power to punish opinion: -2."
+      }
+    },
+    "liberty.expression.9": {
+      "0": "NOA ME NS DIR DS",
+      "1": "PA SDD LN AP AD KE REZ SN CN JU NLS TH NE GAU NP WC SC TW EA TP CH TI GOC TE AL EB NEOR",
+      "2": "CA DC SL NEO NDL PR LI OR CF COL SR MDS ETS GM ES NM FA PSD THW TR RS GE DEG DE EM US GS PC RC POC TAR AMC LC CM CLR NR CIN ELP JA LZ ML ST MA GU ACK LS",
+      "3": "CL LF MI OB ANC PAL LL IA AC AS MU GA UT LU RE JR CC EU HO",
+      "-1": "SMCD NC BC ARC ONC BIC GC NAC PP CAE MR PE HES MC EC LE PM MO XC KS NAZ EN IR PN PER NA UJ BA GAN BL LT",
+      "-2": "CST DI CR RET AUC PG HS BK IF JM AM LEG ID IM HI RZ RT SU",
+      "-3": "NATC VEF CT BN WA IB COR CI",
+      "split": "SDD KE AD TH NP CM",
+      "why": "Whether mocking religion, even the majority's, should be legal: secular liberals, libertarians, anarchists, socialists and Leninists say yes, while theocratic, integralist, Islamist, Buddhist-nationalist and harmony-state camps keep blasphemy or religious-feelings laws.",
+      "notes": {
+        "JR": "Jefferson's Virginia Statute for Religious Freedom (1786) says opinions in matters of religion are outside civil authority: +3.",
+        "RE": "Voltaire's campaign against the Church ('Écrasez l'infâme') and his defence of the Calas case treat satire of religion as protected reason: +3.",
+        "HO": "Hoxha's Albania declared itself the world's first atheist state in 1967 and made mockery of religion state policy: +3.",
+        "JA": "The Jacobin-era de-Christianisation and Cult of Reason mocked the Church openly: +2.",
+        "WA": "Saudi law punishes insult to Islam with severe penalties up to death on apostasy and blasphemy charges: -3.",
+        "AUC": "Singapore's Penal Code s.298 and the Sedition Act punish wounding religious feelings in the name of harmony: -2.",
+        "CST": "Catholic teaching condemns blasphemy and the Church reacted to Charlie Hebdo by urging limits on insulting the faithful: -2.",
+        "BN": "Buddhist nationalists in Myanmar and Sri Lanka push blasphemy prosecutions against those who insult Buddhism: -3."
+      }
+    }
+  }
+}

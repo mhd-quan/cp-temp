@@ -1,0 +1,7 @@
+/* The homepage after its cover (lib/editionStyles.ts): the shell's later
+   half, then the page below the cover in the order its styles were always
+   read (the door, the cards, the modules of the page). */
+@import './shell.css';
+@import './door.css';
+@import './cards.css';
+@import './home-later.css';

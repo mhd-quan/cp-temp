@@ -1,0 +1,157 @@
+{
+  "family": {
+    "id": "feminism",
+    "name": "Nữ quyền",
+    "en": "Feminism",
+    "summary": "Bất bình đẳng giữa nam và nữ do luật lệ, kinh tế và văn hoá tạo ra chứ không phải tự nhiên; các dòng khác nhau ở chỗ sửa luật, đổi cơ cấu kinh tế hay lật đổ cả chế độ phụ quyền."
+  },
+  "variants": [
+    {
+      "id": "liberal-feminism",
+      "name": "Nữ quyền tự do",
+      "en": "Liberal feminism",
+      "summary": "Phụ nữ phải bình đẳng với nam giới trước pháp luật: được bầu cử, học hành, sở hữu, nhận lương ngang nhau và tự quyết việc sinh con, nhờ cải cách luật pháp trong nền dân chủ tự do.",
+      "exemplars": [
+        "Mary Wollstonecraft",
+        "John Stuart Mill (Sự lệ thuộc của phụ nữ, 1869)",
+        "Elizabeth Cady Stanton",
+        "Betty Friedan"
+      ],
+      "period": "1792–nay",
+      "axes": {
+        "economy": 65,
+        "distribution": 50,
+        "trade": 75,
+        "power": 85,
+        "liberty": 85,
+        "elites": 50,
+        "lifestyle": 85,
+        "religion": 25,
+        "identity": 70,
+        "environment": 50,
+        "foreign": 65,
+        "change": 35
+      },
+      "facets": {
+        "distribution.tax": 60,
+        "distribution.welfare": 55,
+        "distribution.labour": 35,
+        "elites.decision": 40,
+        "elites.rank": 90,
+        "elites.trust": 25,
+        "lifestyle.family": 80,
+        "lifestyle.gender": 100,
+        "lifestyle.autonomy": 75,
+        "change.means": 15,
+        "change.depth": 50
+      },
+      "sd": {
+        "economy": 15,
+        "environment": 15
+      },
+      "status": "draft",
+      "raters": [
+        "claude"
+      ]
+    },
+    {
+      "id": "socialist-feminism",
+      "name": "Nữ quyền xã hội chủ nghĩa",
+      "en": "Socialist feminism (Marxist feminism)",
+      "summary": "Áp bức phụ nữ gắn với chủ nghĩa tư bản, vốn sống nhờ lao động nội trợ và chăm sóc không lương; phải xã hội hoá việc chăm sóc và đấu tranh cùng lúc cho giới và giai cấp.",
+      "exemplars": [
+        "Clara Zetkin",
+        "Alexandra Kollontai",
+        "Sheila Rowbotham",
+        "Phong trào Lương cho việc nội trợ (1972)"
+      ],
+      "period": "1879–nay",
+      "axes": {
+        "economy": 20,
+        "distribution": 15,
+        "trade": 40,
+        "power": 75,
+        "liberty": 75,
+        "elites": 70,
+        "lifestyle": 85,
+        "religion": 15,
+        "identity": 85,
+        "environment": 60,
+        "foreign": 75,
+        "change": 70
+      },
+      "facets": {
+        "distribution.tax": 25,
+        "distribution.welfare": 0,
+        "distribution.labour": 10,
+        "elites.rank": 90,
+        "elites.trust": 55,
+        "lifestyle.family": 90,
+        "lifestyle.gender": 100,
+        "lifestyle.autonomy": 70,
+        "change.pace": 65,
+        "change.means": 55,
+        "change.depth": 95
+      },
+      "sd": {
+        "power": 15,
+        "environment": 15
+      },
+      "status": "draft",
+      "raters": [
+        "claude"
+      ]
+    },
+    {
+      "id": "radical-feminism",
+      "name": "Nữ quyền cấp tiến",
+      "en": "Radical feminism",
+      "summary": "Chế độ phụ quyền là hệ thống áp bức gốc rễ nhất; phải thay đổi tận gốc gia đình và quan hệ tình dục, chống khiêu dâm và mại dâm như sự bóc lột, phụ nữ tự tổ chức riêng.",
+      "exemplars": [
+        "Shulamith Firestone",
+        "Kate Millett",
+        "Andrea Dworkin",
+        "Catharine MacKinnon"
+      ],
+      "period": "1967–nay",
+      "axes": {
+        "economy": 30,
+        "distribution": 20,
+        "trade": 45,
+        "power": 80,
+        "liberty": 45,
+        "elites": 90,
+        "lifestyle": 70,
+        "religion": 10,
+        "identity": 80,
+        "environment": 65,
+        "foreign": 85,
+        "change": 80
+      },
+      "facets": {
+        "liberty.expression": 35,
+        "liberty.justice": 50,
+        "liberty.privacy": 50,
+        "elites.decision": 85,
+        "elites.rank": 100,
+        "lifestyle.family": 100,
+        "lifestyle.gender": 90,
+        "lifestyle.autonomy": 20,
+        "change.pace": 85,
+        "change.means": 45,
+        "change.depth": 100
+      },
+      "sd": {
+        "economy": 20,
+        "distribution": 15,
+        "trade": 15,
+        "environment": 15,
+        "lifestyle.gender": 15
+      },
+      "status": "draft",
+      "raters": [
+        "claude"
+      ]
+    }
+  ]
+}

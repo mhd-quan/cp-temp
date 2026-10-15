@@ -1,0 +1,30 @@
+---
+// /essays/2, /essays/3, …: pages 2+ of the essay index. Numeric params only;
+// essay slugs stay with [...slug].astro (static numbers win over rest params).
+import { getCollection } from 'astro:content';
+import type { GetStaticPaths } from 'astro';
+import EssayIndex from '~/components/edition/EssayIndex.astro';
+import { PER_PAGE } from '~/lib/pagination';
+
+export const getStaticPaths = (async () => {
+  const sorted = (await getCollection('essays', ({ data }) => !data.draft)).sort(
+    (a, b) => +b.data.date - +a.data.date,
+  );
+  const last = Math.max(1, Math.ceil(sorted.length / PER_PAGE));
+  return Array.from({ length: last - 1 }, (_, index) => {
+    const page = index + 2;
+    return {
+      params: { page: String(page) },
+      props: {
+        entries: sorted.slice((page - 1) * PER_PAGE, page * PER_PAGE),
+        current: page,
+        last,
+        total: sorted.length,
+      },
+    };
+  });
+}) satisfies GetStaticPaths;
+
+const { entries, current, last, total } = Astro.props;
+---
+<EssayIndex entries={entries} current={current} last={last} total={total} />

@@ -1,0 +1,34 @@
+---
+// Appearance: light, dark, or following the system. Three glyphs in one small
+// tray, the way the reader's settings are set (a native radio group), so it
+// never wraps and never needs a line of its own for words: the names are for
+// screen readers and the pointer's tooltip. The chosen glyph sits on a lifted
+// tile that slides between them; its place is read from the root's theme
+// (set by the head script before the first paint), so the tile is where it
+// belongs from the first frame and only ever moves when the reader moves it.
+// Every group with data-appearance is kept in sync by the layout.
+import Glyph from './Glyph.astro';
+
+interface Props {
+  name: string;
+  labelledby: string;
+  class?: string;
+}
+const { name, labelledby, class: className } = Astro.props;
+const options = [
+  { value: 'light', label: 'Sáng', glyph: 'sun' },
+  { value: 'dark', label: 'Tối', glyph: 'moon' },
+  { value: 'auto', label: 'Tự động, theo hệ thống', glyph: 'auto' },
+] as const;
+---
+<fieldset class:list={['appearance', className]} aria-labelledby={labelledby}>
+  <span class="appearance__tray">
+    {options.map((option) => (
+      <label title={option.label} data-mode={option.value}>
+        <input type="radio" name={name} value={option.value} data-appearance checked={option.value === 'auto'} />
+        <Glyph name={option.glyph} size={18} />
+        <span class="sr-only">{option.label}</span>
+      </label>
+    ))}
+  </span>
+</fieldset>

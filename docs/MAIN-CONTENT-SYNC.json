@@ -1,0 +1,240 @@
+{
+  "sourceRef": "site/main",
+  "commit": "51beb677ce7c544492b616f991130029eac11730",
+  "essayCount": 58,
+  "copiedOrUpdated": [],
+  "essays": [
+    {
+      "path": "src/content/essays/2025-04-18-thich-minh-tue-archetype-cua-self.mdx",
+      "sha256": "c9bfd41cf10eeb12c42ff9e42416c05738827fea8a1fb10924469dc626bbc8c4"
+    },
+    {
+      "path": "src/content/essays/2026-01-05-mot-tham-quyen-moi.mdx",
+      "sha256": "ec64b4da70c174ccc0629562c8fd59d318ebfd4e76952563478ced24437d77a5"
+    },
+    {
+      "path": "src/content/essays/2026-01-06-cong-ly-cua-ke-manh.mdx",
+      "sha256": "e4c5de2db5329e237808b1fb96e94cb9634e5df5f580c3098df0aee98032fdf3"
+    },
+    {
+      "path": "src/content/essays/2026-01-08-vuong-quoc-khong-thuoc-the-gian-nay.mdx",
+      "sha256": "aa6b8224bc61c4f15348993e78c52776ee848fa93c2cccb412b284ce5e33f40a"
+    },
+    {
+      "path": "src/content/essays/2026-01-12-nhung-ua-con-cua-mac-cam.mdx",
+      "sha256": "20ecc58fa81863835e16182906bc7fd4b21db88aab6dc41aead0ac261f6d1411"
+    },
+    {
+      "path": "src/content/essays/2026-01-13-khi-hoai-nghi-tro-thanh-giao-ieu.mdx",
+      "sha256": "ba0a40e4a7f84ec72bda62bafea2b699f642e455aa7125ba939bafa54f519ad6"
+    },
+    {
+      "path": "src/content/essays/2026-01-16-thien-tru-ia-diet.mdx",
+      "sha256": "fe6098f97ac2983fb8b1f5fc96f3dc7246dc49ba028c7c6a0f91cad83d01dfbc"
+    },
+    {
+      "path": "src/content/essays/2026-01-18-khi-le-nghi-tan-lui.mdx",
+      "sha256": "fa664e1720f0faabea92102fa7c8ad4b5bffa5375b9f62b8e71d5a9d83b13d48"
+    },
+    {
+      "path": "src/content/essays/2026-01-19-thien-menh-o.mdx",
+      "sha256": "44aebd7e0acd7332ab06a3a15aa6caaf7a616f2407723c76a04cc015eb3e5b8c"
+    },
+    {
+      "path": "src/content/essays/2026-01-23-ung-thu-lanh-tinh.mdx",
+      "sha256": "cd324056fd8c65df545fa0480034218c59844acbc2ca29df11c05ec959692608"
+    },
+    {
+      "path": "src/content/essays/2026-01-25-zugzwang.mdx",
+      "sha256": "1e57238e434e335111e84c7f544b4b76a4f712fe2e9cae0dde1c8d01ff9ea495"
+    },
+    {
+      "path": "src/content/essays/2026-01-27-cong-xuong-cua-cong-xuong.mdx",
+      "sha256": "c1c9d029b674c409339e2c1d7ea7d4b2cd2518d484ca9bdfae683260cbf15b4b"
+    },
+    {
+      "path": "src/content/essays/2026-01-29-cai-gia-cua-khat-vong.mdx",
+      "sha256": "09f23ae2a04a6098d8864d16d7cba67a9cb37f580f7ee3e45514e29c2123d2d3"
+    },
+    {
+      "path": "src/content/essays/2026-01-31-khoang-trong-ly-luan.mdx",
+      "sha256": "bd604efc35df6176624d00102f4e6bdd4bfc6f264e9216921284bfb814390f2a"
+    },
+    {
+      "path": "src/content/essays/2026-02-02-cor-inquietum.mdx",
+      "sha256": "5793270e5c2945691d4a8ad5c1317c18cd16805c0a2faf4c4b0511840c24f955"
+    },
+    {
+      "path": "src/content/essays/2026-02-05-phan-e-trung-hoa.mdx",
+      "sha256": "b39bbfbe67ef036b66b859d11b55f8f3a20f20474c7baa41d048502aebdf8b6b"
+    },
+    {
+      "path": "src/content/essays/2026-02-07-the-gioi-khong-co-hoi-ket.mdx",
+      "sha256": "e163949ecbc24acdc0d108689db878ab4bdce49395e48ccc6f66500564314dbe"
+    },
+    {
+      "path": "src/content/essays/2026-02-08-truy-to-thoi-tiet.mdx",
+      "sha256": "64055afd61f722040d2f09d3b932db28c01acd67dfad78e292706b85e2e26e9a"
+    },
+    {
+      "path": "src/content/essays/2026-02-10-tet-a-chet.mdx",
+      "sha256": "1913581b1424758703b431df7b46e32f454b5a7fe18bf22ab5a14595010f401c"
+    },
+    {
+      "path": "src/content/essays/2026-02-13-phoi-mam.mdx",
+      "sha256": "047db37f45b5c018b2744381469342fc2241783e52f45ac81d17c2f9ed6426d8"
+    },
+    {
+      "path": "src/content/essays/2026-02-18-tam-man-che-phan-nguoi.mdx",
+      "sha256": "10c2fa45d27628f71d1b6247b633c6d6a36e9dba35c8e9be66d7827aaa37fe2c"
+    },
+    {
+      "path": "src/content/essays/2026-02-22-nguy-bien-gia-kinh-te-gia-va-bon.mdx",
+      "sha256": "5a1345346202a6c8a06f2d03ff5c80f6e29a80a83fd986bc4c0102d1735ef629"
+    },
+    {
+      "path": "src/content/essays/2026-02-23-nganh-cong-nghiep-bo-vai.mdx",
+      "sha256": "439257bdcfe0a545789d247e56af9cacd726d008d5fb742bc1a3b2be230dc6d7"
+    },
+    {
+      "path": "src/content/essays/2026-02-28-su-phat-minh-to-quoc.mdx",
+      "sha256": "38a806b5e261122460c83af838078b421779c1a6a4f1a5f81a751951f25043b5"
+    },
+    {
+      "path": "src/content/essays/2026-03-01-the-golden-age-and-its-discontents.mdx",
+      "sha256": "f8c2fd513ca4c448a5d86c43d2021d3924b3638ed5f0f4d7e77a2d225e27cb12"
+    },
+    {
+      "path": "src/content/essays/2026-03-04-trat-tu-cua-tinh-yeu.mdx",
+      "sha256": "13425789b3b994fd9fd06c66e8e21e27521c6f8aa116f06cde63b41b249f2736"
+    },
+    {
+      "path": "src/content/essays/2026-03-07-huyen-thoai-ve-mot-lanh-tho-vo-nhiem.mdx",
+      "sha256": "a6e43245358937b98b4b597996c0aec8ffc16ef7bef60dc3926df84725b62145"
+    },
+    {
+      "path": "src/content/essays/2026-03-10-niem-an-ui-cua-suy-tan.mdx",
+      "sha256": "1976f75ce3d50eb044410cef2b9c5e9d035274e4fb1b4e408c0023ddcbabc782"
+    },
+    {
+      "path": "src/content/essays/2026-03-11-mui-huong-ke-chinh-phuc.mdx",
+      "sha256": "49c0bb07e272bdfdbdbb59e53e0fc4376c1221c735c10d51494509c90274d67d"
+    },
+    {
+      "path": "src/content/essays/2026-03-14-vuot-qua-to-quoc.mdx",
+      "sha256": "bd7a3888ec5b28fe0b4f1c90c52b49eb0e04afa1c49db98bc2125a3fa04c5822"
+    },
+    {
+      "path": "src/content/essays/2026-03-18-nha-nuoc-gan-nhu-uoc-chon.mdx",
+      "sha256": "919968223bf22e8bbbcdc3e8c2a70f1faa392c984500d275d587955c7374af45"
+    },
+    {
+      "path": "src/content/essays/2026-03-21-nghi-le-cua-nen-cong-hoa.mdx",
+      "sha256": "8a85ae1f934bfc00ef58e9ca1094b805faa716943b2c8b747ea56fc4b4473055"
+    },
+    {
+      "path": "src/content/essays/2026-03-24-cai-nguc-thuan-tuy.mdx",
+      "sha256": "ea8230488fd06c0b4a403a59cc33efe4be6e3333df8ed0517670a4971062d602"
+    },
+    {
+      "path": "src/content/essays/2026-03-28-au-roi-loi-ru.mdx",
+      "sha256": "5684d78ebc156c106cb696978386a9dac057be26cb558159096f01a447fb6f8c"
+    },
+    {
+      "path": "src/content/essays/2026-03-31-thong-long-lua.mdx",
+      "sha256": "4c196da94751c5ed9d738676fffad519e1758b6e131dd99a8e9133301b30af9b"
+    },
+    {
+      "path": "src/content/essays/2026-04-04-tha-hoa-tri-thuc.mdx",
+      "sha256": "90f7a4365693a2e61f04b090e44fdb7ad27f6b7bb9d7158e8c2d111bba622f14"
+    },
+    {
+      "path": "src/content/essays/2026-04-08-cai-hop-hai-ay.mdx",
+      "sha256": "e5685d59c45ea975cc7323b9ac3e7dddba3bf4bdfdb540ef83596ce531fd7f7d"
+    },
+    {
+      "path": "src/content/essays/2026-04-11-anh-sang-vay-muon.mdx",
+      "sha256": "828b30604c0e20b1740b0503240a1f31129a59d2f19445b11b62821468e0ece3"
+    },
+    {
+      "path": "src/content/essays/2026-04-15-nhung-au-si-cuoi-cung.mdx",
+      "sha256": "7ab5239e242e0f64d57278737450bd55eea5d8b4f0c9fb67540495c095872019"
+    },
+    {
+      "path": "src/content/essays/2026-04-18-binh-thien-ha.mdx",
+      "sha256": "4ae32b751c1b9ec7f38d4a47fcd3dd1b11a0a86b40a134411e732281b0f40c7c"
+    },
+    {
+      "path": "src/content/essays/2026-04-21-cai-co-cua-thay-boi.mdx",
+      "sha256": "096272f0fc4a15f509d35a1616317f68a092c7744a2a20a379c2f5477ba3573b"
+    },
+    {
+      "path": "src/content/essays/2026-04-25-vang-mat-nhan-chung.mdx",
+      "sha256": "f32a29168ba3d5dad5539c6f8f393b8ebd4967df8e4488553cf73afcba303405"
+    },
+    {
+      "path": "src/content/essays/2026-04-29-your-outies-loves-you.mdx",
+      "sha256": "acd314f9ca9707eb574ff65af185f21533e2ec3e8a6820a0eced459f84c9d48b"
+    },
+    {
+      "path": "src/content/essays/2026-05-02-hoa-cuc-va-may-ban-hang.mdx",
+      "sha256": "810a12c7bc7f641f100dd7185bd8f63b555ba30faf9297e43109aa1446c58025"
+    },
+    {
+      "path": "src/content/essays/2026-05-21-trieu-cong-khong-can-e-quoc.mdx",
+      "sha256": "e248288a604204c55c28ffeb14f4c89b743772d6914c93cfa2f13ff6e5cfae97"
+    },
+    {
+      "path": "src/content/essays/2026-05-30-kinh-cau-cho-ke-tinh-tao.mdx",
+      "sha256": "2ab5b202e2b0c637ba7eedfe05d0f5835ac749fa26b793db7a41b1a330a9d3aa"
+    },
+    {
+      "path": "src/content/essays/2026-06-07-am-ong-tu-nguyen.mdx",
+      "sha256": "36a1928c74fa7748f7847426bd3328cc51b2114143426289dfe7c87bc5de382a"
+    },
+    {
+      "path": "src/content/essays/2026-06-14-regie.mdx",
+      "sha256": "2b085219de6aa88806c018b3a5f9975859657fb65010f827585188fee6ea1f9b"
+    },
+    {
+      "path": "src/content/essays/2026-07-08-phap-va-thuat.mdx",
+      "sha256": "d1fb04ff7723dcac5f668484e89c7cceb34fe4a4da1bbdaf24a6a421a7f81c7a"
+    },
+    {
+      "path": "src/content/essays/2026-07-17-vung-phan-cho.mdx",
+      "sha256": "074a3bac52052a7e80a314ed34a6de1e863cfff7b9b8a8def6683b743d8cec1e"
+    },
+    {
+      "path": "src/content/essays/2026-07-25-nguoi-bay-khong-chan-troi.mdx",
+      "sha256": "5434fbb7e20a60b5c8573675112bf545bb71b6a7dded5f63449f0e8a797829c6"
+    },
+    {
+      "path": "src/content/essays/2026-07-31-ba-do-va-phuong-thuoc.mdx",
+      "sha256": "87fadc1e197f2b9507c2e387b061a6fb2a0fd258ebc35a7a4dbeb5e459833b9f"
+    },
+    {
+      "path": "src/content/essays/2026-08-17-danh-bat-chinh.mdx",
+      "sha256": "09786af21c6934194e30c6486aea0cdcffa81395d1d546887460cf50906c3e16"
+    },
+    {
+      "path": "src/content/essays/2026-08-17-gui-em.mdx",
+      "sha256": "a76a5feb24d2ba9abcf04dc21e82f648a9729639524e5fd6c6665ef76604fb18"
+    },
+    {
+      "path": "src/content/essays/2026-08-22-chuyen-cai-airpods-pro.mdx",
+      "sha256": "ae9075d9937755b52394eb05b22037d6422d340fd9efb3d748f9d99d58358989"
+    },
+    {
+      "path": "src/content/essays/2026-08-30-am-ong-tran-trui.mdx",
+      "sha256": "378cc8337cd5204474ee5b3acb4b3dc7e13b2b62e2af2f7c7ab7d6152bb9ea6c"
+    },
+    {
+      "path": "src/content/essays/2026-09-01-loi-hua-ngay-oc-lap.mdx",
+      "sha256": "d2803301d5b36dbbf068a1ca6b244f9c7f5167a45b998d7a755c33e2836e113d"
+    },
+    {
+      "path": "src/content/essays/2026-09-02-hongkong-va-hoang-chi-phong.mdx",
+      "sha256": "3a87243f2ef77def4f900e979ffc8776f0902f51b0dfd1a0bae1de0638967c57"
+    }
+  ]
+}

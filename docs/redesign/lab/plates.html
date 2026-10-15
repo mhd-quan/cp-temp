@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="vi"><head><meta charset="utf-8"><title>Lab: sáu mực</title>
+<link href="https://fonts.googleapis.com/css2?family=Libre+Bodoni:ital,wght@0,400..700;1,400..700&family=Be+Vietnam+Pro:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+body{margin:0;padding:28px;background:#faf9f6;color:#161828;font:14px/1.4 'Be Vietnam Pro',sans-serif}
+h2{font:500 30px/1.1 'Libre Bodoni';margin:24px 0 12px}
+.sw{display:grid;grid-template-columns:repeat(6,1fr);gap:10px}
+.sw div{border-radius:2px;padding:10px;min-height:120px;display:flex;flex-direction:column;justify-content:space-between}
+.grid{display:grid;grid-template-columns:repeat(4,1fr);gap:14px}
+figure{margin:0}
+.plate{position:relative;isolation:isolate;background:var(--p);aspect-ratio:1.6;overflow:hidden}
+.plate img{width:100%;height:100%;object-fit:cover;display:block;mix-blend-mode:multiply;filter:grayscale(1) contrast(1.08)}
+.plate::after{content:"";position:absolute;inset:0;background:var(--i);mix-blend-mode:lighten;pointer-events:none}
+figcaption{padding-top:6px;font-size:12px;color:#585a66}
+figcaption b{font-weight:600}
+.t{font:500 13px 'Be Vietnam Pro'}
+</style></head><body>
+<h2>Sáu mực</h2><div class="sw" id="sw"></div>
+<h2>Blend-mode (trái) · SVG gradient map (phải)</h2><div class="grid" id="grid" style="grid-template-columns:repeat(2,1fr)"></div><svg width="0" height="0" style="position:absolute"><defs id="defs"></defs></svg>
+<script type="module">
+const p = await (await fetch('/brand/edition/palette.json')).json();
+const by = Object.fromEntries(p.inks.map((r,i)=>[r.key,{...r,...p.inks[i]}]));
+const sw=document.getElementById('sw');
+for(const r of p.inks){const d=document.createElement('div');d.style.background=r.light.tint;d.innerHTML=`<span class="t" style="color:${r.light.text}">${r.name} · ${r.topic}</span><span style="display:flex;gap:4px">${['plate-ink','text','pigment','tint','wash'].map(k=>`<i style="width:22px;height:22px;background:${r.light[k]};display:inline-block;outline:1px solid #0001"></i>`).join('')}</span>`;sw.append(d);}
+const imgs=['loi-hua-ngay-oc-lap','am-ong-tran-trui','chuyen-cai-airpods-pro','danh-bat-chinh','gui-em','ba-do-va-lieu-thuoc','hongkong-va-hoang-chi-phong','nguoi-bay-khong-chan-troi'];
+const combos=[['son','cham','Lời hứa Ngày Độc lập: Chính trị × Tư tưởng'],['luc','son','Đám đông Trần trụi: Xã hội × Chính trị'],['lam','cham','AirPods Pro: Hiện đại × Tư tưởng'],['nghe','son','Danh bất chính: Kinh tế × Chính trị'],['luc','son','Gửi em: Xã hội × Chính trị'],['nghe','cham','Bà đỡ và Liều thuốc: Kinh tế × Tư tưởng'],['son','son','Hongkong: Chính trị'],['lam','luc','Người bay: Hiện đại × Xã hội']];
+const g=document.getElementById('grid');
+const rgb=h=>[1,3,5].map(i=>(parseInt(h.slice(i,i+2),16)/255).toFixed(4));
+const defs=document.getElementById('defs');
+combos.slice(0,4).forEach(([ink,paper,label],i)=>{
+ const I=by[ink].light['plate-ink'], P= ink===paper?by[ink].light.wash:by[paper].light.tint;
+ const [ir,ig,ib]=rgb(I),[pr,pg,pb]=rgb(P);
+ defs.insertAdjacentHTML('beforeend',`<filter id="f${i}" color-interpolation-filters="sRGB"><feColorMatrix type="matrix" values=".2126 .7152 .0722 0 0 .2126 .7152 .0722 0 0 .2126 .7152 .0722 0 0 0 0 0 1 0"/><feComponentTransfer><feFuncR type="table" tableValues="${ir} ${pr}"/><feFuncG type="table" tableValues="${ig} ${pg}"/><feFuncB type="table" tableValues="${ib} ${pb}"/></feComponentTransfer></filter>`);
+ const a=document.createElement('figure');a.innerHTML=`<div class="plate" style="--i:${I};--p:${P}"><img src="/images/essays/source/${imgs[i]}.jpg"></div><figcaption><b>${label}</b> · blend</figcaption>`;g.append(a);
+ const b=document.createElement('figure');b.innerHTML=`<div style="aspect-ratio:1.6;overflow:hidden"><img style="width:100%;height:100%;object-fit:cover;display:block;filter:url(#f${i})" src="/images/essays/source/${imgs[i]}.jpg"></div><figcaption><b>${label}</b> · SVG map</figcaption>`;g.append(b);
+});
+</script></body></html>

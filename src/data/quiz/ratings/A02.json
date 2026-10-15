@@ -1,0 +1,749 @@
+{
+  "rater": "A",
+  "block": "A02",
+  "items": {
+    "trade.goods.3": {
+      "0": "GS US BK DEG EM LS CM LEG CIN LN ID AD CLR NR PP TAR FA COR RT NEOR HS HES MO WA RZ EB ETS COL",
+      "1": "DC CAE MR AUC PE PC TE CST NC TR EU ARC ONC GC GAU MDS EC PM DIR GM ES ELP PR RE TI GOC CN EN IR PN BN JA WC PSD BL CI PG UT KS IB IM ACK SR RET",
+      "2": "NLS TP NA GAN UJ NOA DI ML ST MA JU PA NAC LT LE ME IF NAZ NATC JM CH PER RS AM EA VEF HI NP HO GU BIC KE LZ BA SU",
+      "3": "NS DS",
+      "why": "Temporary infant-industry protection (List, Hamilton, developmental states): separates the national-development tradition from both permanent protectionists (who agree, with reservations about \"until\") and principled free traders.",
+      "-1": "AC AS MU RC POC SMCD LU BC AMC CR NE MC TW DE AP SL NDL LI CT SDD JR NM SC XC CC REZ SN",
+      "-2": "GA CA TH LC CL NEO OR CF AL PAL THW LL",
+      "-3": "IA LF MI OB ANC GE",
+      "split": "MU CAE MR TE NC ACK ARC CR GS US ETS EC BK MO DEG EM PR COL SR LS CM LEG CN CIN LN ID CT WA RZ EB AD CLR JA NR PP TAR FA COR CI RT NEOR PG HS HES UT",
+      "notes": {
+        "NS": "List's own thesis, including the \"until competitive\" clause: 3.",
+        "DS": "Japan/Korea protected infant industries and withdrew protection as export discipline bit: 3.",
+        "ME": "Agrees on protection but not on the temporariness; mercantilism protects for good: 2.",
+        "GE": "Henry George, Protection or Free Trade: rejects even temporary protection: -3.",
+        "MC": "Mencius: \"at the passes inspect but do not tax\" (關市譏而不征), a benevolent ruler does not levy duties: -1.",
+        "LU": "Luxemburg attacked protective tariffs as a tool of Junkers and militarism: -1.",
+        "UT": "J.S. Mill (Principles V.10) explicitly admits the infant-industry exception, Bentham did not: 1, split.",
+        "AP": "US Populists fought tariffs that raised prices of manufactures for farmers: -1."
+      }
+    },
+    "trade.goods.4": {
+      "0": "DC NOA CAE MR CST ONC GC GAU MDS GS US PM BK ES DE ELP PR RE TI GOC CM LEG AD CLR JA NR PP TAR PSD FA COR CI RT PG HS HES MO WA IB IM RZ EB SR",
+      "1": "NLS TP NA UJ PE DI ML ST MA ARC NAC LT EC LE JM DEG CH EA CN EN IR PN VEF BN HI WC BL KS GU ACK RET KE LZ BA SU",
+      "2": "GAN JU IF NAZ NATC PER AM NP HO BIC",
+      "3": "PA ME",
+      "why": "Permanent protection for jobs: separates permanent protectionists (mercantilists, paleocons, national populists, autarkists) from infant-industry developmentalists, who protect only temporarily, and from free traders.",
+      "-1": "AC AS GA AUC PC TE SMCD NC TR EU BC AMC CR TW DIR DS GM EM AP NDL RS LS CIN LN ID CT SDD JR NEOR SC XC ETS COL REZ",
+      "-2": "MU CA RC POC LU TH NE LC MC NS SL LI OR CF AL PAL NM THW UT CC LL SN",
+      "-3": "IA CL NEO LF MI OB ANC GE",
+      "split": "DC NOA CAE MR PE CST NC ACK ONC CR GC GAU RET MDS GS US ETS EC PM BK MO KS ES DE DEG ELP PR RE COL SR TI LS GOC CM LEG CN CIN PN ID CT BN WA IB IM RZ EB AD CLR JA NR PP TAR PSD FA COR CI RT NEOR PG HS HES",
+      "notes": {
+        "NS": "List: protection must end once the industry is mature, then open up: -2 (diagnostic vs mercantilism).",
+        "DS": "Protection was conditional and time-bound, tied to export targets: -1.",
+        "ME": "Permanent protection of manufactures and employment is the system itself: 3.",
+        "PA": "Buchanan's Great Betrayal: a permanent tariff as economic nationalism: 3.",
+        "GAN": "Swadeshi and khadi are a permanent way of life to give villagers work, not a stopgap: 2.",
+        "RS": "Đổi Mới/WTO accession meant cutting tariffs on a schedule: -1.",
+        "MC": "Mencius lists \"no duties at the passes\" among benevolent policies: -2.",
+        "UT": "Utilitarians (Bentham, Ricardo-era radicals) count consumer losses; only Mill's temporary exception: -2."
+      }
+    },
+    "trade.goods.5": {
+      "0": "NOA CAE MR PE CST EU US BK NS DIR DS ANC GOC EA CM LEG CN CT HI AD CLR JA NR PP TAR PSD FA COR NEOR HS HES IM RZ SR KE LZ",
+      "1": "IA NC BC ONC CR GAU MC PM EM RE OB TI LS CIN LN PN ID SDD JR SC MO XC KS WA COL LL REZ",
+      "2": "AUC PC RC POC TE SMCD AMC TH NE LC CL SL NDL LI OR CF AL LF MI GE RS NM THW UT SN",
+      "3": "NEO",
+      "why": "Whether free-trade agreements are net beneficial: liberal and market traditions say yes; anti-imperialist, dependency, nationalist-protectionist and anti-globalisation traditions say no.",
+      "-1": "MU CA NLS TP NA UJ DI ARC NAC GC GS EC LE TW GM PER AP PR PAL AM EN IR VEF BN WC BL CI RT PG IB EB ETS BIC RET BA",
+      "-2": "AC AS GA DC GAN ML ST MA TR LU PA MDS LT ME IF NAZ NATC JM ES DE DEG CH ELP NP CC GU SU",
+      "-3": "JU HO ACK",
+      "split": "IA NOA CAE MR PE CST EU US ETS EC LE BK MO KS NS DIR DS SR ANC GOC EA CM LEG CN CIN KE LZ CT BN HI WA IM RZ AD CLR JA NR PP TAR PSD FA COR CI NEOR HS HES",
+      "notes": {
+        "NEO": "FTAs and the WTO are the programme itself: 3.",
+        "PAL": "Rothbard denounced NAFTA as \"managed trade\", not free trade: -1.",
+        "RS": "Vietnam's CPTPP/EVFTA strategy: integration is a pillar of Đổi Mới: 2.",
+        "NS": "List backed the Zollverein among equals but not openness to a stronger economy: 0, split.",
+        "MC": "Mencius against Xu Xing defends division of labour and exchange: 1.",
+        "NOA": "South–South agreements yes, North–South deals viewed as unequal: 0, split.",
+        "NDL": "Cordell Hull's reciprocal trade agreements (1934) were New Deal policy: 2."
+      }
+    },
+    "trade.goods.6": {
+      "0": "MU CA AUC CST NC BC AMC CR MDS US MC EC TW PM BK PR TI LS GOC CM LEG CIN LN ID CT AD CLR SDD NR PP TAR PSD FA COR CI RT PG HS HES MO XC KS WA IM RZ EB ETS SR REZ SN",
+      "1": "GA DC NOA CAE MR PE DI ML ST MA ARC ONC GAU LT GS LE DIR GM ES DE CH ELP AP AM EA CN EN IR PN BN JA JR WC BL IB GU BIC RET",
+      "2": "NLS TP NA UJ PA NAC GC ME NS DS IF NAZ NATC JM DEG PER RE RS VEF HI NP HO ACK KE LZ BA SU",
+      "3": "GAN JU",
+      "why": "Consumer economic patriotism (\"buy national\" even at a cost): a moral duty for nationalist, swadeshi and self-reliance traditions; an irrational sacrifice for market liberals and objectivists.",
+      "-1": "AC AS PC RC POC TE SMCD TR EU NE EM SL NDL LI PAL NM THW NEOR SC COL LL",
+      "-2": "IA LU TH LC CL NEO OR CF AL LF MI ANC GE UT CC",
+      "-3": "OB",
+      "split": "MU GA CA DC NOA CAE AUC CST NC ML BC AMC CR MDS LT GS US ETS MC EC LE TW PM BK MO XC KS DE ELP PR SR TI LS GOC AM CM LEG CIN LN IR PN REZ SN ID CT WA IM RZ EB AD CLR JA SDD JR NR PP TAR PSD FA COR CI RT PG HS HES",
+      "notes": {
+        "GAN": "Boycotting foreign cloth and wearing khadi was a moral vow: 3.",
+        "JU": "\"Prefer our own things\" is a tenet of absolute self-reliance: 3.",
+        "RE": "The Duy tân and chấn hưng nội hoá movements urged Vietnamese to buy native goods: 2.",
+        "RS": "Politburo campaign \"Người Việt Nam ưu tiên dùng hàng Việt Nam\" (2009): 2.",
+        "KE": "Turkey's Yerli Malı Haftası (domestic goods week) since 1929: 2.",
+        "OB": "Paying more out of national duty is altruistic self-sacrifice, the opposite of rational self-interest: -3.",
+        "GC": "Buy local to keep farms, crafts and landscapes alive: 2.",
+        "VEF": "Khamenei's \"resistance economy\"; 2018 named the year of supporting Iranian products: 2."
+      }
+    },
+    "trade.goods.7": {
+      "0": "AC AS LU TH US TW BK EM SL CF CM LEG CIN AD CLR NR PP TAR NM FA NEOR HS HES MO WA RZ CC ETS COL REZ",
+      "1": "MU CA AP NEO OR AL CT SC UT XC",
+      "2": "MC PAL LL",
+      "3": "IA CL LF MI OB ANC GE",
+      "why": "Unilateral free trade regardless of others' tariffs: the purist free-trade test (Peel's repeal, Bastiat, libertarians) against reciprocity-minded liberals and all protectionists.",
+      "-1": "GA DC CAE MR AUC PE RC POC TE CST NC EU BC AMC CR NE GC LC GS EC PM GM DE NDL LI RE TI LS CN LN PN ID BN JA SDD JR PSD THW COR CI RT PG KS IB IM EB SR SN",
+      "-2": "NLS TP NA GAN UJ NOA PC SMCD DI ML MA TR ARC ONC NAC GAU MDS LT LE DIR DS NATC ES DEG CH ELP PR RS GOC AM EA EN IR VEF HI WC BL GU BIC RET KE LZ BA SU",
+      "-3": "ST JU PA ME NS IF NAZ JM PER NP HO ACK",
+      "split": "AC AS MU CA DC CAE AUC TE LU CC TH US ETS EC TW BK MO EM AP SL CF COL CM LEG CIN REZ CT WA RZ AD CLR JA NR PP TAR NM FA COR NEOR HS HES",
+      "notes": {
+        "CL": "Britain's unilateral Corn Law repeal (1846) and Bastiat's mockery of retaliation define the tradition: 3.",
+        "NEO": "Most neoliberal policy works through reciprocal WTO/FTA bargaining; Friedman-style unilateralism is a minority: 1.",
+        "NS": "List's whole case is that a weaker nation must not open unilaterally to a stronger one: -3.",
+        "MC": "The benevolent king abolishes duties at the passes on his own to draw the world's merchants: 2.",
+        "TH": "Thatcherites split between WTO reciprocity and Minford-style unilateral free trade: 0, split.",
+        "AP": "Farmers' movements wanted tariffs cut whatever others did, but not as a principle: 1, split.",
+        "JR": "Madison's commercial discrimination against Britain and Jefferson's embargo show a retaliatory streak: -1."
+      }
+    },
+    "trade.goods.8": {
+      "0": "CA CAE MR NC BC US MC TW PM BK GM NDL CM LEG CIN LN ID AD CLR JR NR PP RT PG SC HS MO XC WA IM RZ",
+      "1": "MU AUC PC POC TE SMCD AMC CR NE EM SL LI CF TI LS CT SDD NEOR UT COL LL REZ SN",
+      "2": "IA RC TH LC CL NEO OR AL GE PAL NM THW",
+      "3": "LF MI OB ANC",
+      "why": "Market discipline from imports even at the cost of firm closures: creative-destruction acceptance (market liberals, Nordic Rehn–Meidner) vs protecting existing producers and jobs.",
+      "-1": "AC AS DC NLS TP NOA PE CST DI EU LU ARC ONC GC GAU GS EC LE NS DIR DS DE AP PR RE RS GOC EA CN EN IR PN BN HI JA TAR PSD FA COR CI HES KS IB EB CC ETS SR RET LZ",
+      "-2": "GA NA GAN UJ ML MA TR PA NAC MDS LT IF NAZ NATC JM ES DEG CH PER ELP AM VEF NP WC BL GU BIC KE BA SU",
+      "-3": "ST JU ME HO ACK",
+      "split": "CA CAE MR NC LU CC BC US MC TW PM BK MO XC GM NDL CM LEG CIN LN ID WA IM RZ AD CLR JA JR NR PP RT NEOR PG SC HS HES",
+      "notes": {
+        "NM": "Rehn–Meidner: let uncompetitive firms close, protect workers not jobs: 2 (diagnostic vs post-war SD).",
+        "TH": "No subsidies for lame ducks: closures of uncompetitive industry were accepted: 2.",
+        "TI": "Self-managed firms were meant to compete on the market: 1.",
+        "LS": "Market socialism keeps competition between social firms: 1.",
+        "NS": "Mature industries should face competition, infant ones not; the item is general: -1.",
+        "TAR": "Poujadist small traders wanted shelter from big and foreign competitors: -1.",
+        "MU": "Proudhonian mutualism is a competitive market among producers: 1."
+      }
+    },
+    "trade.capital.1": {
+      "0": "CA RC POC SMCD NC US TW GM PR NDL GE CM CT NR COL SR LL SN",
+      "1": "AC AS MU GA CAE PC TE CST BC ONC AMC CR NE GS MC PM BK DE DEG RE LS LEG CN CIN LN ID HI CLR JA JR PP TAR NM FA CI RT HS HES MO XC EB ETS RET",
+      "2": "DC TP GAN NOA MR AUC PE DI EU LU ARC PA NAC GC GAU MDS LT EC LE ME NS DIR DS NATC ES PER ELP AP RS TI GOC AM EA EN IR PN VEF BN AD SDD WC PSD BL COR PG KS WA IB IM RZ CC BIC KE LZ REZ",
+      "3": "NLS NA UJ ML ST MA TR JU IF NAZ JM CH NP HO GU ACK BA SU",
+      "why": "Barring foreigners from land, ports and strategic firms: economic sovereignty over strategic assets (nationalists, socialists, developmental states) vs universal property rights (liberals, libertarians).",
+      "-1": "IA LC EM SL LI OR AL PAL THW NEOR SC UT",
+      "-2": "TH CL NEO CF",
+      "-3": "LF MI OB ANC",
+      "split": "AC AS IA CA RC POC SMCD NC CR US MC TW BK MO GM DE PR NDL COL SR GE PAL LL CM LEG SN CT EB JA NR PP TAR RT NEOR HS HES",
+      "notes": {
+        "NA": "Nasser nationalised the Suez Canal Company: 3.",
+        "TH": "Britain under Thatcher let foreigners buy utilities, ports and land freely: -2.",
+        "SDD": "Swiss Lex Koller restricts foreigners' purchases of real estate: 2.",
+        "AD": "In Athens only citizens could own land (metics needed a special grant of enktesis): 2.",
+        "GE": "With land-value taxation the owner's nationality is irrelevant; George opposed all landlordism, foreign or native: 0, split.",
+        "LZ": "Jewish National Fund land was inalienable to the Jewish people: 2.",
+        "PG": "Plato's Laws makes land lots inalienable citizen holdings: 2.",
+        "NEOR": "A sovereign corporation sells to whoever pays; nationality matters little: -1, split."
+      }
+    },
+    "trade.capital.2": {
+      "0": "MU CA CAE CST ONC US TW PM BK GM PR NDL LS CM LEG CIN LN ID CLR JR NR PP TAR PSD FA HS HES MO XC RZ SR",
+      "1": "IA PC TE NC BC AMC CR NE MC EM SL LI PAL RS CT SDD NM NEOR SC UT COL LL REZ SN",
+      "2": "RC POC SMCD TH LC CL OR CF AL GE THW",
+      "3": "NEO LF MI OB ANC",
+      "why": "National treatment for foreign investors: the liberal-market principle of non-discrimination vs privileging national, state or cooperative capital.",
+      "-1": "TP NOA MR AUC PE DI EU ARC NAC GC GAU MDS GS EC NS DIR DE DEG ELP AP RE TI AM EA CN PN BN HI AD JA WC BL COR CI RT PG KS WA IB IM EB ETS BIC RET LZ",
+      "-2": "AC AS GA DC NLS NA GAN UJ TR LU PA LT LE ME DS IF NATC ES CH PER GOC EN IR VEF NP CC KE BA",
+      "-3": "ML ST MA JU NAZ JM HO GU ACK SU",
+      "split": "MU IA CA CAE MR CST ONC CR US ETS MC EC TW PM BK MO XC GM EM PR NDL SR LS CM LEG CIN LN ID CT RZ CLR JA JR NR PP TAR PSD FA NEOR HS HES",
+      "notes": {
+        "NEO": "National treatment is a standard clause of investment treaties: 3.",
+        "RS": "Vietnam's investment law formally treats FDI equally and courts it, while reserving key sectors for SOEs: 1.",
+        "DS": "Developmental states screened and steered FDI, favouring national champions: -2.",
+        "AUC": "Open to FDI but privileges politically connected national champions: -1.",
+        "MC": "The benevolent king lets all merchants store goods in his markets untaxed: 1, split.",
+        "AD": "Metics paid the metoikion and could not own land: -1."
+      }
+    },
+    "trade.capital.3": {
+      "0": "AC AS MU GA CA RC SMCD NC BC GC US MC BK EM CF RE CM LEG CN CIN LN ID AD CLR JR NR PP COR RT SC UT MO WA IM RZ SR SN",
+      "1": "DC GAN CAE MR PE PC POC TE CST DI LU ARC ONC PA NAC GS EC PM GM DE AP SL PR LS EN IR PN BN HI JA NP WC NM BL CI PG HS HES XC IB EB CC ETS BIC RET LZ",
+      "2": "NLS TP NA UJ NOA AUC TR EU GAU MDS LT LE NS DIR DS IF NATC JM ES DEG CH PER ELP NDL RS TI AM EA VEF PSD FA KS ACK KE BA SU",
+      "3": "ML ST MA JU ME NAZ GOC HO GU",
+      "why": "Capital controls on hot money: Keynes/Bretton Woods, developmental and statist traditions favour them; neoliberals, Thatcherites and libertarians reject them.",
+      "-1": "AMC CR NE LC TW LI OR CT SDD TAR THW NEOR COL LL REZ",
+      "-2": "IA TH CL NEO AL GE",
+      "-3": "LF MI OB ANC PAL",
+      "split": "AC AS MU GA CA DC CAE RC SMCD NC CC ACK BC ARC CR GC BIC US MC EC TW BK MO XC DE EM CF RE SR CM LEG CN CIN LN SN ID CT BN WA IM RZ EB AD CLR JA JR NR WC PP TAR COR CI RT NEOR PG SC HS HES UT",
+      "notes": {
+        "NDL": "Bretton Woods (Keynes and White) built capital controls into the post-war order: 2.",
+        "SL": "Keynes, a social liberal, defended controls on hot money: 1.",
+        "TH": "Abolishing exchange controls in 1979 was Thatcher's first major act: -2.",
+        "ME": "Mercantilists banned bullion exports outright: 3.",
+        "NAZ": "Schacht's exchange controls and blocked accounts: 3.",
+        "PAL": "Free movement of money is property; Austrian school blames crises on central banks, not flows: -3.",
+        "IB": "Islamic finance condemns speculation (gharar, maysir): 1."
+      }
+    },
+    "trade.capital.4": {
+      "0": "IA CAE POC NC BC ONC CR MC PM BK NS NDL GE TI LS EA CM LEG CIN LN CT HI AD CLR JA SDD NR PP TAR NM SC HS HES UT MO XC KS WA RZ SR LL LZ SN",
+      "1": "TP MR PC RC TE SMCD AMC TH NE LC EM CL SL LI OR CF RE PAL ID THW NEOR COL REZ",
+      "2": "AUC NEO AL LF MI OB ANC RS",
+      "3": "",
+      "why": "FDI as the fastest road to development: the Washington-consensus and Đổi Mới/Deng view vs dependency theory, self-reliance and developmental states that borrowed rather than sold ownership.",
+      "-1": "MU CA NOA PE CST ARC NAC GC GAU US EC TW ME DIR DS NATC GM PER ELP PR GOC AM CN EN IR PN BN JR NP WC PSD FA BL COR CI PG IB IM ETS BIC RET",
+      "-2": "AC AS GA DC NLS NA GAN UJ DI ML TR EU LU PA MDS GS LE IF JM ES DE DEG CH AP VEF RT EB CC KE BA SU",
+      "-3": "ST MA JU LT NAZ HO GU ACK",
+      "split": "IA CAE MR PE POC NC BC ARC ONC CR BIC US MC EC TW PM BK MO XC KS NS EM NDL RE SR GE LL TI LS AM EA CM LEG CIN LN LZ SN CT HI WA IM RZ AD CLR JA SDD JR NR WC PP TAR NM COR CI NEOR SC HS HES UT",
+      "notes": {
+        "TP": "Sun Yat-sen's International Development of China (1920) called for foreign capital to build China: 1 (diagnostic among national liberation).",
+        "RS": "FDI is the engine of Deng's and Đổi Mới's growth model: 2.",
+        "DS": "Japan and Korea borrowed abroad but kept ownership national; Singapore is the FDI exception: -1.",
+        "LT": "Dependency theory (Gutiérrez drew on it): foreign capital deepens underdevelopment: -3.",
+        "ML": "Lenin's NEP concessions were a tactical retreat, not a road: -2.",
+        "NEO": "Opening to FDI is central to the Washington consensus: 2."
+      }
+    },
+    "trade.capital.5": {
+      "0": "CAE MR NC ARC PA NAC GAU MC EC LE TW BK DIR NATC RE AM EA CM LEG CIN LN ID HI AD CLR JA JR WC PP TAR COR PG SC HS HES MO XC KS RZ SR LL BIC LZ SN",
+      "1": "MU IA CA PE CST DI GC US ME NS IF NAZ JM GM PR TI LS GOC CN EN IR BN NR NP PSD FA BL CI RT IB IM RET KE",
+      "2": "AC AS GA DC TP NA GAN UJ NOA EU MDS GS DE DEG PER ELP AP PN VEF EB ETS BA",
+      "3": "NLS ML ST MA TR JU LU LT ES CH CC HO GU ACK SU",
+      "why": "Multinationals take more than they give: the imperialism/dependency thesis (Lenin, Latin American left, liberation theology) vs the liberal view of FDI as mutually beneficial.",
+      "-1": "PC POC TE SMCD BC ONC CR PM DS SL NDL OR CF GE PAL RS CT SDD NM UT WA COL REZ",
+      "-2": "AUC RC AMC TH NE LC EM CL LI AL THW NEOR",
+      "-3": "NEO LF MI OB ANC",
+      "split": "IA CAE MR PE NC ARC PA NAC GC GAU BIC US MC EC LE TW BK MO XC KS ME DIR NATC RE SR LL AM EA CM LEG CIN LN IR LZ SN ID CT HI IM RZ AD CLR JA JR NR NP WC PP TAR COR CI RT PG SC HS HES",
+      "notes": {
+        "ML": "Lenin's Imperialism: export of capital is the mechanism of exploitation: 3.",
+        "LT": "Dependency theory is foundational to liberation theology: 3.",
+        "RS": "Party doctrine keeps the critique on paper but the model depends on FDI: -1.",
+        "NEO": "Multinationals transfer capital, skills and access to markets: -3.",
+        "ME": "The mercantilist East India companies were themselves built to extract from distant lands: 1, split.",
+        "DS": "Developmental states bargained with multinationals rather than seeing them as net predators: -1."
+      }
+    },
+    "trade.capital.6": {
+      "0": "MU CA GAN CAE PC DI LU BC ARC ONC GC US MC BK GM DE DEG PR CM LEG CIN LN ID AD CLR JA JR NR WC PP TAR COR CI RT PG SC HS HES XC RZ EB CC ACK SR LL RET LZ",
+      "1": "AC AS DC MR PE TE CST TR EU PA NAC GAU MDS GS EC PM DIR IF NAZ NATC ES ELP AP RE LS GOC AM EA CN EN IR PN BN HI NP PSD FA BL MO WA IB IM HO GU ETS BIC",
+      "2": "NLS TP NA UJ NOA AUC ML ST MA JU LT LE ME NS JM CH PER RS TI VEF KS KE BA SU",
+      "3": "DS",
+      "why": "Conditioning FDI on technology transfer: the developmental/China joint-venture model vs liberal non-discrimination (WTO TRIMs) and property rights.",
+      "-1": "GA RC POC SMCD NC CR NE TW EM SL NDL GE CT SDD NM NEOR UT COL REZ SN",
+      "-2": "IA AMC TH LC CL LI OR CF AL PAL THW",
+      "-3": "NEO LF MI OB ANC",
+      "split": "AC AS MU CA DC GAN CAE PC CST DI LU CC HO ACK BC ARC ONC GC BIC RET US MC EC TW BK MO XC GM DE DEG AP PR SR LL AM CM LEG CIN LN LZ ID RZ EB AD CLR JA JR NR WC PP TAR COR CI RT PG SC HS HES",
+      "notes": {
+        "DS": "Technology acquisition was the purpose of letting foreigners in at all: 3.",
+        "RS": "China's joint-venture rule and Vietnam's localisation push: 2.",
+        "NEO": "Performance requirements like forced technology transfer are banned under WTO TRIMs: -3.",
+        "HO": "Albania banned foreign investment outright; conditional entry is already too lax: 1, split.",
+        "LL": "Anti-intellectual-property leanings cut against investor rights but not for state conditions: 0, split.",
+        "EA": "Peter the Great hired foreigners on condition that they train Russians: 1."
+      }
+    },
+    "trade.capital.7": {
+      "0": "RC POC SMCD NC LC US TW GM SL NDL GE CM CT NR COL LL SN",
+      "1": "IA TH EM LI OR AL PAL THW NEOR SC UT",
+      "2": "CL NEO CF",
+      "3": "LF MI OB ANC",
+      "why": "Foreigners may buy any asset including land on equal terms: the unrestricted-property pole; most traditions reject it at least for land.",
+      "-1": "CA CAE PC TE CST BC ONC AMC CR NE MC PM BK DE PR RE LS LEG CIN LN ID HI CLR JA JR PP TAR NM FA CI HS HES MO XC EB ETS SR",
+      "-2": "AC AS MU GA TP GAN NOA MR AUC PE DI EU LU ARC GC GAU MDS GS EC ME NS DIR DS NATC ES DEG PER ELP AP RS TI AM EA CN PN VEF BN AD SDD WC PSD BL COR RT PG KS WA IB IM CC BIC RET LZ REZ",
+      "-3": "DC NLS NA UJ ML ST MA TR JU PA NAC LT LE IF NAZ JM CH GOC EN IR NP RZ HO GU ACK KE BA SU",
+      "split": "IA CA RC POC SMCD NC LC US MC TW BK MO GM EM SL NDL COL GE PAL LL CM LEG SN CT JA NR PP TAR NEOR HS HES",
+      "notes": {
+        "TH": "UK practice: no restriction on foreign ownership of land or firms: 1.",
+        "LC": "Open economy but most liberal conservatives keep a strategic carve-out: 0, split.",
+        "RZ": "The Land of Israel is a divine trust for the Jewish people, not for sale to anyone: -3.",
+        "KE": "Kemalism grew out of abolishing the capitulations that let foreigners hold privileged property: -3.",
+        "GE": "Who holds title matters little when land rent is taxed away for all: 0, split.",
+        "AD": "Land ownership was a citizen privilege: -2."
+      }
+    },
+    "trade.capital.8": {
+      "0": "CA TE NC BC NE US MC TW BK GM EM NDL CM LEG CIN LN ID AD CLR JR NR PP TAR NM PG HS MO XC RZ SR REZ",
+      "1": "RC POC SMCD AMC CR LC SL LI OR CT SDD THW NEOR SC UT COL LL SN",
+      "2": "IA TH CL CF AL GE PAL",
+      "3": "NEO LF MI OB ANC",
+      "why": "No caps on foreign shareholding: openness of corporate ownership to foreign capital (less charged than land); separates liberal/libertarian openness from statist and nationalist economic sovereignty.",
+      "-1": "AC AS MU GA CAE PC CST DI ARC ONC GC EC PM DE DEG AP PR RE LS AM EA CN PN BN HI JA WC FA COR CI RT HES IB IM EB ETS BIC RET LZ",
+      "-2": "DC TP GAN NOA MR AUC PE EU LU PA NAC GAU MDS LT GS LE ME NS DIR DS IF NATC ES PER ELP RS TI EN IR VEF NP PSD BL KS WA CC KE",
+      "-3": "NLS NA UJ ML ST MA TR JU NAZ JM CH GOC HO GU ACK BA SU",
+      "split": "AC CA CAE TE NC BC CR NE BIC US MC EC TW BK MO XC GM EM NDL SR AM CM LEG CIN LN REZ ID RZ AD CLR JA JR NR PP TAR NM COR PG HS HES",
+      "notes": {
+        "GE": "Georgism frees capital entirely, it only socialises land rent: 2 (unlike its 0 on land).",
+        "RS": "Vietnam and China keep foreign-ownership caps in banks, telecoms and other key sectors: -2.",
+        "SDD": "Switzerland has no general caps on foreign shareholding, unlike its real-estate rules: 1.",
+        "TH": "Takeover of British firms by foreign capital was welcomed: 2.",
+        "GAU": "De Gaulle blocked US takeovers of French industry: -2."
+      }
+    },
+    "trade.selfreliance.1": {
+      "0": "MU CAE CST NC EU ONC PM BK PR RS TI GOC CM LEG CIN LN PN NR PP TAR PSD FA NEOR HS HES MO KS WA IM RZ ETS SR",
+      "1": "IA AUC PC SMCD TR LU BC AMC CR NE MC EM NDL LI PAL LS ID CT AD SDD JR SC XC CC COL LL REZ SN",
+      "2": "RC POC TE TH LC SL OR CF AL MI OB ANC GE NM THW UT",
+      "3": "CL NEO LF",
+      "why": "Comparative-advantage specialisation (Ricardo) vs building a full domestic economy (List, autarky, self-reliance, localism).",
+      "-1": "AS CA TP NOA MR PE ML ARC GC GAU MDS GS US EC LE DIR GM CH ELP AP RE EA CN EN BN HI CLR JA WC BL COR CI PG IB RET LZ",
+      "-2": "AC DC NLS NA UJ DI PA NAC LT TW ME NS DS NATC ES DE DEG PER AM IR VEF NP RT EB GU BIC KE BA SU",
+      "-3": "GA GAN ST MA JU IF NAZ JM HO ACK",
+      "split": "MU CAE CST NC ML TR EU LU CC ONC US ETS EC PM BK MO KS PR SR RS TI GOC CM LEG CIN LN PN ID WA IM RZ AD JA NR PP TAR PSD FA COR CI NEOR PG HS HES",
+      "notes": {
+        "CL": "Ricardo's comparative advantage: 3.",
+        "NS": "List's polemic against Ricardo: an agrarian nation must build manufactures, not stay where it is \"best\": -2.",
+        "TR": "Trotsky against socialism in one country: socialism needs the international division of labour: 1, split.",
+        "AC": "Kropotkin's Fields, Factories and Workshops attacks the international division of labour: -2.",
+        "JR": "Jefferson (Notes on Virginia): \"let our work-shops remain in Europe\": 1.",
+        "MC": "Mencius against Xu Xing defends the division of labour and exchange: 1.",
+        "TW": "Laozi 80: a small state whose people never visit the neighbours: -2."
+      }
+    },
+    "trade.selfreliance.2": {
+      "0": "AC AS MU RC TE SMCD CST NC TR EU BC MDS GS US GM ES DE DEG PR NDL LI LS CM LEG CIN LN ID CT AD NR PP TAR NM FA CI NEOR WA ETS COL SR SN",
+      "1": "GA DC GAN CAE AUC PC DI ARC ONC AMC CR NE GC LT MC EC TW PM BK ELP AP RE TI GOC CN PN BN CLR JA JR WC PSD BL COR RT PG HS HES XC IB IM RZ RET",
+      "2": "NLS TP NA UJ NOA MR PE ML PA NAC GAU ME NS DIR DS NATC CH PER RS AM EA EN IR VEF HI SDD NP MO KS GU BIC KE LZ REZ BA SU",
+      "3": "ST MA JU LE IF NAZ JM HO ACK",
+      "why": "Strategic self-sufficiency in food, medicine and arms even at a cost: security-first statism and nationalism vs comparative advantage; pacifists balk at the weapons part.",
+      "-1": "CA POC LU TH LC EM CL SL OR AL PAL THW SC UT EB CC LL",
+      "-2": "IA NEO CF MI OB GE",
+      "-3": "LF ANC",
+      "split": "AC AS MU GA GAN PC RC TE SMCD CST NC TR EU BC MDS GS US ETS TW GM ES DE DEG PR NDL LI COL SR LS CM LEG CIN LN SN ID CT WA AD NR PP TAR NM FA COR CI RT NEOR HS HES",
+      "notes": {
+        "LE": "Agriculture and war are the two pillars of the Legalist state: 3.",
+        "MO": "Mozi's \"seven calamities\": empty granaries and unprepared defences doom a state: 2.",
+        "CL": "Smith himself said \"defence is of much more importance than opulence\": -1, not -2.",
+        "GAN": "Food and cloth self-sufficiency yes, arms production no: 1, split.",
+        "SDD": "Swiss constitutional food-security article and armed neutrality with a domestic arms industry: 2.",
+        "GM": "Food sovereignty attracts greens, arms autarky does not: double-barrelled, 0, split.",
+        "RS": "Food security (rice) and a domestic defence industry are standing goals: 2."
+      }
+    },
+    "trade.selfreliance.3": {
+      "0": "MU CA RC POC SMCD CST NC TR EU LU BC AMC CR US MC BK PR NDL LI PAL LS CM CIN LN ID CT AD NR PP TAR PSD FA COR CI NEOR UT XC WA RZ CC ETS COL SR",
+      "1": "AC AS CAE AUC PE PC TE DI ARC ONC NE GC MDS GS EC TW PM DIR DS GM ES DE ELP AP RE RS TI GOC AM EA LEG CN BN HI CLR JA SDD JR WC BL RT PG HS HES MO IB IM EB BIC RET LZ REZ",
+      "2": "GA DC NLS TP NA GAN UJ NOA MR ML MA PA NAC GAU LT LE ME NS NATC DEG PER EN IR PN VEF NP KS GU KE BA",
+      "3": "ST JU IF NAZ JM CH HO ACK SU",
+      "why": "Supply-chain dependence as a lever for great-power coercion: realist/anti-imperialist sovereignty view vs liberal interdependence-as-peace.",
+      "-1": "IA TH LC EM SL OR AL NM THW SC LL SN",
+      "-2": "CL NEO CF MI OB ANC GE",
+      "-3": "LF",
+      "split": "MU CA RC POC SMCD CST NC TR EU LU CC BC AMC CR US ETS MC EC TW BK MO XC PR NDL LI COL SR PAL LS AM CM LEG CIN LN ID CT WA RZ EB AD JA NR PP TAR PSD FA COR CI RT NEOR PG HS HES UT",
+      "notes": {
+        "CL": "Cobden: commerce binds nations in mutual dependence and makes war unprofitable: -2.",
+        "SU": "Sukarno's Berdikari: dependence is neo-colonialism: 3.",
+        "CH": "Chávez framed oil-for-imports dependence as US leverage: 3.",
+        "KS": "The vijigishu must never depend on a stronger neighbour in the mandala: 2.",
+        "NE": "Strategic dependence on China is a security problem, though trade with allies is fine: 1.",
+        "JR": "The embargo years taught Jefferson that manufactures had to be placed beside agriculture: 1."
+      }
+    },
+    "trade.selfreliance.4": {
+      "0": "DC UJ MR PE ML ARC PA NAC GC IF DE AP CN PN VEF CT CLR JA NP WC PP TAR BL NEOR HS HES IB RZ SU",
+      "1": "AC AS MU CA NLS NA GAN CAE DI NC BC ONC AMC CR GAU LT GS US MC PM BK ME NS ES DEG CH PER PAL GOC CM CIN LN ID HI AD SDD JR NR PSD FA MO XC KS EB GU BIC RET KE LZ REZ BA",
+      "2": "IA TP NOA AUC PC RC POC TE SMCD CST TR EU LU TH NE LC MDS DIR DS GM EM ELP SL PR NDL OR AL MI ANC GE RS TI LS EA NM THW SC UT IM CC ETS COL SR LL SN",
+      "3": "CL NEO LI CF RE LF OB",
+      "why": "Closing the country for stability is a mistake: openness vs isolationism (Juche, Hoxha, Khmer Rouge, haijin/bế quan toả cảng, Laozi's small state, Plato's Laws).",
+      "-1": "GA ST MA EC LE NAZ NATC JM AM LEG EN IR BN COR CI WA",
+      "-2": "TW RT PG",
+      "-3": "JU HO ACK",
+      "split": "DC UJ SU MR PE ML ARC PA NAC GC US MC EC BK MO XC IF DE AP AM LEG CN PN VEF CT BN WA IB RZ CLR JA NR NP WC PP TAR BL COR CI NEOR HS HES",
+      "notes": {
+        "RE": "The Duy tân reformers' central charge against the Nguyễn court was its closed-door policy: 3.",
+        "RS": "Đổi Mới was built on the verdict that pre-1986 isolation failed: 2.",
+        "JU": "Closure is the precondition of absolute self-reliance: -3.",
+        "EA": "Peter the Great's window on the West: opening as the tool of reform: 2.",
+        "GAN": "\"I want the cultures of all lands to be blown about my house as freely as possible\": 1.",
+        "PG": "The Laws restricts travel abroad and visits by foreigners: -2.",
+        "EC": "Ming haijin and Nguyễn bế quan toả cảng were policies of this tradition, the Song was open: -1, split."
+      }
+    },
+    "trade.selfreliance.5": {
+      "0": "NLS NA MR PE DI ML ARC PA GC LT GS BK ES CH PER AP AM LEG CN IR PN VEF BN JA JR NR PP TAR COR CI HS KS IB RZ EB GU BIC RET KE BA",
+      "1": "AC CA DC UJ MA US EC LE NATC JM DE DEG EN CLR RT PG MO SU",
+      "2": "GA GAN ST TW IF NAZ",
+      "3": "JU HO ACK",
+      "why": "Near-autarky (trade only when unavoidable): the extreme self-reliance pole; mercantilists and developmental states, who want exports, reject it like liberals.",
+      "-1": "AS MU TP NOA CAE TE CST NC BC ONC AMC CR NAC GAU MDS MC PM ME NS DIR GM ELP PR LS GOC EA CM CIN LN ID CT HI AD SDD NP WC PSD FA BL NEOR HES XC WA IM ETS COL SR LZ REZ",
+      "-2": "IA AUC PC RC POC SMCD TR EU LU TH NE LC DS EM SL NDL LI OR AL RE PAL RS TI NM THW SC UT CC LL SN",
+      "-3": "CL NEO CF LF MI OB ANC GE",
+      "split": "AC CA NLS NA BA MR PE DI ML GU ARC PA GC BIC RET LT GS US EC BK MO KS ES CH PER AP AM CM LEG CN IR PN KE VEF BN IB RZ EB CLR JA JR NR PP TAR COR CI RT HS",
+      "notes": {
+        "ME": "Mercantilism wants a trade surplus, i.e. heavy exporting, not autarky: -1.",
+        "DS": "Export-led growth is the opposite of autarky: -2.",
+        "JU": "Absolute self-reliance: 3.",
+        "GAN": "Village swadeshi: produce locally, trade only for what cannot be made: 2.",
+        "TW": "Laozi 80: boats and carts unused, people content with their own food and clothes: 2.",
+        "IF": "Mussolini's autarchia after 1935: 2.",
+        "CLR": "Aristotle's self-sufficient polis and Rousseau's Corsica project, but Venice and Holland traded: 1, split."
+      }
+    },
+    "trade.selfreliance.6": {
+      "0": "NLS NOA CAE MR PE SMCD NC LU BC ARC ONC CR NAC MDS EC LE PM BK IF JM PER ELP PR TI AM CM LEG CIN LN IR PN ID CT AD CLR JA SDD NR WC PP PG HS HES MO KS WA IB IM RZ CC GU ETS COL SR BIC KE LZ SN SU",
+      "1": "AS MU UJ CST MA JU PA LT GS US NAZ NATC GM ES CH AP CN EN VEF BN HI JR NP TAR BL COR CI RT HO",
+      "2": "AC CA DC DI GC TW DE EB ACK RET",
+      "3": "GA GAN DEG",
+      "why": "Localism (produce near consumption even if dearer): an ecological, communitarian and anarchist ideal of relocalisation, distinct from national self-reliance; market liberals and large-scale planners reject it.",
+      "-1": "IA TP NA PC RC POC ML ST TR EU AMC NE LC GAU MC ME NS DIR SL NDL LI OR CF RE PAL RS LS GOC EA NM PSD THW FA NEOR SC XC LL REZ BA",
+      "-2": "AUC TE TH DS EM AL MI ANC GE UT",
+      "-3": "CL NEO LF OB",
+      "split": "NLS NOA SU CAE MR PE SMCD NC LU CC GU BC ARC ONC CR NAC BIC MDS ETS EC LE PM BK MO KS IF NAZ NATC JM CH PER ELP PR COL SR TI AM CM LEG CIN LN IR PN KE LZ SN VEF ID CT BN WA IB IM RZ AD CLR JA SDD NR WC PP TAR COR CI PG HS HES",
+      "notes": {
+        "DEG": "Relocalisation of the economy is a defining plank: 3.",
+        "GA": "Bioregional self-provisioning: 3.",
+        "EB": "Schumacher's Buddhist economics: local production from local resources for local needs is the most rational: 2.",
+        "MA": "Commune self-sufficiency and \"walking on two legs\": 1, unlike ML's large-scale specialised planning (-1).",
+        "DS": "Concentrated export industries serving world markets: -2.",
+        "GAN": "The self-sufficient village is the unit of Gandhian economics: 3.",
+        "RET": "Local economies, cooperatives and attachment to place: 2."
+      }
+    },
+    "trade.selfreliance.7": {
+      "0": "AUC PC POC TR LU NE LC NS PR LS CM CIN LN ID CT NR PP FA NEOR HS WA IM CC ETS REZ SN",
+      "1": "IA RC TE TH EM SL LI OR CF AL PAL AD THW SC UT LL",
+      "2": "CL NEO MI ANC GE",
+      "3": "LF OB",
+      "why": "Importing most food if cheaper: comparative advantage applied to the most sensitive good; food-sovereignty, agrarian, Confucian-Legalist \"agriculture as root\" and nationalist traditions reject it.",
+      "-1": "AS MU TP NA NOA CAE MR PE CST NC EU BC ONC AMC CR MDS GS US PM BK ME DIR DS PER ELP NDL RE TI GOC LEG CN PN CLR JA SDD WC TAR NM PSD CI PG HES XC KS IB RZ GU COL",
+      "-2": "AC CA DC NLS SMCD DI ML PA NAC GC GAU LT MC EC TW NATC JM GM ES DE CH AP RS AM EA EN IR VEF BN HI JR NP BL COR RT MO EB SR BIC RET KE LZ BA SU",
+      "-3": "GA GAN UJ ST MA JU ARC LE IF NAZ DEG HO ACK",
+      "split": "AUC PC POC TR LU CC NE LC ETS BK NS PR LS CM LEG CIN LN REZ SN ID CT WA IM RZ AD JA NR PP FA NEOR SC HS HES",
+      "notes": {
+        "ARC": "Defence of the Corn Laws and the landed interest: -3.",
+        "CL": "The Anti-Corn Law League's cause: cheap imported bread: 2.",
+        "LE": "Shang Yang: agriculture and war are the only roots of state power: -3.",
+        "IF": "The Battle for Grain: -3.",
+        "SMCD": "Christian democrats built the Common Agricultural Policy to keep farmers on the land: -2.",
+        "SR": "The French Radicals' peasant base and the Méline tariff: -2.",
+        "AD": "Athens lived on Black Sea grain imports and policed the route rather than growing its own: 1, split.",
+        "EM": "Land-sparing intensification where yields are highest, traded globally: 1."
+      }
+    },
+    "power.pluralism.1": {
+      "0": "TP NOA GS US ME DE CH CN EN PN BN AD SC",
+      "1": "CST DI TR LU ARC PA NAC GAU LT NS DEG AP NEO RE LF MI OB GE HI NP TAR IB IM EB COL LL RET",
+      "2": "PC RC POC SMCD NC EU BC ONC AMC CR TH NE GC LC MDS DIR GM ES EM ELP CL NDL LI OR CF LS CM CIN LN ID SDD JR NR WC PSD THW FA BL UT RZ ETS SR LZ REZ SN",
+      "3": "SL PR NM",
+      "why": "Multi-party competition as a requirement: liberal-democratic pluralism vs single-party, monarchic, theocratic and anti-factional traditions; anarchists reject party politics itself.",
+      "-1": "AC MU IA GA DC GAN TE MC TW BK DS PER ANC PAL LEG IR VEF CT CLR PP HES BIC",
+      "-2": "AS CA NLS NA UJ CAE MR AUC PE EC PM AL TI GOC AM EA JA COR CI MO XC KS CC GU KE SU",
+      "-3": "ML ST MA JU LE IF NAZ NATC JM RS RT NEOR PG HS WA HO ACK BA",
+      "split": "DC TP NOA GS US ME NS DS DE CH PAL CN EN IR PN BN AD SC",
+      "notes": {
+        "UJ": "Nyerere argued a single national party is more democratic than several: -2.",
+        "TR": "The 1938 Transitional Programme demands legalisation of soviet parties: 1 (vs ML -3).",
+        "AS": "Anarcho-syndicalism rejects parliamentary party politics for direct action: -2, not a vote for one-party rule.",
+        "NC": "Kuyper founded the first modern Dutch party; principled pluralism: 2.",
+        "GAU": "De Gaulle scorned the \"régime des partis\" but kept multi-party elections: 1.",
+        "LE": "Han Feizi treats factions as a mortal danger to the ruler: -3.",
+        "CLR": "Classical republicans feared faction as corruption of the common good: -1."
+      }
+    },
+    "power.pluralism.2": {
+      "0": "NOA TE LT US TW ME DE CN PN HI NP SC",
+      "1": "MC DS CH PER AL LEG EN IR VEF CT BN PP CI HES BIC",
+      "2": "TP CAE MR AUC PE EC PM BK TI GOC AM EA JA COR RT NEOR XC KS WA GU KE SU",
+      "3": "NLS NA UJ ML ST MA JU LE IF NAZ NATC JM RS PG HS MO HO ACK BA",
+      "why": "Rule by a single political force to avoid factionalism: the vanguard-party, monarchic, fascist, Mohist and Hobbesian answer vs pluralists; anarchists reject any ruling force.",
+      "-1": "GAN CST DI TR ARC PA NAC GAU GS NS DIR EM AP NEO RE PAL WC TAR IB IM RZ EB RET LZ REZ",
+      "-2": "PC RC SMCD NC EU LU BC ONC AMC CR TH GC MDS GM ES DEG ELP NDL LI OR CF LF MI GE LS CM CIN LN ID AD CLR JR PSD THW FA BL UT ETS COL SR LL SN",
+      "-3": "AC AS MU IA GA CA DC POC NE LC CL SL PR OB ANC SDD NR NM CC",
+      "split": "NOA TE GAU BIC LT US TW ME DS DE CN EN IR PN CT BN HI NP SC",
+      "notes": {
+        "MO": "Shang tong (尚同): disorder comes from each having his own standard; all must identify upward: 3.",
+        "HS": "Divided sovereignty and faction are diseases of the commonwealth: 3.",
+        "JA": "The republic one and indivisible; factions were purged as treason: 2.",
+        "MC": "\"The world will be settled by unity\" (定於一), but under a benevolent king, not a machine: 1.",
+        "TR": "Trotsky came to oppose the monopoly of one party and its bureaucracy: -1.",
+        "BIC": "Government by the Crown above the Reichstag parties: 1, split.",
+        "POC": "Consensus among many parties is the model's very premise: -3."
+      }
+    },
+    "power.pluralism.3": {
+      "0": "AC MU GA NOA US TW ME DE CH CN EN PN BN SC",
+      "1": "DC GAN TR LU ARC NAC LT GS NS PER LF OB CLR PP IB IM CC",
+      "2": "TP CST DI NC EU BC ONC CR TH PA GC GAU DIR ES DEG EM ELP AP CL NEO OR RE MI GE HI AD NP TAR UT RZ EB COL LL RET LZ REZ",
+      "3": "PC RC POC SMCD AMC NE LC MDS GM SL PR NDL LI CF LS CM CIN LN ID SDD JR NR WC NM PSD THW FA BL ETS SR SN",
+      "why": "Peaceful removability of any government through elections: the core of electoral democracy; rejected by monarchic, vanguard, theocratic, fascist and guardian traditions.",
+      "-1": "AS IA CA NLS UJ CAE MR TE MC DS ANC PAL IR CT JA BIC KE SU",
+      "-2": "NA AUC PE EC PM BK AL TI GOC VEF CI HES MO XC BA",
+      "-3": "ML ST MA JU LE IF NAZ NATC JM RS AM EA LEG COR RT NEOR PG HS KS WA HO GU ACK",
+      "split": "AC MU GA NOA US TW ME DE CH PAL CN EN IR PN KE BN SC",
+      "notes": {
+        "TP": "Sun's constitutional stage gives the people election, recall, initiative and referendum: 2.",
+        "CST": "Centesimus Annus 46 values democracy for allowing citizens to replace rulers peacefully: 2.",
+        "VEF": "Presidents change by vote, the Guardian Jurist does not: -2.",
+        "AL": "Hayek: better a liberal dictator than a democracy without liberalism: -2.",
+        "GAU": "De Gaulle resigned after losing the 1969 referendum: 2.",
+        "CC": "Recallable delegates of workers' councils, not parliamentary ballots: 1.",
+        "PAL": "Hoppe's Democracy: The God That Failed prefers monarchy to electoral turnover: -1, split."
+      }
+    },
+    "power.pluralism.4": {
+      "0": "ARC US BK ME DE CH PER RE LEG CN EN PN VEF CT BN CI SC HES IM",
+      "1": "TP NOA MA EC TI GOC AM IR JA PP COR RT PG MO XC WA GU BIC",
+      "2": "NLS NA UJ CAE MR PE TE ML JU LE PM DS IF NAZ NATC JM AL RS EA NEOR HS KS HO ACK KE BA SU",
+      "3": "AUC ST",
+      "why": "The developmental-authoritarian bargain (Lee Kuan Yew thesis): political competition is a luxury during catch-up growth; separates technocratic and statist developmentalists from democrats and anti-statists.",
+      "-1": "PC CST DI TR BC ONC PA NAC GC GAU LT MC TW NS DIR EM NEO OR LF GE PAL CM HI NP WC TAR FA UT IB RZ COL RET LZ REZ",
+      "-2": "AC AS MU IA GA CA DC GAN RC POC SMCD NC EU AMC CR TH NE LC GS GM ES DEG ELP AP CL NDL CF MI OB ANC LS CIN LN ID AD CLR JR PSD THW BL EB ETS SR LL SN",
+      "-3": "LU MDS SL PR LI SDD NR NM CC",
+      "split": "NOA ARC US BK ME DE CH PER NEO RE LEG CN EN IR PN VEF CT BN IM JA CI SC HES",
+      "notes": {
+        "AUC": "Stability before freedom so that growth can come first is the doctrine's core: 3.",
+        "DS": "Park Chung-hee and early Taiwan: growth first, democracy later; Japan is the democratic exception: 2.",
+        "TE": "Decisions by expertise instead of political argument: 2.",
+        "EA": "Reform from above by a rational monarch beats divided counsels: 2.",
+        "RE": "Liang Qichao's \"enlightened despotism\" vs Phan Châu Trinh's dân quyền: 0, split.",
+        "NEO": "Chicago Boys in Chile vs good-governance neoliberalism: -1, split.",
+        "LU": "Without free elections and press life in public institutions dies: -3."
+      }
+    },
+    "power.pluralism.5": {
+      "0": "IA GA CA TP NOA TE US EC BK ME DE ANC CN EN PN CT BN SC XC CC",
+      "1": "AC AS MU DC GAN CST DI TR ARC NAC GAU LT GS MC NS NEO LF OB GE PAL HI AD SDD NP IB IM EB LZ",
+      "2": "PC RC POC SMCD NC EU LU BC ONC AMC CR TH NE PA GC MDS DIR ES DEG EM ELP AP CL NDL LI OR CF RE MI CIN LN ID CLR JR WC TAR PSD THW FA BL UT RZ ETS COL SR LL RET REZ SN",
+      "3": "LC GM SL PR LS CM NR NM",
+      "why": "An organised opposition to watch the rulers: liberal and republican contestation (loyal opposition) vs unity regimes; anarchists back counter-power from below rather than parliamentary opposition.",
+      "-1": "TW PM DS CH PER LEG IR VEF PP HES BIC",
+      "-2": "NLS NA UJ CAE MR AUC PE MA AL RS TI GOC AM EA JA COR CI PG MO KS GU KE SU",
+      "-3": "ML ST JU LE IF NAZ NATC JM RT NEOR HS WA HO ACK BA",
+      "split": "IA GA CA TP NOA TE CC US EC BK XC ME DE ANC CN EN IR PN CT BN SC",
+      "notes": {
+        "CM": "\"His Majesty's Loyal Opposition\" is a constitutional-monarchy institution: 3.",
+        "NR": "Pettit's contestatory democracy: power must be contestable: 3.",
+        "SDD": "Concordance puts all big parties in the Federal Council; the referendum, not a parliamentary opposition, does the checking: 1.",
+        "MC": "Ministers must remonstrate and may even remove a tyrant, but factions are not legitimate: 1.",
+        "MA": "\"Bombard the headquarters\": mass supervision of the party, not an organised opposition: -2.",
+        "AS": "Unions as counter-power to bosses and state: 1, though not a parliamentary opposition.",
+        "RS": "Supervision through the Party's own inspection and the Fatherland Front, not an opposition: -2."
+      }
+    },
+    "power.pluralism.6": {
+      "0": "GAN UJ NOA CST DI GC DE CN EN PN CT IB IM EB",
+      "1": "NLS TP CAE PE BC US ME DS LF ANC PAL TI IR VEF BN SC BIC KE",
+      "2": "NA MR AUC TE ML ST MA ARC MC TW AL RS GOC CI HES MO HO GU BA SU",
+      "3": "JU EC LE PM BK IF NAZ NATC JM AM EA LEG COR RT NEOR PG HS XC KS WA ACK",
+      "why": "Good government without elections: the claim of monarchy, meritocracy, Confucian and Platonic rule by the virtuous, vanguard and fascist regimes vs electoral democrats; anarchists reject the premise of rulers.",
+      "-1": "AC AS MU IA GA CA PC NC TR ONC CR PA NAC GAU LT GS NS DIR EM PER CL NEO OR RE MI OB GE HI AD CLR JA NP PP FA RZ COL LL RET LZ REZ",
+      "-2": "DC RC POC SMCD EU LU AMC TH LC GM ES DEG CH AP NDL CF CM CIN LN ID WC TAR BL UT CC ETS",
+      "-3": "NE MDS ELP SL PR LI LS SDD JR NR NM PSD THW SR SN",
+      "split": "GAN UJ NOA CST DI GC US ME DE NEO LF CN EN IR PN CT BN IB IM EB AD FA",
+      "notes": {
+        "PM": "Daniel Bell: selecting leaders by examination and track record beats elections: 3.",
+        "SU": "Guided Democracy replaced voting with musyawarah consensus around the leader: 2.",
+        "ANC": "Hoppe: private governance and even monarchy outperform democracy: 1.",
+        "AD": "Most Athenian offices were filled by lot, which Athenians held more democratic than election, yet rule without popular choice was oligarchy to them: -1, split.",
+        "CM": "The monarch reigns by inheritance but the leaders who govern must be elected: -2.",
+        "BC": "Hereditary Crown and Lords, prescription over popular choice: 1.",
+        "SC": "Stoics (Seneca, Marcus Aurelius) served emperors and judged rule by virtue, not by its source: 1."
+      }
+    },
+    "power.pluralism.7": {
+      "0": "MU GA NOA RC DI BC ONC CR TH GC LC GS US NS DE EM SL NEO CF LS CM CIN LN NR FA SC IM RZ ETS COL SR RET REZ",
+      "1": "CA GAN NC EU LU AMC PA AP RE OB ID NP WC TAR NM UT IB EB SN",
+      "2": "IA CL LF MI ANC GE PAL SDD JR LL",
+      "3": "",
+      "why": "Unrestricted electoral access even for parties seen as dangerous: absolute pluralism (Mill, Jefferson, libertarians, Swiss practice) vs militant democracy (German/ordoliberal) and all regimes that ban opponents.",
+      "-1": "AC AS DC PC POC TE CST TR ARC NE NAC GAU MDS LT TW ME DIR GM ES DEG CH PER ELP PR NDL LI CN PN HI AD CLR PP PSD THW BL CC LZ",
+      "-2": "TP CAE SMCD MC PM BK DS OR LEG EN IR CT BN HES SU",
+      "-3": "NLS NA UJ MR AUC PE ML ST MA JU EC LE IF NAZ NATC JM AL RS TI GOC AM EA VEF JA COR CI RT NEOR PG HS MO XC KS WA HO GU ACK BIC KE BA",
+      "split": "AC AS MU GA NOA RC DI CC BC ONC CR TH GC LC RET MDS LT GS US ETS ME NS DE EM SL NEO CF COL SR LS CM CIN LN REZ IM RZ NR NP WC FA SC",
+      "notes": {
+        "OR": "Ordoliberal thought fed Germany's streitbare Demokratie, which banned the SRP and KPD: -2.",
+        "SMCD": "Adenauer's government brought those party bans: -2.",
+        "JR": "Jefferson's first inaugural: let error of opinion be tolerated where reason is left free to combat it: 2.",
+        "BIC": "The Anti-Socialist Laws: -3.",
+        "SDD": "Switzerland lets every party stand and relies on voters: 2.",
+        "SL": "Rawls tolerates the intolerant unless the constitution is in danger, Popper's paradox pulls the other way: 0, split.",
+        "KE": "Kemalist courts dissolved religious and separatist parties again and again: -3.",
+        "IA": "Unconditional freedom of association and speech: 2."
+      }
+    },
+    "power.pluralism.8": {
+      "0": "GAN NOA CAE MR TE TR LT US MC EC TW BK ME DE CH PER AM EA LEG CN EN IR PN CT BN PP COR CI RT NEOR PG SC HS HES XC WA ACK BIC",
+      "1": "TP AUC PE DS VEF JA MO KE SU",
+      "2": "NA ST MA JU PM TI GOC HO GU BA",
+      "3": "NLS UJ ML RS",
+      "why": "One-party rule made democratic by intra-party debate and voting: the claim of Leninist democratic centralism, Nyerere's one-party democracy and the China model; rejected by multi-party democrats and by anti-party radicals.",
+      "-1": "PC CST DI LU ARC NAC GAU GS LE NS IF NATC JM AL RE KS IB IM EB LZ",
+      "-2": "AC AS MU IA GA CA DC RC POC SMCD NC EU BC ONC CR TH PA GC MDS DIR NAZ GM ES DEG EM ELP AP NEO LF ANC GE PAL CM CIN ID HI AD CLR NP WC TAR FA BL UT RZ ETS COL RET REZ",
+      "-3": "AMC NE LC CL SL PR NDL LI OR CF MI OB LS LN SDD JR NR NM PSD THW CC SR LL SN",
+      "split": "GAN NOA CAE MR TE TR ACK BIC LT US MC EC LE TW BK MO XC ME DS DE CH PER AM EA LEG CN EN IR PN VEF CT BN WA JA PP COR CI RT NEOR PG SC HS HES",
+      "notes": {
+        "UJ": "Nyerere's one-party elections with competing TANU candidates were meant as democracy: 3.",
+        "ML": "Democratic centralism: free debate before decision, unity after: 3.",
+        "TR": "Trotsky's 1923 fight was for intra-party democracy; by 1938 he wanted soviet parties legalised: 0, split.",
+        "NAZ": "The Führerprinzip rejects intra-party election outright: -2, unlike Leninism.",
+        "PM": "Bell's China model: meritocracy and deliberation inside the party, democracy at the base: 2.",
+        "COR": "Traditionalists do not value democracy at all, so whether this counts as democratic leaves them indifferent: 0, split.",
+        "CC": "Councils replace parties altogether: -3."
+      }
+    },
+    "power.checks.1": {
+      "0": "AC AS MU GA NOA LU NAC US ME DS DE EA CN EN PN BN SC KE",
+      "1": "IA DC GAN GAU LT GS PM NS ELP AP NDL AL ANC HI WC TAR HES IB RZ BIC",
+      "2": "TP TE CST DI EU ARC ONC CR TH NE PA GC MDS DIR ES DEG EM NEO RE GE PAL LS ID CT AD CLR SDD JR PSD THW FA BL UT IM EB ETS SR LL RET LZ REZ",
+      "3": "PC RC POC SMCD NC BC AMC LC GM CL SL PR LI OR CF LF MI OB CM CIN LN NR NM COL SN",
+      "why": "Independent courts able to find the rulers in breach of law: rule of law over rulers vs sovereign power that no court can judge (absolutism, vanguard rule, Hobbes, Legalist ruler above law).",
+      "-1": "CA NLS UJ CAE AUC PE TR MC EC TW BK PER TI IR NP CI XC CC",
+      "-2": "NA MR LE NATC CH RS GOC LEG VEF JA PP COR RT PG MO KS WA SU",
+      "-3": "ML ST MA JU IF NAZ JM AM NEOR HS HO GU ACK BA",
+      "split": "AC AS MU IA GA DC NOA LU NAC US ME DS DE EA CN EN IR PN KE BN SC",
+      "notes": {
+        "LE": "\"Punishment does not spare great ministers\", yet the ruler makes the law and no court judges him: -2.",
+        "HS": "The sovereign can commit no injustice to subjects and cannot be judged: -3.",
+        "EA": "Frederick's \"there are judges in Berlin\" myth vs his overruling of judges in the Miller Arnold case: 0, split.",
+        "CT": "Rutherford's Lex, Rex (the law is king) belongs to this Calvinist line: 2.",
+        "AL": "Hayek's rule of law guards property even without democracy, but authoritarian-liberal regimes kept courts off the rulers: 1.",
+        "NAC": "Basic legality yes, \"juristocracy\" no; the variant accepts narrowing checks: 0, split.",
+        "AD": "Athenian popular courts tried generals and magistrates, and every official faced an audit (euthyna): 2."
+      }
+    },
+    "power.checks.2": {
+      "0": "TP UJ NOA MR ARC NAC US TW ME NS DE NDL AL PAL CM CN EN PN CT HI WC SC",
+      "1": "NLS TE ML GAU MC DS JM PER GOC IR BN NP MO GU BIC",
+      "2": "NA AUC PE MA EC LE BK CH TI VEF PP CI PG HES XC KS WA ACK KE BA SU",
+      "3": "CAE ST JU IF NAZ NATC AM EA LEG COR RT NEOR HS HO",
+      "why": "Indefinite tenure for a capable leader: personalist and monarchic rule vs rotation and term limits; parliamentary democrats, who have no formal limits, still reject the strongman logic but less sharply.",
+      "-1": "GAN SMCD CST DI NC EU BC ONC CR TH PA GC LT PM DIR EM ELP AP NEO RS ID TAR NM PSD THW FA BL UT IB IM RZ EB ETS RET LZ REZ",
+      "-2": "PC RC POC TR LU AMC NE LC MDS GS GM ES DEG CL SL PR LI OR CF RE LF MI OB GE LS CIN LN JA SDD COL SR LL SN",
+      "-3": "AC AS MU IA GA CA DC ANC AD CLR JR NR CC",
+      "split": "TP UJ NOA MR TE ARC NAC US TW ME NS DE NDL AL PAL CM CN EN PN CT BN HI NP WC SC",
+      "notes": {
+        "CAE": "Consul for life, then emperor, by plebiscite: 3.",
+        "RS": "Deng's reforms introduced term and age limits against Mao's personal rule: -1.",
+        "TI": "Tito was made president for life: 2.",
+        "CH": "The 2009 referendum abolished term limits: 2.",
+        "JR": "Jefferson set the two-term precedent to stop a presidency for life: -3.",
+        "NDL": "FDR's four terms were defended by his coalition; the 22nd Amendment came from his opponents: 0, split.",
+        "PM": "The meritocratic model includes term and age limits for top leaders: -1.",
+        "NM": "Nordic premiers have no term limits (Erlander served 23 years), but the strongman premise is alien: -1."
+      }
+    },
+    "power.checks.3": {
+      "0": "AC AS GA CA GAN NOA TE US ME DE ANC CN EN PN VEF BN NP SC BIC",
+      "1": "MU IA DC EU NAC GAU LT GS NS DIR DEG ELP AP AL CT HI WC TAR FA IB RZ EB LZ",
+      "2": "PC RC POC CST DI NC BC ARC ONC CR TH NE PA GC MDS ES EM NEO PR NDL LI RE LF OB GE PAL LS CM CIN LN ID SDD NM PSD THW BL IM ETS SR LL RET REZ SN",
+      "3": "TP SMCD AMC LC GM CL SL OR CF MI CLR JR NR COL",
+      "why": "Separation of powers with mutual checks (Montesquieu, Madison): constitutionalist traditions vs unity of power (Leninist, Kemalist, Rousseauian, Hobbesian, Bentham's single omnipotent legislature).",
+      "-1": "PE LU MC EC TW PM DS CH PER IR AD HES UT",
+      "-2": "NLS NA UJ CAE AUC TR BK RS TI GOC EA LEG JA PP COR CI XC CC KE SU",
+      "-3": "MR ML ST MA JU LE IF NAZ NATC JM AM RT NEOR PG HS MO KS WA HO GU ACK BA",
+      "split": "AC AS MU IA GA CA GAN NOA TE BIC US ME DE ANC CN EN PN VEF BN NP SC UT",
+      "notes": {
+        "TP": "Sun's Five-Power Constitution: five separate yuan, including control and examination: 3.",
+        "RS": "Vietnamese doctrine: state power is unified, with \"phân công, phối hợp, kiểm soát\", explicitly not tam quyền phân lập: -2.",
+        "KE": "Kemalist \"unity of powers\" in the Grand National Assembly: -2.",
+        "UT": "Bentham rejected Blackstone's balanced constitution for one omnipotent legislature checked by public opinion: -1, split (Mill differs).",
+        "HES": "Hegel saw powers as moments of one organic state and criticised mutual checking as hostility: -1.",
+        "CLR": "Polybius' mixed constitution is the root of the idea: 3.",
+        "CST": "Centesimus Annus 44 praises the rule of law and balance of powers: 2.",
+        "AD": "The sovereign Assembly and popular courts were the demos itself; no separation: -1."
+      }
+    },
+    "power.checks.4": {
+      "0": "NOA TE ARC US ME NS DIR DE NDL CN PN CT HI WC SC IM RZ LZ",
+      "1": "TP UJ TR NE NAC MC PM DS PER RS TI GOC EN BN CLR NP HES REZ",
+      "2": "NLS NA AUC PE ML MA GAU EC BK CH AL IR VEF CI RT PG MO XC GU BIC KE SU",
+      "3": "CAE MR ST JU LE IF NAZ NATC JM AM EA LEG JA PP COR NEOR HS KS WA HO ACK BA",
+      "why": "Emergency rule without parliament or courts (Schmitt's state of exception, Roman dictatorship, Committee of Public Safety): who may suspend the checks when the nation is in danger.",
+      "-1": "PC RC CST DI BC ONC AMC CR TH PA GC LT TW ES EM AP CL NEO LI OR RE CIN LN ID JR TAR PSD THW FA BL UT IB COL RET",
+      "-2": "GAN POC SMCD NC EU LU LC MDS GS GM DEG ELP SL CF LF MI OB GE PAL LS CM AD SDD NR NM EB CC ETS SR SN",
+      "-3": "AC AS MU IA GA CA DC PR ANC LL",
+      "split": "NOA TE ARC NE US ME NS DIR DE NDL CN PN LZ CT HI IM RZ WC SC",
+      "notes": {
+        "GAU": "Article 16 of the 1958 constitution gives the president full emergency powers: 2.",
+        "BIC": "Bismarck governed for four years without an approved budget: 2.",
+        "JA": "The Committee of Public Safety and suspension of the 1793 constitution \"until peace\": 3.",
+        "CLR": "The Roman constitutional dictator, praised by Machiavelli and Rousseau, but time-limited: 1.",
+        "CL": "Locke's prerogative allows action beyond law for the public good, under the people's later judgement: -1, not -3.",
+        "PP": "Acting despite legal procedure is what defines penal populism: 3.",
+        "NE": "Post-9/11 unitary-executive arguments vs constitutional hawks: 1, split."
+      }
+    },
+    "power.checks.5": {
+      "0": "NOA TH US NS DE EM CN PN WC FA SC UT IB RZ LZ",
+      "1": "TP UJ TE TR NAC GAU MC PM ME DIR PER AL RS GOC EN VEF BN HI NP CI HES REZ",
+      "2": "NLS NA MR AUC PE ML MA EC BK DS CH IR JA PP COR RT PG XC WA GU BIC KE BA SU",
+      "3": "CAE ST JU LE IF NAZ NATC JM AM EA LEG NEOR HS MO KS HO ACK",
+      "why": "Concentrated power for quick, decisive decisions: efficiency of unified command vs dispersed, deliberative power (consensus, subsidiarity, checks, federalism).",
+      "-1": "PC RC EU ARC ONC CR NE GC LT ES ELP NEO NDL LI OR TI CIN LN ID CT PSD THW BL IM",
+      "-2": "GAN POC SMCD CST DI NC LU BC AMC PA LC MDS GS TW GM DEG AP SL PR CF RE GE LS CM AD TAR NM EB ETS SR RET SN",
+      "-3": "AC AS MU IA GA CA DC CL LF MI OB ANC PAL CLR SDD JR NR CC COL LL",
+      "split": "NOA TH US NS DE EM CN PN LZ IB RZ WC FA SC UT",
+      "notes": {
+        "NEOR": "One CEO-sovereign with full authority is the whole proposal: 3.",
+        "COL": "Tocqueville's horror of administrative centralisation: -3.",
+        "TW": "The ruler who does least governs best; concentration is the opposite: -2.",
+        "TI": "Yugoslav self-management deliberately dispersed economic power, under Tito: -1.",
+        "TH": "Thatcher centralised (abolishing the GLC) but within parliamentary checks: 0, split.",
+        "DS": "A pilot agency (MITI, EPB) concentrating economic decisions: 2.",
+        "SDD": "Seven-member collegial executive, cantons and referendums: -3."
+      }
+    },
+    "power.checks.6": {
+      "0": "IA CA TP GAN NOA POC CST DI NC TR EU LU LC LT GS US TW ME NS DIR ES DE EM ELP AP NEO OR ANC LS CM CN EN PN CT BN WC SC UT IB IM EB ETS SR SN",
+      "1": "AC AS MU GA UJ PC RC CR NE PA PM GM DEG SL PR LI CF RE LF OB GE PAL RS CIN LN JA SDD TAR CC COL LL",
+      "2": "DC AMC CL MI NR",
+      "3": "AD CLR JR",
+      "why": "Strict two-term limit even against voters' wishes: Jeffersonian and classical-republican rotation vs personal rule and also vs parliamentary and plebiscitary traditions that let voters decide.",
+      "-1": "NLS MR TE SMCD BC ARC ONC TH NAC GC GAU MDS MC DS NDL AL IR ID HI NP NM PSD THW FA BL MO RZ RET LZ REZ",
+      "-2": "NA AUC PE ML EC BK PER TI GOC VEF PP CI PG HES XC GU BIC KE BA SU",
+      "-3": "CAE ST MA JU LE IF NAZ NATC JM CH AM EA LEG COR RT NEOR HS KS WA HO ACK",
+      "split": "IA CA TP GAN UJ NOA POC CST DI NC TR EU LU LC MDS LT GS US ETS TW ME NS DIR ES DE DEG EM ELP AP NEO OR SR ANC RS LS CM CN EN PN SN CT BN IB IM EB JA WC SC UT",
+      "notes": {
+        "JR": "Jefferson's two-term precedent, later the 22nd Amendment: 3.",
+        "AD": "Annual offices, Council service at most twice in a lifetime: 3.",
+        "AMC": "Republicans wrote the 22nd Amendment: 2.",
+        "CH": "Indefinite re-election by popular vote is the Bolivarian answer: -3.",
+        "SMCD": "Adenauer, Kohl and Merkel: parliamentary systems leave tenure to voters: -1.",
+        "RS": "Deng-era two-term and age rules, revoked in China in 2018: 1, split.",
+        "GM": "Early German Greens practised rotation of mandates: 1.",
+        "DC": "Rotating co-chairs and recallable delegates: 2."
+      }
+    },
+    "power.checks.7": {
+      "0": "AC AS MU GA CA DC GAN NOA ARC GC GAU MDS LT US TW PM ME DIR DS DE ANC CM CN PN CT BN THW SC IB",
+      "1": "IA TE CST DI EU CR NE NS ES DEG EM PR RE GE PAL TI LS VEF ID CLR NR IM EB KE",
+      "2": "TP PC RC SMCD AMC LC GM CL SL NEO LI AL LF OB CIN LN AD COL LL",
+      "3": "OR CF MI",
+      "why": "Judicial review of statutes: constitutionalism above the legislature vs parliamentary or popular sovereignty (Westminster, Rousseau, Bentham, Dutch and Swiss systems, Jefferson) and vs unified-power regimes.",
+      "-1": "PE POC NC LU BC ONC TH PA GS MC ELP NDL EN IR HI WC TAR NM PSD BL CI HES ETS BIC RET LZ REZ SN",
+      "-2": "NLS NA UJ CAE MR AUC TR NAC EC BK CH PER AP RS GOC EA LEG SDD JR NP PP FA COR RT PG UT MO XC WA RZ CC SR SU",
+      "-3": "ML ST MA JU LE IF NAZ NATC JM AM JA NEOR HS KS HO GU ACK BA",
+      "split": "AC AS MU IA GA CA DC GAN NOA NC ARC GC GAU MDS LT US TW PM ME DIR DS DE ANC CM CN PN REZ CT BN IB THW SC",
+      "notes": {
+        "POC": "The Dutch constitution (art. 120) forbids courts to review acts of parliament: -1.",
+        "SDD": "Swiss courts must apply federal statutes (art. 190); the people, not judges, are the last word: -2.",
+        "AD": "The graphe paranomon let a popular court annul an Assembly decree as unlawful: 2.",
+        "JR": "Jefferson called judicial supremacy the despotism of an oligarchy: -2.",
+        "TI": "Yugoslavia created the first constitutional courts in the socialist world (1963): 1.",
+        "NDL": "FDR's court-packing plan against a Court striking down New Deal laws: -1.",
+        "RZ": "Religious Zionists led the 2023 push to curb the Supreme Court's review powers: -2.",
+        "UT": "Bentham attacked judge-made law and wanted no judicial veto over the legislature: -2."
+      }
+    },
+    "power.checks.8": {
+      "0": "TP NOA TR EU LU CR PA LT US BK ME NS DS ES DE RS TI GOC AM EA CM LEG CN PN CT NM SC MO WA IM BIC KE SN",
+      "1": "NLS UJ MR AUC PE ML ST MA JU TH GAU MDS LE DIR NATC JM ELP NDL EN IR ID BN HI AD SDD JR TAR PSD FA BL HS UT KS IB HO GU ACK ETS SR LZ REZ BA SU",
+      "2": "NA CAE NAC IF NAZ CH PER AP WC PP RZ",
+      "3": "JA NP",
+      "why": "Majoritarian mandate unconstrained by courts or independent agencies: populist and Jacobin popular sovereignty vs constitutional liberals, ordoliberals and technocrats who insulate institutions from majorities.",
+      "-1": "DC GAN PC RC CST DI NC ONC AMC NE GC GS MC EC DEG EM PR RE GE PAL LS CIN LN VEF THW CI HES XC EB CC RET",
+      "-2": "AC AS MU IA GA CA POC TE SMCD BC ARC LC TW PM GM CL SL LI CF LF OB ANC CLR NR COR RT NEOR PG LL",
+      "-3": "NEO OR AL MI COL",
+      "split": "TP NOA TR EU LU CR PA BIC LT US BK MO ME NS DS ES DE RS TI GOC AM EA CM LEG CN PN KE SN CT BN WA IM NM SC HS",
+      "notes": {
+        "NP": "The elected majority against unelected judges, agencies and \"elites\" is the movement's core claim: 3.",
+        "OR": "Rule-bound institutions (independent central bank, competition authority) must be shielded from majorities: -3.",
+        "AL": "The point is to protect markets from mass pressure: -3.",
+        "JA": "The general will cannot be limited by any body: 3.",
+        "NM": "Strong parliamentary mandates but also independent central banks and ombudsmen: 0, split.",
+        "AM": "The item is about elected governments, which absolute monarchy rejects; unchecked rule it accepts: 0, split.",
+        "NEOR": "An unchecked elected majority is exactly what neoreaction fears most: -2.",
+        "TE": "Independent expert agencies are the technocrat's instrument: -2."
+      }
+    }
+  }
+}

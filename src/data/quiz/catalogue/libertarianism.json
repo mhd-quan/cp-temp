@@ -1,0 +1,202 @@
+{
+  "parties": [
+    {
+      "id": "anti-corn-law-league",
+      "name": "Liên đoàn Chống Luật Ngũ cốc",
+      "country": "Anh",
+      "period": "1838–1846",
+      "variants": [
+        "laissez-faire"
+      ],
+      "emblem": {
+        "shape": "shield",
+        "field": "#6b4f1d",
+        "ink": "#f5d76e",
+        "motif": "grains"
+      }
+    },
+    {
+      "id": "libertarian-party-us",
+      "name": "Đảng Tự do cá nhân (Libertarian Party)",
+      "abbr": "LP",
+      "country": "Hoa Kỳ",
+      "period": "1971–nay",
+      "variants": [
+        "minarchism",
+        "anarcho-capitalism",
+        "paleolibertarianism",
+        "classical-liberalism"
+      ],
+      "emblem": {
+        "shape": "disc",
+        "field": "#fed105",
+        "ink": "#1b365d",
+        "motif": "torch"
+      }
+    },
+    {
+      "id": "retsforbundet",
+      "name": "Đảng Công lý (Retsforbundet)",
+      "country": "Đan Mạch",
+      "period": "1919–nay",
+      "variants": [
+        "georgism"
+      ],
+      "emblem": {
+        "shape": "disc",
+        "field": "#2e6b3a",
+        "ink": "#ffffff",
+        "motif": "scales"
+      }
+    }
+  ],
+  "states": [
+    {
+      "id": "uk-1846-1906",
+      "name": "Vương quốc Anh",
+      "period": "1846–1906",
+      "note": "Tự do mậu dịch sau khi bãi bỏ Luật Ngũ cốc",
+      "variants": [
+        "laissez-faire",
+        "classical-liberalism"
+      ],
+      "flag": "uk"
+    }
+  ],
+  "figures": [
+    {
+      "id": "richard-cobden",
+      "name": "Richard Cobden",
+      "life": "1804–1865",
+      "role": "Chính khách Anh, người vận động tự do mậu dịch",
+      "variant": "laissez-faire",
+      "axes": {
+        "foreign": 95
+      },
+      "wiki": "Richard Cobden"
+    },
+    {
+      "id": "frederic-bastiat",
+      "name": "Frédéric Bastiat",
+      "life": "1801–1850",
+      "role": "Nhà kinh tế học, nghị sĩ Pháp",
+      "variant": "laissez-faire",
+      "wiki": "Frédéric Bastiat"
+    },
+    {
+      "id": "john-cowperthwaite",
+      "name": "John Cowperthwaite",
+      "life": "1915–2006",
+      "role": "Bộ trưởng Tài chính Hồng Kông (1961–1971)",
+      "variant": "laissez-faire",
+      "wiki": "John Cowperthwaite"
+    },
+    {
+      "id": "robert-nozick",
+      "name": "Robert Nozick",
+      "life": "1938–2002",
+      "role": "Triết gia chính trị Mỹ, Đại học Harvard",
+      "variant": "minarchism",
+      "wiki": "Robert Nozick"
+    },
+    {
+      "id": "javier-milei",
+      "name": "Javier Milei",
+      "life": "s. 1970",
+      "role": "Tổng thống Argentina (từ 2023)",
+      "variant": "minarchism",
+      "axes": {
+        "lifestyle": 40,
+        "elites": 80
+      },
+      "wiki": "Javier Milei"
+    },
+    {
+      "id": "ayn-rand",
+      "name": "Ayn Rand",
+      "life": "1905–1982",
+      "role": "Nhà văn, triết gia Mỹ gốc Nga",
+      "variant": "objectivism",
+      "wiki": "Ayn Rand"
+    },
+    {
+      "id": "leonard-peikoff",
+      "name": "Leonard Peikoff",
+      "life": "s. 1933",
+      "role": "Triết gia Mỹ, người kế thừa di sản Ayn Rand",
+      "variant": "objectivism",
+      "wiki": "Leonard Peikoff"
+    },
+    {
+      "id": "murray-rothbard",
+      "name": "Murray Rothbard",
+      "life": "1926–1995",
+      "role": "Nhà kinh tế học trường phái Áo, Mỹ",
+      "variant": "anarcho-capitalism",
+      "wiki": "Murray Rothbard"
+    },
+    {
+      "id": "david-d-friedman",
+      "name": "David D. Friedman",
+      "life": "s. 1945",
+      "role": "Nhà kinh tế học Mỹ, con trai Milton Friedman",
+      "variant": "anarcho-capitalism",
+      "wiki": "David D. Friedman"
+    },
+    {
+      "id": "henry-george",
+      "name": "Henry George",
+      "life": "1839–1897",
+      "role": "Nhà kinh tế học Mỹ, tác giả Tiến bộ và Nghèo đói",
+      "variant": "georgism",
+      "wiki": "Henry George"
+    },
+    {
+      "id": "hillel-steiner",
+      "name": "Hillel Steiner",
+      "life": "s. 1942",
+      "role": "Triết gia chính trị, Đại học Manchester",
+      "variant": "georgism",
+      "wiki": "Hillel Steiner"
+    },
+    {
+      "id": "ron-paul",
+      "name": "Ron Paul",
+      "life": "s. 1935",
+      "role": "Hạ nghị sĩ Hoa Kỳ, ứng viên tổng thống",
+      "variant": "paleolibertarianism",
+      "wiki": "Ron Paul"
+    },
+    {
+      "id": "hans-hermann-hoppe",
+      "name": "Hans-Hermann Hoppe",
+      "life": "s. 1949",
+      "role": "Nhà kinh tế học, triết gia gốc Đức",
+      "variant": "paleolibertarianism",
+      "axes": {
+        "elites": 25
+      },
+      "wiki": "Hans-Hermann Hoppe"
+    },
+    {
+      "id": "thomas-paine",
+      "name": "Thomas Paine",
+      "life": "1737–1809",
+      "role": "Nhà tư tưởng cách mạng, tác giả Công lý ruộng đất (1797)",
+      "variant": "left-libertarianism",
+      "wiki": "Thomas Paine",
+      "axes": {
+        "lifestyle": 60,
+        "change": 80
+      }
+    },
+    {
+      "id": "philippe-van-parijs",
+      "name": "Philippe Van Parijs",
+      "life": "s. 1951",
+      "role": "Triết gia Bỉ, người vận động thu nhập cơ bản phổ quát",
+      "variant": "left-libertarianism",
+      "wiki": "Philippe Van Parijs"
+    }
+  ]
+}

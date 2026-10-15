@@ -1,0 +1,186 @@
+{
+  "family": {
+    "id": "fascism",
+    "name": "Phát xít",
+    "en": "Fascism",
+    "summary": "Chủ nghĩa dân tộc cực đoan, nhà nước toàn trị quanh một lãnh tụ tối cao; tôn thờ bạo lực và sự tái sinh của dân tộc; bác bỏ cả tự do lẫn chủ nghĩa Mác."
+  },
+  "variants": [
+    {
+      "id": "italian-fascism",
+      "name": "Phát xít Ý",
+      "en": "Italian Fascism",
+      "summary": "Mọi thứ nằm trong nhà nước, không gì ngoài nhà nước; nền kinh tế nghiệp đoàn nơi chủ và thợ do nhà nước điều phối; tôn thờ bạo lực và đế chế.",
+      "exemplars": [
+        "Benito Mussolini",
+        "Giovanni Gentile"
+      ],
+      "period": "1919–1945",
+      "axes": {
+        "economy": 35,
+        "distribution": 45,
+        "trade": 20,
+        "power": 0,
+        "liberty": 3,
+        "elites": 20,
+        "lifestyle": 20,
+        "religion": 50,
+        "identity": 10,
+        "environment": 35,
+        "foreign": 5,
+        "change": 80
+      },
+      "sd": {
+        "religion": 15
+      },
+      "status": "draft",
+      "raters": [
+        "claude"
+      ]
+    },
+    {
+      "id": "nazism",
+      "name": "Quốc xã",
+      "en": "Nazism",
+      "summary": "Học thuyết chủng tộc thượng đẳng và bài Do Thái, chiến tranh chinh phục để giành không gian sống, nhà nước toàn trị quanh lãnh tụ.",
+      "exemplars": [
+        "Adolf Hitler",
+        "Đức (1933–1945)"
+      ],
+      "period": "1920–1945",
+      "axes": {
+        "economy": 35,
+        "distribution": 45,
+        "trade": 15,
+        "power": 0,
+        "liberty": 0,
+        "elites": 10,
+        "lifestyle": 10,
+        "religion": 35,
+        "identity": 0,
+        "environment": 45,
+        "foreign": 0,
+        "change": 90
+      },
+      "sd": {
+        "environment": 15
+      },
+      "status": "draft",
+      "raters": [
+        "claude"
+      ]
+    },
+    {
+      "id": "national-catholicism",
+      "name": "Quốc gia Công giáo",
+      "en": "National Catholicism (Franco, Salazar)",
+      "summary": "Nhà nước độc đoán và nghiệp đoàn gắn chặt với Giáo hội Công giáo; chống cộng, bảo vệ gia đình và truyền thống, ít phiêu lưu quân sự hơn phát xít Ý, Đức.",
+      "exemplars": [
+        "Francisco Franco",
+        "António de Oliveira Salazar",
+        "Engelbert Dollfuss"
+      ],
+      "period": "1932–1975",
+      "axes": {
+        "economy": 50,
+        "distribution": 50,
+        "trade": 25,
+        "power": 15,
+        "liberty": 20,
+        "elites": 20,
+        "lifestyle": 5,
+        "religion": 90,
+        "identity": 20,
+        "environment": 40,
+        "foreign": 35,
+        "change": 30
+      },
+      "sd": {
+        "change": 15
+      },
+      "status": "draft",
+      "raters": [
+        "claude"
+      ]
+    },
+    {
+      "id": "japanese-militarism",
+      "name": "Quân phiệt Nhật",
+      "en": "Japanese militarism (Shōwa statism)",
+      "summary": "Thiên hoàng thần thánh, quân đội chi phối chính trường, Thần đạo quốc gia, xây Khối Thịnh vượng chung Đại Đông Á bằng chinh phục.",
+      "exemplars": [
+        "Tōjō Hideki",
+        "Kita Ikki",
+        "Nhật chiếm đóng Đông Dương (1940–1945)"
+      ],
+      "period": "1931–1945",
+      "axes": {
+        "economy": 35,
+        "distribution": 50,
+        "trade": 20,
+        "power": 15,
+        "liberty": 15,
+        "elites": 15,
+        "lifestyle": 10,
+        "religion": 85,
+        "identity": 5,
+        "environment": 35,
+        "foreign": 0,
+        "change": 55
+      },
+      "status": "draft",
+      "raters": [
+        "claude"
+      ]
+    },
+    {
+      "id": "national-syndicalism",
+      "name": "Công đoàn quốc gia (Falange)",
+      "en": "National syndicalism (Falange, JONS)",
+      "summary": "Cách mạng quốc gia chống cả tư bản lẫn chủ nghĩa Mác: thợ và chủ gộp vào các công đoàn dọc dưới quyền nhà nước, quốc hữu hoá ngân hàng, cải cách ruộng đất, khôi phục đế chế Công giáo.",
+      "exemplars": [
+        "José Antonio Primo de Rivera",
+        "Ramiro Ledesma Ramos",
+        "Francisco Rolão Preto (Bồ Đào Nha)",
+        "27 điểm của Falange (1934)"
+      ],
+      "period": "1931–1945",
+      "axes": {
+        "economy": 25,
+        "distribution": 35,
+        "trade": 15,
+        "power": 5,
+        "liberty": 5,
+        "elites": 35,
+        "lifestyle": 20,
+        "religion": 55,
+        "identity": 15,
+        "environment": 35,
+        "foreign": 10,
+        "change": 85
+      },
+      "facets": {
+        "economy.ownership": 40,
+        "economy.steering": 5,
+        "elites.decision": 15,
+        "elites.rank": 50,
+        "elites.trust": 50,
+        "lifestyle.family": 15,
+        "lifestyle.gender": 15,
+        "religion.state": 60,
+        "religion.law": 45,
+        "religion.public": 70,
+        "identity.nation": 5,
+        "change.means": 95,
+        "change.depth": 80
+      },
+      "sd": {
+        "religion": 15
+      },
+      "status": "draft",
+      "raters": [
+        "claude"
+      ]
+    }
+  ]
+}

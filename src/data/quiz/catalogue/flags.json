@@ -1,0 +1,891 @@
+{
+  "flags": {
+    "albania-1946": {
+      "layout": "plain",
+      "colors": [
+        "#e41e20"
+      ],
+      "emblem": {
+        "motif": "eagle",
+        "color": "#000000",
+        "size": 0.65
+      }
+    },
+    "algeria": {
+      "layout": "v",
+      "colors": [
+        "#006633",
+        "#ffffff"
+      ],
+      "emblem": {
+        "motif": "star-and-crescent",
+        "color": "#d21034",
+        "size": 0.5
+      }
+    },
+    "argentina": {
+      "layout": "h",
+      "colors": [
+        "#74acdf",
+        "#ffffff",
+        "#74acdf"
+      ],
+      "emblem": {
+        "motif": "sun",
+        "color": "#f6b40e",
+        "size": 0.3
+      }
+    },
+    "austria": {
+      "layout": "h",
+      "colors": [
+        "#c8102e",
+        "#ffffff",
+        "#c8102e"
+      ]
+    },
+    "austrian-empire": {
+      "layout": "h",
+      "colors": [
+        "#000000",
+        "#fcdd09"
+      ]
+    },
+    "black-flag": {
+      "layout": "plain",
+      "colors": [
+        "#000000"
+      ]
+    },
+    "bolivia": {
+      "layout": "h",
+      "colors": [
+        "#d52b1e",
+        "#f9e300",
+        "#007934"
+      ]
+    },
+    "bourbon-restoration": {
+      "layout": "plain",
+      "colors": [
+        "#ffffff"
+      ],
+      "emblem": {
+        "motif": "fleur-de-lis",
+        "color": "#c9a227",
+        "size": 0.5
+      }
+    },
+    "bulgaria": {
+      "layout": "h",
+      "colors": [
+        "#ffffff",
+        "#00966e",
+        "#d62612"
+      ]
+    },
+    "canada": {
+      "layout": "v",
+      "colors": [
+        "#d52b1e",
+        "#ffffff",
+        "#d52b1e"
+      ],
+      "weights": [
+        1,
+        2,
+        1
+      ],
+      "emblem": {
+        "motif": "leaf",
+        "color": "#d52b1e",
+        "size": 0.55
+      }
+    },
+    "chile": {
+      "layout": "h",
+      "colors": [
+        "#ffffff",
+        "#d52b1e"
+      ],
+      "canton": {
+        "color": "#0039a6",
+        "motif": "star",
+        "ink": "#ffffff",
+        "width": 0.333,
+        "height": 0.5
+      }
+    },
+    "cnt-fai": {
+      "layout": "diagonal",
+      "colors": [
+        "#e30613",
+        "#000000",
+        "#000000"
+      ]
+    },
+    "czechoslovakia": {
+      "layout": "h",
+      "colors": [
+        "#ffffff",
+        "#d7141a"
+      ],
+      "triangle": {
+        "color": "#11457e",
+        "depth": 0.5
+      }
+    },
+    "denmark": {
+      "layout": "nordic",
+      "colors": [
+        "#c8102e",
+        "#ffffff"
+      ]
+    },
+    "ecuador": {
+      "layout": "h",
+      "colors": [
+        "#ffdd00",
+        "#034ea2",
+        "#ed1c24"
+      ],
+      "weights": [
+        2,
+        1,
+        1
+      ]
+    },
+    "el-salvador": {
+      "layout": "h",
+      "colors": [
+        "#0f47af",
+        "#ffffff",
+        "#0f47af"
+      ]
+    },
+    "france": {
+      "layout": "v",
+      "colors": [
+        "#0055a4",
+        "#ffffff",
+        "#ef4135"
+      ]
+    },
+    "france-royal": {
+      "layout": "plain",
+      "colors": [
+        "#1c3f94"
+      ],
+      "emblem": {
+        "motif": "fleur-de-lis",
+        "color": "#f1c232",
+        "size": 0.6
+      }
+    },
+    "geneva": {
+      "layout": "v",
+      "colors": [
+        "#ffd100",
+        "#ef3340"
+      ],
+      "emblem": {
+        "motif": "key",
+        "color": "#ffd100",
+        "size": 0.6,
+        "x": 0.75
+      }
+    },
+    "german-empire": {
+      "layout": "h",
+      "colors": [
+        "#000000",
+        "#ffffff",
+        "#dd0000"
+      ]
+    },
+    "germany": {
+      "layout": "h",
+      "colors": [
+        "#000000",
+        "#dd0000",
+        "#ffce00"
+      ]
+    },
+    "ghana": {
+      "layout": "h",
+      "colors": [
+        "#ce1126",
+        "#fcd116",
+        "#006b3f"
+      ],
+      "emblem": {
+        "motif": "star",
+        "color": "#000000",
+        "size": 0.33
+      }
+    },
+    "greece": {
+      "layout": "h",
+      "colors": [
+        "#0d5eaf",
+        "#ffffff",
+        "#0d5eaf",
+        "#ffffff",
+        "#0d5eaf",
+        "#ffffff",
+        "#0d5eaf",
+        "#ffffff",
+        "#0d5eaf"
+      ],
+      "canton": {
+        "color": "#0d5eaf",
+        "motif": "cross",
+        "ink": "#ffffff",
+        "width": 0.37,
+        "height": 0.556
+      }
+    },
+    "guinea-bissau": {
+      "layout": "h",
+      "colors": [
+        "#fcd116",
+        "#009e49"
+      ],
+      "canton": {
+        "color": "#ce1126",
+        "motif": "star",
+        "ink": "#000000",
+        "width": 0.333,
+        "height": 1
+      }
+    },
+    "holy-roman-empire": {
+      "layout": "plain",
+      "colors": [
+        "#fcd116"
+      ],
+      "emblem": {
+        "motif": "eagle",
+        "color": "#000000",
+        "size": 0.6
+      }
+    },
+    "hungary": {
+      "layout": "h",
+      "colors": [
+        "#ce2939",
+        "#ffffff",
+        "#477050"
+      ]
+    },
+    "india": {
+      "layout": "h",
+      "colors": [
+        "#ff6820",
+        "#ffffff",
+        "#046a38"
+      ],
+      "emblem": {
+        "motif": "dharma-wheel",
+        "color": "#07038d",
+        "size": 0.28
+      }
+    },
+    "iran": {
+      "layout": "h",
+      "colors": [
+        "#239f40",
+        "#ffffff",
+        "#da0000"
+      ],
+      "emblem": {
+        "motif": "flower-tulip",
+        "color": "#da0000",
+        "size": 0.3
+      }
+    },
+    "ireland": {
+      "layout": "v",
+      "colors": [
+        "#169b62",
+        "#ffffff",
+        "#ff883e"
+      ]
+    },
+    "italy": {
+      "layout": "v",
+      "colors": [
+        "#009246",
+        "#ffffff",
+        "#ce2b37"
+      ]
+    },
+    "japan": {
+      "layout": "plain",
+      "colors": [
+        "#ffffff"
+      ],
+      "emblem": {
+        "motif": "disc",
+        "color": "#bc002d",
+        "size": 0.6
+      }
+    },
+    "kazakhstan": {
+      "layout": "plain",
+      "colors": [
+        "#00afca"
+      ],
+      "emblem": {
+        "motif": "sun",
+        "color": "#fec50c",
+        "size": 0.5
+      }
+    },
+    "kingdom-of-italy": {
+      "layout": "v",
+      "colors": [
+        "#009246",
+        "#ffffff",
+        "#ce2b37"
+      ],
+      "emblem": {
+        "motif": "shield",
+        "color": "#ce2b37",
+        "size": 0.4
+      }
+    },
+    "latvia": {
+      "layout": "h",
+      "colors": [
+        "#9e3039",
+        "#ffffff",
+        "#9e3039"
+      ],
+      "weights": [
+        2,
+        1,
+        2
+      ]
+    },
+    "netherlands": {
+      "layout": "h",
+      "colors": [
+        "#ae1c28",
+        "#ffffff",
+        "#21468b"
+      ]
+    },
+    "nguyen-dynasty": {
+      "layout": "plain",
+      "colors": [
+        "#ffcd00"
+      ]
+    },
+    "north-korea": {
+      "layout": "h",
+      "colors": [
+        "#024fa2",
+        "#ffffff",
+        "#ed1c27",
+        "#ffffff",
+        "#024fa2"
+      ],
+      "weights": [
+        4,
+        1,
+        14,
+        1,
+        4
+      ],
+      "emblem": [
+        {
+          "motif": "disc",
+          "color": "#ffffff",
+          "size": 0.4,
+          "x": 0.35,
+          "y": 0.5
+        },
+        {
+          "motif": "star",
+          "color": "#ed1c27",
+          "size": 0.36,
+          "x": 0.35,
+          "y": 0.5
+        }
+      ]
+    },
+    "norway": {
+      "layout": "nordic",
+      "colors": [
+        "#ba0c2f",
+        "#ffffff",
+        "#00205b"
+      ]
+    },
+    "philippines": {
+      "layout": "h",
+      "colors": [
+        "#0038a8",
+        "#ce1126"
+      ],
+      "triangle": {
+        "color": "#ffffff",
+        "motif": "sun",
+        "ink": "#fcd116"
+      }
+    },
+    "poland": {
+      "layout": "h",
+      "colors": [
+        "#ffffff",
+        "#dc143c"
+      ]
+    },
+    "portugal": {
+      "layout": "v",
+      "colors": [
+        "#006600",
+        "#ff0000"
+      ],
+      "weights": [
+        2,
+        3
+      ],
+      "emblem": {
+        "motif": "globe-hemisphere-west",
+        "color": "#ffff00",
+        "size": 0.5,
+        "x": 0.4
+      }
+    },
+    "prc": {
+      "layout": "plain",
+      "colors": [
+        "#ee1c25"
+      ],
+      "emblem": {
+        "motif": "star",
+        "color": "#ffff00",
+        "size": 0.3,
+        "x": 0.17,
+        "y": 0.25
+      }
+    },
+    "prussia": {
+      "layout": "plain",
+      "colors": [
+        "#ffffff"
+      ],
+      "emblem": {
+        "motif": "eagle",
+        "color": "#000000",
+        "size": 0.6
+      }
+    },
+    "roc": {
+      "layout": "plain",
+      "colors": [
+        "#fe0000"
+      ],
+      "canton": {
+        "color": "#000094",
+        "motif": "sun",
+        "ink": "#ffffff",
+        "width": 0.5,
+        "height": 0.5
+      }
+    },
+    "russia": {
+      "layout": "h",
+      "colors": [
+        "#ffffff",
+        "#0039a6",
+        "#d52b1e"
+      ]
+    },
+    "rvn": {
+      "layout": "h",
+      "colors": [
+        "#ffde00",
+        "#da251d",
+        "#ffde00",
+        "#da251d",
+        "#ffde00",
+        "#da251d",
+        "#ffde00"
+      ],
+      "weights": [
+        5,
+        1,
+        1,
+        1,
+        1,
+        1,
+        5
+      ]
+    },
+    "singapore": {
+      "layout": "h",
+      "colors": [
+        "#ed2939",
+        "#ffffff"
+      ],
+      "emblem": {
+        "motif": "moon",
+        "color": "#ffffff",
+        "size": 0.37,
+        "x": 0.21,
+        "y": 0.25
+      }
+    },
+    "south-korea": {
+      "layout": "plain",
+      "colors": [
+        "#ffffff"
+      ],
+      "emblem": {
+        "motif": "yin-yang",
+        "color": "#cd2e3a",
+        "size": 0.5
+      }
+    },
+    "soviet-union": {
+      "layout": "plain",
+      "colors": [
+        "#cc0000"
+      ],
+      "emblem": {
+        "motif": "hammer-sickle",
+        "color": "#ffd700",
+        "size": 0.25,
+        "x": 0.17,
+        "y": 0.2
+      }
+    },
+    "spain": {
+      "layout": "h",
+      "colors": [
+        "#ad1519",
+        "#fabd00",
+        "#ad1519"
+      ],
+      "weights": [
+        1,
+        2,
+        1
+      ]
+    },
+    "spain-francoist": {
+      "layout": "h",
+      "colors": [
+        "#aa151b",
+        "#f1bf00",
+        "#aa151b"
+      ],
+      "weights": [
+        1,
+        2,
+        1
+      ],
+      "emblem": {
+        "motif": "eagle",
+        "color": "#000000",
+        "size": 0.45
+      }
+    },
+    "sri-lanka": {
+      "layout": "v",
+      "colors": [
+        "#00534e",
+        "#eb7400",
+        "#8d153a"
+      ],
+      "weights": [
+        1,
+        1,
+        4
+      ]
+    },
+    "sweden": {
+      "layout": "nordic",
+      "colors": [
+        "#006aa7",
+        "#fecc02"
+      ]
+    },
+    "switzerland": {
+      "layout": "cross",
+      "colors": [
+        "#da291c",
+        "#ffffff"
+      ]
+    },
+    "tanzania": {
+      "layout": "diagonal",
+      "colors": [
+        "#1eb53a",
+        "#000000",
+        "#00a3dd",
+        "#fcd116"
+      ]
+    },
+    "turkey": {
+      "layout": "plain",
+      "colors": [
+        "#e30a17"
+      ],
+      "emblem": {
+        "motif": "star-and-crescent",
+        "color": "#ffffff",
+        "size": 0.5,
+        "x": 0.4
+      }
+    },
+    "uar": {
+      "layout": "h",
+      "colors": [
+        "#ce1126",
+        "#ffffff",
+        "#000000"
+      ],
+      "emblem": {
+        "motif": "star",
+        "color": "#007a3d",
+        "size": 0.3,
+        "x": [
+          0.36,
+          0.64
+        ]
+      }
+    },
+    "uk": {
+      "layout": "union",
+      "colors": [
+        "#012169",
+        "#ffffff",
+        "#c8102e"
+      ]
+    },
+    "usa": {
+      "layout": "h",
+      "colors": [
+        "#b22234",
+        "#ffffff",
+        "#b22234",
+        "#ffffff",
+        "#b22234",
+        "#ffffff",
+        "#b22234",
+        "#ffffff",
+        "#b22234",
+        "#ffffff",
+        "#b22234",
+        "#ffffff",
+        "#b22234"
+      ],
+      "canton": {
+        "color": "#3c3b6e",
+        "motif": "star-cluster",
+        "ink": "#ffffff",
+        "width": 0.4,
+        "height": 0.538
+      }
+    },
+    "venezuela": {
+      "layout": "h",
+      "colors": [
+        "#ffcc00",
+        "#00247d",
+        "#cf142b"
+      ]
+    },
+    "vietnam": {
+      "layout": "plain",
+      "colors": [
+        "#da251d"
+      ],
+      "emblem": {
+        "motif": "star",
+        "color": "#ffff00",
+        "size": 0.6
+      }
+    },
+    "yugoslavia": {
+      "layout": "h",
+      "colors": [
+        "#003893",
+        "#ffffff",
+        "#de0000"
+      ],
+      "emblem": {
+        "motif": "star",
+        "color": "#de0000",
+        "size": 0.6
+      }
+    },
+    "saudi-arabia": {
+      "layout": "plain",
+      "colors": [
+        "#006c35"
+      ],
+      "emblem": {
+        "motif": "sabre",
+        "color": "#ffffff",
+        "size": 1.15
+      }
+    },
+    "egypt": {
+      "layout": "h",
+      "colors": [
+        "#ce1126",
+        "#ffffff",
+        "#000000"
+      ],
+      "emblem": {
+        "motif": "eagle",
+        "color": "#c09300",
+        "size": 0.3
+      }
+    },
+    "sudan": {
+      "layout": "h",
+      "colors": [
+        "#d21034",
+        "#ffffff",
+        "#000000"
+      ],
+      "triangle": {
+        "color": "#007229",
+        "depth": 0.333
+      }
+    },
+    "cuba": {
+      "layout": "h",
+      "colors": [
+        "#002a8f",
+        "#ffffff",
+        "#002a8f",
+        "#ffffff",
+        "#002a8f"
+      ],
+      "triangle": {
+        "color": "#cf142b",
+        "motif": "star",
+        "ink": "#ffffff"
+      }
+    },
+    "democratic-kampuchea": {
+      "layout": "plain",
+      "colors": [
+        "#da251d"
+      ],
+      "emblem": {
+        "motif": "angkor-towers",
+        "color": "#ffd700",
+        "size": 0.55
+      }
+    },
+    "israel": {
+      "layout": "h",
+      "colors": [
+        "#ffffff",
+        "#0038b8",
+        "#ffffff",
+        "#0038b8",
+        "#ffffff"
+      ],
+      "weights": [
+        3,
+        5,
+        16,
+        5,
+        3
+      ],
+      "emblem": {
+        "motif": "star-of-david",
+        "color": "#0038b8",
+        "size": 0.45
+      }
+    },
+    "iraq-1963": {
+      "layout": "h",
+      "colors": [
+        "#ce1126",
+        "#ffffff",
+        "#000000"
+      ],
+      "emblem": {
+        "motif": "star",
+        "color": "#007a3d",
+        "size": 0.25,
+        "x": [
+          0.3,
+          0.5,
+          0.7
+        ]
+      }
+    },
+    "indonesia": {
+      "layout": "h",
+      "colors": [
+        "#ff0000",
+        "#ffffff"
+      ]
+    },
+    "peru": {
+      "layout": "v",
+      "colors": [
+        "#d91023",
+        "#ffffff",
+        "#d91023"
+      ]
+    },
+    "serbia": {
+      "layout": "h",
+      "colors": [
+        "#c6363c",
+        "#0c4076",
+        "#ffffff"
+      ]
+    },
+    "haiti-duvalier": {
+      "layout": "v",
+      "colors": [
+        "#000000",
+        "#d21034"
+      ]
+    },
+    "brazil": {
+      "layout": "plain",
+      "colors": [
+        "#009c3b"
+      ],
+      "emblem": [
+        {
+          "motif": "lozenge-wide",
+          "color": "#ffdf00",
+          "size": 0.85
+        },
+        {
+          "motif": "disc",
+          "color": "#002776",
+          "size": 0.38
+        }
+      ]
+    },
+    "mexico": {
+      "layout": "v",
+      "colors": [
+        "#006847",
+        "#ffffff",
+        "#ce1126"
+      ],
+      "emblem": {
+        "motif": "eagle",
+        "color": "#7a4a1d",
+        "size": 0.3
+      }
+    }
+  }
+}

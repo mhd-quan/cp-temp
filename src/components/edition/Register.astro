@@ -1,0 +1,30 @@
+---
+// The register: a dense, scannable index of essays, one line each, as in the
+// back pages of a bound volume. Date, title and subtitle, discipline.
+import type { CollectionEntry } from 'astro:content';
+import { shortDate, text } from '../../lib/edition';
+import Rubric from './Topics.astro';
+
+interface Props {
+  entries: CollectionEntry<'essays'>[];
+  /** Show the author (off on an author's own page). */
+  author?: boolean;
+}
+const { entries, author = true } = Astro.props;
+---
+<ol class="register" role="list">
+  {entries.map(({ id, data }) => (
+    <li class="register__row">
+      <time class="register__date caps" datetime={data.date.toISOString().slice(0, 10)}>{shortDate(data.date)}</time>
+      <div class="register__text">
+        <a class="register__title title-link" href={`/essays/${id}`} lang={data.lang}>{text(data.title)}</a>
+        {data.subtitle && <span class="register__dek">{text(data.subtitle)}</span>}
+      </div>
+      <div class="register__meta">
+        <Rubric topics={data.topics} />
+        {author && <span class="register__author caps">{data.author}</span>}
+        {data.form === 'pensee' && <span class="register__form caps">Pensée</span>}
+      </div>
+    </li>
+  ))}
+</ol>

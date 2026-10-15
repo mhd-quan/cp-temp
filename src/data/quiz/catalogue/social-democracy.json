@@ -1,0 +1,288 @@
+{
+  "parties": [
+    {
+      "id": "sap-sweden",
+      "name": "Đảng Dân chủ Xã hội Thuỵ Điển",
+      "abbr": "SAP",
+      "country": "Thuỵ Điển",
+      "period": "1889–nay",
+      "variants": [
+        "nordic-model"
+      ],
+      "emblem": {
+        "shape": "disc",
+        "field": "#e8112d",
+        "ink": "#ffffff",
+        "motif": "rose"
+      }
+    },
+    {
+      "id": "labour-norway",
+      "name": "Đảng Lao động Na Uy",
+      "abbr": "Ap",
+      "country": "Na Uy",
+      "period": "1887–nay",
+      "variants": [
+        "nordic-model"
+      ],
+      "emblem": {
+        "shape": "disc",
+        "field": "#e30613",
+        "ink": "#ffffff",
+        "motif": "rose"
+      }
+    },
+    {
+      "id": "social-democrats-denmark",
+      "name": "Đảng Dân chủ Xã hội Đan Mạch",
+      "abbr": "S",
+      "country": "Đan Mạch",
+      "period": "1871–nay",
+      "variants": [
+        "nordic-model"
+      ],
+      "emblem": {
+        "shape": "disc",
+        "field": "#c8102e",
+        "ink": "#ffffff",
+        "motif": "rose"
+      }
+    },
+    {
+      "id": "labour-uk",
+      "name": "Công đảng Anh",
+      "country": "Anh",
+      "period": "1900–nay",
+      "variants": [
+        "postwar-social-democracy",
+        "third-way",
+        "fabianism",
+        "modern-democratic-socialism"
+      ],
+      "emblem": {
+        "shape": "disc",
+        "field": "#e4003b",
+        "ink": "#ffffff",
+        "motif": "rose"
+      }
+    },
+    {
+      "id": "spd",
+      "name": "Đảng Dân chủ Xã hội Đức",
+      "abbr": "SPD",
+      "country": "Đức",
+      "period": "1863–nay",
+      "variants": [
+        "postwar-social-democracy",
+        "third-way"
+      ],
+      "emblem": {
+        "shape": "square",
+        "field": "#e3000f",
+        "ink": "#ffffff",
+        "motif": "rose"
+      }
+    },
+    {
+      "id": "fabian-society",
+      "name": "Hội Fabian",
+      "country": "Anh",
+      "period": "1884–nay",
+      "variants": [
+        "fabianism"
+      ],
+      "emblem": {
+        "shape": "disc",
+        "field": "#c8102e",
+        "ink": "#ffffff",
+        "motif": "tortoise"
+      }
+    }
+  ],
+  "states": [
+    {
+      "id": "sweden-1932-1976",
+      "name": "Thuỵ Điển",
+      "period": "1932–1976",
+      "note": "Dân chủ Xã hội cầm quyền: Hansson, Erlander, Palme",
+      "variants": [
+        "nordic-model"
+      ],
+      "flag": "sweden"
+    },
+    {
+      "id": "norway-1945-1965",
+      "name": "Na Uy",
+      "period": "1945–1965",
+      "note": "Đảng Lao động cầm quyền thời Einar Gerhardsen",
+      "variants": [
+        "nordic-model"
+      ],
+      "flag": "norway"
+    },
+    {
+      "id": "uk-1945-1951",
+      "name": "Vương quốc Anh",
+      "period": "1945–1951",
+      "note": "Chính phủ Công đảng của Clement Attlee",
+      "variants": [
+        "postwar-social-democracy",
+        "fabianism"
+      ],
+      "flag": "uk"
+    },
+    {
+      "id": "austria-1970-1983",
+      "name": "Áo",
+      "period": "1970–1983",
+      "note": "Chính phủ SPÖ của Bruno Kreisky",
+      "variants": [
+        "postwar-social-democracy"
+      ],
+      "flag": "austria"
+    },
+    {
+      "id": "uk-1997-2007",
+      "name": "Vương quốc Anh",
+      "period": "1997–2007",
+      "note": "Chính phủ Công đảng Mới của Tony Blair",
+      "variants": [
+        "third-way",
+        "liberal-interventionism"
+      ],
+      "flag": "uk"
+    },
+    {
+      "id": "usa-1993-2001",
+      "name": "Hoa Kỳ",
+      "period": "1993–2001",
+      "note": "Chính quyền Bill Clinton",
+      "variants": [
+        "third-way"
+      ],
+      "flag": "usa"
+    },
+    {
+      "id": "denmark-2019-2022",
+      "name": "Đan Mạch",
+      "period": "2019–2022",
+      "note": "Chính phủ thiểu số Dân chủ Xã hội của Mette Frederiksen",
+      "variants": [
+        "nordic-model"
+      ],
+      "flag": "denmark"
+    }
+  ],
+  "figures": [
+    {
+      "id": "per-albin-hansson",
+      "name": "Per Albin Hansson",
+      "life": "1885–1946",
+      "role": "Thủ tướng Thuỵ Điển, cha đẻ “Ngôi nhà của dân”",
+      "variant": "nordic-model",
+      "wiki": "Per Albin Hansson"
+    },
+    {
+      "id": "olof-palme",
+      "name": "Olof Palme",
+      "life": "1927–1986",
+      "role": "Thủ tướng Thuỵ Điển, phản đối chiến tranh Việt Nam",
+      "variant": "nordic-model",
+      "wiki": "Olof Palme"
+    },
+    {
+      "id": "gro-harlem-brundtland",
+      "name": "Gro Harlem Brundtland",
+      "life": "s. 1939",
+      "role": "Thủ tướng Na Uy, chủ trì Báo cáo Brundtland",
+      "variant": "nordic-model",
+      "wiki": "Gro Harlem Brundtland"
+    },
+    {
+      "id": "clement-attlee",
+      "name": "Clement Attlee",
+      "life": "1883–1967",
+      "role": "Thủ tướng Anh, người dựng nhà nước phúc lợi",
+      "variant": "postwar-social-democracy",
+      "wiki": "Clement Attlee"
+    },
+    {
+      "id": "willy-brandt",
+      "name": "Willy Brandt",
+      "life": "1913–1992",
+      "role": "Thủ tướng Tây Đức, Nobel Hoà bình 1971",
+      "variant": "postwar-social-democracy",
+      "axes": {
+        "foreign": 75
+      },
+      "wiki": "Willy Brandt"
+    },
+    {
+      "id": "bruno-kreisky",
+      "name": "Bruno Kreisky",
+      "life": "1911–1990",
+      "role": "Thủ tướng Áo (1970–1983)",
+      "variant": "postwar-social-democracy",
+      "wiki": "Bruno Kreisky"
+    },
+    {
+      "id": "tony-blair",
+      "name": "Tony Blair",
+      "life": "s. 1953",
+      "role": "Thủ tướng Anh (1997–2007)",
+      "variant": "third-way",
+      "axes": {
+        "foreign": 25
+      },
+      "wiki": "Tony Blair"
+    },
+    {
+      "id": "bill-clinton",
+      "name": "Bill Clinton",
+      "life": "s. 1946",
+      "role": "Tổng thống Hoa Kỳ (1993–2001)",
+      "variant": "third-way",
+      "wiki": "Bill Clinton"
+    },
+    {
+      "id": "anthony-giddens",
+      "name": "Anthony Giddens",
+      "life": "s. 1938",
+      "role": "Nhà xã hội học Anh, lý thuyết gia Con đường thứ ba",
+      "variant": "third-way",
+      "wiki": "Anthony Giddens"
+    },
+    {
+      "id": "sidney-webb",
+      "name": "Sidney Webb",
+      "life": "1859–1947",
+      "role": "Nhà cải cách Fabian, đồng sáng lập LSE",
+      "variant": "fabianism",
+      "wiki": "Sidney Webb"
+    },
+    {
+      "id": "beatrice-webb",
+      "name": "Beatrice Webb",
+      "life": "1858–1943",
+      "role": "Nhà xã hội học, lý thuyết gia Hội Fabian",
+      "variant": "fabianism",
+      "wiki": "Beatrice Webb"
+    },
+    {
+      "id": "maurice-glasman",
+      "name": "Maurice Glasman",
+      "life": "s. 1961",
+      "role": "Nhà lý luận Anh, sáng lập nhóm Blue Labour",
+      "variant": "blue-labour",
+      "wiki": "Maurice Glasman, Baron Glasman"
+    },
+    {
+      "id": "mette-frederiksen",
+      "name": "Mette Frederiksen",
+      "life": "s. 1977",
+      "role": "Thủ tướng Đan Mạch (từ 2019)",
+      "variant": "nordic-model",
+      "wiki": "Mette Frederiksen"
+    }
+  ]
+}

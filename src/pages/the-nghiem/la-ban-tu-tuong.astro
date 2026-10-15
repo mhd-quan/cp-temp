@@ -1,0 +1,305 @@
+---
+// La bàn Tư tưởng (v1.4): a political compass that names the variant of an
+// idea nearest the reader. The questions and the results are drawn by
+// lib/quiz/app.ts; this page carries the choice of length, the cube every
+// variant stands in, the twelve axes (readable without JavaScript) and the
+// frames the script fills.
+// The first piece of Thể nghiệm (pages/the-nghiem/index.astro). The address it had
+// before the section opened, /mo-rong/la-ban-chinh-tri, leads here (public/_redirects).
+import Glyph from '~/components/edition/Glyph.astro';
+import PageHead from '~/components/edition/PageHead.astro';
+import axes from '~/data/quiz/axes.json';
+import glyphs from '~/data/quiz/glyphs.json';
+import profiles from '~/data/quiz/profiles.json';
+import questions from '~/data/quiz/questions.json';
+import EditionLayout from '~/layouts/EditionLayout.astro';
+import { EXPERIMENTS } from '~/lib/editionNav';
+import { compass, cubeStage } from '~/lib/quiz/compass.ts';
+import { compile, position } from '~/lib/quiz/model.ts';
+import { familyPaletteCss } from '~/lib/quiz/palette.ts';
+import type { ProfileFile } from '~/lib/quiz/profiles.ts';
+import { LENGTHS, type Mode } from '~/lib/quiz/select.ts';
+import {
+  type Axis,
+  assembleLibrary,
+  type LibraryFile,
+  type Question,
+  SCALE,
+} from '~/lib/quiz/types.ts';
+import '~/styles/edition/quiz.css';
+
+const library = Object.values(
+  import.meta.glob<LibraryFile>('../../data/quiz/library/*.json', {
+    eager: true,
+    import: 'default',
+  }),
+);
+const catalogue = Object.values(
+  import.meta.glob<{ figures?: unknown[] }>('../../data/quiz/catalogue/*.json', {
+    eager: true,
+    import: 'default',
+  }),
+);
+const bank = (questions as Question[]).filter((question) => question.status !== 'dropped');
+const variants = library.reduce((sum, file) => sum + file.variants.length, 0);
+const people = catalogue.reduce((sum, file) => sum + (file.figures?.length ?? 0), 0);
+const themes = new Set(
+  bank.filter((question) => question.theme && !question.facet).map((q) => q.theme),
+).size;
+// The three lengths, shortest first; the standard one is chosen to begin with.
+const PACKS: { mode: Mode; name: string; note: string }[] = [
+  {
+    mode: 'short',
+    name: 'Bản rút gọn',
+    note: 'Khoảng hai mươi phút. Đủ để gọi tên hướng gần bạn nhất mà không kết luận quá sớm.',
+  },
+  {
+    mode: 'standard',
+    name: 'Bản tiêu chuẩn',
+    note: 'Từ ba mươi phút. Mỗi khía cạnh được hỏi từ hai phía; sau đó la bàn hỏi tiếp chừng nào còn cần để tách những hướng sát nhau.',
+  },
+  {
+    mode: 'deep',
+    name: 'Bản chuyên sâu',
+    note: `Từ bốn mươi lăm phút. Thêm ${themes} chủ đề mười hai trục không vẽ, như chính thể, lãnh tụ, quân đội hay tôn giáo: ranh giới giữa những hướng sát nhau rõ nhất.`,
+  },
+];
+const standard = LENGTHS.standard;
+// Every variant in the cube, where its expected answers put it: the same cube the results draw.
+const model = compile(axes as Axis[], assembleLibrary(library), bank, profiles as ProfileFile);
+const cube = cubeStage({
+  dots: model.variants.map((variant, v) => ({
+    at: compass(model.axes.map((_, a) => position(model, v, a))),
+    family: variant.family,
+    name: variant.name,
+  })),
+  label: '',
+  labelledBy: 'quiz-cube-caption',
+});
+// The seven answers, left to right from full agreement to full disagreement, each ring as
+// large as the answer is firm. Under each ring its short name; the whole name is its label.
+const SHORT = [
+  'Mọi trường hợp',
+  'Phần lớn',
+  'Phần nào',
+  'Trung lập',
+  'Phần nào',
+  'Phần lớn',
+  'Mọi trường hợp',
+];
+const SIZES = ['xl', 'l', 'm', 's', 'm', 'l', 'xl'];
+const scale = [3, 2, 1, 0, -1, -2, -3].map((value, i) => ({
+  value,
+  label: SCALE[value + 3],
+  short: SHORT[i],
+  size: SIZES[i],
+}));
+const title = 'La bàn Tư tưởng';
+const description = `Trả lời từ ${LENGTHS.short.base + LENGTHS.short.min} mệnh đề về kinh tế, quyền lực, bản sắc và đối ngoại; La bàn Tư tưởng, một la bàn chính trị mười hai trục, gọi tên hướng tư tưởng gần bạn nhất trong ${variants} biến thể.`;
+---
+<EditionLayout title={title} description={description}>
+  <style slot="head" is:inline set:html={familyPaletteCss(glyphs.families)} />
+  <div class="quiz" data-quiz data-stage="intro">
+    <PageHead title={title} parent={{ href: EXPERIMENTS, label: 'Thể nghiệm' }} dek={`Mười hai trục, ${variants} biến thể tư tưởng trong ${library.length} họ. Trả lời thật lòng, rồi xem bạn đứng gần ai nhất.`} />
+    <div class="page-body wrap">
+      <section class="intro" data-panel="intro" aria-labelledby="quiz-length">
+        <div class="intro__main">
+          <h2 class="quiz-kicker caps" id="quiz-length">Chọn độ dài</h2>
+          <fieldset class="packs" data-js-only hidden>
+            <legend class="sr-only">Độ dài của bài</legend>
+            {PACKS.map((pack) => {
+              const length = LENGTHS[pack.mode];
+              const chosen = Number.isFinite(length.max)
+                ? `${length.min} tới ${length.max}`
+                : `từ ${length.min}`;
+              return (
+                <label class="pack">
+                  <input class="pack__input" type="radio" name="quiz-pack" value={pack.mode} checked={pack.mode === 'standard'} />
+                  <span class="pack__name">{pack.name}</span>
+                  <span class="pack__count caps">{length.base}+ câu: {length.base} câu chung, rồi {chosen} câu chọn riêng</span>
+                  <span class="pack__note">{pack.note}</span>
+                  <span class="pack__check" aria-hidden="true"><Glyph name="check" size={16} /></span>
+                </label>
+              );
+            })}
+          </fieldset>
+          <p class="quiz-note intro__notice" data-notice role="status" hidden></p>
+          <div class="intro__go" data-js-only hidden>
+            <button class="button button--ink intro__start" type="button" data-start><span>Bắt đầu</span><Glyph name="forward" /></button>
+            <p class="quiz-note"><span data-start-length>{standard.base}</span> câu chung trước, rồi những câu chọn riêng cho bạn.</p>
+          </div>
+          <div class="resume" data-resume hidden>
+            <p class="resume__text" data-resume-text></p>
+            <div class="resume__actions">
+              <button class="button button--ink" type="button" data-continue><span>Làm tiếp</span><Glyph name="forward" /></button>
+              <button class="button button--line" type="button" data-restart>Bỏ lượt này</button>
+            </div>
+          </div>
+          <noscript><p class="quiz-note">La bàn cần JavaScript để hỏi và tính điểm. Mười hai trục của nó vẫn ở ngay dưới đây.</p></noscript>
+        </div>
+        <aside class="intro__how" aria-labelledby="quiz-how">
+          <h2 class="quiz-kicker caps" id="quiz-how">Cách làm</h2>
+          <figure class="cube cube--intro" data-cube-figure>
+            <Fragment set:html={cube} />
+            <figcaption class="quiz-note" id="quiz-cube-caption">Mỗi chấm là một trong {variants} hướng tư tưởng, đặt theo cách nó nhìn kinh tế, cách cai trị và thay đổi. Trả lời xong, bạn là một điểm trong khối này.</figcaption>
+          </figure>
+          <ol class="steps" role="list">
+            <li><strong>Bảy mức cho mỗi mệnh đề,</strong> từ đồng ý tới phản đối trong mọi trường hợp. Không chắc thì bỏ qua.</li>
+            <li><strong>Rồi những câu chọn riêng,</strong> để tách những hướng đang sát nhau với bạn.</li>
+            <li><strong>Kết quả gọi tên hướng gần nhất,</strong> vì sao, và ai đã nghĩ giống bạn.</li>
+          </ol>
+          <p class="quiz-note">Câu trả lời chỉ ở trong trình duyệt của bạn. Liên kết chia sẻ chỉ mang các câu trả lời, không mang tên hay điều gì khác về bạn.</p>
+        </aside>
+        <section class="axis-index" aria-labelledby="quiz-axes">
+          <h2 class="quiz-title" id="quiz-axes">Mười hai trục</h2>
+          <ol class="axis-index__list" role="list">
+            {axes.map((axis) => (
+              <li class="axis-index__item">
+                <h3 class="axis-index__name">{axis.name}</h3>
+                <p class="axis-index__question">{axis.question}</p>
+                <p class="axis-index__poles caps"><span>{axis.poles[0]}</span><span class="axis-index__rule" aria-hidden="true"></span><span>{axis.poles[1]}</span></p>
+              </li>
+            ))}
+          </ol>
+        </section>
+      </section>
+
+      <section class="play" data-panel="play" hidden aria-label="Câu hỏi">
+        <div class="play__head">
+          <p class="caps play__count"><span data-count>Câu 1</span><span class="play__of"> / <span data-total>{standard.base}</span></span></p>
+          <p class="caps play__axis" data-axis></p>
+        </div>
+        <div class="play__rule" data-progress aria-hidden="true"><span></span></div>
+        <p class="quiz-note play__extra">Câu chọn riêng: mỗi câu tách rõ nhất những hướng đang sát nhau với bạn.</p>
+        <div class="play__card" data-card>
+          <h2 class="play__question" data-question tabindex="-1" aria-live="polite"></h2>
+        </div>
+        <div class="agree" role="group" aria-label="Mức đồng ý với mệnh đề">
+          <p class="agree__side agree__side--yes caps" aria-hidden="true"><span>Đồng ý</span></p>
+          <p class="agree__side agree__side--no caps" aria-hidden="true"><span>Phản đối</span></p>
+          {scale.map((option, i) => (
+            <button class="agree__option" type="button" data-answer={option.value} data-size={option.size} data-label={option.label} aria-label={option.label} aria-pressed="false">
+              <span class="agree__ring" aria-hidden="true"><kbd class="agree__key">{i + 1}</kbd></span>
+              <span class="agree__label" aria-hidden="true">{option.short}</span>
+            </button>
+          ))}
+        </div>
+        <p class="agree__read" data-read aria-hidden="true"></p>
+        <div class="play__tools">
+          <button class="caps-link" type="button" data-back><Glyph name="back" inline /><span>Câu trước</span></button>
+          <button class="caps-link" type="button" data-skip><span>Bỏ qua</span></button>
+          <button class="caps-link play__finish" type="button" data-finish><span>Xem kết quả ngay</span><Glyph name="forward" inline /></button>
+        </div>
+        <p class="quiz-note play__need" data-need role="status" hidden></p>
+        <p class="quiz-note play__keys">Phím <kbd>1</kbd> tới <kbd>7</kbd> để trả lời, <kbd>0</kbd> để bỏ qua, <kbd>←</kbd> để quay lại.</p>
+        <section class="trail" aria-labelledby="quiz-trail">
+          <div class="trail__head">
+            <h2 class="caps trail__kicker" id="quiz-trail">Đường đi</h2>
+            <p class="trail__sum" data-trail-sum aria-live="off"></p>
+          </div>
+          <ol class="trail__axes" role="list" data-trail>
+            {axes.map((axis) => (
+              <li class="trail__axis" data-group={axis.id}>
+                <span class="trail__name">{axis.name}</span>
+                <span class="trail__ticks" data-ticks></span>
+              </li>
+            ))}
+            <li class="trail__axis trail__axis--themes" data-group="themes" hidden>
+              <span class="trail__name">Chủ đề</span>
+              <span class="trail__ticks" data-ticks></span>
+            </li>
+          </ol>
+          <p class="trail__key caps" aria-hidden="true"><span class="trail__tick" data-state="done"></span>Đã trả lời<span class="trail__tick" data-state="skipped"></span>Bỏ qua<span class="trail__tick" data-kind="a" data-state="done"></span>Chọn riêng</p>
+        </section>
+      </section>
+
+      <section class="result" data-panel="result" hidden aria-labelledby="quiz-verdict">
+        <div class="shared" data-shared hidden>
+          <p>Đây là kết quả một người đã chia sẻ với bạn.</p>
+          <p class="quiz-note" data-recomputed hidden>La bàn đã cập nhật hồ sơ từ khi liên kết này được tạo, nên kết quả được tính lại bằng hồ sơ hiện hành và có thể khác đôi chút với điều người chia sẻ đã thấy.</p>
+          <button class="button button--ink" type="button" data-again><span>Làm bài của bạn</span><Glyph name="forward" /></button>
+        </div>
+        <div class="bento" data-bento>
+          <div class="field" aria-hidden="true" data-slot="field"></div>
+          <div class="tile tile--verdict" data-slot="hero"></div>
+          <section class="tile tile--why" data-rise aria-labelledby="quiz-why">
+            <p class="caps tile__kicker">Vì sao</p>
+            <h2 class="tile__title" id="quiz-why">Điều đặt bạn vào hướng này</h2>
+            <div data-slot="why"></div>
+          </section>
+          <div class="result__actions" data-own>
+            <button class="button button--ink" type="button" data-copy><Glyph name="link" /><span>Chép liên kết</span></button>
+            <button class="button button--line" type="button" data-image><Glyph name="download" /><span>Lưu ảnh</span></button>
+            <button class="button button--line" type="button" data-share hidden>Chia sẻ</button>
+            <button class="button button--line" type="button" data-more hidden><span>Làm tiếp thành bản tiêu chuẩn</span></button>
+            <button class="caps-link" type="button" data-again><span>Làm lại</span></button>
+            <p class="caps result__status" data-status role="status"></p>
+          </div>
+          <section class="tile tile--top" data-rise aria-labelledby="quiz-top">
+            <p class="caps tile__kicker">Xếp hạng</p>
+            <h2 class="tile__title" id="quiz-top" data-top-title>Bảy hướng gần nhất</h2>
+            <p class="quiz-note" data-top-note></p>
+            <div data-slot="top"></div>
+          </section>
+          <section class="tile tile--map" data-rise aria-labelledby="quiz-map">
+            <p class="caps tile__kicker">La bàn ba chiều</p>
+            <h2 class="tile__title" id="quiz-map">Bạn đứng ở đâu trong khối</h2>
+            <div data-slot="map"></div>
+          </section>
+          <section class="tile tile--axes" data-rise aria-labelledby="quiz-axes-result">
+            <p class="caps tile__kicker">Mười hai trục</p>
+            <h2 class="tile__title" id="quiz-axes-result">Bạn nghiêng về đâu, và mạnh tới đâu</h2>
+            <p class="quiz-note">Thanh mực kẻ từ giữa ra phía bạn nghiêng, càng dài càng mạnh; con số ở hai đầu là bạn đi được bao nhiêu phần đường về mỗi phía. Chọn một trong bốn hướng gần nhất để đặt vị trí của nó lên từng trục; mỗi trục kèm người đứng gần bạn nhất ở đó.</p>
+            <div data-slot="axes-ref"></div>
+            <div data-slot="axes"></div>
+          </section>
+          <section class="tile tile--apart" data-rise aria-labelledby="quiz-apart">
+            <p class="caps tile__kicker">So với {variants} hướng</p>
+            <h2 class="tile__title" id="quiz-apart">Điều làm bạn khác biệt</h2>
+            <div data-slot="apart"></div>
+          </section>
+          <section class="tile tile--far" data-rise aria-labelledby="quiz-far">
+            <p class="caps tile__kicker">Đầu bên kia</p>
+            <h2 class="tile__title" id="quiz-far">Xa bạn nhất</h2>
+            <div data-slot="far"></div>
+          </section>
+          <section class="tile tile--holders" data-rise aria-labelledby="quiz-holders">
+            <p class="caps tile__kicker">Trong lịch sử</p>
+            <h2 class="tile__title" id="quiz-holders">Đảng phái và nhà nước</h2>
+            <p class="quiz-note">Đã đi theo <span data-holders-name></span>.</p>
+            <div data-slot="holders"></div>
+          </section>
+          <section class="tile tile--people" data-rise aria-labelledby="quiz-people">
+            <p class="caps tile__kicker">Con người</p>
+            <h2 class="tile__title" id="quiz-people">Những người tiêu biểu</h2>
+            <p class="quiz-note">Mỗi người tiêu biểu cho một trong các hướng gần bạn nhất, chọn trong {people} nhân vật lịch sử và đương thời. Họ được xếp theo hướng của mình, nên đây là những ví dụ, không phải bảng xếp hạng con người.</p>
+            <div data-slot="people"></div>
+          </section>
+        </div>
+        <details class="result__method" data-rise>
+          <summary class="caps-link"><span>Cách tính</span><Glyph name="next" inline /></summary>
+          <div class="result__method-body">
+            <p>Mỗi biến thể trong thư viện có một hồ sơ câu trả lời: với từng câu trong {bank.length} câu hỏi, một người theo nó sẽ chọn mức nào trên thang bảy bậc, và những người theo nó có đồng lòng ở câu ấy hay không. Hồ sơ hiện là bản nháp do hai lượt chấm độc lập soạn, kèm lý do cho từng câu, và sẽ còn được hiệu đính.</p>
+            <p>La bàn không so điểm trung bình mà so từng câu. Với mỗi biến thể, nó tính khả năng một người theo biến thể ấy trả lời đúng như bạn, sau khi tính đến việc mỗi người dùng thang một kiểu: có người hiếm khi chọn hai đầu thang, có người hay nghiêng về phía đồng ý. Hai thói quen ấy được ước lượng từ chính câu trả lời của bạn rồi lấy tích phân qua, nên kết quả dựa vào khuôn mẫu câu trả lời chứ không vào độ gắt. Biến thể đứng đầu là biến thể giải thích câu trả lời của bạn tốt nhất.</p>
+            <p>Độ khớp, con số trong vòng, so một biến thể với một hồ sơ tưởng tượng đoán trúng mọi câu trả lời của bạn. Mức tin cậy là phần của biến thể ấy trong tổng trọng số của cả thư viện, nói bằng lời: cao từ 90% (lúc ấy la bàn thôi hỏi thêm), khá cao từ 70%, vừa từ 40%, dưới nữa là thấp. Đó không phải xác suất bạn thuộc về biến thể ấy. Sau phần chung, mỗi câu chọn riêng là câu mang nhiều thông tin nhất để phân định những biến thể đang dẫn đầu với bạn.</p>
+            <p>Thanh trên mười hai trục chỉ để đọc: đó là trung bình câu trả lời của bạn ở từng khía cạnh, không phải thứ dùng để xếp hạng. Vị trí của mỗi biến thể trên các trục được suy ra từ hồ sơ câu trả lời của nó. Kết quả là một tấm gương để suy ngẫm, không phải một lời phán xét.</p>
+            <p>Huy hiệu đảng và cờ được vẽ lại giản lược để nhận ra, không phải bản sao biểu trưng chính thức.</p>
+            <div data-slot="credits"></div>
+          </div>
+        </details>
+      </section>
+      <p class="sr-only" data-live aria-live="polite"></p>
+    </div>
+  </div>
+
+  <div slot="after" id="quiz-profile" class="quiz-sheet" popover data-sheet data-pagefind-ignore aria-labelledby="quiz-profile-title">
+    <button class="icon-button quiz-sheet__close" type="button" popovertarget="quiz-profile" popovertargetaction="hide" aria-label="Đóng"><Glyph name="close" size={20} /></button>
+    <div class="quiz-sheet__body" data-sheet-body></div>
+  </div>
+</EditionLayout>
+
+<script>
+  import { initQuiz } from '~/lib/quiz/app.ts';
+
+  initQuiz();
+</script>

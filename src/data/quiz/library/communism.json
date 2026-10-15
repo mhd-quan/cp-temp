@@ -1,0 +1,144 @@
+{
+  "family": {
+    "id": "communism",
+    "name": "Cộng sản",
+    "en": "Communism",
+    "summary": "Xoá bỏ tư hữu tư liệu sản xuất và giai cấp, qua cách mạng do một đảng tiên phong lãnh đạo, hướng tới một xã hội không còn nhà nước."
+  },
+  "variants": [
+    {
+      "id": "marxism-leninism",
+      "name": "Chủ nghĩa Mác–Lênin",
+      "en": "Marxism–Leninism",
+      "summary": "Đảng tiên phong giành chính quyền bằng cách mạng, lập chuyên chính vô sản, công hữu hoá và kế hoạch hoá tập trung nền kinh tế.",
+      "exemplars": ["V. I. Lenin", "Liên Xô (1922–1991)", "Đông Âu (1945–1989)"],
+      "period": "1917–1991",
+      "axes": { "economy": 5, "distribution": 10, "trade": 25, "power": 5, "liberty": 10, "elites": 40, "lifestyle": 40, "religion": 5, "identity": 50, "environment": 20, "foreign": 30, "change": 90 },
+      "facets": { "elites.decision": 15, "elites.rank": 60, "elites.trust": 50, "lifestyle.family": 35, "lifestyle.gender": 60, "lifestyle.autonomy": 25, "foreign.intervention": 20 },
+      "sd": { "identity": 15 },
+      "status": "draft",
+      "raters": ["claude"]
+    },
+    {
+      "id": "stalinism",
+      "name": "Chủ nghĩa Stalin",
+      "en": "Stalinism",
+      "summary": "Mác–Lênin cộng với sùng bái cá nhân, công nghiệp hoá cưỡng bức, tập thể hoá nông nghiệp và thanh trừng; xây chủ nghĩa xã hội trong một nước.",
+      "exemplars": ["Iosif Stalin", "Liên Xô (1928–1953)"],
+      "period": "1928–1953",
+      "axes": { "economy": 3, "distribution": 10, "trade": 15, "power": 0, "liberty": 3, "elites": 25, "lifestyle": 25, "religion": 3, "identity": 35, "environment": 10, "foreign": 20, "change": 90 },
+      "facets": { "elites.decision": 5, "elites.rank": 45, "elites.trust": 25, "lifestyle.family": 25, "lifestyle.gender": 45, "lifestyle.autonomy": 10, "trade.selfreliance": 5, "environment.growth": 5 },
+      "status": "draft",
+      "raters": ["claude"]
+    },
+    {
+      "id": "maoism",
+      "name": "Chủ nghĩa Mao",
+      "en": "Maoism",
+      "summary": "Cách mạng dựa vào nông dân, chiến tranh nhân dân, đường lối quần chúng và cách mạng không ngừng, kể cả chống lại tầng lớp quan liêu trong đảng.",
+      "exemplars": ["Mao Trạch Đông", "Trung Quốc (1949–1976)", "Cách mạng Văn hoá"],
+      "period": "1927–1976",
+      "axes": { "economy": 3, "distribution": 5, "trade": 10, "power": 5, "liberty": 5, "elites": 65, "lifestyle": 35, "religion": 2, "identity": 40, "environment": 10, "foreign": 25, "change": 100 },
+      "facets": { "elites.decision": 30, "elites.rank": 80, "elites.trust": 85, "lifestyle.family": 50, "lifestyle.gender": 60, "lifestyle.autonomy": 5, "trade.selfreliance": 5, "power.local": 20 },
+      "status": "draft",
+      "raters": ["claude"]
+    },
+    {
+      "id": "trotskyism",
+      "name": "Chủ nghĩa Trotsky",
+      "en": "Trotskyism",
+      "summary": "Cách mạng thường trực và mang tính quốc tế; chống quan liêu hoá kiểu Stalin, đòi dân chủ công nhân trong phong trào cộng sản.",
+      "exemplars": ["Lev Trotsky", "Đệ tứ Quốc tế", "Tạ Thu Thâu"],
+      "period": "1924–nay",
+      "axes": { "economy": 5, "distribution": 5, "trade": 45, "power": 25, "liberty": 35, "elites": 55, "lifestyle": 60, "religion": 8, "identity": 88, "environment": 30, "foreign": 30, "change": 95 },
+      "facets": { "foreign.force": 35, "foreign.rules": 45, "foreign.intervention": 10, "identity.nation": 95 },
+      "status": "draft",
+      "raters": ["claude"]
+    },
+    {
+      "id": "juche",
+      "name": "Tư tưởng Chủ thể (Juche)",
+      "en": "Juche",
+      "summary": "Tự lực tuyệt đối về chính trị, kinh tế và quốc phòng; lãnh tụ cha truyền con nối, quân đội là trên hết, dân tộc thuần nhất.",
+      "exemplars": ["Kim Nhật Thành", "Triều Tiên"],
+      "period": "1955–nay",
+      "axes": { "economy": 3, "distribution": 15, "trade": 3, "power": 0, "liberty": 0, "elites": 10, "lifestyle": 15, "religion": 15, "identity": 5, "environment": 15, "foreign": 10, "change": 30 },
+      "facets": { "religion.state": 5, "religion.law": 5, "religion.public": 45, "elites.rank": 20 },
+      "sd": { "change": 15, "religion": 12 },
+      "status": "draft",
+      "raters": ["claude"]
+    },
+    {
+      "id": "eurocommunism",
+      "name": "Cộng sản châu Âu",
+      "en": "Eurocommunism",
+      "summary": "Cộng sản chấp nhận đa đảng, bầu cử và tự do dân sự, độc lập với Moskva, đi tới chủ nghĩa xã hội qua con đường nghị trường.",
+      "exemplars": ["Enrico Berlinguer", "Santiago Carrillo", "Đảng Cộng sản Ý thập niên 1970"],
+      "period": "1970–1990",
+      "axes": { "economy": 20, "distribution": 15, "trade": 45, "power": 75, "liberty": 70, "elites": 50, "lifestyle": 60, "religion": 30, "identity": 65, "environment": 45, "foreign": 65, "change": 55 },
+      "facets": { "change.pace": 60, "change.means": 25, "change.depth": 80 },
+      "status": "draft",
+      "raters": ["claude"]
+    },
+    {
+      "id": "luxemburgism",
+      "name": "Cộng sản hội đồng",
+      "en": "Council communism (Luxemburgism)",
+      "summary": "Cách mạng đi lên từ các hội đồng công nhân tự phát, chống một đảng tiên phong độc quyền; tự do luôn là tự do của người nghĩ khác.",
+      "exemplars": ["Rosa Luxemburg", "Anton Pannekoek"],
+      "period": "1905–nay",
+      "axes": { "economy": 5, "distribution": 5, "trade": 50, "power": 70, "liberty": 75, "elites": 90, "lifestyle": 65, "religion": 15, "identity": 90, "environment": 40, "foreign": 60, "change": 95 },
+      "facets": { "power.pluralism": 55, "power.checks": 60, "power.local": 90, "elites.decision": 95 },
+      "status": "draft",
+      "raters": ["claude"]
+    },
+    {
+      "id": "council-communism",
+      "name": "Cộng sản hội đồng (cánh tả Hà Lan–Đức)",
+      "en": "Council communism (Dutch–German Left)",
+      "summary": "Quyền lực thuộc về các hội đồng công nhân bầu từ nơi làm việc, đại biểu bị bãi miễn bất cứ lúc nào; bác bỏ đảng tiên phong, nghị trường, công đoàn và cả nhà nước Bolshevik.",
+      "exemplars": ["Anton Pannekoek", "Herman Gorter", "Otto Rühle", "Đảng Công nhân Cộng sản Đức (KAPD)"],
+      "period": "1918–nay",
+      "axes": { "economy": 5, "distribution": 5, "trade": 50, "power": 75, "liberty": 70, "elites": 95, "lifestyle": 65, "religion": 10, "identity": 95, "environment": 40, "foreign": 60, "change": 95 },
+      "facets": { "economy.ownership": 0, "economy.planning": 10, "power.pluralism": 35, "power.checks": 65, "power.local": 95, "elites.decision": 100, "elites.rank": 95, "elites.trust": 90, "identity.nation": 100, "change.pace": 90, "change.means": 95, "change.depth": 100 },
+      "status": "draft",
+      "raters": ["claude"]
+    },
+    {
+      "id": "hoxhaism",
+      "name": "Chủ nghĩa Hoxha",
+      "en": "Hoxhaism (Albanian anti-revisionism)",
+      "summary": "Trung thành với Stalin, chống cả chủ nghĩa xét lại Khrushchev lẫn Mao; Albania tự lực tuyệt đối, cấm vay nợ nước ngoài, cấm mọi tôn giáo, đóng cửa với thế giới và rải lô cốt khắp nơi.",
+      "exemplars": ["Enver Hoxha", "Mehmet Shehu", "Albania (1961–1990)"],
+      "period": "1961–1990",
+      "axes": { "economy": 0, "distribution": 10, "trade": 3, "power": 0, "liberty": 0, "elites": 25, "lifestyle": 15, "religion": 0, "identity": 15, "environment": 10, "foreign": 30, "change": 75 },
+      "facets": { "trade.goods": 10, "trade.capital": 0, "trade.selfreliance": 0, "elites.decision": 5, "elites.rank": 50, "elites.trust": 30, "lifestyle.family": 25, "lifestyle.gender": 45, "lifestyle.autonomy": 0, "identity.nation": 20, "identity.culture": 10, "identity.migration": 5, "environment.growth": 5, "foreign.force": 10, "foreign.rules": 5, "foreign.intervention": 70, "change.pace": 70, "change.means": 80, "change.depth": 85 },
+      "status": "draft",
+      "raters": ["claude"]
+    },
+    {
+      "id": "guevarism",
+      "name": "Chủ nghĩa Guevara",
+      "en": "Guevarism (foco theory)",
+      "summary": "Một nhóm du kích nhỏ trên núi có thể tự châm ngòi cách mạng; xây con người mới bằng khuyến khích tinh thần thay cho vật chất; xuất khẩu đấu tranh vũ trang khắp Thế giới thứ ba.",
+      "exemplars": ["Che Guevara", "Fidel Castro", "Régis Debray (Cách mạng trong cách mạng?, 1967)"],
+      "period": "1956–1967",
+      "axes": { "economy": 3, "distribution": 5, "trade": 25, "power": 10, "liberty": 10, "elites": 45, "lifestyle": 30, "religion": 10, "identity": 80, "environment": 15, "foreign": 10, "change": 100 },
+      "facets": { "trade.capital": 5, "liberty.expression": 10, "liberty.justice": 0, "liberty.privacy": 15, "elites.decision": 15, "elites.rank": 85, "elites.trust": 40, "lifestyle.autonomy": 10, "identity.nation": 90, "foreign.force": 10, "foreign.rules": 15, "foreign.intervention": 0 },
+      "status": "draft",
+      "raters": ["claude"]
+    },
+    {
+      "id": "agrarian-communism-khmer",
+      "name": "Cộng sản nông nghiệp cực đoan (Khmer Đỏ)",
+      "en": "Khmer Rouge agrarian communism (Democratic Kampuchea)",
+      "summary": "Đuổi dân khỏi thành phố, xoá bỏ tiền tệ, chợ, tôn giáo và đời sống gia đình, dồn dân vào hợp tác xã cưỡng bức; khoảng 1,5 đến 2 triệu người chết vì hành quyết, đói và bệnh.",
+      "exemplars": ["Pol Pot", "Nuon Chea", "Campuchia Dân chủ (1975–1979)"],
+      "period": "1975–1979",
+      "axes": { "economy": 0, "distribution": 3, "trade": 0, "power": 0, "liberty": 0, "elites": 40, "lifestyle": 20, "religion": 0, "identity": 3, "environment": 20, "foreign": 10, "change": 100 },
+      "facets": { "power.pluralism": 0, "power.checks": 0, "power.local": 15, "elites.decision": 0, "elites.rank": 25, "elites.trust": 100, "lifestyle.family": 40, "lifestyle.gender": 30, "lifestyle.autonomy": 0, "identity.nation": 5, "identity.culture": 10, "identity.migration": 0, "environment.growth": 5, "environment.nature": 20, "environment.technology": 55, "foreign.force": 5, "foreign.rules": 0, "foreign.intervention": 20 },
+      "status": "draft",
+      "raters": ["claude"]
+    }
+  ]
+}

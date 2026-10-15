@@ -1,0 +1,82 @@
+---
+/**
+ * Single essay page on the Ấn bản reader.
+ */
+import { getCollection, render } from 'astro:content';
+import type { GetStaticPaths } from 'astro';
+import ArticleImage from '~/components/essay/ArticleImage.astro';
+import EditionReader from '~/layouts/EditionReader.astro';
+import { text } from '~/lib/edition';
+import { vietnameseSearchAliases } from '~/lib/searchText';
+import { essaySeo } from '~/lib/seo/publication.mjs';
+
+export const getStaticPaths = (async () => {
+  const essays = await getCollection('essays', ({ data }) => !data.draft);
+  const sorted = essays.sort((a, b) => b.data.date.valueOf() - a.data.date.valueOf());
+  const series = await getCollection('series');
+  const byId = new Map(sorted.map((essay) => [essay.id, essay]));
+  const neighbour = (essay: (typeof sorted)[number] | undefined) =>
+    essay
+      ? {
+          url: `/essays/${essay.id}`,
+          title: text(essay.data.title),
+          subtitle: essay.data.subtitle ? text(essay.data.subtitle) : undefined,
+          topics: essay.data.topics,
+          coverImage: essay.data.coverImage,
+        }
+      : null;
+
+  return sorted.map((essay, index) => {
+    const volume = series.find((entry) => entry.data.essayIds.includes(essay.id));
+    const parts =
+      volume?.data.essayIds.map((id) => byId.get(id)).filter((part) => part !== undefined) ?? [];
+    return {
+      params: { slug: essay.id },
+      props: {
+        essay,
+        prevEssay: neighbour(sorted[index + 1]),
+        nextEssay: neighbour(sorted[index - 1]),
+        series:
+          volume && parts.length > 1
+            ? {
+                name: text(volume.data.nameVi ?? volume.data.name),
+                slug: volume.data.slug,
+                index: parts.findIndex((part) => part.id === essay.id),
+                parts: parts.map((part) => ({
+                  url: `/essays/${part.id}`,
+                  title: text(part.data.title),
+                  current: part.id === essay.id,
+                })),
+              }
+            : null,
+      },
+    };
+  });
+}) satisfies GetStaticPaths;
+
+const { essay, prevEssay, nextEssay, series } = Astro.props;
+const { Content, headings } = await render(essay);
+---
+
+<EditionReader
+  headings={headings}
+  title={essay.data.title}
+  seo={essaySeo(essay.id, essay.data)}
+  searchAliases={vietnameseSearchAliases(`${essay.data.title} ${essay.data.author} ${essay.body ?? ''}`)}
+  subtitle={essay.data.subtitle}
+  dek={essay.data.dek}
+  date={essay.data.date}
+  author={essay.data.author}
+  lang={essay.data.lang}
+  topics={essay.data.topics}
+  excerpt={essay.data.excerpt}
+  originalUrl={essay.data.originalUrl}
+  publicationHistory={essay.data.publicationHistory}
+  coverImage={essay.data.coverImage}
+  coverImageAlt={essay.data.coverImageAlt ?? `Minh hoạ cho ${essay.data.title}`}
+  prevEssay={prevEssay}
+  nextEssay={nextEssay}
+  series={series}
+>
+  <Content components={{ img: ArticleImage }} />
+</EditionReader>

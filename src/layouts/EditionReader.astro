@@ -1,0 +1,255 @@
+---
+// Ấn bản reader. The essay first: title, subtitle, byline, then the plate and
+// the text. Tools live in the bar (Aa, contents, search) and in the margins
+// (contents on the left, notes on the right) where the screen allows.
+// Class names essay / prose / essay__* are kept: the PDF export and the
+// publication-integrity checks read the article through them.
+import Glyph from '../components/edition/Glyph.astro';
+import Later from '../components/edition/Later.astro';
+import Plate from '../components/edition/Plate.astro';
+import ReaderSettings from '../components/edition/ReaderSettings.astro';
+import Rubric from '../components/edition/Topics.astro';
+import { anchorReaderHtml } from '../lib/anchorReaderHtml.mjs';
+import { inkOf, longDate, text } from '../lib/edition';
+import { FIRST, LATER } from '../lib/editionStyles';
+import { metadataImage } from '../lib/responsiveImage';
+import { foldSearchText } from '../lib/searchText';
+import { articleGraph, serializeJsonLd } from '../lib/seo/publication.mjs';
+import EditionLayout from './EditionLayout.astro';
+
+interface Neighbour {
+  url: string;
+  title: string;
+  subtitle?: string;
+  topics: string[];
+  coverImage?: string;
+}
+interface Props {
+  headings?: { depth: number; slug: string; text: string }[];
+  title: string;
+  seo: {
+    url: string;
+    description: string;
+    published: string;
+    modified?: string;
+    authorUrl: string;
+  };
+  searchAliases?: string;
+  subtitle?: string;
+  dek?: string;
+  date: Date;
+  author?: string;
+  lang?: 'vi' | 'en';
+  topics: string[];
+  excerpt?: string;
+  originalUrl?: string;
+  publicationHistory?: string;
+  coverImage?: string;
+  coverImageAlt?: string;
+  prevEssay?: Neighbour | null;
+  nextEssay?: Neighbour | null;
+  series?: {
+    name: string;
+    slug: string;
+    index: number;
+    parts: { url: string; title: string; current: boolean }[];
+  } | null;
+}
+const {
+  headings = [],
+  title,
+  seo,
+  searchAliases = '',
+  subtitle,
+  dek,
+  date,
+  author = 'M. Q. Doan',
+  lang = 'vi',
+  topics,
+  excerpt,
+  originalUrl,
+  publicationHistory,
+  coverImage,
+  coverImageAlt = `Minh hoạ cho ${title}`,
+  prevEssay,
+  nextEssay,
+  series,
+} = Astro.props;
+
+const image = coverImage ? metadataImage(coverImage) : undefined;
+const graph = articleGraph({ title, author, lang, image: image?.url, seo });
+const readerHtml = anchorReaderHtml(await Astro.slots.render('default'));
+const words = readerHtml.replace(/<[^>]*>/g, ' ').split(/\s+/).length;
+const minutes = Math.max(1, Math.ceil(words / 250));
+const toc = headings.filter((heading) => heading.depth === 2 || heading.depth === 3);
+const slug = Astro.url.pathname.split('/').filter(Boolean).at(-1);
+const numerals = ['I', 'II', 'III', 'IV', 'V', 'VI'];
+const Context = toc.length >= 2 ? 'button' : 'p';
+const neighbours = [
+  prevEssay && { ...prevEssay, label: 'Bài trước' },
+  nextEssay && { ...nextEssay, label: 'Bài sau' },
+].filter(Boolean) as (Neighbour & { label: string })[];
+---
+<EditionLayout reader first={FIRST.reader} later={false} title={`${title} — The Cochinchine Pensées`} description={seo.description} lang={lang} canonicalUrl={seo.url} ogImage={image?.url} ogImageAlt={image && coverImageAlt}>
+  <Fragment slot="head">
+    <script is:inline type="application/ld+json" set:html={serializeJsonLd(graph)} />
+    <meta property="article:published_time" content={seo.published} />
+    {seo.modified && <meta property="article:modified_time" content={seo.modified} />}
+    <meta name="author" content={author} />
+    {coverImage && <link rel="expect" href="#essay-cover" blocking="render" />}
+  </Fragment>
+
+  <Fragment slot="bar">
+    {/* Where the reader is: the part and the time left. On a phone this is the
+        whole bar, and tapping it opens the contents when the essay has them. */}
+    <Context class="reading-context" data-pagefind-ignore {...(toc.length >= 2 ? { type: 'button', popovertarget: 'reader-contents' } : {})}>
+      {toc.length >= 2 && <span class="sr-only">Mục lục. </span>}
+      <span class="reading-context__title">{text(title)}</span>
+      <span class="reading-context__part caps" data-part></span>
+      <span class="reading-context__remaining caps" data-remaining data-minutes={minutes}>{minutes} phút đọc</span>
+      {toc.length >= 2 && <Glyph name="contents" size={18} class="reading-context__glyph" />}
+    </Context>
+  </Fragment>
+  <Fragment slot="bar-tools">
+    <span class="reading-remaining caps" data-remaining data-minutes={minutes} data-pagefind-ignore>{minutes} phút đọc</span>
+    <button class="icon-button reader-aa" type="button" popovertarget="reader-settings" aria-label="Trang đọc"><span aria-hidden="true">Aa</span></button>
+  </Fragment>
+
+  <article
+    class="essay reader-essay"
+    data-ink={inkOf(topics[0]).key}
+    data-pagefind-body
+    data-pagefind-meta="title[data-search-title], title_alias[data-search-title-alias], description[data-search-description], aliases[data-search-aliases]"
+    data-search-title={title}
+    data-search-title-alias={foldSearchText(title)}
+    data-search-description={excerpt ?? subtitle ?? ''}
+    data-search-aliases={searchAliases}
+  >
+    <header class="article-head">
+      <div class="article-head__text">
+        <Rubric topics={topics} />
+        <h1 id="essay-title" class="essay__title" tabindex="-1">{text(title)}</h1>
+        {subtitle && <p class="essay__subtitle">{text(subtitle)}</p>}
+        {dek && <p class="essay__dek">{text(dek)}</p>}
+        <p class="byline caps">
+          <a class="essay__byline-author" href={new URL(seo.authorUrl).pathname}>{author}</a>
+          <time datetime={date.toISOString()}>{longDate(date)}</time>
+          <span>{minutes} phút đọc</span>
+        </p>
+      </div>
+      {coverImage && (
+        <figure class="article-head__plate essay__cover" id="essay-cover">
+          <Plate src={coverImage} topics={topics} alt={coverImageAlt} sizes="100vw" fallbackWidth={1600} eager />
+        </figure>
+      )}
+    </header>
+
+    <div class="article-body" data-article-body>
+      <aside class="article-body__contents" data-pagefind-ignore aria-label="Mục lục">
+        {toc.length >= 2 && (
+          <nav class="contents" data-contents>
+            <p class="caps contents__title">Mục lục</p>
+            <ol role="list">{toc.map((heading) => <li class:list={{ 'contents__sub': heading.depth === 3 }}><a href={`#${heading.slug}`} data-contents-link>{heading.text}</a></li>)}</ol>
+          </nav>
+        )}
+      </aside>
+      <div class="prose" data-prose><Fragment set:html={readerHtml} /></div>
+      <aside class="article-body__notes" data-sidenotes data-pagefind-ignore aria-label="Chú thích bên lề" hidden></aside>
+    </div>
+
+    {/* The text is the first screen, and all of it is drawn before what ends it. */}
+    <Later href={LATER.reader} />
+    <footer class="article-end" data-pagefind-ignore>
+      <p class="article-end__mark" data-article-end aria-hidden="true">❦</p>
+
+      <div class="article-end__actions">
+        <button class="button button--line" type="button" data-copy-url={seo.url} hidden><Glyph name="link" size={18} />Chép liên kết</button>
+        <a class="button button--line" href={`mailto:?subject=${encodeURIComponent(title)}&body=${encodeURIComponent(seo.url)}`}><Glyph name="mail" size={18} />Gửi qua email</a>
+        <a class="button button--line" href={`/downloads/essays/${slug}.pdf`} download data-astro-prefetch="false"><Glyph name="download" size={18} />Tải bản PDF</a>
+        <span class="article-end__status caps" data-copy-status role="status"></span>
+        <input data-copy-fallback type="url" aria-label="Đường dẫn để sao chép" readonly hidden />
+      </div>
+
+      {series && (
+        <nav class="series-nav" aria-labelledby="series-nav-title">
+          <p class="caps series-nav__label" id="series-nav-title">Chuyên đề · <a href={`/series/${series.slug}`}>{series.name}</a></p>
+          <ol class="series-nav__parts" role="list">
+            {series.parts.map((part, index) => (
+              <li aria-current={part.current ? 'page' : undefined}>
+                <span class="series-nav__numeral" aria-hidden="true">{numerals[index]}</span>
+                {part.current ? <span class="series-nav__title">{part.title}</span> : <a class="series-nav__title title-link" href={part.url}>{part.title}</a>}
+              </li>
+            ))}
+          </ol>
+        </nav>
+      )}
+
+      {neighbours.length > 0 && (
+        <nav class="neighbours" aria-label="Bài viết liền kề">
+          {neighbours.map((item) => (
+            <div class="neighbour">
+              {item.coverImage && <Plate class="neighbour__plate" src={item.coverImage} topics={item.topics} sizes="(min-width: 760px) 40vw, 90vw" fallbackWidth={640} />}
+              <p class="caps neighbour__label">{item.label}</p>
+              <h2 class="neighbour__title"><a class="title-link stretched" href={item.url}>{item.title}</a></h2>
+              {item.subtitle && <p class="neighbour__dek">{item.subtitle}</p>}
+            </div>
+          ))}
+        </nav>
+      )}
+
+      <section class="letters" aria-labelledby="letters-title">
+        <h2 id="letters-title">Gởi thơ đến chúng tôi</h2>
+        <p><a href={`mailto:letters@cochinchinepensees.studio?subject=${encodeURIComponent(title)}`}>letters@cochinchinepensees.studio</a></p>
+        {!publicationHistory && originalUrl && <p class="letters__source caps"><a href={originalUrl} rel="noopener external">Bản gốc trên Substack</a></p>}
+        {publicationHistory && <details class="letters__history"><summary class="caps">Lịch sử xuất bản</summary><p>{publicationHistory}</p>{originalUrl && <a href={originalUrl} rel="noopener external">Bản gốc</a>}</details>}
+      </section>
+    </footer>
+  </article>
+
+  <ReaderSettings />
+
+  {toc.length >= 2 && (
+    <div id="reader-contents" class="sheet contents-sheet" popover data-pagefind-ignore aria-labelledby="contents-sheet-title">
+      <div class="sheet__head">
+        <h2 class="caps" id="contents-sheet-title">Mục lục</h2>
+        <button class="icon-button" type="button" popovertarget="reader-contents" popovertargetaction="hide" aria-label="Đóng"><Glyph name="close" size={20} /></button>
+      </div>
+      <div class="sheet__body">
+        <ol role="list" class="contents-sheet__list">{toc.map((heading) => <li class:list={{ 'contents__sub': heading.depth === 3 }}><a href={`#${heading.slug}`} data-contents-link>{heading.text}</a></li>)}</ol>
+      </div>
+    </div>
+  )}
+
+  <div id="reader-note" class="sheet note-sheet" popover data-pagefind-ignore aria-labelledby="note-sheet-title">
+    <div class="sheet__head">
+      <h2 class="caps" id="note-sheet-title">Chú thích <span data-note-index></span></h2>
+      <div class="note-sheet__nav">
+        <button class="icon-button" type="button" data-note-step="-1" aria-label="Chú thích trước"><Glyph name="previous" size={20} /></button>
+        <button class="icon-button" type="button" data-note-step="1" aria-label="Chú thích sau"><Glyph name="next" size={20} /></button>
+        <button class="icon-button" type="button" popovertarget="reader-note" popovertargetaction="hide" aria-label="Đóng"><Glyph name="close" size={20} /></button>
+      </div>
+    </div>
+    <div class="sheet__body note-sheet__body" data-note-body></div>
+  </div>
+
+  <div class="resume" data-resume-prompt data-pagefind-ignore hidden>
+    <button class="button button--ink" type="button" data-resume>Đọc tiếp chỗ đang dở</button>
+    <button class="icon-button" type="button" data-resume-dismiss aria-label="Bỏ qua"><Glyph name="close" size={18} /></button>
+  </div>
+
+  <div class="quote-tools" data-quote-tools data-pagefind-ignore hidden>
+    <button type="button" data-copy-quote><Glyph name="quotes" size={18} /><span>Trích dẫn</span></button>
+    <button type="button" data-copy-paragraph><Glyph name="link" size={18} /><span>Liên kết</span></button>
+    <span class="sr-only" role="status" data-quote-status></span>
+  </div>
+
+</EditionLayout>
+
+<script>
+  import { initializeEditionReader } from '../lib/editionReader';
+  // Arriving by a page turn, the reader waits for the cover to finish its
+  // glide, so the animation has the main thread to itself.
+  const turning = (window as Window & { __editionTransition?: ViewTransition }).__editionTransition;
+  if (turning) turning.finished.finally(initializeEditionReader);
+  else initializeEditionReader();
+</script>

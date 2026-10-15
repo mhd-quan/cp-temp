@@ -1,0 +1,26 @@
+---
+// Điểm sách: every reviewed book, newest first, on the shelves of one
+// bookcase. The books are dealt evenly across shelves of at most five, and the
+// newest stands first as a larger edition. On a wide screen each shelf holds
+// its books across the page; on a phone each shelf slides under the thumb.
+import { getCollection } from 'astro:content';
+import PageHead from '~/components/edition/PageHead.astro';
+import Shelf from '~/components/edition/Shelf.astro';
+import EditionLayout from '~/layouts/EditionLayout.astro';
+import { reviewsOf } from '~/lib/editionData';
+
+const reviews = await reviewsOf(await getCollection('essays', ({ data }) => !data.draft));
+const count = Math.ceil(reviews.length / 5);
+const size = Math.ceil(reviews.length / count);
+const shelves = Array.from({ length: count }, (_, index) =>
+  reviews.slice(index * size, (index + 1) * size),
+);
+---
+<EditionLayout title="Điểm sách" description="Điểm sách trên The Cochinchine Pensées: những tác phẩm về văn chương, triết học, chính trị và xã hội, cùng các bài tiểu luận đọc và bàn về chúng." noindex={false}>
+  <PageHead title="Điểm sách" />
+  <div class="bookcase">
+    {shelves.map((books, index) => (
+      <Shelf reviews={books} lead={index === 0} heading="h2" label={`Kệ ${index + 1} trên ${count}`} />
+    ))}
+  </div>
+</EditionLayout>

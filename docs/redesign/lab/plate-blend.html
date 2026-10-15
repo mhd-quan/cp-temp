@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="vi"><head><meta charset="utf-8"><title>Bản in: SVG filter và CSS blend</title>
+<style>
+body{margin:0;padding:24px;background:#faf9f6;color:#161828;font:14px system-ui}
+.row{display:grid;grid-template-columns:1fr 1fr;gap:20px;margin-bottom:24px}
+.plate{position:relative;display:block;overflow:hidden;aspect-ratio:3/2;background:var(--paper)}
+.plate img{width:100%;height:100%;object-fit:cover;display:block}
+.svg img{filter:url(#m)}
+.blend .print{position:absolute;inset:0;isolation:isolate;background:var(--paper);transition:transform .56s cubic-bezier(.22,1,.36,1),background-color .6s}
+.blend .print img{filter:grayscale(1);mix-blend-mode:multiply}
+.blend .print::after{content:'';position:absolute;inset:0;background:var(--ink);mix-blend-mode:screen;transition:background-color .6s}
+.blend::before{content:'';position:absolute;inset:1.1%;z-index:1;border:1px solid color-mix(in oklch,var(--ink) 40%,transparent);opacity:0;transform:scale(1.015);transition:opacity .32s .06s,transform .5s cubic-bezier(.22,1,.36,1)}
+.blend:hover .print{transform:scale(.958)}
+.blend:hover::before{opacity:1;transform:none}
+.a{--ink:oklch(0.33 0.12 31);--paper:oklch(0.91 0.042 281)}
+.b{--ink:oklch(0.33 0.087 152);--paper:oklch(0.91 0.042 31)}
+.mono .blend{--ink:oklch(0.33 0.069 78);--paper:oklch(0.91 0.042 78)}
+</style></head><body>
+<svg width="0" height="0"><filter id="m" color-interpolation-filters="sRGB"><feColorMatrix type="matrix" values="0.2126 0.7152 0.0722 0 0 0.2126 0.7152 0.0722 0 0 0.2126 0.7152 0.0722 0 0 0 0 0 1 0"/><feComponentTransfer><feFuncR type="table" tableValues="0.3961 0.8627"/><feFuncG type="table" tableValues="0.0627 0.8745"/><feFuncB type="table" tableValues="0.0196 0.9922"/></feComponentTransfer></filter></svg>
+<p>Trái: SVG gradient map (hiện tại). Phải: CSS grayscale + multiply giấy + screen mực. Rê chuột bên phải: dấu bản khắc. Bấm nút để in lại bằng mực Nghệ.</p>
+<div class="row"><span class="plate svg a"><img src="/public/images/essays/source/loi-hua-ngay-oc-lap.jpg"></span><span class="plate blend a"><span class="print"><img src="/public/images/essays/source/loi-hua-ngay-oc-lap.jpg"></span></span></div>
+<button onclick="document.body.classList.toggle('mono')">In lại bằng mực Nghệ</button>
+</body></html>

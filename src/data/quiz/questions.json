@@ -1,0 +1,4376 @@
+[
+ {
+  "id": "economy.ownership.1",
+  "n": 1,
+  "text": "Doanh nghiệp tư nhân, chứ không phải doanh nghiệp nhà nước, nên là động lực chính của nền kinh tế.",
+  "facet": "economy.ownership",
+  "key": 1,
+  "tier": "core",
+  "status": "draft"
+ },
+ {
+  "id": "economy.ownership.2",
+  "n": 2,
+  "text": "Những ngành then chốt như điện, dầu khí và ngân hàng nên thuộc sở hữu nhà nước.",
+  "facet": "economy.ownership",
+  "key": -1,
+  "tier": "core",
+  "status": "draft"
+ },
+ {
+  "id": "economy.ownership.3",
+  "n": 3,
+  "text": "Mọi nhà máy, hầm mỏ và trang trại lớn nên thuộc sở hữu chung của xã hội, không để tư nhân nắm giữ.",
+  "facet": "economy.ownership",
+  "key": -1,
+  "tier": "deep",
+  "status": "draft"
+ },
+ {
+  "id": "economy.ownership.4",
+  "n": 4,
+  "text": "Nhà máy nên thuộc về chính những người lao động làm việc trong đó.",
+  "facet": "economy.ownership",
+  "key": -1,
+  "tier": "pool",
+  "status": "draft"
+ },
+ {
+  "id": "economy.ownership.5",
+  "n": 5,
+  "text": "Doanh nghiệp nhà nước làm ăn thua lỗ nên được bán lại cho tư nhân.",
+  "facet": "economy.ownership",
+  "key": 1,
+  "tier": "pool",
+  "status": "draft"
+ },
+ {
+  "id": "economy.ownership.6",
+  "n": 6,
+  "text": "Ruộng đất nên được giao cho từng hộ tự canh tác và tự hưởng thành quả, thay vì làm chung trong hợp tác xã.",
+  "facet": "economy.ownership",
+  "key": 1,
+  "tier": "pool",
+  "status": "draft"
+ },
+ {
+  "id": "economy.ownership.7",
+  "n": 7,
+  "text": "Quyền tư hữu là quyền tự nhiên của con người mà nhà nước không được tước bỏ.",
+  "facet": "economy.ownership",
+  "key": 1,
+  "tier": "pool",
+  "status": "draft"
+ },
+ {
+  "id": "economy.ownership.8",
+  "n": 8,
+  "text": "Đất đai nên là của toàn dân do nhà nước đại diện, chứ không nên thuộc sở hữu tư nhân.",
+  "facet": "economy.ownership",
+  "key": -1,
+  "tier": "pool",
+  "status": "draft"
+ },
+ {
+  "id": "economy.planning.1",
+  "n": 9,
+  "text": "Cung và cầu trên thị trường phân bổ nguồn lực tốt hơn bất kỳ kế hoạch nào của nhà nước.",
+  "facet": "economy.planning",
+  "key": 1,
+  "tier": "core",
+  "status": "draft"
+ },
+ {
+  "id": "economy.planning.2",
+  "n": 10,
+  "text": "Nhà nước nên quy định giá các mặt hàng thiết yếu như gạo, xăng và điện.",
+  "facet": "economy.planning",
+  "key": -1,
+  "tier": "long",
+  "status": "draft"
+ },
+ {
+  "id": "economy.planning.3",
+  "n": 11,
+  "text": "Toàn bộ việc sản xuất và phân phối nên theo một kế hoạch chung của cả nước, không cần đến giá thị trường.",
+  "facet": "economy.planning",
+  "key": -1,
+  "tier": "pool",
+  "status": "draft"
+ },
+ {
+  "id": "economy.planning.4",
+  "n": 12,
+  "text": "Nhà nước nên đặt chỉ tiêu sản lượng cho những ngành chủ chốt theo kế hoạch nhiều năm.",
+  "facet": "economy.planning",
+  "key": -1,
+  "tier": "pool",
+  "status": "draft"
+ },
+ {
+  "id": "economy.planning.5",
+  "n": 13,
+  "text": "Khi giá nhà tăng quá cao, nhà nước nên áp trần giá bán và giá thuê.",
+  "facet": "economy.planning",
+  "key": -1,
+  "tier": "pool",
+  "status": "draft"
+ },
+ {
+  "id": "economy.planning.6",
+  "n": 14,
+  "text": "Kể cả khi doanh nghiệp thuộc sở hữu công, giá cả vẫn nên do thị trường quyết định.",
+  "facet": "economy.planning",
+  "key": 1,
+  "tier": "pool",
+  "status": "draft"
+ },
+ {
+  "id": "economy.planning.7",
+  "n": 15,
+  "text": "Nhà nước không nên can thiệp vào giá cả, kể cả khi giá lương thực tăng vọt vì thiên tai.",
+  "facet": "economy.planning",
+  "key": 1,
+  "tier": "deep",
+  "status": "draft"
+ },
+ {
+  "id": "economy.planning.8",
+  "n": 16,
+  "text": "Doanh nghiệp nên được tự định giá sản phẩm của mình mà không phải xin phép cơ quan nhà nước.",
+  "facet": "economy.planning",
+  "key": 1,
+  "tier": "pool",
+  "status": "draft"
+ },
+ {
+  "id": "economy.steering.1",
+  "n": 17,
+  "text": "Nhà nước nên chọn ra vài ngành mũi nhọn và dồn vốn, ưu đãi để phát triển chúng.",
+  "facet": "economy.steering",
+  "key": -1,
+  "tier": "core",
+  "status": "draft"
+ },
+ {
+  "id": "economy.steering.2",
+  "n": 18,
+  "text": "Càng ít giấy phép và quy định, doanh nghiệp càng tạo ra nhiều của cải cho xã hội.",
+  "facet": "economy.steering",
+  "key": 1,
+  "tier": "long",
+  "status": "draft"
+ },
+ {
+  "id": "economy.steering.3",
+  "n": 19,
+  "text": "Nhà nước nên chia tách những tập đoàn lớn đến mức chi phối được thị trường, kể cả khi chúng lớn lên nhờ làm ăn giỏi.",
+  "facet": "economy.steering",
+  "key": -1,
+  "tier": "pool",
+  "status": "draft"
+ },
+ {
+  "id": "economy.steering.4",
+  "n": 20,
+  "text": "Nhà nước không nên cứu những doanh nghiệp làm ăn thua lỗ, kể cả doanh nghiệp rất lớn.",
+  "facet": "economy.steering",
+  "key": 1,
+  "tier": "pool",
+  "status": "draft"
+ },
+ {
+  "id": "economy.steering.5",
+  "n": 21,
+  "text": "Nhà nước nên điều tiết chặt ngân hàng và thị trường tài chính, kể cả khi điều đó làm chậm tăng trưởng.",
+  "facet": "economy.steering",
+  "key": -1,
+  "tier": "pool",
+  "status": "draft"
+ },
+ {
+  "id": "economy.steering.6",
+  "n": 22,
+  "text": "Ngoài việc bảo vệ tài sản và thực thi hợp đồng, nhà nước không nên đặt thêm luật lệ nào cho doanh nghiệp.",
+  "facet": "economy.steering",
+  "key": 1,
+  "tier": "pool",
+  "status": "draft"
+ },
+ {
+  "id": "economy.steering.7",
+  "n": 23,
+  "text": "Người dân muốn mở một cửa hàng hay một xưởng nhỏ thì không nên phải xin giấy phép của ai.",
+  "facet": "economy.steering",
+  "key": 1,
+  "tier": "pool",
+  "status": "draft"
+ },
+ {
+  "id": "economy.steering.8",
+  "n": 24,
+  "text": "Một nước nghèo muốn đuổi kịp các nước giàu thì nhà nước phải trực tiếp dẫn dắt công nghiệp hoá.",
+  "facet": "economy.steering",
+  "key": -1,
+  "tier": "deep",
+  "status": "draft"
+ },
+ {
+  "id": "distribution.tax.1",
+  "n": 25,
+  "text": "Phần thu nhập vượt một ngưỡng rất cao nên bị đánh thuế trên một nửa.",
+  "facet": "distribution.tax",
+  "key": -1,
+  "tier": "core",
+  "status": "draft"
+ },
+ {
+  "id": "distribution.tax.2",
+  "n": 26,
+  "text": "Tài sản hợp pháp cha mẹ để lại cho con cái không nên bị đánh thuế.",
+  "facet": "distribution.tax",
+  "key": 1,
+  "tier": "core",
+  "status": "draft"
+ },
+ {
+  "id": "distribution.tax.3",
+  "n": 27,
+  "text": "Người có thu nhập cao nên đóng thuế theo tỷ lệ cao hơn người có thu nhập thấp.",
+  "facet": "distribution.tax",
+  "key": -1,
+  "tier": "pool",
+  "status": "draft"
+ },
+ {
+  "id": "distribution.tax.4",
+  "n": 28,
+  "text": "Mọi người nên đóng thuế thu nhập theo cùng một tỷ lệ, dù thu nhập cao hay thấp.",
+  "facet": "distribution.tax",
+  "key": 1,
+  "tier": "pool",
+  "status": "draft"
+ },
+ {
+  "id": "distribution.tax.5",
+  "n": 29,
+  "text": "Người có tài sản rất lớn nên đóng một khoản thuế nhỏ hằng năm, khoảng 1–2% trên phần tài sản vượt ngưỡng.",
+  "facet": "distribution.tax",
+  "key": -1,
+  "tier": "pool",
+  "status": "draft"
+ },
+ {
+  "id": "distribution.tax.6",
+  "n": 30,
+  "text": "Nên đánh thuế tài sản hằng năm đủ nặng để những gia sản khổng lồ dần bị chia nhỏ.",
+  "facet": "distribution.tax",
+  "key": -1,
+  "tier": "pool",
+  "status": "draft"
+ },
+ {
+  "id": "distribution.tax.7",
+  "n": 31,
+  "text": "Nên có giới hạn về diện tích ruộng đất mà một người hay một gia đình được sở hữu.",
+  "facet": "distribution.tax",
+  "key": -1,
+  "tier": "pool",
+  "status": "draft"
+ },
+ {
+  "id": "distribution.tax.8",
+  "n": 32,
+  "text": "Giữ thuế thấp có lợi cho mọi người, kể cả người nghèo.",
+  "facet": "distribution.tax",
+  "key": 1,
+  "tier": "pool",
+  "status": "draft"
+ },
+ {
+  "id": "distribution.tax.9",
+  "n": 33,
+  "text": "Khoảng cách giàu nghèo quá lớn là bất công, kể cả khi người giàu làm giàu chính đáng.",
+  "facet": "distribution.tax",
+  "key": -1,
+  "tier": "deep",
+  "status": "draft"
+ },
+ {
+  "id": "distribution.tax.10",
+  "n": 34,
+  "text": "Thuế thu nhập nên được bãi bỏ hoàn toàn.",
+  "facet": "distribution.tax",
+  "key": 1,
+  "tier": "pool",
+  "status": "draft"
+ },
+ {
+  "id": "distribution.tax.11",
+  "n": 35,
+  "text": "Người làm giàu chính đáng có quyền giữ phần lớn những gì mình kiếm được.",
+  "facet": "distribution.tax",
+  "key": 1,
+  "tier": "pool",
+  "status": "draft"
+ },
+ {
+  "id": "distribution.welfare.1",
+  "n": 36,
+  "text": "Nhà nước nên bảo đảm y tế và giáo dục miễn phí cho mọi người.",
+  "facet": "distribution.welfare",
+  "key": -1,
+  "tier": "core",
+  "status": "draft"
+ },
+ {
+  "id": "distribution.welfare.2",
+  "n": 37,
+  "text": "Mỗi người nên tự lo cho tuổi già bằng tiền tiết kiệm của mình thay vì trông vào lương hưu của nhà nước.",
+  "facet": "distribution.welfare",
+  "key": 1,
+  "tier": "long",
+  "status": "draft"
+ },
+ {
+  "id": "distribution.welfare.3",
+  "n": 38,
+  "text": "Lo cho cha mẹ lúc tuổi già là trách nhiệm của con cái chứ không phải của nhà nước.",
+  "facet": "distribution.welfare",
+  "key": 1,
+  "tier": "pool",
+  "status": "draft"
+ },
+ {
+  "id": "distribution.welfare.4",
+  "n": 39,
+  "text": "Trợ cấp quá nhiều khiến người ta ỷ lại và lười lao động.",
+  "facet": "distribution.welfare",
+  "key": 1,
+  "tier": "pool",
+  "status": "draft"
+ },
+ {
+  "id": "distribution.welfare.5",
+  "n": 40,
+  "text": "Mọi người dân nên nhận một khoản thu nhập cơ bản hằng tháng từ nhà nước, dù có đi làm hay không.",
+  "facet": "distribution.welfare",
+  "key": -1,
+  "tier": "pool",
+  "status": "draft"
+ },
+ {
+  "id": "distribution.welfare.6",
+  "n": 41,
+  "text": "Họ hàng, làng xóm và các hội tương trợ giúp người khó khăn tốt hơn bộ máy phúc lợi của nhà nước.",
+  "facet": "distribution.welfare",
+  "key": 1,
+  "tier": "deep",
+  "status": "draft"
+ },
+ {
+  "id": "distribution.welfare.7",
+  "n": 42,
+  "text": "Nhà nước nên lo cho mỗi người từ nhà trẻ đến lương hưu, để không ai phải trông cậy vào gia đình.",
+  "facet": "distribution.welfare",
+  "key": -1,
+  "tier": "pool",
+  "status": "draft"
+ },
+ {
+  "id": "distribution.welfare.8",
+  "n": 43,
+  "text": "Y tế, giáo dục và lương hưu nên hoàn toàn do tư nhân, gia đình và các hội từ thiện đảm nhận.",
+  "facet": "distribution.welfare",
+  "key": 1,
+  "tier": "pool",
+  "status": "draft"
+ },
+ {
+  "id": "distribution.welfare.9",
+  "n": 44,
+  "text": "Nhà nước nên bảo đảm một mức sống tối thiểu cho những người thật sự không thể tự lo.",
+  "facet": "distribution.welfare",
+  "key": -1,
+  "tier": "pool",
+  "status": "draft"
+ },
+ {
+  "id": "distribution.labour.1",
+  "n": 45,
+  "text": "Doanh nghiệp nên được tự do tuyển và cho thôi việc nhân viên theo nhu cầu kinh doanh.",
+  "facet": "distribution.labour",
+  "key": 1,
+  "tier": "core",
+  "status": "draft"
+ },
+ {
+  "id": "distribution.labour.2",
+  "n": 46,
+  "text": "Người lao động cần có công đoàn mạnh, độc lập với giới chủ, để đòi quyền lợi cho mình.",
+  "facet": "distribution.labour",
+  "key": -1,
+  "tier": "long",
+  "status": "draft"
+ },
+ {
+  "id": "distribution.labour.3",
+  "n": 47,
+  "text": "Nhà nước nên quy định một mức lương tối thiểu.",
+  "facet": "distribution.labour",
+  "key": -1,
+  "tier": "deep",
+  "status": "draft"
+ },
+ {
+  "id": "distribution.labour.4",
+  "n": 48,
+  "text": "Lương tối thiểu nên đủ để một người nuôi được cả gia đình, kể cả khi nhiều doanh nghiệp nhỏ khó trả nổi.",
+  "facet": "distribution.labour",
+  "key": -1,
+  "tier": "pool",
+  "status": "draft"
+ },
+ {
+  "id": "distribution.labour.5",
+  "n": 49,
+  "text": "Nên có luật giới hạn thu nhập của người quản lý, chẳng hạn không quá mười lần mức lương thấp nhất trong cùng công ty.",
+  "facet": "distribution.labour",
+  "key": -1,
+  "tier": "pool",
+  "status": "draft"
+ },
+ {
+  "id": "distribution.labour.6",
+  "n": 50,
+  "text": "Đình công thường gây hại cho nền kinh tế nhiều hơn là giúp được người lao động.",
+  "facet": "distribution.labour",
+  "key": 1,
+  "tier": "pool",
+  "status": "draft"
+ },
+ {
+  "id": "distribution.labour.7",
+  "n": 51,
+  "text": "Người lao động nên có đại diện trong hội đồng quản trị của các công ty lớn.",
+  "facet": "distribution.labour",
+  "key": -1,
+  "tier": "pool",
+  "status": "draft"
+ },
+ {
+  "id": "distribution.labour.8",
+  "n": 52,
+  "text": "Tiền lương nên do từng người lao động và chủ thuê tự thoả thuận với nhau, không cần ai khác can thiệp.",
+  "facet": "distribution.labour",
+  "key": 1,
+  "tier": "pool",
+  "status": "draft"
+ },
+ {
+  "id": "distribution.labour.9",
+  "n": 53,
+  "text": "Không ai nên bị buộc phải gia nhập hay đóng phí cho công đoàn để được đi làm.",
+  "facet": "distribution.labour",
+  "key": 1,
+  "tier": "pool",
+  "status": "draft"
+ },
+ {
+  "id": "trade.goods.1",
+  "n": 54,
+  "text": "Người tiêu dùng nên được mua hàng nhập khẩu giá rẻ, không bị thuế quan cản trở.",
+  "facet": "trade.goods",
+  "key": 1,
+  "tier": "core",
+  "status": "draft"
+ },
+ {
+  "id": "trade.goods.2",
+  "n": 55,
+  "text": "Nhà nước nên đánh thuế cao hàng nhập khẩu để bảo vệ nông dân và nhà sản xuất trong nước.",
+  "facet": "trade.goods",
+  "key": -1,
+  "tier": "core",
+  "status": "draft"
+ },
+ {
+  "id": "trade.goods.3",
+  "n": 56,
+  "text": "Một ngành công nghiệp non trẻ nên được bảo hộ bằng thuế quan cho tới khi đủ sức cạnh tranh.",
+  "facet": "trade.goods",
+  "key": -1,
+  "tier": "pool",
+  "status": "draft"
+ },
+ {
+  "id": "trade.goods.4",
+  "n": 57,
+  "text": "Thuế quan bảo hộ nên được duy trì lâu dài chứ không chỉ tạm thời, để giữ việc làm trong nước.",
+  "facet": "trade.goods",
+  "key": -1,
+  "tier": "pool",
+  "status": "draft"
+ },
+ {
+  "id": "trade.goods.5",
+  "n": 58,
+  "text": "Các hiệp định thương mại tự do đem lại cho các nước tham gia nhiều lợi ích hơn thiệt hại.",
+  "facet": "trade.goods",
+  "key": 1,
+  "tier": "pool",
+  "status": "draft"
+ },
+ {
+  "id": "trade.goods.6",
+  "n": 59,
+  "text": "Người Việt nên ưu tiên dùng hàng Việt, kể cả khi hàng ngoại rẻ hơn hoặc tốt hơn.",
+  "facet": "trade.goods",
+  "key": -1,
+  "tier": "pool",
+  "status": "draft"
+ },
+ {
+  "id": "trade.goods.7",
+  "n": 60,
+  "text": "Một nước nên bỏ thuế nhập khẩu kể cả khi các nước khác vẫn đánh thuế hàng của mình.",
+  "facet": "trade.goods",
+  "key": 1,
+  "tier": "pool",
+  "status": "draft"
+ },
+ {
+  "id": "trade.goods.8",
+  "n": 61,
+  "text": "Doanh nghiệp trong nước nên phải cạnh tranh sòng phẳng với hàng nhập khẩu, dù có doanh nghiệp vì thế phải đóng cửa.",
+  "facet": "trade.goods",
+  "key": 1,
+  "tier": "deep",
+  "status": "draft"
+ },
+ {
+  "id": "trade.capital.1",
+  "n": 62,
+  "text": "Người nước ngoài không nên được mua đất đai, cảng biển hay doanh nghiệp chiến lược.",
+  "facet": "trade.capital",
+  "key": -1,
+  "tier": "core",
+  "status": "draft"
+ },
+ {
+  "id": "trade.capital.2",
+  "n": 63,
+  "text": "Doanh nghiệp nước ngoài nên được đầu tư và kinh doanh bình đẳng như doanh nghiệp trong nước.",
+  "facet": "trade.capital",
+  "key": 1,
+  "tier": "long",
+  "status": "draft"
+ },
+ {
+  "id": "trade.capital.3",
+  "n": 64,
+  "text": "Nhà nước nên kiểm soát dòng vốn ngắn hạn ra vào đất nước để phòng khủng hoảng tài chính.",
+  "facet": "trade.capital",
+  "key": -1,
+  "tier": "pool",
+  "status": "draft"
+ },
+ {
+  "id": "trade.capital.4",
+  "n": 65,
+  "text": "Thu hút vốn đầu tư nước ngoài là con đường nhanh nhất để một nước nghèo phát triển.",
+  "facet": "trade.capital",
+  "key": 1,
+  "tier": "pool",
+  "status": "draft"
+ },
+ {
+  "id": "trade.capital.5",
+  "n": 66,
+  "text": "Các tập đoàn đa quốc gia lấy đi của nước nghèo nhiều hơn là họ mang lại.",
+  "facet": "trade.capital",
+  "key": -1,
+  "tier": "pool",
+  "status": "draft"
+ },
+ {
+  "id": "trade.capital.6",
+  "n": 67,
+  "text": "Nhà nước nên đòi doanh nghiệp nước ngoài đến đầu tư phải truyền lại công nghệ cho doanh nghiệp trong nước.",
+  "facet": "trade.capital",
+  "key": -1,
+  "tier": "pool",
+  "status": "draft"
+ },
+ {
+  "id": "trade.capital.7",
+  "n": 68,
+  "text": "Người nước ngoài nên được mua bất kỳ tài sản nào trong nước, kể cả đất đai, như người bản xứ.",
+  "facet": "trade.capital",
+  "key": 1,
+  "tier": "pool",
+  "status": "draft"
+ },
+ {
+  "id": "trade.capital.8",
+  "n": 69,
+  "text": "Nhà nước không nên hạn chế tỷ lệ cổ phần mà người nước ngoài được nắm trong doanh nghiệp trong nước.",
+  "facet": "trade.capital",
+  "key": 1,
+  "tier": "deep",
+  "status": "draft"
+ },
+ {
+  "id": "trade.selfreliance.1",
+  "n": 70,
+  "text": "Mỗi nước nên tập trung làm những gì mình giỏi nhất và mua phần còn lại từ thế giới.",
+  "facet": "trade.selfreliance",
+  "key": 1,
+  "tier": "core",
+  "status": "draft"
+ },
+ {
+  "id": "trade.selfreliance.2",
+  "n": 71,
+  "text": "Một đất nước nên tự sản xuất những mặt hàng sống còn cho an ninh, như lương thực hay thuốc men, dù đắt hơn nhập khẩu.",
+  "facet": "trade.selfreliance",
+  "key": -1,
+  "tier": "long",
+  "status": "draft"
+ },
+ {
+  "id": "trade.selfreliance.3",
+  "n": 72,
+  "text": "Phụ thuộc vào chuỗi cung ứng toàn cầu khiến đất nước dễ bị các cường quốc gây sức ép.",
+  "facet": "trade.selfreliance",
+  "key": -1,
+  "tier": "pool",
+  "status": "draft"
+ },
+ {
+  "id": "trade.selfreliance.4",
+  "n": 73,
+  "text": "Đóng cửa với thế giới để giữ ổn định trong nước là một sai lầm, kể cả khi bên ngoài có nhiều đe doạ.",
+  "facet": "trade.selfreliance",
+  "key": 1,
+  "tier": "pool",
+  "status": "draft"
+ },
+ {
+  "id": "trade.selfreliance.5",
+  "n": 74,
+  "text": "Một đất nước nên tự làm ra gần như mọi thứ mình cần, chỉ buôn bán với nước ngoài khi thật sự không thể tránh.",
+  "facet": "trade.selfreliance",
+  "key": -1,
+  "tier": "deep",
+  "status": "draft"
+ },
+ {
+  "id": "trade.selfreliance.6",
+  "n": 75,
+  "text": "Hàng hoá nên được sản xuất càng gần nơi tiêu dùng càng tốt, kể cả khi giá cao hơn.",
+  "facet": "trade.selfreliance",
+  "key": -1,
+  "tier": "pool",
+  "status": "draft"
+ },
+ {
+  "id": "trade.selfreliance.7",
+  "n": 76,
+  "text": "Nhập khẩu phần lớn lương thực là chấp nhận được, nếu rẻ hơn tự trồng.",
+  "facet": "trade.selfreliance",
+  "key": 1,
+  "tier": "pool",
+  "status": "draft"
+ },
+ {
+  "id": "power.pluralism.1",
+  "n": 77,
+  "text": "Một quốc gia cần nhiều đảng phái cạnh tranh công khai để người dân có sự lựa chọn.",
+  "facet": "power.pluralism",
+  "key": 1,
+  "tier": "core",
+  "status": "draft"
+ },
+ {
+  "id": "power.pluralism.2",
+  "n": 78,
+  "text": "Đất nước nên do một lực lượng chính trị duy nhất lãnh đạo để tránh chia rẽ phe phái.",
+  "facet": "power.pluralism",
+  "key": -1,
+  "tier": "long",
+  "status": "draft"
+ },
+ {
+  "id": "power.pluralism.3",
+  "n": 79,
+  "text": "Chính quyền nào cũng phải có thể bị thay thế một cách hoà bình qua lá phiếu.",
+  "facet": "power.pluralism",
+  "key": 1,
+  "tier": "deep",
+  "status": "draft"
+ },
+ {
+  "id": "power.pluralism.4",
+  "n": 80,
+  "text": "Khi đất nước cần phát triển nhanh, cạnh tranh chính trị là một thứ xa xỉ.",
+  "facet": "power.pluralism",
+  "key": -1,
+  "tier": "pool",
+  "status": "draft"
+ },
+ {
+  "id": "power.pluralism.5",
+  "n": 81,
+  "text": "Một phe đối lập có tổ chức là cần thiết để giám sát người cầm quyền.",
+  "facet": "power.pluralism",
+  "key": 1,
+  "tier": "pool",
+  "status": "draft"
+ },
+ {
+  "id": "power.pluralism.6",
+  "n": 82,
+  "text": "Một đất nước vẫn có thể được cai trị tốt mà không cần bầu cử để chọn người lãnh đạo.",
+  "facet": "power.pluralism",
+  "key": -1,
+  "tier": "pool",
+  "status": "draft"
+ },
+ {
+  "id": "power.pluralism.7",
+  "n": 83,
+  "text": "Mọi đảng phái, kể cả đảng có tư tưởng mà số đông thấy nguy hiểm, đều nên được tự do tranh cử.",
+  "facet": "power.pluralism",
+  "key": 1,
+  "tier": "pool",
+  "status": "draft"
+ },
+ {
+  "id": "power.pluralism.8",
+  "n": 84,
+  "text": "Một chính quyền do một đảng duy nhất lãnh đạo vẫn có thể dân chủ, nếu trong đảng có tranh luận và bầu chọn thật sự.",
+  "facet": "power.pluralism",
+  "key": -1,
+  "tier": "pool",
+  "status": "draft"
+ },
+ {
+  "id": "power.checks.1",
+  "n": 85,
+  "text": "Toà án phải độc lập, có quyền phán quyết rằng người cầm quyền đã làm sai luật.",
+  "facet": "power.checks",
+  "key": 1,
+  "tier": "core",
+  "status": "draft"
+ },
+ {
+  "id": "power.checks.2",
+  "n": 86,
+  "text": "Một người lãnh đạo tài giỏi nên được nắm quyền lâu dài, không bị giới hạn nhiệm kỳ.",
+  "facet": "power.checks",
+  "key": -1,
+  "tier": "core",
+  "status": "draft"
+ },
+ {
+  "id": "power.checks.3",
+  "n": 87,
+  "text": "Quyền lập pháp, hành pháp và tư pháp nên do các cơ quan khác nhau nắm giữ để kiềm chế lẫn nhau.",
+  "facet": "power.checks",
+  "key": 1,
+  "tier": "pool",
+  "status": "draft"
+ },
+ {
+  "id": "power.checks.4",
+  "n": 88,
+  "text": "Khi đất nước lâm nguy, người đứng đầu nên được hành động mà không cần qua nghị viện hay toà án.",
+  "facet": "power.checks",
+  "key": -1,
+  "tier": "deep",
+  "status": "draft"
+ },
+ {
+  "id": "power.checks.5",
+  "n": 89,
+  "text": "Quyền lực nên tập trung vào một mối để việc lớn được quyết nhanh và dứt khoát.",
+  "facet": "power.checks",
+  "key": -1,
+  "tier": "pool",
+  "status": "draft"
+ },
+ {
+  "id": "power.checks.6",
+  "n": 90,
+  "text": "Người đứng đầu chính phủ chỉ nên giữ chức tối đa hai nhiệm kỳ, kể cả khi dân vẫn muốn bầu lại.",
+  "facet": "power.checks",
+  "key": 1,
+  "tier": "pool",
+  "status": "draft"
+ },
+ {
+  "id": "power.checks.7",
+  "n": 91,
+  "text": "Toà án nên có quyền huỷ bỏ một đạo luật do quốc hội thông qua nếu đạo luật đó trái hiến pháp.",
+  "facet": "power.checks",
+  "key": 1,
+  "tier": "pool",
+  "status": "draft"
+ },
+ {
+  "id": "power.checks.8",
+  "n": 92,
+  "text": "Một chính phủ đã thắng cử nên được thực hiện chương trình của mình mà không bị toà án hay các cơ quan độc lập ngăn cản.",
+  "facet": "power.checks",
+  "key": -1,
+  "tier": "pool",
+  "status": "draft"
+ },
+ {
+  "id": "power.local.1",
+  "n": 93,
+  "text": "Mỗi tỉnh nên do một quan chức được trung ương cử về cai quản, thay vì do người địa phương tự bầu ra.",
+  "facet": "power.local",
+  "key": -1,
+  "tier": "core",
+  "status": "draft"
+ },
+ {
+  "id": "power.local.2",
+  "n": 94,
+  "text": "Các tỉnh, thành nên được tự quyết phần lớn việc thu chi và chính sách của mình.",
+  "facet": "power.local",
+  "key": 1,
+  "tier": "long",
+  "status": "draft"
+ },
+ {
+  "id": "power.local.3",
+  "n": 95,
+  "text": "Làng xã nên được tự quản theo lệ riêng của mình, như câu “phép vua thua lệ làng”.",
+  "facet": "power.local",
+  "key": 1,
+  "tier": "pool",
+  "status": "draft"
+ },
+ {
+  "id": "power.local.4",
+  "n": 96,
+  "text": "Luật lệ nên thống nhất trên cả nước, không để mỗi địa phương một kiểu.",
+  "facet": "power.local",
+  "key": -1,
+  "tier": "pool",
+  "status": "draft"
+ },
+ {
+  "id": "power.local.5",
+  "n": 97,
+  "text": "Một nhà nước liên bang, nơi mỗi bang có luật riêng, tốt hơn một nhà nước tập quyền.",
+  "facet": "power.local",
+  "key": 1,
+  "tier": "pool",
+  "status": "draft"
+ },
+ {
+  "id": "power.local.6",
+  "n": 98,
+  "text": "Việc gì làng xã, phường xóm tự lo được thì cấp trên không nên nhúng tay vào.",
+  "facet": "power.local",
+  "key": 1,
+  "tier": "pool",
+  "status": "draft"
+ },
+ {
+  "id": "power.local.7",
+  "n": 99,
+  "text": "Trung ương nên có quyền bãi bỏ những quyết định của chính quyền địa phương đi ngược chính sách chung.",
+  "facet": "power.local",
+  "key": -1,
+  "tier": "deep",
+  "status": "draft"
+ },
+ {
+  "id": "power.local.8",
+  "n": 100,
+  "text": "Chính quyền trung ương chỉ nên là nơi phối hợp giữa các cộng đồng tự quản, không có quyền ra lệnh cho họ.",
+  "facet": "power.local",
+  "key": 1,
+  "tier": "pool",
+  "status": "draft"
+ },
+ {
+  "id": "power.local.9",
+  "n": 101,
+  "text": "Người đứng đầu một địa phương không nên là người sinh ra ở chính nơi đó, để tránh nể nang họ hàng, người quen.",
+  "facet": "power.local",
+  "key": -1,
+  "tier": "pool",
+  "status": "draft"
+ },
+ {
+  "id": "liberty.expression.1",
+  "n": 102,
+  "text": "Báo chí nên được tự do chỉ trích chính quyền mà không sợ bị trừng phạt.",
+  "facet": "liberty.expression",
+  "key": 1,
+  "tier": "core",
+  "status": "draft"
+ },
+ {
+  "id": "liberty.expression.2",
+  "n": 103,
+  "text": "Nhà nước nên có quyền gỡ bỏ những nội dung trên mạng mà họ cho là gây bất ổn xã hội.",
+  "facet": "liberty.expression",
+  "key": -1,
+  "tier": "core",
+  "status": "draft"
+ },
+ {
+  "id": "liberty.expression.3",
+  "n": 104,
+  "text": "Người dân nên được tự do lập hội và tụ tập ôn hoà để bày tỏ ý kiến.",
+  "facet": "liberty.expression",
+  "key": 1,
+  "tier": "pool",
+  "status": "draft"
+ },
+ {
+  "id": "liberty.expression.4",
+  "n": 105,
+  "text": "Có những tư tưởng nguy hiểm đến mức không nên được phép truyền bá.",
+  "facet": "liberty.expression",
+  "key": -1,
+  "tier": "pool",
+  "status": "draft"
+ },
+ {
+  "id": "liberty.expression.5",
+  "n": 106,
+  "text": "Cần bảo vệ quyền nói ra cả những điều mà số đông thấy chướng tai.",
+  "facet": "liberty.expression",
+  "key": 1,
+  "tier": "pool",
+  "status": "draft"
+ },
+ {
+  "id": "liberty.expression.6",
+  "n": 107,
+  "text": "Muốn ra một tờ báo hay mở một trang tin, người ta nên phải xin giấy phép của nhà nước.",
+  "facet": "liberty.expression",
+  "key": -1,
+  "tier": "deep",
+  "status": "draft"
+ },
+ {
+  "id": "liberty.expression.7",
+  "n": 108,
+  "text": "Mọi cuốn sách, bài báo và bộ phim nên được cơ quan kiểm duyệt xét duyệt trước khi công bố.",
+  "facet": "liberty.expression",
+  "key": -1,
+  "tier": "pool",
+  "status": "draft"
+ },
+ {
+  "id": "liberty.expression.8",
+  "n": 109,
+  "text": "Lời nói kích động thù ghét một dân tộc hay một tôn giáo nên bị pháp luật trừng phạt.",
+  "facet": "liberty.expression",
+  "key": -1,
+  "tier": "pool",
+  "status": "draft"
+ },
+ {
+  "id": "liberty.expression.9",
+  "n": 110,
+  "text": "Chế giễu một tôn giáo, kể cả tôn giáo của số đông, không nên bị pháp luật trừng phạt.",
+  "facet": "liberty.expression",
+  "key": 1,
+  "tier": "pool",
+  "status": "draft"
+ },
+ {
+  "id": "liberty.justice.1",
+  "n": 111,
+  "text": "Người phạm tội cố ý giết người nên có thể bị tuyên án tử hình.",
+  "facet": "liberty.justice",
+  "key": -1,
+  "tier": "core",
+  "status": "draft"
+ },
+ {
+  "id": "liberty.justice.2",
+  "n": 112,
+  "text": "Người bị bắt phải có quyền im lặng và có luật sư ngay từ đầu.",
+  "facet": "liberty.justice",
+  "key": 1,
+  "tier": "long",
+  "status": "draft"
+ },
+ {
+  "id": "liberty.justice.3",
+  "n": 113,
+  "text": "Nhà tù nên nhằm giúp người phạm tội hoàn lương hơn là trừng phạt họ.",
+  "facet": "liberty.justice",
+  "key": 1,
+  "tier": "pool",
+  "status": "draft"
+ },
+ {
+  "id": "liberty.justice.4",
+  "n": 114,
+  "text": "Cảnh sát nên được trao thêm quyền để giữ trật tự đường phố.",
+  "facet": "liberty.justice",
+  "key": -1,
+  "tier": "pool",
+  "status": "draft"
+ },
+ {
+  "id": "liberty.justice.5",
+  "n": 115,
+  "text": "Thà bắt nhầm còn hơn bỏ sót kẻ nguy hiểm.",
+  "facet": "liberty.justice",
+  "key": -1,
+  "tier": "pool",
+  "status": "draft"
+ },
+ {
+  "id": "liberty.justice.6",
+  "n": 116,
+  "text": "Buôn bán ma tuý với số lượng lớn nên có thể bị tử hình.",
+  "facet": "liberty.justice",
+  "key": -1,
+  "tier": "pool",
+  "status": "draft"
+ },
+ {
+  "id": "liberty.justice.7",
+  "n": 117,
+  "text": "Nên phạt nặng cả những lỗi nhỏ để người dân không dám phạm lỗi lớn.",
+  "facet": "liberty.justice",
+  "key": -1,
+  "tier": "pool",
+  "status": "draft"
+ },
+ {
+  "id": "liberty.justice.8",
+  "n": 118,
+  "text": "Phần lớn án tù nên được thay bằng lao động công ích, hoà giải với nạn nhân hoặc chữa trị.",
+  "facet": "liberty.justice",
+  "key": 1,
+  "tier": "pool",
+  "status": "draft"
+ },
+ {
+  "id": "liberty.justice.9",
+  "n": 119,
+  "text": "Không ai nên bị giam quá vài ngày mà chưa được đưa ra trước một thẩm phán.",
+  "facet": "liberty.justice",
+  "key": 1,
+  "tier": "deep",
+  "status": "draft"
+ },
+ {
+  "id": "liberty.privacy.1",
+  "n": 120,
+  "text": "Nhà nước không được đọc tin nhắn hay theo dõi điện thoại của công dân nếu không có lệnh của toà án.",
+  "facet": "liberty.privacy",
+  "key": 1,
+  "tier": "core",
+  "status": "draft"
+ },
+ {
+  "id": "liberty.privacy.2",
+  "n": 121,
+  "text": "Camera nhận diện khuôn mặt ở mọi nơi công cộng là cái giá đáng trả cho an ninh.",
+  "facet": "liberty.privacy",
+  "key": -1,
+  "tier": "long",
+  "status": "draft"
+ },
+ {
+  "id": "liberty.privacy.3",
+  "n": 122,
+  "text": "Dữ liệu cá nhân của người dân phải được bảo vệ, kể cả trước chính cơ quan nhà nước.",
+  "facet": "liberty.privacy",
+  "key": 1,
+  "tier": "pool",
+  "status": "draft"
+ },
+ {
+  "id": "liberty.privacy.4",
+  "n": 123,
+  "text": "Người ngay thẳng thì chẳng có gì phải giấu nhà nước.",
+  "facet": "liberty.privacy",
+  "key": -1,
+  "tier": "pool",
+  "status": "draft"
+ },
+ {
+  "id": "liberty.privacy.5",
+  "n": 124,
+  "text": "Mạng xã hội nên bắt buộc mọi người dùng xác thực bằng danh tính thật.",
+  "facet": "liberty.privacy",
+  "key": -1,
+  "tier": "pool",
+  "status": "draft"
+ },
+ {
+  "id": "liberty.privacy.6",
+  "n": 125,
+  "text": "Người dân nên được dùng những phần mềm mã hoá mà chính nhà nước cũng không giải được.",
+  "facet": "liberty.privacy",
+  "key": 1,
+  "tier": "pool",
+  "status": "draft"
+ },
+ {
+  "id": "liberty.privacy.7",
+  "n": 126,
+  "text": "Mỗi khu dân cư nên có người được giao theo dõi và báo cáo những ai đến ở hoặc có hành vi khả nghi.",
+  "facet": "liberty.privacy",
+  "key": -1,
+  "tier": "deep",
+  "status": "draft"
+ },
+ {
+  "id": "liberty.privacy.8",
+  "n": 127,
+  "text": "Người dân nên phải khai báo với chính quyền mỗi khi chuyển đến nơi ở mới.",
+  "facet": "liberty.privacy",
+  "key": -1,
+  "tier": "pool",
+  "status": "draft"
+ },
+ {
+  "id": "liberty.privacy.9",
+  "n": 128,
+  "text": "Người dân nên luôn được quyền thanh toán bằng tiền mặt để việc chi tiêu của mình không bị ghi lại.",
+  "facet": "liberty.privacy",
+  "key": 1,
+  "tier": "pool",
+  "status": "draft"
+ },
+ {
+  "id": "elites.decision.1",
+  "n": 129,
+  "text": "Muốn sửa hiến pháp thì phải được toàn dân bỏ phiếu thông qua.",
+  "facet": "elites.decision",
+  "key": 1,
+  "tier": "core",
+  "status": "draft"
+ },
+ {
+  "id": "elites.decision.2",
+  "n": 130,
+  "text": "Chính sách kinh tế nên để các chuyên gia quyết định, không nên phụ thuộc vào ý kiến số đông.",
+  "facet": "elites.decision",
+  "key": -1,
+  "tier": "core",
+  "status": "draft"
+ },
+ {
+  "id": "elites.decision.3",
+  "n": 131,
+  "text": "Người dân bình thường không đủ thông tin để quyết định những vấn đề phức tạp của quốc gia.",
+  "facet": "elites.decision",
+  "key": -1,
+  "tier": "pool",
+  "status": "draft"
+ },
+ {
+  "id": "elites.decision.4",
+  "n": 132,
+  "text": "Một hội đồng công dân chọn ngẫu nhiên bằng bốc thăm có thể quyết việc công tốt không kém các chính khách.",
+  "facet": "elites.decision",
+  "key": 1,
+  "tier": "pool",
+  "status": "draft"
+ },
+ {
+  "id": "elites.decision.5",
+  "n": 133,
+  "text": "Chỉ cần gom đủ chữ ký, người dân nên có quyền đưa một dự luật ra trưng cầu dân ý.",
+  "facet": "elites.decision",
+  "key": 1,
+  "tier": "deep",
+  "status": "draft"
+ },
+ {
+  "id": "elites.decision.6",
+  "n": 134,
+  "text": "Người đại biểu nên bỏ phiếu theo ý cử tri của mình, kể cả khi bản thân nghĩ khác.",
+  "facet": "elites.decision",
+  "key": 1,
+  "tier": "pool",
+  "status": "draft"
+ },
+ {
+  "id": "elites.decision.7",
+  "n": 135,
+  "text": "Những việc lớn của quốc gia nên do đại biểu dân cử quyết định, không nên đem ra cho toàn dân bỏ phiếu trực tiếp.",
+  "facet": "elites.decision",
+  "key": -1,
+  "tier": "pool",
+  "status": "draft"
+ },
+ {
+  "id": "elites.decision.8",
+  "n": 136,
+  "text": "Những vụ án nghiêm trọng nên do một bồi thẩm đoàn gồm người dân thường quyết định có tội hay không.",
+  "facet": "elites.decision",
+  "key": 1,
+  "tier": "pool",
+  "status": "draft"
+ },
+ {
+  "id": "elites.decision.9",
+  "n": 137,
+  "text": "Người đứng đầu các bộ của nhà nước nên là người đỗ kỳ thi tuyển cạnh tranh, chứ không phải người do dân bầu.",
+  "facet": "elites.decision",
+  "key": -1,
+  "tier": "pool",
+  "status": "draft"
+ },
+ {
+  "id": "elites.rank.1",
+  "n": 138,
+  "text": "Một xã hội có trật tự trên dưới rõ ràng, ai ở vị trí nấy, sẽ yên ổn hơn.",
+  "facet": "elites.rank",
+  "key": -1,
+  "tier": "core",
+  "status": "draft"
+ },
+ {
+  "id": "elites.rank.2",
+  "n": 139,
+  "text": "Không ai, dù tài giỏi hay học cao đến đâu, nên được coi là ở bậc trên người khác.",
+  "facet": "elites.rank",
+  "key": 1,
+  "tier": "long",
+  "status": "draft"
+ },
+ {
+  "id": "elites.rank.3",
+  "n": 140,
+  "text": "Chức vụ và địa vị nên được trao theo tài năng, không theo dòng dõi.",
+  "facet": "elites.rank",
+  "key": 1,
+  "tier": "pool",
+  "status": "draft"
+ },
+ {
+  "id": "elites.rank.4",
+  "n": 141,
+  "text": "Mọi tước vị và danh hiệu cha truyền con nối nên bị bãi bỏ.",
+  "facet": "elites.rank",
+  "key": 1,
+  "tier": "pool",
+  "status": "draft"
+ },
+ {
+  "id": "elites.rank.5",
+  "n": 142,
+  "text": "Mỗi quốc gia cần một tầng lớp tinh hoa được rèn luyện từ nhỏ để gánh vác việc nước.",
+  "facet": "elites.rank",
+  "key": -1,
+  "tier": "pool",
+  "status": "draft"
+ },
+ {
+  "id": "elites.rank.6",
+  "n": 143,
+  "text": "Việc xã hội có người trên kẻ dưới là lẽ tự nhiên, không phải là bất công.",
+  "facet": "elites.rank",
+  "key": -1,
+  "tier": "deep",
+  "status": "draft"
+ },
+ {
+  "id": "elites.rank.7",
+  "n": 144,
+  "text": "Người có học vấn cao hơn nên được bỏ nhiều phiếu hơn trong bầu cử.",
+  "facet": "elites.rank",
+  "key": -1,
+  "tier": "pool",
+  "status": "draft"
+ },
+ {
+  "id": "elites.rank.8",
+  "n": 145,
+  "text": "Một số ghế trong quốc hội nên dành cho những người được thừa kế tước vị.",
+  "facet": "elites.rank",
+  "key": -1,
+  "tier": "pool",
+  "status": "draft"
+ },
+ {
+  "id": "elites.rank.9",
+  "n": 146,
+  "text": "Không nghề nghiệp nào nên bị coi là thấp kém hơn nghề khác, dù là buôn bán hay lao động chân tay.",
+  "facet": "elites.rank",
+  "key": 1,
+  "tier": "pool",
+  "status": "draft"
+ },
+ {
+  "id": "elites.trust.1",
+  "n": 147,
+  "text": "Giới chính khách và tài phiệt thường cấu kết với nhau để chống lại lợi ích của dân thường.",
+  "facet": "elites.trust",
+  "key": 1,
+  "tier": "core",
+  "status": "draft"
+ },
+ {
+  "id": "elites.trust.2",
+  "n": 148,
+  "text": "Những người thành đạt và có học vấn cao nhìn chung xứng đáng được tin tưởng để dẫn dắt xã hội.",
+  "facet": "elites.trust",
+  "key": -1,
+  "tier": "long",
+  "status": "draft"
+ },
+ {
+  "id": "elites.trust.3",
+  "n": 149,
+  "text": "Giới trí thức và truyền thông thường xa rời suy nghĩ của người lao động bình thường.",
+  "facet": "elites.trust",
+  "key": 1,
+  "tier": "pool",
+  "status": "draft"
+ },
+ {
+  "id": "elites.trust.4",
+  "n": 150,
+  "text": "Nghi ngờ mọi người có thẩm quyền, như chuyên gia hay quan chức, là một thái độ nguy hiểm.",
+  "facet": "elites.trust",
+  "key": -1,
+  "tier": "pool",
+  "status": "draft"
+ },
+ {
+  "id": "elites.trust.5",
+  "n": 151,
+  "text": "Người dân bình thường hiểu điều gì tốt cho đất nước hơn giới tinh hoa.",
+  "facet": "elites.trust",
+  "key": 1,
+  "tier": "pool",
+  "status": "draft"
+ },
+ {
+  "id": "elites.trust.6",
+  "n": 152,
+  "text": "Trí thức nên về nông thôn và nhà máy để học hỏi từ nông dân và công nhân.",
+  "facet": "elites.trust",
+  "key": 1,
+  "tier": "pool",
+  "status": "draft"
+ },
+ {
+  "id": "elites.trust.7",
+  "n": 153,
+  "text": "Khi các nhà khoa học đã đồng thuận về một vấn đề, chính sách nhà nước nên đi theo họ.",
+  "facet": "elites.trust",
+  "key": -1,
+  "tier": "pool",
+  "status": "draft"
+ },
+ {
+  "id": "elites.trust.8",
+  "n": 154,
+  "text": "Người nắm quyền lâu năm, dù xuất thân từ đâu, rồi cũng sẽ lo cho lợi ích của mình hơn là của dân.",
+  "facet": "elites.trust",
+  "key": 1,
+  "tier": "pool",
+  "status": "draft"
+ },
+ {
+  "id": "elites.trust.9",
+  "n": 155,
+  "text": "Một đội ngũ công chức chuyên nghiệp, được tuyển chọn kỹ, là chỗ dựa đáng tin cậy nhất của quốc gia.",
+  "facet": "elites.trust",
+  "key": -1,
+  "tier": "deep",
+  "status": "draft"
+ },
+ {
+  "id": "lifestyle.family.1",
+  "n": 156,
+  "text": "Con cái nên nghe theo cha mẹ trong những việc lớn như chọn nghề hay kết hôn.",
+  "facet": "lifestyle.family",
+  "key": -1,
+  "tier": "core",
+  "status": "draft"
+ },
+ {
+  "id": "lifestyle.family.2",
+  "n": 157,
+  "text": "Vợ chồng chọn không sinh con là một lựa chọn hoàn toàn chính đáng.",
+  "facet": "lifestyle.family",
+  "key": 1,
+  "tier": "long",
+  "status": "draft"
+ },
+ {
+  "id": "lifestyle.family.3",
+  "n": 158,
+  "text": "Nhà nước nên có ưu đãi riêng cho những gia đình ba thế hệ sống chung một nhà.",
+  "facet": "lifestyle.family",
+  "key": -1,
+  "tier": "pool",
+  "status": "draft"
+ },
+ {
+  "id": "lifestyle.family.4",
+  "n": 159,
+  "text": "Ly hôn khi hôn nhân không hạnh phúc tốt hơn cố giữ vì con cái hay vì thể diện.",
+  "facet": "lifestyle.family",
+  "key": 1,
+  "tier": "pool",
+  "status": "draft"
+ },
+ {
+  "id": "lifestyle.family.5",
+  "n": 160,
+  "text": "Chữ hiếu là nền tảng đạo đức của một xã hội tốt.",
+  "facet": "lifestyle.family",
+  "key": -1,
+  "tier": "pool",
+  "status": "draft"
+ },
+ {
+  "id": "lifestyle.family.6",
+  "n": 161,
+  "text": "Luật nên đặt ra điều kiện chặt hơn để vợ chồng được ly hôn.",
+  "facet": "lifestyle.family",
+  "key": -1,
+  "tier": "pool",
+  "status": "draft"
+ },
+ {
+  "id": "lifestyle.family.7",
+  "n": 162,
+  "text": "Nhà nước nên đối xử như nhau với mọi kiểu gia đình, không đặt hôn nhân truyền thống lên trên.",
+  "facet": "lifestyle.family",
+  "key": 1,
+  "tier": "deep",
+  "status": "draft"
+ },
+ {
+  "id": "lifestyle.gender.1",
+  "n": 163,
+  "text": "Hai người cùng giới nên được kết hôn hợp pháp như mọi cặp đôi khác.",
+  "facet": "lifestyle.gender",
+  "key": 1,
+  "tier": "core",
+  "status": "draft"
+ },
+ {
+  "id": "lifestyle.gender.2",
+  "n": 164,
+  "text": "Đàn ông nên là trụ cột kinh tế, còn phụ nữ nên lấy việc chăm lo gia đình làm chính.",
+  "facet": "lifestyle.gender",
+  "key": -1,
+  "tier": "core",
+  "status": "draft"
+ },
+ {
+  "id": "lifestyle.gender.3",
+  "n": 165,
+  "text": "Nhà nước nên có biện pháp cụ thể để tăng số phụ nữ giữ chức vụ lãnh đạo.",
+  "facet": "lifestyle.gender",
+  "key": 1,
+  "tier": "pool",
+  "status": "draft"
+ },
+ {
+  "id": "lifestyle.gender.4",
+  "n": 166,
+  "text": "Trẻ em nên được dạy dỗ theo vai trò truyền thống của con trai và con gái.",
+  "facet": "lifestyle.gender",
+  "key": -1,
+  "tier": "pool",
+  "status": "draft"
+ },
+ {
+  "id": "lifestyle.gender.5",
+  "n": 167,
+  "text": "Người chuyển giới nên được pháp luật công nhận theo giới tính mà họ đang sống.",
+  "facet": "lifestyle.gender",
+  "key": 1,
+  "tier": "pool",
+  "status": "draft"
+ },
+ {
+  "id": "lifestyle.gender.6",
+  "n": 168,
+  "text": "Trong gia đình, người chồng nên là người có tiếng nói quyết định sau cùng.",
+  "facet": "lifestyle.gender",
+  "key": -1,
+  "tier": "deep",
+  "status": "draft"
+ },
+ {
+  "id": "lifestyle.autonomy.1",
+  "n": 169,
+  "text": "Người trưởng thành nên được tự quyết về thân thể mình, kể cả những việc người khác cho là có hại.",
+  "facet": "lifestyle.autonomy",
+  "key": 1,
+  "tier": "core",
+  "status": "draft"
+ },
+ {
+  "id": "lifestyle.autonomy.2",
+  "n": 170,
+  "text": "Pháp luật nên cấm cờ bạc, kể cả khi người chơi chỉ tiêu tiền của chính mình.",
+  "facet": "lifestyle.autonomy",
+  "key": -1,
+  "tier": "long",
+  "status": "draft"
+ },
+ {
+  "id": "lifestyle.autonomy.3",
+  "n": 171,
+  "text": "Sử dụng cần sa cho mục đích cá nhân không nên bị coi là tội phạm.",
+  "facet": "lifestyle.autonomy",
+  "key": 1,
+  "tier": "deep",
+  "status": "draft"
+ },
+ {
+  "id": "lifestyle.autonomy.4",
+  "n": 172,
+  "text": "Pháp luật nên cấm phá thai, trừ khi tính mạng người mẹ bị đe doạ.",
+  "facet": "lifestyle.autonomy",
+  "key": -1,
+  "tier": "pool",
+  "status": "draft"
+ },
+ {
+  "id": "lifestyle.autonomy.5",
+  "n": 173,
+  "text": "Người bệnh nan y nên được quyền chọn kết thúc cuộc sống với sự trợ giúp của bác sĩ.",
+  "facet": "lifestyle.autonomy",
+  "key": 1,
+  "tier": "pool",
+  "status": "draft"
+ },
+ {
+  "id": "lifestyle.autonomy.6",
+  "n": 174,
+  "text": "Người nghiện ma tuý nên bị đưa đi cai nghiện bắt buộc.",
+  "facet": "lifestyle.autonomy",
+  "key": -1,
+  "tier": "pool",
+  "status": "draft"
+ },
+ {
+  "id": "lifestyle.autonomy.7",
+  "n": 175,
+  "text": "Mọi loại ma tuý nên được hợp pháp hoá và bán có kiểm soát như rượu bia.",
+  "facet": "lifestyle.autonomy",
+  "key": 1,
+  "tier": "pool",
+  "status": "draft"
+ },
+ {
+  "id": "religion.state.1",
+  "n": 176,
+  "text": "Một quốc gia nên có một tôn giáo chính thức được nhà nước bảo trợ, như Phật giáo thời Lý–Trần.",
+  "facet": "religion.state",
+  "key": 1,
+  "tier": "core",
+  "status": "draft"
+ },
+ {
+  "id": "religion.state.2",
+  "n": 177,
+  "text": "Nhà nước nên chủ động hạn chế ảnh hưởng của tôn giáo trong xã hội.",
+  "facet": "religion.state",
+  "key": -1,
+  "tier": "long",
+  "status": "draft"
+ },
+ {
+  "id": "religion.state.3",
+  "n": 178,
+  "text": "Nhà nước không được dùng quyền lực của mình để khiến người dân từ bỏ đức tin.",
+  "facet": "religion.state",
+  "key": 1,
+  "tier": "pool",
+  "status": "draft"
+ },
+ {
+  "id": "religion.state.4",
+  "n": 179,
+  "text": "Nhà nước nên có quyền duyệt việc bổ nhiệm chức sắc của các tôn giáo.",
+  "facet": "religion.state",
+  "key": -1,
+  "tier": "pool",
+  "status": "draft"
+ },
+ {
+  "id": "religion.state.5",
+  "n": 180,
+  "text": "Nhà nước nên dùng ngân sách để xây mới chùa chiền, nhà thờ và các nơi thờ tự.",
+  "facet": "religion.state",
+  "key": 1,
+  "tier": "deep",
+  "status": "draft"
+ },
+ {
+  "id": "religion.state.6",
+  "n": 181,
+  "text": "Nhà nước nên đối xử với mọi tôn giáo như nhau, không ưu đãi riêng đạo nào.",
+  "facet": "religion.state",
+  "key": -1,
+  "tier": "pool",
+  "status": "draft"
+ },
+ {
+  "id": "religion.law.1",
+  "n": 182,
+  "text": "Luật pháp không nên lấy lời trong kinh sách tôn giáo làm căn cứ.",
+  "facet": "religion.law",
+  "key": -1,
+  "tier": "core",
+  "status": "draft"
+ },
+ {
+  "id": "religion.law.2",
+  "n": 183,
+  "text": "Luật pháp nên dựa trên các giá trị đạo đức của tôn giáo.",
+  "facet": "religion.law",
+  "key": 1,
+  "tier": "long",
+  "status": "draft"
+ },
+ {
+  "id": "religion.law.3",
+  "n": 184,
+  "text": "Những gì tôn giáo coi là tội lỗi nặng thì pháp luật cũng nên cấm.",
+  "facet": "religion.law",
+  "key": 1,
+  "tier": "deep",
+  "status": "draft"
+ },
+ {
+  "id": "religion.law.4",
+  "n": 185,
+  "text": "Giáo luật của tôn giáo mà đa số người dân theo nên là một nguồn chính của luật pháp quốc gia.",
+  "facet": "religion.law",
+  "key": 1,
+  "tier": "pool",
+  "status": "draft"
+ },
+ {
+  "id": "religion.law.5",
+  "n": 186,
+  "text": "Luật về hôn nhân nên giống nhau cho mọi công dân, dù họ theo đạo nào.",
+  "facet": "religion.law",
+  "key": -1,
+  "tier": "pool",
+  "status": "draft"
+ },
+ {
+  "id": "religion.law.6",
+  "n": 187,
+  "text": "Một đạo luật chỉ chính đáng khi người không theo đạo cũng có lý do để chấp nhận nó.",
+  "facet": "religion.law",
+  "key": -1,
+  "tier": "pool",
+  "status": "draft"
+ },
+ {
+  "id": "religion.public.1",
+  "n": 188,
+  "text": "Trường công không nên dạy giáo lý hay tổ chức bất kỳ nghi lễ tôn giáo nào.",
+  "facet": "religion.public",
+  "key": -1,
+  "tier": "core",
+  "status": "draft"
+ },
+ {
+  "id": "religion.public.2",
+  "n": 189,
+  "text": "Ý kiến của các chức sắc tôn giáo nên có sức nặng đặc biệt khi xã hội bàn về những vấn đề đạo đức.",
+  "facet": "religion.public",
+  "key": 1,
+  "tier": "core",
+  "status": "draft"
+ },
+ {
+  "id": "religion.public.3",
+  "n": 190,
+  "text": "Niềm tin tôn giáo là chuyện riêng, không nên xuất hiện trong phát ngôn của quan chức.",
+  "facet": "religion.public",
+  "key": -1,
+  "tier": "pool",
+  "status": "draft"
+ },
+ {
+  "id": "religion.public.4",
+  "n": 191,
+  "text": "Một xã hội đánh mất đức tin tôn giáo rồi sẽ đánh mất cả đạo đức.",
+  "facet": "religion.public",
+  "key": 1,
+  "tier": "pool",
+  "status": "draft"
+ },
+ {
+  "id": "religion.public.5",
+  "n": 192,
+  "text": "Nhà nước nên cấp kinh phí cho các trường do tôn giáo mở ngang bằng trường công.",
+  "facet": "religion.public",
+  "key": 1,
+  "tier": "pool",
+  "status": "draft"
+ },
+ {
+  "id": "religion.public.6",
+  "n": 193,
+  "text": "Lễ chính thức của nhà nước không nên có nghi thức tôn giáo, như cầu nguyện hay cúng tế.",
+  "facet": "religion.public",
+  "key": -1,
+  "tier": "deep",
+  "status": "draft"
+ },
+ {
+  "id": "identity.nation.1",
+  "n": 194,
+  "text": "Lợi ích của dân tộc mình phải được đặt trên lợi ích của các dân tộc khác.",
+  "facet": "identity.nation",
+  "key": -1,
+  "tier": "core",
+  "status": "draft"
+ },
+ {
+  "id": "identity.nation.2",
+  "n": 195,
+  "text": "Tôi thấy mình là công dân của thế giới nhiều hơn là công dân của một nước.",
+  "facet": "identity.nation",
+  "key": 1,
+  "tier": "long",
+  "status": "draft"
+ },
+ {
+  "id": "identity.nation.3",
+  "n": 196,
+  "text": "Hun đúc lòng tự hào dân tộc nên là mục tiêu hàng đầu của giáo dục.",
+  "facet": "identity.nation",
+  "key": -1,
+  "tier": "deep",
+  "status": "draft"
+ },
+ {
+  "id": "identity.nation.4",
+  "n": 197,
+  "text": "Nhân loại nên hướng tới một thế giới không còn biên giới quốc gia.",
+  "facet": "identity.nation",
+  "key": 1,
+  "tier": "pool",
+  "status": "draft"
+ },
+ {
+  "id": "identity.nation.5",
+  "n": 198,
+  "text": "Mỗi người nên ưu tiên giúp đồng bào mình trước khi giúp người nước khác.",
+  "facet": "identity.nation",
+  "key": -1,
+  "tier": "pool",
+  "status": "draft"
+ },
+ {
+  "id": "identity.nation.6",
+  "n": 199,
+  "text": "Mạng sống của một người ở nước xa cũng quý như mạng sống của một người đồng bào.",
+  "facet": "identity.nation",
+  "key": 1,
+  "tier": "pool",
+  "status": "draft"
+ },
+ {
+  "id": "identity.culture.1",
+  "n": 200,
+  "text": "Chẳng có bản sắc dân tộc thuần tuý nào cần được bảo vệ khỏi ảnh hưởng bên ngoài.",
+  "facet": "identity.culture",
+  "key": 1,
+  "tier": "core",
+  "status": "draft"
+ },
+ {
+  "id": "identity.culture.2",
+  "n": 201,
+  "text": "Nhà nước nên buộc truyền hình dành một tỷ lệ tối thiểu thời lượng cho phim ảnh và âm nhạc trong nước.",
+  "facet": "identity.culture",
+  "key": -1,
+  "tier": "long",
+  "status": "draft"
+ },
+ {
+  "id": "identity.culture.3",
+  "n": 202,
+  "text": "Pháp luật nên buộc biển hiệu, quảng cáo và báo chí dùng tiếng Việt là chính.",
+  "facet": "identity.culture",
+  "key": -1,
+  "tier": "pool",
+  "status": "draft"
+ },
+ {
+  "id": "identity.culture.4",
+  "n": 203,
+  "text": "Giới trẻ mê văn hoá Hàn, Nhật hay Mỹ là chuyện bình thường, không có gì đáng lo.",
+  "facet": "identity.culture",
+  "key": 1,
+  "tier": "pool",
+  "status": "draft"
+ },
+ {
+  "id": "identity.culture.5",
+  "n": 204,
+  "text": "Dân tộc nào còn giữ được văn hoá riêng của mình thì dân tộc ấy chưa mất.",
+  "facet": "identity.culture",
+  "key": -1,
+  "tier": "pool",
+  "status": "draft"
+ },
+ {
+  "id": "identity.culture.6",
+  "n": 205,
+  "text": "Nhà nước nên long trọng tổ chức những ngày lễ cội nguồn của dân tộc như Giỗ Tổ Hùng Vương.",
+  "facet": "identity.culture",
+  "key": -1,
+  "tier": "pool",
+  "status": "draft"
+ },
+ {
+  "id": "identity.culture.7",
+  "n": 206,
+  "text": "Người nhập cư nên được khuyến khích giữ ngôn ngữ và phong tục riêng thay vì hoà nhập hoàn toàn.",
+  "facet": "identity.culture",
+  "key": 1,
+  "tier": "pool",
+  "status": "draft"
+ },
+ {
+  "id": "identity.culture.8",
+  "n": 207,
+  "text": "Một dân tộc nên mạnh dạn học theo cái hay của văn hoá nước ngoài, kể cả khi phải bỏ bớt tập quán cũ.",
+  "facet": "identity.culture",
+  "key": 1,
+  "tier": "deep",
+  "status": "draft"
+ },
+ {
+  "id": "identity.migration.1",
+  "n": 208,
+  "text": "Người nước ngoài sang sống và làm việc lâu dài ở nước ta nên được nhập quốc tịch dễ dàng.",
+  "facet": "identity.migration",
+  "key": 1,
+  "tier": "core",
+  "status": "draft"
+ },
+ {
+  "id": "identity.migration.2",
+  "n": 209,
+  "text": "Nhà nước nên hạn chế chặt số người nước ngoài sang sống và làm việc lâu dài.",
+  "facet": "identity.migration",
+  "key": -1,
+  "tier": "core",
+  "status": "draft"
+ },
+ {
+  "id": "identity.migration.3",
+  "n": 210,
+  "text": "Quốc tịch nên được truyền theo huyết thống chứ không theo nơi sinh.",
+  "facet": "identity.migration",
+  "key": -1,
+  "tier": "pool",
+  "status": "draft"
+ },
+ {
+  "id": "identity.migration.4",
+  "n": 211,
+  "text": "Nước ta nên cho phép cả lao động phổ thông nước ngoài sang làm việc, không chỉ chuyên gia.",
+  "facet": "identity.migration",
+  "key": 1,
+  "tier": "pool",
+  "status": "draft"
+ },
+ {
+  "id": "identity.migration.5",
+  "n": 212,
+  "text": "Các nước nên mở cửa đón những người tị nạn chạy khỏi chiến tranh.",
+  "facet": "identity.migration",
+  "key": 1,
+  "tier": "pool",
+  "status": "draft"
+ },
+ {
+  "id": "identity.migration.6",
+  "n": 213,
+  "text": "Người nhập cư chỉ nên được hưởng phúc lợi xã hội sau nhiều năm sinh sống và đóng thuế.",
+  "facet": "identity.migration",
+  "key": -1,
+  "tier": "pool",
+  "status": "draft"
+ },
+ {
+  "id": "identity.migration.7",
+  "n": 214,
+  "text": "Mọi người nên được tự do sang sống và làm việc ở bất kỳ nước nào họ muốn.",
+  "facet": "identity.migration",
+  "key": 1,
+  "tier": "deep",
+  "status": "draft"
+ },
+ {
+  "id": "identity.migration.8",
+  "n": 215,
+  "text": "Người nhập cư bất hợp pháp nên bị trục xuất, kể cả khi họ đã sống ở đây nhiều năm.",
+  "facet": "identity.migration",
+  "key": -1,
+  "tier": "pool",
+  "status": "draft"
+ },
+ {
+  "id": "environment.growth.1",
+  "n": 216,
+  "text": "Một nước đang phát triển nên ưu tiên tăng trưởng kinh tế trước, bảo vệ môi trường sau.",
+  "facet": "environment.growth",
+  "key": -1,
+  "tier": "core",
+  "status": "draft"
+ },
+ {
+  "id": "environment.growth.2",
+  "n": 217,
+  "text": "Bảo vệ môi trường xứng đáng để ta chấp nhận kinh tế tăng trưởng chậm hơn.",
+  "facet": "environment.growth",
+  "key": 1,
+  "tier": "core",
+  "status": "draft"
+ },
+ {
+  "id": "environment.growth.3",
+  "n": 218,
+  "text": "Các nước giàu nên chủ động thu nhỏ nền kinh tế của mình, kể cả khi tổng sản phẩm quốc nội (GDP) giảm.",
+  "facet": "environment.growth",
+  "key": 1,
+  "tier": "pool",
+  "status": "draft"
+ },
+ {
+  "id": "environment.growth.4",
+  "n": 219,
+  "text": "Một dự án tạo nhiều việc làm vẫn nên được duyệt dù gây hại cho môi trường.",
+  "facet": "environment.growth",
+  "key": -1,
+  "tier": "pool",
+  "status": "draft"
+ },
+ {
+  "id": "environment.growth.5",
+  "n": 220,
+  "text": "Tăng trưởng GDP không nên là thước đo chính cho sự thành công của một quốc gia.",
+  "facet": "environment.growth",
+  "key": 1,
+  "tier": "pool",
+  "status": "draft"
+ },
+ {
+  "id": "environment.growth.6",
+  "n": 221,
+  "text": "Một đất nước phải giàu lên trước rồi mới nên đầu tư nhiều vào bảo vệ môi trường.",
+  "facet": "environment.growth",
+  "key": -1,
+  "tier": "pool",
+  "status": "draft"
+ },
+ {
+  "id": "environment.growth.7",
+  "n": 222,
+  "text": "Một nền kinh tế không còn tăng trưởng vẫn có thể cho mọi người một cuộc sống tốt.",
+  "facet": "environment.growth",
+  "key": 1,
+  "tier": "deep",
+  "status": "draft"
+ },
+ {
+  "id": "environment.growth.8",
+  "n": 223,
+  "text": "Một nước nghèo không nên để các cam kết về khí hậu làm chậm quá trình công nghiệp hoá của mình.",
+  "facet": "environment.growth",
+  "key": -1,
+  "tier": "pool",
+  "status": "draft"
+ },
+ {
+  "id": "environment.nature.1",
+  "n": 224,
+  "text": "Nên đóng cửa các nhà máy điện than, kể cả khi giá điện vì thế tăng lên.",
+  "facet": "environment.nature",
+  "key": 1,
+  "tier": "core",
+  "status": "draft"
+ },
+ {
+  "id": "environment.nature.2",
+  "n": 225,
+  "text": "Rừng, sông và khoáng sản tồn tại là để con người khai thác phục vụ cuộc sống.",
+  "facet": "environment.nature",
+  "key": -1,
+  "tier": "long",
+  "status": "draft"
+ },
+ {
+  "id": "environment.nature.3",
+  "n": 226,
+  "text": "Các loài hoang dã có quyền được sống, không phụ thuộc vào ích lợi của chúng với con người.",
+  "facet": "environment.nature",
+  "key": 1,
+  "tier": "pool",
+  "status": "draft"
+ },
+ {
+  "id": "environment.nature.4",
+  "n": 227,
+  "text": "Nỗi lo về biến đổi khí hậu đang bị thổi phồng.",
+  "facet": "environment.nature",
+  "key": -1,
+  "tier": "pool",
+  "status": "draft"
+ },
+ {
+  "id": "environment.nature.5",
+  "n": 228,
+  "text": "Doanh nghiệp gây ô nhiễm nghiêm trọng nên bị đóng cửa vĩnh viễn, dù mất nhiều việc làm.",
+  "facet": "environment.nature",
+  "key": 1,
+  "tier": "pool",
+  "status": "draft"
+ },
+ {
+  "id": "environment.nature.6",
+  "n": 229,
+  "text": "Ai gây ô nhiễm phải trả một khoản thuế tương xứng với lượng chất thải mình xả ra.",
+  "facet": "environment.nature",
+  "key": 1,
+  "tier": "pool",
+  "status": "draft"
+ },
+ {
+  "id": "environment.nature.7",
+  "n": 230,
+  "text": "Nên dành ít nhất một phần ba đất liền và vùng biển của đất nước làm khu bảo tồn, cấm khai thác.",
+  "facet": "environment.nature",
+  "key": 1,
+  "tier": "pool",
+  "status": "draft"
+ },
+ {
+  "id": "environment.nature.8",
+  "n": 231,
+  "text": "Nhà nước nên nới lỏng các quy định về môi trường để doanh nghiệp dễ đầu tư hơn.",
+  "facet": "environment.nature",
+  "key": -1,
+  "tier": "deep",
+  "status": "draft"
+ },
+ {
+  "id": "environment.nature.9",
+  "n": 232,
+  "text": "Bảo tồn một loài động vật quý hiếm không đáng để cản trở việc xây một con đường hay một khu công nghiệp.",
+  "facet": "environment.nature",
+  "key": -1,
+  "tier": "pool",
+  "status": "draft"
+ },
+ {
+  "id": "environment.technology.1",
+  "n": 233,
+  "text": "Loài người sẽ tìm ra lời giải kỹ thuật cho khủng hoảng môi trường, như đã từng làm với nhiều khủng hoảng khác.",
+  "facet": "environment.technology",
+  "key": -1,
+  "tier": "core",
+  "status": "draft"
+ },
+ {
+  "id": "environment.technology.2",
+  "n": 234,
+  "text": "Con người cần quay về lối sống giản dị, gần thiên nhiên thay vì trông chờ vào công nghệ.",
+  "facet": "environment.technology",
+  "key": 1,
+  "tier": "long",
+  "status": "draft"
+ },
+ {
+  "id": "environment.technology.3",
+  "n": 235,
+  "text": "Nền văn minh công nghiệp tự bản chất là không bền vững.",
+  "facet": "environment.technology",
+  "key": 1,
+  "tier": "deep",
+  "status": "draft"
+ },
+ {
+  "id": "environment.technology.4",
+  "n": 236,
+  "text": "Không công nghệ nào cứu được môi trường nếu người dân các nước giàu không chịu tiêu dùng ít đi.",
+  "facet": "environment.technology",
+  "key": 1,
+  "tier": "pool",
+  "status": "draft"
+ },
+ {
+  "id": "environment.technology.5",
+  "n": 237,
+  "text": "Có thể vừa nâng cao mức sống của mọi người vừa giảm ô nhiễm, nếu đầu tư đủ vào công nghệ sạch.",
+  "facet": "environment.technology",
+  "key": -1,
+  "tier": "pool",
+  "status": "draft"
+ },
+ {
+  "id": "environment.technology.6",
+  "n": 238,
+  "text": "Để giảm ô nhiễm, tiền công nên dồn cho công nghệ sạch hơn là cho việc vận động người dân đổi thói quen tiêu dùng.",
+  "facet": "environment.technology",
+  "key": -1,
+  "tier": "pool",
+  "status": "draft"
+ },
+ {
+  "id": "environment.technology.7",
+  "n": 239,
+  "text": "Nhà nước nên hạn chế những kiểu tiêu dùng thải nhiều khí nhà kính, như bay chặng ngắn hay đi xe hơi cỡ lớn.",
+  "facet": "environment.technology",
+  "key": 1,
+  "tier": "pool",
+  "status": "draft"
+ },
+ {
+  "id": "environment.technology.8",
+  "n": 240,
+  "text": "Để bảo vệ môi trường, không cần đòi hỏi người dân phải sống giản dị hơn.",
+  "facet": "environment.technology",
+  "key": -1,
+  "tier": "pool",
+  "status": "draft"
+ },
+ {
+  "id": "foreign.force.1",
+  "n": 241,
+  "text": "Một đất nước muốn được tôn trọng thì phải có quân đội mạnh.",
+  "facet": "foreign.force",
+  "key": -1,
+  "tier": "core",
+  "status": "draft"
+ },
+ {
+  "id": "foreign.force.2",
+  "n": 242,
+  "text": "Chi tiêu quân sự nên được cắt giảm để dành tiền cho phúc lợi xã hội, như giáo dục và y tế.",
+  "facet": "foreign.force",
+  "key": 1,
+  "tier": "core",
+  "status": "draft"
+ },
+ {
+  "id": "foreign.force.3",
+  "n": 243,
+  "text": "Chiến tranh hầu như không bao giờ là lời giải đúng, kể cả khi mình có lý.",
+  "facet": "foreign.force",
+  "key": 1,
+  "tier": "pool",
+  "status": "draft"
+ },
+ {
+  "id": "foreign.force.4",
+  "n": 244,
+  "text": "Mọi công dân đủ sức khoẻ nên có nghĩa vụ phục vụ trong quân đội một thời gian.",
+  "facet": "foreign.force",
+  "key": -1,
+  "tier": "pool",
+  "status": "draft"
+ },
+ {
+  "id": "foreign.force.5",
+  "n": 245,
+  "text": "Một nước nên sở hữu vũ khí hạt nhân nếu có đủ khả năng.",
+  "facet": "foreign.force",
+  "key": -1,
+  "tier": "pool",
+  "status": "draft"
+ },
+ {
+  "id": "foreign.force.6",
+  "n": 246,
+  "text": "Các quốc gia nên tiến tới giải tán quân đội thường trực.",
+  "facet": "foreign.force",
+  "key": 1,
+  "tier": "deep",
+  "status": "draft"
+ },
+ {
+  "id": "foreign.force.7",
+  "n": 247,
+  "text": "Đánh trước để chặn một mối đe doạ đang hình thành là chính đáng.",
+  "facet": "foreign.force",
+  "key": -1,
+  "tier": "pool",
+  "status": "draft"
+ },
+ {
+  "id": "foreign.rules.1",
+  "n": 248,
+  "text": "Các nước nên tuân theo phán quyết của toà án quốc tế, kể cả khi phán quyết bất lợi cho mình.",
+  "facet": "foreign.rules",
+  "key": 1,
+  "tier": "core",
+  "status": "draft"
+ },
+ {
+  "id": "foreign.rules.2",
+  "n": 249,
+  "text": "Mỗi quốc gia nên có quyền quyết định cuối cùng về mọi việc của mình, dù các tổ chức quốc tế không đồng ý.",
+  "facet": "foreign.rules",
+  "key": -1,
+  "tier": "long",
+  "status": "draft"
+ },
+ {
+  "id": "foreign.rules.3",
+  "n": 250,
+  "text": "Các nước trong khu vực nên tiến tới một liên minh chặt chẽ như Liên minh châu Âu, dùng chung luật lệ.",
+  "facet": "foreign.rules",
+  "key": 1,
+  "tier": "pool",
+  "status": "draft"
+ },
+ {
+  "id": "foreign.rules.4",
+  "n": 251,
+  "text": "Một nước nên rút khỏi các hiệp ước quốc tế khi chúng không còn có lợi cho mình.",
+  "facet": "foreign.rules",
+  "key": -1,
+  "tier": "pool",
+  "status": "draft"
+ },
+ {
+  "id": "foreign.rules.5",
+  "n": 252,
+  "text": "Những vấn đề toàn cầu như dịch bệnh hay khí hậu nên được giao cho một chính quyền chung của thế giới.",
+  "facet": "foreign.rules",
+  "key": 1,
+  "tier": "pool",
+  "status": "draft"
+ },
+ {
+  "id": "foreign.rules.6",
+  "n": 253,
+  "text": "Khi lợi ích sống còn bị đe doạ, một nước có quyền gạt luật pháp quốc tế sang một bên.",
+  "facet": "foreign.rules",
+  "key": -1,
+  "tier": "pool",
+  "status": "draft"
+ },
+ {
+  "id": "foreign.rules.7",
+  "n": 254,
+  "text": "Các nước nên để một cơ quan quốc tế giám sát việc mình thực hiện các cam kết về nhân quyền.",
+  "facet": "foreign.rules",
+  "key": 1,
+  "tier": "deep",
+  "status": "draft"
+ },
+ {
+  "id": "foreign.intervention.1",
+  "n": 255,
+  "text": "Khi một chính quyền tàn sát chính người dân của mình, các nước khác có quyền can thiệp quân sự.",
+  "facet": "foreign.intervention",
+  "key": -1,
+  "tier": "core",
+  "status": "draft"
+ },
+ {
+  "id": "foreign.intervention.2",
+  "n": 256,
+  "text": "Không nước nào được can thiệp vào công việc nội bộ của nước khác, vì bất kỳ lý do gì.",
+  "facet": "foreign.intervention",
+  "key": 1,
+  "tier": "long",
+  "status": "draft"
+ },
+ {
+  "id": "foreign.intervention.3",
+  "n": 257,
+  "text": "Nước mạnh có trách nhiệm dùng ảnh hưởng của mình để lan toả những giá trị mà họ tin là đúng.",
+  "facet": "foreign.intervention",
+  "key": -1,
+  "tier": "pool",
+  "status": "draft"
+ },
+ {
+  "id": "foreign.intervention.4",
+  "n": 258,
+  "text": "Giúp đỡ các cuộc cách mạng hay kháng chiến ở nước khác là một nghĩa vụ quốc tế.",
+  "facet": "foreign.intervention",
+  "key": -1,
+  "tier": "deep",
+  "status": "draft"
+ },
+ {
+  "id": "foreign.intervention.5",
+  "n": 259,
+  "text": "Quân đội chỉ nên dùng để bảo vệ lãnh thổ, không bao giờ được đưa sang nước khác.",
+  "facet": "foreign.intervention",
+  "key": 1,
+  "tier": "pool",
+  "status": "draft"
+ },
+ {
+  "id": "foreign.intervention.6",
+  "n": 260,
+  "text": "Các nước nên dùng cấm vận kinh tế để gây sức ép lên những chính quyền vi phạm nhân quyền.",
+  "facet": "foreign.intervention",
+  "key": -1,
+  "tier": "pool",
+  "status": "draft"
+ },
+ {
+  "id": "foreign.intervention.7",
+  "n": 261,
+  "text": "Viện trợ cho nước khác không nên kèm điều kiện về cách nước ấy cai trị.",
+  "facet": "foreign.intervention",
+  "key": 1,
+  "tier": "pool",
+  "status": "draft"
+ },
+ {
+  "id": "change.pace.1",
+  "n": 262,
+  "text": "Cải cách nên đi từng bước nhỏ, làm thử ở một nơi rồi mới nhân rộng.",
+  "facet": "change.pace",
+  "key": -1,
+  "tier": "core",
+  "status": "draft"
+ },
+ {
+  "id": "change.pace.2",
+  "n": 263,
+  "text": "Khi một hệ thống đã lỗi thời, cần thay nó ngay và toàn diện thay vì sửa chắp vá.",
+  "facet": "change.pace",
+  "key": 1,
+  "tier": "long",
+  "status": "draft"
+ },
+ {
+  "id": "change.pace.3",
+  "n": 264,
+  "text": "Những thể chế tồn tại lâu đời thường chứa đựng sự khôn ngoan mà ta chưa hiểu hết.",
+  "facet": "change.pace",
+  "key": -1,
+  "tier": "deep",
+  "status": "draft"
+ },
+ {
+  "id": "change.pace.4",
+  "n": 265,
+  "text": "Một cuộc cải cách lớn nên được làm dứt khoát, để không còn đường quay lại cái cũ.",
+  "facet": "change.pace",
+  "key": 1,
+  "tier": "pool",
+  "status": "draft"
+ },
+ {
+  "id": "change.pace.5",
+  "n": 266,
+  "text": "Những cuộc thay đổi lớn và nhanh thường gây nhiều đau khổ hơn lợi ích.",
+  "facet": "change.pace",
+  "key": -1,
+  "tier": "pool",
+  "status": "draft"
+ },
+ {
+  "id": "change.pace.6",
+  "n": 267,
+  "text": "Một nước đi sau nên dồn toàn lực để trong vài năm vượt qua chặng đường mà nước khác đi mất cả thế kỷ.",
+  "facet": "change.pace",
+  "key": 1,
+  "tier": "pool",
+  "status": "draft"
+ },
+ {
+  "id": "change.pace.7",
+  "n": 268,
+  "text": "Một cải cách lớn chỉ nên tiến hành khi đã có sự đồng thuận rộng rãi trong xã hội.",
+  "facet": "change.pace",
+  "key": -1,
+  "tier": "pool",
+  "status": "draft"
+ },
+ {
+  "id": "change.pace.8",
+  "n": 269,
+  "text": "Khi thời cơ đến, phải hành động ngay, dù phần đông người dân chưa sẵn sàng.",
+  "facet": "change.pace",
+  "key": 1,
+  "tier": "pool",
+  "status": "draft"
+ },
+ {
+  "id": "change.means.1",
+  "n": 270,
+  "text": "Nhân dân có quyền cầm vũ khí nổi dậy chống một chính quyền áp bức.",
+  "facet": "change.means",
+  "key": 1,
+  "tier": "core",
+  "status": "draft"
+ },
+ {
+  "id": "change.means.2",
+  "n": 271,
+  "text": "Thay đổi xã hội chỉ nên diễn ra qua những con đường mà pháp luật cho phép.",
+  "facet": "change.means",
+  "key": -1,
+  "tier": "core",
+  "status": "draft"
+ },
+ {
+  "id": "change.means.3",
+  "n": 272,
+  "text": "Cố ý vi phạm công khai một đạo luật bất công rồi chịu phạt để phản đối là một cách đấu tranh chính đáng.",
+  "facet": "change.means",
+  "key": 1,
+  "tier": "pool",
+  "status": "draft"
+ },
+ {
+  "id": "change.means.4",
+  "n": 273,
+  "text": "Chiếm giữ nhà máy, công sở hay đường phố một cách ôn hoà là cách gây sức ép chấp nhận được.",
+  "facet": "change.means",
+  "key": 1,
+  "tier": "pool",
+  "status": "draft"
+ },
+ {
+  "id": "change.means.5",
+  "n": 274,
+  "text": "Phá hoại tài sản, miễn không làm hại đến người, có thể là cách đấu tranh chính đáng khi chính quyền làm ngơ.",
+  "facet": "change.means",
+  "key": 1,
+  "tier": "pool",
+  "status": "draft"
+ },
+ {
+  "id": "change.means.6",
+  "n": 275,
+  "text": "Người dân không có quyền chống lại luật pháp, kể cả luật mà họ cho là bất công.",
+  "facet": "change.means",
+  "key": -1,
+  "tier": "pool",
+  "status": "draft"
+ },
+ {
+  "id": "change.means.7",
+  "n": 276,
+  "text": "Khi đất nước bị ngoại bang cai trị, đấu tranh ôn hoà là con đường đúng hơn khởi nghĩa vũ trang.",
+  "facet": "change.means",
+  "key": -1,
+  "tier": "pool",
+  "status": "draft"
+ },
+ {
+  "id": "change.means.8",
+  "n": 277,
+  "text": "Đình công hay biểu tình chỉ nên diễn ra khi đã được chính quyền cho phép.",
+  "facet": "change.means",
+  "key": -1,
+  "tier": "deep",
+  "status": "draft"
+ },
+ {
+  "id": "change.depth.1",
+  "n": 278,
+  "text": "Muốn giải quyết tận gốc các vấn đề xã hội thì phải thay cả hệ thống, không chỉ sửa từng chính sách.",
+  "facet": "change.depth",
+  "key": 1,
+  "tier": "core",
+  "status": "draft"
+ },
+ {
+  "id": "change.depth.2",
+  "n": 279,
+  "text": "Cải cách nên giữ nguyên những nền tảng căn bản của xã hội và chỉ sửa những gì thực sự hỏng.",
+  "facet": "change.depth",
+  "key": -1,
+  "tier": "long",
+  "status": "draft"
+ },
+ {
+  "id": "change.depth.3",
+  "n": 280,
+  "text": "Một xã hội mới cần tạo ra cả một con người mới với những giá trị mới.",
+  "facet": "change.depth",
+  "key": 1,
+  "tier": "pool",
+  "status": "draft"
+ },
+ {
+  "id": "change.depth.4",
+  "n": 281,
+  "text": "Những ai muốn xây một xã hội hoàn hảo theo bản vẽ thường chỉ gây ra thảm hoạ.",
+  "facet": "change.depth",
+  "key": -1,
+  "tier": "pool",
+  "status": "draft"
+ },
+ {
+  "id": "change.depth.5",
+  "n": 282,
+  "text": "Trật tự thế giới hiện nay bất công đến mức cần được thay thế hoàn toàn.",
+  "facet": "change.depth",
+  "key": 1,
+  "tier": "pool",
+  "status": "draft"
+ },
+ {
+  "id": "change.depth.6",
+  "n": 283,
+  "text": "Một cuộc cách mạng thật sự phải xoá bỏ toàn bộ nếp sống cũ và xây lại xã hội từ đầu.",
+  "facet": "change.depth",
+  "key": 1,
+  "tier": "pool",
+  "status": "draft"
+ },
+ {
+  "id": "change.depth.7",
+  "n": 284,
+  "text": "Xã hội nên được dựng lại theo một trật tự cổ xưa mà thời hiện đại đã đánh mất.",
+  "facet": "change.depth",
+  "key": 1,
+  "tier": "deep",
+  "status": "draft"
+ },
+ {
+  "id": "change.depth.8",
+  "n": 285,
+  "text": "Một chế độ còn nhiều khuyết điểm vẫn nên được sửa từ bên trong hơn là bị thay thế.",
+  "facet": "change.depth",
+  "key": -1,
+  "tier": "pool",
+  "status": "draft"
+ },
+ {
+  "id": "change.depth.9",
+  "n": 286,
+  "text": "Hiến pháp chỉ nên được sửa từng điều khi cần, không nên bị viết lại toàn bộ.",
+  "facet": "change.depth",
+  "key": -1,
+  "tier": "pool",
+  "status": "draft"
+ },
+ {
+  "id": "regime.1",
+  "n": 287,
+  "text": "Một quốc gia nên có vua làm nguyên thủ.",
+  "facet": null,
+  "key": null,
+  "theme": "regime",
+  "tier": "pool",
+  "status": "draft"
+ },
+ {
+  "id": "regime.2",
+  "n": 288,
+  "text": "Nếu đất nước có vua, nhà vua nên trực tiếp quyết định các việc lớn của quốc gia, chứ không chỉ làm biểu tượng.",
+  "facet": null,
+  "key": null,
+  "theme": "regime",
+  "tier": "deep",
+  "status": "draft"
+ },
+ {
+  "id": "regime.3",
+  "n": 289,
+  "text": "Chính thể tốt nhất là một người cầm quyền tuyệt đối nhưng sáng suốt, cải cách mọi việc theo lý trí.",
+  "facet": null,
+  "key": null,
+  "theme": "regime",
+  "tier": "pool",
+  "status": "draft"
+ },
+ {
+  "id": "regime.4",
+  "n": 290,
+  "text": "Chính thể tốt nhất pha trộn một người đứng đầu, một hội đồng gồm số ít người tài đức và một hội nghị của đông đảo dân chúng.",
+  "facet": null,
+  "key": null,
+  "theme": "regime",
+  "tier": "pool",
+  "status": "draft"
+ },
+ {
+  "id": "regime.5",
+  "n": 291,
+  "text": "Người đứng đầu chính phủ nên do quốc hội chọn ra và có thể bị quốc hội bãi nhiệm, thay vì do dân bầu trực tiếp.",
+  "facet": null,
+  "key": null,
+  "theme": "regime",
+  "tier": "pool",
+  "status": "draft"
+ },
+ {
+  "id": "regime.6",
+  "n": 292,
+  "text": "Người cầm quyền nên chăm lo cho dân như cha mẹ chăm lo cho con cái.",
+  "facet": null,
+  "key": null,
+  "theme": "regime",
+  "tier": "pool",
+  "status": "draft"
+ },
+ {
+  "id": "regime.7",
+  "n": 293,
+  "text": "Những người cầm quyền không nên có tài sản riêng hay gia đình riêng, để lợi ích riêng không chi phối họ.",
+  "facet": null,
+  "key": null,
+  "theme": "regime",
+  "tier": "pool",
+  "status": "draft"
+ },
+ {
+  "id": "regime.8",
+  "n": 294,
+  "text": "Một nền cộng hoà chỉ bền vững khi phần lớn công dân tự làm chủ ruộng đất hay cơ nghiệp của mình.",
+  "facet": null,
+  "key": null,
+  "theme": "regime",
+  "tier": "pool",
+  "status": "draft"
+ },
+ {
+  "id": "regime.9",
+  "n": 295,
+  "text": "Một cộng đồng tự cai trị nên đủ nhỏ để mọi công dân đều có thể biết mặt nhau.",
+  "facet": null,
+  "key": null,
+  "theme": "regime",
+  "tier": "pool",
+  "status": "draft"
+ },
+ {
+  "id": "regime.10",
+  "n": 296,
+  "text": "Không chức vụ công nào, kể cả ngôi nguyên thủ quốc gia, nên được truyền lại theo dòng máu.",
+  "facet": null,
+  "key": null,
+  "theme": "regime",
+  "tier": "deep",
+  "status": "draft"
+ },
+ {
+  "id": "legitimacy.1",
+  "n": 297,
+  "text": "Quyền trị vì thuộc về dòng dõi chính thống, kể cả khi một người ngoài dòng dõi ấy có thể cai trị giỏi hơn.",
+  "facet": null,
+  "key": null,
+  "theme": "legitimacy",
+  "tier": "pool",
+  "status": "draft"
+ },
+ {
+  "id": "legitimacy.2",
+  "n": 298,
+  "text": "Một chính quyền đem lại ổn định và no ấm cho dân là chính đáng, dù không do bầu cử mà có.",
+  "facet": null,
+  "key": null,
+  "theme": "legitimacy",
+  "tier": "deep",
+  "status": "draft"
+ },
+ {
+  "id": "legitimacy.3",
+  "n": 299,
+  "text": "Quyền lực chính đáng đến từ Thượng đế hay Trời, chứ không phải từ sự đồng thuận của người dân.",
+  "facet": null,
+  "key": null,
+  "theme": "legitimacy",
+  "tier": "pool",
+  "status": "draft"
+ },
+ {
+  "id": "legitimacy.4",
+  "n": 300,
+  "text": "Lý do chính để tuân phục người cầm quyền là họ giữ được hoà bình trong nước.",
+  "facet": null,
+  "key": null,
+  "theme": "legitimacy",
+  "tier": "pool",
+  "status": "draft"
+ },
+ {
+  "id": "legitimacy.5",
+  "n": 301,
+  "text": "Người lãnh đạo trước hết phải có đạo đức và hiểu lẽ phải; chuyên môn kỹ thuật chỉ là thứ yếu.",
+  "facet": null,
+  "key": null,
+  "theme": "legitimacy",
+  "tier": "pool",
+  "status": "draft"
+ },
+ {
+  "id": "legitimacy.6",
+  "n": 302,
+  "text": "Chính sách nên được quyết định bằng dữ liệu và phân tích khoa học, chứ không phải bằng tranh luận về giá trị.",
+  "facet": null,
+  "key": null,
+  "theme": "legitimacy",
+  "tier": "pool",
+  "status": "draft"
+ },
+ {
+  "id": "legitimacy.7",
+  "n": 303,
+  "text": "Một lãnh tụ được đa số dân ủng hộ qua trưng cầu dân ý thì có quyền gạt nghị viện và các đảng phái sang một bên.",
+  "facet": null,
+  "key": null,
+  "theme": "legitimacy",
+  "tier": "pool",
+  "status": "draft"
+ },
+ {
+  "id": "legitimacy.8",
+  "n": 304,
+  "text": "Một chính quyền cần có một học thuyết chính thức làm nền tảng tư tưởng cho cả nước.",
+  "facet": null,
+  "key": null,
+  "theme": "legitimacy",
+  "tier": "deep",
+  "status": "draft"
+ },
+ {
+  "id": "legitimacy.9",
+  "n": 305,
+  "text": "Một chính quyền ra đời từ một cuộc cách mạng thắng lợi là chính đáng mà không cần qua bầu cử.",
+  "facet": null,
+  "key": null,
+  "theme": "legitimacy",
+  "tier": "pool",
+  "status": "draft"
+ },
+ {
+  "id": "legitimacy.10",
+  "n": 306,
+  "text": "Một thể chế đã tồn tại qua nhiều thế hệ thì tự nó có tính chính đáng, không cần lá phiếu nào xác nhận.",
+  "facet": null,
+  "key": null,
+  "theme": "legitimacy",
+  "tier": "pool",
+  "status": "draft"
+ },
+ {
+  "id": "party.1",
+  "n": 307,
+  "text": "Người lao động cần một đảng tiên phong, gồm những người giác ngộ nhất, để dẫn đường cho họ.",
+  "facet": null,
+  "key": null,
+  "theme": "party",
+  "tier": "pool",
+  "status": "draft"
+ },
+ {
+  "id": "party.2",
+  "n": 308,
+  "text": "Trong một đảng cách mạng, đảng viên nên được quyền lập phe nhóm có đường lối riêng.",
+  "facet": null,
+  "key": null,
+  "theme": "party",
+  "tier": "pool",
+  "status": "draft"
+ },
+ {
+  "id": "party.3",
+  "n": 309,
+  "text": "Quyền lực nên nằm trong tay các hội đồng do công nhân bầu ra tại nơi làm việc, chứ không trong tay một đảng nào.",
+  "facet": null,
+  "key": null,
+  "theme": "party",
+  "tier": "pool",
+  "status": "draft"
+ },
+ {
+  "id": "party.4",
+  "n": 310,
+  "text": "Một đảng cách mạng nên ra tranh cử vào quốc hội và dùng nghị trường làm diễn đàn.",
+  "facet": null,
+  "key": null,
+  "theme": "party",
+  "tier": "pool",
+  "status": "draft"
+ },
+ {
+  "id": "party.5",
+  "n": 311,
+  "text": "Công cuộc đổi mới dân tộc cần một phong trào quần chúng rộng lớn, thường xuyên huy động người dân qua mít tinh, diễu hành và đoàn thể.",
+  "facet": null,
+  "key": null,
+  "theme": "party",
+  "tier": "deep",
+  "status": "draft"
+ },
+ {
+  "id": "party.6",
+  "n": 312,
+  "text": "Thay cho đảng phái, người dân nên được đại diện theo ngành nghề, qua các nghiệp đoàn và phường hội.",
+  "facet": null,
+  "key": null,
+  "theme": "party",
+  "tier": "pool",
+  "status": "draft"
+ },
+ {
+  "id": "party.7",
+  "n": 313,
+  "text": "Đảng cầm quyền nên đứng trên nhà nước và chỉ đạo mọi cơ quan nhà nước.",
+  "facet": null,
+  "key": null,
+  "theme": "party",
+  "tier": "deep",
+  "status": "draft"
+ },
+ {
+  "id": "party.8",
+  "n": 314,
+  "text": "Một nền chính trị không có đảng phái, nơi mỗi đại biểu tự ứng cử và bỏ phiếu theo lương tâm, là tốt nhất.",
+  "facet": null,
+  "key": null,
+  "theme": "party",
+  "tier": "pool",
+  "status": "draft"
+ },
+ {
+  "id": "party.9",
+  "n": 315,
+  "text": "Quần chúng nên được phát động để đấu tranh chống những người lãnh đạo đảng đã trở nên quan liêu.",
+  "facet": null,
+  "key": null,
+  "theme": "party",
+  "tier": "pool",
+  "status": "draft"
+ },
+ {
+  "id": "party.10",
+  "n": 316,
+  "text": "Đảng cầm quyền phải thường xuyên thanh lọc hàng ngũ, loại bỏ những người xa rời đường lối.",
+  "facet": null,
+  "key": null,
+  "theme": "party",
+  "tier": "pool",
+  "status": "draft"
+ },
+ {
+  "id": "army.1",
+  "n": 317,
+  "text": "Khi chính khách dân sự đẩy đất nước vào hỗn loạn, quân đội có quyền tạm nắm chính quyền.",
+  "facet": null,
+  "key": null,
+  "theme": "army",
+  "tier": "pool",
+  "status": "draft"
+ },
+ {
+  "id": "army.2",
+  "n": 318,
+  "text": "Quân đội phải đặt dưới sự lãnh đạo của đảng cầm quyền, chứ không đứng trung lập về chính trị.",
+  "facet": null,
+  "key": null,
+  "theme": "army",
+  "tier": "deep",
+  "status": "draft"
+ },
+ {
+  "id": "army.3",
+  "n": 319,
+  "text": "Thay vì một quân đội chuyên nghiệp thường trực, mọi công dân nên được huấn luyện để cầm súng bảo vệ đất nước.",
+  "facet": null,
+  "key": null,
+  "theme": "army",
+  "tier": "pool",
+  "status": "draft"
+ },
+ {
+  "id": "army.4",
+  "n": 320,
+  "text": "Người dân nên có quyền giữ súng để tự bảo vệ trước một chính quyền lạm quyền.",
+  "facet": null,
+  "key": null,
+  "theme": "army",
+  "tier": "pool",
+  "status": "draft"
+ },
+ {
+  "id": "army.5",
+  "n": 321,
+  "text": "Một đất nước nên giải tán quân đội và tự vệ bằng đấu tranh bất bạo động.",
+  "facet": null,
+  "key": null,
+  "theme": "army",
+  "tier": "pool",
+  "status": "draft"
+ },
+ {
+  "id": "army.6",
+  "n": 322,
+  "text": "Quân đội nên được ưu tiên hàng đầu khi phân bổ nguồn lực và giữ vai trò trung tâm trong đời sống quốc gia.",
+  "facet": null,
+  "key": null,
+  "theme": "army",
+  "tier": "pool",
+  "status": "draft"
+ },
+ {
+  "id": "army.7",
+  "n": 323,
+  "text": "Lực lượng vũ trang nên trung thành trước hết với cá nhân người lãnh đạo tối cao, chứ không phải với hiến pháp hay một đảng.",
+  "facet": null,
+  "key": null,
+  "theme": "army",
+  "tier": "deep",
+  "status": "draft"
+ },
+ {
+  "id": "army.8",
+  "n": 324,
+  "text": "Quân đội có bổn phận bảo vệ những nguyên tắc lập quốc, kể cả chống lại một chính phủ dân cử đi ngược các nguyên tắc ấy.",
+  "facet": null,
+  "key": null,
+  "theme": "army",
+  "tier": "pool",
+  "status": "draft"
+ },
+ {
+  "id": "army.9",
+  "n": 325,
+  "text": "Chỉ người sẵn sàng cầm vũ khí bảo vệ đất nước mới xứng đáng có đầy đủ quyền công dân.",
+  "facet": null,
+  "key": null,
+  "theme": "army",
+  "tier": "pool",
+  "status": "draft"
+ },
+ {
+  "id": "leader.1",
+  "n": 326,
+  "text": "Một dân tộc cần một lãnh tụ vĩ đại để tôn kính và noi theo.",
+  "facet": null,
+  "key": null,
+  "theme": "leader",
+  "tier": "deep",
+  "status": "draft"
+ },
+ {
+  "id": "leader.2",
+  "n": 327,
+  "text": "Con cái của một lãnh tụ có công lớn là người thích hợp để kế tục sự nghiệp của cha mẹ.",
+  "facet": null,
+  "key": null,
+  "theme": "leader",
+  "tier": "pool",
+  "status": "draft"
+ },
+ {
+  "id": "leader.3",
+  "n": 328,
+  "text": "Đất nước nên được lãnh đạo bởi một tập thể, không để một cá nhân nào quyết định một mình.",
+  "facet": null,
+  "key": null,
+  "theme": "leader",
+  "tier": "deep",
+  "status": "draft"
+ },
+ {
+  "id": "leader.4",
+  "n": 329,
+  "text": "Dân nên có quyền bỏ phiếu buộc một chính khách quá quyền thế phải rời đất nước một thời gian, dù người đó không phạm luật.",
+  "facet": null,
+  "key": null,
+  "theme": "leader",
+  "tier": "pool",
+  "status": "draft"
+ },
+ {
+  "id": "leader.5",
+  "n": 330,
+  "text": "Trong thời loạn, một người lãnh đạo có uy tín lớn với quần chúng quý hơn mọi thể chế.",
+  "facet": null,
+  "key": null,
+  "theme": "leader",
+  "tier": "pool",
+  "status": "draft"
+ },
+ {
+  "id": "leader.6",
+  "n": 331,
+  "text": "Người đứng đầu nên giao những vị trí trọng yếu nhất cho người thân hay người tin cậy của riêng mình.",
+  "facet": null,
+  "key": null,
+  "theme": "leader",
+  "tier": "pool",
+  "status": "draft"
+ },
+ {
+  "id": "leader.7",
+  "n": 332,
+  "text": "Người lãnh đạo trước hết phải làm gương về đạo đức để dân noi theo.",
+  "facet": null,
+  "key": null,
+  "theme": "leader",
+  "tier": "pool",
+  "status": "draft"
+ },
+ {
+  "id": "leader.8",
+  "n": 333,
+  "text": "Người nắm quyền điều hành đất nước nên đứng trên mọi đảng phái, không thuộc về đảng nào.",
+  "facet": null,
+  "key": null,
+  "theme": "leader",
+  "tier": "pool",
+  "status": "draft"
+ },
+ {
+  "id": "law.1",
+  "n": 334,
+  "text": "Hiến pháp nên được hiểu đúng như ý những người đã soạn ra nó, không nên được diễn giải lại cho hợp thời thế.",
+  "facet": null,
+  "key": null,
+  "theme": "law",
+  "tier": "pool",
+  "status": "draft"
+ },
+ {
+  "id": "law.2",
+  "n": 335,
+  "text": "Mỗi thế hệ nên được tự do soạn lại hiến pháp theo ý mình, không bị ràng buộc bởi thế hệ trước.",
+  "facet": null,
+  "key": null,
+  "theme": "law",
+  "tier": "pool",
+  "status": "draft"
+ },
+ {
+  "id": "law.3",
+  "n": 336,
+  "text": "Một bang hay một tỉnh nên có quyền không thi hành luật của trung ương mà họ cho là vượt quá thẩm quyền.",
+  "facet": null,
+  "key": null,
+  "theme": "law",
+  "tier": "pool",
+  "status": "draft"
+ },
+ {
+  "id": "law.4",
+  "n": 337,
+  "text": "Chính quyền trung ương nên được làm cả những việc hiến pháp không ghi rõ, miễn là cần cho lợi ích quốc gia.",
+  "facet": null,
+  "key": null,
+  "theme": "law",
+  "tier": "deep",
+  "status": "draft"
+ },
+ {
+  "id": "law.5",
+  "n": 338,
+  "text": "Một đạo luật trái với lẽ công bằng tự nhiên thì không có giá trị ràng buộc, dù đã được ban hành đúng thủ tục.",
+  "facet": null,
+  "key": null,
+  "theme": "law",
+  "tier": "pool",
+  "status": "draft"
+ },
+ {
+  "id": "law.6",
+  "n": 339,
+  "text": "Trị nước bằng luật nghiêm và thưởng phạt rõ ràng tốt hơn trị nước bằng đạo đức và lễ giáo.",
+  "facet": null,
+  "key": null,
+  "theme": "law",
+  "tier": "pool",
+  "status": "draft"
+ },
+ {
+  "id": "law.7",
+  "n": 340,
+  "text": "Trật tự xã hội phải dựa vào lễ nghi và phép tắc do người trên đặt ra, không thể trông vào lòng tốt tự nhiên của con người.",
+  "facet": null,
+  "key": null,
+  "theme": "law",
+  "tier": "pool",
+  "status": "draft"
+ },
+ {
+  "id": "law.8",
+  "n": 341,
+  "text": "Những nguyên tắc như cạnh tranh tự do và đồng tiền ổn định nên được ghi vào hiến pháp để chính phủ khó thay đổi.",
+  "facet": null,
+  "key": null,
+  "theme": "law",
+  "tier": "pool",
+  "status": "draft"
+ },
+ {
+  "id": "law.9",
+  "n": 342,
+  "text": "Người nắm chủ quyền tối cao đứng trên luật pháp, không bị luật nào ràng buộc.",
+  "facet": null,
+  "key": null,
+  "theme": "law",
+  "tier": "deep",
+  "status": "draft"
+ },
+ {
+  "id": "law.10",
+  "n": 343,
+  "text": "Luật pháp phải áp dụng như nhau cho người quyền quý và thường dân, không có ngoại lệ.",
+  "facet": null,
+  "key": null,
+  "theme": "law",
+  "tier": "pool",
+  "status": "draft"
+ },
+ {
+  "id": "faith.1",
+  "n": 344,
+  "text": "Các giá trị Kitô giáo nên là nền tảng đạo đức cho luật pháp và đời sống công.",
+  "facet": null,
+  "key": null,
+  "theme": "faith",
+  "tier": "deep",
+  "status": "draft"
+ },
+ {
+  "id": "faith.2",
+  "n": 345,
+  "text": "Các nguyên tắc của đạo Hồi nên định hướng luật pháp và đời sống công.",
+  "facet": null,
+  "key": null,
+  "theme": "faith",
+  "tier": "pool",
+  "status": "draft"
+ },
+ {
+  "id": "faith.3",
+  "n": 346,
+  "text": "Phật giáo nên được dành vị trí hàng đầu trong quốc gia, trên các tôn giáo khác.",
+  "facet": null,
+  "key": null,
+  "theme": "faith",
+  "tier": "pool",
+  "status": "draft"
+ },
+ {
+  "id": "faith.4",
+  "n": 347,
+  "text": "Người theo một tôn giáo nên được tự do bỏ đạo hay đổi sang đạo khác mà không bị pháp luật trừng phạt.",
+  "facet": null,
+  "key": null,
+  "theme": "faith",
+  "tier": "pool",
+  "status": "draft"
+ },
+ {
+  "id": "faith.5",
+  "n": 348,
+  "text": "Một giáo sĩ tối cao, am tường luật đạo, nên có quyền phủ quyết các quyết định của chính quyền dân cử.",
+  "facet": null,
+  "key": null,
+  "theme": "faith",
+  "tier": "pool",
+  "status": "draft"
+ },
+ {
+  "id": "faith.6",
+  "n": 349,
+  "text": "Giáo lý nên được diễn giải lại bằng lý trí cho hợp với thời đại, kể cả khi khác với cách hiểu của người xưa.",
+  "facet": null,
+  "key": null,
+  "theme": "faith",
+  "tier": "pool",
+  "status": "draft"
+ },
+ {
+  "id": "faith.7",
+  "n": 350,
+  "text": "Một đảng chính trị có gốc tôn giáo nên mở cửa cho tín đồ của mọi đạo, không chỉ đạo của mình.",
+  "facet": null,
+  "key": null,
+  "theme": "faith",
+  "tier": "pool",
+  "status": "draft"
+ },
+ {
+  "id": "faith.8",
+  "n": 351,
+  "text": "Khi gia đình hay cộng đồng nhỏ không kham nổi một việc, nhà nước nên đứng ra làm thay.",
+  "facet": null,
+  "key": null,
+  "theme": "faith",
+  "tier": "pool",
+  "status": "draft"
+ },
+ {
+  "id": "faith.9",
+  "n": 352,
+  "text": "Khi chính quyền và các nhà lãnh đạo tôn giáo bất đồng về một vấn đề đạo đức, chính quyền nên nghe theo các nhà lãnh đạo tôn giáo.",
+  "facet": null,
+  "key": null,
+  "theme": "faith",
+  "tier": "pool",
+  "status": "draft"
+ },
+ {
+  "id": "faith.10",
+  "n": 353,
+  "text": "Một người khó có thể là người con trọn vẹn của dân tộc nếu không theo tôn giáo truyền thống của dân tộc ấy.",
+  "facet": null,
+  "key": null,
+  "theme": "faith",
+  "tier": "deep",
+  "status": "draft"
+ },
+ {
+  "id": "property.1",
+  "n": 354,
+  "text": "Trong một xã hội tốt, của cải nên được chia theo nhu cầu của mỗi người chứ không theo công sức đóng góp.",
+  "facet": null,
+  "key": null,
+  "theme": "property",
+  "tier": "pool",
+  "status": "draft"
+ },
+ {
+  "id": "property.2",
+  "n": 355,
+  "text": "Phần giá trị tăng thêm của đất nhờ dân cư và hạ tầng xung quanh nên thuộc về cả cộng đồng, không thuộc về chủ đất.",
+  "facet": null,
+  "key": null,
+  "theme": "property",
+  "tier": "pool",
+  "status": "draft"
+ },
+ {
+  "id": "property.3",
+  "n": 356,
+  "text": "Nhà nước nên bỏ mọi loại thuế khác và chỉ đánh một thứ thuế duy nhất trên giá trị đất.",
+  "facet": null,
+  "key": null,
+  "theme": "property",
+  "tier": "pool",
+  "status": "draft"
+ },
+ {
+  "id": "property.4",
+  "n": 357,
+  "text": "Tiền thu từ tài nguyên thiên nhiên, như đất đai và khoáng sản, nên được chia đều cho mọi người dân bằng tiền mặt.",
+  "facet": null,
+  "key": null,
+  "theme": "property",
+  "tier": "pool",
+  "status": "draft"
+ },
+ {
+  "id": "property.5",
+  "n": 358,
+  "text": "Làm công ăn lương suốt đời cho người khác, dù lương cao, vẫn là một tình trạng thiếu tự do.",
+  "facet": null,
+  "key": null,
+  "theme": "property",
+  "tier": "deep",
+  "status": "draft"
+ },
+ {
+  "id": "property.6",
+  "n": 359,
+  "text": "Nhà nước nên dùng thuế để ngăn các chuỗi cửa hàng và tập đoàn lớn lấn át tiệm buôn, xưởng thợ nhỏ.",
+  "facet": null,
+  "key": null,
+  "theme": "property",
+  "tier": "pool",
+  "status": "draft"
+ },
+ {
+  "id": "property.7",
+  "n": 360,
+  "text": "Ban giám đốc của mỗi xí nghiệp nên do chính người lao động ở đó bầu ra.",
+  "facet": null,
+  "key": null,
+  "theme": "property",
+  "tier": "deep",
+  "status": "draft"
+ },
+ {
+  "id": "property.8",
+  "n": 361,
+  "text": "Các xí nghiệp thuộc sở hữu xã hội nên cạnh tranh với nhau trên thị trường, kể cả khi có xí nghiệp phải phá sản.",
+  "facet": null,
+  "key": null,
+  "theme": "property",
+  "tier": "pool",
+  "status": "draft"
+ },
+ {
+  "id": "property.9",
+  "n": 362,
+  "text": "Thuế là một cách lấy tài sản của người khác khi họ không đồng ý.",
+  "facet": null,
+  "key": null,
+  "theme": "property",
+  "tier": "pool",
+  "status": "draft"
+ },
+ {
+  "id": "property.10",
+  "n": 363,
+  "text": "Ruộng đất của các đại điền chủ nên bị trưng thu để chia cho nông dân không có ruộng.",
+  "facet": null,
+  "key": null,
+  "theme": "property",
+  "tier": "pool",
+  "status": "draft"
+ },
+ {
+  "id": "labour.1",
+  "n": 364,
+  "text": "Tổng bãi công của toàn thể người lao động là con đường đúng đắn để thay đổi tận gốc xã hội.",
+  "facet": null,
+  "key": null,
+  "theme": "labour",
+  "tier": "pool",
+  "status": "draft"
+ },
+ {
+  "id": "labour.2",
+  "n": 365,
+  "text": "Công đoàn nên đứng ngoài mọi đảng phái, kể cả những đảng nhận là đại diện cho người lao động.",
+  "facet": null,
+  "key": null,
+  "theme": "labour",
+  "tier": "pool",
+  "status": "draft"
+ },
+ {
+  "id": "labour.3",
+  "n": 366,
+  "text": "Công đoàn chỉ giúp người lao động bán sức lao động với giá cao hơn, chứ không thể giải phóng họ.",
+  "facet": null,
+  "key": null,
+  "theme": "labour",
+  "tier": "pool",
+  "status": "draft"
+ },
+ {
+  "id": "labour.4",
+  "n": 367,
+  "text": "Chủ và thợ trong cùng một ngành nên được tổ chức chung vào một nghiệp đoàn, đặt dưới sự điều phối của nhà nước.",
+  "facet": null,
+  "key": null,
+  "theme": "labour",
+  "tier": "deep",
+  "status": "draft"
+ },
+ {
+  "id": "labour.5",
+  "n": 368,
+  "text": "Công đoàn nên là lực lượng nòng cốt của một phong trào chính trị quần chúng do một lãnh tụ dẫn dắt.",
+  "facet": null,
+  "key": null,
+  "theme": "labour",
+  "tier": "pool",
+  "status": "draft"
+ },
+ {
+  "id": "labour.6",
+  "n": 369,
+  "text": "Nhà nước nên ngồi cùng bàn với công đoàn và giới chủ để thoả thuận về tiền lương, thuế và phúc lợi.",
+  "facet": null,
+  "key": null,
+  "theme": "labour",
+  "tier": "pool",
+  "status": "draft"
+ },
+ {
+  "id": "labour.7",
+  "n": 370,
+  "text": "Công đoàn nên được giao quản lý quỹ bảo hiểm thất nghiệp của đoàn viên.",
+  "facet": null,
+  "key": null,
+  "theme": "labour",
+  "tier": "pool",
+  "status": "draft"
+ },
+ {
+  "id": "labour.8",
+  "n": 371,
+  "text": "Công đoàn nên đặt dưới sự lãnh đạo của đảng cầm quyền.",
+  "facet": null,
+  "key": null,
+  "theme": "labour",
+  "tier": "deep",
+  "status": "draft"
+ },
+ {
+  "id": "labour.9",
+  "n": 372,
+  "text": "Mỗi ngành nghề nên có một phường hội tự quản của chính những người làm nghề, tự đặt chuẩn và giá công.",
+  "facet": null,
+  "key": null,
+  "theme": "labour",
+  "tier": "pool",
+  "status": "draft"
+ },
+ {
+  "id": "labour.10",
+  "n": 373,
+  "text": "Đình công chỉ nên là biện pháp cuối cùng, khi mọi cách thương lượng đã thất bại.",
+  "facet": null,
+  "key": null,
+  "theme": "labour",
+  "tier": "pool",
+  "status": "draft"
+ },
+ {
+  "id": "market.1",
+  "n": 374,
+  "text": "Tiền tệ nên được bảo đảm bằng vàng, để nhà nước không thể in tiền tuỳ ý.",
+  "facet": null,
+  "key": null,
+  "theme": "market",
+  "tier": "pool",
+  "status": "draft"
+ },
+ {
+  "id": "market.2",
+  "n": 375,
+  "text": "Ngân hàng trung ương nên độc lập, không nhận lệnh của chính phủ.",
+  "facet": null,
+  "key": null,
+  "theme": "market",
+  "tier": "pool",
+  "status": "draft"
+ },
+ {
+  "id": "market.3",
+  "n": 376,
+  "text": "Người dân nên được tự do dùng bất kỳ đồng tiền nào, kể cả tiền do tư nhân phát hành, thay cho đồng tiền của nhà nước.",
+  "facet": null,
+  "key": null,
+  "theme": "market",
+  "tier": "pool",
+  "status": "draft"
+ },
+ {
+  "id": "market.4",
+  "n": 377,
+  "text": "Kiếm lời từ tiền lãi cho vay, thay vì từ lao động hay cùng chịu rủi ro kinh doanh, là không chính đáng.",
+  "facet": null,
+  "key": null,
+  "theme": "market",
+  "tier": "deep",
+  "status": "draft"
+ },
+ {
+  "id": "market.5",
+  "n": 378,
+  "text": "Nhà nước nên lập ngân hàng phát triển để cho vay rẻ và dài hạn vào những ngành công nghiệp nó muốn xây dựng.",
+  "facet": null,
+  "key": null,
+  "theme": "market",
+  "tier": "deep",
+  "status": "draft"
+ },
+ {
+  "id": "market.6",
+  "n": 379,
+  "text": "Khi kinh tế suy thoái, nhà nước nên vay nợ và chi tiêu mạnh tay để giữ việc làm.",
+  "facet": null,
+  "key": null,
+  "theme": "market",
+  "tier": "pool",
+  "status": "draft"
+ },
+ {
+  "id": "market.7",
+  "n": 380,
+  "text": "Ngân sách nhà nước phải luôn cân bằng, kể cả trong những năm kinh tế khó khăn.",
+  "facet": null,
+  "key": null,
+  "theme": "market",
+  "tier": "pool",
+  "status": "draft"
+ },
+ {
+  "id": "market.8",
+  "n": 381,
+  "text": "Việc giữ an ninh và xét xử tranh chấp nên được giao cho các công ty tư nhân cạnh tranh nhau, thay vì nhà nước.",
+  "facet": null,
+  "key": null,
+  "theme": "market",
+  "tier": "pool",
+  "status": "draft"
+ },
+ {
+  "id": "market.9",
+  "n": 382,
+  "text": "Một xã hội tốt có thể vận hành mà không cần đến tiền.",
+  "facet": null,
+  "key": null,
+  "theme": "market",
+  "tier": "pool",
+  "status": "draft"
+ },
+ {
+  "id": "market.10",
+  "n": 383,
+  "text": "Khi một ngân hàng lớn sắp sụp đổ, nhà nước nên dùng tiền thuế để cứu nó.",
+  "facet": null,
+  "key": null,
+  "theme": "market",
+  "tier": "pool",
+  "status": "draft"
+ },
+ {
+  "id": "empire.1",
+  "n": 384,
+  "text": "Những vùng đất có đồng bào mình sinh sống ở bên kia biên giới nên được sáp nhập về nước mình.",
+  "facet": null,
+  "key": null,
+  "theme": "empire",
+  "tier": "pool",
+  "status": "draft"
+ },
+ {
+  "id": "empire.2",
+  "n": 385,
+  "text": "Một dân tộc có quyền đòi lại những vùng đất từng thuộc về mình trong lịch sử, dù nay phần lớn cư dân ở đó là người khác.",
+  "facet": null,
+  "key": null,
+  "theme": "empire",
+  "tier": "deep",
+  "status": "draft"
+ },
+ {
+  "id": "empire.3",
+  "n": 386,
+  "text": "Một vùng có bản sắc riêng nên được quyền tách ra lập nước nếu đa số cư dân ở đó bỏ phiếu đồng ý.",
+  "facet": null,
+  "key": null,
+  "theme": "empire",
+  "tier": "pool",
+  "status": "draft"
+ },
+ {
+  "id": "empire.4",
+  "n": 387,
+  "text": "Các dân tộc chung cội nguồn văn hoá nên liên kết thành một khối chính trị chung.",
+  "facet": null,
+  "key": null,
+  "theme": "empire",
+  "tier": "pool",
+  "status": "draft"
+ },
+ {
+  "id": "empire.5",
+  "n": 388,
+  "text": "Những dân tộc bị thực dân chia cắt thành nhiều nước nên được hợp nhất lại thành một quốc gia.",
+  "facet": null,
+  "key": null,
+  "theme": "empire",
+  "tier": "pool",
+  "status": "draft"
+ },
+ {
+  "id": "empire.6",
+  "n": 389,
+  "text": "Một quốc gia lớn gồm nhiều dân tộc, do một dân tộc trung tâm dẫn dắt, là mô hình tốt để giữ gìn một nền văn minh.",
+  "facet": null,
+  "key": null,
+  "theme": "empire",
+  "tier": "pool",
+  "status": "draft"
+ },
+ {
+  "id": "empire.7",
+  "n": 390,
+  "text": "Các nước tiên tiến có bổn phận khai hoá và dẫn dắt những dân tộc kém phát triển hơn.",
+  "facet": null,
+  "key": null,
+  "theme": "empire",
+  "tier": "pool",
+  "status": "draft"
+ },
+ {
+  "id": "empire.8",
+  "n": 391,
+  "text": "Giành độc lập dân tộc phải đi trước mọi mục tiêu khác, kể cả đấu tranh giai cấp.",
+  "facet": null,
+  "key": null,
+  "theme": "empire",
+  "tier": "pool",
+  "status": "draft"
+ },
+ {
+  "id": "empire.9",
+  "n": 392,
+  "text": "Quyền của dân tộc mình đối với đất tổ tiên là do Trời hay Thượng đế ban, không chỉ do lịch sử.",
+  "facet": null,
+  "key": null,
+  "theme": "empire",
+  "tier": "deep",
+  "status": "draft"
+ },
+ {
+  "id": "empire.10",
+  "n": 393,
+  "text": "Một dân tộc nên chấp nhận một lãnh thổ nhỏ hơn mong muốn nếu đổi lại được hoà bình và một nhà nước của riêng mình.",
+  "facet": null,
+  "key": null,
+  "theme": "empire",
+  "tier": "pool",
+  "status": "draft"
+ },
+ {
+  "id": "world.1",
+  "n": 394,
+  "text": "Chủ nghĩa xã hội ở một nước chỉ bền vững nếu cách mạng cũng nổ ra ở các nước khác.",
+  "facet": null,
+  "key": null,
+  "theme": "world",
+  "tier": "pool",
+  "status": "draft"
+ },
+ {
+  "id": "world.2",
+  "n": 395,
+  "text": "Một nước xã hội chủ nghĩa nên đặt việc giữ vững chính mình lên trên việc hỗ trợ cách mạng ở nước khác.",
+  "facet": null,
+  "key": null,
+  "theme": "world",
+  "tier": "pool",
+  "status": "draft"
+ },
+ {
+  "id": "world.3",
+  "n": 396,
+  "text": "Khi các nước lớn xung đột, nước nhỏ nên đứng trung lập, không tham gia khối quân sự nào.",
+  "facet": null,
+  "key": null,
+  "theme": "world",
+  "tier": "pool",
+  "status": "draft"
+ },
+ {
+  "id": "world.4",
+  "n": 397,
+  "text": "Chỉ khi được Liên Hợp Quốc cho phép, việc đưa quân vào nước khác mới chính đáng.",
+  "facet": null,
+  "key": null,
+  "theme": "world",
+  "tier": "pool",
+  "status": "draft"
+ },
+ {
+  "id": "world.5",
+  "n": 398,
+  "text": "Một đất nước nên hạn chế tối đa việc can dự vào những vấn đề của thế giới bên ngoài.",
+  "facet": null,
+  "key": null,
+  "theme": "world",
+  "tier": "pool",
+  "status": "draft"
+ },
+ {
+  "id": "world.6",
+  "n": 399,
+  "text": "Lật đổ một chế độ độc tài ở nước khác để lập nên dân chủ là mục tiêu chính đáng của chính sách đối ngoại.",
+  "facet": null,
+  "key": null,
+  "theme": "world",
+  "tier": "pool",
+  "status": "draft"
+ },
+ {
+  "id": "world.7",
+  "n": 400,
+  "text": "Thế giới nên chia thành vài khối văn minh lớn, mỗi khối do một cường quốc dẫn dắt.",
+  "facet": null,
+  "key": null,
+  "theme": "world",
+  "tier": "pool",
+  "status": "draft"
+ },
+ {
+  "id": "world.8",
+  "n": 401,
+  "text": "Các dân tộc ngoài phương Tây nên chống lại sự lan rộng của các giá trị tự do phương Tây.",
+  "facet": null,
+  "key": null,
+  "theme": "world",
+  "tier": "deep",
+  "status": "draft"
+ },
+ {
+  "id": "world.9",
+  "n": 402,
+  "text": "Các nước nghèo nên liên kết thành một khối riêng để đòi một trật tự kinh tế thế giới công bằng hơn.",
+  "facet": null,
+  "key": null,
+  "theme": "world",
+  "tier": "pool",
+  "status": "draft"
+ },
+ {
+  "id": "world.10",
+  "n": 403,
+  "text": "Các nước có chế độ chính trị khác nhau nên chung sống hoà bình lâu dài, không tìm cách lật đổ nhau.",
+  "facet": null,
+  "key": null,
+  "theme": "world",
+  "tier": "pool",
+  "status": "draft"
+ },
+ {
+  "id": "nature.1",
+  "n": 404,
+  "text": "Nên xây thêm nhà máy điện hạt nhân để thay cho điện than.",
+  "facet": null,
+  "key": null,
+  "theme": "nature",
+  "tier": "pool",
+  "status": "draft"
+ },
+ {
+  "id": "nature.2",
+  "n": 405,
+  "text": "Nên cấm trồng các giống cây biến đổi gen.",
+  "facet": null,
+  "key": null,
+  "theme": "nature",
+  "tier": "pool",
+  "status": "draft"
+ },
+ {
+  "id": "nature.3",
+  "n": 406,
+  "text": "Nếu giảm khí thải không kịp, loài người nên can thiệp trực tiếp vào khí hậu, như phun hạt phản xạ nắng lên tầng cao khí quyển.",
+  "facet": null,
+  "key": null,
+  "theme": "nature",
+  "tier": "pool",
+  "status": "draft"
+ },
+ {
+  "id": "nature.4",
+  "n": 407,
+  "text": "Sông, rừng và núi nên được pháp luật công nhận là chủ thể có quyền, có thể được đại diện để kiện ra toà.",
+  "facet": null,
+  "key": null,
+  "theme": "nature",
+  "tier": "pool",
+  "status": "draft"
+ },
+ {
+  "id": "nature.5",
+  "n": 408,
+  "text": "Loài người nên chủ động giảm dần dân số để trả lại chỗ cho thiên nhiên.",
+  "facet": null,
+  "key": null,
+  "theme": "nature",
+  "tier": "pool",
+  "status": "draft"
+ },
+ {
+  "id": "nature.6",
+  "n": 409,
+  "text": "Không thể giải quyết khủng hoảng sinh thái mà vẫn giữ chủ nghĩa tư bản.",
+  "facet": null,
+  "key": null,
+  "theme": "nature",
+  "tier": "deep",
+  "status": "draft"
+ },
+ {
+  "id": "nature.7",
+  "n": 410,
+  "text": "Chăn nuôi công nghiệp, nhốt vật nuôi chật chội suốt đời, nên bị cấm.",
+  "facet": null,
+  "key": null,
+  "theme": "nature",
+  "tier": "pool",
+  "status": "draft"
+ },
+ {
+  "id": "nature.8",
+  "n": 411,
+  "text": "Nên rút ngắn tuần làm việc để giảm tiêu dùng, kể cả khi thu nhập giảm theo.",
+  "facet": null,
+  "key": null,
+  "theme": "nature",
+  "tier": "pool",
+  "status": "draft"
+ },
+ {
+  "id": "nature.9",
+  "n": 412,
+  "text": "Bảo vệ môi trường trước hết là giữ gìn làng quê, cảnh quan và nếp sống của quê hương mình.",
+  "facet": null,
+  "key": null,
+  "theme": "nature",
+  "tier": "pool",
+  "status": "draft"
+ },
+ {
+  "id": "nature.10",
+  "n": 413,
+  "text": "Chuyển đổi xanh cần một kế hoạch kinh tế chung do nhà nước dân chủ điều phối, không thể trông vào thị trường.",
+  "facet": null,
+  "key": null,
+  "theme": "nature",
+  "tier": "pool",
+  "status": "draft"
+ },
+ {
+  "id": "future.1",
+  "n": 414,
+  "text": "Can thiệp vào gen hay cơ thể để vượt quá giới hạn tự nhiên của con người là điều không nên làm.",
+  "facet": null,
+  "key": null,
+  "theme": "future",
+  "tier": "pool",
+  "status": "draft"
+ },
+ {
+  "id": "future.2",
+  "n": 415,
+  "text": "Nhà nước nên đầu tư lớn vào nghiên cứu nhằm kéo dài tuổi thọ con người thêm nhiều thập kỷ.",
+  "facet": null,
+  "key": null,
+  "theme": "future",
+  "tier": "pool",
+  "status": "draft"
+ },
+ {
+  "id": "future.3",
+  "n": 416,
+  "text": "Người dân có quyền dùng mã hoá mạnh mà nhà nước không thể đọc được, kể cả khi tội phạm cũng lợi dụng nó.",
+  "facet": null,
+  "key": null,
+  "theme": "future",
+  "tier": "pool",
+  "status": "draft"
+ },
+ {
+  "id": "future.4",
+  "n": 417,
+  "text": "Người dân nên được dùng những đồng tiền số ẩn danh mà nhà nước không theo dõi được.",
+  "facet": null,
+  "key": null,
+  "theme": "future",
+  "tier": "pool",
+  "status": "draft"
+ },
+ {
+  "id": "future.5",
+  "n": 418,
+  "text": "Thời hạn bảo hộ bản quyền nên được rút ngắn mạnh, để tác phẩm sớm thành của chung.",
+  "facet": null,
+  "key": null,
+  "theme": "future",
+  "tier": "pool",
+  "status": "draft"
+ },
+ {
+  "id": "future.6",
+  "n": 419,
+  "text": "Mọi văn bản và dữ liệu do cơ quan nhà nước làm ra nên được công khai cho bất kỳ ai xem.",
+  "facet": null,
+  "key": null,
+  "theme": "future",
+  "tier": "deep",
+  "status": "draft"
+ },
+ {
+  "id": "future.7",
+  "n": 420,
+  "text": "Người dân nên được dùng công nghệ số để tự biểu quyết từng đạo luật, hoặc giao phiếu của mình cho người mình tin.",
+  "facet": null,
+  "key": null,
+  "theme": "future",
+  "tier": "pool",
+  "status": "draft"
+ },
+ {
+  "id": "future.8",
+  "n": 421,
+  "text": "Việc phát triển trí tuệ nhân tạo mạnh nên chịu sự kiểm soát chặt của các định chế dân chủ.",
+  "facet": null,
+  "key": null,
+  "theme": "future",
+  "tier": "pool",
+  "status": "draft"
+ },
+ {
+  "id": "future.9",
+  "n": 422,
+  "text": "Máy móc và trí tuệ nhân tạo làm thay phần lớn công việc của con người là một viễn cảnh đáng mong đợi.",
+  "facet": null,
+  "key": null,
+  "theme": "future",
+  "tier": "pool",
+  "status": "draft"
+ },
+ {
+  "id": "future.10",
+  "n": 423,
+  "text": "Dùng công nghệ để sống và giao dịch ngoài tầm kiểm soát của nhà nước là một mục tiêu chính đáng.",
+  "facet": null,
+  "key": null,
+  "theme": "future",
+  "tier": "pool",
+  "status": "draft"
+ },
+ {
+  "id": "gender.1",
+  "n": 424,
+  "text": "Chế độ phụ quyền, tức sự thống trị của nam giới, là nguồn gốc sâu xa nhất của bất công trong xã hội.",
+  "facet": null,
+  "key": null,
+  "theme": "gender",
+  "tier": "pool",
+  "status": "draft"
+ },
+ {
+  "id": "gender.2",
+  "n": 425,
+  "text": "Phụ nữ chỉ được giải phóng thật sự khi chủ nghĩa tư bản bị xoá bỏ.",
+  "facet": null,
+  "key": null,
+  "theme": "gender",
+  "tier": "deep",
+  "status": "draft"
+ },
+ {
+  "id": "gender.3",
+  "n": 426,
+  "text": "Trong mua bán dâm, chỉ người mua nên bị pháp luật xử phạt.",
+  "facet": null,
+  "key": null,
+  "theme": "gender",
+  "tier": "pool",
+  "status": "draft"
+ },
+ {
+  "id": "gender.4",
+  "n": 427,
+  "text": "Mua bán dâm giữa những người trưởng thành tự nguyện nên được hợp pháp hoá như một nghề.",
+  "facet": null,
+  "key": null,
+  "theme": "gender",
+  "tier": "pool",
+  "status": "draft"
+ },
+ {
+  "id": "gender.5",
+  "n": 428,
+  "text": "Pháp luật nên cấm sản xuất và mua bán phim ảnh khiêu dâm.",
+  "facet": null,
+  "key": null,
+  "theme": "gender",
+  "tier": "deep",
+  "status": "draft"
+ },
+ {
+  "id": "gender.6",
+  "n": 429,
+  "text": "Công việc nội trợ và chăm sóc con cái trong gia đình nên được trả công như mọi công việc khác.",
+  "facet": null,
+  "key": null,
+  "theme": "gender",
+  "tier": "pool",
+  "status": "draft"
+ },
+ {
+  "id": "gender.7",
+  "n": 430,
+  "text": "Pháp luật nên buộc các đảng phái dành ít nhất một nửa số ứng viên cho phụ nữ.",
+  "facet": null,
+  "key": null,
+  "theme": "gender",
+  "tier": "pool",
+  "status": "draft"
+ },
+ {
+  "id": "gender.8",
+  "n": 431,
+  "text": "Phụ nữ nên có những tổ chức riêng, không có nam giới, để đấu tranh cho quyền của mình.",
+  "facet": null,
+  "key": null,
+  "theme": "gender",
+  "tier": "pool",
+  "status": "draft"
+ },
+ {
+  "id": "gender.9",
+  "n": 432,
+  "text": "Khi luật pháp đã đối xử bình đẳng với nam và nữ, nhà nước không cần làm gì thêm cho bình đẳng giới.",
+  "facet": null,
+  "key": null,
+  "theme": "gender",
+  "tier": "pool",
+  "status": "draft"
+ },
+ {
+  "id": "violence.1",
+  "n": 433,
+  "text": "Bạo lực đôi khi là bà đỡ không thể thiếu của tiến bộ xã hội.",
+  "facet": null,
+  "key": null,
+  "theme": "violence",
+  "tier": "deep",
+  "status": "draft"
+ },
+ {
+  "id": "violence.2",
+  "n": 434,
+  "text": "Dù chính quyền tàn bạo đến đâu, người dân cũng không nên chống lại nó bằng vũ lực.",
+  "facet": null,
+  "key": null,
+  "theme": "violence",
+  "tier": "pool",
+  "status": "draft"
+ },
+ {
+  "id": "violence.3",
+  "n": 435,
+  "text": "Một người bị tấn công có quyền dùng vũ lực để tự vệ.",
+  "facet": null,
+  "key": null,
+  "theme": "violence",
+  "tier": "pool",
+  "status": "draft"
+ },
+ {
+  "id": "violence.4",
+  "n": 436,
+  "text": "Một chính quyền cách mạng có quyền dùng khủng bố để đè bẹp những người chống lại cách mạng.",
+  "facet": null,
+  "key": null,
+  "theme": "violence",
+  "tier": "deep",
+  "status": "draft"
+ },
+ {
+  "id": "violence.5",
+  "n": 437,
+  "text": "Một nhóm nhỏ du kích có thể châm ngòi cho cách mạng mà không cần chờ đủ điều kiện chín muồi.",
+  "facet": null,
+  "key": null,
+  "theme": "violence",
+  "tier": "pool",
+  "status": "draft"
+ },
+ {
+  "id": "violence.6",
+  "n": 438,
+  "text": "Hy sinh tính mạng vì đại nghĩa là điều cao quý nhất một con người có thể làm.",
+  "facet": null,
+  "key": null,
+  "theme": "violence",
+  "tier": "pool",
+  "status": "draft"
+ },
+ {
+  "id": "violence.7",
+  "n": 439,
+  "text": "Chiến tranh và đấu tranh bằng sức mạnh rèn luyện đức tính và sức sống của một dân tộc.",
+  "facet": null,
+  "key": null,
+  "theme": "violence",
+  "tier": "pool",
+  "status": "draft"
+ },
+ {
+  "id": "violence.8",
+  "n": 440,
+  "text": "Giết một bạo chúa là hành động chính đáng.",
+  "facet": null,
+  "key": null,
+  "theme": "violence",
+  "tier": "pool",
+  "status": "draft"
+ },
+ {
+  "id": "violence.9",
+  "n": 441,
+  "text": "Người cố ý giết người đáng phải đền mạng, bất kể án đó có răn đe được ai hay không.",
+  "facet": null,
+  "key": null,
+  "theme": "violence",
+  "tier": "pool",
+  "status": "draft"
+ },
+ {
+  "id": "violence.10",
+  "n": 442,
+  "text": "Khi đất nước bị xâm lăng, người tu hành cũng được phép cầm vũ khí chiến đấu.",
+  "facet": null,
+  "key": null,
+  "theme": "violence",
+  "tier": "pool",
+  "status": "draft"
+ },
+ {
+  "id": "class.1",
+  "n": 443,
+  "text": "Lịch sử loài người trước hết là lịch sử đấu tranh giữa các giai cấp.",
+  "facet": null,
+  "key": null,
+  "theme": "class",
+  "tier": "deep",
+  "status": "draft"
+ },
+ {
+  "id": "class.2",
+  "n": 444,
+  "text": "Ở những nước nghèo, nông dân chứ không phải công nhân mới là lực lượng chính của cách mạng.",
+  "facet": null,
+  "key": null,
+  "theme": "class",
+  "tier": "pool",
+  "status": "draft"
+ },
+ {
+  "id": "class.3",
+  "n": 445,
+  "text": "Lịch sử không do tập thể nào làm nên mà do hành động của từng cá nhân.",
+  "facet": null,
+  "key": null,
+  "theme": "class",
+  "tier": "pool",
+  "status": "draft"
+ },
+ {
+  "id": "class.4",
+  "n": 446,
+  "text": "Dân tộc, chứ không phải giai cấp, là chủ thể chính làm nên lịch sử.",
+  "facet": null,
+  "key": null,
+  "theme": "class",
+  "tier": "pool",
+  "status": "draft"
+ },
+ {
+  "id": "class.5",
+  "n": 447,
+  "text": "Những người cùng đức tin gắn bó với nhau hơn những người cùng giai cấp.",
+  "facet": null,
+  "key": null,
+  "theme": "class",
+  "tier": "pool",
+  "status": "draft"
+ },
+ {
+  "id": "class.6",
+  "n": 448,
+  "text": "Nhà nước nên đứng ra điều hoà quyền lợi giữa các giai cấp để xã hội không bị chia rẽ.",
+  "facet": null,
+  "key": null,
+  "theme": "class",
+  "tier": "deep",
+  "status": "draft"
+ },
+ {
+  "id": "knowledge.1",
+  "n": 449,
+  "text": "Một kỳ thi chung, chấm công khai, là cách công bằng nhất để chọn người vào học đại học.",
+  "facet": null,
+  "key": null,
+  "theme": "knowledge",
+  "tier": "pool",
+  "status": "draft"
+ },
+ {
+  "id": "knowledge.2",
+  "n": 450,
+  "text": "Người có học vấn cao hơn nên được tính phiếu bầu nặng hơn.",
+  "facet": null,
+  "key": null,
+  "theme": "knowledge",
+  "tier": "pool",
+  "status": "draft"
+ },
+ {
+  "id": "knowledge.3",
+  "n": 451,
+  "text": "Nhiệm vụ đầu tiên của nhà trường là dạy trẻ biết sống đạo đức, chứ chưa phải truyền thụ kiến thức.",
+  "facet": null,
+  "key": null,
+  "theme": "knowledge",
+  "tier": "pool",
+  "status": "draft"
+ },
+ {
+  "id": "knowledge.4",
+  "n": 452,
+  "text": "Cha mẹ nên được tự chọn nội dung học cho con mình, kể cả cho con học tại nhà.",
+  "facet": null,
+  "key": null,
+  "theme": "knowledge",
+  "tier": "deep",
+  "status": "draft"
+ },
+ {
+  "id": "knowledge.5",
+  "n": 453,
+  "text": "Giảng viên đại học nên được tự do giảng dạy và nghiên cứu mọi điều, kể cả khi nhà nước không đồng ý.",
+  "facet": null,
+  "key": null,
+  "theme": "knowledge",
+  "tier": "deep",
+  "status": "draft"
+ },
+ {
+  "id": "knowledge.6",
+  "n": 454,
+  "text": "Các trường tốt nên dành chỗ ưu tiên cho học sinh nghèo, dù điểm thi của họ thấp hơn.",
+  "facet": null,
+  "key": null,
+  "theme": "knowledge",
+  "tier": "pool",
+  "status": "draft"
+ },
+ {
+  "id": "community.1",
+  "n": 455,
+  "text": "Nhà nước nên quan hệ trực tiếp với từng công dân, không qua họ tộc, phường hội hay các nhóm trung gian.",
+  "facet": null,
+  "key": null,
+  "theme": "community",
+  "tier": "pool",
+  "status": "draft"
+ },
+ {
+  "id": "community.2",
+  "n": 456,
+  "text": "Khi bổn phận với cộng đồng mâu thuẫn với ý muốn cá nhân, bổn phận nên được đặt lên trước.",
+  "facet": null,
+  "key": null,
+  "theme": "community",
+  "tier": "pool",
+  "status": "draft"
+ },
+ {
+  "id": "community.3",
+  "n": 457,
+  "text": "Việc chung của làng xóm nên do toàn thể dân cư họp lại và bỏ phiếu quyết định, không qua người đại diện.",
+  "facet": null,
+  "key": null,
+  "theme": "community",
+  "tier": "pool",
+  "status": "draft"
+ },
+ {
+  "id": "community.4",
+  "n": 458,
+  "text": "Mỗi người nên được tự do rời bỏ cộng đồng nơi mình sinh ra, dù cộng đồng ấy không đồng ý.",
+  "facet": null,
+  "key": null,
+  "theme": "community",
+  "tier": "deep",
+  "status": "draft"
+ },
+ {
+  "id": "community.5",
+  "n": 459,
+  "text": "Một cộng đồng địa phương có thể tự lo việc chung của mình, như làm đường hay thuỷ lợi, mà không cần nhà nước.",
+  "facet": null,
+  "key": null,
+  "theme": "community",
+  "tier": "deep",
+  "status": "draft"
+ },
+ {
+  "id": "community.6",
+  "n": 460,
+  "text": "Nhà nước nên hỗ trợ các sinh hoạt chung của làng xóm và khu phố, như lễ hội hay hội họp.",
+  "facet": null,
+  "key": null,
+  "theme": "community",
+  "tier": "pool",
+  "status": "draft"
+ },
+ {
+  "id": "nature-of-man.1",
+  "n": 461,
+  "text": "Con người sinh ra vốn có bản tính thiện.",
+  "facet": null,
+  "key": null,
+  "theme": "nature-of-man",
+  "tier": "pool",
+  "status": "draft"
+ },
+ {
+  "id": "nature-of-man.2",
+  "n": 462,
+  "text": "Nếu không có luật pháp và hình phạt, đa số người sẽ làm điều xấu.",
+  "facet": null,
+  "key": null,
+  "theme": "nature-of-man",
+  "tier": "pool",
+  "status": "draft"
+ },
+ {
+  "id": "nature-of-man.3",
+  "n": 463,
+  "text": "Nhìn chung, đời sống con người ngày nay tốt đẹp hơn thời xưa.",
+  "facet": null,
+  "key": null,
+  "theme": "nature-of-man",
+  "tier": "pool",
+  "status": "draft"
+ },
+ {
+  "id": "nature-of-man.4",
+  "n": 464,
+  "text": "Con người nên dựa vào lý trí của mình hơn là vào tập tục của tổ tiên để quyết định cách sống.",
+  "facet": null,
+  "key": null,
+  "theme": "nature-of-man",
+  "tier": "deep",
+  "status": "draft"
+ },
+ {
+  "id": "nature-of-man.5",
+  "n": 465,
+  "text": "Xã hội ngày nay đã sa sút về đạo đức so với các thế hệ trước.",
+  "facet": null,
+  "key": null,
+  "theme": "nature-of-man",
+  "tier": "pool",
+  "status": "draft"
+ },
+ {
+  "id": "nature-of-man.6",
+  "n": 466,
+  "text": "Điều đúng là điều đem lại hạnh phúc cho nhiều người nhất, kể cả khi một số ít phải chịu thiệt.",
+  "facet": null,
+  "key": null,
+  "theme": "nature-of-man",
+  "tier": "pool",
+  "status": "draft"
+ }
+]

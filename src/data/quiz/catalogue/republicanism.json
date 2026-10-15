@@ -1,0 +1,285 @@
+{
+  "parties": [
+    {
+      "id": "jacobin-club",
+      "name": "Câu lạc bộ Jacobin",
+      "country": "Pháp",
+      "period": "1789–1794",
+      "variants": [
+        "jacobinism"
+      ],
+      "emblem": {
+        "shape": "disc",
+        "field": "#ce1126",
+        "ink": "#ffffff",
+        "motif": "phrygian-cap",
+        "ring": "#002654"
+      }
+    },
+    {
+      "id": "democratic-republican-party",
+      "name": "Đảng Dân chủ–Cộng hoà",
+      "country": "Hoa Kỳ",
+      "period": "1792–1825",
+      "variants": [
+        "jeffersonian-republicanism"
+      ],
+      "emblem": {
+        "shape": "disc",
+        "field": "#ffffff",
+        "ink": "#002654",
+        "motif": "disc",
+        "ring": "#ce1126"
+      }
+    },
+    {
+      "id": "federalist-party",
+      "name": "Đảng Liên bang",
+      "country": "Hoa Kỳ",
+      "period": "1791–1824",
+      "variants": [
+        "hamiltonian-federalism"
+      ],
+      "emblem": {
+        "shape": "disc",
+        "field": "#ffffff",
+        "ink": "#111111",
+        "motif": "disc",
+        "ring": "#002654"
+      }
+    }
+  ],
+  "states": [
+    {
+      "id": "athens-508-322-bc",
+      "name": "Athens",
+      "period": "508–322 TCN",
+      "note": "Từ cải cách Cleisthenes đến khi Macedonia xoá bỏ",
+      "variants": [
+        "athenian-democracy"
+      ],
+      "seal": true
+    },
+    {
+      "id": "roman-republic-509-27-bc",
+      "name": "Cộng hoà La Mã",
+      "period": "509–27 TCN",
+      "note": "Chấp chính quan, Viện Nguyên lão và các hội nghị dân",
+      "variants": [
+        "classical-republicanism"
+      ],
+      "seal": true
+    },
+    {
+      "id": "venice-697-1797",
+      "name": "Cộng hoà Venezia",
+      "period": "697–1797",
+      "note": "Chính thể hỗn hợp: Doge, Viện Nguyên lão, Đại Hội đồng",
+      "variants": [
+        "classical-republicanism"
+      ],
+      "seal": true
+    },
+    {
+      "id": "france-1793-1794",
+      "name": "Đệ nhất Cộng hoà Pháp",
+      "period": "1793–1794",
+      "note": "Uỷ ban Cứu quốc, Robespierre, thời kỳ Khủng bố",
+      "variants": [
+        "jacobinism"
+      ],
+      "flag": "france"
+    },
+    {
+      "id": "switzerland-1848-present",
+      "name": "Liên bang Thuỵ Sĩ",
+      "period": "1848–nay",
+      "note": "Trưng cầu dân ý, các bang tự trị, trung lập vũ trang",
+      "variants": [
+        "swiss-direct-democracy",
+        "polder-consensus"
+      ],
+      "flag": "switzerland"
+    },
+    {
+      "id": "usa-1801-1825",
+      "name": "Hoa Kỳ",
+      "period": "1801–1825",
+      "note": "Jefferson, Madison, Monroe (phái Dân chủ–Cộng hoà)",
+      "variants": [
+        "jeffersonian-republicanism"
+      ],
+      "flag": "usa"
+    },
+    {
+      "id": "spain-2004-2011",
+      "name": "Tây Ban Nha",
+      "period": "2004–2011",
+      "note": "Chính phủ Zapatero, lấy cảm hứng từ Philip Pettit",
+      "variants": [
+        "neo-republicanism"
+      ],
+      "flag": "spain"
+    },
+    {
+      "id": "usa-1789-1801",
+      "name": "Hoa Kỳ",
+      "period": "1789–1801",
+      "note": "Chính quyền Washington và Adams: Hamilton lập ngân hàng quốc gia, liên bang gánh nợ các bang; Luật Ngoại kiều và Phản loạn 1798",
+      "variants": [
+        "hamiltonian-federalism"
+      ],
+      "flag": "usa"
+    }
+  ],
+  "figures": [
+    {
+      "id": "cleisthenes",
+      "name": "Cleisthenes",
+      "life": "570–508 TCN",
+      "role": "Nhà cải cách, đặt nền dân chủ Athens",
+      "variant": "athenian-democracy",
+      "wiki": "Cleisthenes"
+    },
+    {
+      "id": "pericles",
+      "name": "Pericles",
+      "life": "495–429 TCN",
+      "role": "Chính khách Athens thời hoàng kim",
+      "variant": "athenian-democracy",
+      "wiki": "Pericles"
+    },
+    {
+      "id": "cicero",
+      "name": "Cicero",
+      "life": "106–43 TCN",
+      "role": "Chính khách, nhà hùng biện La Mã",
+      "variant": "classical-republicanism",
+      "wiki": "Cicero"
+    },
+    {
+      "id": "niccolo-machiavelli",
+      "name": "Niccolò Machiavelli",
+      "life": "1469–1527",
+      "role": "Nhà tư tưởng Florence, tác giả Luận về Livy",
+      "variant": "classical-republicanism",
+      "wiki": "Niccolò Machiavelli"
+    },
+    {
+      "id": "polybius",
+      "name": "Polybius",
+      "life": "200–118 TCN",
+      "role": "Sử gia Hy Lạp, lý thuyết chính thể hỗn hợp",
+      "variant": "classical-republicanism",
+      "wiki": "Polybius"
+    },
+    {
+      "id": "maximilien-robespierre",
+      "name": "Maximilien Robespierre",
+      "life": "1758–1794",
+      "role": "Lãnh tụ phái Jacobin",
+      "variant": "jacobinism",
+      "wiki": "Maximilien Robespierre"
+    },
+    {
+      "id": "jean-jacques-rousseau",
+      "name": "Jean-Jacques Rousseau",
+      "life": "1712–1778",
+      "role": "Triết gia, tác giả Khế ước xã hội",
+      "variant": "jacobinism",
+      "axes": {
+        "change": 55
+      },
+      "wiki": "Jean-Jacques Rousseau"
+    },
+    {
+      "id": "saint-just",
+      "name": "Louis Antoine de Saint-Just",
+      "life": "1767–1794",
+      "role": "Thành viên Uỷ ban Cứu quốc",
+      "variant": "jacobinism",
+      "wiki": "Louis Antoine de Saint-Just"
+    },
+    {
+      "id": "jonas-furrer",
+      "name": "Jonas Furrer",
+      "life": "1805–1861",
+      "role": "Tổng thống đầu tiên của Liên bang Thuỵ Sĩ",
+      "variant": "swiss-direct-democracy",
+      "wiki": "Jonas Furrer"
+    },
+    {
+      "id": "christoph-blocher",
+      "name": "Christoph Blocher",
+      "life": "s. 1940",
+      "role": "Chính khách Thuỵ Sĩ, lãnh tụ Đảng Nhân dân (SVP)",
+      "variant": "swiss-direct-democracy",
+      "axes": {
+        "identity": 15,
+        "lifestyle": 25,
+        "environment": 35
+      },
+      "wiki": "Christoph Blocher"
+    },
+    {
+      "id": "thomas-jefferson",
+      "name": "Thomas Jefferson",
+      "life": "1743–1826",
+      "role": "Tổng thống thứ ba của Hoa Kỳ",
+      "variant": "jeffersonian-republicanism",
+      "wiki": "Thomas Jefferson"
+    },
+    {
+      "id": "john-taylor-of-caroline",
+      "name": "John Taylor of Caroline",
+      "life": "1753–1824",
+      "role": "Nhà lý luận nông nghiệp, thượng nghị sĩ Virginia",
+      "variant": "jeffersonian-republicanism",
+      "wiki": "John Taylor of Caroline"
+    },
+    {
+      "id": "philip-pettit",
+      "name": "Philip Pettit",
+      "life": "s. 1945",
+      "role": "Triết gia chính trị Ireland",
+      "variant": "neo-republicanism",
+      "wiki": "Philip Pettit"
+    },
+    {
+      "id": "quentin-skinner",
+      "name": "Quentin Skinner",
+      "life": "s. 1940",
+      "role": "Sử gia tư tưởng chính trị Anh",
+      "variant": "neo-republicanism",
+      "wiki": "Quentin Skinner"
+    },
+    {
+      "id": "john-adams",
+      "name": "John Adams",
+      "life": "1735–1826",
+      "role": "Tổng thống thứ hai của Hoa Kỳ (1797–1801)",
+      "variant": "hamiltonian-federalism",
+      "axes": {
+        "economy": 50,
+        "foreign": 55
+      },
+      "wiki": "John Adams"
+    },
+    {
+      "id": "john-marshall",
+      "name": "John Marshall",
+      "life": "1755–1835",
+      "role": "Chánh án Toà án Tối cao Hoa Kỳ (1801–1835)",
+      "variant": "hamiltonian-federalism",
+      "wiki": "John Marshall"
+    },
+    {
+      "id": "john-jay",
+      "name": "John Jay",
+      "life": "1745–1829",
+      "role": "Đồng tác giả The Federalist, Chánh án đầu tiên của Hoa Kỳ",
+      "variant": "hamiltonian-federalism",
+      "wiki": "John Jay"
+    }
+  ]
+}

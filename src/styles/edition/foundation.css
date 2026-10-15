@@ -1,0 +1,1250 @@
+/* Ấn bản: foundation.
+   Type, space, motion and the shared shell. Colours come from palette.css
+   (generated), faces from fonts.css. Nothing here is overridden later. */
+
+:root {
+  /* Three voices, each with one job.
+     Brand: Libre Bodoni, only for the name of the publication.
+     Voice: Pliego, for every title, subtitle and line of text.
+     Apparatus: Mona Sans, for navigation, labels, dates and controls.
+     Until a face arrives the page is laid out in the next name of its stack
+     that the system has, and every name the system lacks is a lookup in the
+     middle of the first layout (on Linux, a trip to the font service: asking
+     for Mona Sans, -apple-system, Segoe UI, Georgia and the rest made a
+     phone-emulated first layout a quarter slower). So each stack names only
+     what can stand in: system-ui
+     is San Francisco, Segoe UI and Roboto by itself, and Georgia is already
+     the metric-matched 'Pliego fallback' (fonts.css). */
+  --font-brand: 'Libre Bodoni Variable', 'Bodoni 72', Didot, serif;
+  --font-text: Pliego, 'Pliego fallback', serif;
+  --font-sans: 'Pensees Sans', system-ui, sans-serif;
+  --sans-width: 112%;
+
+  /* Type scale: one ladder, and every size on a page is a step of it.
+       11 · 12              the apparatus: Mona Sans capitals
+       15                   the apparatus in sentence case: rows of the colophon
+       15 · 16 · 17 · 18 · 20      text: notes, subtitles, fields, prose
+       20 · 22 · 25 · 28           titles that stay one size
+       25→40 · 28→44 · 30→50 · 40→88  titles that grow with the page (390 → 1440px)
+     Names describe roles, so a role keeps its place in the hierarchy wherever
+     it appears: a subtitle in a list is always 16, a story title always 25. */
+  --t-meta: 0.6875rem; /* 11: rubrics, dates, counts, bylines (capitals) */
+  --t-label: 0.75rem; /* 12: navigation, buttons, tabs, the way on (capitals) */
+  --t-note: 0.9375rem; /* 15: notes in the margin, citations */
+  --t-small: 1rem; /* 16: subtitles in lists, contents */
+  --t-ui: 1.0625rem; /* 17: story subtitles, fields */
+  --t-body: 1.125rem; /* 18: text of the house pages, rows of contents pages */
+  --t-nav: 0.9375rem; /* 15: rows of the colophon (sans, sentence case) */
+  --t-dek: 1.25rem; /* 20: subtitles of pages, ledes */
+  --t-title-xs: 1.25rem; /* 20: titles on the shelf, in a phone's rows, the menu's house */
+  --t-title-s: 1.375rem; /* 22: titles in lists (pensées, parts, the register) */
+  --t-title-m: 1.5625rem; /* 25: story titles */
+  --t-title-l: 1.75rem; /* 28: titles of the menu and the house pages */
+  --t-headline: clamp(1.5625rem, 1.214rem + 1.429vw, 2.5rem); /* 25 → 40: second story, series, months, authors */
+  --t-section: clamp(1.75rem, 1.379rem + 1.524vw, 2.75rem); /* 28 → 44: module heads, the excerpt */
+  --t-lead: clamp(1.875rem, 1.411rem + 1.905vw, 3.125rem); /* 30 → 50: the lead story */
+  --t-display: clamp(2.5rem, 1.386rem + 4.571vw, 5.5rem); /* 40 → 88: cover, essay and page titles */
+  --t-dek-l: clamp(1.25rem, 1.064rem + 0.762vw, 1.75rem); /* 20 → 28: subtitle of the cover and of an essay */
+  /* The name of the publication in its bars: one size on a wide screen; on a
+     phone, the masthead's lockup in miniature (see .bar__name). */
+  --t-brand-bar: 1.375rem;
+  --caps-tracking: 0.08em;
+  /* In the bar's and the menu's lockup, "The" is set at this share of the
+     name, tracked open. The masthead sets its own at two fifths
+     (lib/nameplate.mjs); at a bar's size the article needs a little more
+     body to stay legible. */
+  --the: 0.44em;
+  --the-tracking: 0.03em;
+
+  /* Space: 4px base. */
+  --s-1: 0.25rem;
+  --s-2: 0.5rem;
+  --s-3: 0.75rem;
+  --s-4: 1rem;
+  --s-5: 1.5rem;
+  --s-6: 2rem;
+  --s-7: 3rem;
+  --s-8: 4rem;
+  --s-9: 6rem;
+  /* Between the modules of a page: enough to breathe, never a page break. */
+  --section: clamp(3rem, 1.886rem + 4.571vw, 6rem); /* 48 → 96 */
+
+  /* Page frame: twelve columns inside a 1360px measure. */
+  --page-max: 1360px;
+  /* Never less than what a phone turned on its side keeps clear for its camera
+     and its corners (the page runs under them: viewport-fit=cover). */
+  --margin: max(
+    clamp(1.25rem, 0.5rem + 3.4vw, 4rem),
+    env(safe-area-inset-left),
+    env(safe-area-inset-right)
+  );
+  --gutter: clamp(1rem, 0.4rem + 1.8vw, 2.25rem);
+  --bar-height: 72px;
+
+  --radius-control: 3px;
+
+  /* Motion (docs/motion.md). Everything that moves animates transform,
+     opacity or a colour, on one of three curves:
+     - settle: what arrives or changes in place comes to rest as a critically
+       damped spring does, quick to answer and long to land, never snapping;
+     - leave: what goes answers at once and slips away evenly, ending soft
+       (it is already gone by then), never hanging and then vanishing;
+     - turn: a change to the whole page made where it stands (a new paper, a
+       new size of type) gathers and then settles, one page into the next;
+     - spread: a new appearance runs out from the touch as ink runs in paper,
+       at once and then slowing, the page's one movement over distance.
+     A way out takes three quarters of the way in. */
+  --ease-out: cubic-bezier(0.32, 0.72, 0, 1);
+  --ease-leave: cubic-bezier(0.3, 0, 0.2, 1);
+  --ease-turn: cubic-bezier(0.45, 0, 0.2, 1);
+  /* The spread of a new appearance, as ink runs in paper: it answers the
+     touch at once and slows as it reaches out, never gathering and then
+     rushing. The area it covers grows slow, fast, slow (a smoothstep); its
+     radius is the square root of that, sampled here. */
+  --ease-spread: linear(0, 0.167 10%, 0.322 20%, 0.465 30%, 0.593 40%, 0.707 50%, 0.805 60%, 0.885 70%, 0.947 80%, 0.986 90%, 1);
+  --d-press: 130ms;
+  --d-quick: 220ms;
+  --d-close: 260ms;
+  --d-base: 340ms;
+  --d-slow: 540ms;
+  --d-plate: 620ms;
+  --d-spread: 720ms;
+  --d-ink: 700ms;
+  /* The name engraved, once, on a visitor's first page
+     (lib/nameplateEngrave.js): each letter traced in --d-trace, inked in
+     --d-slow, the next begun --d-letter later. */
+  --d-trace: 600ms;
+  --d-letter: 20ms;
+  --d-lamp-on: 360ms;
+  --d-lamp-off: 640ms;
+  --d-lamp-follow: 150ms;
+  --ease-lamp: cubic-bezier(0.2, 0.8, 0.2, 1);
+
+  /* Materials: frosted glass. Translucent paper over a blur of what lies
+     beneath, so a floating layer takes on the colour of the page under it.
+     Every layer that floats over the page is made of one of three, a tint
+     and a blur each; the larger the surface, the deeper the blur:
+       thin     bars and small controls: the bar's foot, the months, back to top
+       regular  sheets: reading settings, contents, a note, search
+       thick    the menu, which covers the whole page
+     The bar runs from solid paper at its top edge down to --material-thin.
+     Where glass meets the page its edge catches the light of what lies
+     beneath: a hairline left untinted (background-clip: padding-box), so the
+     blurred page shows through it at full colour, lit by --rim. A cover
+     passing under the bar tints its edge with the cover's colours; over
+     paper the edge is paper. It is the same backdrop, not a second one. */
+  --material-thin: color-mix(in oklab, var(--paper) 68%, transparent);
+  --material: color-mix(in oklab, var(--paper) 80%, transparent);
+  --material-thick: color-mix(in oklab, var(--paper) 76%, transparent);
+  --blur-thin: blur(20px) saturate(1.6);
+  --blur: blur(24px) saturate(1.4);
+  --blur-thick: blur(34px) saturate(1.5);
+  --rim: color-mix(in oklab, #fff 26%, transparent);
+  --rim-soft: color-mix(in oklab, #fff 14%, transparent);
+  /* The hairline outside the glass, which draws its edge over plain paper. */
+  --glass-edge: color-mix(in oklab, var(--ink) 10%, transparent);
+
+  --layer-bar: 30;
+  --focus: 2px solid var(--ink);
+}
+
+/* ---------- base ---------- */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+html {
+  background: var(--paper);
+  color: var(--ink);
+  font-family: var(--font-text);
+  font-size: 100%;
+  line-height: 1.6;
+  font-synthesis: none;
+  font-kerning: normal;
+  text-size-adjust: 100%;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  scrollbar-gutter: stable;
+  scroll-padding-top: calc(var(--bar-height) + 1.5rem);
+}
+body {
+  margin: 0;
+  min-height: 100dvh;
+}
+h1,
+h2,
+h3,
+h4,
+p,
+figure,
+blockquote,
+dl,
+dd,
+ol,
+ul {
+  margin: 0;
+}
+ol,
+ul {
+  padding: 0;
+  list-style: none;
+}
+/* Pliego's stacked Vietnamese capitals rise above its ascender: titles keep
+   at least 1.08 of line height so marks never touch the line above. */
+h1,
+h2,
+h3,
+h4 {
+  font-family: var(--font-text);
+  font-weight: 500;
+  line-height: 1.1;
+  text-wrap: balance;
+}
+p {
+  text-wrap: pretty;
+}
+img,
+svg {
+  display: block;
+  max-width: 100%;
+}
+img {
+  height: auto;
+}
+button,
+input,
+select {
+  font: inherit;
+  color: inherit;
+}
+button {
+  background: none;
+  border: 0;
+  padding: 0;
+  cursor: pointer;
+}
+a {
+  color: inherit;
+  text-decoration-thickness: 1px;
+  text-underline-offset: 0.2em;
+}
+a,
+button,
+label,
+summary {
+  -webkit-tap-highlight-color: transparent;
+  touch-action: manipulation;
+}
+[hidden] {
+  display: none !important;
+}
+:focus-visible {
+  outline: var(--focus);
+  outline-offset: 3px;
+  border-radius: 1px;
+}
+main:focus {
+  outline: none;
+}
+/* Shown while the page scrolls under a mouse (lib/editionHand.ts): nothing
+   beneath is hovered on the way past. */
+.scroll-shield {
+  position: fixed;
+  inset: 0;
+  z-index: calc(var(--layer-bar) - 1);
+}
+::selection {
+  background: color-mix(in oklab, var(--ink) 18%, var(--paper));
+  color: var(--ink);
+}
+
+.wrap {
+  width: min(100% - 2 * var(--margin), var(--page-max));
+  margin-inline: auto;
+}
+/* Hidden labels are set in a weight every page already loads, so words only a
+   screen reader will hear never pull in another font file. */
+.sr-only {
+  font-weight: 500;
+  font-style: normal;
+  position: absolute !important;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  overflow: hidden;
+  clip: rect(0 0 0 0);
+  white-space: nowrap;
+  border: 0;
+}
+.skip-link {
+  position: absolute;
+  top: var(--s-3);
+  left: var(--s-3);
+  z-index: calc(var(--layer-bar) + 1);
+  padding: var(--s-3) var(--s-4);
+  background: var(--ink);
+  color: var(--paper);
+  font: 600 var(--t-label) / 1 var(--font-sans);
+  font-stretch: var(--sans-width);
+  border-radius: var(--radius-control);
+  transform: translateY(-200%);
+}
+.skip-link:focus {
+  transform: none;
+}
+
+/* ---------- capitals ----------
+   Labels, navigation and controls are set in Mona Sans capitals, widened a
+   little and spaced open: the modern apparatus around the classical voice.
+   Capitals live only here, in the sans; the serif is never set in caps. */
+.caps,
+.caps-link,
+.button,
+.rubric,
+.byline,
+.sections a,
+.bar__sections a {
+  font-family: var(--font-sans);
+  font-stretch: var(--sans-width);
+  font-weight: 600;
+  font-size: var(--t-label);
+  line-height: 1.25;
+  letter-spacing: var(--caps-tracking);
+  text-transform: uppercase;
+  font-variant-numeric: lining-nums tabular-nums;
+}
+.caps-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.55em;
+  min-height: 44px;
+  text-decoration: none;
+  white-space: nowrap;
+}
+.caps-link > span {
+  background: linear-gradient(currentColor, currentColor) no-repeat 0 100% / 0 1px;
+  padding-bottom: 2px;
+  transition: background-size var(--d-base) var(--ease-out);
+}
+:where(:root:not([data-resting])) .caps-link:hover > span,
+.caps-link:focus-visible > span {
+  background-size: 100% 1px;
+}
+.caps-link .glyph {
+  transition: translate var(--d-base) var(--ease-out);
+}
+:where(:root:not([data-resting])) .caps-link:hover .glyph[data-glyph='forward'] {
+  translate: 3px 0;
+}
+
+/* Titles: no underline at rest; a hairline writes itself left to right, line by line. */
+.title-link {
+  text-decoration: none;
+  background-image: linear-gradient(currentColor, currentColor);
+  background-repeat: no-repeat;
+  background-position: 0 92%;
+  background-size: 0 1px;
+  transition: background-size var(--d-slow) var(--ease-out);
+}
+:where(:root:not([data-resting])) .title-link:hover,
+.title-link:focus-visible {
+  background-size: 100% 1px;
+}
+.stretched::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  z-index: 3;
+}
+
+/* ---------- glyphs ---------- */
+/* The drawing of every glyph (Glyph.astro) is set here once, not repeated on
+   each of the fifty-odd glyphs of a page: a 1.6 stroke in the colour of the
+   text, square ends and sharp corners (the SVG defaults). */
+.glyph {
+  flex: none;
+  fill: none;
+  stroke: currentColor;
+  stroke-width: 1.6;
+}
+/* A glyph set beside words takes their size, and a stroke that matches their stem. */
+.glyph--inline {
+  stroke-width: 1.9;
+  margin-block: -0.2em;
+}
+
+/* ---------- controls ---------- */
+.button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.6em;
+  min-height: 44px;
+  padding: 0 1.125rem;
+  border: 1px solid transparent;
+  border-radius: var(--radius-control);
+  text-decoration: none;
+  white-space: nowrap;
+  transition:
+    background-color var(--d-quick) var(--ease-out),
+    border-color var(--d-quick) var(--ease-out),
+    color var(--d-quick) var(--ease-out),
+    scale var(--d-base) var(--ease-out);
+}
+/* Pressed: a control gives under the finger at once and comes back as it
+   settles, down in --d-press, up in --d-base (docs/motion.md, pressing).
+   Safari on iPhone draws a press only where a touch is listened for
+   (editionHead.js). */
+.button:active {
+  scale: 0.97;
+  transition-duration: var(--d-press);
+}
+.button--ink {
+  background: var(--ink);
+  color: var(--paper);
+}
+.button--ink:active {
+  background: color-mix(in oklab, var(--ink) 88%, var(--paper));
+}
+.button--line {
+  border-color: color-mix(in oklab, currentColor 32%, transparent);
+}
+/* Hover is for a pointer that hovers: on a phone, a tap left the hover
+   standing on whatever was touched last. */
+@media (hover: hover) {
+  :where(:root:not([data-resting])) .button--ink:hover {
+    background: color-mix(in oklab, var(--ink) 84%, var(--paper));
+  }
+  :where(:root:not([data-resting])) .button--line:hover {
+    border-color: currentColor;
+  }
+}
+.button .glyph {
+  width: 1.35em;
+  height: 1.35em;
+  stroke-width: 1.8;
+}
+.icon-button {
+  display: inline-grid;
+  place-items: center;
+  width: 44px;
+  height: 44px;
+  border-radius: var(--radius-control);
+  color: inherit;
+  transition:
+    background-color var(--d-base) var(--ease-out),
+    scale var(--d-base) var(--ease-out);
+}
+@media (hover: hover) {
+  :where(:root:not([data-resting])) .icon-button:hover:not(:disabled) {
+    background-color: color-mix(in oklab, currentColor 7%, transparent);
+  }
+}
+/* A press is felt twice: the control gives, and a faint tint gathers under
+   the glyph, the way ink darkens where it is pressed hardest. */
+.icon-button:active:not(:disabled) {
+  scale: 0.93;
+  background-color: color-mix(in oklab, currentColor 11%, transparent);
+  transition-duration: var(--d-press);
+}
+.icon-button:disabled {
+  opacity: 0.3;
+  cursor: default;
+}
+
+/* ---------- rubric (topic label) ---------- */
+/* The discipline is marked by its ink; the size stays that of a label, so
+   colour draws the eye and the words stay quiet. */
+.rubric {
+  color: var(--muted);
+  font-size: var(--t-meta);
+}
+.rubric__lead {
+  color: var(--topic-text);
+}
+.rubric__sep {
+  color: var(--rule);
+}
+
+/* ---------- byline ---------- */
+.byline {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--s-1) var(--s-5);
+  margin-top: var(--s-5);
+  color: var(--muted);
+  font-size: var(--t-meta);
+  font-weight: 500;
+}
+.byline a {
+  color: var(--ink);
+  text-decoration: none;
+}
+:where(:root:not([data-resting])) .byline a:hover {
+  text-decoration: underline;
+}
+
+/* ---------- plates ----------
+   The engraving is printed in two inks by the compositor, in three layers
+   over white: the greyscale image, the ink screened on top of it, then the
+   paper multiplied over everything. Black lines print in ink, white prints
+   as paper, every grey in between. Where the image has not arrived yet the
+   white shows through, so an unloaded plate is paper, never a block of ink.
+   Changing either colour re-inks the plate in place without repainting the
+   image, so movement stays smooth. The sheet is the paper as printed: at
+   night it is dimmed (below), never the plate filtered. */
+.plate {
+  --plate-sheet: var(--plate-paper);
+  position: relative;
+  display: block;
+  overflow: hidden;
+  aspect-ratio: 3 / 2;
+  background: var(--plate-sheet);
+  transition: background-color var(--d-ink) var(--ease-out);
+}
+.plate__print {
+  position: absolute;
+  inset: 0;
+  isolation: isolate;
+  background: #fff;
+  transition:
+    transform var(--d-base) var(--ease-out),
+    opacity var(--d-slow) var(--ease-out);
+}
+/* Until its image has arrived a plate is blank paper, then the print is laid
+   on it (lib/editionHead.js). Without JavaScript nothing is hidden. A print
+   in view is laid with a fade; one that arrives out of sight is laid at
+   once, ready before it is scrolled to. The first print on a page is never
+   hidden (Plate, eager): it is the page's largest paint, and waiting to fade
+   it in held it back by up to 0.8s on a phone. */
+:root[data-js] .plate__print:not([data-inked]) {
+  opacity: 0;
+}
+.plate__print[data-inked='quiet'] {
+  transition: none;
+}
+.plate__print img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  filter: grayscale(1);
+}
+.plate__print::before,
+.plate__print::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  z-index: 1;
+  pointer-events: none;
+  transition: background-color var(--d-ink) var(--ease-out);
+}
+.plate__print::before {
+  background: var(--plate-ink);
+  mix-blend-mode: screen;
+}
+.plate__print::after {
+  z-index: 2;
+  background: var(--plate-sheet);
+  mix-blend-mode: multiply;
+}
+/* A 1px edge keeps pale plates from dissolving into the page. */
+.plate::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  z-index: 2;
+  box-shadow: inset 0 0 0 1px oklch(0 0 0 / 0.07);
+  pointer-events: none;
+}
+.plate__print picture {
+  display: contents;
+}
+
+/* The reading lamp (đèn đọc), lib/editionLamp.ts. A pointer resting on a
+   story dims its sheet by a shade and brings a wide, soft pool of warm light
+   over the print; ink stays ink. The shade is a flat layer the size of the
+   plate (multiply). The light is one gradient that fades to nothing at its
+   rim (soft-light), rastered once and moved by transform, easing toward the
+   hand by a transition on the compositor. Nothing is repainted as it moves,
+   and no edge of either layer can ever show inside the plate. */
+.plate__shade,
+.plate__light {
+  position: absolute;
+  z-index: 3;
+  pointer-events: none;
+  opacity: 0;
+}
+.plate__shade {
+  inset: 0;
+  background: oklch(0.955 0.008 75);
+  mix-blend-mode: multiply;
+  transition: opacity var(--d-lamp-off) var(--ease-out);
+}
+.plate__light {
+  top: 0;
+  left: 0;
+  width: calc(var(--lamp-r, 240px) * 2);
+  aspect-ratio: 1;
+  background: radial-gradient(
+    closest-side,
+    oklch(0.98 0.045 82 / 0.5),
+    oklch(0.98 0.045 82 / 0.38) 24%,
+    oklch(0.98 0.045 82 / 0.2) 50%,
+    oklch(0.98 0.045 82 / 0.07) 74%,
+    oklch(0.98 0.045 82 / 0)
+  );
+  mix-blend-mode: soft-light;
+  transition:
+    opacity var(--d-lamp-off) var(--ease-out),
+    transform var(--d-lamp-follow) var(--ease-lamp);
+}
+.plate[data-lit] .plate__shade,
+.plate[data-lit] .plate__light {
+  opacity: 1;
+  will-change: transform, opacity;
+}
+.plate[data-lit] .plate__shade {
+  transition-duration: var(--d-lamp-on);
+}
+.plate[data-lit] .plate__light {
+  transition-duration: var(--d-lamp-on), var(--d-lamp-follow);
+}
+@starting-style {
+  .plate[data-lit] .plate__shade,
+  .plate[data-lit] .plate__light {
+    opacity: 0;
+  }
+}
+/* Switched on where the hand is, without gliding there; a tap lights at once. */
+.plate[data-lamp-place] .plate__light {
+  transition-property: opacity;
+}
+.plate[data-lamp-quick] :is(.plate__shade, .plate__light) {
+  transition-duration: var(--d-quick);
+}
+@media (hover: hover) {
+  :where(:root:not([data-resting])) .printed:has(a:hover) .title-link {
+    background-size: 100% 1px;
+  }
+}
+@media (forced-colors: active), (prefers-contrast: more) {
+  .plate__shade,
+  .plate__light {
+    display: none;
+  }
+}
+/* At night a plate prints at 86% of its day brightness. The paper is
+   multiplied over the whole print, so dimming the paper dims the plate
+   exactly as brightness(0.86) did (both work on sRGB values), without a
+   filter on every plate: each one had to be rastered through its own layer,
+   on every tile, every time a plate scrolled into view. */
+:root[data-theme='dark'] .plate {
+  --plate-sheet: color-mix(in srgb, var(--plate-paper) 86%, #000);
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme='light']) .plate {
+    --plate-sheet: color-mix(in srgb, var(--plate-paper) 86%, #000);
+  }
+}
+@media (prefers-contrast: more) {
+  .plate__print::before,
+  .plate__print::after {
+    display: none;
+  }
+  .plate__print img {
+    filter: grayscale(1) contrast(1.2);
+  }
+}
+
+/* ---------- masthead ---------- */
+.masthead__utility {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--s-4);
+  padding-block: var(--s-3);
+}
+.masthead__tools {
+  display: flex;
+  align-items: center;
+  gap: var(--s-3);
+}
+.masthead__title {
+  container-type: inline-size;
+  padding-block: clamp(0.5rem, 2vw, 1.75rem) clamp(1.25rem, 2.4vw, 2.25rem);
+  text-align: center;
+}
+/* The name is 11.3em wide in Libre Bodoni: 8.6cqi always fits one line,
+   320px to wide screens. */
+.wordmark {
+  font-family: var(--font-brand);
+  font-size: min(8rem, 8.6cqi);
+  font-weight: 500;
+  line-height: 1;
+  letter-spacing: -0.02em;
+  white-space: nowrap;
+}
+.wordmark a {
+  position: relative;
+  display: block;
+  width: fit-content;
+  margin-inline: auto;
+  text-decoration: none;
+}
+/* A visitor's first page: while the name is engraved over it
+   (lib/nameplate.mjs), the text waits beneath, unseen, already in its
+   place. */
+:root[data-nameplate] .wordmark a {
+  -webkit-text-fill-color: transparent;
+}
+/* Thick-and-thin rule: the oldest separator in periodical typography. */
+.sections {
+  position: relative;
+  border-top: 1px solid var(--ink);
+  border-bottom: 1px solid var(--rule);
+}
+.sections::before {
+  content: '';
+  position: absolute;
+  inset: -5px 0 auto;
+  height: 2px;
+  background: var(--ink);
+}
+.sections ul {
+  display: flex;
+  justify-content: center;
+  gap: clamp(1.75rem, 4.5vw, 4.5rem);
+}
+.sections a {
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  min-height: 58px;
+  text-decoration: none;
+}
+.sections a::after {
+  content: '';
+  position: absolute;
+  inset: auto 0 -1px;
+  height: 2px;
+  background: currentColor;
+  scale: 0 1;
+  transform-origin: 0 50%;
+  transition: scale var(--d-base) var(--ease-out);
+}
+:where(:root:not([data-resting])) .sections a:hover::after {
+  scale: 1 0.5;
+}
+.sections a[aria-current='page']::after {
+  scale: 1;
+}
+
+/* ---------- bar ----------
+   Float: appears when the masthead leaves. Reader: always present.
+   The material is densest at the top edge, where it is the paper itself,
+   and thins toward the foot of the bar, where the page shows through,
+   blurred. Above a page, browsers paint a flat band: Safari 26 fills the
+   status bar with the page's paper whenever a bar stands at the top edge,
+   and other phones take the theme colour, which is the paper too. The bar
+   begins in exactly that colour, so band and bar read as one sheet, with no
+   edge between them; the blur lives where the page passes under the bar. */
+.bar {
+  position: fixed;
+  inset: 0 0 auto;
+  z-index: var(--layer-bar);
+  /* Solid for the first stretch, where it meets the status bar, then
+     clearing quickly, so the page shows through the lower half of the bar.
+     The tint stops a pixel short of the foot, where the rim lights the page
+     beneath (drawn as a background, so the bar keeps its height to the
+     pixel and nothing in it lands between two). */
+  background:
+    linear-gradient(var(--rim), var(--rim)) 0 100% / 100% 1px no-repeat,
+    linear-gradient(
+        var(--paper),
+        color-mix(in oklab, var(--paper) 86%, transparent) 40%,
+        var(--material-thin)
+      )
+      0 0 / 100% calc(100% - 1px) no-repeat;
+  -webkit-backdrop-filter: var(--blur-thin);
+  backdrop-filter: var(--blur-thin);
+  box-shadow: 0 1px 0 var(--glass-edge);
+}
+/* Out: at once, so the masthead is never left under the bar; in: unhurried. */
+.bar[data-mode='float'] {
+  transform: translateY(calc(-100% - 2px));
+  visibility: hidden;
+  transition:
+    transform var(--d-close) var(--ease-leave),
+    visibility 0s linear var(--d-close);
+}
+.bar[data-mode='float'][data-visible='true'] {
+  transform: none;
+  visibility: visible;
+  transition:
+    transform var(--d-slow) var(--ease-out),
+    visibility 0s;
+}
+/* Where the browser can, the bar is tied to the scroll instead of a timer:
+   it slides in over the last bar-height of the masthead as that leaves, and
+   out again as it returns, frame for frame on the compositor. However fast
+   the page is thrown back to the top, the bar is gone when the masthead is
+   there. (The script still sets data-visible, for inert.) */
+@supports (animation-timeline: view()) and (timeline-scope: --masthead) {
+  @media (prefers-reduced-motion: no-preference) {
+    body {
+      timeline-scope: --masthead;
+    }
+    .masthead {
+      view-timeline: --masthead block;
+      view-timeline-inset: 0;
+    }
+    .bar[data-mode='float'] {
+      visibility: visible;
+      transition: none;
+      animation: bar-arrive linear both;
+      animation-timeline: --masthead;
+      animation-range: exit calc(100% - var(--bar-height)) exit 100%;
+    }
+  }
+}
+@keyframes bar-arrive {
+  from {
+    transform: translateY(calc(-100% - 2px));
+  }
+  to {
+    transform: none;
+  }
+}
+.bar[data-mode='reader'] {
+  position: sticky;
+  top: 0;
+}
+.bar__inner {
+  display: flex;
+  align-items: center;
+  gap: var(--s-6);
+  min-height: var(--bar-height);
+}
+.bar__name {
+  flex: none;
+  font: 500 var(--t-brand-bar) / 1 var(--font-brand);
+  letter-spacing: -0.01em;
+  text-decoration: none;
+  white-space: nowrap;
+}
+.bar__sections {
+  flex: 1;
+}
+.bar__sections ul {
+  display: flex;
+  justify-content: center;
+  gap: clamp(1.25rem, 2.8vw, 3rem);
+}
+.bar__sections a {
+  display: inline-flex;
+  align-items: center;
+  min-height: 44px;
+  text-decoration: none;
+  background: linear-gradient(currentColor, currentColor) no-repeat 0 72% / 0 1px;
+  transition: background-size var(--d-base) var(--ease-out);
+}
+:where(:root:not([data-resting])) .bar__sections a:hover,
+.bar__sections a[aria-current='page'] {
+  background-size: 100% 1px;
+}
+.bar__context {
+  flex: 1;
+  min-width: 0;
+}
+.bar__tools {
+  display: flex;
+  align-items: center;
+  gap: var(--s-2);
+  margin-left: auto;
+}
+.bar__progress {
+  position: absolute;
+  inset: auto 0 0;
+  height: 2px;
+}
+.bar__progress span {
+  display: block;
+  height: 100%;
+  background: var(--topic-text, var(--ink));
+  transform-origin: 0 50%;
+  transform: scaleX(0);
+}
+/* Where materials cannot blur, or the reader asks for less transparency,
+   every floating layer is plain paper. */
+@supports not ((backdrop-filter: blur(1px)) or (-webkit-backdrop-filter: blur(1px))) {
+  :root {
+    --material-thin: var(--paper);
+    --material: var(--paper);
+    --material-thick: var(--paper);
+    --rim: var(--paper);
+    --rim-soft: var(--paper);
+  }
+}
+@media (prefers-reduced-transparency: reduce) {
+  :root {
+    --material-thin: var(--paper);
+    --material: var(--paper);
+    --material-thick: var(--paper);
+    --rim: var(--paper);
+    --rim-soft: var(--paper);
+    --blur-thin: none;
+    --blur: none;
+    --blur-thick: none;
+  }
+}
+
+/* ---------- section head ----------
+   One pattern for every module: a short ink mark, the title in Pliego, and
+   the way on. The mark opens a module without cutting the page across (a
+   full-width rule over a wide margin read as a page break): the modules of
+   the homepage follow one another as one edition, turned through. */
+.section-head {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: var(--s-1) var(--s-4);
+  margin-bottom: clamp(1.25rem, 0.95rem + 1.2vw, 2.25rem);
+}
+.section-head h2 {
+  font-size: var(--t-section);
+  font-weight: 500;
+  line-height: 1.08;
+  letter-spacing: -0.018em;
+}
+.section-head h2::before {
+  content: '';
+  display: block;
+  width: 1.25em;
+  height: 2px;
+  margin-bottom: 0.42em;
+  background: currentColor;
+}
+/* The way on, with the controls of what the module holds before it. */
+.section-head__tools {
+  display: flex;
+  align-items: center;
+  gap: var(--s-5);
+}
+
+
+/* ---------- menu (phones and narrow windows) ---------- */
+.menu-button {
+  display: none;
+}
+.burger {
+  position: relative;
+  display: block;
+  width: 22px;
+  height: 14px;
+}
+.burger i {
+  position: absolute;
+  left: 0;
+  right: 0;
+  height: 1.6px;
+  background: currentColor;
+  transition:
+    translate var(--d-quick) var(--ease-out) var(--part, 0ms),
+    rotate var(--turning, var(--d-base)) var(--ease-out) var(--turn, 0ms),
+    scale var(--d-quick) var(--ease-out) var(--part, 0ms),
+    opacity var(--d-quick) var(--ease-out) var(--part, 0ms);
+}
+.burger i:nth-child(1) {
+  top: 0;
+}
+.burger i:nth-child(2) {
+  top: calc(50% - 0.8px);
+}
+.burger i:nth-child(3) {
+  bottom: 0;
+}
+/* Pressed, the rules draw a pixel together, as if about to cross. */
+.menu-button:not(.menu__close):active .burger i {
+  transition-duration: var(--d-press);
+}
+.menu-button:not(.menu__close):active .burger i:nth-child(1) {
+  translate: 0 1px;
+}
+.menu-button:not(.menu__close):active .burger i:nth-child(3) {
+  translate: 0 -1px;
+}
+
+/* ---------- responsive shell ---------- */
+@media (max-width: 1120px) {
+  .bar__sections {
+    display: none;
+  }
+  .bar .menu-button {
+    display: inline-grid;
+  }
+}
+@media (max-width: 760px) {
+  :root {
+    --bar-height: 60px;
+  }
+  .masthead__utility {
+    padding-block: var(--s-2);
+  }
+  /* Phones: the menu holds the sections, the house pages, the search and
+     the call to subscribe; the masthead keeps the name, and the menu button
+     in the right-hand corner, where the bar keeps it too. */
+  .masthead__about,
+  .masthead__search,
+  .masthead__subscribe,
+  .sections,
+  .bar__search,
+  .bar__subscribe {
+    display: none;
+  }
+  .masthead__tools {
+    margin-left: auto;
+  }
+  .masthead__menu {
+    display: inline-grid;
+    margin-right: -10px;
+  }
+  /* The name as a lockup, as a nameplate is set on a narrow page: "The" small
+     in the top row, beside the menu button, and "Cochinchine Pensées" across
+     the full measure beneath it (9.35em wide: 10.6cqi fills the line). The
+     name fills the screen as the one-line name fills a wide page. No rule
+     closes it: the cover print, running edge to edge, does that. */
+  .masthead {
+    position: relative;
+  }
+  .masthead__utility {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;
+    pointer-events: none;
+  }
+  .masthead__tools {
+    pointer-events: auto;
+  }
+  .masthead__title {
+    padding-block: calc(var(--s-2) + 0.875rem) var(--s-5);
+    text-align: left;
+  }
+  .wordmark {
+    font-size: 10.6cqi;
+    letter-spacing: -0.02em;
+  }
+  .wordmark a {
+    margin-inline: 0;
+  }
+  /* "The" is set above the name at two fifths of it, placed as the drawing
+     places it (the variables are the drawing's own, lib/nameplate.mjs). */
+  .wordmark__the {
+    display: block;
+    width: max-content;
+    margin: 0 0 var(--the-gap) var(--the-left);
+    padding-top: var(--the-top);
+    font-size: var(--the-size);
+    letter-spacing: var(--the-track);
+  }
+  /* The bar keeps the same lockup, smaller: when the masthead has scrolled
+     away the name still outranks every title in the feed below it. */
+  .bar__inner {
+    gap: var(--s-2);
+  }
+  .bar__name {
+    font-size: min(var(--t-title-m), (100vw - 2 * var(--margin) - 3.25rem) / 9.6);
+    line-height: 0.94;
+  }
+  .bar__name .bar__the {
+    display: block;
+    margin-bottom: 0.16em;
+    font-size: var(--the);
+    letter-spacing: var(--the-tracking);
+  }
+  .bar__tools {
+    gap: 0;
+  }
+  .bar .menu-button {
+    margin-right: -11px;
+  }
+}
+@media (min-width: 761px) {
+  .bar[data-mode='reader'] .menu-button {
+    display: none;
+  }
+}
+
+/* ---------- preferences ---------- */
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    transition-duration: 0.01ms !important;
+    transition-delay: 0ms !important;
+    animation-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+::view-transition-group(*) {
+  animation-duration: var(--d-base);
+  animation-timing-function: var(--ease-out);
+}
+/* A change of appearance: the new paper spreads from the control that chose
+   it over the old page, which stays as it was (no cross-fade: two whole pages
+   at half strength read as neither). The bar is part of the page here, where
+   glass cannot be lifted out of it (below). */
+:root[data-appearing] .bar {
+  view-transition-name: none;
+}
+:root[data-appearing]::view-transition-old(root),
+:root[data-appearing]::view-transition-new(root) {
+  mix-blend-mode: normal;
+}
+:root[data-appearing]::view-transition-old(root) {
+  animation: none;
+}
+:root[data-appearing]::view-transition-new(root) {
+  animation: appearance-spread var(--d-spread) var(--ease-spread) both;
+}
+@keyframes appearance-spread {
+  from {
+    clip-path: circle(0 at var(--spread-from));
+  }
+  to {
+    clip-path: circle(var(--spread-reach) at var(--spread-from));
+  }
+}
+/* Glass in view (the bar, an open sheet or the menu, back to the top) is
+   lifted out of the page's picture and drawn over it, each layer on its own
+   (lib/editionTurn.ts). Its blur is laid again, live, on its group,
+   over the page as it spreads; the new glass shows inside the spread and the
+   old outside it, cut by the page's own circle, on the page's own curve
+   (the outlines and their animation are written by editionTurn.ts, in the
+   layer's own box). A picture of glass holds only its tint and what is
+   drawn on it, never what it blurs, so no layer ever goes clear. */
+/* Glass stays where it is: its group holds still (an animated group, even
+   from a place to the same place, was drawn softer in Chromium). */
+:root[data-appearing]::view-transition-group(*.glass) {
+  animation: none;
+}
+:root[data-appearing]::view-transition-old(*.glass),
+:root[data-appearing]::view-transition-new(*.glass) {
+  mix-blend-mode: normal;
+}
+/* While the page turns, the new page holds still: its colours are simply the
+   new ones. Every transition of colour (a print re-inking its paper through
+   its blend layers, each link and button recolouring) otherwise ran inside
+   the turn, and the page beneath the spread was repainted in every frame of
+   it. Only the tray that was touched keeps its tile's slide. */
+:root[data-turning] *:not(.appearance__tray, .seg),
+:root[data-turning] *:not(.appearance__tray, .seg)::before,
+:root[data-turning] *::after {
+  transition: none !important;
+}
+/* A change of the reader's paper or type: the old page dissolves into the
+   new, where it is, in the time a sheet takes to open (no rise, as between
+   pages: the page has not changed, only how it is set). The two pages add
+   up (plus-lighter) so the page stays whole throughout: laid over each
+   other, they thinned to three quarters half way, and glass over the thinned
+   page lost its blur in Chromium. Glass holds still and keeps its blur; its
+   tint dissolves with the page beneath it. */
+:root[data-reflowing]::view-transition-old(root),
+:root[data-reflowing]::view-transition-new(root) {
+  mix-blend-mode: plus-lighter;
+}
+:root[data-reflowing]::view-transition-old(root) {
+  animation: var(--d-base) var(--ease-turn) both page-out;
+}
+:root[data-reflowing]::view-transition-new(root) {
+  animation: var(--d-base) var(--ease-turn) both reflow-in;
+}
+:root[data-reflowing]::view-transition-group(*.glass) {
+  animation: none;
+}
+:root[data-reflowing]::view-transition-old(*.glass),
+:root[data-reflowing]::view-transition-new(*.glass) {
+  animation-duration: var(--d-base);
+  animation-timing-function: var(--ease-turn);
+}
+@keyframes reflow-in {
+  from {
+    opacity: 0;
+  }
+}
+
+/* ---------- page to page ----------
+   Moving between pages is one continuous gesture: the bar stays put, the page
+   underneath is turned (old content fades, new content rises 10px), and the
+   print of the story you opened grows into the essay's cover. Browsers without
+   cross-document transitions simply navigate. */
+@view-transition {
+  navigation: auto;
+}
+@media (prefers-reduced-motion: reduce) {
+  @view-transition {
+    navigation: none;
+  }
+}
+.bar {
+  view-transition-name: bar;
+}
+::view-transition-old(root) {
+  animation: var(--d-quick) var(--ease-leave) both page-out;
+}
+::view-transition-new(root) {
+  animation: var(--d-base) var(--ease-out) 80ms both page-in;
+}
+/* The print glides into the cover on a long, even deceleration (no snap at
+   the start, no crawl at the end). */
+::view-transition-group(essay-plate) {
+  animation-duration: var(--d-plate);
+  animation-timing-function: var(--ease-out);
+}
+/* A stand-in for the essay's cover: the print that was just on screen, until
+   the larger file has arrived (EditionLayout's page-to-page script). */
+.plate__proxy {
+  position: absolute;
+  inset: 0;
+  z-index: -1;
+}
+::view-transition-old(essay-plate),
+::view-transition-new(essay-plate) {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  overflow: clip;
+}
+@keyframes page-out {
+  to {
+    opacity: 0;
+  }
+}
+@keyframes page-in {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+}
+@media (forced-colors: active) {
+  .chip[aria-pressed='true'],
+  [role='tab'][aria-selected='true'],
+  .appearance label:has(input:checked),
+  .seg label:has(input:checked) {
+    outline: 2px solid Highlight;
+  }
+}
+@media print {
+  .masthead__utility,
+  .sections,
+  .bar,
+  .colophon,
+  .search-sheet,
+  [data-filter] {
+    display: none !important;
+  }
+}

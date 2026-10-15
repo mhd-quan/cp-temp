@@ -1,0 +1,102 @@
+[
+  {
+    "id": "regime",
+    "name": "Chính thể",
+    "about": "Quân chủ chuyên chế, quân chủ lập hiến hay cộng hoà, và những chính thể pha trộn của triết học cổ điển."
+  },
+  {
+    "id": "legitimacy",
+    "name": "Nguồn chính danh",
+    "about": "Quyền cai trị đến từ lá phiếu, dòng dõi, Trời hay Thượng đế, thành tích, tài đức hay một cuộc cách mạng."
+  },
+  {
+    "id": "party",
+    "name": "Đảng và phong trào",
+    "about": "Đảng tiên phong duy nhất, đa đảng, hội đồng công nhân, phong trào quần chúng hay đại diện theo nghề nghiệp."
+  },
+  {
+    "id": "army",
+    "name": "Quân đội trong chính trị",
+    "about": "Quân đội đứng trên chính trị, dưới quyền đảng, trung thành với lãnh tụ, dân quân toàn dân hay giải tán quân đội."
+  },
+  {
+    "id": "leader",
+    "name": "Lãnh tụ",
+    "about": "Sùng bái lãnh tụ, cha truyền con nối, lãnh đạo tập thể và giới hạn quyền lực của một người."
+  },
+  {
+    "id": "law",
+    "name": "Hiến pháp và pháp quyền",
+    "about": "Hiến pháp theo ý người soạn, luật tự nhiên, luật như công cụ của người cai trị hay đức trị, và hiến pháp kinh tế."
+  },
+  {
+    "id": "faith",
+    "name": "Tôn giáo cụ thể",
+    "about": "Truyền thống tôn giáo nào nên định hướng luật pháp và đời sống công, và giáo sĩ hay đảng của tín đồ nắm phần nào."
+  },
+  {
+    "id": "class",
+    "name": "Chủ thể lịch sử",
+    "about": "Giai cấp công nhân, nông dân, dân tộc, cộng đồng tín đồ hay cá nhân là chủ thể làm nên lịch sử; đấu tranh hay hoà hợp giai cấp."
+  },
+  {
+    "id": "property",
+    "name": "Hình thức sở hữu",
+    "about": "Hợp tác xã, công xã, xí nghiệp tự quản, tiểu sở hữu phân tán, đất đai chung và thuế giá trị đất."
+  },
+  {
+    "id": "labour",
+    "name": "Công đoàn và nghiệp đoàn",
+    "about": "Công đoàn độc lập hay dưới quyền nhà nước và đảng, nghiệp đoàn chủ thợ, đình công và tổng bãi công."
+  },
+  {
+    "id": "market",
+    "name": "Tiền, tài chính và thị trường",
+    "about": "Bản vị vàng, ngân hàng trung ương độc lập, tiền lãi, ngân hàng phát triển và ngân sách cân bằng."
+  },
+  {
+    "id": "empire",
+    "name": "Lãnh thổ và tự quyết",
+    "about": "Chống thực dân, đòi lại đất cũ, hợp nhất các dân tộc cùng gốc, ly khai và sứ mệnh khai hoá."
+  },
+  {
+    "id": "world",
+    "name": "Trật tự thế giới",
+    "about": "Cách mạng thế giới hay chủ nghĩa xã hội trong một nước, không liên kết, liên minh, các khối văn minh và trật tự kinh tế mới."
+  },
+  {
+    "id": "nature",
+    "name": "Sinh thái sâu",
+    "about": "Giảm tăng trưởng hay công nghệ xanh, điện hạt nhân, cây biến đổi gen, quyền của thiên nhiên và loài vật."
+  },
+  {
+    "id": "future",
+    "name": "Công nghệ và con người",
+    "about": "Nâng cấp con người, trí tuệ nhân tạo, mã hoá, tiền số, bản quyền và dân chủ trực tuyến."
+  },
+  {
+    "id": "gender",
+    "name": "Giới",
+    "about": "Phụ quyền như một hệ thống, hạn ngạch giới, mại dâm, nội dung khiêu dâm và lao động trong gia đình."
+  },
+  {
+    "id": "knowledge",
+    "name": "Tri thức và giáo dục",
+    "about": "Khoa cử và thi tuyển, chuyên gia cầm quyền, kiểm duyệt, giáo dục công dân và kinh điển."
+  },
+  {
+    "id": "community",
+    "name": "Cộng đồng và tự quản",
+    "about": "Nguyên tắc bổ trợ, làng xã và phường hội tự quản, bổn phận với cộng đồng, dân chủ trực tiếp và công xã liên kết."
+  },
+  {
+    "id": "violence",
+    "name": "Bạo lực chính trị",
+    "about": "Cách mạng vũ trang, khủng bố, bất bạo động như nguyên tắc, hy sinh vì đại nghĩa và án tử hình như công lý."
+  },
+  {
+    "id": "nature-of-man",
+    "name": "Bản chất con người và lịch sử",
+    "about": "Con người bản tính thiện hay ác, lịch sử có tiến bộ hay không, lý trí hay truyền thống, và hạnh phúc lớn nhất cho nhiều người nhất."
+  }
+]

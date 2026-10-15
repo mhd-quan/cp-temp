@@ -1,0 +1,290 @@
+{
+  "rater": "A",
+  "block": "A17",
+  "items": {
+    "religion.state.1": {
+      "0": "SUL CM SDD",
+      "1": "ONC BIC GC RET CAE MR DI SC MC PM XC KS ME IF PER ID IM JA HF EN NAC",
+      "2": "IB HI RZ STC ARC BC PG HS EC AM LEG AD CLR EUR RT NAS MO",
+      "3": "VEF WA CT CI NATC COR BN BK JM",
+      "-1": "SMCD CST PA CR PE AUC COA PC RC POC CO HES ETS LE DIR DS NS IS NAZ CH AP OR AL COL EA CN IR PN REZ NE NA TH LC NP WC PP TAR NM BL NEOR",
+      "-2": "NLS TP GAN UJ NOA BA SU CIN LN SN GAU AMC NC UT MDS LT GS US JU EU TW CL SL NEO PR NDL LI CF RE LIF GM ES DE DEG EM ELP GE PAL LL RS TI LS GOC NR LZ PSD THW FA TRA TE EB",
+      "-3": "AC AS MU IA GA CA DC ML ST MA TR LU CC HO GU ACK SF RF SR KE LF MI OB ANC JR CRA PIP",
+      "split": "CST SMCD CR PA NAC ONC CAE MR DI SC ID IM JA HF PER ETS COL EA CM SDD NM BL NEOR AUC COA PE NA CN IR REZ EN",
+      "why": "Divides confessional or throne-and-altar camps (theocrats, Catholic integralists, Buddhist kingship, Orthodox Eurasianism) who want an established religion from secularists, liberals, socialists and anarchists who oppose any state-sponsored creed; Anglican-establishment conservatives and Confucian orthodoxy states sit in between.",
+      "notes": {
+        "BK": "The item's own model: Lý–Trần Buddhist kingship, with the king as dharma protector and Buddhism as state-sponsored faith: 3.",
+        "SR": "Laïcité is doctrinal for French Radicals: Combes's 1905 separation law; church out of the state: -3.",
+        "KE": "Laiklik is one of the Six Arrows and Atatürk abolished the caliphate and the Sharia courts: -3.",
+        "JR": "Jefferson's 'wall of separation' letter (1802) and the Virginia Statute for Religious Freedom: -3.",
+        "NC": "Kuyper's sphere sovereignty denies the state any authority over the church sphere and favoured a free church: -2 despite being devout.",
+        "CT": "Calvin's Geneva and Rushdoony's reconstructionism make biblical law and the Christian commonwealth the state's task: 3.",
+        "JM": "State Shinto and the divine tenno were the core of Shōwa statism: 3.",
+        "HS": "Leviathan chs. 31 and 42 make the sovereign supreme head of public worship, so the state sponsors one public religion: 2.",
+        "BC": "Burke defended the Anglican establishment as part of the national constitution: 2.",
+        "EU": "Berlinguer's party accepted pluralism and secular institutions, with no state creed: -2."
+      }
+    },
+    "world.1": {
+      "0": "PG SC MC LE TW MO XC KS AD CLR ME AM EA CM LEG BK EC",
+      "1": "DC BA SF ES CH",
+      "2": "LU CC AC AS GU",
+      "3": "TR",
+      "-1": "MU GA CA NA NOA SU PN SUL CAE MR COA PC RC TE CO HS HES UT ML MDS LT GC PM NS IS LIF RF DE DEG PER ELP AP PR CF EB JA TRA PIP COR EUR EU",
+      "-2": "IA NLS TP GAN UJ AUC PE STC POC SMCD CST DI NC MA BC ARC ONC AMC CR TH NE PA NAC LC GAU BIC RET GS US ETS DIR DS IF NAZ NATC JM NAS GM EM CL SL NEO NDL LI OR AL RE COL SR LF MI OB ANC GE PAL LL TI LS GOC CN CIN EN LN IR KE LZ REZ SN VEF ID CT BN HI WA IB IM RZ SDD JR NR HF NP WC PP TAR NM PSD THW FA BL CRA CI RT NEOR",
+      "-3": "ST JU HO ACK RS",
+      "split": "ML DC BA CH GU ES MDS LT NA SF EU",
+      "why": "Divides the permanent/world-revolution tradition (Trotsky, Luxemburg, council communists, anarchist internationalists, Guevara) from the socialism-in-one-country camp (Stalin, Mao, Hoxha, Juche, Deng) and from everyone who rejects the premise that socialism is on the agenda at all.",
+      "notes": {
+        "TR": "Trotsky's theory of permanent revolution holds that an isolated workers' state cannot survive without revolution abroad: 3.",
+        "ST": "Stalin's 1924-26 thesis of socialism in one country is the doctrine that defines the variant: -3.",
+        "GU": "Che called for 'two, three, many Vietnams' (Message to the Tricontinental, 1967) because an encircled Cuba could not last alone: 2.",
+        "ML": "Lenin said in 1918 that Russia's revolution was doomed without a German one, but official Marxism-Leninism after 1924 held that socialism can be built in one country, with final victory needing the end of capitalist encirclement: -1, split.",
+        "RS": "Deng's 'socialism with Chinese characteristics' and Đổi Mới rest on building socialism in one country via the world market: -3.",
+        "LU": "Luxemburg's Russian Revolution (1918) and Spartacist strategy tied the revolution's fate to the German and European proletariat: 2.",
+        "HO": "Albania's self-reliance line (1961-90) treated a besieged socialist fortress as viable alone: -3.",
+        "FA": "The Webbs' gradualism expects socialism through parliament and administration, not a spread of revolution: -2."
+      }
+    },
+    "distribution.labour.8": {
+      "0": "SC EM",
+      "1": "LL GE AMC CR NE LC OR RE COL UT CT SDD JR NEOR",
+      "2": "IA MI CRA CL NEO TH TAR AL BC TW",
+      "3": "LF OB ANC PAL",
+      "-1": "MU CA GA DE PC RC CO NOA MR AUC SUL COA ARC PA NAC GC LI CF HS MC EC PM BK MO NS CLR AD HF NP PP TRA PIP TE REZ VEF WA ID IM RZ BN HI NC RS COR RT CN CIN EN LN IR PN SN AM EA CM LEG AP THW",
+      "-2": "DC GAN ONC GAU SL PR NDL SR PSD FA BL SMCD DI RET US ETS JM PE CAE KE TP SU TI LS GOC GM LIF RF WC IB EB XC KS LE ME DIR DS IS NR JA HES PG CI EUR LT BIC GU DEG",
+      "-3": "ML ST MA JU HO ACK AC AS TR LU CC EU NM POC MDS CST GS IF NAZ NATC NAS STC LZ NLS NA UJ BA ES SF CH PER ELP",
+      "split": "LL GE MU AMC PA NE LI OR SDD CT NEO REZ",
+      "why": "Divides market-contract purists, who treat wage-setting as private contract, from every camp that wants collective bargaining, statutory wages, corporatist direction or abolition of wage labour; Catholic and social-democratic camps reject pure individual bargaining on principle.",
+      "notes": {
+        "CST": "Rerum Novarum (1891) rejects the idea that a freely agreed wage is automatically just; a worker is owed a living wage whatever the bargain: -3.",
+        "NM": "The Nordic model rests on sector-wide collective agreements between unions and employer federations (Saltsjöbaden 1938): -3.",
+        "BC": "Burke's Thoughts and Details on Scarcity (1795) argues that wages and labour are best left to bargaining without magistrates: 2.",
+        "NAZ": "The Labour Front abolished unions and Trustees of Labour fixed wages by decree: -3.",
+        "STC": "Estado Novo and the Ständestaat replaced free bargaining with state-run corporations and banned strikes: -3.",
+        "NR": "Pettit's non-domination counts an employer's unchecked power over a worker as unfreedom, so bare bilateral bargaining is not enough: -2.",
+        "OR": "Eucken and Erhard favour free wage setting within a competitive order but fear union monopoly, so a lean but split: 1.",
+        "TW": "Laozi's rule that the best ruler interferes least extends to leaving prices and wages to the people themselves: 2."
+      }
+    },
+    "environment.technology.6": {
+      "0": "GM SUL COA PP IA AS GE LL ELP CH ID RZ HS HES LE KS EC AD JA SDD NR LIF SF RF PIP COR NEOR EUR AM CM LEG ME CIN LN SN EN IR PN COL SR RE CR PA LU CC",
+      "1": "LF MI OB PAL CRA NEO CL OR SL PR NDL RC PC AMC TH NE NAC ONC LC BIC NS IS AUC MR JU ML ST NLS NA TP NOA BA TI LS GOC NAZ IF JM NAS KE LZ REZ IM HI UT PM HF NM PSD THW FA POC MDS PER NP TAR WC EA SMCD CF AL TR EU LI",
+      "2": "TRA TE DS DIR GAU CAE RS ANC",
+      "3": "EM",
+      "-1": "AC MU DC ES LT BK PE RET GS US MA HO VEF WA IB CT BN CN NC BC ARC BL AP CO CI PG SC XC MO MC CLR JR UJ SU STC NATC ETS",
+      "-2": "CA EB CST DI GC RT TW GU",
+      "-3": "GA DE DEG GAN ACK",
+      "split": "GM ES ELP CH LT MDS NEO PR AMC NAC DC SL MA",
+      "why": "Divides tech-fix optimists (ecomodernists, technocrats, state-led developmentalists, market liberals) from camps that locate pollution in a way of life or a civilisation (green anarchists, deep ecology, degrowth, Gandhians, Catholic integral ecology, green conservatives) and thus want habits and values changed.",
+      "notes": {
+        "EM": "The Ecomodernist Manifesto (2015) argues that decoupling via nuclear power, intensification and clean tech, not lifestyle change, protects nature: 3.",
+        "DEG": "Hickel and Latouche hold that no technology can offset the scale of rich-country consumption; sufficiency must be chosen: -3.",
+        "GAN": "Hind Swaraj (1909) and the charkha reject machine civilisation as the problem itself; simple living is the remedy: -3.",
+        "CST": "Laudato Si' (2015) criticises the 'technocratic paradigm' and calls for ecological conversion and changed lifestyles: -2.",
+        "GA": "Zerzan and Jensen treat industrial technology as the source of the ecological crisis, so a clean-tech fix misses it: -3.",
+        "GC": "Scruton's oikophilia and Wendell Berry's 'The Unsettling of America' locate repair in local habits and attachment, not in new machines: -2.",
+        "RS": "Deng's line that science and technology are the primary productive force, and China's later state backing of solar and EV industries: 2.",
+        "TRA": "Transhumanists expect AI and engineering to solve resource problems rather than asking people to consume less: 2."
+      }
+    },
+    "market.10": {
+      "0": "SU NOA UJ NLS PG SC MC BK XC LI CN CIN EN LN IR PN SN ID IM RZ BN AD CLR JA CM LEG EM DE LIF RF TRA COR RT",
+      "1": "SL PSD KE CAE MR PE COA SUL STC NAZ NATC JM ARC ONC NE GAU BIC LZ CF TI GOC AM EA HS HES UT PM KS SMCD NM FA HI SDD EUR TP NA BA PR EC LE ME IS WA",
+      "2": "DS DIR NS HF NDL THW RC PC TE LC AUC AL IF RS POC",
+      "-1": "AMC TH BC CR NAC GC NEO COL RE SR REZ LS NR VEF IB CT EB CST NC CO BL GM WC PP CH PER ML ST JU EU HO ACK NAS MO CI US ETS LT GS GAN",
+      "-2": "CL MI OR NP TAR AP PA RET ELP MDS TR LU CC GU MA GE LL ES DEG SF PIP NEOR DI TW",
+      "-3": "LF OB ANC PAL IA AC AS MU GA CA DC CRA JR",
+      "split": "NEO AMC TH BC NAC PR SL LI CST GM",
+      "why": "Divides systemic-stability camps (technocrats, developmental states, social liberals, Third Way, corporatists, authoritarians) who treat a rescue as protecting the economy from collapse, from market purists and anarchists who see bailouts as moral hazard and subsidy to the rich, and from populists and socialists who resent socialising losses.",
+      "notes": {
+        "OR": "Eucken's liability principle (Haftung) holds that owners and creditors bear their losses; a rescue breaks the competitive order: -2.",
+        "JR": "Jefferson and John Taylor fought Hamilton's Bank of the United States as a privilege for moneyed interests: -3.",
+        "NDL": "FDR's Reconstruction Finance Corporation (1932) and the 1933 bank holiday and FDIC treated rescuing banks as essential to recovery: 2.",
+        "IF": "Mussolini created IRI in 1933 to take over the failing banks and their industrial holdings with public money: 2.",
+        "AP": "The Populist Party's 1892 Omaha platform attacked banks and the money power, so bailing them out is the reverse of its cause: -2.",
+        "TAR": "The Tea Party grew out of 2009 rage over TARP, with socialised losses at the centre of the grievance: -2.",
+        "THW": "Brown's 2008 Northern Rock and RBS rescues and Clinton's Mexican peso rescue show Third Way acceptance of rescue as system protection: 2.",
+        "LF": "Spencer and Bastiat's logic of letting failure be punished means no public rescue of any firm: -3."
+      }
+    },
+    "elites.decision.9": {
+      "0": "ME",
+      "1": "EM KS BK RS AUC AL GAU NEOR STC AM EA LEG KE IS CAE HS FA RC",
+      "2": "MC XC TE PG LE MO DS DIR HES BIC",
+      "3": "EC PM TP",
+      "-1": "TW UT ML ST JU HO TI PE MR HF SL NEO NDL OR CF COL ONC TH NE LC NM PSD THW POC VEF IM EUR NATC JM NLS NA UJ NOA BA SU NS PC SMCD SC SUL COA GOC CN EN IR PN IF",
+      "-2": "MA ACK TR CLR NR CL PR LI RE SR LF MI OB PAL GE LL BC ARC AMC CR PA NAC GC RET BL WA IB ID CT BN HI RZ EB COR CI RT NAZ NAS CM CIN LN LZ REZ SN GAN CO CST DI NC MDS LT US ETS CH PER NP WC PP TAR GM ES DE DEG LIF SF RF TRA LS EU GU",
+      "-3": "LU CC AC AS MU IA GA CA DC AD SDD JA JR ANC ELP AP GS CRA PIP",
+      "split": "RS PM TE NEO RC STC NAC UT FA GAU HF OR",
+      "why": "Divides meritocratic-bureaucratic traditions (Confucian examination state, Sun Yat-sen's Examination Yuan, technocrats, Platonic guardians, developmental states) that want officials chosen by tested competence from democratic, republican, anarchist and populist camps that insist office holders answer to the people.",
+      "notes": {
+        "TP": "Sun Yat-sen's Five-Power Constitution gives the Examination Yuan sole authority to qualify officials, with election reserved for the legislature: 3.",
+        "EC": "The examination state is the variant's core: Lê Thánh Tông's Hồng Đức government and the Song and Nguyễn bureaucracies chose officials by competitive exam: 3.",
+        "PM": "Daniel Bell's Confucian meritocracy has leaders chosen through exams and years of tested performance, with elections only at the grassroots: 3.",
+        "AD": "Athens filled most offices by lot and elected the generals, and held officials to account (euthynai), with no place for expert exam selection: -3.",
+        "MA": "The Cultural Revolution's 'better red than expert' attacked bureaucratic expertise and mass-line control over cadres: -2.",
+        "LU": "Luxemburg and the council tradition want delegates elected and recallable at any time; an exam-selected official class is the bureaucratic danger itself: -3.",
+        "UT": "J. S. Mill backed the competitive civil-service exam (Northcote-Trevelyan) but in Considerations on Representative Government kept ministers as responsible politicians: -1.",
+        "HES": "Hegel's universal class of civil servants is certified by examination and defended against the mob in the Philosophy of Right §§291-297: 2."
+      }
+    },
+    "economy.ownership.8": {
+      "0": "DEG DE SC MO XC",
+      "1": "LU CC GE TP SF ES TI GOC MC LE PM BK KS CH",
+      "2": "MA GU LS PG EC AM RZ",
+      "3": "ML ST NLS JU HO ACK TR UJ RS LZ",
+      "-1": "AC AS DC GA CA GAN NA NOA BA LT US ETS EU TE HS UT FA NAS PE SUL BN EB EUR EA LEG REZ CN EN IR PN IS RF ELP AP PSD",
+      "-2": "NAC LL MU SU MDS GS SMCD NC CST DS NS CAE MR AUC COA IF NAZ JM PC RC POC CO HES ONC NE GAU SL PR NDL LI CF RE LIF PER WC PP VEF WA IB ID IM HI CI RT CM CIN LN KE SN AD CLR JA SDD NR NM BL TRA PIP EM GM ME DIR TW",
+      "-3": "IA LF MI OB ANC PAL DI BC ARC AMC CR TH PA GC LC BIC RET CL NEO OR AL COL SR NATC STC NP TAR CT COR NEOR HF JR THW CRA",
+      "split": "AC AS DC CA GE TP UT CH SF TI LU CC LE PM RZ",
+      "why": "Divides the camps that treat land as a public or national patrimony held by the state (Leninist-Stalinist socialists, Vietnamese and Chinese reform socialism, Ujamaa, Labour Zionism, imperial 'all land is the king's') from private-property camps and from anarchists and council socialists who want land commonly held but not by a state.",
+      "notes": {
+        "NLS": "Hồ Chí Minh's movement ended with the 1980 and later Vietnamese constitutions: land belongs to the entire people with the state as representative: 3.",
+        "RS": "Đổi Mới and Deng's household-responsibility reform leave land state or collectively owned and lease use rights to households: 3.",
+        "UJ": "Nyerere's 1963 conversion of freehold to government leasehold and the villagisation programme made land the nation's: 3.",
+        "LZ": "The Jewish National Fund and Israel Land Administration hold most land as public leasehold, as in the kibbutz model: 3.",
+        "IA": "Tucker and Stirner reject both state title and absentee ownership but defend individual possession; state ownership is the opposite of their aim: -3.",
+        "GE": "George held that rent belongs to the community and the land is the equal birthright of all, yet left holders their titles and taxed rent: 1, split.",
+        "AM": "'Phổ thiên chi hạ, mạc phi vương thổ': under Minh Mạng all land is ultimately the king's, with the court as its representative: 2.",
+        "JR": "Jefferson's republic of independent yeoman owners rests on widely held private freehold land: -3.",
+        "CT": "Mosaic law and the Eighth Commandment make private property sacred in reconstructionist theology: -3.",
+        "PG": "Plato's Laws (740a) makes each allotment inalienable and the state the true owner of the land: 2."
+      }
+    },
+    "property.4": {
+      "0": "ID LI LIF RF AP",
+      "1": "CA SL NEO CF AD JA JR NR PIP EM LF MI AMC NP WC TAR UT MC EB GM CST",
+      "2": "LS TRA RC",
+      "3": "GE LL",
+      "-1": "IA GA MU ANC OB PAL AC AS DC LU CC EU TI MDS LT GS US ETS ES NM THW FA BL POC CL PR NDL OR AL RE SR TH NE PA NAC GC LC RET CR CAE COA TP NOA IB IM BN HI RZ SC TW BK MO CM CN CIN EN LN IR PN LZ REZ SN CLR SDD CH PER ELP PP DE DEG SF PC TE CO SMCD DI CI",
+      "-2": "ML ST MA JU HO NLS TR ACK GU RS GOC PSD COL BC ARC ONC GAU BIC MR AUC PE SUL STC IF NAZ NATC JM NAS NA GAN UJ BA SU VEF WA CT PG HS HES EC LE PM XC KS ME NS DIR DS IS AM EA LEG KE HF NC COR RT NEOR EUR CRA",
+      "split": "LF MI AMC UT GM CST NEO RC CA EB LS NR AD NP",
+      "why": "Divides left-libertarians, Georgists and basic-income camps who see resource wealth as an equal birthright to be paid out as cash from state and market, hierarchy and state-building camps that want the revenue kept for state, development or national projects, and anarchists or socialists who want commons or public ownership rather than a cheque.",
+      "notes": {
+        "LL": "Steiner and Vallentyne hold that natural resources belong equally to all, so those who use them owe equal shares into a common fund paid to everyone: 3.",
+        "GE": "George's single tax and Paine's Agrarian Justice treat land rent as the common heritage; the Alaska Permanent Fund is the Georgist model in practice: 3.",
+        "LS": "Lange's 'social dividend' and Roemer's coupon socialism distribute the return on socially owned capital and resources to every citizen: 2.",
+        "AD": "Themistocles' proposal to distribute Laurion silver revenue equally among Athenian citizens is the classic precedent, though he diverted it to the fleet: 1.",
+        "TRA": "James Hughes and other technoprogressives back a universal basic income paid from shared resource and automation wealth: 2.",
+        "ML": "Soviet socialism keeps resource revenue in the state budget for planning; cash dividends would undercut collective provision: -2.",
+        "NA": "Nasser nationalised the Suez Canal in 1956 precisely to fund the Aswan High Dam, not to hand out cash: -2.",
+        "ME": "Colbert's mercantilism fills the royal treasury with revenue from monopolies, which are not handed to subjects: -2.",
+        "NM": "Norway's oil fund pays for the future budget through the state, with no cash dividend; Nordic social democrats favour services over cheques: -1."
+      }
+    },
+    "regime.1": {
+      "0": "PC SMCD CST SC SL NEO OR AL LF MI IR PN SN ID IM HI DE DEG EM NS PSD THW CO POC",
+      "1": "PG CL NAC TH DI NM CN EN BN HF WC CI EUR DS NATC",
+      "2": "MC TW HS ONC BC GC LC RET NC PAL BL COL ME RT NEOR",
+      "3": "AM EA CM LEG BK ARC COR WA JM HES BIC EC LE XC KS MO",
+      "-1": "RC TE UT LT US ETS FA PR NDL LI CF OB GE LL RS LS LN REZ IB CT RZ EB CR NE PA AUC STC MR COA SUL CAE IF NAS NOA GAN GM LIF TRA CRA PIP NP PP TAR IS",
+      "-2": "DIR NAZ MDS GS RE JU UJ SU PE AMC GAU ANC CIN SDD NR CLR ES SF RF CH PER ELP AP TI GOC PM",
+      "-3": "AC AS MU IA GA CA DC NLS ML ST MA TR EU LU CC HO GU ACK TP NA BA SR KE VEF AD JA JR LZ",
+      "split": "PG HS MC TW CN EN DS NATC BC GC NM BL POC SN PSD THW ID IM HI IR PN CAE CI EUR CL CO",
+      "why": "Divides monarchist and throne-and-altar camps (absolute, enlightened, constitutional and Buddhist kingship, counter-revolution, Saudi and Japanese monarchy) from republicans of every stripe: anarchists, Marxists, Kemalists, Sun Yat-sen's republic, radicals and civic republicans; secular liberals and centrists are lukewarm about the form of the head of state.",
+      "notes": {
+        "TP": "Sun Yat-sen's first aim was overthrowing the Qing and founding a republic, so a king as head of state contradicts the Three Principles: -3.",
+        "CM": "Bagehot's English Constitution defends the Crown as the 'dignified' part of government and symbol of continuity: 3.",
+        "KE": "Atatürk abolished the sultanate (1922) and caliphate (1924) as incompatible with national sovereignty and modernisation: -3.",
+        "PAL": "Hoppe's Democracy: The God That Failed argues hereditary monarchy beats democracy because the king treats the realm as his own long-term property: 2.",
+        "JA": "Robespierre and the Jacobins executed Louis XVI and founded the Republic one and indivisible; a king is the enemy: -3.",
+        "CN": "Phạm Quỳnh served as Bảo Đại's minister and argued for a constitutional monarchy in Annam to keep national culture: 1, split.",
+        "WA": "The Saudi state is the Al Saud monarchy allied to the Wahhabi clergy, so a king as head of state is part of the doctrine's practice: 3.",
+        "COR": "De Maistre and Bonald's throne and altar make the legitimate king ordained by God the keystone of order: 3.",
+        "VEF": "Khomeini's Islamic Government (1970) denies that Islam has any place for monarchy and calls it a pagan system: -3.",
+        "PM": "Bell's meritocracy picks leaders by exams and performance rather than birth, so a hereditary king contradicts it: -2."
+      }
+    },
+    "regime.2": {
+      "0": "MR EN IR PN HI CI",
+      "1": "CAE AUC PE COA STC NATC BN EUR SC",
+      "2": "LEG MC EC JM ARC BIC RT PAL PG SUL JU",
+      "3": "AM EA COR BK KS LE MO XC HS WA ME NEOR",
+      "-1": "HES RET NC GAU NAC AL CH PER PP DI RZ REZ IF NAZ NAS ST DS NS IS HF",
+      "-2": "TW ONC BC GC BL COL PC RC POC TE CO SMCD CST CR TH NE PA UT PM CN LN KE SN IB ID IM CT EB NOA SU NP WC MA ACK DE EM LC DIR",
+      "-3": "AC AS MU IA GA CA DC NLS ML TR EU LU CC HO GU TP NA BA UJ GAN CM CL LF MI OB ANC GE LL AMC SL NEO PR NDL LI OR CF RE SR GM ES DEG LIF SF RF ELP AP TAR NM PSD THW FA MDS LT GS US ETS TRA CRA PIP RS TI LS GOC AD CLR JA SDD JR NR CIN LZ VEF",
+      "split": "HES NATC JU ST CI TW SC PG MC EC JM",
+      "why": "Among those who accept a king at all, divides rulers-in-fact (absolutist, Confucian-Legalist, Buddhist and throne-and-altar camps, Saudi and neoreactionary sovereignty) from constitutional monarchists and everyone else who holds that a monarch, if kept, should only reign.",
+      "notes": {
+        "AM": "Louis XIV's 'L'État, c'est moi' and Minh Mạng's personal control of the court's decisions are the defining practice: 3.",
+        "CM": "'The king reigns but does not rule': Bagehot's dignified part of the constitution leaves decisions to parliament: -3.",
+        "HS": "Leviathan chs. 18-19 hold that the sovereign must hold undivided power and prefers monarchy for decisiveness: 3.",
+        "LE": "Han Fei's ruler holds the two handles of reward and punishment and decides alone, with ministers as instruments: 3.",
+        "HES": "Hegel's monarch only 'puts the dot on the i' (Philosophy of Right §280) while the bureaucracy deliberates: -1.",
+        "NEOR": "Yarvin's formalism wants a sovereign with full, accountable authority, CEO-like, rather than a figurehead: 3.",
+        "BK": "Ashoka and Trần Nhân Tông actively ruled and decided war and peace themselves, as dharma kings: 3.",
+        "TW": "Laozi's best ruler is barely known to the people and acts by non-action, so a ruling king is not the ideal: -2.",
+        "WA": "The Saudi king is prime minister and holds final decision on law and appointments; no parliament constrains him: 3."
+      }
+    },
+    "party.2": {
+      "0": "OR RE ONC AMC PA GC LC RET BL LT US RC CO CST DI NC SC CM LZ IM RZ JR AP TAR EM TRA RF NS DIR ME PAL",
+      "1": "DC EU LS CA CL SL NEO PR NDL LI CF SR LF MI GE LL NM PSD FA POC ETS PC SMCD UT CIN LN SN ID AD CLR SDD NR ELP DE DEG LIF SF CRA EB",
+      "2": "LU CC AC AS MU IA GA MDS GS GM ES PIP ANC",
+      "3": "TR",
+      "-1": "COL AL BC ARC CR NE NAC THW TE HES BK KS TW LEG CN EN IR PN VEF CT BN HI HF CH NP WC IS NOA GAN OB COA SU MA GU",
+      "-2": "TH GAU BIC PG HS MC EC PM XC AM EA NATC REZ IB WA JA CAE MR AUC PER PP TI GOC DS STC MO COR CI RT NEOR EUR",
+      "-3": "ML ST JU HO ACK NLS RS IF NAZ NAS JM PE SUL NA BA UJ TP KE LE",
+      "split": "EU DC RE LS TI MA GM ES PIP OR ELP LZ HF CLR ONC",
+      "why": "Divides Leninist and one-party traditions, where democratic centralism and the 1921 ban on factions are doctrine, from Trotskyists, left-communists, anarchists, democratic socialists, greens and liberals who treat tendencies and platforms inside a party as a right.",
+      "notes": {
+        "ML": "The Tenth Congress resolution 'On Party Unity' (1921) banned factions; the ban became the core of democratic centralism: -3.",
+        "TR": "Trotsky and the Left Opposition fought for the right of platforms and tendencies; Trotskyist organisations are built from them: 3.",
+        "LU": "Luxemburg's 'freedom is always freedom for the one who thinks differently' and her critique of Lenin's centralism put the right to dissent inside the party: 2.",
+        "JA": "Robespierre sent the Hébertists and the Dantonists to the guillotine as factions against the republic one and indivisible: -3.",
+        "GM": "Die Grünen's Realo-Fundi split institutionalised open tendencies and platforms inside the party: 2.",
+        "CLR": "Machiavelli's Discourses (I.4) praise the tumults between Roman plebs and senate as the source of liberty, though Federalist No. 10 fears faction: 1, split.",
+        "NLS": "Hồ Chí Minh's Party practises democratic centralism, where decisions bind all and open factions are forbidden: -3.",
+        "HS": "Leviathan ch. 22 calls factions 'leagues' and lesser commonwealths within the commonwealth that undermine the sovereign: -2.",
+        "MO": "Mohism's 'the lower conforms to the upper' (shang tong) demands uniform standards set from above, so rival lines inside a body are wrong: -3.",
+        "IB": "The Brotherhood demands bay'a, the oath of obedience to the Supreme Guide, and expels dissenting groups: -2."
+      }
+    },
+    "legitimacy.4": {
+      "0": "BL CM ONC GC LC GAU RC POC SMCD NS DIR IS EM NOA SU BA NA KE DE TRA IF NAS EUR IM BN HI TI OR NEO CN EN IR PN LZ NP WC NM PSD THW FA US DI ARC RET LEG",
+      "1": "PE COA SUL EA EC BK TW AL COL UT BC TH PA NAC PC TE NATC ME DS REZ HF GOC PP",
+      "2": "MR CAE AUC STC BIC KS LE XC MO PM NEOR WA RS",
+      "3": "HS",
+      "-1": "AM CR NE CO CST NC SC EB JU",
+      "-2": "MC COR RT IB ID CT RZ ML ST EU HO NLS GAN UJ CL SL PR NDL LI CF RE SR LF MI GE PAL LL AMC PG HES NAZ JM CH PER ELP AP TAR CIN LN SN CLR SDD JR GM ES DEG LIF SF PIP MDS LT GS ETS LS ACK",
+      "-3": "CI VEF AC AS MU IA GA CA DC MA TR LU CC GU TP OB ANC AD JA NR RF CRA",
+      "split": "UT BC PP COL WA EB IM AL REZ GOC NATC TE PM",
+      "why": "Divides the Hobbesian and order-first camps, where the ruler earns obedience by keeping the peace, from those who ground legitimacy elsewhere: consent and rights (liberals, republicans), God or the Church (integralists, theocrats, counter-revolution), virtue or benevolence (Mencius), class justice (Marxists), or deny any duty of obedience (anarchists).",
+      "notes": {
+        "HS": "Leviathan ch. 17-21: people leave the war of all against all by giving the sovereign power, and obedience lasts exactly as long as he can protect them: 3.",
+        "MC": "Mencius 1B.8: a king who preys on his people is a mere fellow, and killing him is no regicide; peace without benevolence earns no loyalty: -2.",
+        "NR": "Pettit's slave who is well treated yet subject to a master's will is still unfree, so peace alone cannot justify rule: -3.",
+        "CL": "Locke's Second Treatise (ch. 7, 19) rejects Hobbes: rulers who violate natural rights lose legitimacy, however quiet the country: -2.",
+        "WA": "Salafi-Wahhabi political quietism calls for obeying the ruler to avoid fitna (civil strife), even an unjust one: 2.",
+        "RS": "Deng's 'stability overrides everything' (1989) and Đổi Mới's priority on political stability make order the main ground of authority: 2.",
+        "CI": "Integralism holds that rulers are legitimate only in subordination to the Church's spiritual end, not for keeping peace: -3.",
+        "AC": "Kropotkin and Malatesta hold that nobody owes obedience to rulers, whatever order they claim to keep: -3.",
+        "MO": "The Mohist origin story (Shang Tong) has people in a pre-political war of all against all, ended by choosing a ruler whose standards all follow: 2."
+      }
+    },
+    "army.4": {
+      "0": "PIP COL NE NAC GC BC RET GA NLS LS LT GS US NEO SR CO NC DI BL RC TP NOA NS DIR IS SC TW MO CM LZ SN CN CIN EN LN IR PN IM ID BN HI CH CI RT NEOR WC ES DE DEG EM SF RF TRA JU NAS ETS",
+      "1": "NR GE LL HF TH MU MA LU CC TI MC REZ CT RZ LEG AP",
+      "2": "CR LF MI OB CL TAR NP PA AC AS DC TR GU CRA SDD AD JA",
+      "3": "AMC JR CLR ANC PAL IA",
+      "-1": "LC ARC ONC PP UT MDS SL NDL OR LI CF RE NM PSD THW POC PC SMCD CST DS ME BK VEF GAU IB HO NATC AM GM LIF EUR COR FA SU PE EA",
+      "-2": "ML GAN EB EU RS GOC TE AL PG HES EC XC KS PM KE NA UJ BA CAE AUC COA PR IF NAZ JM WA PER ELP STC BIC",
+      "-3": "CA ST ACK MR SUL HS LE",
+      "split": "MA NLS ML TI SR UT CI LT AP CH JA",
+      "why": "Divides the armed-citizenry camps (American conservatives, libertarians, Jeffersonian and classical republicans, anarchists, Calvinist resistance theory, guerrilla and workers-militia traditions) from state-monopoly camps (Hobbesians, Legalists, Leninist and fascist states, military rulers) and from pacifists (Tolstoyans, Gandhians, engaged Buddhists) who reject lethal force even against tyranny.",
+      "notes": {
+        "AMC": "The Second Amendment's purpose, in Goldwater-Reagan conservatism and the NRA tradition, is a check on tyranny as well as self-defence: 3.",
+        "JR": "Jefferson's 'tree of liberty must be refreshed from time to time with the blood of patriots' and the yeoman militia ideal make an armed citizenry the guard of freedom: 3.",
+        "CLR": "Machiavelli's Art of War and Discourses insist that free republics rest on citizens bearing their own arms rather than mercenaries: 3.",
+        "HS": "Leviathan ch. 21 denies any right to resist the sovereign; a private right to arms against him dissolves the covenant: -3.",
+        "LE": "Shang Yang's Book wants a weak people and strong state, with arms in the state's hands alone: -3.",
+        "CA": "Tolstoy and Dorothy Day take the Sermon on the Mount as forbidding violence, even against a tyrant: -3.",
+        "GAN": "Gandhi's satyagraha makes nonviolent noncooperation the answer to oppression; though he deplored the Arms Act's disarming of Indians, he rejected violent resistance as a creed: -2.",
+        "GU": "Foco theory and Che's guerrilla war rest on armed people overthrowing an abusive government: 2.",
+        "SDD": "Swiss militia soldiers keep their service rifles at home as part of citizen defence; the tradition is tied to freedom from tyranny: 2.",
+        "JA": "The Jacobin Constitution of 1793 (Art. 35) made insurrection the most sacred duty when government violates the people's rights: 2, split."
+      }
+    }
+  }
+}

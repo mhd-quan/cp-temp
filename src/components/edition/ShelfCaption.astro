@@ -1,0 +1,20 @@
+---
+// The words of a shelved book: discipline, the review's title, and the book
+// cited beneath it (title in italics, then author and year).
+import type { Review } from '../../lib/editionData';
+import Rubric from './Topics.astro';
+
+interface Props {
+  review: Review;
+  href: string;
+  lead?: boolean;
+  heading?: 'h2' | 'h3';
+}
+const { review, href, lead = false, heading: Heading = 'h3' } = Astro.props;
+---
+<div class="shelf__caption">
+  <Rubric topics={review.essay.topics} />
+  <Heading class="shelf__title"><a class="title-link" href={href}>{review.essay.title}</a></Heading>
+  {lead && review.essay.subtitle && <p class="shelf__dek">{review.essay.subtitle}</p>}
+  <p class="shelf__cite"><cite>{review.book.title}</cite> <span class="shelf__author">{review.book.author}{review.book.year && `, ${review.book.year}`}</span></p>
+</div>

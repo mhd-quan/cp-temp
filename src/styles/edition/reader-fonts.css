@@ -1,0 +1,6 @@
+/* The reader's other faces (Trang đọc: Garamond, Bricolage, Lexend). Each
+   @font-face downloads only when text is set in it. */
+@import '@fontsource-variable/eb-garamond/wght.css';
+@import '@fontsource-variable/eb-garamond/wght-italic.css';
+@import '@fontsource-variable/bricolage-grotesque/opsz.css';
+@import '@fontsource-variable/lexend/wght.css';

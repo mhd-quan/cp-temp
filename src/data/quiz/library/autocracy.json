@@ -1,0 +1,315 @@
+{
+  "family": {
+    "id": "autocracy",
+    "name": "Độc đoán",
+    "en": "Authoritarianism",
+    "summary": "Quyền lực tập trung vào một người hay một nhóm nhỏ, không chịu ràng buộc của bầu cử cạnh tranh; biện minh bằng trật tự, phát triển hay sứ mệnh cứu nước."
+  },
+  "variants": [
+    {
+      "id": "caesarism",
+      "name": "Chủ nghĩa Caesar",
+      "en": "Caesarism (Bonapartism)",
+      "summary": "Một lãnh tụ uy tín đứng trên các phe phái, lấy quyền lực trực tiếp từ quần chúng qua trưng cầu, gạt nghị viện và giới quý tộc cũ sang một bên.",
+      "exemplars": [
+        "Julius Caesar",
+        "Napoléon Bonaparte",
+        "Napoléon III"
+      ],
+      "period": "thế kỷ 1 TCN; 1799–1870",
+      "axes": {
+        "economy": 45,
+        "distribution": 45,
+        "trade": 40,
+        "power": 15,
+        "liberty": 25,
+        "elites": 60,
+        "lifestyle": 40,
+        "religion": 50,
+        "identity": 25,
+        "environment": 40,
+        "foreign": 15,
+        "change": 60
+      },
+      "facets": {
+        "power.pluralism": 25,
+        "power.checks": 10,
+        "power.local": 10,
+        "elites.decision": 55,
+        "elites.rank": 70,
+        "elites.trust": 70,
+        "foreign.force": 5,
+        "foreign.rules": 25,
+        "foreign.intervention": 15,
+        "change.pace": 70,
+        "change.means": 75,
+        "change.depth": 40
+      },
+      "sd": {
+        "elites.decision": 20
+      },
+      "status": "draft",
+      "raters": [
+        "claude"
+      ]
+    },
+    {
+      "id": "military-rule",
+      "name": "Độc tài quân sự",
+      "en": "Military dictatorship",
+      "summary": "Quân đội nắm chính quyền để cứu nước khỏi hỗn loạn hay chính khách tham nhũng, hứa trả lại cho dân sự khi tình hình ổn định.",
+      "exemplars": [
+        "Chính quyền quân sự Hy Lạp (1967–1974)",
+        "Argentina (1976–1983)",
+        "Thái Lan (2014–2019)"
+      ],
+      "period": "1900–nay",
+      "axes": {
+        "economy": 55,
+        "distribution": 60,
+        "trade": 45,
+        "power": 15,
+        "liberty": 10,
+        "elites": 15,
+        "lifestyle": 25,
+        "religion": 55,
+        "identity": 25,
+        "environment": 30,
+        "foreign": 20,
+        "change": 45
+      },
+      "status": "draft",
+      "raters": [
+        "claude"
+      ]
+    },
+    {
+      "id": "authoritarian-capitalism",
+      "name": "Tư bản độc tài",
+      "en": "Authoritarian capitalism",
+      "summary": "Kinh tế thị trường và hội nhập toàn cầu dưới một chính quyền không cạnh tranh; các tập đoàn lớn gắn với quyền lực, ổn định được đặt trên tự do.",
+      "exemplars": [
+        "Nga từ năm 2000",
+        "Kazakhstan thời Nazarbayev"
+      ],
+      "period": "1990–nay",
+      "axes": {
+        "economy": 55,
+        "distribution": 65,
+        "trade": 75,
+        "power": 20,
+        "liberty": 30,
+        "elites": 15,
+        "lifestyle": 30,
+        "religion": 50,
+        "identity": 30,
+        "environment": 20,
+        "foreign": 30,
+        "change": 20
+      },
+      "facets": {
+        "economy.ownership": 50,
+        "economy.planning": 90,
+        "economy.steering": 25
+      },
+      "status": "draft",
+      "raters": [
+        "claude"
+      ]
+    },
+    {
+      "id": "personalism",
+      "name": "Chủ nghĩa Nhân vị",
+      "en": "Personalism (First Republic of Vietnam)",
+      "summary": "Lấy phẩm giá con người và cộng đồng làm gốc, chống cả cộng sản lẫn tư bản tự do; trên thực tế là một chính thể tập quyền quanh gia đình người đứng đầu, dựa vào một đảng nòng cốt.",
+      "exemplars": [
+        "Ngô Đình Diệm",
+        "Ngô Đình Nhu",
+        "Đảng Cần lao Nhân vị"
+      ],
+      "period": "1954–1963",
+      "axes": {
+        "economy": 55,
+        "distribution": 45,
+        "trade": 40,
+        "power": 25,
+        "liberty": 20,
+        "elites": 20,
+        "lifestyle": 20,
+        "religion": 65,
+        "identity": 25,
+        "environment": 40,
+        "foreign": 30,
+        "change": 35
+      },
+      "status": "draft",
+      "raters": [
+        "claude"
+      ]
+    },
+    {
+      "id": "competitive-authoritarianism",
+      "name": "Độc đoán cạnh tranh",
+      "en": "Competitive authoritarianism (hybrid regime)",
+      "summary": "Bầu cử đa đảng vẫn diễn ra, phe đối lập vẫn tranh cử, nhưng sân chơi bị nghiêng: truyền hình, toà án, cảnh sát và ngân sách nằm trong tay phe cầm quyền, nên đối lập khó thắng sòng phẳng.",
+      "exemplars": [
+        "Peru thời Alberto Fujimori",
+        "Serbia thời Slobodan Milošević",
+        "Zimbabwe thời Robert Mugabe"
+      ],
+      "period": "1990–nay",
+      "axes": {
+        "economy": 55,
+        "distribution": 60,
+        "trade": 55,
+        "power": 30,
+        "liberty": 30,
+        "elites": 45,
+        "lifestyle": 35,
+        "religion": 45,
+        "identity": 30,
+        "environment": 25,
+        "foreign": 40,
+        "change": 25
+      },
+      "facets": {
+        "power.pluralism": 55,
+        "power.checks": 15,
+        "power.local": 25,
+        "liberty.expression": 25,
+        "liberty.privacy": 35,
+        "elites.decision": 55,
+        "elites.rank": 40,
+        "elites.trust": 55,
+        "change.pace": 20,
+        "change.means": 40,
+        "change.depth": 20
+      },
+      "sd": {
+        "economy": 20,
+        "distribution": 15,
+        "trade": 20,
+        "lifestyle": 15,
+        "religion": 20,
+        "identity": 15
+      },
+      "status": "draft",
+      "raters": [
+        "claude"
+      ]
+    },
+    {
+      "id": "sultanism",
+      "name": "Độc tài kiểu sultan",
+      "en": "Sultanism (sultanistic regime)",
+      "summary": "Nhà nước thành tài sản riêng của một người: đất đai, doanh nghiệp và chức vụ chia cho gia đình và thân hữu; không có học thuyết nào ngoài lòng trung thành, mật vụ và khủng bố giữ quyền.",
+      "exemplars": [
+        "Rafael Trujillo (Cộng hoà Dominica)",
+        "Gia tộc Somoza (Nicaragua)",
+        "Mobutu Sese Seko (Zaire)",
+        "Ferdinand Marcos (Philippines)"
+      ],
+      "period": "1930–1997",
+      "axes": {
+        "economy": 50,
+        "distribution": 75,
+        "trade": 50,
+        "power": 0,
+        "liberty": 5,
+        "elites": 10,
+        "lifestyle": 30,
+        "religion": 45,
+        "identity": 30,
+        "environment": 15,
+        "foreign": 35,
+        "change": 10
+      },
+      "facets": {
+        "economy.ownership": 45,
+        "economy.planning": 70,
+        "economy.steering": 20,
+        "power.pluralism": 10,
+        "liberty.expression": 0,
+        "liberty.justice": 0,
+        "liberty.privacy": 10,
+        "elites.decision": 0,
+        "elites.rank": 25,
+        "change.means": 30,
+        "change.depth": 5
+      },
+      "sd": {
+        "economy": 15,
+        "trade": 20,
+        "lifestyle": 15,
+        "religion": 20,
+        "identity": 15
+      },
+      "status": "draft",
+      "raters": [
+        "claude"
+      ]
+    },
+    {
+      "id": "state-corporatism",
+      "name": "Nhà nước nghiệp đoàn (Estado Novo)",
+      "en": "State corporatism (Estado Novo, Ständestaat)",
+      "summary": "Nhà nước độc đoán không cần phong trào quần chúng: các nghiệp đoàn nghề nghiệp do nhà nước lập thay cho đảng phái, cấm đình công, giữ ngân sách thăng bằng, lấy Chúa, Tổ quốc, Gia đình làm khẩu hiệu.",
+      "exemplars": [
+        "António de Oliveira Salazar",
+        "Engelbert Dollfuss",
+        "Getúlio Vargas (Estado Novo Brazil)",
+        "Mihail Manoilescu (Thế kỷ của chủ nghĩa nghiệp đoàn, 1934)"
+      ],
+      "period": "1930–1974",
+      "axes": {
+        "economy": 40,
+        "distribution": 55,
+        "trade": 30,
+        "power": 10,
+        "liberty": 20,
+        "elites": 15,
+        "lifestyle": 15,
+        "religion": 65,
+        "identity": 30,
+        "environment": 45,
+        "foreign": 45,
+        "change": 15
+      },
+      "facets": {
+        "economy.ownership": 70,
+        "economy.planning": 30,
+        "economy.steering": 15,
+        "power.pluralism": 5,
+        "power.checks": 15,
+        "liberty.expression": 10,
+        "liberty.privacy": 25,
+        "elites.decision": 5,
+        "elites.rank": 25,
+        "elites.trust": 10,
+        "lifestyle.family": 10,
+        "lifestyle.gender": 10,
+        "lifestyle.autonomy": 25,
+        "religion.state": 70,
+        "religion.law": 45,
+        "religion.public": 75,
+        "environment.growth": 60,
+        "environment.nature": 40,
+        "environment.technology": 40,
+        "foreign.force": 40,
+        "foreign.rules": 30,
+        "foreign.intervention": 70,
+        "change.pace": 10,
+        "change.means": 25,
+        "change.depth": 25
+      },
+      "sd": {
+        "religion": 15,
+        "environment": 15
+      },
+      "status": "draft",
+      "raters": [
+        "claude"
+      ]
+    }
+  ]
+}

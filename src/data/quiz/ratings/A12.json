@@ -1,0 +1,1183 @@
+{
+  "rater": "A",
+  "block": "A12",
+  "items": {
+    "economy.ownership.1": {
+      "0": "PIP",
+      "1": "COA SUL STC CO TRA",
+      "2": "LIF HF",
+      "3": "CRA",
+      "-1": "NAS RF EUR",
+      "-2": "IS SF",
+      "split": "COA TRA",
+      "why": "Divides market-led private enterprise from state-led or collective models; liberal, Hamiltonian and cryptoanarchist camps back private firms, import-substitution and socialist camps put the state or society in front.",
+      "notes": {
+        "CRA": "May's Crypto Anarchist Manifesto aims to dissolve state economic power: 3.",
+        "IS": "CEPAL structuralism relies on state credit and public enterprises such as Petrobras and CSN to build industry: -2.",
+        "HF": "Hamilton's Report on Manufactures wants private manufacturers, aided by government: 2.",
+        "COA": "Fujimori privatised heavily while Milosevic and Mugabe kept state control, so adherents differ: 1."
+      }
+    },
+    "economy.ownership.2": {
+      "0": "COA CO RF",
+      "1": "SUL",
+      "2": "IS SF EUR",
+      "3": "NAS",
+      "-1": "STC LIF TRA PIP",
+      "-2": "HF",
+      "-3": "CRA",
+      "split": "COA STC",
+      "why": "Whether commanding heights belong to the state; nationalising camps (Falange, CEPAL, socialists, Eurasianists) say yes, liberal and market camps say no.",
+      "notes": {
+        "NAS": "Falange's 27 points call for nationalising credit and banking and key public services: 3.",
+        "STC": "Salazar and Vargas steered private firms through corporations rather than owning them outright: -1.",
+        "SUL": "Mobutu's 'Zairianisation' and Trujillo's monopolies made key sectors the ruler's own: 1.",
+        "EUR": "Neo-Eurasianism treats energy and strategic resources as state geopolitical assets: 2."
+      }
+    },
+    "economy.ownership.3": {
+      "2": "SF",
+      "-1": "RF",
+      "-2": "COA SUL STC CO IS NAS LIF TRA PIP EUR",
+      "-3": "HF CRA",
+      "why": "Full socialisation of large productive property; only Marxist-rooted socialist feminism endorses it, most others keep private ownership in some form.",
+      "notes": {
+        "SF": "Rooted in Marxism (Zetkin, Kollontai): means of production held in common: 2.",
+        "NAS": "Falange nationalises banks but keeps private property under national control, rejecting Marxism: -2.",
+        "HF": "The Federalist treats protection of unequal property as the first object of government: -3.",
+        "IS": "CEPAL builds mixed economies with private industry alongside state firms: -2."
+      }
+    },
+    "economy.ownership.4": {
+      "0": "RF TRA PIP",
+      "1": "CO SF",
+      "-1": "IS NAS LIF EUR",
+      "-2": "COA SUL STC HF CRA",
+      "split": "CO SF",
+      "why": "Worker ownership of firms; communitarian and socialist camps lean toward it, corporatist, sultanistic and propertarian camps oppose it.",
+      "notes": {
+        "STC": "Corporatism joins employers and workers in guild bodies under the state, not worker ownership: -2.",
+        "CO": "Communitarian economics welcomes cooperatives and employee ownership, though not as a rule: 1.",
+        "SF": "Marxist tradition prefers society-wide ownership over single-firm worker ownership, so some dissent: 1.",
+        "SUL": "A sultan's cronies hold the firms as personal assets: -2."
+      }
+    },
+    "economy.ownership.5": {
+      "0": "CO TRA PIP",
+      "1": "COA STC LIF HF",
+      "3": "CRA",
+      "-1": "SUL RF",
+      "-2": "IS NAS SF EUR",
+      "split": "COA STC",
+      "why": "Privatising failing state firms: market camps and balanced-budget conservatives agree, state-led and socialist camps resist.",
+      "notes": {
+        "IS": "Import-substitution depends on keeping public enterprises as development tools even at a loss: -2.",
+        "STC": "Salazar's balanced budgets favour shedding losses, though Manoilescu-style industrialisers dissent: 1.",
+        "SUL": "State firms are patronage jobs for cronies, so selling them cuts the spoils: -1.",
+        "CRA": "Wants state assets out of state hands entirely: 3."
+      }
+    },
+    "economy.ownership.6": {
+      "0": "SUL IS RF TRA PIP EUR",
+      "1": "COA STC CO NAS LIF HF",
+      "2": "CRA",
+      "-1": "SF",
+      "why": "Household farming versus collective farming; smallholder-friendly and propertarian camps favour households, socialists lean to collectives, many others have little stake.",
+      "notes": {
+        "STC": "Estado Novo ideology idealises the peasant family on its own plot under Church and family: 1.",
+        "NAS": "Falange agrarian reform aims at family holdings and a rooted peasantry: 1.",
+        "SF": "Socialisation of work, including farm work, is the default: -1.",
+        "SUL": "Land is held by the ruler's circle in great estates, so household plots are no concern: 0."
+      }
+    },
+    "economy.ownership.7": {
+      "0": "TRA PIP",
+      "1": "COA STC",
+      "2": "LIF HF",
+      "3": "CRA",
+      "-1": "CO IS RF",
+      "-2": "SUL NAS SF EUR",
+      "why": "Property as a natural right beyond state reach; Lockean liberals and Federalists affirm it, organic, collectivist and sultanistic camps subordinate or ignore it.",
+      "notes": {
+        "NAS": "Falange subordinates property to national function and the state: -2.",
+        "SUL": "Sultans seize and redistribute property at will (Marcos, Mobutu): -2.",
+        "HF": "Federalist doctrine and Adams/Marshall treat property rights as the foundation of the republic: 2.",
+        "CO": "Communitarians reject natural-rights individualism and stress social obligations of property: -1."
+      }
+    },
+    "economy.planning.1": {
+      "0": "SUL PIP",
+      "1": "COA CO HF TRA",
+      "2": "LIF",
+      "3": "CRA",
+      "-1": "STC RF",
+      "-2": "IS NAS SF EUR",
+      "split": "COA",
+      "why": "Markets versus state planning as the better allocator; liberal and libertarian camps trust the market, structuralist, corporatist, socialist and Eurasianist camps trust directed coordination.",
+      "notes": {
+        "CRA": "Untraceable markets are the cypherpunk route around state planning: 3.",
+        "IS": "Prebisch argues unregulated markets lock peripheral countries into raw-material exports, hence planning: -2.",
+        "STC": "Corporatist guilds are meant to replace both class conflict and market competition: -1.",
+        "SUL": "A predatory ruler has no stake in allocation efficiency, only in the take: 0."
+      }
+    },
+    "economy.planning.2": {
+      "0": "CO",
+      "1": "COA SUL IS RF",
+      "2": "STC NAS SF EUR",
+      "-1": "LIF TRA PIP",
+      "-2": "HF",
+      "-3": "CRA",
+      "split": "COA",
+      "why": "State-set prices for necessities; corporatist, nationalist and socialist camps accept it, liberal and libertarian camps prefer market prices with targeted aid.",
+      "notes": {
+        "STC": "Estado Novo fixed prices of bread, wheat and rents through its corporative bodies: 2.",
+        "SUL": "Rulers like Marcos and Trujillo set staple prices to buy urban loyalty: 1.",
+        "HF": "Hamilton's commercial republic relies on market pricing, not state price-setting: -2.",
+        "SF": "Socialist feminists back public control of the cost of basic reproduction goods: 2."
+      }
+    },
+    "economy.planning.3": {
+      "1": "SF",
+      "-1": "RF",
+      "-2": "COA SUL STC CO IS NAS TRA PIP EUR",
+      "-3": "LIF HF CRA",
+      "split": "SF",
+      "why": "Total central planning without prices; only the Marxist-rooted camp leans toward it, almost everyone else keeps markets alongside state direction.",
+      "notes": {
+        "SF": "Marxist heritage favours planned production, though many modern socialist feminists want democratic, market-using forms: 1.",
+        "IS": "CEPAL planning steers private and public industry but keeps prices and trade: -2.",
+        "NAS": "Falange wants state direction and syndicates, not abolition of prices: -2.",
+        "CRA": "The whole project is untraceable market exchange: -3."
+      }
+    },
+    "economy.planning.4": {
+      "0": "COA RF TRA",
+      "1": "STC SF",
+      "2": "NAS EUR",
+      "3": "IS",
+      "-1": "SUL CO LIF HF PIP",
+      "-3": "CRA",
+      "why": "Multi-year output targets in key industries; developmentalist and nationalist camps embrace them, liberal and libertarian camps do not.",
+      "notes": {
+        "IS": "Kubitschek's Plano de Metas set explicit sectoral output targets, the model case: 3.",
+        "STC": "Salazar's Planos de Fomento were modest indicative plans within a balanced budget: 1.",
+        "SUL": "Rule by personal whim, not by plan; Mobutu's grand projects were not coordinated targets: -1.",
+        "HF": "Hamilton promotes manufactures by bounties and credit rather than fixed quotas: -1."
+      }
+    },
+    "economy.planning.5": {
+      "0": "COA SUL PIP",
+      "1": "STC CO IS NAS RF EUR",
+      "2": "SF",
+      "-1": "LIF TRA",
+      "-2": "HF",
+      "-3": "CRA",
+      "split": "CO",
+      "why": "Rent and price ceilings on housing; socialist and corporatist camps accept them, liberal and propertarian camps see them as harmful interference.",
+      "notes": {
+        "STC": "Salazar's Estado Novo froze urban rents for decades via the Lei do Inquilinato: 1.",
+        "SF": "Housing as a social right and part of reproductive security: 2.",
+        "HF": "Federalist commercial republic rejects state price controls on property: -2.",
+        "CRA": "Price controls are state coercion of voluntary exchange: -3."
+      }
+    },
+    "economy.planning.6": {
+      "0": "COA SUL CO RF PIP",
+      "1": "LIF HF TRA",
+      "2": "CRA",
+      "-1": "STC IS NAS SF EUR",
+      "split": "SF",
+      "why": "Market prices under public ownership (market socialism); market-friendly camps welcome it, planning-minded and corporatist camps lean against.",
+      "notes": {
+        "CRA": "Prices should emerge from voluntary exchange whoever owns the firm: 2.",
+        "IS": "CEPAL wants administered pricing and credit direction in strategic sectors: -1.",
+        "NAS": "State-run economy under syndicates implies administered rather than market prices: -1.",
+        "SF": "Some socialist feminists accept market socialism, others plan; typical lean is against pure market pricing: -1."
+      }
+    },
+    "economy.planning.7": {
+      "1": "HF",
+      "3": "CRA",
+      "-1": "COA SUL LIF RF TRA PIP",
+      "-2": "STC CO IS NAS SF EUR",
+      "split": "LIF",
+      "why": "Whether the state should hold back from prices even in a disaster-driven food shock; propertarian camps say yes, most others accept emergency intervention.",
+      "notes": {
+        "CRA": "No state role in prices under any circumstance: 3.",
+        "STC": "Catholic corporatism puts solidarity and the just price above price signals in a crisis: -2.",
+        "CO": "Communitarians prize mutual obligation in emergencies over strict non-intervention: -2.",
+        "HF": "Hamilton's commercial outlook dislikes price controls, though he accepted emergency state action: 1."
+      }
+    },
+    "economy.planning.8": {
+      "0": "SUL RF",
+      "1": "COA CO TRA PIP",
+      "2": "LIF HF",
+      "3": "CRA",
+      "-1": "STC IS NAS SF EUR",
+      "split": "COA",
+      "why": "Firms' freedom to set their own prices without permits; liberal, Hamiltonian and libertarian camps agree, statist and corporatist camps keep state approval.",
+      "notes": {
+        "CRA": "Pricing without any authority is the baseline of crypto-anarchist markets: 3.",
+        "STC": "Corporative bodies and state organs fixed prices and quotas under Salazar: -1.",
+        "SUL": "Pricing follows the ruler's cronies and monopolies, not a rule either way: 0.",
+        "COA": "Fujimori-style liberalised pricing versus Milosevic-era controls splits adherents: 1."
+      }
+    },
+    "economy.steering.1": {
+      "0": "SUL CO SF RF",
+      "1": "COA STC TRA",
+      "2": "NAS HF EUR",
+      "3": "IS",
+      "-1": "LIF PIP",
+      "-3": "CRA",
+      "why": "Industrial policy that picks leading sectors; developmentalists, Hamiltonians and nationalists back it, liberals and libertarians distrust state picking of winners.",
+      "notes": {
+        "IS": "CEPAL and Kubitschek's Plano de Metas concentrate credit and incentives on steel, autos and energy: 3.",
+        "HF": "Hamilton's Report on Manufactures asks for bounties and protection aimed at chosen industries: 2.",
+        "TRA": "Technoprogressives want public funding to push AI and biotech, but not a fixed list of sectors: 1.",
+        "CRA": "Any state allocation of capital is coercion: -3."
+      }
+    },
+    "economy.steering.2": {
+      "0": "HF PIP",
+      "1": "COA LIF TRA",
+      "3": "CRA",
+      "-1": "SUL STC CO IS NAS RF EUR",
+      "-2": "SF",
+      "split": "COA",
+      "why": "Whether fewer permits and rules create more wealth; libertarian camps say yes, most state-led, corporatist, communitarian and left camps want regulation to shape the economy.",
+      "notes": {
+        "CRA": "May's manifesto: crypto-anarchy makes licensing and regulation unenforceable: 3.",
+        "SUL": "Licences and permits are a tool of extraction and monopoly for the ruler's circle: -1.",
+        "SF": "Regulation protects workers and care labour from market pressure: -2.",
+        "COA": "Fujimori deregulated, while Milosevic and Mugabe used controls to keep rivals down: 1."
+      }
+    },
+    "economy.steering.3": {
+      "1": "CO NAS RF PIP",
+      "2": "SF",
+      "-1": "COA STC IS LIF TRA EUR",
+      "-2": "SUL HF",
+      "-3": "CRA",
+      "why": "Breaking up dominant firms even when earned; anti-capitalist and anti-monopoly camps accept it, state-champion, liberal and propertarian camps resist.",
+      "notes": {
+        "SF": "Anti-capitalist critique of concentrated corporate power: 2.",
+        "SUL": "The big monopolies are the ruler's and cronies' own (Trujillo, Somoza holdings): -2.",
+        "PIP": "Pirate politics targets media and platform monopolies and copyright cartels: 1.",
+        "IS": "CEPAL builds large national champions behind tariff walls: -1."
+      }
+    },
+    "economy.steering.4": {
+      "0": "CO RF HF TRA",
+      "1": "STC LIF PIP",
+      "3": "CRA",
+      "-1": "COA IS NAS SF EUR",
+      "-2": "SUL",
+      "why": "No bailouts for failing firms however large; libertarian, balanced-budget and anti-corporate camps say no bailouts, state-led and crony regimes rescue key firms.",
+      "notes": {
+        "STC": "Salazar's balanced-budget rule ruled out rescue spending: 1.",
+        "SUL": "Rescuing and enriching the ruler's cronies' firms is the system itself: -2.",
+        "PIP": "Opposes corporate bailouts as unaccountable transfers from the public: 1.",
+        "IS": "State credit keeps strategic industrial firms alive during development: -1."
+      }
+    },
+    "economy.steering.5": {
+      "0": "COA LIF HF PIP",
+      "1": "STC CO IS RF EUR",
+      "2": "NAS SF",
+      "-1": "SUL TRA",
+      "-3": "CRA",
+      "why": "Tight regulation of banks even at the cost of growth; anti-finance nationalist and socialist camps want it, libertarian and crony camps oppose.",
+      "notes": {
+        "NAS": "Falange's 27 points subordinate finance to the nation, with banking nationalised: 2.",
+        "STC": "Salazar's conservative, tightly supervised banking under the Estado Novo: 1.",
+        "SUL": "Banks are the ruler's and cronies' own purses, free of oversight: -1.",
+        "CRA": "Anonymous money exists to escape bank and state control: -3."
+      }
+    },
+    "economy.steering.6": {
+      "3": "CRA",
+      "-1": "COA SUL PIP",
+      "-2": "STC CO IS NAS LIF SF RF HF TRA EUR",
+      "why": "Night-watchman state for business; only libertarian cryptoanarchists accept it, every other camp wants labour, safety, social or developmental rules.",
+      "notes": {
+        "CRA": "May's manifesto treats all state rules beyond voluntary contract as illegitimate: 3.",
+        "LIF": "Liberal feminists rely on workplace and anti-discrimination law: -2.",
+        "SUL": "Sultans impose arbitrary demands on business, but have no regulatory philosophy: -1.",
+        "HF": "Hamilton wants an active state with tariffs, bank and credit: -2."
+      }
+    },
+    "economy.steering.7": {
+      "0": "COA CO SF RF HF",
+      "1": "LIF TRA PIP",
+      "3": "CRA",
+      "-1": "SUL STC IS NAS EUR",
+      "split": "COA",
+      "why": "Licence-free small business; libertarian and open-economy camps agree, corporatist, state-led and crony regimes use licensing to control entry.",
+      "notes": {
+        "STC": "Corporative bodies and guild-like organs supervise who may practise a trade: -1.",
+        "SUL": "Licences are a source of rents for the ruler's circle (Marcos, Trujillo): -1.",
+        "CRA": "Permissionless commerce is the core aim: 3.",
+        "COA": "Open for small traders in Fujimori's Peru, but licensing is used to harass opponents elsewhere: 0."
+      }
+    },
+    "economy.steering.8": {
+      "0": "COA SUL CO RF TRA",
+      "1": "STC SF",
+      "2": "NAS HF EUR",
+      "3": "IS",
+      "-1": "LIF PIP",
+      "-3": "CRA",
+      "why": "State-led industrialisation in a poor country; structuralist, nationalist and Hamiltonian camps say the state must lead, liberals and libertarians do not.",
+      "notes": {
+        "IS": "Prebisch and Furtado: periphery cannot catch up on market signals alone, so the state leads: 3.",
+        "HF": "Hamilton's Report on Manufactures treats a strong state as the engine of an infant economy: 2.",
+        "EUR": "Eurasianism wants a strong state steering great-space development against Western liberal markets: 2.",
+        "LIF": "Prefers open markets and rule of law, with state support for education: -1."
+      }
+    },
+    "distribution.tax.1": {
+      "0": "PIP EUR",
+      "1": "CO IS NAS LIF RF TRA",
+      "2": "SF",
+      "-1": "COA STC HF",
+      "-2": "SUL",
+      "-3": "CRA",
+      "split": "LIF",
+      "why": "Confiscatory top marginal rates; socialist and redistributive camps accept them, propertarian, crony and conservative camps resist.",
+      "notes": {
+        "SF": "Class and gender analysis calls for redistribution from capital: 2.",
+        "SUL": "The ruler's circle is the top earner class, and rules by exemption: -2.",
+        "CRA": "The manifesto's aim is to make income untraceable and untaxable: -3.",
+        "HF": "Hamilton funded the state through excises and tariffs and courted wealthy creditors: -1."
+      }
+    },
+    "distribution.tax.2": {
+      "0": "CO IS TRA PIP",
+      "1": "COA HF EUR",
+      "2": "SUL STC",
+      "3": "CRA",
+      "-1": "NAS LIF RF",
+      "-2": "SF",
+      "why": "Untaxed inheritance; family-dynasty and propertarian camps defend it, egalitarian camps want it taxed.",
+      "notes": {
+        "SUL": "Power and property pass down the ruler's family (Somoza, Duvalier-style succession): 2.",
+        "STC": "Gia dinh (family) in the Estado Novo slogan 'Deus, Patria, Familia' includes family patrimony: 2.",
+        "LIF": "Mill argued for limiting the right of bequest in favour of equal opportunity: -1.",
+        "SF": "Inherited wealth entrenches class and household inequality: -2."
+      }
+    },
+    "distribution.tax.3": {
+      "0": "COA STC EUR",
+      "1": "CO IS NAS RF TRA PIP",
+      "2": "LIF SF",
+      "-1": "SUL HF",
+      "-3": "CRA",
+      "split": "COA",
+      "why": "Progressive income taxation; liberal and left camps support it, crony, conservative and libertarian camps do not.",
+      "notes": {
+        "LIF": "Modern liberal feminism accepts graduated taxes to fund equal opportunity: 2.",
+        "HF": "Hamilton's revenue rested on tariffs and excises, not graduated income tax: -1.",
+        "SUL": "Taxes fall on the weak while the ruler's circle evades them: -1.",
+        "CRA": "All income taxation is theft: -3."
+      }
+    },
+    "distribution.tax.4": {
+      "0": "SUL STC EUR",
+      "1": "COA HF CRA",
+      "-1": "CO IS NAS LIF RF TRA PIP",
+      "-2": "SF",
+      "split": "COA",
+      "why": "A single flat income-tax rate; market-friendly camps accept it as lesser evil, redistributive camps prefer graduated rates.",
+      "notes": {
+        "SF": "Flat taxation is regressive in effect on lower earners and carers: -2.",
+        "CRA": "Would prefer no income tax, but a flat rate is closer to their ideal than a progressive one: 1.",
+        "COA": "Fujimori-era and post-communist hybrids often adopted flat or low-rate regimes: 1.",
+        "STC": "Salazar cared about fiscal balance rather than rate structure: 0."
+      }
+    },
+    "distribution.tax.5": {
+      "0": "IS LIF PIP EUR",
+      "1": "CO NAS RF TRA",
+      "2": "SF",
+      "-1": "COA STC",
+      "-2": "SUL HF",
+      "-3": "CRA",
+      "split": "LIF",
+      "why": "A modest annual levy on large fortunes; left and communitarian camps lean for it, propertarian, conservative and crony camps against.",
+      "notes": {
+        "SF": "Tax on accumulated capital targets the class basis of inequality: 2.",
+        "HF": "Federalist doctrine puts security of property above redistribution: -2.",
+        "TRA": "Technoprogressives tax AI-era concentrated wealth to fund shared abundance: 1.",
+        "SUL": "A wealth levy would hit the ruler's circle: -2."
+      }
+    },
+    "distribution.tax.6": {
+      "1": "NAS RF",
+      "2": "SF",
+      "-1": "CO IS LIF TRA PIP EUR",
+      "-2": "COA SUL STC",
+      "-3": "HF CRA",
+      "why": "Heavy wealth taxation aimed at dissolving giant fortunes; socialist and anti-capitalist camps accept it, others find it too confiscatory.",
+      "notes": {
+        "SF": "Breaking up concentrated capital is part of the class-gender programme: 2.",
+        "NAS": "Falange attacks finance capital and big estates as part of the national revolution: 1.",
+        "HF": "The Federalist: the first object of government is protecting unequal faculties and the property they yield: -3.",
+        "STC": "Catholic corporatism rejects confiscatory levies in favour of class harmony: -2."
+      }
+    },
+    "distribution.tax.7": {
+      "0": "COA CO RF TRA PIP",
+      "1": "IS SF",
+      "2": "NAS",
+      "-1": "STC LIF EUR",
+      "-2": "SUL HF",
+      "-3": "CRA",
+      "split": "COA",
+      "why": "Ceilings on land ownership; agrarian-reform camps (Falange, CEPAL, socialists) accept them, landed and propertarian camps reject them.",
+      "notes": {
+        "NAS": "Falange's 27 points demand agrarian reform and break-up of idle estates: 2.",
+        "IS": "CEPAL structuralists saw latifundia as a brake on the home market and backed land reform: 1.",
+        "SUL": "Rulers like Trujillo and Somoza were themselves the great landholders: -2.",
+        "COA": "Mugabe's land seizures contrast with Fujimori's market titling: 0."
+      }
+    },
+    "distribution.tax.8": {
+      "0": "SUL LIF PIP EUR",
+      "1": "COA STC HF",
+      "3": "CRA",
+      "-1": "CO IS NAS RF TRA",
+      "-2": "SF",
+      "why": "Whether low taxes serve everyone including the poor (a trickle-down claim); libertarian and conservative camps say yes, redistributive camps say taxes fund what the poor need.",
+      "notes": {
+        "CRA": "Low taxes and untraceable money enrich all by freeing exchange: 3.",
+        "SF": "Cuts to taxes mean cuts to care and public services that fall on women: -2.",
+        "STC": "Salazar's low-tax, balanced-budget policy was presented as sound for all: 1.",
+        "NAS": "Falange wants a state strong enough to provide for workers: -1."
+      }
+    },
+    "distribution.tax.9": {
+      "0": "STC PIP EUR",
+      "1": "CO IS LIF TRA",
+      "2": "NAS RF",
+      "3": "SF",
+      "-1": "COA SUL",
+      "-2": "HF",
+      "-3": "CRA",
+      "why": "Whether a wide wealth gap is unjust even when honestly earned; egalitarian camps say yes, propertarian and elite camps say no.",
+      "notes": {
+        "SF": "Class inequality is built into capitalism's use of unpaid care work: 3.",
+        "HF": "Hamilton and the Federalists accepted natural inequality of wealth as the order of a commercial republic: -2.",
+        "LIF": "Liberals accept inequality of outcome only under fair opportunity, hence a mild yes: 1.",
+        "CRA": "Honest wealth is simply earned: -3."
+      }
+    },
+    "distribution.tax.10": {
+      "0": "SUL HF",
+      "3": "CRA",
+      "-1": "COA STC IS TRA PIP EUR",
+      "-2": "CO NAS LIF SF RF",
+      "why": "Abolition of income tax; crypto-anarchists want it, nearly everyone else wants a state funded by it, though some conservatives would rely on other levies.",
+      "notes": {
+        "CRA": "May's manifesto: untraceable transactions make income taxation unenforceable, and that is the goal: 3.",
+        "HF": "Hamilton funded government by tariffs and excises, so income tax is not his concern: 0.",
+        "SF": "Funding for social care and equality rests on progressive taxation: -2.",
+        "SUL": "Sultans extract by plunder and monopoly rather than formal taxation: 0."
+      }
+    },
+    "distribution.tax.11": {
+      "0": "TRA PIP EUR",
+      "1": "COA SUL STC LIF",
+      "2": "HF",
+      "3": "CRA",
+      "-1": "CO IS NAS RF",
+      "-2": "SF",
+      "why": "Whether the honest rich may keep most of what they earn; propertarian and elite camps agree, egalitarian and communitarian camps place social claims on it.",
+      "notes": {
+        "HF": "The Federalist treats protection of acquired property as government's first duty: 2.",
+        "SF": "Wealth rests on unpaid care labour and is socially produced: -2.",
+        "NAS": "Falange subordinates wealth to national and social function: -1.",
+        "SUL": "The ruler and cronies keep what they take, but 'honestly earned' is not their idiom: 1."
+      }
+    },
+    "distribution.welfare.1": {
+      "1": "COA CO IS LIF PIP EUR",
+      "2": "NAS RF TRA",
+      "3": "SF",
+      "-1": "SUL STC HF",
+      "-3": "CRA",
+      "why": "Universal free health and schooling; left, feminist and technoprogressive camps want it, crony, conservative-corporatist, Hamiltonian and libertarian camps leave it to elites, Church or market.",
+      "notes": {
+        "SF": "Socialising care and reproduction is the core programme (Kollontai, Rowbotham): 3.",
+        "TRA": "Longevity and cognitive enhancement should be broadly available through public provision: 2.",
+        "STC": "Estado Novo left schooling largely to the Church and kept welfare minimal: -1.",
+        "SUL": "Services are doled out as patronage, not guaranteed: -1."
+      }
+    },
+    "distribution.welfare.2": {
+      "0": "STC",
+      "1": "COA SUL HF",
+      "3": "CRA",
+      "-1": "CO IS NAS LIF RF TRA PIP EUR",
+      "-2": "SF",
+      "split": "COA",
+      "why": "Private savings instead of public pensions; libertarians and elite camps agree, most welfare-minded and nationalist camps keep a state pension.",
+      "notes": {
+        "CRA": "Private savings, in untraceable form, instead of state redistribution: 3.",
+        "STC": "Salazar's regime used contributory corporative insurance funds, neither pure savings nor tax-funded pension: 0.",
+        "SF": "Women's unpaid care leaves them with few savings, so a public pension is vital: -2.",
+        "COA": "Fujimori privatised pensions (AFP) while Milosevic-era regimes kept state pensions: 1."
+      }
+    },
+    "distribution.welfare.3": {
+      "0": "NAS",
+      "1": "COA SUL CO HF EUR",
+      "2": "STC CRA",
+      "-1": "IS LIF PIP",
+      "-2": "RF TRA",
+      "-3": "SF",
+      "why": "Elder care as a duty of children rather than the state; family-centred conservative camps and libertarians say yes, feminists and technoprogressives want care socialised.",
+      "notes": {
+        "STC": "'Deus, Patria, Familia': subsidiarity places care in the family first: 2.",
+        "SF": "Care work must be socialised, not left to women in the home: -3.",
+        "CO": "Etzioni couples rights with responsibilities, with family first but not alone: 1.",
+        "TRA": "Aging is a medical and public problem, not just a household burden: -2."
+      }
+    },
+    "distribution.welfare.4": {
+      "0": "NAS",
+      "1": "COA SUL CO EUR",
+      "2": "STC HF CRA",
+      "-1": "IS LIF TRA PIP",
+      "-2": "SF RF",
+      "why": "Generous aid breeding dependency; conservative, Hamiltonian and libertarian camps say so, left, feminist and technoprogressive camps reject the claim.",
+      "notes": {
+        "STC": "Salazar's work-and-thrift ethic: dependency erodes self-reliance: 2.",
+        "CO": "Etzioni and Putnam worry about eroded civic responsibility, though not mainly welfare: 1.",
+        "SF": "Treats the 'idle poor' narrative as hostile to women on benefits: -2.",
+        "NAS": "Falange stresses duty to work and solidarity at once, no clear lean: 0."
+      }
+    },
+    "distribution.welfare.5": {
+      "0": "LIF",
+      "1": "SF RF PIP",
+      "2": "TRA",
+      "-1": "COA SUL CO IS CRA",
+      "-2": "STC NAS HF EUR",
+      "split": "LIF",
+      "why": "Unconditional universal basic income; technoprogressive, feminist and digital-rights camps lean in favour, work-ethic, corporatist and traditionalist camps against.",
+      "notes": {
+        "TRA": "Hughes's Citizen Cyborg and AI-abundance visions pair automation with basic income: 2.",
+        "PIP": "Pirate parties often put basic income in their programmes: 1.",
+        "STC": "Work, family and corporative duty are central; a free stipend breaks that: -2.",
+        "CRA": "Dislikes state transfers, though would welcome crypto-based income: -1."
+      }
+    },
+    "distribution.welfare.6": {
+      "0": "COA PIP",
+      "1": "SUL HF",
+      "2": "STC CO CRA EUR",
+      "-1": "IS NAS LIF RF",
+      "-2": "SF TRA",
+      "why": "Kin, village and mutual-aid networks against state welfare; communitarian, corporatist and libertarian camps favour civil society, left and technoprogressive camps do not.",
+      "notes": {
+        "CO": "Putnam and Etzioni hold civic associations and families sustain the common good better than bureaucracies: 2.",
+        "STC": "Subsidiarity and Church charity as in Salazar's Portugal: 2.",
+        "CRA": "Voluntary mutual aid replaces coercive welfare: 2.",
+        "SF": "Reliance on kin and village pushes care onto unpaid women: -2."
+      }
+    },
+    "distribution.welfare.7": {
+      "0": "COA IS PIP",
+      "1": "NAS TRA",
+      "2": "RF",
+      "3": "SF",
+      "-1": "LIF",
+      "-2": "SUL STC CO HF EUR",
+      "-3": "CRA",
+      "why": "A cradle-to-grave state that frees people from family dependence; feminist-left camps want it, family-centred and conservative camps defend the household.",
+      "notes": {
+        "SF": "Socialising childcare and elder care is the core demand (Kollontai): 3.",
+        "RF": "Firestone's Dialectic of Sex aims to free women from the family's dependency structure: 2.",
+        "STC": "State care displaces the family, which is the basis of the Estado Novo: -2.",
+        "TRA": "Welcomes independence from kin, though through tech and abundance as much as the state: 1."
+      }
+    },
+    "distribution.welfare.8": {
+      "0": "STC",
+      "1": "SUL",
+      "3": "CRA",
+      "-1": "COA CO HF EUR",
+      "-2": "IS NAS LIF RF TRA PIP",
+      "-3": "SF",
+      "why": "Full privatisation of health, schooling and pensions; only libertarians accept it, most camps keep a public role.",
+      "notes": {
+        "CRA": "All services via voluntary or private exchange: 3.",
+        "SF": "Privatised care returns the burden to unpaid women and deepens class gaps: -3.",
+        "STC": "Church and family provide much, yet corporative state funds exist, so mixed: 0.",
+        "SUL": "No public-service ethic at all; private (cronies') provision is the default: 1."
+      }
+    },
+    "distribution.welfare.9": {
+      "0": "HF",
+      "1": "COA STC IS EUR",
+      "2": "CO NAS LIF SF RF TRA PIP",
+      "-1": "SUL",
+      "-3": "CRA",
+      "why": "A safety net for those truly unable to provide for themselves; nearly all camps accept a minimal guarantee, only libertarians and predatory rulers refuse.",
+      "notes": {
+        "CRA": "No state may tax to provide a minimum, charity only: -3.",
+        "STC": "Church-linked relief for the helpless fits Catholic social teaching: 1.",
+        "HF": "Hamilton was more concerned with credit and commerce than relief; no stake: 0.",
+        "SUL": "The state is the ruler's property, with no duty to the destitute: -1."
+      }
+    },
+    "distribution.labour.1": {
+      "0": "TRA PIP",
+      "1": "COA SUL HF",
+      "3": "CRA",
+      "-1": "STC CO IS LIF RF EUR",
+      "-2": "NAS SF",
+      "why": "Free hiring and firing; libertarian and propertarian camps agree, corporatist, nationalist and left camps want job protection.",
+      "notes": {
+        "CRA": "Free contract between parties without state regulation: 3.",
+        "NAS": "Falange's syndicates promise workers protection against capitalist arbitrariness: -2.",
+        "LIF": "Liberal feminists back anti-discrimination and maternity protections that limit firing: -1.",
+        "SUL": "The ruler's circle hires and fires at will, workers have no recourse: 1."
+      }
+    },
+    "distribution.labour.2": {
+      "0": "IS TRA CRA",
+      "1": "CO LIF RF PIP",
+      "2": "SF",
+      "-1": "COA NAS HF EUR",
+      "-2": "SUL STC",
+      "split": "IS",
+      "why": "Strong independent unions; socialist and liberal-feminist camps back them, authoritarian and corporatist regimes control or replace them.",
+      "notes": {
+        "SF": "Zetkin and Kollontai tie women's liberation to organised labour: 2.",
+        "STC": "Estado Novo's sindicatos nacionais were state-supervised and strikes banned: -2.",
+        "NAS": "Falange's vertical syndicates put workers and bosses together under the state: -1.",
+        "IS": "Latin American developmentalists (Vargas, Peron) built state-linked unions: 0."
+      }
+    },
+    "distribution.labour.3": {
+      "0": "COA PIP",
+      "1": "STC CO IS RF TRA EUR",
+      "2": "NAS LIF SF",
+      "-1": "SUL HF",
+      "-3": "CRA",
+      "split": "COA",
+      "why": "Statutory minimum wage; left and liberal camps and nationalists support it, libertarian, Hamiltonian and crony camps do not.",
+      "notes": {
+        "LIF": "Equal pay and wage floors are standard liberal-feminist goals: 2.",
+        "CRA": "Wage floors are state intrusion into voluntary contracts: -3.",
+        "HF": "Hamilton held wages to be the market's business: -1.",
+        "STC": "Corporative collective contracts set pay floors in Salazar's system: 1."
+      }
+    },
+    "distribution.labour.4": {
+      "0": "LIF RF TRA PIP",
+      "1": "CO IS NAS SF EUR",
+      "2": "STC",
+      "-1": "COA SUL",
+      "-2": "HF",
+      "-3": "CRA",
+      "why": "A family-supporting minimum wage regardless of small-firm burden; Catholic and communitarian camps hold a family-wage ideal, market camps reject it.",
+      "notes": {
+        "STC": "Catholic social teaching (Rerum Novarum) argues a just wage supports a worker's family: 2.",
+        "HF": "Hamilton saw wages as a market outcome: -2.",
+        "LIF": "Liberal feminists favour wage floors but dislike a male-breadwinner family wage framing: 0.",
+        "CRA": "No state pay mandates at all: -3."
+      }
+    },
+    "distribution.labour.5": {
+      "0": "PIP EUR",
+      "1": "CO NAS RF",
+      "2": "SF",
+      "-1": "COA STC IS LIF TRA",
+      "-2": "SUL HF",
+      "-3": "CRA",
+      "why": "A legal cap on executive pay relative to the lowest wage; socialist and communitarian camps accept it, most market and elite camps reject it.",
+      "notes": {
+        "SF": "Class equality and valuing low-paid care work support a ratio cap: 2.",
+        "HF": "Hamilton's commercial republic treats reward for talent and capital as natural: -2.",
+        "NAS": "Falange attacks finance-capital excess in the name of national solidarity: 1.",
+        "SUL": "The ruler and cronies take unlimited shares of the national wealth: -2."
+      }
+    },
+    "distribution.labour.6": {
+      "0": "CO IS TRA CRA",
+      "1": "COA HF EUR",
+      "2": "SUL NAS",
+      "3": "STC",
+      "-1": "LIF RF PIP",
+      "-2": "SF",
+      "why": "Whether strikes do more harm than good; authoritarian and corporatist regimes ban them as class-war, labour-friendly camps defend them.",
+      "notes": {
+        "STC": "Strikes were outlawed in Salazar's Portugal and Dollfuss's Austria as breaking class harmony: 3.",
+        "NAS": "Falange aims at class collaboration inside state syndicates: 2.",
+        "SF": "Strikes are a key weapon of class and gender struggle: -2.",
+        "CRA": "Strike is a voluntary act, and the state ban is the issue; no stake in the harm claim: 0."
+      }
+    },
+    "distribution.labour.7": {
+      "0": "COA IS LIF EUR",
+      "1": "STC NAS RF TRA PIP",
+      "2": "CO SF",
+      "-1": "CRA",
+      "-2": "SUL HF",
+      "why": "Worker representation on company boards (co-determination); communitarian and socialist camps want it, elite, crony and libertarian camps oppose it.",
+      "notes": {
+        "CO": "Etzioni and Sandel argue firms are communities with stakeholders: 2.",
+        "STC": "Corporatism seeks joint capital-labour bodies, but under state control: 1.",
+        "HF": "The Federalists sought rule by men of property and standing: -2.",
+        "CRA": "Voluntary boards fine, but not as a requirement: -1."
+      }
+    },
+    "distribution.labour.9": {
+      "0": "SUL CO RF TRA PIP EUR",
+      "1": "COA LIF HF",
+      "3": "CRA",
+      "-1": "IS SF",
+      "-2": "STC NAS",
+      "why": "Right to work without compulsory union membership; libertarian and liberal camps support it, corporatist and syndicalist regimes make membership mandatory.",
+      "notes": {
+        "CRA": "Any compelled association or dues is coercion: 3.",
+        "STC": "Estado Novo sindicatos nacionais were compulsory for each trade: -2.",
+        "NAS": "Falange's vertical syndicates enrolled all producers by obligation: -2.",
+        "SF": "Union security clauses are often accepted as a defence of collective strength: -1."
+      }
+    },
+    "trade.goods.1": {
+      "0": "SUL RF",
+      "1": "COA LIF TRA PIP",
+      "3": "CRA",
+      "-1": "STC CO SF",
+      "-2": "NAS HF EUR",
+      "-3": "IS",
+      "split": "COA",
+      "why": "Tariff-free cheap imports for consumers; liberal and libertarian camps agree, protectionist, nationalist and developmentalist camps do not.",
+      "notes": {
+        "IS": "Tariff walls are the central instrument of import-substitution (Prebisch, CEPAL): -3.",
+        "HF": "Hamilton's Report on Manufactures and the 1789 tariff protect domestic producers: -2.",
+        "CRA": "Free trade with no state barrier: 3.",
+        "COA": "Fujimori opened Peru's markets sharply; other hybrid regimes did not: 1."
+      }
+    },
+    "trade.goods.2": {
+      "0": "COA SUL SF RF",
+      "1": "CO",
+      "2": "STC NAS HF EUR",
+      "3": "IS",
+      "-1": "LIF TRA PIP",
+      "-3": "CRA",
+      "why": "High tariffs to shield farmers and local producers; protectionist and nationalist camps agree, liberal and libertarian camps do not.",
+      "notes": {
+        "IS": "Raising import duties on manufactured goods to build domestic output is the doctrine's core: 3.",
+        "STC": "Salazar's 'wheat campaign' protected national cereals behind tariffs: 2.",
+        "HF": "Hamilton favoured duties to protect domestic manufactures: 2.",
+        "CRA": "Tariffs are taxes by force: -3."
+      }
+    },
+    "trade.goods.3": {
+      "0": "COA SUL LIF SF RF TRA",
+      "1": "STC CO",
+      "2": "NAS EUR",
+      "3": "IS HF",
+      "-1": "PIP",
+      "-3": "CRA",
+      "why": "Infant-industry protection; the classic Hamiltonian and structuralist argument, which nationalist camps share, while liberals accept it only as an exception and libertarians reject it.",
+      "notes": {
+        "HF": "Hamilton's Report on Manufactures (1791) is the founding statement of infant-industry protection: 3.",
+        "IS": "Prebisch and Furtado build industry behind tariffs until it can compete: 3.",
+        "LIF": "Mill allowed temporary protection of infant industry in his Principles, but it is not a feminist concern: 0.",
+        "CRA": "No state barriers of any kind: -3."
+      }
+    },
+    "trade.goods.4": {
+      "0": "COA SUL SF RF",
+      "1": "STC CO IS",
+      "2": "NAS EUR",
+      "-1": "HF PIP",
+      "-2": "LIF TRA",
+      "-3": "CRA",
+      "why": "Permanent rather than temporary tariffs; nationalist and corporatist camps accept lasting protection, while Hamiltonian infant-industry logic and liberals want it to end.",
+      "notes": {
+        "HF": "Hamilton's case is temporary support until industries mature: -1.",
+        "NAS": "Falange's national economy puts domestic jobs and autarky first, no sunset: 2.",
+        "EUR": "A closed great-space economy implies lasting protection from Western markets: 2.",
+        "IS": "Prebisch later criticised permanent protection as ISI stagnated, so only mild: 1."
+      }
+    },
+    "trade.goods.5": {
+      "0": "SUL",
+      "1": "COA",
+      "2": "LIF TRA CRA",
+      "-1": "STC CO RF HF PIP",
+      "-2": "IS NAS SF EUR",
+      "split": "PIP",
+      "why": "Whether free-trade agreements net benefit participants; liberal and tech camps say yes, protectionist, nationalist, socialist and Eurasianist camps say no.",
+      "notes": {
+        "IS": "CEPAL's unequal-exchange thesis says FTAs lock the periphery into raw-material roles: -2.",
+        "PIP": "Pirate parties campaigned against ACTA and secret trade deals with IP clauses, though some pro-trade members dissent: -1.",
+        "CO": "Sandel and Putnam criticise globalisation's erosion of community: -1.",
+        "EUR": "Opposes Western-led economic integration: -2."
+      }
+    },
+    "trade.goods.6": {
+      "0": "SUL SF RF",
+      "1": "COA CO HF",
+      "2": "STC IS NAS EUR",
+      "-1": "LIF PIP",
+      "-2": "TRA",
+      "-3": "CRA",
+      "why": "Buy-national preference even at a price or quality cost; nationalist and corporatist camps ask it, cosmopolitan liberal and tech camps do not.",
+      "notes": {
+        "NAS": "Falange's national-economy rhetoric asks Spaniards to support national production: 2.",
+        "IS": "Industrial buy-national is the aim of tariff walls, though by policy rather than virtue: 2.",
+        "TRA": "A global humanity-wide outlook rejects national preference: -2.",
+        "CRA": "Stateless, borderless exchange: -3."
+      }
+    },
+    "trade.goods.7": {
+      "0": "SUL RF",
+      "1": "COA LIF TRA PIP",
+      "3": "CRA",
+      "-1": "CO SF",
+      "-2": "STC NAS HF EUR",
+      "-3": "IS",
+      "why": "Unilateral free trade; libertarians and liberals accept it, protectionist camps demand reciprocity or shelter.",
+      "notes": {
+        "CRA": "Free trade regardless of others' barriers: 3.",
+        "IS": "Dropping tariffs unilaterally contradicts the doctrine of industrial protection: -3.",
+        "HF": "Hamilton favoured retaliatory and protective duties against British restrictions: -2.",
+        "COA": "Fujimori's unilateral tariff cuts in the early 1990s: 1."
+      }
+    },
+    "trade.goods.8": {
+      "0": "RF",
+      "1": "COA LIF TRA PIP",
+      "3": "CRA",
+      "-1": "SUL CO SF",
+      "-2": "STC IS NAS HF EUR",
+      "why": "Letting domestic firms face foreign competition even at the cost of closures; market-open camps accept it, protectionist and national-industry camps do not.",
+      "notes": {
+        "IS": "Exposing infant industries to foreign competition would end the project: -2.",
+        "SUL": "Cronies' monopolies live on protection from competition: -1.",
+        "CRA": "Competition without state shelter: 3.",
+        "SF": "Closures cost jobs and fall on workers; solidarity over market discipline: -1."
+      }
+    },
+    "trade.capital.1": {
+      "0": "SF RF HF PIP",
+      "1": "COA CO",
+      "2": "STC IS NAS EUR",
+      "-1": "SUL LIF TRA",
+      "-3": "CRA",
+      "split": "COA",
+      "why": "Barring foreigners from land, ports and strategic firms; nationalist, corporatist and sovereigntist camps say yes, open-market and cosmopolitan camps say no.",
+      "notes": {
+        "EUR": "Neo-Eurasianism treats strategic assets as the core of sovereignty against the Atlantic West: 2.",
+        "NAS": "Falange's national-revolution nationalism puts national resources and ports in national hands: 2.",
+        "SUL": "Sultans sell concessions to foreign firms and investors for personal gain (Mobutu, Marcos): -1.",
+        "HF": "Hamilton welcomed foreign capital for the new republic and had no concern for foreign buyers: 0."
+      }
+    },
+    "trade.capital.2": {
+      "0": "CO RF PIP",
+      "1": "COA SUL LIF HF TRA",
+      "2": "CRA",
+      "-1": "STC SF",
+      "-2": "IS NAS EUR",
+      "split": "COA",
+      "why": "National treatment for foreign investors; market-open camps accept it, nationalist and structuralist camps favour screening.",
+      "notes": {
+        "HF": "Hamilton counted on British and Dutch capital for the Bank and public credit: 1.",
+        "IS": "CEPAL wants state screening of foreign entry to protect the national industrial strategy: -2.",
+        "CRA": "No state-made distinction between buyers: 2.",
+        "SUL": "Foreign investors who pay the ruler are welcomed on any terms: 1."
+      }
+    },
+    "trade.capital.3": {
+      "0": "COA SUL LIF RF HF PIP",
+      "1": "STC CO NAS SF",
+      "2": "IS EUR",
+      "-1": "TRA",
+      "-3": "CRA",
+      "why": "Controls on short-term capital flows to prevent financial crises; developmentalist and sovereigntist camps support them, libertarians reject them.",
+      "notes": {
+        "IS": "CEPAL structuralism accepts exchange and capital controls to protect industrial development: 2.",
+        "CRA": "Cypherpunk tools exist to escape capital controls: -3.",
+        "EUR": "Anti-Western finance stance and sovereignty over capital: 2.",
+        "TRA": "Open global flows serve growth and abundance, so mildly against: -1."
+      }
+    },
+    "trade.capital.4": {
+      "0": "PIP",
+      "1": "COA SUL LIF TRA",
+      "2": "HF CRA",
+      "-1": "STC CO IS RF",
+      "-2": "NAS SF EUR",
+      "split": "IS",
+      "why": "Foreign investment as the fastest route to development; open-market camps say yes, nationalist, socialist and dependency-minded camps say no.",
+      "notes": {
+        "HF": "Hamilton argued that foreign capital is a positive aid in a young country with scarce capital: 2.",
+        "IS": "Kubitschek courted foreign automakers, but CEPAL warns of dependency: -1.",
+        "NAS": "Falange pursues national self-sufficiency and distrusts foreign capital: -2.",
+        "SF": "Sees foreign capital as exploiting cheap female labour: -2."
+      }
+    },
+    "trade.capital.5": {
+      "0": "COA",
+      "1": "STC CO RF PIP",
+      "2": "IS NAS SF EUR",
+      "-1": "SUL LIF HF",
+      "-2": "TRA CRA",
+      "why": "Whether multinationals extract more than they bring; dependency-minded, nationalist and socialist camps say yes, market-open and tech camps say no.",
+      "notes": {
+        "IS": "Prebisch's centre-periphery thesis and unequal exchange: 2.",
+        "SF": "Multinationals depend on low-paid female labour in poor countries: 2.",
+        "TRA": "Global firms spread technology and productivity: -2.",
+        "PIP": "Wary of big corporations over copyright and surveillance: 1."
+      }
+    },
+    "trade.capital.7": {
+      "0": "RF PIP",
+      "1": "COA SUL LIF HF TRA",
+      "3": "CRA",
+      "-1": "CO SF",
+      "-2": "STC IS NAS EUR",
+      "why": "Foreigners buying any asset including land on native terms; propertarian and open camps accept it, nationalist and corporatist camps keep land national.",
+      "notes": {
+        "CRA": "Property rights without regard to nationality: 3.",
+        "NAS": "Land and the nation are inseparable in Falange doctrine: -2.",
+        "EUR": "Land as sacred territory of the Eurasian world: -2.",
+        "STC": "Rooted national patrimony and family land under Estado Novo: -2."
+      }
+    },
+    "trade.capital.8": {
+      "0": "SUL RF PIP",
+      "1": "COA LIF HF TRA",
+      "3": "CRA",
+      "-1": "STC CO SF",
+      "-2": "IS NAS EUR",
+      "why": "No ceiling on foreign share ownership; open-market camps accept it, structuralist, nationalist and Eurasianist camps want national control.",
+      "notes": {
+        "CRA": "Ownership shares are private contracts, with no state cap: 3.",
+        "IS": "State and national majority control of industry is the point of the strategy: -2.",
+        "EUR": "Foreign (Western) control of firms contradicts sovereignty: -2.",
+        "SUL": "Rulers sell stakes to whoever pays, and have no principle either way: 0."
+      }
+    },
+    "trade.selfreliance.1": {
+      "0": "SUL RF",
+      "1": "COA LIF TRA PIP",
+      "2": "CRA",
+      "-1": "STC CO SF HF",
+      "-2": "NAS EUR",
+      "-3": "IS",
+      "why": "Comparative-advantage specialisation; open-market camps agree, while the structuralist school was founded to reject specialisation in raw materials.",
+      "notes": {
+        "IS": "Prebisch-Singer: specialising in primary exports condemns the periphery to declining terms of trade: -3.",
+        "HF": "Hamilton argued the republic must build its own manufactures rather than stay a farm supplier: -1.",
+        "EUR": "A self-contained Eurasian great space, not integration in a Western-led division of labour: -2.",
+        "CRA": "Exchange across borders without state mediation: 2."
+      }
+    },
+    "trade.selfreliance.3": {
+      "0": "SUL LIF RF",
+      "1": "COA STC CO SF PIP",
+      "2": "IS NAS HF",
+      "3": "EUR",
+      "-1": "TRA CRA",
+      "why": "Global supply chains as a lever for great-power pressure; sovereigntist, nationalist and developmentalist camps say yes, tech and libertarian camps trust open networks.",
+      "notes": {
+        "EUR": "Neo-Eurasianism is about sovereignty against Atlanticist pressure and sanctions: 3.",
+        "HF": "Hamilton's Report on Manufactures argues defence supplies and independence require home industry: 2.",
+        "TRA": "Global networks serve abundance and can be made resilient by technology: -1.",
+        "CRA": "Decentralised, borderless exchange makes coercion by any state hard: -1."
+      }
+    },
+    "trade.selfreliance.4": {
+      "0": "SUL CO SF RF",
+      "1": "COA HF",
+      "2": "LIF TRA PIP",
+      "3": "CRA",
+      "-2": "STC IS NAS EUR",
+      "why": "Whether closing the country is a mistake even under external threat; open camps say so, corporatist, autarkic and Eurasianist camps favour insulation.",
+      "notes": {
+        "STC": "Salazar's Portugal was 'proudly alone', stability over openness: -2.",
+        "EUR": "Anti-Western civilisational insulation: -2.",
+        "PIP": "Free flow of information and open networks is the core value: 2.",
+        "CRA": "Strong crypto and open exchange defeat borders: 3."
+      }
+    },
+    "trade.selfreliance.5": {
+      "0": "SUL CO RF",
+      "1": "HF",
+      "2": "STC IS NAS EUR",
+      "-1": "COA SF",
+      "-2": "LIF TRA PIP",
+      "-3": "CRA",
+      "why": "Near-autarky; nationalist, corporatist and structuralist camps lean to national self-making, liberal, tech and libertarian camps reject it.",
+      "notes": {
+        "NAS": "Falange's national economy aims at autarky and independence from foreign capital: 2.",
+        "STC": "Estado Novo economic nationalism and wheat self-sufficiency: 2.",
+        "IS": "Making at home what was imported is the ISI definition, though trade continues: 2.",
+        "HF": "Hamilton sought manufacturing independence but a commercial, trading republic: 1."
+      }
+    },
+    "trade.selfreliance.6": {
+      "0": "COA SUL SF RF PIP",
+      "1": "STC IS NAS EUR",
+      "2": "CO",
+      "-1": "LIF HF TRA CRA",
+      "why": "Local production close to consumers even at higher cost; communitarian localism and nationalist camps lean to it, market camps do not.",
+      "notes": {
+        "CO": "Communitarians prize local community economies and civic scale: 2.",
+        "STC": "Rooted, rural and local production fits the Estado Novo ideal: 1.",
+        "HF": "Hamilton's commercial republic sought national markets and manufactures, not hyper-local production: -1.",
+        "CRA": "Location of production is decided by price; no stake in localism: -1."
+      }
+    },
+    "trade.selfreliance.7": {
+      "0": "SUL SF RF",
+      "1": "COA LIF HF TRA PIP",
+      "3": "CRA",
+      "-1": "CO IS",
+      "-2": "STC NAS EUR",
+      "why": "Importing most food if cheaper; market-open camps accept it, agrarian-rooted and sovereigntist camps want food security at home.",
+      "notes": {
+        "STC": "Salazar's 'Campanha do Trigo' aimed at grain self-sufficiency, peasants as the national base: -2.",
+        "NAS": "Falange's agrarian programme stresses national food production and the peasantry: -2.",
+        "EUR": "Food sovereignty is a pillar of great-space autonomy: -2.",
+        "CRA": "Buy where it is cheapest, no state view: 3."
+      }
+    },
+    "power.pluralism.1": {
+      "0": "IS CRA",
+      "1": "COA RF",
+      "2": "CO SF TRA PIP",
+      "3": "LIF",
+      "-1": "HF",
+      "-2": "SUL EUR",
+      "-3": "STC NAS",
+      "split": "COA RF",
+      "why": "Open multi-party competition; democratic camps endorse it, corporatist and fascist camps replace parties, and sultanism and Eurasianism reject it.",
+      "notes": {
+        "STC": "Salazar's Estado Novo and Dollfuss's Standestaat banned parties in favour of corporative bodies: -3.",
+        "NAS": "Falange rejected party politics outright and aimed at a single national movement: -3.",
+        "HF": "Federalists feared faction (Federalist 10; Washington's farewell), though they themselves formed a party: -1.",
+        "COA": "The regime stages multi-party contests but tilts the field, so adherents say yes formally: 1."
+      }
+    },
+    "power.pluralism.2": {
+      "0": "IS",
+      "1": "COA",
+      "2": "SUL EUR",
+      "3": "STC NAS",
+      "-1": "CO HF",
+      "-2": "SF RF TRA PIP CRA",
+      "-3": "LIF",
+      "split": "COA",
+      "why": "Rule by one political force against faction; corporatist, fascist and imperial-traditionalist camps endorse it, democratic camps reject it.",
+      "notes": {
+        "STC": "Salazar's Uniao Nacional was a single 'non-party' to stand above factions: 3.",
+        "NAS": "Falange (Primo de Rivera) wanted a single national movement above parties: 3.",
+        "EUR": "Neo-Eurasianism favours a unified strong leadership against liberal party competition: 2.",
+        "LIF": "Mill and liberal feminism defend pluralism and representative competition: -3."
+      }
+    },
+    "power.pluralism.3": {
+      "0": "COA IS CRA",
+      "1": "RF HF",
+      "2": "CO SF TRA PIP",
+      "3": "LIF",
+      "-2": "SUL STC NAS EUR",
+      "why": "Peaceful replacement of any government by ballot; democratic camps affirm it, authoritarian camps do not, hybrid regimes pay lip service.",
+      "notes": {
+        "LIF": "Core of liberal democracy and the vote for women: 3.",
+        "HF": "Adams accepted defeat in 1800 and the peaceful handover, though the Federalists distrusted mass democracy: 1.",
+        "COA": "Elections are held, but the incumbent arranges not to lose: 0.",
+        "CRA": "Voting is irrelevant to the exit strategy: 0."
+      }
+    },
+    "power.pluralism.4": {
+      "0": "IS",
+      "1": "COA SUL",
+      "2": "STC NAS EUR",
+      "-1": "CO HF CRA",
+      "-2": "LIF SF RF TRA PIP",
+      "why": "Political competition as a luxury during rapid development; authoritarian camps say yes, democratic camps say no.",
+      "notes": {
+        "STC": "Estado Novo and Dollfuss justify order and unity over competition: 2.",
+        "NAS": "Falange's national revolution demands unity of command: 2.",
+        "IS": "Developmentalists included both democrats (Kubitschek) and authoritarian modernisers: 0.",
+        "PIP": "Direct democracy and transparency are core values: -2."
+      }
+    },
+    "power.pluralism.5": {
+      "0": "IS",
+      "1": "RF CRA",
+      "2": "CO SF TRA PIP",
+      "3": "LIF",
+      "-1": "COA HF",
+      "-2": "SUL STC NAS EUR",
+      "why": "An organised opposition to watch rulers; democratic camps hold it necessary, authoritarian camps see it as disruptive.",
+      "notes": {
+        "LIF": "Accountability of rulers is basic to liberal constitutionalism: 3.",
+        "HF": "The Federalists treated Jeffersonian opposition as dangerous (Alien and Sedition Acts, 1798): -1.",
+        "PIP": "Transparency and scrutiny of power are their founding concerns: 2.",
+        "CRA": "Watching rulers matters, though by technology more than parties: 1."
+      }
+    },
+    "power.pluralism.6": {
+      "0": "IS CRA",
+      "2": "SUL STC NAS EUR",
+      "-1": "COA RF HF TRA",
+      "-2": "CO SF PIP",
+      "-3": "LIF",
+      "split": "IS",
+      "why": "Good rule without elections; authoritarian camps say it is possible, democratic camps say consent through the ballot is required.",
+      "notes": {
+        "SUL": "Rule rests on loyalty and force, with no electoral legitimacy: 2.",
+        "STC": "Salazar claimed 'organic' representation through corporations made elections unnecessary: 2.",
+        "LIF": "Consent of the governed by vote is central to the liberal tradition (Mill, Wollstonecraft): -3.",
+        "COA": "The regime relies on elections for legitimacy, even if tilted: -1."
+      }
+    },
+    "power.pluralism.7": {
+      "0": "IS",
+      "1": "SF TRA CRA",
+      "2": "LIF PIP",
+      "-1": "COA CO RF",
+      "-2": "SUL HF EUR",
+      "-3": "STC NAS",
+      "why": "Free electoral access even for parties most find dangerous; liberal and digital-rights camps accept it, authoritarian camps ban rivals and communitarians accept limits.",
+      "notes": {
+        "LIF": "Mill's On Liberty defends the free expression of even odious opinion: 2.",
+        "STC": "Ban on parties is built into the Estado Novo and Standestaat: -3.",
+        "COA": "Opposition parties may run but are harassed and screened out: -1.",
+        "CO": "Communitarians accept limits on parties that threaten the civic order: -1."
+      }
+    },
+    "power.pluralism.8": {
+      "0": "SUL IS SF",
+      "1": "STC EUR",
+      "2": "NAS",
+      "-1": "COA CO RF TRA CRA",
+      "-2": "LIF HF PIP",
+      "split": "SF",
+      "why": "Whether a one-party state with internal debate counts as democratic; fascist and organic-state camps claim a fuller democracy, liberal camps deny it.",
+      "notes": {
+        "NAS": "Falange presented its single movement as a truer, organic democracy than party politics: 2.",
+        "EUR": "Neo-Eurasianism and Russian 'sovereign democracy' claim legitimacy without party competition: 1.",
+        "LIF": "Democracy requires competitive choice among parties: -2.",
+        "SF": "Leninist democratic-centralist heritage is mixed with distrust of party hierarchies: 0."
+      }
+    }
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "family": {
+    "id": "christian-democracy",
+    "name": "Dân chủ Kitô giáo",
+    "en": "Christian democracy",
+    "summary": "Dân chủ và kinh tế thị trường có trách nhiệm xã hội, theo giáo huấn Kitô giáo: phẩm giá con người, gia đình, tinh thần liên đới và nguyên tắc bổ trợ."
+  },
+  "variants": [
+    {
+      "id": "social-market-christian-democracy",
+      "name": "Kinh tế thị trường xã hội",
+      "en": "Social market Christian democracy",
+      "summary": "Thị trường cạnh tranh đi cùng an sinh, đồng quản trị với công đoàn và giá trị gia đình Kitô giáo; hội nhập châu Âu.",
+      "exemplars": ["Konrad Adenauer", "Alcide De Gasperi", "Helmut Kohl"],
+      "period": "1945–nay",
+      "axes": { "economy": 60, "distribution": 50, "trade": 75, "power": 85, "liberty": 70, "elites": 40, "lifestyle": 35, "religion": 60, "identity": 45, "environment": 50, "foreign": 65, "change": 15 },
+      "facets": { "religion.state": 55, "religion.law": 45, "religion.public": 75 },
+      "status": "draft",
+      "raters": ["claude"]
+    },
+    {
+      "id": "catholic-social-teaching",
+      "name": "Công giáo xã hội",
+      "en": "Catholic social teaching (personalism)",
+      "summary": "Theo thông điệp Rerum Novarum (1891): quyền của người lao động, lương đủ sống, và nguyên tắc bổ trợ, việc gì cấp dưới làm được thì cấp trên không làm thay.",
+      "exemplars": ["Giáo hoàng Lêô XIII", "Jacques Maritain", "Emmanuel Mounier"],
+      "period": "1891–nay",
+      "axes": { "economy": 45, "distribution": 35, "trade": 55, "power": 80, "liberty": 60, "elites": 50, "lifestyle": 25, "religion": 70, "identity": 55, "environment": 65, "foreign": 75, "change": 20 },
+      "facets": { "power.local": 85, "distribution.labour": 20 },
+      "status": "draft",
+      "raters": ["claude"]
+    },
+    {
+      "id": "distributism",
+      "name": "Chủ nghĩa phân phối",
+      "en": "Distributism",
+      "summary": "Tài sản sản xuất như ruộng đất, xưởng thợ, cửa hàng nên chia rộng cho thật nhiều gia đình; chống cả đại tư bản lẫn nhà nước xã hội chủ nghĩa.",
+      "exemplars": ["G. K. Chesterton", "Hilaire Belloc"],
+      "period": "1900–nay",
+      "axes": { "economy": 50, "distribution": 30, "trade": 30, "power": 80, "liberty": 55, "elites": 60, "lifestyle": 20, "religion": 75, "identity": 40, "environment": 65, "foreign": 60, "change": 35 },
+      "facets": { "economy.ownership": 70, "economy.planning": 60, "economy.steering": 25, "distribution.tax": 10, "distribution.welfare": 50, "power.local": 90 },
+      "status": "draft",
+      "raters": ["claude"]
+    },
+    {
+      "id": "neo-calvinism",
+      "name": "Chủ quyền các lĩnh vực",
+      "en": "Neo-Calvinism (sphere sovereignty)",
+      "summary": "Gia đình, nhà thờ, trường học, doanh nghiệp mỗi thứ có chủ quyền riêng trước Thượng đế; nhà nước không được lấn sân các lĩnh vực ấy.",
+      "exemplars": ["Abraham Kuyper", "Đảng Chống Cách mạng (Hà Lan)"],
+      "period": "1879–nay",
+      "axes": { "economy": 60, "distribution": 50, "trade": 70, "power": 80, "liberty": 60, "elites": 45, "lifestyle": 25, "religion": 70, "identity": 55, "environment": 50, "foreign": 65, "change": 15 },
+      "facets": { "power.local": 85 },
+      "status": "draft",
+      "raters": ["claude"]
+    }
+  ]
+}

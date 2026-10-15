@@ -1,0 +1,72 @@
+---
+// Lưu trữ: every essay and pensée by month, as a register. The months stay in
+// one line under the bar while reading, and follow the month in view.
+import { type CollectionEntry, getCollection } from 'astro:content';
+import PageHead from '~/components/edition/PageHead.astro';
+import Register from '~/components/edition/Register.astro';
+import EditionLayout from '~/layouts/EditionLayout.astro';
+
+const published = (await getCollection('essays', ({ data }) => !data.draft)).sort(
+  (a, b) => +b.data.date - +a.data.date,
+);
+const months = new Map<string, CollectionEntry<'essays'>[]>();
+for (const entry of published) {
+  const month = entry.data.date.toISOString().slice(0, 7);
+  months.set(month, [...(months.get(month) ?? []), entry]);
+}
+const label = (month: string) => `Tháng ${Number(month.slice(5))}, ${month.slice(0, 4)}`;
+const short = (month: string) => `${month.slice(5)}.${month.slice(0, 4)}`;
+---
+<EditionLayout title="Lưu trữ" description="Tra cứu toàn bộ tiểu luận và pensées của The Cochinchine Pensées theo tháng và năm xuất bản." noindex={false}>
+  <PageHead title="Lưu trữ" />
+  <nav class="jump" aria-label="Tháng xuất bản" data-jump>
+    <div class="jump__list wrap">
+      {[...months.keys()].map((month) => <a class="caps" href={`#month-${month}`}>{short(month)}</a>)}
+      <span class="jump__indicator" aria-hidden="true" data-jump-indicator></span>
+    </div>
+  </nav>
+  <div class="wrap">
+    {[...months].map(([month, entries]) => (
+      <section class="month" id={`month-${month}`} aria-labelledby={`heading-${month}`}>
+        <h2 class="month__title" id={`heading-${month}`}>{label(month)}</h2>
+        <Register entries={entries} />
+      </section>
+    ))}
+  </div>
+</EditionLayout>
+
+<script>
+  // Scroll-spy: the month whose heading last passed under the bar is current.
+  const jump = document.querySelector<HTMLElement>('[data-jump]');
+  const indicator = jump?.querySelector<HTMLElement>('[data-jump-indicator]');
+  const links = [...(jump?.querySelectorAll<HTMLAnchorElement>('a') ?? [])];
+  const months = links.map((link) => document.getElementById(decodeURIComponent(link.hash.slice(1)))).filter((node): node is HTMLElement => !!node);
+  let current = -1;
+  const mark = (index: number) => {
+    if (index === current || !indicator) return;
+    current = index;
+    links.forEach((link, position) => (position === index ? link.setAttribute('aria-current', 'true') : link.removeAttribute('aria-current')));
+    const link = links[index];
+    if (!link) return;
+    indicator.style.transform = `translateX(${link.offsetLeft}px) scaleX(${link.offsetWidth})`;
+    const list = link.parentElement!;
+    if (link.offsetLeft < list.scrollLeft || link.offsetLeft + link.offsetWidth > list.scrollLeft + list.clientWidth)
+      list.scrollTo({ left: link.offsetLeft - 24, behavior: 'smooth' });
+  };
+  let frame = 0;
+  const update = () => {
+    frame = 0;
+    const line = (jump?.getBoundingClientRect().bottom ?? 0) + 40;
+    let index = 0;
+    months.forEach((month, position) => {
+      if (month.getBoundingClientRect().top <= line) index = position;
+    });
+    mark(index);
+  };
+  addEventListener('scroll', () => (frame ||= requestAnimationFrame(update)), { passive: true });
+  addEventListener('resize', () => {
+    current = -1;
+    update();
+  });
+  update();
+</script>

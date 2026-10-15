@@ -1,0 +1,64 @@
+---
+import { readingMinutes, text } from '../../lib/edition';
+// A series volume: its prints dealt as a deck, beside the list of its parts.
+// Pointing at a part brings its print to the top (see lib/editionDeck.ts).
+import type { Volume } from '../../lib/editionData';
+import Glyph from './Glyph.astro';
+import Plate from './Plate.astro';
+
+interface Props {
+  volume: Volume;
+  heading?: 'h2' | 'h3';
+  /** Link the name to the series page (off on the series page itself). */
+  link?: boolean;
+  [attribute: string]: unknown;
+}
+const { volume, heading: Heading = 'h3', link = true, ...attributes } = Astro.props;
+const numerals = ['I', 'II', 'III', 'IV', 'V', 'VI', 'VII', 'VIII'];
+// The width a print is drawn at (cards.css): 76% of a deck that is half the
+// frame on a wide screen, and at most 34rem wide on a phone. On a phone at
+// 3x this asks for the 800px file, not the 1200px one (half the weight).
+const DECK_SIZES = '(min-width: 900px) min(34vw, 33rem), min(68vw, 26rem)';
+const printed = volume.parts.filter((part) => part.data.coverImage).slice(0, 3);
+---
+<div class="volume" data-ink={volume.ink.key} {...attributes}>
+  <div class="volume__deck" aria-hidden="true" data-deck>
+    {printed.map((part, position) => (
+      <div class="volume__card" data-card={position} data-rank={position}>
+        <Plate src={part.data.coverImage!} topics={part.data.topics} ink={volume.ink.key} sizes={DECK_SIZES} fallbackWidth={800} />
+        <span class="volume__card-numeral">{numerals[position]}</span>
+      </div>
+    ))}
+  </div>
+  <div class="volume__text">
+    <p class="volume__meta caps">{volume.parts.length} bài<span aria-hidden="true"> · </span>{volume.minutes} phút đọc</p>
+    <Heading class="volume__name">{link ? <a class="title-link" href={`/series/${volume.slug}`}>{volume.name}</a> : volume.name}</Heading>
+    <ol class="volume__parts" role="list">
+      {volume.parts.map((part, position) => (
+        <li>
+          <a class="volume__part" href={`/essays/${part.id}`} data-part={position}>
+            <span class="volume__numeral" aria-hidden="true">{numerals[position]}</span>
+            <span class="volume__part-text">
+              <span class="sr-only">Phần {position + 1}: </span>
+              <span class="volume__part-title">{text(part.data.title)}</span>
+              {part.data.subtitle && <span class="volume__part-dek">{text(part.data.subtitle)}</span>}
+            </span>
+            <span class="volume__part-time caps">{readingMinutes(part.body)} phút</span>
+          </a>
+        </li>
+      ))}
+      {volume.upcoming.map((part, position) => (
+        <li class="volume__upcoming">
+          <span class="volume__part">
+            <span class="volume__numeral" aria-hidden="true">{numerals[volume.parts.length + position]}</span>
+            <span class="volume__part-text">
+              <span class="volume__part-title">{text(part.data.title)}</span>
+            </span>
+            <span class="volume__part-time caps">Sắp ra</span>
+          </span>
+        </li>
+      ))}
+    </ol>
+    {link && <a class="button button--ink" href={`/series/${volume.slug}`}>Đọc chuyên đề<Glyph name="forward" /></a>}
+  </div>
+</div>

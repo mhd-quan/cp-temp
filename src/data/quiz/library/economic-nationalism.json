@@ -1,0 +1,215 @@
+{
+  "family": {
+    "id": "economic-nationalism",
+    "name": "Kinh tế quốc gia",
+    "en": "Economic nationalism",
+    "summary": "Nhà nước phải chủ động dùng thương mại, công nghiệp và tài chính để làm giàu và làm mạnh quốc gia trong cuộc cạnh tranh với các nước khác."
+  },
+  "variants": [
+    {
+      "id": "mercantilism",
+      "name": "Chủ nghĩa trọng thương",
+      "en": "Mercantilism",
+      "summary": "Của cải quốc gia là vàng bạc và xuất siêu; nhà nước bảo hộ, trợ cấp xuất khẩu, lập công ty độc quyền và thuộc địa để làm đầy ngân khố.",
+      "exemplars": [
+        "Jean-Baptiste Colbert",
+        "Thomas Mun",
+        "Các đế quốc châu Âu thế kỷ 16–18"
+      ],
+      "period": "1500–1800",
+      "axes": {
+        "economy": 30,
+        "distribution": 60,
+        "trade": 15,
+        "power": 20,
+        "liberty": 35,
+        "elites": 25,
+        "lifestyle": 30,
+        "religion": 60,
+        "identity": 25,
+        "environment": 25,
+        "foreign": 15,
+        "change": 20
+      },
+      "facets": {
+        "economy.ownership": 55,
+        "economy.planning": 35,
+        "economy.steering": 5,
+        "trade.goods": 5,
+        "trade.capital": 30,
+        "trade.selfreliance": 10
+      },
+      "status": "draft",
+      "raters": [
+        "claude"
+      ]
+    },
+    {
+      "id": "national-system",
+      "name": "Kinh tế quốc gia kiểu List",
+      "en": "National system of political economy (Hamilton, List)",
+      "summary": "Nước đi sau phải bảo hộ công nghiệp non trẻ, xây hạ tầng và ngân hàng quốc gia cho đến khi đủ sức cạnh tranh, rồi mới mở cửa.",
+      "exemplars": [
+        "Alexander Hamilton",
+        "Friedrich List",
+        "Henry Clay (Hệ thống kiểu Mỹ)"
+      ],
+      "period": "1791–nay",
+      "axes": {
+        "economy": 60,
+        "distribution": 60,
+        "trade": 25,
+        "power": 70,
+        "liberty": 60,
+        "elites": 40,
+        "lifestyle": 45,
+        "religion": 45,
+        "identity": 30,
+        "environment": 25,
+        "foreign": 45,
+        "change": 30
+      },
+      "facets": {
+        "economy.ownership": 85,
+        "economy.planning": 80,
+        "economy.steering": 20
+      },
+      "status": "draft",
+      "raters": [
+        "claude"
+      ]
+    },
+    {
+      "id": "dirigisme",
+      "name": "Kinh tế chỉ huy kiểu Pháp",
+      "en": "Dirigisme",
+      "summary": "Một nhà nước dân chủ lập kế hoạch định hướng, sở hữu các tập đoàn chiến lược và dẫn dắt đầu tư trong một nền kinh tế thị trường; công chức tinh hoa cầm lái.",
+      "exemplars": [
+        "Jean Monnet",
+        "Charles de Gaulle",
+        "Kế hoạch hoá định hướng ở Pháp (1946–1975)"
+      ],
+      "period": "1945–1983",
+      "axes": {
+        "economy": 40,
+        "distribution": 45,
+        "trade": 50,
+        "power": 70,
+        "liberty": 65,
+        "elites": 20,
+        "lifestyle": 50,
+        "religion": 30,
+        "identity": 40,
+        "environment": 35,
+        "foreign": 45,
+        "change": 30
+      },
+      "facets": {
+        "economy.ownership": 60,
+        "economy.planning": 45,
+        "economy.steering": 10,
+        "elites.decision": 10,
+        "elites.rank": 50,
+        "elites.trust": 10
+      },
+      "status": "draft",
+      "raters": [
+        "claude"
+      ]
+    },
+    {
+      "id": "developmental-state",
+      "name": "Nhà nước kiến tạo phát triển",
+      "en": "Developmental state",
+      "summary": "Một bộ máy kỹ trị tinh hoa dẫn dắt công nghiệp hoá hướng xuất khẩu: tín dụng ưu đãi, chọn tập đoàn làm quán quân, kỷ luật lao động, tăng trưởng trên hết.",
+      "exemplars": [
+        "Park Chung-hee (Hàn Quốc)",
+        "Bộ MITI (Nhật Bản)",
+        "Minh Trị Duy Tân"
+      ],
+      "period": "1868–nay",
+      "axes": {
+        "economy": 50,
+        "distribution": 65,
+        "trade": 55,
+        "power": 20,
+        "liberty": 35,
+        "elites": 10,
+        "lifestyle": 30,
+        "religion": 35,
+        "identity": 35,
+        "environment": 10,
+        "foreign": 40,
+        "change": 35
+      },
+      "facets": {
+        "economy.ownership": 80,
+        "economy.planning": 65,
+        "economy.steering": 5,
+        "distribution.tax": 50,
+        "distribution.welfare": 65,
+        "distribution.labour": 85,
+        "trade.goods": 40,
+        "trade.capital": 55,
+        "trade.selfreliance": 70
+      },
+      "status": "draft",
+      "raters": [
+        "claude"
+      ]
+    },
+    {
+      "id": "import-substitution",
+      "name": "Công nghiệp hoá thay thế nhập khẩu",
+      "en": "Import-substitution industrialisation (CEPAL structuralism)",
+      "summary": "Các nước ngoại vi chịu thiệt khi bán nguyên liệu cho các nước trung tâm; phải dựng tường thuế quan, dùng tín dụng nhà nước và doanh nghiệp công để tự sản xuất hàng công nghiệp vốn phải nhập.",
+      "exemplars": [
+        "Raúl Prebisch",
+        "CEPAL (Uỷ ban Kinh tế Mỹ Latinh của Liên Hợp Quốc)",
+        "Celso Furtado",
+        "Juscelino Kubitschek (Brazil)"
+      ],
+      "period": "1930–1990",
+      "axes": {
+        "economy": 35,
+        "distribution": 45,
+        "trade": 15,
+        "power": 50,
+        "liberty": 50,
+        "elites": 30,
+        "lifestyle": 45,
+        "religion": 35,
+        "identity": 35,
+        "environment": 15,
+        "foreign": 60,
+        "change": 40
+      },
+      "facets": {
+        "economy.ownership": 50,
+        "economy.planning": 40,
+        "economy.steering": 10,
+        "distribution.labour": 35,
+        "trade.goods": 5,
+        "trade.capital": 25,
+        "trade.selfreliance": 10,
+        "elites.decision": 15,
+        "elites.rank": 45,
+        "environment.growth": 5,
+        "foreign.rules": 70,
+        "change.pace": 50,
+        "change.means": 15,
+        "change.depth": 55
+      },
+      "sd": {
+        "power": 25,
+        "liberty": 20,
+        "lifestyle": 15,
+        "religion": 15
+      },
+      "status": "draft",
+      "raters": [
+        "claude"
+      ]
+    }
+  ]
+}

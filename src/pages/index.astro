@@ -1,0 +1,483 @@
+---
+// Trang chủ Ấn bản.
+// Every story is presented by its plate, title and subtitle; nothing else.
+import { getCollection } from 'astro:content';
+import CompassDoor from '../components/edition/CompassDoor.astro';
+import Glyph from '../components/edition/Glyph.astro';
+import Later from '../components/edition/Later.astro';
+import Plate from '../components/edition/Plate.astro';
+import Shelf from '../components/edition/Shelf.astro';
+import ShelfControls from '../components/edition/ShelfControls.astro';
+import StoryCard from '../components/edition/StoryCard.astro';
+import Rubric from '../components/edition/Topics.astro';
+import Volume from '../components/edition/Volume.astro';
+import EditionLayout from '../layouts/EditionLayout.astro';
+import { authorSlug } from '../lib/authorArchive.mjs';
+import { inkOf, longDate, plateOf, readingMinutes, shortDate, TOPICS, text } from '../lib/edition';
+import { reviewsOf, volumesOf } from '../lib/editionData';
+import { FIRST, LATER } from '../lib/editionStyles';
+import { homeDiscoveryEntries } from '../lib/homeDiscoveryData';
+import { getVietnamDateKey, selectDailyHomeQuote } from '../lib/homeQuoteSelection.mjs';
+
+const published = (await getCollection('essays', ({ data }) => !data.draft)).sort(
+  (a, b) => +b.data.date - +a.data.date,
+);
+const essays = published.filter((entry) => entry.data.form === 'essay');
+const pensees = published.filter((entry) => entry.data.form === 'pensee').slice(0, 8);
+const href = (id: string) => `/essays/${id}`;
+
+// The cover is the newest essay; the newest pensées run under its title, two
+// rows of them, and beside both stands the door to La bàn Tư tưởng.
+const lead = essays[0];
+
+// Enough of the archive for every discipline to fill a page when filtered.
+const pool = essays.slice(1, 31);
+const PAGE = 8;
+const counts = new Map<string, number>();
+for (const entry of published)
+  for (const topic of entry.data.topics) counts.set(topic, (counts.get(topic) ?? 0) + 1);
+const topicOrder = [...TOPICS].sort((a, b) => (counts.get(b) ?? 0) - (counts.get(a) ?? 0));
+
+// Daily excerpt: one quotation a day (Vietnam calendar), rotating through the
+// essays. The page carries the build day's choice; the script moves it on.
+const discovery = homeDiscoveryEntries(published);
+const choices = discovery.flatMap(({ essayId, payload }) =>
+  payload.quotes.map((quote, index) => ({ essayId, quote, quoteKey: `${essayId}:${index}` })),
+);
+const today = new Date();
+const excerpt = selectDailyHomeQuote(choices, today)!;
+const excerptEssay = published.find((entry) => entry.id === excerpt.essayId)!;
+const excerptPlate = plateOf(excerptEssay.data.topics);
+const catalog = JSON.stringify(
+  discovery.map(({ essayId, count, url }) => ({ essayId, count, url })),
+)
+  .replaceAll('<', '\\u003c')
+  .replaceAll('&', '\\u0026');
+
+const series = (await volumesOf(published)).filter((volume) => volume.featured);
+
+// The ten newest reviews; the bookcase at /books holds them all.
+const reviews = (await reviewsOf(published)).slice(0, 10);
+---
+<EditionLayout homepage first={FIRST.home} later={false}>
+  {/* The front: the cover, the pensées under its title, Bài mới, and the door to
+      La bàn Tư tưởng, on one grid. A wide page stands the door beside the cover;
+      a narrow one reads them in the order written, the door after Bài mới. */}
+  <div class="front">
+    <div class="front__grid wrap">
+      {/* The cover's print and its card are one story (the lamp, the underline),
+          laid in the front's grid as two of its items. */}
+      <div class="cover printed">
+        {lead.data.coverImage && (
+          <a class="cover__plate" href={href(lead.id)} tabindex="-1" aria-hidden="true">
+            <Plate src={lead.data.coverImage} topics={lead.data.topics} alt="" sizes="100vw" fallbackWidth={1600} eager />
+          </a>
+        )}
+        <article class="cover__card" aria-labelledby="lead-title">
+          <Rubric topics={lead.data.topics} />
+          <h2 class="cover__title" id="lead-title"><a class="title-link" href={href(lead.id)}>{text(lead.data.title)}</a></h2>
+          {lead.data.subtitle && <p class="cover__dek">{text(lead.data.subtitle)}</p>}
+          <p class="byline">
+            <a href={`/authors/${authorSlug(lead.data.author)}`}>{lead.data.author}</a>
+            <time datetime={lead.data.date.toISOString()}>{longDate(lead.data.date)}</time>
+            <span>{readingMinutes(lead.body)} phút đọc</span>
+          </p>
+        </article>
+      </div>
+      {/* The first screen ends with the cover, at every width: what follows is
+          set by the rest of the page's styles, which it waits for. */}
+      <Later href={LATER.home} />
+
+      {/* Two rows of notes; the older ones wait to the side, a slide away. */}
+      <section class="pensees" aria-labelledby="pensees-title">
+        <div class="pensees__head">
+          <h2 class="pensees__title caps" id="pensees-title"><a class="caps-link" href="/pensees"><span>Pensées</span><Glyph name="forward" inline /></a></h2>
+          <ShelfControls for="home-pensees" back="Những pensée trước" on="Những pensée tiếp theo" />
+        </div>
+        <ol class="pensees__list" id="home-pensees" role="list">
+          {pensees.map((entry) => (
+            <li class="note printed">
+              {entry.data.coverImage && <Plate class="note__plate" src={entry.data.coverImage} topics={entry.data.topics} sizes="(max-width: 640px) 72px, 88px" fallbackWidth={240} />}
+              <div class="note__text">
+                <time class="caps note__date" datetime={entry.data.date.toISOString()}>{shortDate(entry.data.date)}</time>
+                <h3 class="note__title"><a class="title-link stretched" href={href(entry.id)}>{text(entry.data.title)}</a></h3>
+                {entry.data.subtitle && <p class="note__dek">{text(entry.data.subtitle)}</p>}
+              </div>
+            </li>
+          ))}
+        </ol>
+      </section>
+
+      <section class="issue" aria-labelledby="issue-title">
+        <header class="section-head">
+          <h2 id="issue-title">Bài mới</h2>
+          <a class="caps-link" href="/essays"><span>Tất cả tiểu luận</span><Glyph name="forward" inline /></a>
+        </header>
+
+        <div class="filter" role="group" aria-label="Lọc theo chủ đề" data-filter hidden>
+          <button class="chip caps" type="button" aria-pressed="true" data-topic="">Tất cả</button>
+          {topicOrder.map((topic) => (
+            <button class="chip caps" type="button" aria-pressed="false" data-topic={topic} data-slug={inkOf(topic).slug} data-ink={inkOf(topic).key}>{topic}</button>
+          ))}
+        </div>
+        <p class="sr-only" role="status" data-filter-status></p>
+
+        <ol class="issue__grid" role="list" data-issue>
+          {pool.slice(0, PAGE).map((entry, index) => (
+            <li class="story printed" data-topics={entry.data.topics.join('|')} data-slot={index + 1}>
+              <StoryCard entry={entry} sizes={index === 0 ? '(min-width: 1100px) 56vw, 100vw' : index === 1 ? '(min-width: 1100px) 40vw, (min-width: 640px) 50vw, 104px' : '(min-width: 1100px) 31vw, (min-width: 640px) 50vw, 104px'} fallbackWidth={index === 0 ? 800 : 640} />
+            </li>
+          ))}
+          {/* The rest of the pool, which only a filter deals from: held back from the page
+              and fetched when the filter is reached for (scripts/later-fragments.mjs). */}
+          <template data-later="issue">
+            {pool.slice(PAGE).map((entry) => (
+              <li class="story printed" data-topics={entry.data.topics.join('|')} hidden>
+                <StoryCard entry={entry} sizes="(min-width: 1100px) 31vw, (min-width: 640px) 50vw, 104px" fallbackWidth={640} />
+              </li>
+            ))}
+          </template>
+          <li class="issue__empty" data-issue-empty hidden>
+            Chưa có bài mới thuộc chủ đề này. <button class="caps-link" type="button" data-filter-reset><span>Xem tất cả</span></button>
+          </li>
+        </ol>
+      </section>
+
+      {/* The compass has its place on the first page for good: the door to Thể nghiệm. */}
+      <aside class="front__door" aria-labelledby="compass-title" data-door-region>
+        <CompassDoor id="compass-title" section wander />
+      </aside>
+    </div>
+  </div>
+
+  <section
+    class="excerpt wrap"
+    aria-labelledby="excerpt-title"
+    data-home-discovery
+    data-discovery-day={getVietnamDateKey(today)}
+    data-essay-id={excerpt.essayId}
+    data-quote-key={excerpt.quoteKey}
+  >
+    <header class="section-head">
+      <h2 id="excerpt-title">Trích đoạn</h2>
+    </header>
+    {/* One slip of the essay's own paper: the quotation, and beside it the print
+        with the title as its caption, so the words and their source are one object. */}
+    <div class="slip" data-ink={excerptPlate.ink} data-paper={excerptPlate.paper} data-home-discovery-active data-slip>
+      <blockquote class="slip__quote" cite={href(excerptEssay.id)} data-home-discovery-blockquote data-length={excerpt.quote.length > 280 ? 'long' : undefined}>
+        <p data-home-discovery-quote lang={excerptEssay.data.lang}>{text(excerpt.quote)}</p>
+      </blockquote>
+      <a class="slip__source" href={href(excerptEssay.id)} data-home-discovery-link>
+        {excerptEssay.data.coverImage && (
+          <Plate class="slip__plate" src={excerptEssay.data.coverImage} topics={excerptEssay.data.topics} sizes="(min-width: 900px) 30vw, 100vw" fallbackWidth={800} printAttributes={{ 'data-home-discovery-image': '' }} />
+        )}
+        <span class="slip__caption">
+          <Rubric topics={excerptEssay.data.topics} class="slip__rubric" />
+          <cite class="slip__title" data-home-discovery-title lang={excerptEssay.data.lang}>{text(excerptEssay.data.title)}</cite>
+          <span class="slip__by caps"><span data-home-discovery-author>{excerptEssay.data.author}</span><span aria-hidden="true">·</span><span>Đọc bài</span><Glyph name="forward" inline /></span>
+        </span>
+      </a>
+    </div>
+    <script is:inline type="application/json" data-home-discovery-catalog set:html={catalog}></script>
+  </section>
+
+  <section class="volumes" aria-labelledby="series-title">
+    <div class="wrap">
+      <header class="section-head">
+        <h2 id="series-title">Chuyên đề</h2>
+        <a class="caps-link" href="/series"><span>Tất cả chuyên đề</span><Glyph name="forward" inline /></a>
+      </header>
+      <div class="volumes__tabs" role="tablist" aria-label="Chuyên đề" data-volume-tabs>
+        {series.map((volume, index) => (
+          <a class="volumes__tab caps" role="tab" id={`tab-${volume.slug}`} href={`/series/${volume.slug}`} aria-controls={`volume-${volume.slug}`} aria-selected={index === 0 ? 'true' : 'false'} tabindex={index === 0 ? '0' : '-1'} data-ink={volume.ink.key}>{volume.name}</a>
+        ))}
+        <span class="volumes__indicator" aria-hidden="true" data-indicator></span>
+      </div>
+      {series.slice(0, 1).map((volume) => (
+        <Volume volume={volume} role="tabpanel" id={`volume-${volume.slug}`} aria-labelledby={`tab-${volume.slug}`} />
+      ))}
+      {/* The other series wait off the page until the decks are near or a tab is reached
+          for (scripts/later-fragments.mjs); without a script each tab is a link. */}
+      <template data-later="volumes">
+        {series.slice(1).map((volume) => (
+          <Volume volume={volume} role="tabpanel" id={`volume-${volume.slug}`} aria-labelledby={`tab-${volume.slug}`} hidden />
+        ))}
+      </template>
+    </div>
+  </section>
+
+  <section class="reviews" aria-labelledby="books-title">
+    <header class="section-head wrap">
+      <h2 id="books-title">Điểm sách</h2>
+      <div class="section-head__tools">
+        <ShelfControls for="home-shelf" />
+        <a class="caps-link" href="/books"><span>Tất cả điểm sách</span><Glyph name="forward" inline /></a>
+      </div>
+    </header>
+    <Shelf id="home-shelf" reviews={reviews} lead label="Kệ điểm sách" />
+  </section>
+
+  <div class="return" data-return data-pagefind-ignore hidden>
+    <a class="return__link" href="/essays" data-return-link>
+      <span class="caps return__label">Đọc tiếp</span>
+      <span class="return__title" data-return-title></span>
+      <span class="caps return__left" data-return-left></span>
+    </a>
+    <button class="icon-button" type="button" data-return-dismiss aria-label="Bỏ qua"><Glyph name="close" size={18} /></button>
+  </div>
+</EditionLayout>
+
+<script>
+  import { createHomeDiscoveryLifecycle } from '../lib/homeQuoteSelection.mjs';
+  import { inkOf } from '../lib/edition';
+  import { dealDeck, initDecks, warmDecks } from '../lib/editionDeck';
+  import { later } from '../lib/editionLater';
+  import { initReturn } from '../lib/editionReturn';
+
+  initReturn();
+
+  const reduced = () => matchMedia('(prefers-reduced-motion: reduce)').matches;
+  const EASE = 'cubic-bezier(0.22, 1, 0.36, 1)';
+
+  // ---------- Bài mới: topic filter ----------
+  // Without JavaScript the eight newest essays show and the filter stays hidden.
+  // A chosen discipline re-inks every plate in its own colour (a colour
+  // transition, no repaint of the images) while the edition is dealt again:
+  // the old stories step back, the new ones rise into place one after another.
+  const filter = document.querySelector<HTMLElement>('[data-filter]');
+  const grid = document.querySelector<HTMLElement>('[data-issue]');
+  if (filter && grid) {
+    const PAGE = 8;
+    let stories = [...grid.querySelectorAll<HTMLElement>('.story')];
+    const empty = grid.querySelector<HTMLElement>('[data-issue-empty]');
+    // The rest of the pool is fetched when the filter is reached for (a hand
+    // over it, a touch, a key), so a choice finds it there; a choice made
+    // before it has come waits for it under the old stories' way out.
+    let gathered: Promise<void> | undefined;
+    const gather = () =>
+      (gathered ??= later('issue').then((rest) => {
+        if (!rest) {
+          gathered = undefined;
+          return;
+        }
+        grid.insertBefore(rest, empty);
+        stories = [...grid.querySelectorAll<HTMLElement>('.story')];
+      }));
+    for (const type of ['pointerenter', 'touchstart', 'focusin'])
+      filter.addEventListener(type, () => void gather(), { once: true, passive: true });
+    const status = document.querySelector<HTMLElement>('[data-filter-status]');
+    const chips = [...filter.querySelectorAll<HTMLButtonElement>('.chip')];
+    let running: Animation[] = [];
+
+    // The chip answers the hand at once; the stories follow when they are dealt.
+    const press = (topic: string) => {
+      const chip = chips.find((item) => (item.dataset.topic ?? '') === topic);
+      chips.forEach((item) => item.setAttribute('aria-pressed', String(item === chip)));
+      return chip;
+    };
+    const render = (topic: string) => {
+      const matches = stories.filter((story) => !topic || story.dataset.topics?.split('|').includes(topic));
+      const shown = matches.slice(0, PAGE);
+      stories.forEach((story) => {
+        const slot = shown.indexOf(story);
+        story.hidden = slot < 0;
+        if (slot < 0) delete story.dataset.slot;
+        else story.dataset.slot = String(slot + 1);
+      });
+      const chip = press(topic);
+      if (topic && chip?.dataset.ink) grid.dataset.ink = chip.dataset.ink;
+      else delete grid.dataset.ink;
+      if (empty) empty.hidden = matches.length > 0;
+      if (status) status.textContent = topic ? `${shown.length} bài mới nhất về ${topic}` : `${shown.length} bài mới nhất`;
+      return shown;
+    };
+
+    const visible = () => stories.filter((story) => !story.hidden);
+    const select = async (topic: string) => {
+      press(topic);
+      const url = new URL(location.href);
+      const slug = chips.find((chip) => chip.dataset.topic === topic)?.dataset.slug;
+      slug ? url.searchParams.set('chu-de', slug) : url.searchParams.delete('chu-de');
+      history.replaceState(history.state, '', url);
+      running.forEach((animation) => animation.cancel());
+      if (reduced()) {
+        await gather();
+        render(topic);
+        return;
+      }
+      // Out: quick and together. In: staggered, decelerating.
+      const leaving = visible();
+      running = leaving.map((story) =>
+        story.animate([{ opacity: 1, transform: 'none' }, { opacity: 0, transform: 'translateY(6px)' }], { duration: 150, easing: 'cubic-bezier(0.55, 0, 1, 0.45)', fill: 'forwards' }),
+      );
+      await Promise.allSettled([gather(), ...running.map((animation) => animation.finished)]);
+      const shown = render(topic);
+      running.forEach((animation) => animation.cancel());
+      running = shown.map((story, index) =>
+        story.animate([{ opacity: 0, transform: 'translateY(18px)' }, { opacity: 1, transform: 'none' }], { duration: 520, delay: index * 45, easing: EASE, fill: 'backwards' }),
+      );
+    };
+
+    filter.addEventListener('click', (event) => {
+      const chip = (event.target as Element).closest<HTMLButtonElement>('.chip');
+      if (!chip || chip.getAttribute('aria-pressed') === 'true') return;
+      void select(chip.dataset.topic ?? '');
+    });
+    document.querySelector('[data-filter-reset]')?.addEventListener('click', () => {
+      void select('');
+      chips[0]?.focus();
+    });
+    const initial = chips.find((chip) => chip.dataset.slug === new URLSearchParams(location.search).get('chu-de'));
+    if (initial) gather().then(() => render(initial.dataset.topic ?? ''));
+    filter.hidden = false;
+  }
+
+  // ---------- Trích đoạn: one excerpt a day ----------
+  const excerpt = document.querySelector<HTMLElement>('[data-home-discovery]');
+  excerpt?.addEventListener('discovery:update', (event) => {
+    const detail = (event as CustomEvent<{ topics?: string[]; quote: string; href: string }>).detail;
+    const topics = detail.topics ?? [];
+    // The slip and its print take the new essay's inks and paper.
+    if (topics.length) {
+      const ink = inkOf(topics[0]).key;
+      const paper = inkOf(topics[1] ?? topics[0]).key;
+      for (const node of excerpt.querySelectorAll<HTMLElement>('[data-slip], .plate')) {
+        node.dataset.ink = ink;
+        node.dataset.paper = paper;
+      }
+    }
+    // The swapped image is laid as ink once it arrives, like any other plate.
+    const print = excerpt.querySelector<HTMLElement>('.plate__print');
+    const image = print?.querySelector('img');
+    if (print && image) {
+      const inked = () => {
+        print.dataset.inked = '';
+      };
+      if (image.complete && image.naturalWidth) inked();
+      else {
+        delete print.dataset.inked;
+        image.addEventListener('load', () => image.decode().then(inked, inked), { once: true });
+      }
+    }
+    const quote = excerpt.querySelector<HTMLElement>('[data-home-discovery-blockquote]');
+    if (quote && detail.quote.length > 280) quote.dataset.length = 'long';
+    else if (quote) delete quote.dataset.length;
+    const rubric = excerpt.querySelector('.slip__rubric');
+    if (rubric && topics.length) {
+      const lead = rubric.querySelector<HTMLElement>('.rubric__lead');
+      if (lead) {
+        lead.textContent = topics[0];
+        lead.dataset.ink = inkOf(topics[0]).key;
+      }
+      rubric.querySelectorAll('.rubric__sep, .rubric__more, .sr-only').forEach((node) => {
+        node.remove();
+      });
+      for (const topic of topics.slice(1)) {
+        const sep = Object.assign(document.createElement('span'), { className: 'rubric__sep', textContent: ' · ' });
+        sep.setAttribute('aria-hidden', 'true');
+        rubric.append(
+          sep,
+          Object.assign(document.createElement('span'), { className: 'sr-only', textContent: ', ' }),
+          Object.assign(document.createElement('span'), { className: 'rubric__more', textContent: topic }),
+        );
+      }
+    }
+  });
+  createHomeDiscoveryLifecycle({ document, window });
+
+  // ---------- Tabs with roving focus ----------
+  // Without JavaScript each tab is a plain link to its page.
+  function tabs(list: HTMLElement, onSelect: (tab: HTMLElement, previous: HTMLElement) => void) {
+    const items = [...list.querySelectorAll<HTMLElement>('[role="tab"]')];
+    const current = () => items.find((tab) => tab.getAttribute('aria-selected') === 'true') ?? items[0];
+    const choose = (tab: HTMLElement, focus = false) => {
+      const previous = current();
+      if (focus) tab.focus();
+      if (tab === previous) return;
+      items.forEach((item) => {
+        item.setAttribute('aria-selected', String(item === tab));
+        item.tabIndex = item === tab ? 0 : -1;
+      });
+      onSelect(tab, previous);
+    };
+    list.addEventListener('click', (event) => {
+      const tab = (event.target as Element).closest<HTMLElement>('[role="tab"]');
+      if (!tab || (event instanceof MouseEvent && (event.metaKey || event.ctrlKey || event.shiftKey))) return;
+      event.preventDefault();
+      choose(tab);
+    });
+    list.addEventListener('keydown', (event) => {
+      const index = items.indexOf(current());
+      const keys: Record<string, number> = { ArrowRight: 1, ArrowLeft: -1 };
+      if (event.key in keys) {
+        event.preventDefault();
+        choose(items[(index + keys[event.key] + items.length) % items.length], true);
+      } else if (event.key === 'Home' || event.key === 'End') {
+        event.preventDefault();
+        choose(items[event.key === 'Home' ? 0 : items.length - 1], true);
+      }
+    });
+    return current;
+  }
+
+  // ---------- Chuyên đề: decks of prints that answer their lists ----------
+  // The other series are fetched when the decks come near or a tab is reached
+  // for, and dealt from like the first once they are in.
+  let volumesGathered: Promise<void> | undefined;
+  const gatherVolumes = () =>
+    (volumesGathered ??= later('volumes').then((rest) => {
+      const template = document.querySelector('.volumes [role="tabpanel"]');
+      if (!rest || !template) {
+        volumesGathered = undefined;
+        return;
+      }
+      initDecks(rest);
+      template.after(rest);
+    }));
+  initDecks();
+  warmDecks(document.querySelector<HTMLElement>('.volumes'), gatherVolumes);
+
+  const volumeTabs = document.querySelector<HTMLElement>('[data-volume-tabs]');
+  const indicator = volumeTabs?.querySelector<HTMLElement>('[data-indicator]');
+  const placeIndicator = (tab: HTMLElement) => {
+    if (!indicator) return;
+    indicator.style.transform = `translateX(${tab.offsetLeft}px) scaleX(${tab.offsetWidth})`;
+    indicator.dataset.ink = tab.dataset.ink;
+  };
+  if (volumeTabs) {
+    // The series on the table is gathered up (quick, together) before the
+    // next is dealt; a tab chosen mid-gathering deals its own series at once.
+    let gathering: Animation | undefined;
+    const current = tabs(volumeTabs, async (tab, previous) => {
+      placeIndicator(tab);
+      tab.scrollIntoView({ block: 'nearest', inline: 'nearest', behavior: reduced() ? 'instant' : 'smooth' });
+      await gatherVolumes();
+      const panels = [...document.querySelectorAll<HTMLElement>('.volumes [role="tabpanel"]')];
+      const next = document.getElementById(tab.getAttribute('aria-controls')!);
+      const last = document.getElementById(previous.getAttribute('aria-controls')!);
+      // The series could not be fetched (offline): the tab is the link it is without a script.
+      if (!next) {
+        location.assign((tab as HTMLAnchorElement).href);
+        return;
+      }
+      gathering?.cancel();
+      const deal = () => {
+        for (const panel of panels) {
+          panel.hidden = panel !== next;
+          for (const animation of panel.getAnimations()) animation.cancel();
+        }
+        if (!next || reduced()) return;
+        dealDeck(next);
+        next.querySelector<HTMLElement>('.volume__text')?.animate([{ opacity: 0, transform: 'translateY(10px)' }, { opacity: 1, transform: 'none' }], { duration: 420, easing: EASE });
+      };
+      if (!last || last.hidden || reduced()) return deal();
+      gathering = last.animate([{ opacity: 1, transform: 'none' }, { opacity: 0, transform: 'translateY(8px)' }], { duration: 160, easing: 'cubic-bezier(0.55, 0, 1, 0.45)', fill: 'forwards' });
+      gathering.finished.then(deal, () => {});
+    });
+    requestAnimationFrame(() => {
+      indicator?.classList.add('is-placed');
+      placeIndicator(current());
+    });
+    new ResizeObserver(() => placeIndicator(current())).observe(volumeTabs);
+  }
+</script>

@@ -1,0 +1,572 @@
+{
+  "parties": [
+    {
+      "id": "cpsu",
+      "name": "Đảng Cộng sản Liên Xô",
+      "abbr": "КПСС",
+      "country": "Liên Xô",
+      "period": "1912–1991",
+      "variants": [
+        "marxism-leninism",
+        "stalinism"
+      ],
+      "emblem": {
+        "shape": "disc",
+        "field": "#cc0000",
+        "ink": "#ffd700",
+        "motif": "hammer-sickle"
+      }
+    },
+    {
+      "id": "cpv",
+      "name": "Đảng Cộng sản Việt Nam",
+      "abbr": "ĐCSVN",
+      "country": "Việt Nam",
+      "period": "1930–nay",
+      "variants": [
+        "marxism-leninism",
+        "reform-socialism",
+        "national-liberation-socialism"
+      ],
+      "emblem": {
+        "shape": "disc",
+        "field": "#da251d",
+        "ink": "#ffff00",
+        "motif": "hammer-sickle"
+      }
+    },
+    {
+      "id": "sed",
+      "name": "Đảng Xã hội Chủ nghĩa Thống nhất Đức",
+      "abbr": "SED",
+      "country": "Đông Đức",
+      "period": "1946–1989",
+      "variants": [
+        "marxism-leninism"
+      ],
+      "emblem": {
+        "shape": "disc",
+        "field": "#cc0000",
+        "ink": "#ffffff",
+        "motif": "handshake"
+      }
+    },
+    {
+      "id": "ppsh",
+      "name": "Đảng Lao động Albania",
+      "abbr": "PPSh",
+      "country": "Albania",
+      "period": "1941–1991",
+      "variants": [
+        "stalinism"
+      ],
+      "emblem": {
+        "shape": "disc",
+        "field": "#e41e20",
+        "ink": "#ffd700",
+        "motif": "hammer-sickle"
+      }
+    },
+    {
+      "id": "ccp",
+      "name": "Đảng Cộng sản Trung Quốc",
+      "country": "Trung Quốc",
+      "period": "1921–nay",
+      "variants": [
+        "maoism",
+        "reform-socialism"
+      ],
+      "emblem": {
+        "shape": "disc",
+        "field": "#ee1c25",
+        "ink": "#ffff00",
+        "motif": "hammer-sickle"
+      }
+    },
+    {
+      "id": "lutte-ouvriere",
+      "name": "Đấu tranh Công nhân",
+      "abbr": "LO",
+      "country": "Pháp",
+      "period": "1968–nay",
+      "variants": [
+        "trotskyism"
+      ],
+      "emblem": {
+        "shape": "disc",
+        "field": "#bb0000",
+        "ink": "#ffffff",
+        "motif": "hammer-sickle"
+      }
+    },
+    {
+      "id": "lcr",
+      "name": "Liên đoàn Cộng sản Cách mạng",
+      "abbr": "LCR",
+      "country": "Pháp",
+      "period": "1974–2009",
+      "variants": [
+        "trotskyism"
+      ],
+      "emblem": {
+        "shape": "disc",
+        "field": "#e2001a",
+        "ink": "#ffffff",
+        "motif": "star"
+      }
+    },
+    {
+      "id": "wpk",
+      "name": "Đảng Lao động Triều Tiên",
+      "country": "Triều Tiên",
+      "period": "1949–nay",
+      "variants": [
+        "juche"
+      ],
+      "emblem": {
+        "shape": "disc",
+        "field": "#cc0000",
+        "ink": "#ffd700",
+        "motif": "hammer-sickle-brush"
+      }
+    },
+    {
+      "id": "pci",
+      "name": "Đảng Cộng sản Ý",
+      "abbr": "PCI",
+      "country": "Ý",
+      "period": "1921–1991",
+      "variants": [
+        "eurocommunism"
+      ],
+      "emblem": {
+        "shape": "disc",
+        "field": "#d40000",
+        "ink": "#ffffff",
+        "motif": "hammer-sickle",
+        "ring": "#009246"
+      }
+    },
+    {
+      "id": "pce",
+      "name": "Đảng Cộng sản Tây Ban Nha",
+      "abbr": "PCE",
+      "country": "Tây Ban Nha",
+      "period": "1921–nay",
+      "variants": [
+        "eurocommunism"
+      ],
+      "emblem": {
+        "shape": "disc",
+        "field": "#c1121f",
+        "ink": "#ffd700",
+        "motif": "hammer-sickle"
+      }
+    },
+    {
+      "id": "spartakusbund",
+      "name": "Liên đoàn Spartakus",
+      "country": "Đức",
+      "period": "1914–1919",
+      "variants": [
+        "luxemburgism"
+      ],
+      "emblem": {
+        "shape": "disc",
+        "field": "#cc0000",
+        "ink": "#ffffff",
+        "motif": "flag-banner"
+      }
+    },
+    {
+      "id": "kapd",
+      "name": "Đảng Công nhân Cộng sản Đức",
+      "abbr": "KAPD",
+      "country": "Đức",
+      "period": "1920–1933",
+      "variants": [
+        "council-communism"
+      ],
+      "emblem": {
+        "shape": "disc",
+        "field": "#cc0000",
+        "ink": "#ffffff",
+        "motif": "factory",
+        "ring": "#000000"
+      }
+    },
+    {
+      "id": "cpc-ml",
+      "name": "Đảng Cộng sản Canada (Mác–Lênin)",
+      "abbr": "CPC(M-L)",
+      "country": "Canada",
+      "period": "1970–nay",
+      "variants": [
+        "hoxhaism"
+      ],
+      "emblem": {
+        "shape": "disc",
+        "field": "#d52b1e",
+        "ink": "#ffffff",
+        "motif": "hammer-sickle"
+      }
+    },
+    {
+      "id": "m-26-7",
+      "name": "Phong trào 26 tháng 7",
+      "abbr": "M-26-7",
+      "country": "Cuba",
+      "period": "1955–1961",
+      "variants": [
+        "guevarism"
+      ],
+      "emblem": {
+        "shape": "disc",
+        "field": "#e4002b",
+        "ink": "#ffffff",
+        "motif": "flag-banner",
+        "ring": "#000000"
+      }
+    },
+    {
+      "id": "pcc-cuba",
+      "name": "Đảng Cộng sản Cuba",
+      "abbr": "PCC",
+      "country": "Cuba",
+      "period": "1965–nay",
+      "variants": [
+        "guevarism",
+        "marxism-leninism"
+      ],
+      "emblem": {
+        "shape": "disc",
+        "field": "#cf142b",
+        "ink": "#ffffff",
+        "motif": "star",
+        "ring": "#002a8f"
+      }
+    },
+    {
+      "id": "cpk",
+      "name": "Đảng Cộng sản Campuchia",
+      "abbr": "CPK",
+      "country": "Campuchia",
+      "period": "1960–1981",
+      "variants": [
+        "agrarian-communism-khmer"
+      ],
+      "emblem": {
+        "shape": "disc",
+        "field": "#c8102e",
+        "ink": "#ffd700",
+        "motif": "hammer-sickle"
+      }
+    }
+  ],
+  "states": [
+    {
+      "id": "soviet-union-1953-1985",
+      "name": "Liên Xô",
+      "period": "1953–1985",
+      "note": "Sau Stalin, từ Khrushchev đến Chernenko",
+      "variants": [
+        "marxism-leninism"
+      ],
+      "flag": "soviet-union"
+    },
+    {
+      "id": "vietnam-1976-1986",
+      "name": "CHXHCN Việt Nam",
+      "period": "1976–1986",
+      "note": "Kế hoạch hoá tập trung, thời bao cấp",
+      "variants": [
+        "marxism-leninism"
+      ],
+      "flag": "vietnam"
+    },
+    {
+      "id": "soviet-union-1928-1953",
+      "name": "Liên Xô",
+      "period": "1928–1953",
+      "note": "Thời Iosif Stalin",
+      "variants": [
+        "stalinism"
+      ],
+      "flag": "soviet-union"
+    },
+    {
+      "id": "albania-1946-1985",
+      "name": "Albania",
+      "period": "1946–1985",
+      "note": "Thời Enver Hoxha",
+      "variants": [
+        "stalinism"
+      ],
+      "flag": "albania-1946"
+    },
+    {
+      "id": "prc-1949-1976",
+      "name": "Trung Quốc",
+      "period": "1949–1976",
+      "note": "Thời Mao Trạch Đông",
+      "variants": [
+        "maoism"
+      ],
+      "flag": "prc"
+    },
+    {
+      "id": "north-korea-since-1972",
+      "name": "Triều Tiên",
+      "period": "1972–nay",
+      "note": "Chủ thể thành hệ tư tưởng nhà nước từ Hiến pháp 1972",
+      "variants": [
+        "juche"
+      ],
+      "flag": "north-korea"
+    },
+    {
+      "id": "cuba-1959-1970",
+      "name": "Cuba",
+      "period": "1959–1970",
+      "note": "Thời Fidel Castro và Che Guevara, trước khi Cuba theo hẳn mô hình Xô viết",
+      "variants": [
+        "guevarism"
+      ],
+      "flag": "cuba"
+    },
+    {
+      "id": "democratic-kampuchea-1975-1979",
+      "name": "Campuchia Dân chủ",
+      "period": "1975–1979",
+      "note": "Chế độ Khmer Đỏ, từ ngày chiếm Phnom Penh đến khi bị lật đổ",
+      "variants": [
+        "agrarian-communism-khmer"
+      ],
+      "flag": "democratic-kampuchea"
+    }
+  ],
+  "figures": [
+    {
+      "id": "vladimir-lenin",
+      "name": "V. I. Lenin",
+      "life": "1870–1924",
+      "role": "Lãnh tụ Cách mạng Tháng Mười, lập nên Liên Xô",
+      "variant": "marxism-leninism",
+      "wiki": "Vladimir Lenin"
+    },
+    {
+      "id": "le-duan",
+      "name": "Lê Duẩn",
+      "life": "1907–1986",
+      "role": "Tổng Bí thư Đảng Cộng sản Việt Nam",
+      "variant": "marxism-leninism",
+      "wiki": "Lê Duẩn"
+    },
+    {
+      "id": "tran-phu",
+      "name": "Trần Phú",
+      "life": "1904–1931",
+      "role": "Tổng Bí thư đầu tiên Đảng Cộng sản Đông Dương",
+      "variant": "marxism-leninism",
+      "wiki": "Trần Phú"
+    },
+    {
+      "id": "joseph-stalin",
+      "name": "Iosif Stalin",
+      "life": "1878–1953",
+      "role": "Tổng Bí thư, lãnh đạo Liên Xô",
+      "variant": "stalinism",
+      "wiki": "Joseph Stalin"
+    },
+    {
+      "id": "enver-hoxha",
+      "name": "Enver Hoxha",
+      "life": "1908–1985",
+      "role": "Lãnh đạo Albania 1944–1985",
+      "variant": "stalinism",
+      "wiki": "Enver Hoxha"
+    },
+    {
+      "id": "mao-zedong",
+      "name": "Mao Trạch Đông",
+      "life": "1893–1976",
+      "role": "Chủ tịch Đảng Cộng sản Trung Quốc",
+      "variant": "maoism",
+      "wiki": "Mao Zedong"
+    },
+    {
+      "id": "truong-chinh",
+      "name": "Trường Chinh",
+      "life": "1907–1988",
+      "role": "Tổng Bí thư, chỉ đạo Cải cách ruộng đất",
+      "variant": "maoism",
+      "wiki": "Trường Chinh"
+    },
+    {
+      "id": "leon-trotsky",
+      "name": "Lev Trotsky",
+      "life": "1879–1940",
+      "role": "Người lập Hồng quân và Đệ tứ Quốc tế",
+      "variant": "trotskyism",
+      "wiki": "Leon Trotsky"
+    },
+    {
+      "id": "ta-thu-thau",
+      "name": "Tạ Thu Thâu",
+      "life": "1906–1945",
+      "role": "Lãnh tụ phái Đệ tứ ở Nam Kỳ",
+      "variant": "trotskyism",
+      "wiki": "Tạ Thu Thâu"
+    },
+    {
+      "id": "kim-il-sung",
+      "name": "Kim Nhật Thành",
+      "life": "1912–1994",
+      "role": "Người lập nhà nước Triều Tiên",
+      "variant": "juche",
+      "wiki": "Kim Il Sung"
+    },
+    {
+      "id": "kim-jong-il",
+      "name": "Kim Chính Nhật",
+      "life": "1941–2011",
+      "role": "Lãnh đạo Triều Tiên 1994–2011",
+      "variant": "juche",
+      "wiki": "Kim Jong Il"
+    },
+    {
+      "id": "enrico-berlinguer",
+      "name": "Enrico Berlinguer",
+      "life": "1922–1984",
+      "role": "Tổng Bí thư Đảng Cộng sản Ý",
+      "variant": "eurocommunism",
+      "wiki": "Enrico Berlinguer"
+    },
+    {
+      "id": "santiago-carrillo",
+      "name": "Santiago Carrillo",
+      "life": "1915–2012",
+      "role": "Tổng Bí thư Đảng Cộng sản Tây Ban Nha",
+      "variant": "eurocommunism",
+      "wiki": "Santiago Carrillo"
+    },
+    {
+      "id": "rosa-luxemburg",
+      "name": "Rosa Luxemburg",
+      "life": "1871–1919",
+      "role": "Nhà lý luận, đồng sáng lập Liên đoàn Spartakus",
+      "variant": "luxemburgism",
+      "wiki": "Rosa Luxemburg"
+    },
+    {
+      "id": "anton-pannekoek",
+      "name": "Anton Pannekoek",
+      "life": "1873–1960",
+      "role": "Nhà thiên văn, lý luận cộng sản hội đồng",
+      "variant": "luxemburgism",
+      "wiki": "Anton Pannekoek"
+    },
+    {
+      "id": "herman-gorter",
+      "name": "Herman Gorter",
+      "life": "1864–1927",
+      "role": "Nhà thơ Hà Lan, tác giả Thư ngỏ gửi đồng chí Lenin (1920)",
+      "variant": "council-communism",
+      "wiki": "Herman Gorter"
+    },
+    {
+      "id": "otto-ruhle",
+      "name": "Otto Rühle",
+      "life": "1874–1943",
+      "role": "Nghị sĩ Đức, tác giả 'Cách mạng không phải việc của đảng' (1920)",
+      "variant": "council-communism",
+      "wiki": "Otto Rühle"
+    },
+    {
+      "id": "paul-mattick",
+      "name": "Paul Mattick",
+      "life": "1904–1981",
+      "role": "Nhà lý luận cộng sản hội đồng Đức–Mỹ",
+      "variant": "council-communism",
+      "wiki": "Paul Mattick"
+    },
+    {
+      "id": "mehmet-shehu",
+      "name": "Mehmet Shehu",
+      "life": "1913–1981",
+      "role": "Thủ tướng Albania (1954–1981)",
+      "variant": "hoxhaism",
+      "wiki": "Mehmet Shehu"
+    },
+    {
+      "id": "ramiz-alia",
+      "name": "Ramiz Alia",
+      "life": "1925–2011",
+      "role": "Người kế nhiệm Hoxha, lãnh đạo Albania (1985–1991)",
+      "variant": "hoxhaism",
+      "wiki": "Ramiz Alia"
+    },
+    {
+      "id": "hardial-bains",
+      "name": "Hardial Bains",
+      "life": "1939–1997",
+      "role": "Người sáng lập Đảng Cộng sản Canada (Mác–Lênin)",
+      "variant": "hoxhaism",
+      "wiki": "Hardial Bains",
+      "axes": {
+        "identity": 55
+      }
+    },
+    {
+      "id": "che-guevara",
+      "name": "Che Guevara",
+      "life": "1928–1967",
+      "role": "Nhà cách mạng Argentina–Cuba, lý thuyết gia chiến tranh du kích",
+      "variant": "guevarism",
+      "wiki": "Che Guevara"
+    },
+    {
+      "id": "fidel-castro",
+      "name": "Fidel Castro",
+      "life": "1926–2016",
+      "role": "Lãnh tụ Cách mạng Cuba, cầm quyền 1959–2008",
+      "variant": "guevarism",
+      "wiki": "Fidel Castro",
+      "axes": {
+        "identity": 55
+      }
+    },
+    {
+      "id": "carlos-fonseca",
+      "name": "Carlos Fonseca",
+      "life": "1936–1976",
+      "role": "Người sáng lập Mặt trận Giải phóng Dân tộc Sandino (Nicaragua)",
+      "variant": "guevarism",
+      "wiki": "Carlos Fonseca"
+    },
+    {
+      "id": "pol-pot",
+      "name": "Pol Pot",
+      "life": "1925–1998",
+      "role": "Tổng Bí thư Đảng Cộng sản Campuchia, Thủ tướng Campuchia Dân chủ",
+      "variant": "agrarian-communism-khmer",
+      "wiki": "Pol Pot"
+    },
+    {
+      "id": "nuon-chea",
+      "name": "Nuon Chea",
+      "life": "1926–2019",
+      "role": "Phó Bí thư Đảng Cộng sản Campuchia, bị toà ECCC kết tội diệt chủng (2018)",
+      "variant": "agrarian-communism-khmer",
+      "wiki": "Nuon Chea"
+    },
+    {
+      "id": "ieng-sary",
+      "name": "Ieng Sary",
+      "life": "1925–2013",
+      "role": "Phó Thủ tướng phụ trách ngoại giao Campuchia Dân chủ",
+      "variant": "agrarian-communism-khmer",
+      "wiki": "Ieng Sary"
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+---
+// Tác giả: each author with their latest work in the register.
+import { getCollection } from 'astro:content';
+import Glyph from '~/components/edition/Glyph.astro';
+import PageHead from '~/components/edition/PageHead.astro';
+import Register from '~/components/edition/Register.astro';
+import EditionLayout from '~/layouts/EditionLayout.astro';
+import { authorSlug } from '~/lib/authorArchive.mjs';
+
+const published = (
+  await getCollection('essays', ({ data }) => !data.draft && !data.comingSoon)
+).sort((a, b) => +b.data.date - +a.data.date);
+const authors = [...new Set(published.map(({ data }) => data.author))]
+  .map((name) => ({
+    name,
+    slug: authorSlug(name),
+    entries: published.filter(({ data }) => data.author === name),
+  }))
+  .sort((a, b) => b.entries.length - a.entries.length || a.name.localeCompare(b.name, 'vi'));
+const LATEST = 5;
+---
+<EditionLayout title="Tác giả" description="Các tác giả trên The Cochinchine Pensées và danh mục bài viết đã xuất bản của từng người." noindex={false}>
+  <PageHead title="Tác giả" />
+  <div class="page-body wrap">
+    {authors.map(({ name, slug, entries }) => (
+      <section class="author" id={`author-${slug}`} aria-labelledby={`author-${slug}-title`}>
+        <header class="author__head">
+          <h2 class="author__name" id={`author-${slug}-title`}><a class="title-link" href={`/authors/${slug}`}>{name}</a></h2>
+          {entries.length > LATEST && <a class="caps-link" href={`/authors/${slug}`}><span>Tất cả bài viết</span><Glyph name="forward" inline /></a>}
+        </header>
+        <Register entries={entries.slice(0, LATEST)} author={false} />
+      </section>
+    ))}
+  </div>
+</EditionLayout>

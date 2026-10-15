@@ -1,0 +1,110 @@
+/* Ấn bản: homepage. Five modules, each its own layout family, on one
+   twelve-column grid: the front (a full-bleed print with a paper card laid
+   over it, two rows of pensées under its title, then the issue, an asymmetric
+   grid with broadsheet column rules, and the door to La bàn Tư tưởng, beside
+   the cover on a wide page and after the issue on a narrow one), the daily
+   excerpt, the series (a deck of prints answering a list), and the reviews
+   (books standing on the prints of the essays that answer them).
+
+   Only the cover is set from here, in the head: it is the first screen, at
+   every width. The rest of the page is set from home-later.css, linked just
+   after the cover (lib/editionStyles.ts). */
+
+/* ---------- the front ---------- */
+/* One grid from the cover to the end of the issue, so the door can stand
+   beside the one and follow the other. The front is as wide as the page,
+   which lets the cover's print run out to its edges (100cqw). */
+.front {
+  container-type: inline-size;
+}
+/* Rows: the print, the card, the pensées, whatever the door needs beyond
+   them (a flexible row, so the pensées follow the card closely however tall
+   the door stands beside them), and the issue. */
+.front__grid {
+  display: grid;
+  grid-template-columns: repeat(12, minmax(0, 1fr));
+  grid-template-rows: auto auto auto 1fr auto;
+  column-gap: var(--gutter);
+  align-items: start;
+}
+/* The print and its card: one story, two items of the grid. */
+.cover {
+  display: contents;
+}
+.cover__plate {
+  grid-column: 1 / -1;
+  grid-row: 1;
+  position: relative;
+  display: block;
+  height: clamp(22rem, 68vh, 50rem);
+  margin-inline: calc((100% - 100cqw) / 2);
+  overflow: hidden;
+}
+.cover__plate .plate {
+  position: absolute;
+  inset: 0;
+  aspect-ratio: auto;
+}
+/* The title card lifts over the plate: paper laid on top of the print. */
+.cover__card {
+  --pad: clamp(1.25rem, 3.2vw, 3.5rem);
+  grid-column: 1 / span 7;
+  grid-row: 2;
+  position: relative;
+  margin: clamp(-12rem, -13vw, -3rem) 0 0 calc(-1 * min(var(--pad), var(--margin)));
+  padding: var(--pad) var(--pad) 0 min(var(--pad), var(--margin));
+  background: var(--paper);
+}
+.cover__title {
+  margin-top: var(--s-3);
+  font-size: var(--t-display);
+  line-height: 1.06;
+  letter-spacing: -0.024em;
+}
+.cover__dek {
+  max-width: 30ch;
+  margin-top: var(--s-4);
+  font-size: var(--t-dek-l);
+  font-style: italic;
+  line-height: 1.32;
+}
+/* ---------- scroll-linked depth (progressive, motion-safe) ---------- */
+@supports (animation-timeline: view()) {
+  @media (prefers-reduced-motion: no-preference) {
+    .cover__plate .plate__print {
+      animation: cover-drift linear both;
+      animation-timeline: view();
+      animation-range: exit 0% exit 100%;
+    }
+  }
+}
+@keyframes cover-drift {
+  to {
+    transform: translateY(12%) scale(1.04);
+  }
+}
+
+/* ---------- responsive ---------- */
+@media (max-width: 1100px) {
+  .cover__card {
+    grid-column: 1 / span 8;
+  }
+}
+@media (max-width: 900px) {
+  /* One column, in the order written: the door after the issue. */
+  .front__grid {
+    grid-template-rows: none;
+  }
+  .cover__card {
+    grid-column: 1 / -1;
+    grid-row: auto;
+  }
+}
+@media (max-width: 640px) {
+  .cover__plate {
+    height: min(76vw, 24rem);
+  }
+  .cover__card {
+    margin-top: -2.5rem;
+  }
+}

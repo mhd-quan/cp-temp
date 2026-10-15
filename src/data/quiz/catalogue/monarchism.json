@@ -1,0 +1,246 @@
+{
+  "parties": [
+    {
+      "id": "whigs-uk",
+      "name": "Đảng Whig",
+      "country": "Anh",
+      "period": "1678–1859",
+      "variants": [
+        "constitutional-monarchy",
+        "classical-liberalism"
+      ],
+      "emblem": {
+        "shape": "disc",
+        "field": "#1f3f7a",
+        "ink": "#e0c28f",
+        "motif": "crown-simple"
+      }
+    },
+    {
+      "id": "can-vuong",
+      "name": "Phong trào Cần Vương",
+      "country": "Việt Nam",
+      "period": "1885–1896",
+      "variants": [
+        "legitimism"
+      ],
+      "emblem": {
+        "shape": "shield",
+        "field": "#f2c230",
+        "ink": "#8b1a1a",
+        "motif": "sword"
+      }
+    },
+    {
+      "id": "duy-tan-hoi",
+      "name": "Hội Duy Tân",
+      "country": "Việt Nam",
+      "period": "1904–1912",
+      "variants": [
+        "legitimism",
+        "constitutional-monarchy"
+      ],
+      "emblem": {
+        "shape": "disc",
+        "field": "#8b1a1a",
+        "ink": "#f2c230",
+        "motif": "sun-horizon"
+      }
+    },
+    {
+      "id": "legitimists-france",
+      "name": "Phái Chính thống",
+      "country": "Pháp",
+      "period": "1830–1883",
+      "variants": [
+        "legitimism",
+        "counter-revolution"
+      ],
+      "emblem": {
+        "shape": "disc",
+        "field": "#ffffff",
+        "ink": "#b8860b",
+        "motif": "fleur-de-lis",
+        "ring": "#1c3f94"
+      }
+    }
+  ],
+  "states": [
+    {
+      "id": "france-1661-1715",
+      "name": "Vương quốc Pháp",
+      "period": "1661–1715",
+      "note": "Louis XIV tự cai trị; Colbert điều hành kinh tế",
+      "variants": [
+        "absolute-monarchy",
+        "mercantilism"
+      ],
+      "flag": "france-royal"
+    },
+    {
+      "id": "dai-nam-1820-1841",
+      "name": "Đại Nam (nhà Nguyễn)",
+      "period": "1820–1841",
+      "note": "Triều Minh Mạng: cải cách hành chính, tập quyền",
+      "variants": [
+        "absolute-monarchy",
+        "examination-confucianism"
+      ],
+      "flag": "nguyen-dynasty"
+    },
+    {
+      "id": "prussia-1740-1786",
+      "name": "Vương quốc Phổ",
+      "period": "1740–1786",
+      "note": "Thời Friedrich II",
+      "variants": [
+        "enlightened-absolutism"
+      ],
+      "flag": "prussia"
+    },
+    {
+      "id": "austria-1780-1790",
+      "name": "Quân chủ Habsburg (Áo)",
+      "period": "1780–1790",
+      "note": "Thời Joseph II: cải cách, khoan dung tôn giáo",
+      "variants": [
+        "enlightened-absolutism"
+      ],
+      "flag": "holy-roman-empire"
+    },
+    {
+      "id": "uk-1837-1901",
+      "name": "Vương quốc Anh",
+      "period": "1837–1901",
+      "note": "Thời Victoria: vua trị vì, nội các cai trị",
+      "variants": [
+        "constitutional-monarchy"
+      ],
+      "flag": "uk"
+    },
+    {
+      "id": "japan-1947-present",
+      "name": "Nhật Bản",
+      "period": "1947–nay",
+      "note": "Hiến pháp 1947: Thiên hoàng là biểu tượng quốc gia",
+      "variants": [
+        "constitutional-monarchy"
+      ],
+      "flag": "japan"
+    },
+    {
+      "id": "france-1814-1830",
+      "name": "Vương quốc Pháp",
+      "period": "1814–1830",
+      "note": "Phục hoàng nhà Bourbon: Louis XVIII, Charles X",
+      "variants": [
+        "legitimism"
+      ],
+      "flag": "bourbon-restoration"
+    }
+  ],
+  "figures": [
+    {
+      "id": "louis-xiv",
+      "name": "Louis XIV",
+      "life": "1638–1715",
+      "role": "Vua Pháp (1643–1715)",
+      "variant": "absolute-monarchy",
+      "axes": {
+        "foreign": 10
+      },
+      "wiki": "Louis XIV"
+    },
+    {
+      "id": "minh-mang",
+      "name": "Minh Mạng",
+      "life": "1791–1841",
+      "role": "Hoàng đế nhà Nguyễn (1820–1841)",
+      "variant": "absolute-monarchy",
+      "wiki": "Minh Mạng"
+    },
+    {
+      "id": "jacques-benigne-bossuet",
+      "name": "Jacques-Bénigne Bossuet",
+      "life": "1627–1704",
+      "role": "Giám mục, lý luận thuyết vương quyền thần thụ",
+      "variant": "absolute-monarchy",
+      "wiki": "Jacques-Bénigne Bossuet"
+    },
+    {
+      "id": "frederick-the-great",
+      "name": "Friedrich II",
+      "life": "1712–1786",
+      "role": "Vua Phổ (1740–1786)",
+      "variant": "enlightened-absolutism",
+      "wiki": "Frederick the Great"
+    },
+    {
+      "id": "joseph-ii",
+      "name": "Joseph II",
+      "life": "1741–1790",
+      "role": "Hoàng đế La Mã Thần thánh, nhà cải cách Áo",
+      "variant": "enlightened-absolutism",
+      "axes": {
+        "religion": 20
+      },
+      "wiki": "Joseph II, Holy Roman Emperor"
+    },
+    {
+      "id": "catherine-the-great",
+      "name": "Ekaterina II",
+      "life": "1729–1796",
+      "role": "Nữ hoàng Nga (1762–1796)",
+      "variant": "enlightened-absolutism",
+      "wiki": "Catherine the Great"
+    },
+    {
+      "id": "walter-bagehot",
+      "name": "Walter Bagehot",
+      "life": "1826–1877",
+      "role": "Nhà báo Anh, tác giả Hiến pháp Anh (1867)",
+      "variant": "constitutional-monarchy",
+      "wiki": "Walter Bagehot"
+    },
+    {
+      "id": "elizabeth-ii",
+      "name": "Elizabeth II",
+      "life": "1926–2022",
+      "role": "Nữ hoàng Anh (1952–2022)",
+      "variant": "constitutional-monarchy",
+      "wiki": "Elizabeth II"
+    },
+    {
+      "id": "juan-carlos-i",
+      "name": "Juan Carlos I",
+      "life": "s. 1938",
+      "role": "Vua Tây Ban Nha (1975–2014)",
+      "variant": "constitutional-monarchy",
+      "wiki": "Juan Carlos I"
+    },
+    {
+      "id": "phan-dinh-phung",
+      "name": "Phan Đình Phùng",
+      "life": "1847–1895",
+      "role": "Lãnh tụ khởi nghĩa Hương Khê (Cần Vương)",
+      "variant": "legitimism",
+      "wiki": "Phan Đình Phùng"
+    },
+    {
+      "id": "ton-that-thuyet",
+      "name": "Tôn Thất Thuyết",
+      "life": "1839–1913",
+      "role": "Phụ chính đại thần, phát động Cần Vương",
+      "variant": "legitimism",
+      "wiki": "Tôn Thất Thuyết"
+    },
+    {
+      "id": "henri-count-of-chambord",
+      "name": "Henri, bá tước Chambord",
+      "life": "1820–1883",
+      "role": "Người đòi ngai vàng Pháp của phái Chính thống",
+      "variant": "legitimism",
+      "wiki": "Henri, Count of Chambord"
+    }
+  ]
+}

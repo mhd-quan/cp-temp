@@ -1,0 +1,4199 @@
+{
+  "version": 1,
+  "reviewed": "2026-10-07",
+  "scope": {
+    "initialMissing": 140,
+    "added": 126,
+    "remaining": 14,
+    "existingPreserved": 281
+  },
+  "sources": [
+    {
+      "id": "derrick-jensen",
+      "name": "Derrick Jensen",
+      "commonsFile": "Derrick Jensen, 2020 (cropped).png",
+      "page": "https://commons.wikimedia.org/wiki/File:Derrick_Jensen,_2020_(cropped).png",
+      "revision": 1118283763,
+      "retrieved": "2026-10-07",
+      "wikidata": "Q1199836",
+      "credit": "Escape with Lord Hugh R. Adumbass",
+      "license": "CC BY 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+      "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/f/fa/Derrick_Jensen%2C_2020_%28cropped%29.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "originalSize": [
+        473,
+        669
+      ],
+      "sourceNote": "YouTube : https://www.youtube.com/watch?v=4B3InqXJxxA – View/save archived versions on archive.org Title: Derrick Jensen - \"Mind over matter\"",
+      "attributionRequested": "Escape with Lord Hugh R. Adumbass",
+      "inputSize": [
+        473,
+        669
+      ],
+      "manualCrop": null,
+      "transformations": [
+        "auto-orient",
+        "crop 4:5",
+        "greyscale",
+        "resize 160×200 and 400×500",
+        "AVIF quality 52, effort 6"
+      ],
+      "note": null
+    },
+    {
+      "id": "salah-al-din-al-bitar",
+      "name": "Salah al-Din al-Bitar",
+      "commonsFile": "Prime Minister Salah al-Bitar - March 1963.png",
+      "page": "https://commons.wikimedia.org/wiki/File:Prime_Minister_Salah_al-Bitar_-_March_1963.png",
+      "revision": 1226595497,
+      "retrieved": "2026-10-07",
+      "wikidata": "Q500447",
+      "credit": "Unknown, published by the Syrian History Archive",
+      "license": "Public domain",
+      "licenseUrl": null,
+      "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/7/77/Prime_Minister_Salah_al-Bitar_-_March_1963.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "originalSize": [
+        600,
+        750
+      ],
+      "sourceNote": "Syrian History Archive",
+      "attributionRequested": null,
+      "inputSize": [
+        600,
+        750
+      ],
+      "manualCrop": null,
+      "transformations": [
+        "auto-orient",
+        "crop 4:5",
+        "greyscale",
+        "resize 160×200 and 400×500",
+        "AVIF quality 52, effort 6"
+      ],
+      "note": null
+    },
+    {
+      "id": "saddam-hussein",
+      "name": "Saddam Hussein",
+      "commonsFile": "Saddam Hussein at trial, July 2004.JPEG",
+      "page": "https://commons.wikimedia.org/wiki/File:Saddam_Hussein_at_trial,_July_2004.JPEG",
+      "revision": 1010157350,
+      "retrieved": "2026-10-07",
+      "wikidata": "Q1316",
+      "credit": "Không rõ tác giả",
+      "license": "Public domain",
+      "licenseUrl": null,
+      "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Saddam_Hussein_at_trial%2C_July_2004.JPEG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "originalSize": [
+        1960,
+        3008
+      ],
+      "sourceNote": "http://www.dodmedia.osd.mil/DVIC_View/Still_Details.cfm?SDAN=DDSD0503992&JPGPath=/Assets/2005/DoD/DD-SD-05-03992.JPG",
+      "attributionRequested": null,
+      "inputSize": [
+        960,
+        1473
+      ],
+      "manualCrop": null,
+      "transformations": [
+        "auto-orient",
+        "crop 4:5",
+        "greyscale",
+        "resize 160×200 and 400×500",
+        "AVIF quality 52, effort 6"
+      ],
+      "note": null
+    },
+    {
+      "id": "hafez-al-assad",
+      "name": "Hafez al-Assad",
+      "commonsFile": "Hafez al-Assad official portrait.jpg",
+      "page": "https://commons.wikimedia.org/wiki/File:Hafez_al-Assad_official_portrait.jpg",
+      "revision": 1245319599,
+      "retrieved": "2026-10-07",
+      "wikidata": "Q118725",
+      "credit": "Government of Syria",
+      "license": "Public domain",
+      "licenseUrl": null,
+      "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/8/89/Hafez_al-Assad_official_portrait.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "originalSize": [
+        852,
+        1200
+      ],
+      "sourceNote": "http://www.discover-syria.com/photo/14569/%D8%A3%D8%B1%D8%B3%D8%B7%D9%88",
+      "attributionRequested": null,
+      "inputSize": [
+        852,
+        1200
+      ],
+      "manualCrop": null,
+      "transformations": [
+        "auto-orient",
+        "crop 4:5",
+        "greyscale",
+        "resize 160×200 and 400×500",
+        "AVIF quality 52, effort 6"
+      ],
+      "note": null
+    },
+    {
+      "id": "subandrio",
+      "name": "Subandrio",
+      "commonsFile": "Subandrio 1963.jpg",
+      "page": "https://commons.wikimedia.org/wiki/File:Subandrio_1963.jpg",
+      "revision": 1187211944,
+      "retrieved": "2026-10-07",
+      "wikidata": "Q1306699",
+      "credit": "Không rõ tác giả ảnh gốc; nguồn đăng: Davidelit (English Wikipedia)",
+      "license": "Public domain",
+      "licenseUrl": null,
+      "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/9/9a/Subandrio_1963.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "originalSize": [
+        1055,
+        1683
+      ],
+      "sourceNote": "\"Indonesia 1963\" p56, Published by Dept of Foreign Affairs, Indonesia, 1963",
+      "attributionRequested": null,
+      "inputSize": [
+        960,
+        1531
+      ],
+      "manualCrop": {
+        "left": 480,
+        "top": 0,
+        "width": 460,
+        "height": 575
+      },
+      "transformations": [
+        "auto-orient",
+        "crop 4:5",
+        "greyscale",
+        "resize 160×200 and 400×500",
+        "AVIF quality 52, effort 6"
+      ],
+      "note": null
+    },
+    {
+      "id": "roeslan-abdulgani",
+      "name": "Roeslan Abdulgani",
+      "commonsFile": "Roeslan Abdulgani, Kami Perkenalkan (1954), p37.jpg",
+      "page": "https://commons.wikimedia.org/wiki/File:Roeslan_Abdulgani,_Kami_Perkenalkan_(1954),_p37.jpg",
+      "revision": 684298447,
+      "retrieved": "2026-10-07",
+      "wikidata": "Q967941",
+      "credit": "Ministry of Information of Indonesia",
+      "license": "Public domain",
+      "licenseUrl": null,
+      "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/2/2d/Roeslan_Abdulgani%2C_Kami_Perkenalkan_%281954%29%2C_p37.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "originalSize": [
+        540,
+        789
+      ],
+      "sourceNote": "Kami Perkenalkan . 1954. Jakarta: Ministry of Information. Page in title",
+      "attributionRequested": null,
+      "inputSize": [
+        540,
+        789
+      ],
+      "manualCrop": null,
+      "transformations": [
+        "auto-orient",
+        "crop 4:5",
+        "greyscale",
+        "resize 160×200 and 400×500",
+        "AVIF quality 52, effort 6"
+      ],
+      "note": null
+    },
+    {
+      "id": "ngo-dinh-nhu",
+      "name": "Ngô Đình Nhu",
+      "commonsFile": "Portrait photograph of Ngo Dinh Nhu.jpg",
+      "page": "https://commons.wikimedia.org/wiki/File:Portrait_photograph_of_Ngo_Dinh_Nhu.jpg",
+      "revision": 1271646179,
+      "retrieved": "2026-10-07",
+      "wikidata": "Q650194",
+      "credit": "CIA",
+      "license": "Public domain",
+      "licenseUrl": null,
+      "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/b/bd/Portrait_photograph_of_Ngo_Dinh_Nhu.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "originalSize": [
+        448,
+        602
+      ],
+      "sourceNote": "CIA website: https://www.cia.gov/readingroom/docs/2_CIA_AND_THE_HOUSE_OF_NGO.pdf National Security Archive: https://nsarchive2.gwu.edu/NSAEBB/NSAEBB284/2-CIA_AND_THE_HOUSE_OF_NGO.pdf",
+      "attributionRequested": null,
+      "inputSize": [
+        448,
+        602
+      ],
+      "manualCrop": null,
+      "transformations": [
+        "auto-orient",
+        "crop 4:5",
+        "greyscale",
+        "resize 160×200 and 400×500",
+        "AVIF quality 52, effort 6"
+      ],
+      "note": null
+    },
+    {
+      "id": "alberto-fujimori",
+      "name": "Alberto Fujimori",
+      "commonsFile": "Alberto Fujimori en 1991.jpg",
+      "page": "https://commons.wikimedia.org/wiki/File:Alberto_Fujimori_en_1991.jpg",
+      "revision": 1036578216,
+      "retrieved": "2026-10-07",
+      "wikidata": "Q133040",
+      "credit": "Christian Lambiotte / European Communities, 1991 / © European Union, 2026",
+      "license": "CC BY 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+      "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/6/6c/Alberto_Fujimori_en_1991.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "originalSize": [
+        839,
+        1153
+      ],
+      "sourceNote": "Visit of Alberto Fujimori, President of Peru, to the CEC",
+      "attributionRequested": "© European Union, 2026",
+      "inputSize": [
+        839,
+        1153
+      ],
+      "manualCrop": null,
+      "transformations": [
+        "auto-orient",
+        "crop 4:5",
+        "greyscale",
+        "resize 160×200 and 400×500",
+        "AVIF quality 52, effort 6"
+      ],
+      "note": null
+    },
+    {
+      "id": "slobodan-milosevic",
+      "name": "Slobodan Milošević",
+      "commonsFile": "Slobodan Milošević 1995a.jpg",
+      "page": "https://commons.wikimedia.org/wiki/File:Slobodan_Milo%C5%A1evi%C4%87_1995a.jpg",
+      "revision": 1131985082,
+      "retrieved": "2026-10-07",
+      "wikidata": "Q47139",
+      "credit": "U.S. Air Force/Staff Sgt. Brian Schlumbohm",
+      "license": "Public domain",
+      "licenseUrl": null,
+      "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/c/c0/Slobodan_Milo%C5%A1evi%C4%87_1995a.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "originalSize": [
+        368,
+        491
+      ],
+      "sourceNote": "[1]",
+      "attributionRequested": null,
+      "inputSize": [
+        368,
+        491
+      ],
+      "manualCrop": null,
+      "transformations": [
+        "auto-orient",
+        "crop 4:5",
+        "greyscale",
+        "resize 160×200 and 400×500",
+        "AVIF quality 52, effort 6"
+      ],
+      "note": "Thay ảnh mặc định đang có đề nghị xóa do tranh chấp quyền sử dụng bằng ảnh có nguồn tác giả rõ ràng."
+    },
+    {
+      "id": "robert-mugabe",
+      "name": "Robert Mugabe",
+      "commonsFile": "Robert Mugabe Official Portrait.jpg",
+      "page": "https://commons.wikimedia.org/wiki/File:Robert_Mugabe_Official_Portrait.jpg",
+      "revision": 1180186120,
+      "retrieved": "2026-10-07",
+      "wikidata": "Q10707",
+      "credit": "Government of Zimbabwe, taken by Joseph Nyadzayo as Presidential Photographer",
+      "license": "Public domain",
+      "licenseUrl": null,
+      "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/5/55/Robert_Mugabe_Official_Portrait.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "originalSize": [
+        1891,
+        2611
+      ],
+      "sourceNote": "Government of Zimbabwe",
+      "attributionRequested": null,
+      "inputSize": [
+        960,
+        1326
+      ],
+      "manualCrop": null,
+      "transformations": [
+        "auto-orient",
+        "crop 4:5",
+        "greyscale",
+        "resize 160×200 and 400×500",
+        "AVIF quality 52, effort 6"
+      ],
+      "note": null
+    },
+    {
+      "id": "rafael-trujillo",
+      "name": "Rafael Trujillo",
+      "commonsFile": "Rafael L. Trujillo en la silla presidencial (cropped).jpg",
+      "page": "https://commons.wikimedia.org/wiki/File:Rafael_L._Trujillo_en_la_silla_presidencial_(cropped).jpg",
+      "revision": 1038281691,
+      "retrieved": "2026-10-07",
+      "wikidata": "Q152474",
+      "credit": "Unknown author.",
+      "license": "Public domain",
+      "licenseUrl": null,
+      "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/9/94/Rafael_L._Trujillo_en_la_silla_presidencial_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "originalSize": [
+        1807,
+        2569
+      ],
+      "sourceNote": "Archivo General de la Nación",
+      "attributionRequested": null,
+      "inputSize": [
+        960,
+        1365
+      ],
+      "manualCrop": null,
+      "transformations": [
+        "auto-orient",
+        "crop 4:5",
+        "greyscale",
+        "resize 160×200 and 400×500",
+        "AVIF quality 52, effort 6"
+      ],
+      "note": null
+    },
+    {
+      "id": "mobutu-sese-seko",
+      "name": "Mobutu Sese Seko",
+      "commonsFile": "Mobutu.jpg",
+      "page": "https://commons.wikimedia.org/wiki/File:Mobutu.jpg",
+      "revision": 1102618893,
+      "retrieved": "2026-10-07",
+      "wikidata": "Q164535",
+      "credit": "Frank Hall",
+      "license": "Public domain",
+      "licenseUrl": null,
+      "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/3/3d/Mobutu.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "originalSize": [
+        1130,
+        1695
+      ],
+      "sourceNote": "This image has been extracted from another file",
+      "attributionRequested": null,
+      "inputSize": [
+        960,
+        1440
+      ],
+      "manualCrop": null,
+      "transformations": [
+        "auto-orient",
+        "crop 4:5",
+        "greyscale",
+        "resize 160×200 and 400×500",
+        "AVIF quality 52, effort 6"
+      ],
+      "note": null
+    },
+    {
+      "id": "ferdinand-marcos",
+      "name": "Ferdinand Marcos",
+      "commonsFile": "Ferdinand Marcos (cropped).jpg",
+      "page": "https://commons.wikimedia.org/wiki/File:Ferdinand_Marcos_(cropped).jpg",
+      "revision": 1153822889,
+      "retrieved": "2026-10-07",
+      "wikidata": "Q1463",
+      "credit": "Spec. 4 Dino Bartomucci; bản cắt: Bluemask",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/b/b4/Ferdinand_Marcos_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "originalSize": [
+        763,
+        1017
+      ],
+      "sourceNote": "This tag does not indicate the copyright status of the attached work. A normal copyright tag is still required. See Commons:Licensing .",
+      "attributionRequested": null,
+      "inputSize": [
+        763,
+        1017
+      ],
+      "manualCrop": null,
+      "transformations": [
+        "auto-orient",
+        "crop 4:5",
+        "greyscale",
+        "resize 160×200 and 400×500",
+        "AVIF quality 52, effort 6"
+      ],
+      "note": null
+    },
+    {
+      "id": "marcello-caetano",
+      "name": "Marcello Caetano",
+      "commonsFile": "Marcello caetano.jpg",
+      "page": "https://commons.wikimedia.org/wiki/File:Marcello_caetano.jpg",
+      "revision": 1157188867,
+      "retrieved": "2026-10-07",
+      "wikidata": "Q310870",
+      "credit": "http://www.uned.es",
+      "license": "CC BY 2.5",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.5",
+      "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/1/15/Marcello_caetano.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "originalSize": [
+        949,
+        1144
+      ],
+      "sourceNote": "http://www.uned.es/ca-merida/Documentos/CURSOS/influspa.pdf",
+      "attributionRequested": null,
+      "inputSize": [
+        949,
+        1144
+      ],
+      "manualCrop": null,
+      "transformations": [
+        "auto-orient",
+        "crop 4:5",
+        "greyscale",
+        "resize 160×200 and 400×500",
+        "AVIF quality 52, effort 6"
+      ],
+      "note": null
+    },
+    {
+      "id": "kurt-schuschnigg",
+      "name": "Kurt Schuschnigg",
+      "commonsFile": "KurtVonSchuschnigg1936-3.jpg",
+      "page": "https://commons.wikimedia.org/wiki/File:KurtVonSchuschnigg1936-3.jpg",
+      "revision": 648041234,
+      "retrieved": "2026-10-07",
+      "wikidata": "Q738635",
+      "credit": "Không rõ tác giả ảnh gốc; bản cắt: Mario Link",
+      "license": "Copyrighted free use",
+      "licenseUrl": null,
+      "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/e/e0/KurtVonSchuschnigg1936-3.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "originalSize": [
+        2610,
+        3230
+      ],
+      "sourceNote": "This file was derived from: KurtVonSchuschnigg1936.jpg :",
+      "attributionRequested": null,
+      "inputSize": [
+        960,
+        1188
+      ],
+      "manualCrop": null,
+      "transformations": [
+        "auto-orient",
+        "crop 4:5",
+        "greyscale",
+        "resize 160×200 and 400×500",
+        "AVIF quality 52, effort 6"
+      ],
+      "note": null
+    },
+    {
+      "id": "getulio-vargas",
+      "name": "Getúlio Vargas",
+      "commonsFile": "Getulio Vargas (1930).jpg",
+      "page": "https://commons.wikimedia.org/wiki/File:Getulio_Vargas_(1930).jpg",
+      "revision": 1272444143,
+      "retrieved": "2026-10-07",
+      "wikidata": "Q156844",
+      "credit": "Governo do Brasil",
+      "license": "Public domain",
+      "licenseUrl": null,
+      "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/5/50/Getulio_Vargas_%281930%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "originalSize": [
+        1046,
+        1574
+      ],
+      "sourceNote": "Galeria de Presidentes",
+      "attributionRequested": null,
+      "inputSize": [
+        960,
+        1445
+      ],
+      "manualCrop": null,
+      "transformations": [
+        "auto-orient",
+        "crop 4:5",
+        "greyscale",
+        "resize 160×200 and 400×500",
+        "AVIF quality 52, effort 6"
+      ],
+      "note": null
+    },
+    {
+      "id": "amitai-etzioni",
+      "name": "Amitai Etzioni",
+      "commonsFile": "RIT NandE Vol14Num49 1983 Apr14 Complete.pdf",
+      "page": "https://commons.wikimedia.org/wiki/File:RIT_NandE_Vol14Num49_1983_Apr14_Complete.pdf",
+      "revision": 1129705830,
+      "retrieved": "2026-10-07",
+      "wikidata": "Q213652",
+      "credit": "Không rõ nhiếp ảnh gia; Rochester Institute of Technology, News & Events (14/04/1983), tr. 3",
+      "license": "Public domain",
+      "licenseUrl": null,
+      "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/9/9e/RIT_NandE_Vol14Num49_1983_Apr14_Complete.pdf?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "originalSize": [
+        1275,
+        1650
+      ],
+      "sourceNote": "News & Events 1983 at the RIT Digital Archive",
+      "attributionRequested": null,
+      "inputSize": [
+        518,
+        648
+      ],
+      "manualCrop": null,
+      "transformations": [
+        "auto-orient",
+        "crop 4:5",
+        "greyscale",
+        "resize 160×200 and 400×500",
+        "AVIF quality 52, effort 6"
+      ],
+      "note": "Cắt từ ảnh nhóm trên trang 3 bản tin RIT News & Events, 14/04/1983; chú thích xác định Etzioni là người bên trái."
+    },
+    {
+      "id": "michael-sandel",
+      "name": "Michael Sandel",
+      "commonsFile": "2023-08-07 Michael Sandel no Fronteiras do Pensamento 2023 em São Paulo (53103759044) (cropped).jpg",
+      "page": "https://commons.wikimedia.org/wiki/File:2023-08-07_Michael_Sandel_no_Fronteiras_do_Pensamento_2023_em_S%C3%A3o_Paulo_(53103759044)_(cropped).jpg",
+      "revision": 1167519424,
+      "retrieved": "2026-10-07",
+      "wikidata": "Q381044",
+      "credit": "Fronteiras do Pensamento",
+      "license": "CC BY-SA 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+      "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/5/59/2023-08-07_Michael_Sandel_no_Fronteiras_do_Pensamento_2023_em_S%C3%A3o_Paulo_%2853103759044%29_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "originalSize": [
+        1800,
+        2400
+      ],
+      "sourceNote": "Michael Sandel no Fronteiras do Pensamento 2023 em São Paulo",
+      "attributionRequested": null,
+      "inputSize": [
+        960,
+        1280
+      ],
+      "manualCrop": null,
+      "transformations": [
+        "auto-orient",
+        "crop 4:5",
+        "greyscale",
+        "resize 160×200 and 400×500",
+        "AVIF quality 52, effort 6"
+      ],
+      "note": null
+    },
+    {
+      "id": "alasdair-macintyre",
+      "name": "Alasdair MacIntyre",
+      "commonsFile": "Alasdair MacIntyre.jpg",
+      "page": "https://commons.wikimedia.org/wiki/File:Alasdair_MacIntyre.jpg",
+      "revision": 1176946126,
+      "retrieved": "2026-10-07",
+      "wikidata": "Q310178",
+      "credit": "Sean O'Connor",
+      "license": "CC BY 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+      "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/4/4c/Alasdair_MacIntyre.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "originalSize": [
+        1085,
+        1461
+      ],
+      "sourceNote": "https://www.flickr.com/photos/seanoconnor365/3351618688/in/set-72157615114247195/",
+      "attributionRequested": null,
+      "inputSize": [
+        960,
+        1293
+      ],
+      "manualCrop": null,
+      "transformations": [
+        "auto-orient",
+        "crop 4:5",
+        "greyscale",
+        "resize 160×200 and 400×500",
+        "AVIF quality 52, effort 6"
+      ],
+      "note": null
+    },
+    {
+      "id": "plato",
+      "name": "Platon",
+      "commonsFile": "Plato Silanion Musei Capitolini MC1377.jpg",
+      "page": "https://commons.wikimedia.org/wiki/File:Plato_Silanion_Musei_Capitolini_MC1377.jpg",
+      "revision": 1212431714,
+      "retrieved": "2026-10-07",
+      "wikidata": "Q859",
+      "credit": "© Marie-Lan Nguyen / Wikimedia Commons",
+      "license": "CC BY 2.5",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.5",
+      "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/8/88/Plato_Silanion_Musei_Capitolini_MC1377.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "originalSize": [
+        2400,
+        3600
+      ],
+      "sourceNote": "Own work",
+      "attributionRequested": "© Marie-Lan Nguyen / Wikimedia Commons",
+      "inputSize": [
+        960,
+        1440
+      ],
+      "manualCrop": null,
+      "transformations": [
+        "auto-orient",
+        "crop 4:5",
+        "greyscale",
+        "resize 160×200 and 400×500",
+        "AVIF quality 52, effort 6"
+      ],
+      "note": "Ảnh tượng được nhận diện là Platon; không phải ảnh chụp nhân vật lịch sử."
+    },
+    {
+      "id": "dion-of-syracuse",
+      "name": "Dion xứ Syracuse",
+      "commonsFile": "Dione Siracusano.PNG",
+      "page": "https://commons.wikimedia.org/wiki/File:Dione_Siracusano.PNG",
+      "revision": 1206004436,
+      "retrieved": "2026-10-07",
+      "wikidata": "Q457885",
+      "credit": "Domenico Lo Faso Pietrasanta",
+      "license": "Public domain",
+      "licenseUrl": null,
+      "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/9/91/Dione_Siracusano.PNG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "originalSize": [
+        533,
+        584
+      ],
+      "sourceNote": "Biografia degli uomini illustri della Sicili: ornata de loro rispettivi ritratti, Volume 4",
+      "attributionRequested": null,
+      "inputSize": [
+        533,
+        584
+      ],
+      "manualCrop": null,
+      "transformations": [
+        "auto-orient",
+        "crop 4:5",
+        "greyscale",
+        "resize 160×200 and 400×500",
+        "AVIF quality 52, effort 6"
+      ],
+      "note": "Chân dung tưởng tượng, minh họa xuất bản năm 1821; không phải hình ảnh đương thời."
+    },
+    {
+      "id": "al-farabi",
+      "name": "Al-Farabi",
+      "commonsFile": "Farabi.jpg",
+      "page": "https://commons.wikimedia.org/wiki/File:Farabi.jpg",
+      "revision": 1180960812,
+      "retrieved": "2026-10-07",
+      "wikidata": "Q160460",
+      "credit": "Iraninhk",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/9/97/Farabi.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "originalSize": [
+        200,
+        285
+      ],
+      "sourceNote": "Own work",
+      "attributionRequested": null,
+      "inputSize": [
+        200,
+        285
+      ],
+      "manualCrop": null,
+      "transformations": [
+        "auto-orient",
+        "crop 4:5",
+        "greyscale",
+        "resize 160×200 and 400×500",
+        "AVIF quality 52, effort 6"
+      ],
+      "note": "Hình minh họa hậu thế."
+    },
+    {
+      "id": "zeno-of-citium",
+      "name": "Zeno xứ Citium",
+      "commonsFile": "Paolo Monti - Servizio fotografico (Napoli, 1969) - BEIC 6353768.jpg",
+      "page": "https://commons.wikimedia.org/wiki/File:Paolo_Monti_-_Servizio_fotografico_(Napoli,_1969)_-_BEIC_6353768.jpg",
+      "revision": 1270354794,
+      "retrieved": "2026-10-07",
+      "wikidata": "Q171303",
+      "credit": "Paolo Monti",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/b/bc/Paolo_Monti_-_Servizio_fotografico_%28Napoli%2C_1969%29_-_BEIC_6353768.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "originalSize": [
+        867,
+        1280
+      ],
+      "sourceNote": "Available in the BEIC digital library and uploaded in partnership with BEIC Foundation . The image comes from the Fondo Paolo Monti , owned by BEIC and located in the Civico Archivio Fotografico of Milan .",
+      "attributionRequested": null,
+      "inputSize": [
+        867,
+        1280
+      ],
+      "manualCrop": null,
+      "transformations": [
+        "auto-orient",
+        "crop 4:5",
+        "greyscale",
+        "resize 160×200 and 400×500",
+        "AVIF quality 52, effort 6"
+      ],
+      "note": "Ảnh tượng thường được nhận diện là Zeno xứ Citium."
+    },
+    {
+      "id": "seneca-the-younger",
+      "name": "Seneca",
+      "commonsFile": "Duble herma of Socrates and Seneca Antikensammlung Berlin 07.jpg",
+      "page": "https://commons.wikimedia.org/wiki/File:Duble_herma_of_Socrates_and_Seneca_Antikensammlung_Berlin_07.jpg",
+      "revision": 1270376707,
+      "retrieved": "2026-10-07",
+      "wikidata": "Q2054",
+      "credit": "Calidius",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+      "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/4/44/Duble_herma_of_Socrates_and_Seneca_Antikensammlung_Berlin_07.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "originalSize": [
+        1790,
+        2208
+      ],
+      "sourceNote": "Own work",
+      "attributionRequested": "I, Calidius",
+      "inputSize": [
+        960,
+        1184
+      ],
+      "manualCrop": null,
+      "transformations": [
+        "auto-orient",
+        "crop 4:5",
+        "greyscale",
+        "resize 160×200 and 400×500",
+        "AVIF quality 52, effort 6"
+      ],
+      "note": "Ảnh tượng Seneca trong tượng đôi Socrates–Seneca."
+    },
+    {
+      "id": "marcus-aurelius",
+      "name": "Marcus Aurelius",
+      "commonsFile": "Marcus Aurelius Louvre MR561 n02.jpg",
+      "page": "https://commons.wikimedia.org/wiki/File:Marcus_Aurelius_Louvre_MR561_n02.jpg",
+      "revision": 1167739121,
+      "retrieved": "2026-10-07",
+      "wikidata": "Q1430",
+      "credit": "Marie-Lan Nguyen",
+      "license": "CC BY 2.5",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.5",
+      "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/1/1c/Marcus_Aurelius_Louvre_MR561_n02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "originalSize": [
+        2773,
+        4160
+      ],
+      "sourceNote": "Marie-Lan Nguyen (2011)",
+      "attributionRequested": null,
+      "inputSize": [
+        960,
+        1440
+      ],
+      "manualCrop": null,
+      "transformations": [
+        "auto-orient",
+        "crop 4:5",
+        "greyscale",
+        "resize 160×200 and 400×500",
+        "AVIF quality 52, effort 6"
+      ],
+      "note": "Ảnh tượng Marcus Aurelius tại Louvre."
+    },
+    {
+      "id": "thomas-hobbes",
+      "name": "Thomas Hobbes",
+      "commonsFile": "Thomas Hobbes (portrait).jpg",
+      "page": "https://commons.wikimedia.org/wiki/File:Thomas_Hobbes_(portrait).jpg",
+      "revision": 1152732393,
+      "retrieved": "2026-10-07",
+      "wikidata": "Q37621",
+      "credit": "John Michael Wright",
+      "license": "Public domain",
+      "licenseUrl": null,
+      "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/d/d8/Thomas_Hobbes_%28portrait%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "originalSize": [
+        1109,
+        1169
+      ],
+      "sourceNote": "one or more third parties have made copyright claims against Wikimedia Commons in relation to the work from which this is sourced or a purely mechanical reproduction thereof . This may be due to recognition of the \" sweat of the brow \" doctrine, allowing works to be eligible for protection through skill and labour, and not purely by originality as is the case in the United States (where this website is hosted). These claims may or may not be valid in all jurisdictions. As such, use of this image in the jurisdiction of the claimant or other countries may be regarded as copyright infringement . Please see Commons:When to use the PD-Art tag for more information.",
+      "attributionRequested": null,
+      "inputSize": [
+        960,
+        1012
+      ],
+      "manualCrop": null,
+      "transformations": [
+        "auto-orient",
+        "crop 4:5",
+        "greyscale",
+        "resize 160×200 and 400×500",
+        "AVIF quality 52, effort 6"
+      ],
+      "note": null
+    },
+    {
+      "id": "jean-bodin",
+      "name": "Jean Bodin",
+      "commonsFile": "Jean Bodin.jpg",
+      "page": "https://commons.wikimedia.org/wiki/File:Jean_Bodin.jpg",
+      "revision": 1047260109,
+      "retrieved": "2026-10-07",
+      "wikidata": "Q190944",
+      "credit": "François Stuerhelt",
+      "license": "Public domain",
+      "licenseUrl": null,
+      "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/e/e5/Jean_Bodin.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "originalSize": [
+        437,
+        550
+      ],
+      "sourceNote": "Larousse",
+      "attributionRequested": null,
+      "inputSize": [
+        437,
+        550
+      ],
+      "manualCrop": null,
+      "transformations": [
+        "auto-orient",
+        "crop 4:5",
+        "greyscale",
+        "resize 160×200 and 400×500",
+        "AVIF quality 52, effort 6"
+      ],
+      "note": null
+    },
+    {
+      "id": "g-w-f-hegel",
+      "name": "G. W. F. Hegel",
+      "commonsFile": "Jakob Schlesinger - Hegel 1831.jpg",
+      "page": "https://commons.wikimedia.org/wiki/File:Jakob_Schlesinger_-_Hegel_1831.jpg",
+      "revision": 1190968014,
+      "retrieved": "2026-10-07",
+      "wikidata": "Q9235",
+      "credit": "Jakob Schlesinger",
+      "license": "Public domain",
+      "licenseUrl": null,
+      "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/c/cc/Jakob_Schlesinger_-_Hegel_1831.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "originalSize": [
+        1654,
+        2085
+      ],
+      "sourceNote": "https://recherche.smb.museum/detail/963803 (Alte Nationalgalerie)",
+      "attributionRequested": null,
+      "inputSize": [
+        960,
+        1210
+      ],
+      "manualCrop": null,
+      "transformations": [
+        "auto-orient",
+        "crop 4:5",
+        "greyscale",
+        "resize 160×200 and 400×500",
+        "AVIF quality 52, effort 6"
+      ],
+      "note": null
+    },
+    {
+      "id": "lorenz-von-stein",
+      "name": "Lorenz von Stein",
+      "commonsFile": "Lorenz von Stein.jpg",
+      "page": "https://commons.wikimedia.org/wiki/File:Lorenz_von_Stein.jpg",
+      "revision": 904074300,
+      "retrieved": "2026-10-07",
+      "wikidata": "Q61956",
+      "credit": "Không rõ tác giả",
+      "license": "Public domain",
+      "licenseUrl": null,
+      "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/d/da/Lorenz_von_Stein.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "originalSize": [
+        483,
+        579
+      ],
+      "sourceNote": "",
+      "attributionRequested": null,
+      "inputSize": [
+        483,
+        579
+      ],
+      "manualCrop": null,
+      "transformations": [
+        "auto-orient",
+        "crop 4:5",
+        "greyscale",
+        "resize 160×200 and 400×500",
+        "AVIF quality 52, effort 6"
+      ],
+      "note": null
+    },
+    {
+      "id": "ito-hirobumi",
+      "name": "Itō Hirobumi",
+      "commonsFile": "ITŌ Hirobumi.jpg",
+      "page": "https://commons.wikimedia.org/wiki/File:IT%C5%8C_Hirobumi.jpg",
+      "revision": 1097727306,
+      "retrieved": "2026-10-07",
+      "wikidata": "Q174971",
+      "credit": "Không rõ tác giả",
+      "license": "Public domain",
+      "licenseUrl": null,
+      "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/7/7d/IT%C5%8C_Hirobumi.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "originalSize": [
+        1024,
+        1392
+      ],
+      "sourceNote": "This image is available from the website of the National Diet Library",
+      "attributionRequested": null,
+      "inputSize": [
+        960,
+        1305
+      ],
+      "manualCrop": null,
+      "transformations": [
+        "auto-orient",
+        "crop 4:5",
+        "greyscale",
+        "resize 160×200 and 400×500",
+        "AVIF quality 52, effort 6"
+      ],
+      "note": null
+    },
+    {
+      "id": "jeremy-bentham",
+      "name": "Jeremy Bentham",
+      "commonsFile": "Jeremy Bentham by Henry William Pickersgill detail.jpg",
+      "page": "https://commons.wikimedia.org/wiki/File:Jeremy_Bentham_by_Henry_William_Pickersgill_detail.jpg",
+      "revision": 1261937294,
+      "retrieved": "2026-10-07",
+      "wikidata": "Q60887",
+      "credit": "Henry William Pickersgill",
+      "license": "Public domain",
+      "licenseUrl": null,
+      "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/c/c8/Jeremy_Bentham_by_Henry_William_Pickersgill_detail.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "originalSize": [
+        536,
+        728
+      ],
+      "sourceNote": "one or more third parties have made copyright claims against Wikimedia Commons in relation to the work from which this is sourced or a purely mechanical reproduction thereof . This may be due to recognition of the \" sweat of the brow \" doctrine, allowing works to be eligible for protection through skill and labour, and not purely by originality as is the case in the United States (where this website is hosted). These claims may or may not be valid in all jurisdictions. As such, use of this image in the jurisdiction of the claimant or other countries may be regarded as copyright infringement . Please see Commons:When to use the PD-Art tag for more information.",
+      "attributionRequested": null,
+      "inputSize": [
+        536,
+        728
+      ],
+      "manualCrop": null,
+      "transformations": [
+        "auto-orient",
+        "crop 4:5",
+        "greyscale",
+        "resize 160×200 and 400×500",
+        "AVIF quality 52, effort 6"
+      ],
+      "note": null
+    },
+    {
+      "id": "james-mill",
+      "name": "James Mill",
+      "commonsFile": "James Mill.jpg",
+      "page": "https://commons.wikimedia.org/wiki/File:James_Mill.jpg",
+      "revision": 1279182686,
+      "retrieved": "2026-10-07",
+      "wikidata": "Q271666",
+      "credit": "Không rõ tác giả",
+      "license": "Public domain",
+      "licenseUrl": null,
+      "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/f/fc/James_Mill.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "originalSize": [
+        317,
+        403
+      ],
+      "sourceNote": "http://www.utilitarian.net/jmill.jpg",
+      "attributionRequested": null,
+      "inputSize": [
+        317,
+        403
+      ],
+      "manualCrop": null,
+      "transformations": [
+        "auto-orient",
+        "crop 4:5",
+        "greyscale",
+        "resize 160×200 and 400×500",
+        "AVIF quality 52, effort 6"
+      ],
+      "note": null
+    },
+    {
+      "id": "edwin-chadwick",
+      "name": "Edwin Chadwick",
+      "commonsFile": "SirEdwinChadwick.jpg",
+      "page": "https://commons.wikimedia.org/wiki/File:SirEdwinChadwick.jpg",
+      "revision": 1270015014,
+      "retrieved": "2026-10-07",
+      "wikidata": "Q1294480",
+      "credit": "Contemporary photograph",
+      "license": "Public domain",
+      "licenseUrl": null,
+      "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/9/9e/SirEdwinChadwick.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "originalSize": [
+        1160,
+        1544
+      ],
+      "sourceNote": "https://sphtc.org/timeline/19th6.jpg",
+      "attributionRequested": null,
+      "inputSize": [
+        960,
+        1278
+      ],
+      "manualCrop": null,
+      "transformations": [
+        "auto-orient",
+        "crop 4:5",
+        "greyscale",
+        "resize 160×200 and 400×500",
+        "AVIF quality 52, effort 6"
+      ],
+      "note": null
+    },
+    {
+      "id": "herman-gorter",
+      "name": "Herman Gorter",
+      "commonsFile": "Portret van Herman Gorter.jpg",
+      "page": "https://commons.wikimedia.org/wiki/File:Portret_van_Herman_Gorter.jpg",
+      "revision": 1017693551,
+      "retrieved": "2026-10-07",
+      "wikidata": "Q325191",
+      "credit": "Unknown author , probably Thérèse Schwartze.",
+      "license": "Public domain",
+      "licenseUrl": null,
+      "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/e/e9/Portret_van_Herman_Gorter.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "originalSize": [
+        246,
+        246
+      ],
+      "sourceNote": "http://www.productiefonds.nl/delta/images/gorter.jpg (dead link). Probably: http://www.nlpvf.nl/delta/gorter_mei.php . See for more details: https://www.dbnl.org/tekst/_ons003199001_01/_ons003199001_01_0098.php",
+      "attributionRequested": null,
+      "inputSize": [
+        246,
+        246
+      ],
+      "manualCrop": null,
+      "transformations": [
+        "auto-orient",
+        "crop 4:5",
+        "greyscale",
+        "resize 160×200 and 400×500",
+        "AVIF quality 52, effort 6"
+      ],
+      "note": null
+    },
+    {
+      "id": "otto-ruhle",
+      "name": "Otto Rühle",
+      "commonsFile": "Otto Rühle 1930.jpg",
+      "page": "https://commons.wikimedia.org/wiki/File:Otto_R%C3%BChle_1930.jpg",
+      "revision": 1190271543,
+      "retrieved": "2026-10-07",
+      "wikidata": "Q215955",
+      "credit": "Không rõ tác giả",
+      "license": "Public domain",
+      "licenseUrl": null,
+      "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/6/62/Otto_R%C3%BChle_1930.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "originalSize": [
+        839,
+        994
+      ],
+      "sourceNote": "https://tu-dresden.de/gsw/ew/ressourcen/dateien/diefakultaet/geschichte/informationstafeln/ruehle.pdf?lang=en",
+      "attributionRequested": null,
+      "inputSize": [
+        839,
+        994
+      ],
+      "manualCrop": null,
+      "transformations": [
+        "auto-orient",
+        "crop 4:5",
+        "greyscale",
+        "resize 160×200 and 400×500",
+        "AVIF quality 52, effort 6"
+      ],
+      "note": null
+    },
+    {
+      "id": "paul-mattick",
+      "name": "Paul Mattick",
+      "commonsFile": "PaulMattick.jpg",
+      "page": "https://commons.wikimedia.org/wiki/File:PaulMattick.jpg",
+      "revision": 1273209894,
+      "retrieved": "2026-10-07",
+      "wikidata": "Q61411",
+      "credit": "Không rõ tác giả",
+      "license": "CC0",
+      "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+      "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/a/a9/PaulMattick.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "originalSize": [
+        284,
+        351
+      ],
+      "sourceNote": "https://www.leftcom.org/en/articles/2020-09-04/the-revolutionary-contribution-of-paul-mattick",
+      "attributionRequested": null,
+      "inputSize": [
+        284,
+        351
+      ],
+      "manualCrop": null,
+      "transformations": [
+        "auto-orient",
+        "crop 4:5",
+        "greyscale",
+        "resize 160×200 and 400×500",
+        "AVIF quality 52, effort 6"
+      ],
+      "note": "Commons khai báo CC0; tác giả ảnh gốc không được xác định trong trang nguồn."
+    },
+    {
+      "id": "mehmet-shehu",
+      "name": "Mehmet Shehu",
+      "commonsFile": "Mehmet Shehu (ushtarak).jpg",
+      "page": "https://commons.wikimedia.org/wiki/File:Mehmet_Shehu_(ushtarak).jpg",
+      "revision": 811486778,
+      "retrieved": "2026-10-07",
+      "wikidata": "Q172213",
+      "credit": "Không rõ tác giả",
+      "license": "Public domain",
+      "licenseUrl": null,
+      "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/d/dc/Mehmet_Shehu_%28ushtarak%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "originalSize": [
+        710,
+        1084
+      ],
+      "sourceNote": "Drejtoria e Përgjithshme e Arkivave",
+      "attributionRequested": null,
+      "inputSize": [
+        710,
+        1084
+      ],
+      "manualCrop": null,
+      "transformations": [
+        "auto-orient",
+        "crop 4:5",
+        "greyscale",
+        "resize 160×200 and 400×500",
+        "AVIF quality 52, effort 6"
+      ],
+      "note": null
+    },
+    {
+      "id": "ramiz-alia",
+      "name": "Ramiz Alia",
+      "commonsFile": "Ramiz Alia (portret).jpg",
+      "page": "https://commons.wikimedia.org/wiki/File:Ramiz_Alia_(portret).jpg",
+      "revision": 964240229,
+      "retrieved": "2026-10-07",
+      "wikidata": "Q156833",
+      "credit": "Albanian State",
+      "license": "Public domain",
+      "licenseUrl": null,
+      "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/d/d1/Ramiz_Alia_%28portret%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "originalSize": [
+        1656,
+        2370
+      ],
+      "sourceNote": "Albanian Encyclopedic Dictionary (p.19)",
+      "attributionRequested": null,
+      "inputSize": [
+        960,
+        1374
+      ],
+      "manualCrop": null,
+      "transformations": [
+        "auto-orient",
+        "crop 4:5",
+        "greyscale",
+        "resize 160×200 and 400×500",
+        "AVIF quality 52, effort 6"
+      ],
+      "note": null
+    },
+    {
+      "id": "che-guevara",
+      "name": "Che Guevara",
+      "commonsFile": "Che Guevara - Guerrillero Heroico by Alberto Korda.jpg",
+      "page": "https://commons.wikimedia.org/wiki/File:Che_Guevara_-_Guerrillero_Heroico_by_Alberto_Korda.jpg",
+      "revision": 1248931006,
+      "retrieved": "2026-10-07",
+      "wikidata": "Q5809",
+      "credit": "Alberto Korda, restored by Adam Cuerden",
+      "license": "Public domain",
+      "licenseUrl": null,
+      "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/8/80/Che_Guevara_-_Guerrillero_Heroico_by_Alberto_Korda.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "originalSize": [
+        2827,
+        3274
+      ],
+      "sourceNote": "Minerva Auctions",
+      "attributionRequested": null,
+      "inputSize": [
+        960,
+        1112
+      ],
+      "manualCrop": null,
+      "transformations": [
+        "auto-orient",
+        "crop 4:5",
+        "greyscale",
+        "resize 160×200 and 400×500",
+        "AVIF quality 52, effort 6"
+      ],
+      "note": null
+    },
+    {
+      "id": "fidel-castro",
+      "name": "Fidel Castro",
+      "commonsFile": "Fidel Castro - UN General Assembly 1960 (cropped).jpg",
+      "page": "https://commons.wikimedia.org/wiki/File:Fidel_Castro_-_UN_General_Assembly_1960_(cropped).jpg",
+      "revision": 1210280800,
+      "retrieved": "2026-10-07",
+      "wikidata": "Q11256",
+      "credit": "Warren K. Leffler",
+      "license": "Public domain",
+      "licenseUrl": null,
+      "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/e/e3/Fidel_Castro_-_UN_General_Assembly_1960_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "originalSize": [
+        2460,
+        2595
+      ],
+      "sourceNote": "The Library of Congress Prints & Photographs Online Catalog; https://www.loc.gov/rr/print/catalog.html",
+      "attributionRequested": null,
+      "inputSize": [
+        960,
+        1013
+      ],
+      "manualCrop": {
+        "left": 440,
+        "top": 80,
+        "width": 260,
+        "height": 325
+      },
+      "transformations": [
+        "auto-orient",
+        "crop 4:5",
+        "greyscale",
+        "resize 160×200 and 400×500",
+        "AVIF quality 52, effort 6"
+      ],
+      "note": "Thay ảnh mặc định đang có đề nghị xóa do tranh chấp quyền sử dụng bằng ảnh có nguồn tác giả rõ ràng."
+    },
+    {
+      "id": "carlos-fonseca",
+      "name": "Carlos Fonseca",
+      "commonsFile": "Carlos Fonseca Amador (1970).jpg",
+      "page": "https://commons.wikimedia.org/wiki/File:Carlos_Fonseca_Amador_(1970).jpg",
+      "revision": 848659638,
+      "retrieved": "2026-10-07",
+      "wikidata": "Q370691",
+      "credit": "C records",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/4/4f/Carlos_Fonseca_Amador_%281970%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "originalSize": [
+        507,
+        622
+      ],
+      "sourceNote": "Own work",
+      "attributionRequested": "C records",
+      "inputSize": [
+        507,
+        622
+      ],
+      "manualCrop": null,
+      "transformations": [
+        "auto-orient",
+        "crop 4:5",
+        "greyscale",
+        "resize 160×200 and 400×500",
+        "AVIF quality 52, effort 6"
+      ],
+      "note": null
+    },
+    {
+      "id": "pol-pot",
+      "name": "Pol Pot",
+      "commonsFile": "Pol Pot (cropped).jpg",
+      "page": "https://commons.wikimedia.org/wiki/File:Pol_Pot_(cropped).jpg",
+      "revision": 1093950546,
+      "retrieved": "2026-10-07",
+      "wikidata": "Q39464",
+      "credit": "Không rõ tác giả",
+      "license": "Attribution",
+      "licenseUrl": null,
+      "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/c/c1/Pol_Pot_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "originalSize": [
+        196,
+        252
+      ],
+      "sourceNote": "https://fototeca.iiccmer.ro/picdetails.php?picid=45014X1X4",
+      "attributionRequested": null,
+      "inputSize": [
+        196,
+        252
+      ],
+      "manualCrop": null,
+      "transformations": [
+        "auto-orient",
+        "crop 4:5",
+        "greyscale",
+        "resize 160×200 and 400×500",
+        "AVIF quality 52, effort 6"
+      ],
+      "note": null
+    },
+    {
+      "id": "nuon-chea",
+      "name": "Nuon Chea",
+      "commonsFile": "Nuon Chea on 31 October 2013.jpg",
+      "page": "https://commons.wikimedia.org/wiki/File:Nuon_Chea_on_31_October_2013.jpg",
+      "revision": 1181452536,
+      "retrieved": "2026-10-07",
+      "wikidata": "Q379225",
+      "credit": "Mark Peters / Extraordinary Chambers in the Courts of Cambodia (ECCC)",
+      "license": "CC BY 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+      "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/c/c3/Nuon_Chea_on_31_October_2013.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "originalSize": [
+        1048,
+        1326
+      ],
+      "sourceNote": "Extraordinary Chambers in the Courts of Cambodia (MGP_0529)",
+      "attributionRequested": "Extraordinary Chambers in the Courts of Cambodia",
+      "inputSize": [
+        960,
+        1215
+      ],
+      "manualCrop": null,
+      "transformations": [
+        "auto-orient",
+        "crop 4:5",
+        "greyscale",
+        "resize 160×200 and 400×500",
+        "AVIF quality 52, effort 6"
+      ],
+      "note": null
+    },
+    {
+      "id": "ieng-sary",
+      "name": "Ieng Sary",
+      "commonsFile": "Mak Remissa-IS01.jpg",
+      "page": "https://commons.wikimedia.org/wiki/File:Mak_Remissa-IS01.jpg",
+      "revision": 1020076591,
+      "retrieved": "2026-10-07",
+      "wikidata": "Q379232",
+      "credit": "ECCC Pool/Mak Remissa",
+      "license": "CC BY 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+      "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/2/25/Mak_Remissa-IS01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "originalSize": [
+        1776,
+        2598
+      ],
+      "sourceNote": "Mak Remissa-IS01 , uploaded to Flickr by Extraordinary Chambers in the Courts of Cambodia",
+      "attributionRequested": null,
+      "inputSize": [
+        960,
+        1404
+      ],
+      "manualCrop": null,
+      "transformations": [
+        "auto-orient",
+        "crop 4:5",
+        "greyscale",
+        "resize 160×200 and 400×500",
+        "AVIF quality 52, effort 6"
+      ],
+      "note": null
+    },
+    {
+      "id": "wilhelm-i",
+      "name": "Wilhelm I",
+      "commonsFile": "Kaiser Wilhelm I. .JPG",
+      "page": "https://commons.wikimedia.org/wiki/File:Kaiser_Wilhelm_I._.JPG",
+      "revision": 1198841318,
+      "retrieved": "2026-10-07",
+      "wikidata": "Q150652",
+      "credit": "Wilhelm Kuntzemüller",
+      "license": "Public domain",
+      "licenseUrl": null,
+      "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/0/01/Kaiser_Wilhelm_I._.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "originalSize": [
+        1345,
+        1855
+      ],
+      "sourceNote": "This image is available from the United States Library of Congress 's Prints and Photographs division under the digital ID ggbain.28199 . This tag does not indicate the copyright status of the attached work. A normal copyright tag is still required. See Commons:Licensing .",
+      "attributionRequested": null,
+      "inputSize": [
+        960,
+        1324
+      ],
+      "manualCrop": null,
+      "transformations": [
+        "auto-orient",
+        "crop 4:5",
+        "greyscale",
+        "resize 160×200 and 400×500",
+        "AVIF quality 52, effort 6"
+      ],
+      "note": null
+    },
+    {
+      "id": "hermann-wagener",
+      "name": "Hermann Wagener",
+      "commonsFile": "Hermann Wagener.png",
+      "page": "https://commons.wikimedia.org/wiki/File:Hermann_Wagener.png",
+      "revision": 1183260592,
+      "retrieved": "2026-10-07",
+      "wikidata": "Q97074",
+      "credit": "Không rõ tác giả",
+      "license": "Public domain",
+      "licenseUrl": null,
+      "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/9/96/Hermann_Wagener.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "originalSize": [
+        791,
+        1181
+      ],
+      "sourceNote": "https://www.bismarck-stiftung.de/2024/04/29/hermann-wagener-ein-konservativer-sozialist/",
+      "attributionRequested": null,
+      "inputSize": [
+        791,
+        1181
+      ],
+      "manualCrop": null,
+      "transformations": [
+        "auto-orient",
+        "crop 4:5",
+        "greyscale",
+        "resize 160×200 and 400×500",
+        "AVIF quality 52, effort 6"
+      ],
+      "note": null
+    },
+    {
+      "id": "adolph-wagner",
+      "name": "Adolph Wagner",
+      "commonsFile": "Adolph Wagner.png",
+      "page": "https://commons.wikimedia.org/wiki/File:Adolph_Wagner.png",
+      "revision": 1034391713,
+      "retrieved": "2026-10-07",
+      "wikidata": "Q58845",
+      "credit": "Không rõ tác giả",
+      "license": "Public domain",
+      "licenseUrl": null,
+      "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/d/d5/Adolph_Wagner.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "originalSize": [
+        327,
+        375
+      ],
+      "sourceNote": "",
+      "attributionRequested": null,
+      "inputSize": [
+        327,
+        375
+      ],
+      "manualCrop": null,
+      "transformations": [
+        "auto-orient",
+        "crop 4:5",
+        "greyscale",
+        "resize 160×200 and 400×500",
+        "AVIF quality 52, effort 6"
+      ],
+      "note": null
+    },
+    {
+      "id": "phillip-blond",
+      "name": "Phillip Blond",
+      "commonsFile": "Phillip Blond, 2018.jpg",
+      "page": "https://commons.wikimedia.org/wiki/File:Phillip_Blond,_2018.jpg",
+      "revision": 1184045196,
+      "retrieved": "2026-10-07",
+      "wikidata": "Q2701399",
+      "credit": "Rwendland",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/e/ea/Phillip_Blond%2C_2018.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "originalSize": [
+        3398,
+        2427
+      ],
+      "sourceNote": "Own work",
+      "attributionRequested": null,
+      "inputSize": [
+        960,
+        686
+      ],
+      "manualCrop": {
+        "left": 175,
+        "top": 0,
+        "width": 530,
+        "height": 662
+      },
+      "transformations": [
+        "auto-orient",
+        "crop 4:5",
+        "greyscale",
+        "resize 160×200 and 400×500",
+        "AVIF quality 52, effort 6"
+      ],
+      "note": null
+    },
+    {
+      "id": "john-milbank",
+      "name": "John Milbank",
+      "commonsFile": "John Milbank, IEIS conference «The Politics of Virtue, the crisis of liberalism and the post-liberal future»-004.jpg",
+      "page": "https://commons.wikimedia.org/wiki/File:John_Milbank,_IEIS_conference_%C2%ABThe_Politics_of_Virtue,_the_crisis_of_liberalism_and_the_post-liberal_future%C2%BB-004.jpg",
+      "revision": 1203116481,
+      "retrieved": "2026-10-07",
+      "wikidata": "Q3182089",
+      "credit": "Jwh (Wikipedia Luxembourg)",
+      "license": "CC BY-SA 3.0 lu",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/lu/deed.en",
+      "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/d/da/John_Milbank%2C_IEIS_conference_%C2%ABThe_Politics_of_Virtue%2C_the_crisis_of_liberalism_and_the_post-liberal_future%C2%BB-004.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "originalSize": [
+        5303,
+        3539
+      ],
+      "sourceNote": "Own work",
+      "attributionRequested": "Jwh at Wikipedia Luxembourg",
+      "inputSize": [
+        960,
+        641
+      ],
+      "manualCrop": {
+        "left": 230,
+        "top": 0,
+        "width": 500,
+        "height": 625
+      },
+      "transformations": [
+        "auto-orient",
+        "crop 4:5",
+        "greyscale",
+        "resize 160×200 and 400×500",
+        "AVIF quality 52, effort 6"
+      ],
+      "note": null
+    },
+    {
+      "id": "g-d-h-cole",
+      "name": "G. D. H. Cole",
+      "commonsFile": "F. H. S. Shepherd, University College Fellows.jpg",
+      "page": "https://commons.wikimedia.org/wiki/File:F._H._S._Shepherd,_University_College_Fellows.jpg",
+      "revision": 1120855401,
+      "retrieved": "2026-10-07",
+      "wikidata": "Q3044933",
+      "credit": "F. H. S. Shepherd",
+      "license": "Public domain",
+      "licenseUrl": null,
+      "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/f/f0/F._H._S._Shepherd%2C_University_College_Fellows.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "originalSize": [
+        1200,
+        965
+      ],
+      "sourceNote": "Oil painting by F. H. S. Shepherd",
+      "attributionRequested": null,
+      "inputSize": [
+        1200,
+        965
+      ],
+      "manualCrop": {
+        "left": 440,
+        "top": 470,
+        "width": 145,
+        "height": 181
+      },
+      "transformations": [
+        "auto-orient",
+        "crop 4:5",
+        "greyscale",
+        "resize 160×200 and 400×500",
+        "AVIF quality 52, effort 6"
+      ],
+      "note": "Cắt từ tranh nhóm năm 1934; chú thích Art UK/Commons xác định Cole là người thứ tư từ trái sang, hàng trên. Cắt người thứ tư hàng trên từ tranh nhóm năm 1934; vùng ảnh gốc 145×181 px, độ chi tiết hạn chế."
+    },
+    {
+      "id": "r-h-tawney",
+      "name": "R. H. Tawney",
+      "commonsFile": "R. H. Tawney.png",
+      "page": "https://commons.wikimedia.org/wiki/File:R._H._Tawney.png",
+      "revision": 1237563376,
+      "retrieved": "2026-10-07",
+      "wikidata": "Q2589871",
+      "credit": "Library of the London School of Economics and Political Science; bản cắt: nagualdesign",
+      "license": "No restrictions",
+      "licenseUrl": "https://www.flickr.com/commons/usage/",
+      "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/a/aa/R._H._Tawney.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "originalSize": [
+        600,
+        900
+      ],
+      "sourceNote": "This file was derived from: R. H. Tawney.jpg :",
+      "attributionRequested": null,
+      "inputSize": [
+        600,
+        900
+      ],
+      "manualCrop": null,
+      "transformations": [
+        "auto-orient",
+        "crop 4:5",
+        "greyscale",
+        "resize 160×200 and 400×500",
+        "AVIF quality 52, effort 6"
+      ],
+      "note": null
+    },
+    {
+      "id": "keir-hardie",
+      "name": "Keir Hardie",
+      "commonsFile": "Keir Hardie by George Grantham Bain.jpg",
+      "page": "https://commons.wikimedia.org/wiki/File:Keir_Hardie_by_George_Grantham_Bain.jpg",
+      "revision": 1261456877,
+      "retrieved": "2026-10-07",
+      "wikidata": "Q332460",
+      "credit": "George Grantham Bain / Adam Cuerden",
+      "license": "Public domain",
+      "licenseUrl": null,
+      "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/0/0b/Keir_Hardie_by_George_Grantham_Bain.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "originalSize": [
+        4539,
+        6522
+      ],
+      "sourceNote": "This image is available from the United States Library of Congress 's Prints and Photographs division under the digital ID ggbain.01224 . This tag does not indicate the copyright status of the attached work. A normal copyright tag is still required. See Commons:Licensing .",
+      "attributionRequested": null,
+      "inputSize": [
+        960,
+        1379
+      ],
+      "manualCrop": null,
+      "transformations": [
+        "auto-orient",
+        "crop 4:5",
+        "greyscale",
+        "resize 160×200 and 400×500",
+        "AVIF quality 52, effort 6"
+      ],
+      "note": null
+    },
+    {
+      "id": "f-d-maurice",
+      "name": "F. D. Maurice",
+      "commonsFile": "Frederick Denison Maurice. Portrait c1865.jpg",
+      "page": "https://commons.wikimedia.org/wiki/File:Frederick_Denison_Maurice._Portrait_c1865.jpg",
+      "revision": 1186039524,
+      "retrieved": "2026-10-07",
+      "wikidata": "Q961022",
+      "credit": "Acabashi",
+      "license": "CC BY 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+      "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/c/c0/Frederick_Denison_Maurice._Portrait_c1865.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "originalSize": [
+        2411,
+        3340
+      ],
+      "sourceNote": "Own work",
+      "attributionRequested": null,
+      "inputSize": [
+        960,
+        1330
+      ],
+      "manualCrop": null,
+      "transformations": [
+        "auto-orient",
+        "crop 4:5",
+        "greyscale",
+        "resize 160×200 and 400×500",
+        "AVIF quality 52, effort 6"
+      ],
+      "note": null
+    },
+    {
+      "id": "mozi",
+      "name": "Mặc Tử",
+      "commonsFile": "Философ Мо-Цзы.jpg",
+      "page": "https://commons.wikimedia.org/wiki/File:%D0%A4%D0%B8%D0%BB%D0%BE%D1%81%D0%BE%D1%84_%D0%9C%D0%BE-%D0%A6%D0%B7%D1%8B.jpg",
+      "revision": 967558888,
+      "retrieved": "2026-10-07",
+      "wikidata": "Q272411",
+      "credit": "Vjacheslav Rublevskiy",
+      "license": "CC0",
+      "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+      "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/a/a4/%D0%A4%D0%B8%D0%BB%D0%BE%D1%81%D0%BE%D1%84_%D0%9C%D0%BE-%D0%A6%D0%B7%D1%8B.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "originalSize": [
+        1080,
+        1080
+      ],
+      "sourceNote": "https://www.flickr.com/photos/193162016@N04/51221161306/",
+      "attributionRequested": null,
+      "inputSize": [
+        960,
+        960
+      ],
+      "manualCrop": null,
+      "transformations": [
+        "auto-orient",
+        "crop 4:5",
+        "greyscale",
+        "resize 160×200 and 400×500",
+        "AVIF quality 52, effort 6"
+      ],
+      "note": "Hình minh họa hậu thế."
+    },
+    {
+      "id": "xunzi",
+      "name": "Tuân Tử",
+      "commonsFile": "Portrait of Xun Zi.jpg",
+      "page": "https://commons.wikimedia.org/wiki/File:Portrait_of_Xun_Zi.jpg",
+      "revision": 1107078710,
+      "retrieved": "2026-10-07",
+      "wikidata": "Q216072",
+      "credit": "Không rõ tác giả",
+      "license": "Public domain",
+      "licenseUrl": null,
+      "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/5/56/Portrait_of_Xun_Zi.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "originalSize": [
+        392,
+        505
+      ],
+      "sourceNote": "http://www.hhvc.net.cn/jgsz/jgsz_xzgl/jjc_new/xcjy/lzxx/201306/t20130628_47725.html , retrieved on July 7, 2016,",
+      "attributionRequested": null,
+      "inputSize": [
+        392,
+        505
+      ],
+      "manualCrop": null,
+      "transformations": [
+        "auto-orient",
+        "crop 4:5",
+        "greyscale",
+        "resize 160×200 and 400×500",
+        "AVIF quality 52, effort 6"
+      ],
+      "note": "Hình minh họa hậu thế."
+    },
+    {
+      "id": "jia-yi",
+      "name": "Giả Nghị",
+      "commonsFile": "Jia Yi.png",
+      "page": "https://commons.wikimedia.org/wiki/File:Jia_Yi.png",
+      "revision": 995426204,
+      "retrieved": "2026-10-07",
+      "wikidata": "Q301650",
+      "credit": "Không rõ tác giả",
+      "license": "Public domain",
+      "licenseUrl": null,
+      "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/e/ec/Jia_Yi.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "originalSize": [
+        400,
+        610
+      ],
+      "sourceNote": "《歷代名臣像解》",
+      "attributionRequested": null,
+      "inputSize": [
+        400,
+        610
+      ],
+      "manualCrop": null,
+      "transformations": [
+        "auto-orient",
+        "crop 4:5",
+        "greyscale",
+        "resize 160×200 and 400×500",
+        "AVIF quality 52, effort 6"
+      ],
+      "note": "Hình minh họa hậu thế."
+    },
+    {
+      "id": "ogyu-sorai",
+      "name": "Ogyū Sorai",
+      "commonsFile": "Ogyuh Sorai.jpg",
+      "page": "https://commons.wikimedia.org/wiki/File:Ogyuh_Sorai.jpg",
+      "revision": 268489523,
+      "retrieved": "2026-10-07",
+      "wikidata": "Q369158",
+      "credit": "有朋堂書店",
+      "license": "Public domain",
+      "licenseUrl": null,
+      "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/9/94/Ogyuh_Sorai.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "originalSize": [
+        939,
+        1036
+      ],
+      "sourceNote": "Japanese Book 『先哲像伝 近世畸人傳 百家琦行傳』",
+      "attributionRequested": null,
+      "inputSize": [
+        939,
+        1036
+      ],
+      "manualCrop": null,
+      "transformations": [
+        "auto-orient",
+        "crop 4:5",
+        "greyscale",
+        "resize 160×200 and 400×500",
+        "AVIF quality 52, effort 6"
+      ],
+      "note": null
+    },
+    {
+      "id": "chanakya",
+      "name": "Kautilya (Chanakya)",
+      "commonsFile": "Chanakya artistic depiction.jpg",
+      "page": "https://commons.wikimedia.org/wiki/File:Chanakya_artistic_depiction.jpg",
+      "revision": 1123433388,
+      "retrieved": "2026-10-07",
+      "wikidata": "Q9045",
+      "credit": "Không rõ tác giả",
+      "license": "Public domain",
+      "licenseUrl": null,
+      "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/c/cd/Chanakya_artistic_depiction.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "originalSize": [
+        1146,
+        1610
+      ],
+      "sourceNote": "Cover of Kautilya Arthashastra , translated by R. Shamasastry, Bangalore Government Press 1915",
+      "attributionRequested": null,
+      "inputSize": [
+        960,
+        1349
+      ],
+      "manualCrop": null,
+      "transformations": [
+        "auto-orient",
+        "crop 4:5",
+        "greyscale",
+        "resize 160×200 and 400×500",
+        "AVIF quality 52, effort 6"
+      ],
+      "note": "Hình minh họa hậu thế."
+    },
+    {
+      "id": "chandragupta-maurya",
+      "name": "Chandragupta Maurya",
+      "commonsFile": "Chandragupt maurya Birla mandir 6 dec 2009 (31) (cropped).JPG",
+      "page": "https://commons.wikimedia.org/wiki/File:Chandragupt_maurya_Birla_mandir_6_dec_2009_(31)_(cropped).JPG",
+      "revision": 1122292827,
+      "retrieved": "2026-10-07",
+      "wikidata": "Q188541",
+      "credit": "आशीष भटनागर at Hindi Wikipedia",
+      "license": "Public domain",
+      "licenseUrl": null,
+      "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/b/b6/Chandragupt_maurya_Birla_mandir_6_dec_2009_%2831%29_%28cropped%29.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "originalSize": [
+        678,
+        856
+      ],
+      "sourceNote": "Own work",
+      "attributionRequested": null,
+      "inputSize": [
+        678,
+        856
+      ],
+      "manualCrop": null,
+      "transformations": [
+        "auto-orient",
+        "crop 4:5",
+        "greyscale",
+        "resize 160×200 and 400×500",
+        "AVIF quality 52, effort 6"
+      ],
+      "note": "Ảnh tượng hiện đại tại Birla Mandir; không phải chân dung đương thời."
+    },
+    {
+      "id": "raul-prebisch",
+      "name": "Raúl Prebisch",
+      "commonsFile": "Raul Prebisch (cropped).tif",
+      "page": "https://commons.wikimedia.org/wiki/File:Raul_Prebisch_(cropped).tif",
+      "revision": 905886732,
+      "retrieved": "2026-10-07",
+      "wikidata": "Q982374",
+      "credit": "Không rõ tác giả",
+      "license": "Public domain",
+      "licenseUrl": null,
+      "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/6/6b/Raul_Prebisch_%28cropped%29.tif?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "originalSize": [
+        511,
+        588
+      ],
+      "sourceNote": "Arquivo Nacional",
+      "attributionRequested": null,
+      "inputSize": [
+        500,
+        575
+      ],
+      "manualCrop": null,
+      "transformations": [
+        "auto-orient",
+        "crop 4:5",
+        "greyscale",
+        "resize 160×200 and 400×500",
+        "AVIF quality 52, effort 6"
+      ],
+      "note": null
+    },
+    {
+      "id": "celso-furtado",
+      "name": "Celso Furtado",
+      "commonsFile": "Celso Furtado.tif",
+      "page": "https://commons.wikimedia.org/wiki/File:Celso_Furtado.tif",
+      "revision": 1119088600,
+      "retrieved": "2026-10-07",
+      "wikidata": "Q984416",
+      "credit": "Không rõ tác giả",
+      "license": "Public domain",
+      "licenseUrl": null,
+      "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/2/29/Celso_Furtado.tif?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "originalSize": [
+        1387,
+        1623
+      ],
+      "sourceNote": "Arquivo Nacional",
+      "attributionRequested": null,
+      "inputSize": [
+        960,
+        1123
+      ],
+      "manualCrop": null,
+      "transformations": [
+        "auto-orient",
+        "crop 4:5",
+        "greyscale",
+        "resize 160×200 and 400×500",
+        "AVIF quality 52, effort 6"
+      ],
+      "note": null
+    },
+    {
+      "id": "juscelino-kubitschek",
+      "name": "Juscelino Kubitschek",
+      "commonsFile": "Juscelino Kubitschek in 1956.jpg",
+      "page": "https://commons.wikimedia.org/wiki/File:Juscelino_Kubitschek_in_1956.jpg",
+      "revision": 1280514699,
+      "retrieved": "2026-10-07",
+      "wikidata": "Q155824",
+      "credit": "Governo do Brasil",
+      "license": "Public domain",
+      "licenseUrl": null,
+      "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/b/b2/Juscelino_Kubitschek_in_1956.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "originalSize": [
+        1054,
+        1574
+      ],
+      "sourceNote": "Galeria de Presidentes",
+      "attributionRequested": null,
+      "inputSize": [
+        960,
+        1434
+      ],
+      "manualCrop": null,
+      "transformations": [
+        "auto-orient",
+        "crop 4:5",
+        "greyscale",
+        "resize 160×200 and 400×500",
+        "AVIF quality 52, effort 6"
+      ],
+      "note": null
+    },
+    {
+      "id": "ikki-kita",
+      "name": "Kita Ikki",
+      "commonsFile": "Kita Ikki.jpg",
+      "page": "https://commons.wikimedia.org/wiki/File:Kita_Ikki.jpg",
+      "revision": 906018361,
+      "retrieved": "2026-10-07",
+      "wikidata": "Q721416",
+      "credit": "Không rõ tác giả",
+      "license": "Public domain",
+      "licenseUrl": null,
+      "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/b/b3/Kita_Ikki.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "originalSize": [
+        708,
+        980
+      ],
+      "sourceNote": "Tokyo Metropolitan Library archives",
+      "attributionRequested": null,
+      "inputSize": [
+        708,
+        980
+      ],
+      "manualCrop": null,
+      "transformations": [
+        "auto-orient",
+        "crop 4:5",
+        "greyscale",
+        "resize 160×200 and 400×500",
+        "AVIF quality 52, effort 6"
+      ],
+      "note": null
+    },
+    {
+      "id": "jose-antonio-primo-de-rivera",
+      "name": "José Antonio Primo de Rivera",
+      "commonsFile": "FOTOGRAFIA DE JOSE ANTONIO PRIMO DE RIVERA.jpg",
+      "page": "https://commons.wikimedia.org/wiki/File:FOTOGRAFIA_DE_JOSE_ANTONIO_PRIMO_DE_RIVERA.jpg",
+      "revision": 1016067704,
+      "retrieved": "2026-10-07",
+      "wikidata": "Q57681",
+      "credit": "Không rõ tác giả",
+      "license": "CC0",
+      "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+      "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/1/18/FOTOGRAFIA_DE_JOSE_ANTONIO_PRIMO_DE_RIVERA.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "originalSize": [
+        3565,
+        4863
+      ],
+      "sourceNote": "http://bibliotecavirtualdefensa.es/BVMDefensa/i18n/consulta/registro.cmd?id=33784",
+      "attributionRequested": null,
+      "inputSize": [
+        960,
+        1310
+      ],
+      "manualCrop": null,
+      "transformations": [
+        "auto-orient",
+        "crop 4:5",
+        "greyscale",
+        "resize 160×200 and 400×500",
+        "AVIF quality 52, effort 6"
+      ],
+      "note": null
+    },
+    {
+      "id": "ramiro-ledesma-ramos",
+      "name": "Ramiro Ledesma Ramos",
+      "commonsFile": "Ramiro Ledesma (circa 1930).jpg",
+      "page": "https://commons.wikimedia.org/wiki/File:Ramiro_Ledesma_(circa_1930).jpg",
+      "revision": 914340479,
+      "retrieved": "2026-10-07",
+      "wikidata": "Q1345080",
+      "credit": "Không rõ tác giả",
+      "license": "Public domain",
+      "licenseUrl": null,
+      "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/b/be/Ramiro_Ledesma_%28circa_1930%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "originalSize": [
+        600,
+        864
+      ],
+      "sourceNote": "https://archivoshistoria.com/ramiro-ledesma-ramos/",
+      "attributionRequested": null,
+      "inputSize": [
+        600,
+        864
+      ],
+      "manualCrop": null,
+      "transformations": [
+        "auto-orient",
+        "crop 4:5",
+        "greyscale",
+        "resize 160×200 and 400×500",
+        "AVIF quality 52, effort 6"
+      ],
+      "note": null
+    },
+    {
+      "id": "francisco-rolao-preto",
+      "name": "Francisco Rolão Preto",
+      "commonsFile": "Francisco Rolão Preto in blueshirt uniform.jpg",
+      "page": "https://commons.wikimedia.org/wiki/File:Francisco_Rol%C3%A3o_Preto_in_blueshirt_uniform.jpg",
+      "revision": 1157741470,
+      "retrieved": "2026-10-07",
+      "wikidata": "Q1451078",
+      "credit": "Mário Novais",
+      "license": "Public domain",
+      "licenseUrl": null,
+      "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/5/59/Francisco_Rol%C3%A3o_Preto_in_blueshirt_uniform.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "originalSize": [
+        2252,
+        3026
+      ],
+      "sourceNote": "biblartepac.gulbenkian",
+      "attributionRequested": null,
+      "inputSize": [
+        960,
+        1290
+      ],
+      "manualCrop": null,
+      "transformations": [
+        "auto-orient",
+        "crop 4:5",
+        "greyscale",
+        "resize 160×200 and 400×500",
+        "AVIF quality 52, effort 6"
+      ],
+      "note": null
+    },
+    {
+      "id": "mary-wollstonecraft",
+      "name": "Mary Wollstonecraft",
+      "commonsFile": "Mary Wollstonecraft by John Opie (c. 1797).jpg",
+      "page": "https://commons.wikimedia.org/wiki/File:Mary_Wollstonecraft_by_John_Opie_(c._1797).jpg",
+      "revision": 1019746048,
+      "retrieved": "2026-10-07",
+      "wikidata": "Q101638",
+      "credit": "John Opie",
+      "license": "Public domain",
+      "licenseUrl": null,
+      "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/3/36/Mary_Wollstonecraft_by_John_Opie_%28c._1797%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "originalSize": [
+        1020,
+        1244
+      ],
+      "sourceNote": "one or more third parties have made copyright claims against Wikimedia Commons in relation to the work from which this is sourced or a purely mechanical reproduction thereof . This may be due to recognition of the \" sweat of the brow \" doctrine, allowing works to be eligible for protection through skill and labour, and not purely by originality as is the case in the United States (where this website is hosted). These claims may or may not be valid in all jurisdictions. As such, use of this image in the jurisdiction of the claimant or other countries may be regarded as copyright infringement . Please see Commons:When to use the PD-Art tag for more information.",
+      "attributionRequested": null,
+      "inputSize": [
+        960,
+        1171
+      ],
+      "manualCrop": null,
+      "transformations": [
+        "auto-orient",
+        "crop 4:5",
+        "greyscale",
+        "resize 160×200 and 400×500",
+        "AVIF quality 52, effort 6"
+      ],
+      "note": null
+    },
+    {
+      "id": "elizabeth-cady-stanton",
+      "name": "Elizabeth Cady Stanton",
+      "commonsFile": "Elizabeth Stanton.jpg",
+      "page": "https://commons.wikimedia.org/wiki/File:Elizabeth_Stanton.jpg",
+      "revision": 1227949382,
+      "retrieved": "2026-10-07",
+      "wikidata": "Q465335",
+      "credit": "Không rõ tác giả",
+      "license": "Public domain",
+      "licenseUrl": null,
+      "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/d/da/Elizabeth_Stanton.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "originalSize": [
+        308,
+        450
+      ],
+      "sourceNote": "http://www.freeschoolpress.com/ushistory/ElizabethCadyStanton.jpg [ dead link ]",
+      "attributionRequested": null,
+      "inputSize": [
+        308,
+        450
+      ],
+      "manualCrop": null,
+      "transformations": [
+        "auto-orient",
+        "crop 4:5",
+        "greyscale",
+        "resize 160×200 and 400×500",
+        "AVIF quality 52, effort 6"
+      ],
+      "note": null
+    },
+    {
+      "id": "betty-friedan",
+      "name": "Betty Friedan",
+      "commonsFile": "Betty Friedan 1960.jpg",
+      "page": "https://commons.wikimedia.org/wiki/File:Betty_Friedan_1960.jpg",
+      "revision": 943638947,
+      "retrieved": "2026-10-07",
+      "wikidata": "Q234604",
+      "credit": "Fred Palumbo , World Telegram staff photographer. Restored by Adam Cuerden",
+      "license": "Public domain",
+      "licenseUrl": null,
+      "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/f/fd/Betty_Friedan_1960.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "originalSize": [
+        2884,
+        3695
+      ],
+      "sourceNote": "Library of Congress. New York World-Telegram & Sun Collection. http://hdl.loc.gov/loc.pnp/cph.3c15884",
+      "attributionRequested": null,
+      "inputSize": [
+        960,
+        1230
+      ],
+      "manualCrop": null,
+      "transformations": [
+        "auto-orient",
+        "crop 4:5",
+        "greyscale",
+        "resize 160×200 and 400×500",
+        "AVIF quality 52, effort 6"
+      ],
+      "note": null
+    },
+    {
+      "id": "clara-zetkin",
+      "name": "Clara Zetkin",
+      "commonsFile": "C Zetkin 1.jpg",
+      "page": "https://commons.wikimedia.org/wiki/File:C_Zetkin_1.jpg",
+      "revision": 1109987916,
+      "retrieved": "2026-10-07",
+      "wikidata": "Q75823",
+      "credit": "Không rõ tác giả",
+      "license": "Public domain",
+      "licenseUrl": null,
+      "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/1/10/C_Zetkin_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "originalSize": [
+        456,
+        604
+      ],
+      "sourceNote": "http://www.wdr.de/themen/kultur/literatur/boell/boell_90_geburtstag/infobox/data/boell/akg_zetkin_400h.jpg",
+      "attributionRequested": null,
+      "inputSize": [
+        456,
+        604
+      ],
+      "manualCrop": null,
+      "transformations": [
+        "auto-orient",
+        "crop 4:5",
+        "greyscale",
+        "resize 160×200 and 400×500",
+        "AVIF quality 52, effort 6"
+      ],
+      "note": null
+    },
+    {
+      "id": "alexandra-kollontai",
+      "name": "Alexandra Kollontai",
+      "commonsFile": "Alexandra Kollontai 1946.jpg",
+      "page": "https://commons.wikimedia.org/wiki/File:Alexandra_Kollontai_1946.jpg",
+      "revision": 1045613185,
+      "retrieved": "2026-10-07",
+      "wikidata": "Q179558",
+      "credit": "Unknown (Sovfoto)",
+      "license": "Public domain",
+      "licenseUrl": null,
+      "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/8/86/Alexandra_Kollontai_1946.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "originalSize": [
+        1212,
+        1764
+      ],
+      "sourceNote": "[1]",
+      "attributionRequested": null,
+      "inputSize": [
+        960,
+        1397
+      ],
+      "manualCrop": {
+        "left": 30,
+        "top": 10,
+        "width": 660,
+        "height": 825
+      },
+      "transformations": [
+        "auto-orient",
+        "crop 4:5",
+        "greyscale",
+        "resize 160×200 and 400×500",
+        "AVIF quality 52, effort 6"
+      ],
+      "note": null
+    },
+    {
+      "id": "silvia-federici",
+      "name": "Silvia Federici",
+      "commonsFile": "La escritora y activista feminista Silvia Federici (cropped).jpg",
+      "page": "https://commons.wikimedia.org/wiki/File:La_escritora_y_activista_feminista_Silvia_Federici_(cropped).jpg",
+      "revision": 1085193478,
+      "retrieved": "2026-10-07",
+      "wikidata": "Q597248",
+      "credit": "Marta Jara ( eldiario.es )",
+      "license": "CC BY-SA 3.0 es",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/es/deed.en",
+      "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/2/2f/La_escritora_y_activista_feminista_Silvia_Federici_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "originalSize": [
+        1683,
+        2247
+      ],
+      "sourceNote": "eldiario.es - \"Es un engaño que el trabajo asalariado sea la clave para liberar a las mujeres\"",
+      "attributionRequested": null,
+      "inputSize": [
+        960,
+        1282
+      ],
+      "manualCrop": null,
+      "transformations": [
+        "auto-orient",
+        "crop 4:5",
+        "greyscale",
+        "resize 160×200 and 400×500",
+        "AVIF quality 52, effort 6"
+      ],
+      "note": null
+    },
+    {
+      "id": "kate-millett",
+      "name": "Kate Millett",
+      "commonsFile": "Kate millet 1.jpg",
+      "page": "https://commons.wikimedia.org/wiki/File:Kate_millet_1.jpg",
+      "revision": 656881037,
+      "retrieved": "2026-10-07",
+      "wikidata": "Q292268",
+      "credit": "Linda Wolf",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Kate_millet_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "originalSize": [
+        255,
+        253
+      ],
+      "sourceNote": "Wikipedia:Contact us/Photo submission",
+      "attributionRequested": null,
+      "inputSize": [
+        255,
+        253
+      ],
+      "manualCrop": null,
+      "transformations": [
+        "auto-orient",
+        "crop 4:5",
+        "greyscale",
+        "resize 160×200 and 400×500",
+        "AVIF quality 52, effort 6"
+      ],
+      "note": null
+    },
+    {
+      "id": "andrea-dworkin",
+      "name": "Andrea Dworkin",
+      "commonsFile": "Andrea Dworkin 1985 (facecrop).jpg",
+      "page": "https://commons.wikimedia.org/wiki/File:Andrea_Dworkin_1985_(facecrop).jpg",
+      "revision": 1194275029,
+      "retrieved": "2026-10-07",
+      "wikidata": "Q241398",
+      "credit": "MaryMotleyKalergisPhotography",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/d/d1/Andrea_Dworkin_1985_%28facecrop%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "originalSize": [
+        841,
+        936
+      ],
+      "sourceNote": "Own work",
+      "attributionRequested": null,
+      "inputSize": [
+        841,
+        936
+      ],
+      "manualCrop": null,
+      "transformations": [
+        "auto-orient",
+        "crop 4:5",
+        "greyscale",
+        "resize 160×200 and 400×500",
+        "AVIF quality 52, effort 6"
+      ],
+      "note": null
+    },
+    {
+      "id": "alexis-de-tocqueville",
+      "name": "Alexis de Tocqueville",
+      "commonsFile": "Alexis de Tocqueville (Théodore Chassériau - Versailles).jpg",
+      "page": "https://commons.wikimedia.org/wiki/File:Alexis_de_Tocqueville_(Th%C3%A9odore_Chass%C3%A9riau_-_Versailles).jpg",
+      "revision": 1045695027,
+      "retrieved": "2026-10-07",
+      "wikidata": "Q140694",
+      "credit": "Théodore Chassériau",
+      "license": "Public domain",
+      "licenseUrl": null,
+      "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/7/72/Alexis_de_Tocqueville_%28Th%C3%A9odore_Chass%C3%A9riau_-_Versailles%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "originalSize": [
+        667,
+        900
+      ],
+      "sourceNote": "[1]",
+      "attributionRequested": null,
+      "inputSize": [
+        667,
+        900
+      ],
+      "manualCrop": null,
+      "transformations": [
+        "auto-orient",
+        "crop 4:5",
+        "greyscale",
+        "resize 160×200 and 400×500",
+        "AVIF quality 52, effort 6"
+      ],
+      "note": null
+    },
+    {
+      "id": "francois-guizot",
+      "name": "François Guizot",
+      "commonsFile": "François Pierre Guillaume Guizot.jpg",
+      "page": "https://commons.wikimedia.org/wiki/File:Fran%C3%A7ois_Pierre_Guillaume_Guizot.jpg",
+      "revision": 1183015807,
+      "retrieved": "2026-10-07",
+      "wikidata": "Q157324",
+      "credit": "Không rõ tác giả",
+      "license": "Public domain",
+      "licenseUrl": null,
+      "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/9/99/Fran%C3%A7ois_Pierre_Guillaume_Guizot.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "originalSize": [
+        748,
+        1036
+      ],
+      "sourceNote": "http://www.lib.utexas.edu/photodraw/portraits/guizot.jpg . Original Source: Duyckinick, Evert A. Portrait Gallery of Eminent Men and Women in Europe and America. New York: Johnson, Wilson & Company, 1873.",
+      "attributionRequested": null,
+      "inputSize": [
+        748,
+        1036
+      ],
+      "manualCrop": null,
+      "transformations": [
+        "auto-orient",
+        "crop 4:5",
+        "greyscale",
+        "resize 160×200 and 400×500",
+        "AVIF quality 52, effort 6"
+      ],
+      "note": null
+    },
+    {
+      "id": "jose-ortega-y-gasset",
+      "name": "José Ortega y Gasset",
+      "commonsFile": "José Ortega y Gasset (cropped).jpg",
+      "page": "https://commons.wikimedia.org/wiki/File:Jos%C3%A9_Ortega_y_Gasset_(cropped).jpg",
+      "revision": 1033689282,
+      "retrieved": "2026-10-07",
+      "wikidata": "Q153020",
+      "credit": "SAS Scandinavian Airlines",
+      "license": "Public domain",
+      "licenseUrl": null,
+      "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/3/30/Jos%C3%A9_Ortega_y_Gasset_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "originalSize": [
+        809,
+        1195
+      ],
+      "sourceNote": "http://images.flysas.com",
+      "attributionRequested": null,
+      "inputSize": [
+        809,
+        1195
+      ],
+      "manualCrop": null,
+      "transformations": [
+        "auto-orient",
+        "crop 4:5",
+        "greyscale",
+        "resize 160×200 and 400×500",
+        "AVIF quality 52, effort 6"
+      ],
+      "note": null
+    },
+    {
+      "id": "leon-bourgeois",
+      "name": "Léon Bourgeois",
+      "commonsFile": "Léon Bourgeois.jpg",
+      "page": "https://commons.wikimedia.org/wiki/File:L%C3%A9on_Bourgeois.jpg",
+      "revision": 907491781,
+      "retrieved": "2026-10-07",
+      "wikidata": "Q217706",
+      "credit": "Unknown (Bain News Service, publisher)",
+      "license": "Public domain",
+      "licenseUrl": null,
+      "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/2/25/L%C3%A9on_Bourgeois.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "originalSize": [
+        3246,
+        3920
+      ],
+      "sourceNote": "This image is available from the United States Library of Congress 's Prints and Photographs division under the digital ID ggbain.06743 . This tag does not indicate the copyright status of the attached work. A normal copyright tag is still required. See Commons:Licensing .",
+      "attributionRequested": null,
+      "inputSize": [
+        960,
+        1159
+      ],
+      "manualCrop": null,
+      "transformations": [
+        "auto-orient",
+        "crop 4:5",
+        "greyscale",
+        "resize 160×200 and 400×500",
+        "AVIF quality 52, effort 6"
+      ],
+      "note": null
+    },
+    {
+      "id": "emile-combes",
+      "name": "Émile Combes",
+      "commonsFile": "Émile Combes.jpg",
+      "page": "https://commons.wikimedia.org/wiki/File:%C3%89mile_Combes.jpg",
+      "revision": 1018262032,
+      "retrieved": "2026-10-07",
+      "wikidata": "Q275020",
+      "credit": "Unknown (Bain News Service, publisher)",
+      "license": "Public domain",
+      "licenseUrl": null,
+      "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/8/8d/%C3%89mile_Combes.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "originalSize": [
+        606,
+        723
+      ],
+      "sourceNote": "This image is available from the United States Library of Congress 's Prints and Photographs division under the digital ID ggbain.07340 . This tag does not indicate the copyright status of the attached work. A normal copyright tag is still required. See Commons:Licensing .",
+      "attributionRequested": null,
+      "inputSize": [
+        606,
+        723
+      ],
+      "manualCrop": null,
+      "transformations": [
+        "auto-orient",
+        "crop 4:5",
+        "greyscale",
+        "resize 160×200 and 400×500",
+        "AVIF quality 52, effort 6"
+      ],
+      "note": null
+    },
+    {
+      "id": "edouard-herriot",
+      "name": "Édouard Herriot",
+      "commonsFile": "Édouard Herriot - Président du Conseil - 1924.jpeg",
+      "page": "https://commons.wikimedia.org/wiki/File:%C3%89douard_Herriot_-_Pr%C3%A9sident_du_Conseil_-_1924.jpeg",
+      "revision": 1047543913,
+      "retrieved": "2026-10-07",
+      "wikidata": "Q274344",
+      "credit": "Agence de presse Meurisse",
+      "license": "Public domain",
+      "licenseUrl": null,
+      "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/8/86/%C3%89douard_Herriot_-_Pr%C3%A9sident_du_Conseil_-_1924.jpeg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "originalSize": [
+        4516,
+        6152
+      ],
+      "sourceNote": "This file comes from Gallica Digital Library and is available under the digital ID btv1b9024124v/f1",
+      "attributionRequested": null,
+      "inputSize": [
+        960,
+        1308
+      ],
+      "manualCrop": null,
+      "transformations": [
+        "auto-orient",
+        "crop 4:5",
+        "greyscale",
+        "resize 160×200 and 400×500",
+        "AVIF quality 52, effort 6"
+      ],
+      "note": null
+    },
+    {
+      "id": "thomas-paine",
+      "name": "Thomas Paine",
+      "commonsFile": "Thomas Paine rev1.jpg",
+      "page": "https://commons.wikimedia.org/wiki/File:Thomas_Paine_rev1.jpg",
+      "revision": 1044808955,
+      "retrieved": "2026-10-07",
+      "wikidata": "Q126462",
+      "credit": "Auguste Millière, theo George Romney và William Sharp",
+      "license": "Public domain",
+      "licenseUrl": null,
+      "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/a/aa/Thomas_Paine_rev1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "originalSize": [
+        2562,
+        3451
+      ],
+      "sourceNote": "one or more third parties have made copyright claims against Wikimedia Commons in relation to the work from which this is sourced or a purely mechanical reproduction thereof . This may be due to recognition of the \" sweat of the brow \" doctrine, allowing works to be eligible for protection through skill and labour, and not purely by originality as is the case in the United States (where this website is hosted). These claims may or may not be valid in all jurisdictions. As such, use of this image in the jurisdiction of the claimant or other countries may be regarded as copyright infringement . Please see Commons:When to use the PD-Art tag for more information.",
+      "attributionRequested": null,
+      "inputSize": [
+        960,
+        1293
+      ],
+      "manualCrop": null,
+      "transformations": [
+        "auto-orient",
+        "crop 4:5",
+        "greyscale",
+        "resize 160×200 and 400×500",
+        "AVIF quality 52, effort 6"
+      ],
+      "note": null
+    },
+    {
+      "id": "philippe-van-parijs",
+      "name": "Philippe Van Parijs",
+      "commonsFile": "Philippe Van Parijs (cropped).jpg",
+      "page": "https://commons.wikimedia.org/wiki/File:Philippe_Van_Parijs_(cropped).jpg",
+      "revision": 1212707723,
+      "retrieved": "2026-10-07",
+      "wikidata": "Q1345191",
+      "credit": "Revenu de base from France",
+      "license": "CC BY 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+      "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/f/fd/Philippe_Van_Parijs_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "originalSize": [
+        1000,
+        1217
+      ],
+      "sourceNote": "This image has been extracted from another file",
+      "attributionRequested": null,
+      "inputSize": [
+        960,
+        1168
+      ],
+      "manualCrop": null,
+      "transformations": [
+        "auto-orient",
+        "crop 4:5",
+        "greyscale",
+        "resize 160×200 and 400×500",
+        "AVIF quality 52, effort 6"
+      ],
+      "note": null
+    },
+    {
+      "id": "oskar-lange",
+      "name": "Oskar Lange",
+      "commonsFile": "Oskar Lange 20-65.jpg",
+      "page": "https://commons.wikimedia.org/wiki/File:Oskar_Lange_20-65.jpg",
+      "revision": 1223397117,
+      "retrieved": "2026-10-07",
+      "wikidata": "Q455664",
+      "credit": "Władysław Miernicki",
+      "license": "Public domain",
+      "licenseUrl": null,
+      "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/4/4b/Oskar_Lange_20-65.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "originalSize": [
+        541,
+        739
+      ],
+      "sourceNote": "Narodowe Archiwum Cyfrowe, Sygnatura: 20-65",
+      "attributionRequested": null,
+      "inputSize": [
+        541,
+        739
+      ],
+      "manualCrop": null,
+      "transformations": [
+        "auto-orient",
+        "crop 4:5",
+        "greyscale",
+        "resize 160×200 and 400×500",
+        "AVIF quality 52, effort 6"
+      ],
+      "note": null
+    },
+    {
+      "id": "tomas-masaryk",
+      "name": "Tomáš Masaryk",
+      "commonsFile": "Tomáš Garrigue Masaryk 1925.PNG",
+      "page": "https://commons.wikimedia.org/wiki/File:Tom%C3%A1%C5%A1_Garrigue_Masaryk_1925.PNG",
+      "revision": 1028659326,
+      "retrieved": "2026-10-07",
+      "wikidata": "Q78492",
+      "credit": "Không rõ tác giả",
+      "license": "Public domain",
+      "licenseUrl": null,
+      "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/6/6c/Tom%C3%A1%C5%A1_Garrigue_Masaryk_1925.PNG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "originalSize": [
+        637,
+        828
+      ],
+      "sourceNote": "http://www.sil.si.edu/digitalcollections/hst/scientific-identity/fullsize/SIL14-M002-01a.jpg",
+      "attributionRequested": null,
+      "inputSize": [
+        637,
+        828
+      ],
+      "manualCrop": null,
+      "transformations": [
+        "auto-orient",
+        "crop 4:5",
+        "greyscale",
+        "resize 160×200 and 400×500",
+        "AVIF quality 52, effort 6"
+      ],
+      "note": null
+    },
+    {
+      "id": "mustafa-kemal-ataturk",
+      "name": "Mustafa Kemal Atatürk",
+      "commonsFile": "Atatürk Kemal.jpg",
+      "page": "https://commons.wikimedia.org/wiki/File:Atat%C3%BCrk_Kemal.jpg",
+      "revision": 806124336,
+      "retrieved": "2026-10-07",
+      "wikidata": "Q5152",
+      "credit": "Không rõ tác giả",
+      "license": "Public domain",
+      "licenseUrl": null,
+      "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/5/53/Atat%C3%BCrk_Kemal.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "originalSize": [
+        800,
+        1119
+      ],
+      "sourceNote": "https://i.pinimg.com/originals/ef/53/f2/ef53f289f5fe4a8036e2330e55d9a929.jpg",
+      "attributionRequested": null,
+      "inputSize": [
+        800,
+        1119
+      ],
+      "manualCrop": {
+        "left": 100,
+        "top": 0,
+        "width": 650,
+        "height": 812
+      },
+      "transformations": [
+        "auto-orient",
+        "crop 4:5",
+        "greyscale",
+        "resize 160×200 and 400×500",
+        "AVIF quality 52, effort 6"
+      ],
+      "note": null
+    },
+    {
+      "id": "ismet-inonu",
+      "name": "İsmet İnönü",
+      "commonsFile": "Inonu Ismet (cropped).jpg",
+      "page": "https://commons.wikimedia.org/wiki/File:Inonu_Ismet_(cropped).jpg",
+      "revision": 688141178,
+      "retrieved": "2026-10-07",
+      "wikidata": "Q183297",
+      "credit": "Unknown. Official photo of President.",
+      "license": "Public domain",
+      "licenseUrl": null,
+      "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/5/5d/Inonu_Ismet_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "originalSize": [
+        549,
+        724
+      ],
+      "sourceNote": "http://www.tccb.gov.tr/sayfa/cumhurbaskanlarimiz/ismet_inonu/",
+      "attributionRequested": null,
+      "inputSize": [
+        549,
+        724
+      ],
+      "manualCrop": null,
+      "transformations": [
+        "auto-orient",
+        "crop 4:5",
+        "greyscale",
+        "resize 160×200 and 400×500",
+        "AVIF quality 52, effort 6"
+      ],
+      "note": null
+    },
+    {
+      "id": "habib-bourguiba",
+      "name": "Habib Bourguiba",
+      "commonsFile": "Habib Bourguiba portrait4.jpg",
+      "page": "https://commons.wikimedia.org/wiki/File:Habib_Bourguiba_portrait4.jpg",
+      "revision": 1264248122,
+      "retrieved": "2026-10-07",
+      "wikidata": "Q643348",
+      "credit": "Habib Osman",
+      "license": "Public domain",
+      "licenseUrl": null,
+      "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/d/db/Habib_Bourguiba_portrait4.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "originalSize": [
+        3945,
+        4825
+      ],
+      "sourceNote": "https://www.facebook.com/Leader.Bourguiba?fref=ts",
+      "attributionRequested": null,
+      "inputSize": [
+        960,
+        1174
+      ],
+      "manualCrop": null,
+      "transformations": [
+        "auto-orient",
+        "crop 4:5",
+        "greyscale",
+        "resize 160×200 and 400×500",
+        "AVIF quality 52, effort 6"
+      ],
+      "note": null
+    },
+    {
+      "id": "david-ben-gurion",
+      "name": "David Ben-Gurion",
+      "commonsFile": "David Ben-Gurion (D597-087).jpg",
+      "page": "https://commons.wikimedia.org/wiki/File:David_Ben-Gurion_(D597-087).jpg",
+      "revision": 886746050,
+      "retrieved": "2026-10-07",
+      "wikidata": "Q37610",
+      "credit": "Fritz Cohen",
+      "license": "Public domain",
+      "licenseUrl": null,
+      "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/e/e8/David_Ben-Gurion_%28D597-087%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "originalSize": [
+        2048,
+        2796
+      ],
+      "sourceNote": "This is available from National Photo Collection of Israel, Photography dept. Government Press Office ( link ), under the digital ID D597-087 . This tag does not indicate the copyright status of the attached work. A normal copyright tag is still required. See Commons:Licensing for more information.",
+      "attributionRequested": null,
+      "inputSize": [
+        960,
+        1311
+      ],
+      "manualCrop": null,
+      "transformations": [
+        "auto-orient",
+        "crop 4:5",
+        "greyscale",
+        "resize 160×200 and 400×500",
+        "AVIF quality 52, effort 6"
+      ],
+      "note": null
+    },
+    {
+      "id": "berl-katznelson",
+      "name": "Berl Katznelson",
+      "commonsFile": "PORTRAIT OF THE LABOUR LEADER BERL KATZENELSON. פורטרט של ברל כצנלסון.D836-117 (cropped).jpg",
+      "page": "https://commons.wikimedia.org/wiki/File:PORTRAIT_OF_THE_LABOUR_LEADER_BERL_KATZENELSON._%D7%A4%D7%95%D7%A8%D7%98%D7%A8%D7%98_%D7%A9%D7%9C_%D7%91%D7%A8%D7%9C_%D7%9B%D7%A6%D7%A0%D7%9C%D7%A1%D7%95%D7%9F.D836-117_(cropped).jpg",
+      "revision": 1029263549,
+      "retrieved": "2026-10-07",
+      "wikidata": "Q786429",
+      "credit": "Zoltan Kluger",
+      "license": "Public domain",
+      "licenseUrl": null,
+      "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/2/2e/PORTRAIT_OF_THE_LABOUR_LEADER_BERL_KATZENELSON._%D7%A4%D7%95%D7%A8%D7%98%D7%A8%D7%98_%D7%A9%D7%9C_%D7%91%D7%A8%D7%9C_%D7%9B%D7%A6%D7%A0%D7%9C%D7%A1%D7%95%D7%9F.D836-117_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "originalSize": [
+        2052,
+        2460
+      ],
+      "sourceNote": "This is available from National Photo Collection of Israel, Photography dept. Government Press Office ( link ), under the digital ID D836-117 . This tag does not indicate the copyright status of the attached work. A normal copyright tag is still required. See Commons:Licensing for more information.",
+      "attributionRequested": null,
+      "inputSize": [
+        960,
+        1151
+      ],
+      "manualCrop": null,
+      "transformations": [
+        "auto-orient",
+        "crop 4:5",
+        "greyscale",
+        "resize 160×200 and 400×500",
+        "AVIF quality 52, effort 6"
+      ],
+      "note": null
+    },
+    {
+      "id": "golda-meir",
+      "name": "Golda Meir",
+      "commonsFile": "Golda Meir 03265u-2 (cropped).jpg",
+      "page": "https://commons.wikimedia.org/wiki/File:Golda_Meir_03265u-2_(cropped).jpg",
+      "revision": 1218944633,
+      "retrieved": "2026-10-07",
+      "wikidata": "Q42992",
+      "credit": "Talmoryair ( talk ) after Marion S. Trikosko",
+      "license": "Public domain",
+      "licenseUrl": null,
+      "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/c/c7/Golda_Meir_03265u-2_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "originalSize": [
+        980,
+        1400
+      ],
+      "sourceNote": "This image is available from the United States Library of Congress 's Prints and Photographs division under the digital ID ppmsc.03265 . This tag does not indicate the copyright status of the attached work. A normal copyright tag is still required. See Commons:Licensing .",
+      "attributionRequested": null,
+      "inputSize": [
+        960,
+        1371
+      ],
+      "manualCrop": null,
+      "transformations": [
+        "auto-orient",
+        "crop 4:5",
+        "greyscale",
+        "resize 160×200 and 400×500",
+        "AVIF quality 52, effort 6"
+      ],
+      "note": null
+    },
+    {
+      "id": "zeev-jabotinsky",
+      "name": "Ze'ev Jabotinsky",
+      "commonsFile": "Zeev Jabotinsky portrait.png",
+      "page": "https://commons.wikimedia.org/wiki/File:Zeev_Jabotinsky_portrait.png",
+      "revision": 1260405524,
+      "retrieved": "2026-10-07",
+      "wikidata": "Q319896",
+      "credit": "Không rõ tác giả",
+      "license": "Public domain",
+      "licenseUrl": null,
+      "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/0/02/Zeev_Jabotinsky_portrait.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "originalSize": [
+        1004,
+        1354
+      ],
+      "sourceNote": "Consortium News direct weblink",
+      "attributionRequested": null,
+      "inputSize": [
+        960,
+        1295
+      ],
+      "manualCrop": null,
+      "transformations": [
+        "auto-orient",
+        "crop 4:5",
+        "greyscale",
+        "resize 160×200 and 400×500",
+        "AVIF quality 52, effort 6"
+      ],
+      "note": null
+    },
+    {
+      "id": "menachem-begin",
+      "name": "Menachem Begin",
+      "commonsFile": "Menachem Begin, Andrews AFB, 1978.JPG",
+      "page": "https://commons.wikimedia.org/wiki/File:Menachem_Begin,_Andrews_AFB,_1978.JPG",
+      "revision": 1267485754,
+      "retrieved": "2026-10-07",
+      "wikidata": "Q130873",
+      "credit": "USAF personnel; bản cắt: Ladislav Faigl",
+      "license": "Public domain",
+      "licenseUrl": null,
+      "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/1/13/Menachem_Begin%2C_Andrews_AFB%2C_1978.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "originalSize": [
+        480,
+        640
+      ],
+      "sourceNote": "This tag does not indicate the copyright status of the attached work. A normal copyright tag is still required. See Commons:Licensing .",
+      "attributionRequested": null,
+      "inputSize": [
+        480,
+        640
+      ],
+      "manualCrop": null,
+      "transformations": [
+        "auto-orient",
+        "crop 4:5",
+        "greyscale",
+        "resize 160×200 and 400×500",
+        "AVIF quality 52, effort 6"
+      ],
+      "note": null
+    },
+    {
+      "id": "yitzhak-shamir",
+      "name": "Yitzhak Shamir",
+      "commonsFile": "Yitzhak Shamir 1992 Dan Hadani Archive.jpg",
+      "page": "https://commons.wikimedia.org/wiki/File:Yitzhak_Shamir_1992_Dan_Hadani_Archive.jpg",
+      "revision": 1092725853,
+      "retrieved": "2026-10-07",
+      "wikidata": "Q184351",
+      "credit": "Yolene Haik / I.P.P.A. / Dan Hadani collection, National Library of Israel",
+      "license": "CC BY 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+      "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/5/55/Yitzhak_Shamir_1992_Dan_Hadani_Archive.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "originalSize": [
+        1836,
+        2416
+      ],
+      "sourceNote": "This image is available from National Library of Israel under the digital ID: 990040323390205171 (004032339)",
+      "attributionRequested": "Yolene Haik / Photographer: Israel Press and Photo Agency ( I.P.P.A. ) / Dan Hadani collection , National Library of Israel / CC BY 4.0",
+      "inputSize": [
+        960,
+        1263
+      ],
+      "manualCrop": null,
+      "transformations": [
+        "auto-orient",
+        "crop 4:5",
+        "greyscale",
+        "resize 160×200 and 400×500",
+        "AVIF quality 52, effort 6"
+      ],
+      "note": null
+    },
+    {
+      "id": "rene-levesque",
+      "name": "René Lévesque",
+      "commonsFile": "René Lévesque, 18 octobre 1960.jpg",
+      "page": "https://commons.wikimedia.org/wiki/File:Ren%C3%A9_L%C3%A9vesque,_18_octobre_1960.jpg",
+      "revision": 1101753518,
+      "retrieved": "2026-10-07",
+      "wikidata": "Q381007",
+      "credit": "Yves Beauchamp",
+      "license": "Public domain",
+      "licenseUrl": null,
+      "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/a/a9/Ren%C3%A9_L%C3%A9vesque%2C_18_octobre_1960.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "originalSize": [
+        802,
+        1147
+      ],
+      "sourceNote": "This image is available from Bibliothèque et Archives nationales du Québec under the reference number 4338973",
+      "attributionRequested": null,
+      "inputSize": [
+        802,
+        1147
+      ],
+      "manualCrop": {
+        "left": 90,
+        "top": 0,
+        "width": 640,
+        "height": 800
+      },
+      "transformations": [
+        "auto-orient",
+        "crop 4:5",
+        "greyscale",
+        "resize 160×200 and 400×500",
+        "AVIF quality 52, effort 6"
+      ],
+      "note": null
+    },
+    {
+      "id": "alex-salmond",
+      "name": "Alex Salmond",
+      "commonsFile": "Alex Salmond, First Minister of Scotland (cropped).jpg",
+      "page": "https://commons.wikimedia.org/wiki/File:Alex_Salmond,_First_Minister_of_Scotland_(cropped).jpg",
+      "revision": 788529836,
+      "retrieved": "2026-10-07",
+      "wikidata": "Q10652",
+      "credit": "The Scottish Government",
+      "license": "OGL v1.0",
+      "licenseUrl": "http://NationalArchives.gov.uk/doc/open-government-licence/version/1/",
+      "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/1/1b/Alex_Salmond%2C_First_Minister_of_Scotland_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "originalSize": [
+        614,
+        877
+      ],
+      "sourceNote": "File:Alex Salmond, First Minister of Scotland.jpg [1]",
+      "attributionRequested": null,
+      "inputSize": [
+        614,
+        877
+      ],
+      "manualCrop": null,
+      "transformations": [
+        "auto-orient",
+        "crop 4:5",
+        "greyscale",
+        "resize 160×200 and 400×500",
+        "AVIF quality 52, effort 6"
+      ],
+      "note": null
+    },
+    {
+      "id": "carles-puigdemont",
+      "name": "Carles Puigdemont",
+      "commonsFile": "Carles Puigdemont 2024.jpg",
+      "page": "https://commons.wikimedia.org/wiki/File:Carles_Puigdemont_2024.jpg",
+      "revision": 1114366546,
+      "retrieved": "2026-10-07",
+      "wikidata": "Q4740163",
+      "credit": "Parlament de Catalunya",
+      "license": "Attribution",
+      "licenseUrl": null,
+      "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/c/ca/Carles_Puigdemont_2024.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "originalSize": [
+        1248,
+        1672
+      ],
+      "sourceNote": "image ( page )",
+      "attributionRequested": "Parlament de Catalunya",
+      "inputSize": [
+        960,
+        1286
+      ],
+      "manualCrop": null,
+      "transformations": [
+        "auto-orient",
+        "crop 4:5",
+        "greyscale",
+        "resize 160×200 and 400×500",
+        "AVIF quality 52, effort 6"
+      ],
+      "note": null
+    },
+    {
+      "id": "ibn-saud",
+      "name": "Ibn Saud",
+      "commonsFile": "Ibn Saud.png",
+      "page": "https://commons.wikimedia.org/wiki/File:Ibn_Saud.png",
+      "revision": 1025289686,
+      "retrieved": "2026-10-07",
+      "wikidata": "Q151509",
+      "credit": "Lcxzdf56",
+      "license": "Public domain",
+      "licenseUrl": null,
+      "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/a/a3/Ibn_Saud.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "originalSize": [
+        1411,
+        1802
+      ],
+      "sourceNote": "Saudi National Museum",
+      "attributionRequested": null,
+      "inputSize": [
+        960,
+        1226
+      ],
+      "manualCrop": null,
+      "transformations": [
+        "auto-orient",
+        "crop 4:5",
+        "greyscale",
+        "resize 160×200 and 400×500",
+        "AVIF quality 52, effort 6"
+      ],
+      "note": null
+    },
+    {
+      "id": "hassan-al-banna",
+      "name": "Hassan al-Banna",
+      "commonsFile": "Hassan al-Banna.jpg",
+      "page": "https://commons.wikimedia.org/wiki/File:Hassan_al-Banna.jpg",
+      "revision": 1217129159,
+      "retrieved": "2026-10-07",
+      "wikidata": "Q230291",
+      "credit": "Không rõ tác giả",
+      "license": "Public domain",
+      "licenseUrl": null,
+      "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/b/bb/Hassan_al-Banna.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "originalSize": [
+        335,
+        437
+      ],
+      "sourceNote": "http://qudsday.org/hassanimages/per/slides/pic2.jpg , http://www.hassanalbanna.org/",
+      "attributionRequested": null,
+      "inputSize": [
+        335,
+        437
+      ],
+      "manualCrop": null,
+      "transformations": [
+        "auto-orient",
+        "crop 4:5",
+        "greyscale",
+        "resize 160×200 and 400×500",
+        "AVIF quality 52, effort 6"
+      ],
+      "note": null
+    },
+    {
+      "id": "sayyid-qutb",
+      "name": "Sayyid Qutb",
+      "commonsFile": "Sayyid Qutb.jpg",
+      "page": "https://commons.wikimedia.org/wiki/File:Sayyid_Qutb.jpg",
+      "revision": 1208181244,
+      "retrieved": "2026-10-07",
+      "wikidata": "Q211379",
+      "credit": "Không rõ tác giả ảnh gốc; nguồn đăng: أحمد.غامدي.24 (Arabic Wikipedia)",
+      "license": "Public domain",
+      "licenseUrl": null,
+      "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/9/9e/Sayyid_Qutb.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "originalSize": [
+        232,
+        324
+      ],
+      "sourceNote": "Transferred from ar.wikipedia to Commons by Pieter Kuiper using CommonsHelper .",
+      "attributionRequested": null,
+      "inputSize": [
+        232,
+        324
+      ],
+      "manualCrop": null,
+      "transformations": [
+        "auto-orient",
+        "crop 4:5",
+        "greyscale",
+        "resize 160×200 and 400×500",
+        "AVIF quality 52, effort 6"
+      ],
+      "note": null
+    },
+    {
+      "id": "mohamed-morsi",
+      "name": "Mohamed Morsi",
+      "commonsFile": "Mohamed Morsi-05-2013.jpg",
+      "page": "https://commons.wikimedia.org/wiki/File:Mohamed_Morsi-05-2013.jpg",
+      "revision": 1278053681,
+      "retrieved": "2026-10-07",
+      "wikidata": "Q4631",
+      "credit": "Wilson Dias/ABr",
+      "license": "CC BY 3.0 br",
+      "licenseUrl": "https://creativecommons.org/licenses/by/3.0/br/deed.en",
+      "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/e/e4/Mohamed_Morsi-05-2013.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "originalSize": [
+        684,
+        913
+      ],
+      "sourceNote": "Agência Brasil",
+      "attributionRequested": null,
+      "inputSize": [
+        684,
+        913
+      ],
+      "manualCrop": null,
+      "transformations": [
+        "auto-orient",
+        "crop 4:5",
+        "greyscale",
+        "resize 160×200 and 400×500",
+        "AVIF quality 52, effort 6"
+      ],
+      "note": null
+    },
+    {
+      "id": "jamal-al-din-al-afghani",
+      "name": "Jamal al-Din al-Afghani",
+      "commonsFile": "Al afghani.jpg",
+      "page": "https://commons.wikimedia.org/wiki/File:Al_afghani.jpg",
+      "revision": 1036284243,
+      "retrieved": "2026-10-07",
+      "wikidata": "Q298434",
+      "credit": "Yacquub cAbd al-cAziiz Abul Ala Maududi",
+      "license": "Public domain",
+      "licenseUrl": null,
+      "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/a/a8/Al_afghani.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "originalSize": [
+        997,
+        1368
+      ],
+      "sourceNote": "Edward G. Brown: The Persian Revolution. Cambridge University Press, 1910",
+      "attributionRequested": null,
+      "inputSize": [
+        960,
+        1317
+      ],
+      "manualCrop": null,
+      "transformations": [
+        "auto-orient",
+        "crop 4:5",
+        "greyscale",
+        "resize 160×200 and 400×500",
+        "AVIF quality 52, effort 6"
+      ],
+      "note": null
+    },
+    {
+      "id": "muhammad-abduh",
+      "name": "Muhammad Abduh",
+      "commonsFile": "Muhammad Abduh.jpg",
+      "page": "https://commons.wikimedia.org/wiki/File:Muhammad_Abduh.jpg",
+      "revision": 1273909655,
+      "retrieved": "2026-10-07",
+      "wikidata": "Q311826",
+      "credit": "Không rõ tác giả ảnh gốc; nguồn đăng: Zerida (English Wikipedia)",
+      "license": "Public domain",
+      "licenseUrl": null,
+      "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/f/ff/Muhammad_Abduh.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "originalSize": [
+        414,
+        590
+      ],
+      "sourceNote": "Transferred from en.wikipedia to Commons.",
+      "attributionRequested": null,
+      "inputSize": [
+        414,
+        590
+      ],
+      "manualCrop": null,
+      "transformations": [
+        "auto-orient",
+        "crop 4:5",
+        "greyscale",
+        "resize 160×200 and 400×500",
+        "AVIF quality 52, effort 6"
+      ],
+      "note": null
+    },
+    {
+      "id": "muhammad-iqbal",
+      "name": "Muhammad Iqbal",
+      "commonsFile": "Iqbal 2.jpg",
+      "page": "https://commons.wikimedia.org/wiki/File:Iqbal_2.jpg",
+      "revision": 643962726,
+      "retrieved": "2026-10-07",
+      "wikidata": "Q484141",
+      "credit": "Amrita Sher-Gil",
+      "license": "Public domain",
+      "licenseUrl": null,
+      "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/6/61/Iqbal_2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "originalSize": [
+        800,
+        1035
+      ],
+      "sourceNote": "Reproduced in Tony Halliday, ed. (1992) Insight Guides: Pakistan. Published by Apa Publications (HK) Ltd.",
+      "attributionRequested": null,
+      "inputSize": [
+        800,
+        1035
+      ],
+      "manualCrop": null,
+      "transformations": [
+        "auto-orient",
+        "crop 4:5",
+        "greyscale",
+        "resize 160×200 and 400×500",
+        "AVIF quality 52, effort 6"
+      ],
+      "note": null
+    },
+    {
+      "id": "abraham-isaac-kook",
+      "name": "Rav Abraham Isaac Kook",
+      "commonsFile": "Avraham Issac Kook portrait cropped.JPG",
+      "page": "https://commons.wikimedia.org/wiki/File:Avraham_Issac_Kook_portrait_cropped.JPG",
+      "revision": 809303468,
+      "retrieved": "2026-10-07",
+      "wikidata": "Q330110",
+      "credit": "Shuki; bản cắt: אני ואתה",
+      "license": "Public domain",
+      "licenseUrl": null,
+      "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/e/ed/Avraham_Issac_Kook_portrait_cropped.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "originalSize": [
+        280,
+        356
+      ],
+      "sourceNote": "Avraham_Issac_Kook_portrait.JPG",
+      "attributionRequested": null,
+      "inputSize": [
+        280,
+        356
+      ],
+      "manualCrop": null,
+      "transformations": [
+        "auto-orient",
+        "crop 4:5",
+        "greyscale",
+        "resize 160×200 and 400×500",
+        "AVIF quality 52, effort 6"
+      ],
+      "note": null
+    },
+    {
+      "id": "zvi-yehuda-kook",
+      "name": "Zvi Yehuda Kook",
+      "commonsFile": "תמונת הרצי\"ה.jpg",
+      "page": "https://commons.wikimedia.org/wiki/File:%D7%AA%D7%9E%D7%95%D7%A0%D7%AA_%D7%94%D7%A8%D7%A6%D7%99%22%D7%94.jpg",
+      "revision": 1006759951,
+      "retrieved": "2026-10-07",
+      "wikidata": "Q2704231",
+      "credit": "Không rõ tác giả",
+      "license": "Public domain",
+      "licenseUrl": null,
+      "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/8/85/%D7%AA%D7%9E%D7%95%D7%A0%D7%AA_%D7%94%D7%A8%D7%A6%D7%99%22%D7%94.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "originalSize": [
+        683,
+        682
+      ],
+      "sourceNote": "https://m.facebook.com/story.php?story_fbid=pfbid0cFax1Z9rqRkVig3TRGS9vPco2WwB3J1UbzKmbSg3uvTCD1Mf6wLn5LxhicrFQPuil&id=674395312582744",
+      "attributionRequested": null,
+      "inputSize": [
+        683,
+        682
+      ],
+      "manualCrop": null,
+      "transformations": [
+        "auto-orient",
+        "crop 4:5",
+        "greyscale",
+        "resize 160×200 and 400×500",
+        "AVIF quality 52, effort 6"
+      ],
+      "note": null
+    },
+    {
+      "id": "yitzchak-yaacov-reines",
+      "name": "Yitzchak Yaacov Reines",
+      "commonsFile": "Yitzchak Yaacov Reines.jpg",
+      "page": "https://commons.wikimedia.org/wiki/File:Yitzchak_Yaacov_Reines.jpg",
+      "revision": 1006755972,
+      "retrieved": "2026-10-07",
+      "wikidata": "Q941726",
+      "credit": "Không rõ tác giả",
+      "license": "Public domain",
+      "licenseUrl": null,
+      "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/4/4d/Yitzchak_Yaacov_Reines.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "originalSize": [
+        451,
+        599
+      ],
+      "sourceNote": "Uploaded by w:User:סול במול to Hebrew Wikipedia on November 27, 2013",
+      "attributionRequested": null,
+      "inputSize": [
+        451,
+        599
+      ],
+      "manualCrop": null,
+      "transformations": [
+        "auto-orient",
+        "crop 4:5",
+        "greyscale",
+        "resize 160×200 and 400×500",
+        "AVIF quality 52, effort 6"
+      ],
+      "note": null
+    },
+    {
+      "id": "thich-nhat-hanh",
+      "name": "Thích Nhất Hạnh",
+      "commonsFile": "Thich Nhat Hanh 12 (cropped).jpg",
+      "page": "https://commons.wikimedia.org/wiki/File:Thich_Nhat_Hanh_12_(cropped).jpg",
+      "revision": 1281025766,
+      "retrieved": "2026-10-07",
+      "wikidata": "Q310913",
+      "credit": "Duc (pixiduc) from Paris, France.",
+      "license": "CC BY-SA 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+      "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/1/1b/Thich_Nhat_Hanh_12_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "originalSize": [
+        1941,
+        2229
+      ],
+      "sourceNote": "Thich Nhat Hanh Marche meditative 06",
+      "attributionRequested": null,
+      "inputSize": [
+        960,
+        1102
+      ],
+      "manualCrop": null,
+      "transformations": [
+        "auto-orient",
+        "crop 4:5",
+        "greyscale",
+        "resize 160×200 and 400×500",
+        "AVIF quality 52, effort 6"
+      ],
+      "note": null
+    },
+    {
+      "id": "b-r-ambedkar",
+      "name": "B. R. Ambedkar",
+      "commonsFile": "Dr. Bhimrao Ambedkar.jpg",
+      "page": "https://commons.wikimedia.org/wiki/File:Dr._Bhimrao_Ambedkar.jpg",
+      "revision": 1212129126,
+      "retrieved": "2026-10-07",
+      "wikidata": "Q231690",
+      "credit": "Không rõ tác giả",
+      "license": "Public domain",
+      "licenseUrl": null,
+      "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/c/c3/Dr._Bhimrao_Ambedkar.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "originalSize": [
+        1229,
+        1600
+      ],
+      "sourceNote": "http://anithawnp.webnode.com/indian-heroes/dr-b-r-ambedkar/ [ dead link ] ( read on archive.org )",
+      "attributionRequested": null,
+      "inputSize": [
+        960,
+        1250
+      ],
+      "manualCrop": null,
+      "transformations": [
+        "auto-orient",
+        "crop 4:5",
+        "greyscale",
+        "resize 160×200 and 400×500",
+        "AVIF quality 52, effort 6"
+      ],
+      "note": null
+    },
+    {
+      "id": "sulak-sivaraksa",
+      "name": "Sulak Sivaraksa",
+      "commonsFile": "Sulak Sivaraksa (cropped).jpg",
+      "page": "https://commons.wikimedia.org/wiki/File:Sulak_Sivaraksa_(cropped).jpg",
+      "revision": 1160382056,
+      "retrieved": "2026-10-07",
+      "wikidata": "Q1356452",
+      "credit": "Individualist (German Wikipedia)",
+      "license": "Public domain",
+      "licenseUrl": null,
+      "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/6/64/Sulak_Sivaraksa_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "originalSize": [
+        168,
+        237
+      ],
+      "sourceNote": "Transferred from de.wikipedia to Commons. ( Original text: eigenes Foto, Erstveröffentlichung de.wikipedia am 19.5.2007 )",
+      "attributionRequested": null,
+      "inputSize": [
+        168,
+        237
+      ],
+      "manualCrop": null,
+      "transformations": [
+        "auto-orient",
+        "crop 4:5",
+        "greyscale",
+        "resize 160×200 and 400×500",
+        "AVIF quality 52, effort 6"
+      ],
+      "note": null
+    },
+    {
+      "id": "john-adams",
+      "name": "John Adams",
+      "commonsFile": "John Adams A18236.jpg",
+      "page": "https://commons.wikimedia.org/wiki/File:John_Adams_A18236.jpg",
+      "revision": 1044083534,
+      "retrieved": "2026-10-07",
+      "wikidata": "Q11806",
+      "credit": "Gilbert Stuart",
+      "license": "Public domain",
+      "licenseUrl": null,
+      "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/0/07/John_Adams_A18236.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "originalSize": [
+        6811,
+        8259
+      ],
+      "sourceNote": "National Gallery of Art, Washington, D. C., online collection",
+      "attributionRequested": null,
+      "inputSize": [
+        960,
+        1164
+      ],
+      "manualCrop": null,
+      "transformations": [
+        "auto-orient",
+        "crop 4:5",
+        "greyscale",
+        "resize 160×200 and 400×500",
+        "AVIF quality 52, effort 6"
+      ],
+      "note": null
+    },
+    {
+      "id": "john-marshall",
+      "name": "John Marshall",
+      "commonsFile": "John Marshall by Henry Inman, 1832.jpg",
+      "page": "https://commons.wikimedia.org/wiki/File:John_Marshall_by_Henry_Inman,_1832.jpg",
+      "revision": 1036031083,
+      "retrieved": "2026-10-07",
+      "wikidata": "Q310829",
+      "credit": "Henry Inman",
+      "license": "Public domain",
+      "licenseUrl": null,
+      "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/f/fe/John_Marshall_by_Henry_Inman%2C_1832.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "originalSize": [
+        1059,
+        1312
+      ],
+      "sourceNote": "Virginia Memory",
+      "attributionRequested": null,
+      "inputSize": [
+        960,
+        1189
+      ],
+      "manualCrop": null,
+      "transformations": [
+        "auto-orient",
+        "crop 4:5",
+        "greyscale",
+        "resize 160×200 and 400×500",
+        "AVIF quality 52, effort 6"
+      ],
+      "note": null
+    },
+    {
+      "id": "john-jay",
+      "name": "John Jay",
+      "commonsFile": "John Jay (Gilbert Stuart portrait).jpg",
+      "page": "https://commons.wikimedia.org/wiki/File:John_Jay_(Gilbert_Stuart_portrait).jpg",
+      "revision": 1102359266,
+      "retrieved": "2026-10-07",
+      "wikidata": "Q310847",
+      "credit": "Gilbert Stuart",
+      "license": "Public domain",
+      "licenseUrl": null,
+      "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/7/72/John_Jay_%28Gilbert_Stuart_portrait%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "originalSize": [
+        2322,
+        3004
+      ],
+      "sourceNote": "The National Gallery of Art",
+      "attributionRequested": null,
+      "inputSize": [
+        960,
+        1242
+      ],
+      "manualCrop": {
+        "left": 200,
+        "top": 210,
+        "width": 540,
+        "height": 675
+      },
+      "transformations": [
+        "auto-orient",
+        "crop 4:5",
+        "greyscale",
+        "resize 160×200 and 400×500",
+        "AVIF quality 52, effort 6"
+      ],
+      "note": null
+    },
+    {
+      "id": "sidney-webb",
+      "name": "Sidney Webb",
+      "commonsFile": "Sidney Webb (cropped).jpg",
+      "page": "https://commons.wikimedia.org/wiki/File:Sidney_Webb_(cropped).jpg",
+      "revision": 1105278014,
+      "retrieved": "2026-10-07",
+      "wikidata": "Q332442",
+      "credit": "W. & D. Downey",
+      "license": "Public domain",
+      "licenseUrl": null,
+      "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/5/56/Sidney_Webb_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "originalSize": [
+        1024,
+        1336
+      ],
+      "sourceNote": "one or more third parties have made copyright claims against Wikimedia Commons in relation to the work from which this is sourced or a purely mechanical reproduction thereof . This may be due to recognition of the \" sweat of the brow \" doctrine, allowing works to be eligible for protection through skill and labour, and not purely by originality as is the case in the United States (where this website is hosted). These claims may or may not be valid in all jurisdictions. As such, use of this image in the jurisdiction of the claimant or other countries may be regarded as copyright infringement . Please see Commons:When to use the PD-Art tag for more information.",
+      "attributionRequested": null,
+      "inputSize": [
+        960,
+        1252
+      ],
+      "manualCrop": null,
+      "transformations": [
+        "auto-orient",
+        "crop 4:5",
+        "greyscale",
+        "resize 160×200 and 400×500",
+        "AVIF quality 52, effort 6"
+      ],
+      "note": null
+    },
+    {
+      "id": "julian-huxley",
+      "name": "Julian Huxley",
+      "commonsFile": "Hux-Oxon-72.jpg",
+      "page": "https://commons.wikimedia.org/wiki/File:Hux-Oxon-72.jpg",
+      "revision": 1214842176,
+      "retrieved": "2026-10-07",
+      "wikidata": "Q243419",
+      "credit": "not given in the source",
+      "license": "Public domain",
+      "licenseUrl": null,
+      "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/6/69/Hux-Oxon-72.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "originalSize": [
+        352,
+        497
+      ],
+      "sourceNote": "J.S.H. 'Memories'",
+      "attributionRequested": null,
+      "inputSize": [
+        352,
+        497
+      ],
+      "manualCrop": null,
+      "transformations": [
+        "auto-orient",
+        "crop 4:5",
+        "greyscale",
+        "resize 160×200 and 400×500",
+        "AVIF quality 52, effort 6"
+      ],
+      "note": null
+    },
+    {
+      "id": "nick-bostrom",
+      "name": "Nick Bostrom",
+      "commonsFile": "Prof Nick Bostrom 324-1.jpg",
+      "page": "https://commons.wikimedia.org/wiki/File:Prof_Nick_Bostrom_324-1.jpg",
+      "revision": 1260114790,
+      "retrieved": "2026-10-07",
+      "wikidata": "Q460475",
+      "credit": "Future of Humanity Institute",
+      "license": "CC BY 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+      "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/3/3a/Prof_Nick_Bostrom_324-1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "originalSize": [
+        1602,
+        2084
+      ],
+      "sourceNote": "https://www.fhi.ox.ac.uk/press/images/ Immediate source: https://www.fhi.ox.ac.uk/wp-content/uploads/Prof_Nick_Bostrom_324-1.jpg",
+      "attributionRequested": null,
+      "inputSize": [
+        960,
+        1249
+      ],
+      "manualCrop": null,
+      "transformations": [
+        "auto-orient",
+        "crop 4:5",
+        "greyscale",
+        "resize 160×200 and 400×500",
+        "AVIF quality 52, effort 6"
+      ],
+      "note": null
+    },
+    {
+      "id": "james-hughes-sociologist",
+      "name": "James Hughes",
+      "commonsFile": "James Hughes.jpg",
+      "page": "https://commons.wikimedia.org/wiki/File:James_Hughes.jpg",
+      "revision": 1224174058,
+      "retrieved": "2026-10-07",
+      "wikidata": "Q3544625",
+      "credit": "Knightcap",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/5/5d/James_Hughes.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "originalSize": [
+        1920,
+        1080
+      ],
+      "sourceNote": "Own work",
+      "attributionRequested": null,
+      "inputSize": [
+        960,
+        540
+      ],
+      "manualCrop": {
+        "left": 300,
+        "top": 0,
+        "width": 432,
+        "height": 540
+      },
+      "transformations": [
+        "auto-orient",
+        "crop 4:5",
+        "greyscale",
+        "resize 160×200 and 400×500",
+        "AVIF quality 52, effort 6"
+      ],
+      "note": null
+    },
+    {
+      "id": "john-perry-barlow",
+      "name": "John Perry Barlow",
+      "commonsFile": "John Perry Barlow 2012.jpg",
+      "page": "https://commons.wikimedia.org/wiki/File:John_Perry_Barlow_2012.jpg",
+      "revision": 1273339589,
+      "retrieved": "2026-10-07",
+      "wikidata": "Q534428",
+      "credit": "Mohamed Nanabhay from Qatar",
+      "license": "CC BY 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+      "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/0/00/John_Perry_Barlow_2012.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "originalSize": [
+        1965,
+        2541
+      ],
+      "sourceNote": "John Perry Barlow",
+      "attributionRequested": null,
+      "inputSize": [
+        960,
+        1241
+      ],
+      "manualCrop": null,
+      "transformations": [
+        "auto-orient",
+        "crop 4:5",
+        "greyscale",
+        "resize 160×200 and 400×500",
+        "AVIF quality 52, effort 6"
+      ],
+      "note": null
+    },
+    {
+      "id": "john-gilmore",
+      "name": "John Gilmore",
+      "commonsFile": "John Gilmore 2009.jpg",
+      "page": "https://commons.wikimedia.org/wiki/File:John_Gilmore_2009.jpg",
+      "revision": 860056175,
+      "retrieved": "2026-10-07",
+      "wikidata": "Q984246",
+      "credit": "Joi Ito ( Joi @ Flickr )",
+      "license": "CC BY 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+      "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/c/c4/John_Gilmore_2009.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "originalSize": [
+        3916,
+        2634
+      ],
+      "sourceNote": "https://www.flickr.com/photos/joi/3267039800/",
+      "attributionRequested": null,
+      "inputSize": [
+        960,
+        646
+      ],
+      "manualCrop": {
+        "left": 130,
+        "top": 0,
+        "width": 500,
+        "height": 625
+      },
+      "transformations": [
+        "auto-orient",
+        "crop 4:5",
+        "greyscale",
+        "resize 160×200 and 400×500",
+        "AVIF quality 52, effort 6"
+      ],
+      "note": null
+    },
+    {
+      "id": "rick-falkvinge",
+      "name": "Rick Falkvinge",
+      "commonsFile": "Rickard Falkvinge - 2006-06-03 (Jon Åslund).jpg",
+      "page": "https://commons.wikimedia.org/wiki/File:Rickard_Falkvinge_-_2006-06-03_(Jon_%C3%85slund).jpg",
+      "revision": 1052044561,
+      "retrieved": "2026-10-07",
+      "wikidata": "Q443624",
+      "credit": "Jon Åslund",
+      "license": "CC BY 2.5",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.5",
+      "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/f/fb/Rickard_Falkvinge_-_2006-06-03_%28Jon_%C3%85slund%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "originalSize": [
+        586,
+        820
+      ],
+      "sourceNote": "http://jon.aslund.org/bilder/2006-06-03-piratdemonstration/dsc_8830.jpg?width=1024",
+      "attributionRequested": null,
+      "inputSize": [
+        586,
+        820
+      ],
+      "manualCrop": {
+        "left": 210,
+        "top": 270,
+        "width": 340,
+        "height": 425
+      },
+      "transformations": [
+        "auto-orient",
+        "crop 4:5",
+        "greyscale",
+        "resize 160×200 and 400×500",
+        "AVIF quality 52, effort 6"
+      ],
+      "note": null
+    },
+    {
+      "id": "birgitta-jonsdottir",
+      "name": "Birgitta Jónsdóttir",
+      "commonsFile": "Praha, PiCe, Birgitta Jónsdóttir.jpg",
+      "page": "https://commons.wikimedia.org/wiki/File:Praha,_PiCe,_Birgitta_J%C3%B3nsd%C3%B3ttir.jpg",
+      "revision": 1131505615,
+      "retrieved": "2026-10-07",
+      "wikidata": "Q144270",
+      "credit": "Aktron / Wikimedia Commons",
+      "license": "CC BY 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+      "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/d/df/Praha%2C_PiCe%2C_Birgitta_J%C3%B3nsd%C3%B3ttir.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "originalSize": [
+        2131,
+        3124
+      ],
+      "sourceNote": "Own work",
+      "attributionRequested": null,
+      "inputSize": [
+        960,
+        1407
+      ],
+      "manualCrop": null,
+      "transformations": [
+        "auto-orient",
+        "crop 4:5",
+        "greyscale",
+        "resize 160×200 and 400×500",
+        "AVIF quality 52, effort 6"
+      ],
+      "note": null
+    },
+    {
+      "id": "aaron-swartz",
+      "name": "Aaron Swartz",
+      "commonsFile": "Aaron Swartz 2 at Boston Wikipedia Meetup, 2009-08-18.jpg",
+      "page": "https://commons.wikimedia.org/wiki/File:Aaron_Swartz_2_at_Boston_Wikipedia_Meetup,_2009-08-18.jpg",
+      "revision": 887458814,
+      "retrieved": "2026-10-07",
+      "wikidata": "Q302817",
+      "credit": "Sage Ross",
+      "license": "CC BY-SA 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+      "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/2/26/Aaron_Swartz_2_at_Boston_Wikipedia_Meetup%2C_2009-08-18.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "originalSize": [
+        3888,
+        2592
+      ],
+      "sourceNote": "Flickr",
+      "attributionRequested": null,
+      "inputSize": [
+        960,
+        640
+      ],
+      "manualCrop": {
+        "left": 280,
+        "top": 0,
+        "width": 512,
+        "height": 640
+      },
+      "transformations": [
+        "auto-orient",
+        "crop 4:5",
+        "greyscale",
+        "resize 160×200 and 400×500",
+        "AVIF quality 52, effort 6"
+      ],
+      "note": null
+    },
+    {
+      "id": "ngo-dinh-thuc",
+      "name": "Ngô Đình Thục",
+      "commonsFile": "Bishop Thuc, Sept. 11, 1963.jpg",
+      "page": "https://commons.wikimedia.org/wiki/File:Bishop_Thuc,_Sept._11,_1963.jpg",
+      "revision": 1087481962,
+      "retrieved": "2026-10-07",
+      "wikidata": "Q738148",
+      "credit": "TommyJapan1",
+      "license": "CC BY 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+      "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/4/45/Bishop_Thuc%2C_Sept._11%2C_1963.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "originalSize": [
+        603,
+        851
+      ],
+      "sourceNote": "Flickr",
+      "attributionRequested": null,
+      "inputSize": [
+        603,
+        851
+      ],
+      "manualCrop": null,
+      "transformations": [
+        "auto-orient",
+        "crop 4:5",
+        "greyscale",
+        "resize 160×200 and 400×500",
+        "AVIF quality 52, effort 6"
+      ],
+      "note": null
+    },
+    {
+      "id": "nick-land",
+      "name": "Nick Land",
+      "commonsFile": "Nick Land October 2025 (1x1 cropped).jpg",
+      "page": "https://commons.wikimedia.org/wiki/File:Nick_Land_October_2025_(1x1_cropped).jpg",
+      "revision": 1271845841,
+      "retrieved": "2026-10-07",
+      "wikidata": "Q7027450",
+      "credit": "Koolisid",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/1/11/Nick_Land_October_2025_%281x1_cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "originalSize": [
+        1087,
+        1072
+      ],
+      "sourceNote": "Own work",
+      "attributionRequested": null,
+      "inputSize": [
+        960,
+        947
+      ],
+      "manualCrop": null,
+      "transformations": [
+        "auto-orient",
+        "crop 4:5",
+        "greyscale",
+        "resize 160×200 and 400×500",
+        "AVIF quality 52, effort 6"
+      ],
+      "note": null
+    },
+    {
+      "id": "nikolai-trubetzkoy",
+      "name": "Nikolai Trubetskoy",
+      "commonsFile": "Nikolai Trubetzkoy.jpg",
+      "page": "https://commons.wikimedia.org/wiki/File:Nikolai_Trubetzkoy.jpg",
+      "revision": 1169015141,
+      "retrieved": "2026-10-07",
+      "wikidata": "Q159491",
+      "credit": "Không rõ tác giả",
+      "license": "Public domain",
+      "licenseUrl": null,
+      "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/4/47/Nikolai_Trubetzkoy.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "originalSize": [
+        250,
+        350
+      ],
+      "sourceNote": "ru:Изображение:Trubetzkoy.jpg",
+      "attributionRequested": null,
+      "inputSize": [
+        250,
+        350
+      ],
+      "manualCrop": null,
+      "transformations": [
+        "auto-orient",
+        "crop 4:5",
+        "greyscale",
+        "resize 160×200 and 400×500",
+        "AVIF quality 52, effort 6"
+      ],
+      "note": null
+    },
+    {
+      "id": "lev-gumilyov",
+      "name": "Lev Gumilyov",
+      "commonsFile": "ЛевГумилёв1934.jpg",
+      "page": "https://commons.wikimedia.org/wiki/File:%D0%9B%D0%B5%D0%B2%D0%93%D1%83%D0%BC%D0%B8%D0%BB%D1%91%D0%B21934.jpg",
+      "revision": 1222878432,
+      "retrieved": "2026-10-07",
+      "wikidata": "Q135481",
+      "credit": "Không rõ tác giả",
+      "license": "Public domain",
+      "licenseUrl": null,
+      "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/3/37/%D0%9B%D0%B5%D0%B2%D0%93%D1%83%D0%BC%D0%B8%D0%BB%D1%91%D0%B21934.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "originalSize": [
+        790,
+        1125
+      ],
+      "sourceNote": "http://img15.nnm.ru/d/b/f/f/4/e744eb2d6661865b421e4519519.jpg",
+      "attributionRequested": null,
+      "inputSize": [
+        790,
+        1125
+      ],
+      "manualCrop": null,
+      "transformations": [
+        "auto-orient",
+        "crop 4:5",
+        "greyscale",
+        "resize 160×200 and 400×500",
+        "AVIF quality 52, effort 6"
+      ],
+      "note": null
+    },
+    {
+      "id": "george-vernadsky",
+      "name": "George Vernadsky",
+      "commonsFile": "George Vernandsky 1909.jpg",
+      "page": "https://commons.wikimedia.org/wiki/File:George_Vernandsky_1909.jpg",
+      "revision": 1271373307,
+      "retrieved": "2026-10-07",
+      "wikidata": "Q12538981",
+      "credit": "Không rõ tác giả",
+      "license": "Public domain",
+      "licenseUrl": null,
+      "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/5/5b/George_Vernandsky_1909.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "originalSize": [
+        239,
+        319
+      ],
+      "sourceNote": "http://arran.ru/?q=en/node/68",
+      "attributionRequested": null,
+      "inputSize": [
+        239,
+        319
+      ],
+      "manualCrop": null,
+      "transformations": [
+        "auto-orient",
+        "crop 4:5",
+        "greyscale",
+        "resize 160×200 and 400×500",
+        "AVIF quality 52, effort 6"
+      ],
+      "note": null
+    }
+  ],
+  "pending": [
+    {
+      "id": "hardial-bains",
+      "name": "Hardial Bains",
+      "wiki": "Hardial Bains",
+      "reason": "Chỉ tìm thấy ảnh bia mộ, không có chân dung.",
+      "candidate": "https://commons.wikimedia.org/wiki/File:Hardial_Bains_Memorial_Beechwood.jpg"
+    },
+    {
+      "id": "george-grant",
+      "name": "George Grant",
+      "wiki": "George Grant (philosopher)",
+      "reason": "Chưa tìm được chân dung đúng nhà triết học có giấy phép rõ ràng trên Commons; các ảnh gần tên là người khác."
+    },
+    {
+      "id": "daniel-a-bell",
+      "name": "Daniel A. Bell",
+      "wiki": "Daniel A. Bell",
+      "reason": "Các chân dung Daniel Bell tìm thấy là nhà xã hội học hoặc vận động viên, không phải Daniel A. Bell trong danh mục."
+    },
+    {
+      "id": "thomas-mun",
+      "name": "Thomas Mun",
+      "wiki": "Thomas Mun",
+      "reason": "Chỉ tìm thấy sách và tài liệu liên quan, chưa xác định được chân dung."
+    },
+    {
+      "id": "shulamith-firestone",
+      "name": "Shulamith Firestone",
+      "wiki": "Shulamith Firestone",
+      "reason": "Chưa tìm được chân dung Commons có giấy phép rõ ràng."
+    },
+    {
+      "id": "george-sessions",
+      "name": "George Sessions",
+      "wiki": "George Sessions",
+      "reason": "Trang Wikipedia đang gán không tồn tại; các ảnh tìm thấy liên quan George Sessions Perry, không phải nhà triết học sinh thái."
+    },
+    {
+      "id": "ted-nordhaus",
+      "name": "Ted Nordhaus",
+      "wiki": "Ted Nordhaus",
+      "reason": "Các ảnh gần tên thuộc William Nordhaus hoặc Steven Nordhaus; chưa tìm được chân dung Ted Nordhaus."
+    },
+    {
+      "id": "john-cowperthwaite",
+      "name": "John Cowperthwaite",
+      "wiki": "John Cowperthwaite",
+      "reason": "Chưa tìm được chân dung Commons có giấy phép rõ ràng."
+    },
+    {
+      "id": "hillel-steiner",
+      "name": "Hillel Steiner",
+      "wiki": "Hillel Steiner",
+      "reason": "Chưa tìm được chân dung Commons có giấy phép rõ ràng."
+    },
+    {
+      "id": "muhammad-ibn-abd-al-wahhab",
+      "name": "Muhammad ibn Abd al-Wahhab",
+      "wiki": "Muhammad ibn Abd al-Wahhab",
+      "reason": "Ảnh P18 là thư pháp tên người, không phải chân dung.",
+      "candidate": "https://commons.wikimedia.org/wiki/File:محمد_بن_عبد_الوهاب.png"
+    },
+    {
+      "id": "ibn-baz",
+      "name": "Abd al-Aziz ibn Baz",
+      "wiki": "Ibn Baz",
+      "reason": "Các file tìm thấy là thư pháp tên người, không phải chân dung.",
+      "candidate": "https://commons.wikimedia.org/wiki/File:Ibn_Baz.png"
+    },
+    {
+      "id": "pierre-poujade",
+      "name": "Pierre Poujade",
+      "wiki": "Pierre Poujade",
+      "reason": "Các ảnh gần tên là Robert, Arthur hoặc Joseph Poujade; tranh M. Poujade thế kỷ XIX không thể là Pierre Poujade (1920–2003)."
+    },
+    {
+      "id": "mogens-glistrup",
+      "name": "Mogens Glistrup",
+      "wiki": "Mogens Glistrup",
+      "reason": "File trong danh mục là tờ quảng cáo chính trị không có mặt người.",
+      "candidate": "https://commons.wikimedia.org/wiki/File:Frp_DK_1976.jpg"
+    },
+    {
+      "id": "timothy-c-may",
+      "name": "Timothy C. May",
+      "wiki": "Timothy C. May",
+      "reason": "Chỉ tìm thấy tài liệu cypherpunk, chưa tìm được chân dung Commons có giấy phép rõ ràng."
+    }
+  ]
+}

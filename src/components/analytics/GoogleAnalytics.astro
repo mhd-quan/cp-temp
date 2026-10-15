@@ -1,0 +1,25 @@
+---
+/**
+ * Site-wide Google Analytics, sent by the site itself (lib/googleAnalytics.mjs),
+ * without gtag.js.
+ *
+ * EditionLayout includes this component once for every HTML page, at the end of
+ * the body. Keeping it out of development avoids recording local browsing in the
+ * production property.
+ */
+---
+
+<script>
+  import { installGoogleAnalytics } from '~/lib/googleAnalytics.mjs';
+
+  if (import.meta.env.PROD && window.location.hostname === 'cochinchinepensees.studio') {
+    // A prerendered essay (see lib/editionSpeculation.ts) is counted
+    // only if the reader actually opens it.
+    const install = () => installGoogleAnalytics({ document, window, measurementId: 'G-WDT4QZN4C6' });
+    if ((document as Document & { prerendering?: boolean }).prerendering) {
+      document.addEventListener('prerenderingchange', install, { once: true });
+    } else {
+      install();
+    }
+  }
+</script>

@@ -1,0 +1,41 @@
+---
+// One author: everything they have published, in the story grid.
+import { type CollectionEntry, getCollection } from 'astro:content';
+import type { GetStaticPaths } from 'astro';
+import PageHead from '~/components/edition/PageHead.astro';
+import StoryCard from '~/components/edition/StoryCard.astro';
+import EditionLayout from '~/layouts/EditionLayout.astro';
+import { authorSlug } from '~/lib/authorArchive.mjs';
+
+interface AuthorArchive {
+  name: string;
+  entries: CollectionEntry<'essays'>[];
+}
+
+export const getStaticPaths = (async () => {
+  const published = (
+    await getCollection('essays', ({ data }) => !data.draft && !data.comingSoon)
+  ).sort((a, b) => +b.data.date - +a.data.date);
+  const names = [...new Set(published.map(({ data }) => data.author))].sort((a, b) =>
+    a.localeCompare(b, 'vi'),
+  );
+  return names.map((name) => ({
+    params: { slug: authorSlug(name) },
+    props: {
+      name,
+      entries: published.filter(({ data }) => data.author === name),
+    } satisfies AuthorArchive,
+  }));
+}) satisfies GetStaticPaths;
+
+const { name, entries } = Astro.props as AuthorArchive;
+---
+<EditionLayout title={name} description={`${name}: ${entries.length} bài viết đã xuất bản trên The Cochinchine Pensées.`} noindex={false}>
+  <PageHead title={name} parent={{ href: '/authors', label: 'Tác giả' }} />
+  <div class="page-body wrap">
+    <h2 class="sr-only">Bài viết của {name}</h2>
+    <ol class="story-grid" role="list">
+      {entries.map((entry) => <li class="story printed"><StoryCard entry={entry} /></li>)}
+    </ol>
+  </div>
+</EditionLayout>

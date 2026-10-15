@@ -1,0 +1,38 @@
+---
+// Pagination: previous and next with the publication's arrows, and every
+// page number, so a reader can reach any page in one step.
+import Glyph from './Glyph.astro';
+
+interface Props {
+  current: number;
+  last: number;
+  href: (page: number) => string;
+}
+const { current, last, href } = Astro.props;
+const pages = Array.from({ length: last }, (_, index) => index + 1);
+---
+{last > 1 && (
+  <nav class="pager wrap" aria-label="Phân trang">
+    {current > 1 ? (
+      <a class="caps-link pager__step" href={href(current - 1)} rel="prev"><Glyph name="back" inline /><span>Trang trước</span></a>
+    ) : (
+      <span class="pager__step" aria-hidden="true"></span>
+    )}
+    <ol class="pager__pages" role="list">
+      {pages.map((page) => (
+        <li>
+          {page === current ? (
+            <span class="pager__page caps" aria-current="page">{page}</span>
+          ) : (
+            <a class="pager__page caps" href={href(page)} aria-label={`Trang ${page}`}>{page}</a>
+          )}
+        </li>
+      ))}
+    </ol>
+    {current < last ? (
+      <a class="caps-link pager__step pager__step--next" href={href(current + 1)} rel="next"><span>Trang sau</span><Glyph name="forward" inline /></a>
+    ) : (
+      <span class="pager__step" aria-hidden="true"></span>
+    )}
+  </nav>
+)}

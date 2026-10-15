@@ -1,0 +1,411 @@
+{
+  "parties": [
+    {
+      "id": "united-russia",
+      "name": "Nước Nga Thống nhất",
+      "country": "Nga",
+      "period": "2001–nay",
+      "variants": [
+        "authoritarian-capitalism"
+      ],
+      "emblem": {
+        "shape": "disc",
+        "field": "#0f4c9a",
+        "ink": "#ffffff",
+        "motif": "bear",
+        "ring": "#d52b1e"
+      }
+    },
+    {
+      "id": "can-lao",
+      "name": "Đảng Cần lao Nhân vị",
+      "country": "Việt Nam",
+      "period": "1954–1963",
+      "variants": [
+        "personalism"
+      ],
+      "emblem": {
+        "shape": "shield",
+        "field": "#ffde00",
+        "ink": "#da251d",
+        "motif": "torch"
+      }
+    },
+    {
+      "id": "zanu-pf",
+      "name": "Liên minh Dân tộc Phi châu Zimbabwe – Mặt trận Yêu nước",
+      "abbr": "ZANU–PF",
+      "country": "Zimbabwe",
+      "period": "1987–nay",
+      "variants": [
+        "competitive-authoritarianism"
+      ],
+      "emblem": {
+        "shape": "disc",
+        "field": "#fcd116",
+        "ink": "#111111",
+        "motif": "cockerel",
+        "ring": "#007a3d"
+      }
+    },
+    {
+      "id": "mpr-zaire",
+      "name": "Phong trào Nhân dân Cách mạng",
+      "abbr": "MPR",
+      "country": "Zaire",
+      "period": "1967–1997",
+      "variants": [
+        "sultanism"
+      ],
+      "emblem": {
+        "shape": "disc",
+        "field": "#009543",
+        "ink": "#fcd116",
+        "motif": "torch",
+        "ring": "#ce1126"
+      }
+    },
+    {
+      "id": "partido-dominicano",
+      "name": "Đảng Dominica",
+      "abbr": "PD",
+      "country": "Cộng hoà Dominica",
+      "period": "1931–1961",
+      "variants": [
+        "sultanism"
+      ],
+      "emblem": {
+        "shape": "disc",
+        "field": "#ffffff",
+        "ink": "#1f6b3a",
+        "motif": "tree-palm",
+        "ring": "#002d62"
+      }
+    }
+  ],
+  "states": [
+    {
+      "id": "france-1799-1815",
+      "name": "Pháp",
+      "period": "1799–1815",
+      "note": "Napoléon: Tổng tài rồi Hoàng đế, phê chuẩn qua trưng cầu",
+      "variants": [
+        "caesarism"
+      ],
+      "flag": "france"
+    },
+    {
+      "id": "france-1852-1870",
+      "name": "Pháp",
+      "period": "1852–1870",
+      "note": "Đệ nhị Đế chế của Napoléon III",
+      "variants": [
+        "caesarism"
+      ],
+      "flag": "france"
+    },
+    {
+      "id": "argentina-1976-1983",
+      "name": "Argentina",
+      "period": "1976–1983",
+      "note": "Chính quyền quân sự, ‘Quá trình Tái tổ chức Quốc gia’",
+      "variants": [
+        "military-rule"
+      ],
+      "flag": "argentina"
+    },
+    {
+      "id": "rvn-1963-1967",
+      "name": "Việt Nam Cộng hoà",
+      "period": "1963–1967",
+      "note": "Các chính quyền quân nhân sau đảo chính 1963",
+      "variants": [
+        "military-rule"
+      ],
+      "flag": "rvn"
+    },
+    {
+      "id": "russia-2000-present",
+      "name": "Nga",
+      "period": "2000–nay",
+      "note": "Thời Vladimir Putin",
+      "variants": [
+        "authoritarian-capitalism"
+      ],
+      "flag": "russia"
+    },
+    {
+      "id": "kazakhstan-1991-2019",
+      "name": "Kazakhstan",
+      "period": "1991–2019",
+      "note": "Thời Nursultan Nazarbayev",
+      "variants": [
+        "authoritarian-capitalism"
+      ],
+      "flag": "kazakhstan"
+    },
+    {
+      "id": "rvn-1955-1963",
+      "name": "Việt Nam Cộng hoà",
+      "period": "1955–1963",
+      "note": "Đệ nhất Cộng hoà, thời Ngô Đình Diệm",
+      "variants": [
+        "personalism"
+      ],
+      "flag": "rvn"
+    },
+    {
+      "id": "peru-1992-2000",
+      "name": "Peru",
+      "period": "1992–2000",
+      "note": "Fujimori sau cuộc tự đảo chính 1992: vẫn bầu cử, nhưng mật vụ của Montesinos mua chuộc truyền hình, toà án và nghị sĩ",
+      "variants": [
+        "competitive-authoritarianism"
+      ],
+      "flag": "peru"
+    },
+    {
+      "id": "serbia-1990-2000",
+      "name": "Serbia",
+      "period": "1990–2000",
+      "note": "Thời Milošević: đa đảng nhưng truyền hình nhà nước và cảnh sát nghiêng cán cân; sụp đổ sau bầu cử năm 2000",
+      "variants": [
+        "competitive-authoritarianism"
+      ],
+      "flag": "serbia"
+    },
+    {
+      "id": "philippines-1972-1986",
+      "name": "Philippines",
+      "period": "1972–1986",
+      "note": "Thiết quân luật và chế độ cá nhân của vợ chồng Marcos; kinh tế chia cho thân hữu",
+      "variants": [
+        "sultanism"
+      ],
+      "flag": "philippines"
+    },
+    {
+      "id": "haiti-1957-1986",
+      "name": "Haiti",
+      "period": "1957–1986",
+      "note": "Cha con Duvalier: tổng thống trọn đời, lực lượng Tonton Macoute",
+      "variants": [
+        "sultanism"
+      ],
+      "flag": "haiti-duvalier"
+    },
+    {
+      "id": "austria-1934-1938",
+      "name": "Nhà nước Liên bang Áo",
+      "period": "1934–1938",
+      "note": "Hiến pháp tháng Năm 1934 của Dollfuss: các hội đồng nghề nghiệp thay nghị viện, Mặt trận Tổ quốc là tổ chức duy nhất",
+      "variants": [
+        "state-corporatism",
+        "national-catholicism"
+      ],
+      "flag": "austria"
+    },
+    {
+      "id": "brazil-1937-1945",
+      "name": "Brazil",
+      "period": "1937–1945",
+      "note": "Estado Novo của Vargas: giải tán các đảng, công đoàn do nhà nước cấp phép, Bộ luật Lao động 1943",
+      "variants": [
+        "state-corporatism"
+      ],
+      "flag": "brazil"
+    }
+  ],
+  "figures": [
+    {
+      "id": "julius-caesar",
+      "name": "Julius Caesar",
+      "life": "100–44 TCN",
+      "role": "Nhà độc tài La Mã",
+      "variant": "caesarism",
+      "wiki": "Julius Caesar"
+    },
+    {
+      "id": "napoleon",
+      "name": "Napoléon Bonaparte",
+      "life": "1769–1821",
+      "role": "Hoàng đế Pháp (1804–1815)",
+      "variant": "caesarism",
+      "wiki": "Napoleon"
+    },
+    {
+      "id": "napoleon-iii",
+      "name": "Napoléon III",
+      "life": "1808–1873",
+      "role": "Tổng thống rồi Hoàng đế Pháp (1848–1870)",
+      "variant": "caesarism",
+      "axes": {
+        "trade": 60
+      },
+      "wiki": "Napoleon III"
+    },
+    {
+      "id": "jorge-rafael-videla",
+      "name": "Jorge Rafael Videla",
+      "life": "1925–2013",
+      "role": "Tướng, đứng đầu chính quyền quân sự Argentina",
+      "variant": "military-rule",
+      "wiki": "Jorge Rafael Videla"
+    },
+    {
+      "id": "georgios-papadopoulos",
+      "name": "Georgios Papadopoulos",
+      "life": "1919–1999",
+      "role": "Đại tá, đứng đầu chính quyền quân sự Hy Lạp",
+      "variant": "military-rule",
+      "wiki": "Georgios Papadopoulos"
+    },
+    {
+      "id": "nguyen-khanh",
+      "name": "Nguyễn Khánh",
+      "life": "1927–2013",
+      "role": "Tướng, cầm quyền ở Sài Gòn (1964–1965)",
+      "variant": "military-rule",
+      "wiki": "Nguyễn Khánh"
+    },
+    {
+      "id": "vladimir-putin",
+      "name": "Vladimir Putin",
+      "life": "s. 1952",
+      "role": "Tổng thống Nga",
+      "variant": "authoritarian-capitalism",
+      "axes": {
+        "foreign": 10
+      },
+      "wiki": "Vladimir Putin"
+    },
+    {
+      "id": "nursultan-nazarbayev",
+      "name": "Nursultan Nazarbayev",
+      "life": "s. 1940",
+      "role": "Tổng thống đầu tiên của Kazakhstan",
+      "variant": "authoritarian-capitalism",
+      "axes": {
+        "foreign": 55
+      },
+      "wiki": "Nursultan Nazarbayev"
+    },
+    {
+      "id": "ngo-dinh-diem",
+      "name": "Ngô Đình Diệm",
+      "life": "1901–1963",
+      "role": "Tổng thống Việt Nam Cộng hoà (1955–1963)",
+      "variant": "personalism",
+      "wiki": "Ngo Dinh Diem"
+    },
+    {
+      "id": "ngo-dinh-nhu",
+      "name": "Ngô Đình Nhu",
+      "life": "1910–1963",
+      "role": "Cố vấn chính trị, sáng lập Đảng Cần lao Nhân vị",
+      "variant": "personalism",
+      "wiki": "Ngo Dinh Nhu"
+    },
+    {
+      "id": "alberto-fujimori",
+      "name": "Alberto Fujimori",
+      "life": "1938–2024",
+      "role": "Tổng thống Peru (1990–2000)",
+      "variant": "competitive-authoritarianism",
+      "axes": {
+        "economy": 80,
+        "trade": 80
+      },
+      "wiki": "Alberto Fujimori"
+    },
+    {
+      "id": "slobodan-milosevic",
+      "name": "Slobodan Milošević",
+      "life": "1941–2006",
+      "role": "Tổng thống Serbia rồi Nam Tư (1989–2000)",
+      "variant": "competitive-authoritarianism",
+      "axes": {
+        "economy": 35,
+        "identity": 10,
+        "foreign": 15
+      },
+      "wiki": "Slobodan Milošević"
+    },
+    {
+      "id": "robert-mugabe",
+      "name": "Robert Mugabe",
+      "life": "1924–2019",
+      "role": "Thủ tướng rồi Tổng thống Zimbabwe (1980–2017)",
+      "variant": "competitive-authoritarianism",
+      "axes": {
+        "economy": 35,
+        "identity": 15
+      },
+      "wiki": "Robert Mugabe"
+    },
+    {
+      "id": "rafael-trujillo",
+      "name": "Rafael Trujillo",
+      "life": "1891–1961",
+      "role": "Nhà độc tài Cộng hoà Dominica (1930–1961)",
+      "variant": "sultanism",
+      "axes": {
+        "identity": 10
+      },
+      "wiki": "Rafael Trujillo"
+    },
+    {
+      "id": "mobutu-sese-seko",
+      "name": "Mobutu Sese Seko",
+      "life": "1930–1997",
+      "role": "Tổng thống Congo–Zaire (1965–1997)",
+      "variant": "sultanism",
+      "axes": {
+        "religion": 30,
+        "identity": 20
+      },
+      "wiki": "Mobutu Sese Seko"
+    },
+    {
+      "id": "ferdinand-marcos",
+      "name": "Ferdinand Marcos",
+      "life": "1917–1989",
+      "role": "Tổng thống Philippines (1965–1986), thiết quân luật từ 1972",
+      "variant": "sultanism",
+      "wiki": "Ferdinand Marcos"
+    },
+    {
+      "id": "marcello-caetano",
+      "name": "Marcello Caetano",
+      "life": "1906–1980",
+      "role": "Luật gia nghiệp đoàn, Thủ tướng Bồ Đào Nha (1968–1974)",
+      "variant": "state-corporatism",
+      "wiki": "Marcello Caetano"
+    },
+    {
+      "id": "kurt-schuschnigg",
+      "name": "Kurt Schuschnigg",
+      "life": "1897–1977",
+      "role": "Thủ tướng Nhà nước Liên bang Áo (1934–1938)",
+      "variant": "state-corporatism",
+      "axes": {
+        "religion": 80
+      },
+      "wiki": "Kurt Schuschnigg"
+    },
+    {
+      "id": "getulio-vargas",
+      "name": "Getúlio Vargas",
+      "life": "1882–1954",
+      "role": "Tổng thống Brazil, lập Estado Novo (1937–1945)",
+      "variant": "state-corporatism",
+      "axes": {
+        "distribution": 40,
+        "elites": 40,
+        "religion": 45,
+        "environment": 20
+      },
+      "wiki": "Getúlio Vargas"
+    }
+  ]
+}

@@ -1,0 +1,176 @@
+{
+  "family": {
+    "id": "conservatism",
+    "name": "Bảo thủ",
+    "en": "Conservatism",
+    "summary": "Trân trọng truyền thống, những thể chế đã qua thử thách và trật tự xã hội; nghi ngờ các kế hoạch cải tạo xã hội theo lý thuyết."
+  },
+  "variants": [
+    {
+      "id": "burkean-conservatism",
+      "name": "Bảo thủ kiểu Burke",
+      "en": "Burkean conservatism",
+      "summary": "Xã hội là khế ước giữa người đã khuất, người đang sống và người chưa sinh; thay đổi phải chậm và giữ những thể chế đã qua thử thách.",
+      "exemplars": ["Edmund Burke", "Michael Oakeshott", "Russell Kirk"],
+      "period": "1790–nay",
+      "axes": { "economy": 60, "distribution": 60, "trade": 55, "power": 70, "liberty": 55, "elites": 30, "lifestyle": 25, "religion": 60, "identity": 40, "environment": 55, "foreign": 50, "change": 5 },
+      "status": "draft",
+      "raters": ["claude"]
+    },
+    {
+      "id": "aristocratic-conservatism",
+      "name": "Bảo thủ quý tộc",
+      "en": "Aristocratic conservatism",
+      "summary": "Một tầng lớp quý tộc có ruộng đất và dòng dõi có bổn phận dẫn dắt xã hội; trật tự đẳng cấp, giáo hội quốc gia, bảo hộ nông nghiệp.",
+      "exemplars": ["Klemens von Metternich", "Giới Junker Phổ", "Phái Tory thế kỷ 18–19"],
+      "period": "1790–1914",
+      "axes": { "economy": 50, "distribution": 60, "trade": 30, "power": 40, "liberty": 35, "elites": 10, "lifestyle": 15, "religion": 75, "identity": 35, "environment": 50, "foreign": 35, "change": 5 },
+      "facets": { "elites.decision": 15, "elites.rank": 0, "elites.trust": 15, "trade.goods": 15, "distribution.tax": 80, "distribution.welfare": 45, "distribution.labour": 55 },
+      "status": "draft",
+      "raters": ["claude"]
+    },
+    {
+      "id": "one-nation-conservatism",
+      "name": "Bảo thủ Một Quốc gia",
+      "en": "One-nation conservatism",
+      "summary": "Tầng lớp trên có bổn phận với người nghèo; cải cách xã hội để giữ một quốc gia thống nhất, không chia thành hai dân tộc giàu và nghèo.",
+      "exemplars": ["Benjamin Disraeli", "Harold Macmillan"],
+      "period": "1845–nay",
+      "axes": { "economy": 50, "distribution": 45, "trade": 50, "power": 75, "liberty": 60, "elites": 35, "lifestyle": 35, "religion": 55, "identity": 40, "environment": 55, "foreign": 45, "change": 20 },
+      "facets": { "distribution.welfare": 35 },
+      "status": "draft",
+      "raters": ["claude"]
+    },
+    {
+      "id": "american-conservatism",
+      "name": "Bảo thủ kiểu Mỹ",
+      "en": "American conservatism (fusionism)",
+      "summary": "Liên minh giữa thị trường tự do, giá trị Kitô giáo truyền thống và quốc phòng mạnh; chính quyền liên bang nhỏ, quyền của các bang, quyền sở hữu súng.",
+      "exemplars": ["Ronald Reagan", "William F. Buckley Jr.", "Barry Goldwater"],
+      "period": "1955–nay",
+      "axes": { "economy": 85, "distribution": 80, "trade": 70, "power": 80, "liberty": 60, "elites": 50, "lifestyle": 25, "religion": 65, "identity": 35, "environment": 20, "foreign": 25, "change": 20 },
+      "facets": { "power.local": 95, "liberty.expression": 85, "liberty.justice": 20, "liberty.privacy": 75, "foreign.force": 10, "foreign.rules": 30, "foreign.intervention": 35 },
+      "status": "draft",
+      "raters": ["claude"]
+    },
+    {
+      "id": "christian-right",
+      "name": "Bảo thủ Kitô giáo",
+      "en": "Christian conservatism (Christian right)",
+      "summary": "Đưa đức tin vào đời sống công: chống phá thai, bảo vệ hôn nhân truyền thống, cầu nguyện trong trường học; thường đi cùng thị trường tự do.",
+      "exemplars": ["Jerry Falwell", "Pat Robertson", "Phong trào Đa số Đạo đức (Mỹ, 1979)"],
+      "period": "1979–nay",
+      "axes": { "economy": 75, "distribution": 70, "trade": 60, "power": 70, "liberty": 45, "elites": 60, "lifestyle": 5, "religion": 85, "identity": 30, "environment": 25, "foreign": 30, "change": 25 },
+      "facets": { "religion.state": 70, "religion.law": 85, "religion.public": 95 },
+      "status": "draft",
+      "raters": ["claude"]
+    },
+    {
+      "id": "thatcherism",
+      "name": "Bảo thủ thị trường tự do",
+      "en": "Free-market conservatism (Thatcherism)",
+      "summary": "Tư nhân hoá, giảm quyền công đoàn, thuế thấp và kỷ luật tiền tệ, đi cùng một nhà nước mạnh về trật tự và quốc phòng.",
+      "exemplars": ["Margaret Thatcher", "Keith Joseph"],
+      "period": "1975–nay",
+      "axes": { "economy": 90, "distribution": 85, "trade": 85, "power": 60, "liberty": 45, "elites": 35, "lifestyle": 35, "religion": 45, "identity": 40, "environment": 25, "foreign": 30, "change": 45 },
+      "facets": { "distribution.labour": 95, "power.pluralism": 80, "power.checks": 75, "power.local": 20, "change.pace": 60, "change.means": 10, "change.depth": 60 },
+      "status": "draft",
+      "raters": ["claude"]
+    },
+    {
+      "id": "neoconservatism",
+      "name": "Tân bảo thủ",
+      "en": "Neoconservatism",
+      "summary": "Dùng sức mạnh quân sự để truyền bá dân chủ và đánh bại các chế độ chuyên chế, kể cả đơn phương; trong nước ôn hoà về kinh tế.",
+      "exemplars": ["Irving Kristol", "Paul Wolfowitz", "Dick Cheney"],
+      "period": "1970–nay",
+      "axes": { "economy": 70, "distribution": 65, "trade": 80, "power": 80, "liberty": 50, "elites": 35, "lifestyle": 40, "religion": 55, "identity": 50, "environment": 30, "foreign": 10, "change": 40 },
+      "facets": { "foreign.force": 0, "foreign.rules": 20, "foreign.intervention": 5, "liberty.privacy": 25 },
+      "status": "draft",
+      "raters": ["claude"]
+    },
+    {
+      "id": "paleoconservatism",
+      "name": "Cổ bảo thủ",
+      "en": "Paleoconservatism",
+      "summary": "Nước mình trước hết: chống nhập cư, chống tự do thương mại, chống phiêu lưu quân sự ở nước ngoài; bảo vệ văn hoá Kitô giáo phương Tây.",
+      "exemplars": ["Pat Buchanan", "Samuel Francis"],
+      "period": "1980–nay",
+      "axes": { "economy": 70, "distribution": 70, "trade": 20, "power": 75, "liberty": 50, "elites": 70, "lifestyle": 15, "religion": 70, "identity": 10, "environment": 40, "foreign": 55, "change": 30 },
+      "facets": { "foreign.force": 40, "foreign.rules": 25, "foreign.intervention": 95 },
+      "status": "draft",
+      "raters": ["claude"]
+    },
+    {
+      "id": "national-conservatism",
+      "name": "Bảo thủ dân tộc",
+      "en": "National conservatism",
+      "summary": "Quốc gia–dân tộc, gia đình và tôn giáo là nền tảng; chống hội nhập siêu quốc gia và nhập cư ồ ạt; nhà nước chủ động bảo vệ văn hoá, kể cả khi phải thu hẹp các định chế kiểm soát quyền lực.",
+      "exemplars": ["Viktor Orbán", "Yoram Hazony", "Giorgia Meloni"],
+      "period": "2010–nay",
+      "axes": { "economy": 40, "distribution": 50, "trade": 25, "power": 45, "liberty": 40, "elites": 60, "lifestyle": 15, "religion": 80, "identity": 8, "environment": 40, "foreign": 40, "change": 30 },
+      "facets": { "power.pluralism": 60, "power.checks": 35, "power.local": 45, "foreign.force": 35, "foreign.rules": 15, "foreign.intervention": 70 },
+      "status": "draft",
+      "raters": ["claude"]
+    },
+    {
+      "id": "green-conservatism",
+      "name": "Bảo thủ xanh",
+      "en": "Green conservatism",
+      "summary": "Bảo vệ cảnh quan, ruộng đồng và cộng đồng địa phương như một di sản; môi trường là ngôi nhà cần giữ gìn chứ không phải một lý tưởng toàn cầu.",
+      "exemplars": ["Roger Scruton", "Wendell Berry"],
+      "period": "1970–nay",
+      "axes": { "economy": 60, "distribution": 60, "trade": 40, "power": 80, "liberty": 55, "elites": 45, "lifestyle": 25, "religion": 60, "identity": 30, "environment": 75, "foreign": 55, "change": 10 },
+      "facets": { "environment.growth": 65, "environment.nature": 85, "environment.technology": 70 },
+      "status": "draft",
+      "raters": ["claude"]
+    },
+    {
+      "id": "liberal-conservatism",
+      "name": "Bảo thủ tự do",
+      "en": "Liberal conservatism",
+      "summary": "Kinh tế thị trường và pháp quyền, chấp nhận những thay đổi xã hội mà số đông đã đồng thuận; ôn hoà và ủng hộ hội nhập quốc tế.",
+      "exemplars": ["David Cameron", "Mark Rutte"],
+      "period": "1990–nay",
+      "axes": { "economy": 75, "distribution": 65, "trade": 85, "power": 85, "liberty": 70, "elites": 35, "lifestyle": 55, "religion": 55, "identity": 40, "environment": 45, "foreign": 55, "change": 20 },
+      "status": "draft",
+      "raters": ["claude"]
+    },
+    {
+      "id": "gaullism",
+      "name": "Chủ nghĩa De Gaulle",
+      "en": "Gaullism",
+      "summary": "Hành pháp mạnh và trưng cầu dân ý, độc lập dân tộc với vũ khí hạt nhân riêng, nhà nước dẫn dắt kinh tế và niềm tự hào quốc gia.",
+      "exemplars": ["Charles de Gaulle", "Đệ ngũ Cộng hoà Pháp"],
+      "period": "1940–nay",
+      "axes": { "economy": 40, "distribution": 50, "trade": 50, "power": 55, "liberty": 60, "elites": 35, "lifestyle": 35, "religion": 45, "identity": 25, "environment": 35, "foreign": 35, "change": 30 },
+      "facets": { "economy.ownership": 50, "economy.planning": 55, "economy.steering": 15, "power.pluralism": 80, "power.checks": 50, "power.local": 35, "elites.decision": 55, "elites.rank": 50, "elites.trust": 10, "foreign.force": 25, "foreign.rules": 20, "foreign.intervention": 60 },
+      "status": "draft",
+      "raters": ["claude"]
+    },
+    {
+      "id": "bismarckian-conservatism",
+      "name": "Bảo thủ nhà nước kiểu Bismarck",
+      "en": "Bismarckian conservatism (state conservatism)",
+      "summary": "Nhà nước quân chủ tự tay lập bảo hiểm ốm đau, tai nạn và hưu trí để gắn công nhân với ngai vàng, đồng thời cấm đảng xã hội, dựng thuế quan bảo hộ, bắt Giáo hội phục tùng.",
+      "exemplars": ["Otto von Bismarck", "Hermann Wagener", "Đế quốc Đức (1871–1890)"],
+      "period": "1862–1890",
+      "axes": { "economy": 45, "distribution": 50, "trade": 25, "power": 35, "liberty": 30, "elites": 25, "lifestyle": 20, "religion": 45, "identity": 25, "environment": 30, "foreign": 35, "change": 25 },
+      "facets": { "economy.ownership": 55, "economy.planning": 60, "economy.steering": 20, "distribution.tax": 65, "distribution.welfare": 20, "distribution.labour": 70, "trade.goods": 15, "trade.capital": 50, "trade.selfreliance": 30, "power.pluralism": 50, "power.checks": 20, "power.local": 55, "liberty.expression": 20, "liberty.justice": 45, "liberty.privacy": 30, "elites.decision": 25, "elites.rank": 20, "elites.trust": 15, "religion.state": 35, "religion.law": 25, "religion.public": 75, "identity.nation": 30, "identity.culture": 20, "identity.migration": 20, "foreign.force": 20, "foreign.rules": 30, "foreign.intervention": 55, "change.pace": 30, "change.means": 30, "change.depth": 15 },
+      "status": "draft",
+      "raters": ["claude"]
+    },
+    {
+      "id": "red-toryism",
+      "name": "Tory đỏ",
+      "en": "Red Toryism (communitarian conservatism)",
+      "summary": "Chống cả nhà nước khổng lồ lẫn thị trường độc quyền; trả quyền cho địa phương, hợp tác xã, quỹ tương hỗ và phường hội, gìn giữ gia đình, giáo xứ và tình gắn bó với quê hương.",
+      "exemplars": ["Phillip Blond", "John Milbank", "George Grant (Canada)"],
+      "period": "1965–nay",
+      "axes": { "economy": 50, "distribution": 40, "trade": 40, "power": 80, "liberty": 55, "elites": 60, "lifestyle": 25, "religion": 65, "identity": 35, "environment": 60, "foreign": 50, "change": 25 },
+      "facets": { "economy.ownership": 65, "economy.planning": 60, "economy.steering": 30, "distribution.tax": 30, "distribution.welfare": 55, "distribution.labour": 35, "power.local": 95, "elites.decision": 70, "elites.rank": 45, "elites.trust": 70 },
+      "status": "draft",
+      "raters": ["claude"]
+    }
+  ]
+}

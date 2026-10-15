@@ -1,0 +1,154 @@
+{
+  "figures": [
+    {
+      "id": "plato",
+      "name": "Platon",
+      "life": "428–348 TCN",
+      "role": "Triết gia Athens, tác giả Cộng hoà",
+      "variant": "platonic-guardianship",
+      "wiki": "Plato"
+    },
+    {
+      "id": "dion-of-syracuse",
+      "name": "Dion xứ Syracuse",
+      "life": "408–354 TCN",
+      "role": "Chính khách Syracuse, học trò của Platon",
+      "variant": "platonic-guardianship",
+      "wiki": "Dion of Syracuse"
+    },
+    {
+      "id": "al-farabi",
+      "name": "Al-Farabi",
+      "life": "870–950",
+      "role": "Triết gia Hồi giáo, tác giả Thành phố đức hạnh",
+      "variant": "platonic-guardianship",
+      "axes": {
+        "religion": 75,
+        "lifestyle": 15
+      },
+      "wiki": "Al-Farabi"
+    },
+    {
+      "id": "zeno-of-citium",
+      "name": "Zeno xứ Citium",
+      "life": "334–262 TCN",
+      "role": "Người sáng lập trường phái Khắc kỷ ở Athens",
+      "variant": "stoic-cosmopolitanism",
+      "axes": {
+        "lifestyle": 65,
+        "religion": 30
+      },
+      "wiki": "Zeno of Citium"
+    },
+    {
+      "id": "seneca-the-younger",
+      "name": "Seneca",
+      "life": "4 TCN–65",
+      "role": "Triết gia Khắc kỷ, cố vấn của hoàng đế Nero",
+      "variant": "stoic-cosmopolitanism",
+      "wiki": "Seneca the Younger"
+    },
+    {
+      "id": "marcus-aurelius",
+      "name": "Marcus Aurelius",
+      "life": "121–180",
+      "role": "Hoàng đế La Mã, tác giả Suy tưởng",
+      "variant": "stoic-cosmopolitanism",
+      "axes": {
+        "power": 25,
+        "foreign": 45
+      },
+      "wiki": "Marcus Aurelius"
+    },
+    {
+      "id": "thomas-hobbes",
+      "name": "Thomas Hobbes",
+      "life": "1588–1679",
+      "role": "Triết gia Anh, tác giả Leviathan",
+      "variant": "hobbesian-sovereignty",
+      "wiki": "Thomas Hobbes"
+    },
+    {
+      "id": "jean-bodin",
+      "name": "Jean Bodin",
+      "life": "1530–1596",
+      "role": "Luật gia Pháp, người đặt nền lý thuyết chủ quyền",
+      "variant": "hobbesian-sovereignty",
+      "wiki": "Jean Bodin"
+    },
+    {
+      "id": "g-w-f-hegel",
+      "name": "G. W. F. Hegel",
+      "life": "1770–1831",
+      "role": "Triết gia Đức, tác giả Triết học pháp quyền",
+      "variant": "hegelian-state",
+      "wiki": "Georg Wilhelm Friedrich Hegel"
+    },
+    {
+      "id": "lorenz-von-stein",
+      "name": "Lorenz von Stein",
+      "life": "1815–1890",
+      "role": "Học giả Đức, lý thuyết gia quân chủ xã hội, thầy của Itō Hirobumi",
+      "variant": "hegelian-state",
+      "axes": {
+        "distribution": 35
+      },
+      "wiki": "Lorenz von Stein"
+    },
+    {
+      "id": "ito-hirobumi",
+      "name": "Itō Hirobumi",
+      "life": "1841–1909",
+      "role": "Thủ tướng đầu tiên của Nhật, soạn Hiến pháp Minh Trị",
+      "variant": "hegelian-state",
+      "axes": {
+        "religion": 70,
+        "identity": 25
+      },
+      "wiki": "Itō Hirobumi"
+    },
+    {
+      "id": "jeremy-bentham",
+      "name": "Jeremy Bentham",
+      "life": "1748–1832",
+      "role": "Triết gia, luật gia Anh, cha đẻ thuyết công lợi",
+      "variant": "utilitarianism",
+      "wiki": "Jeremy Bentham"
+    },
+    {
+      "id": "james-mill",
+      "name": "James Mill",
+      "life": "1773–1836",
+      "role": "Nhà kinh tế, sử gia Anh, thủ lĩnh phái Cấp tiến triết học",
+      "variant": "utilitarianism",
+      "axes": {
+        "identity": 50
+      },
+      "wiki": "James Mill"
+    },
+    {
+      "id": "edwin-chadwick",
+      "name": "Edwin Chadwick",
+      "life": "1800–1890",
+      "role": "Thư ký của Bentham, người cải cách Luật Người nghèo và y tế công cộng Anh",
+      "variant": "utilitarianism",
+      "axes": {
+        "distribution": 65,
+        "power": 45
+      },
+      "wiki": "Edwin Chadwick"
+    }
+  ],
+  "states": [
+    {
+      "id": "prussia-1808-1848",
+      "name": "Vương quốc Phổ",
+      "period": "1808–1848",
+      "note": "Nhà nước công chức sau cải cách Stein–Hardenberg mà Hegel lấy làm mẫu",
+      "variants": [
+        "hegelian-state"
+      ],
+      "flag": "prussia"
+    }
+  ]
+}

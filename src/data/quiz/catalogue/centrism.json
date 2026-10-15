@@ -1,0 +1,196 @@
+{
+  "parties": [
+    {
+      "id": "renaissance-france",
+      "name": "Đảng Phục hưng (Pháp)",
+      "abbr": "RE",
+      "country": "Pháp",
+      "period": "2016–nay",
+      "variants": [
+        "radical-centrism"
+      ],
+      "emblem": {
+        "shape": "disc",
+        "field": "#ffd600",
+        "ink": "#1f2d5c",
+        "motif": "sun-horizon"
+      }
+    },
+    {
+      "id": "technocracy-incorporated",
+      "name": "Technocracy Incorporated",
+      "country": "Hoa Kỳ",
+      "period": "1933–nay",
+      "variants": [
+        "technocracy"
+      ],
+      "emblem": {
+        "shape": "disc",
+        "field": "#b8bcc2",
+        "ink": "#e34234",
+        "motif": "yin-yang"
+      }
+    }
+  ],
+  "states": [
+    {
+      "id": "west-germany-1974-1982",
+      "name": "Tây Đức",
+      "period": "1974–1982",
+      "note": "Thủ tướng Helmut Schmidt (liên minh SPD–FDP)",
+      "variants": [
+        "pragmatic-centrism",
+        "postwar-social-democracy"
+      ],
+      "flag": "germany"
+    },
+    {
+      "id": "germany-2005-2021",
+      "name": "Đức",
+      "period": "2005–2021",
+      "note": "Thủ tướng Angela Merkel",
+      "variants": [
+        "pragmatic-centrism",
+        "social-market-christian-democracy"
+      ],
+      "flag": "germany"
+    },
+    {
+      "id": "france-2017-2022",
+      "name": "Pháp",
+      "period": "2017–2022",
+      "note": "Nhiệm kỳ đầu của Tổng thống Emmanuel Macron",
+      "variants": [
+        "radical-centrism"
+      ],
+      "flag": "france"
+    },
+    {
+      "id": "netherlands-1982-2002",
+      "name": "Hà Lan",
+      "period": "1982–2002",
+      "note": "Hiệp định Wassenaar; thời Lubbers và Kok",
+      "variants": [
+        "polder-consensus"
+      ],
+      "flag": "netherlands"
+    },
+    {
+      "id": "austria-1945-1966",
+      "name": "Áo",
+      "period": "1945–1966",
+      "note": "Đại liên minh ÖVP–SPÖ và cơ chế đối tác xã hội",
+      "variants": [
+        "polder-consensus"
+      ],
+      "flag": "austria"
+    }
+  ],
+  "figures": [
+    {
+      "id": "helmut-schmidt",
+      "name": "Helmut Schmidt",
+      "life": "1918–2015",
+      "role": "Thủ tướng Tây Đức (1974–1982)",
+      "variant": "pragmatic-centrism",
+      "wiki": "Helmut Schmidt"
+    },
+    {
+      "id": "angela-merkel",
+      "name": "Angela Merkel",
+      "life": "s. 1954",
+      "role": "Thủ tướng Đức (2005–2021)",
+      "variant": "pragmatic-centrism",
+      "wiki": "Angela Merkel"
+    },
+    {
+      "id": "emmanuel-macron",
+      "name": "Emmanuel Macron",
+      "life": "s. 1977",
+      "role": "Tổng thống Pháp (từ 2017)",
+      "variant": "radical-centrism",
+      "wiki": "Emmanuel Macron"
+    },
+    {
+      "id": "andrew-yang",
+      "name": "Andrew Yang",
+      "life": "s. 1975",
+      "role": "Doanh nhân Mỹ, sáng lập Đảng Forward",
+      "variant": "radical-centrism",
+      "wiki": "Andrew Yang"
+    },
+    {
+      "id": "ruud-lubbers",
+      "name": "Ruud Lubbers",
+      "life": "1939–2018",
+      "role": "Thủ tướng Hà Lan (1982–1994)",
+      "variant": "polder-consensus",
+      "wiki": "Ruud Lubbers"
+    },
+    {
+      "id": "wim-kok",
+      "name": "Wim Kok",
+      "life": "1938–2018",
+      "role": "Thủ tướng Hà Lan, cựu lãnh đạo công đoàn FNV",
+      "variant": "polder-consensus",
+      "wiki": "Wim Kok"
+    },
+    {
+      "id": "henri-de-saint-simon",
+      "name": "Henri de Saint-Simon",
+      "life": "1760–1825",
+      "role": "Nhà tư tưởng Pháp, người tiên phong thuyết kỹ trị",
+      "variant": "technocracy",
+      "wiki": "Henri de Saint-Simon"
+    },
+    {
+      "id": "mario-monti",
+      "name": "Mario Monti",
+      "life": "s. 1943",
+      "role": "Thủ tướng kỹ trị Ý (2011–2013)",
+      "variant": "ordoliberalism",
+      "wiki": "Mario Monti"
+    },
+    {
+      "id": "nguyen-xuan-oanh",
+      "name": "Nguyễn Xuân Oánh",
+      "life": "1921–2003",
+      "role": "Nhà kinh tế, quyền Thủ tướng VNCH, cố vấn Đổi mới",
+      "variant": "technocracy",
+      "wiki": "Nguyễn Xuân Oánh"
+    },
+    {
+      "id": "amitai-etzioni",
+      "name": "Amitai Etzioni",
+      "life": "1929–2023",
+      "role": "Nhà xã hội học Mỹ gốc Israel, khởi xướng phong trào cộng đồng",
+      "variant": "communitarianism",
+      "wiki": "Amitai Etzioni"
+    },
+    {
+      "id": "michael-sandel",
+      "name": "Michael Sandel",
+      "life": "s. 1953",
+      "role": "Triết gia Mỹ, tác giả Phải trái đúng sai (2009)",
+      "variant": "communitarianism",
+      "axes": {
+        "economy": 40,
+        "distribution": 35
+      },
+      "wiki": "Michael Sandel"
+    },
+    {
+      "id": "alasdair-macintyre",
+      "name": "Alasdair MacIntyre",
+      "life": "1929–2025",
+      "role": "Triết gia Scotland, tác giả Sau đức hạnh (1981)",
+      "variant": "communitarianism",
+      "axes": {
+        "economy": 30,
+        "distribution": 30,
+        "religion": 65
+      },
+      "wiki": "Alasdair MacIntyre"
+    }
+  ]
+}

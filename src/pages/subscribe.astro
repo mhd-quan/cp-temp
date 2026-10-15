@@ -1,0 +1,18 @@
+---
+// Nhận bài mới: one action (Substack), and the feeds for readers who prefer them.
+import Glyph from '~/components/edition/Glyph.astro';
+import PageHead from '~/components/edition/PageHead.astro';
+import EditionLayout from '~/layouts/EditionLayout.astro';
+import { SUBSTACK_SUBSCRIBE_URL } from '~/lib/newsletter';
+---
+<EditionLayout title="Nhận bài mới" description="Đăng ký nhận tiểu luận tiếng Việt của The Cochinchine Pensées qua email mỗi tuần. Theo dõi bài viết mới và đọc các số trước trên Substack." noindex={false}>
+  <PageHead title="Nhận bài mới" dek="Bài mới gửi thẳng vào hộp thư, qua Substack." />
+  <div class="page-body wrap subscribe-page">
+    <a class="button button--ink" href={SUBSTACK_SUBSCRIBE_URL} rel="external">Đăng ký qua Substack<Glyph name="external" /></a>
+    <section class="feeds" aria-labelledby="feeds-title">
+      <h2 class="caps sr-only" id="feeds-title">Nguồn tin</h2>
+      <a href="/rss.xml">RSS<Glyph name="rss" size={22} /></a>
+      <a href="/feed.json">JSON Feed<Glyph name="forward" size={22} /></a>
+    </section>
+  </div>
+</EditionLayout>

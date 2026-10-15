@@ -1,0 +1,35 @@
+---
+// Tiểu luận: every published essay and pensée, newest first, nine to a page
+// (three rows of the story grid), with every page one step away.
+import type { CollectionEntry } from 'astro:content';
+import EditionLayout from '../../layouts/EditionLayout.astro';
+import PageHead from './PageHead.astro';
+import Pager from './Pager.astro';
+import StoryCard from './StoryCard.astro';
+
+interface Props {
+  entries: CollectionEntry<'essays'>[];
+  current: number;
+  last: number;
+  total: number;
+}
+const { entries, current, last, total } = Astro.props;
+const first = (current - 1) * 9 + 1;
+const title = current === 1 ? 'Tiểu luận' : `Tiểu luận — trang ${current}`;
+const description =
+  current === 1
+    ? 'Kho tiểu luận tiếng Việt của The Cochinchine Pensées về chính trị, văn hóa, xã hội và tư tưởng. Tìm bài viết theo thời gian, từ mới nhất đến cũ hơn.'
+    : `Kho tiểu luận The Cochinchine Pensées, trang ${current}/${last}: các bài ${first}–${first + entries.length - 1} trong ${total} bài, xếp từ mới đến cũ.`;
+const href = (page: number) => (page === 1 ? '/essays' : `/essays/${page}`);
+---
+<EditionLayout title={title} description={description} noindex={false}>
+  <PageHead title="Tiểu luận" href={current > 1 ? '/essays' : undefined} dek={current > 1 ? `Trang ${current} / ${last}` : undefined} />
+  <div class="page-body wrap">
+    <ol class="story-grid" role="list">
+      {entries.map((entry) => (
+        <li class="story printed"><StoryCard entry={entry} /></li>
+      ))}
+    </ol>
+  </div>
+  <Pager current={current} last={last} href={href} />
+</EditionLayout>

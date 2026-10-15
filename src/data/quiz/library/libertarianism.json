@@ -1,0 +1,94 @@
+{
+  "family": {
+    "id": "libertarianism",
+    "name": "Tự do cá nhân",
+    "en": "Libertarianism",
+    "summary": "Tự do cá nhân và thị trường tự do là trên hết; nhà nước càng nhỏ càng tốt, hoặc không cần có."
+  },
+  "variants": [
+    {
+      "id": "laissez-faire",
+      "name": "Chủ nghĩa tư bản tự do",
+      "en": "Laissez-faire capitalism",
+      "summary": "Để thị trường tự vận hành: không thuế quan, không điều tiết, không phúc lợi nhà nước; của cải sinh ra từ cạnh tranh và tư lợi, hoà bình đến từ buôn bán.",
+      "exemplars": ["Richard Cobden", "Frédéric Bastiat", "Herbert Spencer", "Hồng Kông thời thuộc Anh"],
+      "period": "1840–nay",
+      "axes": { "economy": 95, "distribution": 95, "trade": 100, "power": 70, "liberty": 70, "elites": 40, "lifestyle": 45, "religion": 40, "identity": 65, "environment": 10, "foreign": 75, "change": 30 },
+      "facets": { "elites.decision": 30, "foreign.force": 75, "foreign.rules": 60, "foreign.intervention": 85 },
+      "sd": { "lifestyle": 15, "elites": 15 },
+      "status": "draft",
+      "raters": ["claude"]
+    },
+    {
+      "id": "minarchism",
+      "name": "Nhà nước tối thiểu",
+      "en": "Minarchism",
+      "summary": "Nhà nước chỉ nên có cảnh sát, toà án và quân đội để bảo vệ quyền cá nhân; mọi việc khác để thị trường và xã hội dân sự lo.",
+      "exemplars": ["Robert Nozick", "Đảng Tự do cá nhân Mỹ (Libertarian Party)"],
+      "period": "1971–nay",
+      "axes": { "economy": 95, "distribution": 95, "trade": 95, "power": 90, "liberty": 95, "elites": 55, "lifestyle": 85, "religion": 25, "identity": 70, "environment": 20, "foreign": 75, "change": 45 },
+      "status": "draft",
+      "raters": ["claude"]
+    },
+    {
+      "id": "objectivism",
+      "name": "Chủ nghĩa khách quan",
+      "en": "Objectivism",
+      "summary": "Lý trí và tư lợi hợp lý là nền đạo đức; chủ nghĩa tư bản thuần tuý là hệ thống duy nhất có đạo đức; bác bỏ lòng vị tha và tôn giáo.",
+      "exemplars": ["Ayn Rand", "Leonard Peikoff"],
+      "period": "1957–nay",
+      "axes": { "economy": 100, "distribution": 100, "trade": 100, "power": 85, "liberty": 90, "elites": 40, "lifestyle": 85, "religion": 5, "identity": 70, "environment": 5, "foreign": 35, "change": 40 },
+      "facets": { "elites.decision": 30, "elites.rank": 70, "elites.trust": 30, "foreign.force": 20, "foreign.rules": 30, "foreign.intervention": 50, "environment.growth": 0, "environment.technology": 0 },
+      "status": "draft",
+      "raters": ["claude"]
+    },
+    {
+      "id": "anarcho-capitalism",
+      "name": "Tư bản vô chính phủ",
+      "en": "Anarcho-capitalism",
+      "summary": "Bỏ hẳn nhà nước; cả an ninh, toà án và luật pháp cũng do các công ty tư nhân cạnh tranh cung cấp.",
+      "exemplars": ["Murray Rothbard", "David Friedman"],
+      "period": "1970–nay",
+      "axes": { "economy": 100, "distribution": 100, "trade": 100, "power": 100, "liberty": 95, "elites": 55, "lifestyle": 70, "religion": 30, "identity": 75, "environment": 20, "foreign": 85, "change": 55 },
+      "sd": { "lifestyle": 20, "elites.decision": 25 },
+      "status": "draft",
+      "raters": ["claude"]
+    },
+    {
+      "id": "georgism",
+      "name": "Tự do cánh tả",
+      "en": "Left-libertarianism (Georgism)",
+      "summary": "Thị trường tự do, nhưng đất đai và tài nguyên thiên nhiên thuộc về mọi người: đánh thuế giá trị đất thay cho các loại thuế khác và chia lại cho dân.",
+      "exemplars": ["Henry George", "Hillel Steiner", "Silvio Gesell"],
+      "period": "1879–nay",
+      "axes": { "economy": 75, "distribution": 40, "trade": 90, "power": 85, "liberty": 85, "elites": 60, "lifestyle": 75, "religion": 25, "identity": 75, "environment": 65, "foreign": 75, "change": 45 },
+      "facets": { "distribution.tax": 15, "distribution.welfare": 50, "distribution.labour": 60 },
+      "status": "draft",
+      "raters": ["claude"]
+    },
+    {
+      "id": "paleolibertarianism",
+      "name": "Tự do cá nhân bảo thủ",
+      "en": "Paleolibertarianism",
+      "summary": "Thị trường tự do và nhà nước tối thiểu, đi cùng đạo đức truyền thống, tôn giáo và cộng đồng; nghi ngờ nhập cư, toàn cầu hoá và chiến tranh ở nước ngoài.",
+      "exemplars": ["Ron Paul", "Lew Rockwell", "Hans-Hermann Hoppe"],
+      "period": "1989–nay",
+      "axes": { "economy": 95, "distribution": 95, "trade": 70, "power": 90, "liberty": 75, "elites": 75, "lifestyle": 25, "religion": 60, "identity": 25, "environment": 20, "foreign": 70, "change": 50 },
+      "facets": { "foreign.force": 80, "foreign.rules": 30, "foreign.intervention": 100 },
+      "status": "draft",
+      "raters": ["claude"]
+    },
+    {
+      "id": "left-libertarianism",
+      "name": "Tự do cá nhân cánh tả",
+      "en": "Left-libertarianism (Steiner–Vallentyne)",
+      "summary": "Mỗi người làm chủ trọn vẹn thân thể và sức lao động của mình, nhưng đất đai và tài nguyên thuộc về mọi người như nhau; ai chiếm dụng quá phần mình phải trả vào quỹ chung chia đều.",
+      "exemplars": ["Hillel Steiner", "Peter Vallentyne", "Michael Otsuka"],
+      "period": "1970–nay",
+      "axes": { "economy": 70, "distribution": 30, "trade": 90, "power": 85, "liberty": 95, "elites": 65, "lifestyle": 90, "religion": 15, "identity": 90, "environment": 60, "foreign": 80, "change": 50 },
+      "facets": { "distribution.tax": 10, "distribution.welfare": 40, "distribution.labour": 60, "lifestyle.autonomy": 100, "identity.migration": 95 },
+      "status": "draft",
+      "raters": ["claude"]
+    }
+  ]
+}

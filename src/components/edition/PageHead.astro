@@ -1,0 +1,24 @@
+---
+// One head for every page below the masthead: an optional way back (the
+// section a page belongs to), the title in Pliego, and an optional line.
+import Glyph from './Glyph.astro';
+
+interface Props {
+  title: string;
+  /** Link the title itself (page 2+ of a paginated section links to page 1). */
+  href?: string;
+  /** The section this page belongs to, shown above the title as a way back. */
+  parent?: { href: string; label: string };
+  dek?: string;
+  class?: string;
+}
+const { title, href, parent, dek, class: className } = Astro.props;
+---
+<header class:list={['page-head wrap', className]}>
+  {parent && (
+    <a class="caps-link page-head__parent" href={parent.href}><Glyph name="back" inline /><span>{parent.label}</span></a>
+  )}
+  <h1 class="page-head__title">{href ? <a href={href}>{title}</a> : title}</h1>
+  {dek && <p class="page-head__dek">{dek}</p>}
+  <slot />
+</header>

@@ -1,0 +1,237 @@
+{
+  "rater": "B",
+  "block": "B23",
+  "items": {
+    "gender.3": {
+      "0": "TP NOA SUL PC RC TE PG SC HS HES ST TR LU CC GU ONC GC LC GAU GS US MC TW PM BK MO XC ME NS DIR DS IS DE DEG CH PER AP SL NDL LI CF RE TI LS GOC EA CM CN CIN EN LN IR PN KE REZ SN AD CLR JA SDD JR HF NP WC TAR THW FA EUR",
+      "1": "GA DC NLS GAN CO SMCD CST DI NC ML MA EU HO RET MDS LT ETS GM ES ELP SR LZ EB NR PSD BL",
+      "2": "SF NM",
+      "3": "RF",
+      "-1": "AC AS MU NA UJ BA SU CAE MR AUC COA STC POC UT JU ACK BC ARC AMC CR TH NE PA NAC BIC EC LE KS IF NAZ JM NAS LIF EM PR OR AL COL GE RS AM LEG ID BN HI IM RZ PP TRA COR CI RT NEOR",
+      "-2": "CA PE NATC CL NEO MI PAL LL VEF CT WA IB PIP",
+      "-3": "IA LF OB ANC CRA",
+      "split": "LIF PR SL GM CR RC ELP DC ML",
+      "why": "Divides abolitionist/Nordic-model camps (punish only the buyer) from libertarians who see a voluntary contract and from moral-order and sharia camps that would punish both parties; feminists split between Nordic-model and decriminalisation.",
+      "notes": {
+        "RF": "Radical feminism built the Nordic model: buying sex is male violence, the seller is a victim (Dworkin, MacKinnon).",
+        "NM": "Sweden 1999 Sex Purchase Act, copied by Norway and Iceland, is the origin of buyer-only punishment.",
+        "LF": "Voluntary exchange between adults is not a crime on either side (Rothbard, Mises-style contract freedom).",
+        "PE": "Ngo Dinh Nhu and Madame Nhu banned brothels and criminalised the trade as a whole (1962 Family Law), so both sides are punished.",
+        "VEF": "Zina is a hadd offence for both parties under Iranian law, so buyer-only is rejected.",
+        "LIF": "Liberal feminists are split: Amnesty-style decriminalisation vs Nordic model; most typical lean is against singling out one party."
+      }
+    },
+    "identity.culture.5": {
+      "0": "AC AS MU CA CAE MR AUC COA SUL PC RC POC TE SMCD PG HS UT ML ST MA EU HO GU ACK AMC TH NE LC MDS GS US ETS LE TW MO KS ME DIR DS IS LIF SF RF GM ES ELP SL NDL LI OR AL RE COL SR GE TI LS GOC EA AD CLR JR NR HF PP TAR NM PSD FA PIP",
+      "1": "GA DC NLS NA UJ NOA BA SU PE STC CST DI NC HES JU ARC ONC CR GC BIC RET LT MC EC PM BK XC NS IF NAZ NAS DE DEG CH PER AP PAL AM CM LEG IR PN KE VEF ID CT WA IB IM EB SDD WC CI NEOR",
+      "2": "TP GAN CO BC PA NAC GAU NATC JM RS EN LN LZ REZ BN HI RZ NP BL COR RT EUR",
+      "3": "CN SN",
+      "-1": "IA SC TR LU CC EM CL NEO PR CF LF MI OB ANC LL CIN JA THW CRA",
+      "-2": "TRA",
+      "split": "RE CIN NR LC",
+      "why": "Cultural continuity as the test of a nation's survival: cultural, ethnic and religious nationalists agree strongly, while cosmopolitan, individualist and internationalist-Marxist camps see culture as no measure of a people's existence.",
+      "notes": {
+        "CN": "Herder and the cultural nationalists locate the nation in language and customs rather than the state, so a people with its culture is not lost (cf. Phan Chu Trinh-era Vietnamese slogan about language and nation).",
+        "SN": "Stateless nations (Catalans, Kurds, Scots) hold that survival of language and culture keeps the nation alive without a state.",
+        "RS": "Vietnamese Party line since Resolution 5 (1998): an advanced culture imbued with national identity (tien tien, dam da ban sac dan toc).",
+        "CF": "Cosmopolitan federalists treat cultural distinctiveness as no test of nationhood and prioritise individual and world citizenship.",
+        "JA": "Jacobins suppressed regional languages (Gregoire report 1794) to forge one national culture, so cultural difference does not make a people.",
+        "LU": "Luxemburg rejected national self-determination as bourgeois ideology; class not culture defines peoples."
+      }
+    },
+    "nature-of-man.5": {
+      "0": "IA NA NOA BA SU CAE MR AUC COA SUL PC POC SC HS ML ST MA ONC GC LC LT GS ETS PM KS ME NS DIR DS IS GM ES DEG CH PER ELP OR COL GOC CM CIN LN PN REZ SN AD SDD NR HF TAR",
+      "1": "CA NLS TP UJ PE STC SMCD CST DI NC JU ACK BC AMC TH NE GAU BIC RET EC MO XC IF JM NAS DE AP OB RS AM CN EN IR ID BN HI IM RZ EB JA JR NP WC BL",
+      "2": "GA GAN CO PG ARC CR PA NAC MC BK NAZ NATC PAL LEG VEF CT WA IB CLR PP CI NEOR EUR",
+      "3": "TW COR RT",
+      "-1": "AC AS MU DC RC TE TR EU LU CC HO GU MDS RF NEO AL LF MI ANC GE TI LS EA KE LZ NM PSD THW FA CRA PIP",
+      "-2": "HES UT US LE LIF SF EM CL SL PR NDL LI CF RE SR LL TRA",
+      "split": "OB ML RS ID IM GC",
+      "why": "Moral decline versus moral progress: traditionalists, religious revivalists, communitarians and golden-age Confucians/Taoists say yes; progressives, liberals, Marxists, ecomodernists and transhumanists see moral progress.",
+      "notes": {
+        "RT": "Traditionalism of Guenon and Evola holds the Kali Yuga: history is a descent from a primordial Golden Age, so decline is doctrine.",
+        "TW": "Laozi: when the Dao is lost virtue appears, then benevolence, then ritual; civilisation is a decline from natural simplicity.",
+        "LE": "Han Fei mocks reverence for the ancients: different ages need different rules, and the old kings were not morally better.",
+        "RS": "Vietnamese Party documents repeatedly speak of suy thoai dao duc, loi song (degeneration of morality and lifestyle) in society today.",
+        "EM": "Ecomodernist Manifesto and Pinker-style moral progress: violence and cruelty have fallen over history.",
+        "CLR": "Machiavelli/Polybius: republics decay through loss of civic virtue, a cyclical decline of corruption."
+      }
+    },
+    "regime.1": {
+      "0": "NOA PC POC TE CO SMCD CST DI SC PA LC TW NS DIR DS IS OR AL MI GE CN EN IR PN SN HI IM RZ EB PP NM EUR",
+      "1": "CAE SUL PG TH NAC GC MO NATC COL BN BL",
+      "2": "NC HS HES BC ARC ONC BIC RET MC EC XC ME PAL WA CI RT NEOR",
+      "3": "LE BK KS JM AM EA CM LEG COR",
+      "-1": "GAN MR AUC COA STC RC UT CR NE LT GS US ETS PM IF NAS LIF GM DE DEG EM AP CL SL NEO LI LF OB LL LN REZ ID CT HF NP WC TAR PSD THW FA TRA PIP",
+      "-2": "NLS UJ BA SU PE JU AMC GAU MDS NAZ SF RF ES PER ELP PR NDL CF RE ANC RS LS CIN LZ IB NR CRA",
+      "-3": "AC AS MU IA GA CA DC TP NA ML ST MA TR EU LU CC HO GU ACK CH SR TI GOC KE VEF AD CLR JA SDD JR",
+      "split": "NATC CI NAC GC TH BN",
+      "why": "Monarchy as such: monarchists, legitimists and counter-revolutionaries say yes (as do Hegel, Hobbes, Han Fei and Kautilya); republicans, anarchists, communists, Islamic jurist-rule and modern liberals say no.",
+      "notes": {
+        "LEG": "Legitimism holds the hereditary dynastic right of the crown as the core of political legitimacy (Bourbon, Stuart lines).",
+        "KS": "Arthashastra is a manual for the rajan; monarchy is the only form it conceives.",
+        "VEF": "Khomeini in Islamic Government: Islam and monarchy are contradictory, so guardianship of the jurist replaces the shah.",
+        "SR": "French Radicals were republican by doctrine; the Republic itself was their programme against crown and Church.",
+        "PAL": "Hoppe (Democracy: The God That Failed) argues hereditary monarchy beats democracy for private-property order.",
+        "KE": "Ataturk abolished the sultanate (1922) and proclaimed the republic (1923), a founding act of Kemalism.",
+        "RS": "Vietnamese socialist republic: the Party line is anti-monarchy since 1945 abdication of Bao Dai."
+      }
+    },
+    "distribution.labour.8": {
+      "0": "GA NOA CAE MR COA SUL RC PG SC HS BC ARC CR GC EC LE TW PM BK MO XC NS DE AP LI CF RE AM EA CM LEG CN CIN EN LN IR PN REZ SN BN HI WA RZ AD CLR SDD PP TRA PIP COR RT",
+      "1": "IA AUC UT NE LC EM OR COL GE CT JR HF TAR NEOR",
+      "2": "AMC TH CL NEO AL MI CRA",
+      "3": "LF OB ANC PAL",
+      "-1": "MU CA TP GAN PE PC TE CO NC HES ONC PA NAC GAU US MC ME DIR DS IS LIF RF GM SL LL RS GOC KE VEF ID IB IM EB NR NP WC THW EUR",
+      "-2": "DC NLS NA UJ BA SU SMCD DI BIC RET MDS LT ETS KS NATC JM SF DEG CH PR NDL SR TI LS LZ JA NM PSD FA BL CI",
+      "-3": "AC AS STC POC CST ML ST MA TR JU EU LU CC HO GU ACK GS IF NAZ NAS ES PER ELP",
+      "split": "NM POC OR NEO IA MU UT CL NAC",
+      "why": "Individual wage bargaining with no third party: market liberals and libertarians agree, while Marxists, corporatists, Catholic social teaching, social democracy and populists want unions, collective bargaining, state minimums or wage planning.",
+      "notes": {
+        "LF": "Laissez-faire holds wage contracts are voluntary exchange; minimum wages and union privileges are interference.",
+        "CST": "Rerum Novarum (1891) says a wage is not just merely because freely agreed; a living family wage is owed whatever the contract.",
+        "POC": "The Dutch polder (Wassenaar Accord 1982) is built on tripartite wage coordination between unions, employers and state.",
+        "NAZ": "Nazi Labour Trustees (Treuhaender der Arbeit) set wages by decree after unions were abolished.",
+        "AL": "Authoritarian liberalism (Schmitt, Hayek-style) wants a strong state that keeps wage-setting a market matter by suppressing union pressure.",
+        "NM": "Nordic wage-setting is collective bargaining between union and employer federations, not individual deals; adherents would reject the item as worded."
+      }
+    },
+    "economy.ownership.8": {
+      "0": "CA NA NOA PG SC HS GS US ETS LE TW PM BK MO ME IS SF RF DE DEG EA CN EN IR PN SN BN EB AD FA EUR",
+      "1": "BA SU LT EC XC ES CH GE LL TI LS",
+      "2": "TP TR GU MC KS GOC LZ",
+      "3": "NLS UJ ML ST MA JU HO ACK RS",
+      "-1": "AC AS GA DC GAN CAE MR COA TE CO UT EU LU CC GC GAU BIC RET MDS DIR DS JM NAS GM EM PER ELP CF AM CM LEG CIN LN KE REZ HI RZ CLR JA NR PSD BL PIP RT",
+      "-2": "MU AUC PE SUL STC PC RC POC SMCD CST HES ONC NAC NS IF NAZ NATC LIF AP SL PR NDL LI OR RE SR VEF ID WA IB IM SDD NP WC PP NM THW TRA COR CI NEOR",
+      "-3": "IA DI NC BC ARC AMC CR TH NE PA LC CL NEO AL COL LF MI OB ANC PAL CT JR HF TAR CRA",
+      "split": "GE LL TR TI LU CA MC EU LT",
+      "why": "State/public ownership of land: Marxist-Leninist, Juche and Vietnamese-style socialism, Ujamaa and Labour Zionism agree (land is national property), while liberals, conservatives, libertarians, distributists and agrarian republicans defend private title.",
+      "notes": {
+        "RS": "Vietnamese Constitution (Art. 53) says land belongs to the entire people with the State as representative owner, so the item is near-verbatim doctrine.",
+        "UJ": "Nyerere nationalised freehold in 1963 and held land as national patrimony; the villagisation of Ujamaa built on it.",
+        "LZ": "Jewish National Fund and the kibbutz system hold land as national property leased, not sold.",
+        "DI": "Distributism (Belloc, Chesterton) aims at widespread private ownership of land, the opposite of state ownership.",
+        "JR": "Jefferson yeoman ideal rests on freehold family farms as the basis of republican virtue.",
+        "TP": "Sun Yat-sen equalisation of land rights: land value taxed and bought by the state, a mixed measure short of full nationalisation.",
+        "GE": "Georgists treat land as the common inheritance and collect rent for the public, though possession stays private."
+      }
+    },
+    "nature-of-man.1": {
+      "0": "IA NLS TP NA NOA BA SU PE COA STC PC RC POC TE CO SMCD CST DI HES UT ML ST MA TR JU EU LU CC HO GU ACK GC RET MO ME NS DIR DS IS JM RF EM CH PER CL NEO NDL LI LF MI OB ANC RS LS GOC CM CN CIN EN LN IR PN KE LZ REZ SN AD SDD NR NP WC TAR PSD THW BL CRA PIP EUR",
+      "1": "MU CA DC UJ MDS LT GS ETS PM BK LIF SF GM ES DE DEG ELP AP SL PR CF RE SR GE LL TI VEF ID BN HI WA IB IM RZ JR NM FA TRA",
+      "2": "AC AS GA GAN SC US EC TW EB JA",
+      "3": "MC",
+      "-1": "CAE MR AUC SUL PG ONC TH NAC LC GAU IF NAS OR AL COL PAL AM EA LEG CLR PP",
+      "-2": "NC BC ARC AMC CR NE PA BIC KS NAZ NATC HF COR CI RT NEOR",
+      "-3": "HS LE XC CT",
+      "split": "CST HI BK CL NEO",
+      "why": "Innate goodness versus fallenness: Mencius, Buddhist-nature, Rousseauian and anarchist-communist views say yes; Xunzi, Han Fei, Hobbes, Calvinists, Burkeans and reactionaries say no; Marxists and many economic schools treat nature as socially formed and sit near neutral.",
+      "notes": {
+        "MC": "Mencius 6A: human nature is good as water flows downward, the doctrinal foundation of benevolent government.",
+        "XC": "Xunzi: human nature is bad (xing e); goodness is artifice made by ritual and teachers.",
+        "HS": "Hobbes Leviathan ch. 13: the natural condition is war of all against all, driven by competition, diffidence and glory.",
+        "CT": "Total depravity in Reformed doctrine: humans are born sinful and cannot choose good without grace.",
+        "JA": "Rousseau, Jacobin teacher: man is born good and corrupted by society.",
+        "AC": "Kropotkin Mutual Aid: cooperation is a natural factor of evolution, so people are social by nature.",
+        "EB": "Engaged Buddhism builds on Buddha-nature, the inherent awakened potential in every being (Thich Nhat Hanh)."
+      }
+    },
+    "class.5": {
+      "0": "IA GA NOA SU CAE MR AUC COA SUL PC RC POC TE PG SC HS HES UT ONC TH NE GC LC GAU BIC US ETS MC EC LE TW PM MO XC KS ME NS DIR DS IS NAS LIF GM DE DEG EM CL SL NEO PR NDL LI OR CF AL RE COL SR LF MI ANC GE LL AM EA CM CN CIN LN IR PN REZ SN AD CLR SDD JR NR HF NP WC PP TAR NM THW TRA CRA PIP NEOR",
+      "1": "CA GAN PE STC CO SMCD DI NC BC ARC AMC PA NAC RET BK PAL LEG EB BL EUR",
+      "2": "CST CR NATC ID CT BN HI IM COR RT",
+      "3": "VEF WA IB RZ CI",
+      "-1": "MU DC TP NA UJ MDS LT GS IF NAZ JM RF CH PER ELP AP OB LS EN LZ JA PSD FA",
+      "-2": "NLS BA JU ACK SF ES RS TI GOC KE",
+      "-3": "AC AS ML ST MA TR EU LU CC HO GU",
+      "split": "LT CA EB ETS HI BN",
+      "why": "Whether religious community outranks class solidarity: Islamist, integralist and religious-Zionist camps say faith binds more, while every Marxist and anarchist camp holds class (or the nation, for Kemalists and Baathists) comes first.",
+      "notes": {
+        "VEF": "The ummah is the primary bond in Islamic political thought; Khomeini opposed class-struggle framing in favour of Islamic unity.",
+        "IB": "Qutb and the Brotherhood: belonging is by creed (aqida), not class or ethnicity.",
+        "ML": "Marxism-Leninism: religion is a distraction from class interest; workers of all faiths unite and religious solidarity with exploiters is false consciousness.",
+        "KE": "Kemalism replaced the religious ummah identity with secular Turkish nationhood, rejecting both faith and class as primary bonds.",
+        "CI": "Integralism sees the Catholic body as the true political community, cutting across rank and class.",
+        "LT": "Liberation theology links faith to solidarity with the poor, so faith and class fuse; adherents split on which comes first."
+      }
+    },
+    "change.pace.4": {
+      "0": "IA GAN NOA PE COA SUL TE SC HS CR LT MO XC ME IS GM EM ELP AP LI CF GE LL TI LS EN LN PN LZ REZ SN BN WA RZ AD JR WC CRA PIP EUR",
+      "1": "AC AS GA TP UJ SU CAE MR AUC UT LU CC GAU KS DS NATC JM NAS SF RF ES DE DEG PER NDL OR AL RE LF MI OB ANC PAL EA IR HI NP PP TAR TRA",
+      "2": "NLS NA BA PG ML TR JU HO GU TH IF NAZ CH NEO VEF NEOR",
+      "3": "ST MA ACK LE KE JA",
+      "-1": "CA DC STC RC CO CST DI HES EU AMC NE NAC GC BIC MDS US MC PM BK NS DIR LIF PR SR GOC AM CN CIN CT IB IM NR HF NM PSD",
+      "-2": "MU PC SMCD NC ARC ONC PA LC RET GS ETS EC TW CL SL COL RS CM ID EB CLR SDD THW BL CI",
+      "-3": "POC BC LEG FA COR RT",
+      "split": "UT TE EU PG TH CR",
+      "why": "Decisive, irreversible reform versus gradualism: revolutionaries, shock-therapy liberals and Legalists say strike once and for all; Burkeans, Fabians, consensus and social-market schools prefer step-by-step change, and restorationists reject irreversibility itself.",
+      "notes": {
+        "LE": "Book of Lord Shang: a ruler who hesitates in reform cannot succeed; Shang Yang overturned the old order in one sweep.",
+        "FA": "Fabian doctrine of the inevitability of gradualness (Webb): permeation and step-by-step reform, not a single rupture.",
+        "BC": "Burke Reflections: reform must be gradual and preserve what exists; sweeping change destroys the inheritance.",
+        "KE": "Kemalist reforms (abolition of the caliphate, alphabet and dress laws) were imposed rapidly to foreclose return.",
+        "RS": "Doi Moi and Deng-style reform proceeded by experiment (crossing the river by feeling the stones), so adherents lean gradual.",
+        "JA": "Jacobins pursued irreversible rupture (Terror, revolutionary calendar) so that the old regime could never return.",
+        "LEG": "Legitimism aims precisely at restoring the old order, so irreversibility of reform is what it opposes."
+      }
+    },
+    "nature-of-man.3": {
+      "0": "AC MU UJ NOA BA SU CAE MR PE COA SUL STC CST NC SC HO GU BC ONC BIC GS US ETS PM MO XC KS ME IS IF JM NAS RF GM ES CH PER ELP PAL AM CN EN IR PN REZ SN ID HI IM RZ EB AD TAR",
+      "1": "AS IA DC NLS TP NA AUC PC POC SMCD HS MA TR JU LU CC AMC NE LC GAU MDS NS DIR DS SF AL COL GE TI LS GOC CM CIN LN LZ JA SDD NR",
+      "2": "RC TE HES UT ML ST EU TH LE LIF SL PR NDL LI OR CF RE SR MI ANC LL RS EA KE HF NM PSD THW FA CRA PIP",
+      "3": "EM CL NEO LF OB TRA",
+      "-1": "CA CO DI PG ACK ARC PA NAC GC RET LT MC EC BK NAZ NATC DE DEG AP LEG VEF CT BN WA IB CLR JR NP WC PP BL NEOR EUR",
+      "-2": "GAN CR TW CI",
+      "-3": "GA COR RT",
+      "split": "ML DEG LT PA GAN BK ID",
+      "why": "Material progress: liberals, social democrats, Marxists, ecomodernists and transhumanists say life is better today; primitivists, traditionalists, reactionaries and golden-age moralists say it is worse.",
+      "notes": {
+        "EM": "Ecomodernist Manifesto celebrates falling poverty, mortality and violence as human progress.",
+        "GA": "Zerzan and Jensen: civilisation brings alienation and domination; pre-agricultural life was better, so the item is rejected as doctrine.",
+        "COR": "Throne-and-altar reaction (de Maistre, Bonald) reads the post-1789 world as a fall from Christian order.",
+        "GAN": "Hind Swaraj calls modern civilisation a disease; Gandhi preferred village simplicity to industrial progress.",
+        "TRA": "Transhumanism rests on improvement of the human condition through technology as an ongoing historical trend.",
+        "LE": "Han Fei: the present age is better suited and the ancients were no model, a progress-minded Legalism."
+      }
+    },
+    "religion.law.5": {
+      "0": "AC AS MU IA GA CA NA GAN NOA SU MR AUC COA SUL CO SMCD CST DI NC PG BC ONC PA GC RET LT ETS MC TW PM BK MO ME NS DIR DS IS JM DE DEG PER AP COL LF PAL AM CM CN EN IR PN SN BN AD SDD TAR BL CRA",
+      "1": "UJ PE PC RC TE SC ACK AMC CR TH NE NAC LC GS US EC XC NAZ GM EM CH ELP CL NEO NDL OR AL MI OB GE GOC LN LZ REZ IM EB CLR JR HF PP PIP NEOR",
+      "2": "DC NLS TP BA CAE HS HES UT ML ST TR JU EU LU CC GU GAU BIC MDS LE LIF SF RF ES SL PR LI CF RE LL RS TI LS EA CIN NR NP WC NM PSD THW FA TRA",
+      "3": "MA HO SR KE HI JA",
+      "-1": "POC ARC KS IF NAS ANC LEG ID EUR",
+      "-2": "STC NATC IB RZ COR RT",
+      "-3": "VEF CT WA CI",
+      "split": "ID IM GAN CST CR NC CO NATC",
+      "why": "One civil marriage law for all faiths: secularists, Marxists, Kemalists, Hindu nationalists (Uniform Civil Code) and French-style republicans agree, while sharia states, Calvinist reconstruction, Catholic integralists and religious Zionists want marriage governed by religious law.",
+      "notes": {
+        "HI": "A Uniform Civil Code for all Indians is a long-standing core demand of Hindutva (RSS/BJP), aimed at Muslim personal law.",
+        "KE": "The 1926 Swiss-derived Civil Code replaced sharia family law with one secular marriage law for all Turks.",
+        "VEF": "Marriage and family are governed by the jurist-interpreted sharia; Iranian personal-status courts apply religion-specific law.",
+        "CI": "Integralism subordinates civil marriage law to canon law for the baptised; a religion-blind marriage code is rejected.",
+        "SR": "French Radicals made civil marriage and laicite their signature cause; the republic knows citizens, not confessions.",
+        "RZ": "Religious Zionism upholds Orthodox rabbinate control of Jewish marriage in Israel, so a faith-blind code is opposed.",
+        "MA": "The 1950 PRC Marriage Law abolished arranged and religious-customary marriage in favour of one law for all citizens."
+      }
+    },
+    "foreign.intervention.7": {
+      "0": "MU IA GA DC CAE PE PC POC CO DI NC PG HS TR EU LU CC ONC AMC RET GS US ETS MC EC LE PM XC NS DIR IS IF NAS RF DE EM AP AL RE COL LF MI ANC GE PAL LL LS AM EA CM LEG CN LN IR LZ REZ SN ID CT WA IM RZ AD CLR HF PP TAR FA CRA PIP COR CI RT",
+      "1": "AC AS TP STC CST SC HES ST GU BC ARC PA NAC GAU BIC LT BK NAZ NATC JM ES DEG ELP CL GOC EN PN KE VEF BN HI IB EB SDD NP WC BL NEOR",
+      "2": "CA NLS NA GAN UJ BA SU MR AUC COA SUL ML HO ACK TW MO DS PER RS TI JR EUR",
+      "3": "NOA MA JU CH",
+      "-1": "RC SMCD UT CR TH GC LC MDS SF GM NDL OR SR CIN JA NR NM PSD TRA",
+      "-2": "TE NE ME LIF SL NEO PR CF OB THW",
+      "-3": "KS LI",
+      "split": "LIF NM SL MDS",
+      "why": "Unconditional aid: non-aligned, anti-imperialist and sovereigntist camps (Bandung, Eight Principles of Chinese aid, Chavista ALBA, Juche) reject political strings, while liberal-interventionist, neoconservative and Nordic or social-liberal schools want aid tied to governance and rights.",
+      "notes": {
+        "NOA": "Bandung Principles (1955) require non-interference in internal affairs, which condemns conditionality as neocolonial.",
+        "MA": "Zhou Enlai Eight Principles of Foreign Aid (1964): aid carries no conditions and no privileges.",
+        "LI": "Liberal interventionism ties aid and force to democracy and rights; conditionality is its instrument.",
+        "CH": "ALBA and Petrocaribe offered oil and aid explicitly outside IMF-style conditionality.",
+        "KS": "Kautilya mandala theory treats gifts and aid as tools of leverage over neighbours, so unconditional giving is rejected.",
+        "LIF": "Liberal feminists back tying aid to women rights and governance reforms (gender conditionality in Western donor policy)."
+      }
+    }
+  }
+}
