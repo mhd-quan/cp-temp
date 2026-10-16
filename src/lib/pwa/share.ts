@@ -11,11 +11,16 @@ export function initializeArticleShare() {
   for (const button of buttons)
     button.addEventListener('click', async () => {
       try {
-        if ('share' in navigator) {
-          await navigator.share({ title, text: article?.dataset.paperExcerpt ?? title, url });
+        const browser = navigator as Navigator & {
+          share?: (data: ShareData) => Promise<void>;
+          clipboard?: Clipboard;
+        };
+        if (browser.share) {
+          await browser.share({ title, text: article?.dataset.paperExcerpt ?? title, url });
           if (status) status.textContent = 'Đã mở bảng chia sẻ';
         } else {
-          await navigator.clipboard.writeText(url);
+          if (!browser.clipboard) throw new Error('Clipboard is unavailable');
+          await browser.clipboard.writeText(url);
           if (status) status.textContent = 'Đã chép liên kết';
         }
       } catch {

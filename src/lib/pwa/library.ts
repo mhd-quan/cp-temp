@@ -35,7 +35,7 @@ let opening: Promise<IDBDatabase> | undefined;
 
 function openDatabase(): Promise<IDBDatabase> {
   if (opening) return opening;
-  opening = new Promise((resolve, reject) => {
+  const promise = new Promise<IDBDatabase>((resolve, reject) => {
     if (!('indexedDB' in window)) {
       reject(new Error('IndexedDB is unavailable'));
       return;
@@ -56,7 +56,8 @@ function openDatabase(): Promise<IDBDatabase> {
     opening = undefined;
     throw error;
   });
-  return opening;
+  opening = promise;
+  return promise;
 }
 
 function request<T>(request: IDBRequest<T>): Promise<T> {
