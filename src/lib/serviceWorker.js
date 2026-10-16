@@ -52,8 +52,10 @@ const trim = async (name) => {
   const cache = await caches.open(name);
   const keys = await cache.keys();
   const keep = KEEP[name] ?? 0;
-  const removable = name === PAGES ? keys.filter((key) => new URL(key.url).pathname !== OFFLINE) : keys;
-  for (const key of removable.slice(0, Math.max(0, removable.length - keep))) await cache.delete(key);
+  const removable =
+    name === PAGES ? keys.filter((key) => new URL(key.url).pathname !== OFFLINE) : keys;
+  for (const key of removable.slice(0, Math.max(0, removable.length - keep)))
+    await cache.delete(key);
 };
 
 /** A page: the network's, kept for later; offline, what was kept, or the offline page. */
@@ -76,7 +78,12 @@ async function page(event) {
   } catch {
     const pinned = await caches.open(PINNED);
     const cache = await caches.open(PAGES);
-    return (await pinned.match(key)) ?? (await cache.match(key)) ?? (await cache.match(OFFLINE)) ?? Response.error();
+    return (
+      (await pinned.match(key)) ??
+      (await cache.match(key)) ??
+      (await cache.match(OFFLINE)) ??
+      Response.error()
+    );
   }
 }
 
@@ -123,7 +130,7 @@ self.addEventListener('fetch', (event) => {
 // share-target and download flows without making it parse HTML itself.
 self.addEventListener('message', (event) => {
   const data = event.data;
-  if (!data || data.type !== 'CACHE_URLS' || !Array.isArray(data.urls)) return;
+  if (data?.type !== 'CACHE_URLS' || !Array.isArray(data.urls)) return;
   event.waitUntil(
     (async () => {
       const cache = await caches.open(PINNED);

@@ -1,10 +1,10 @@
 ---
+import { COMPASS } from '../../lib/editionNav';
 // The installed publication has its own chrome. The browser version keeps the
 // masthead, floating bar and colophon; CSS reveals this shell only when the
 // document is running as a standalone app. The links remain ordinary anchors
 // so the app is still a useful website when JavaScript is unavailable.
 import Glyph from './Glyph.astro';
-import { COMPASS } from '../../lib/editionNav';
 
 interface Props {
   reader?: boolean;
@@ -13,7 +13,8 @@ interface Props {
 
 const { reader = false, title = 'The Cochinchine Pensées' } = Astro.props;
 const path = Astro.url.pathname.replace(/\/$/, '') || '/';
-const current = (href: string) => path === href || path.startsWith(`${href}/`) ? 'page' : undefined;
+const current = (href: string) =>
+  path === href || path.startsWith(`${href}/`) ? 'page' : undefined;
 const tabs = [
   { href: '/', label: 'Ấn bản', glyph: 'mark' as const },
   { href: '/essays', label: 'Đọc', glyph: 'contents' as const },

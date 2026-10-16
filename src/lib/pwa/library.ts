@@ -43,8 +43,10 @@ function openDatabase(): Promise<IDBDatabase> {
     const request = indexedDB.open(DB_NAME, DB_VERSION);
     request.onupgradeneeded = () => {
       const db = request.result;
+      const transaction = request.transaction;
+      if (!transaction) throw new Error('Could not upgrade library');
       const saved = db.objectStoreNames.contains(SAVED_STORE)
-        ? request.transaction!.objectStore(SAVED_STORE)
+        ? transaction.objectStore(SAVED_STORE)
         : db.createObjectStore(SAVED_STORE, { keyPath: 'id' });
       if (!saved.indexNames.contains('savedAt')) saved.createIndex('savedAt', 'savedAt');
     };
@@ -77,7 +79,9 @@ export async function listSaved(): Promise<SavedPaper[]> {
 
 export async function getSaved(id: string): Promise<SavedPaper | undefined> {
   const db = await openDatabase();
-  return request<SavedPaper | undefined>(db.transaction(SAVED_STORE, 'readonly').objectStore(SAVED_STORE).get(id));
+  return request<SavedPaper | undefined>(
+    db.transaction(SAVED_STORE, 'readonly').objectStore(SAVED_STORE).get(id),
+  );
 }
 
 export async function savePaper(meta: PaperMeta): Promise<SavedPaper> {
@@ -120,21 +124,17 @@ async function cacheUrls(urls: string[]): Promise<void> {
 }
 
 export async function downloadPaper(meta: PaperMeta, article?: HTMLElement): Promise<SavedPaper> {
-  const paper = await savePaper(meta);
+  await savePaper(meta);
   const assets = article
     ? [...article.querySelectorAll<HTMLImageElement>('img')]
         .map((image) => image.currentSrc || image.src)
         .filter(Boolean)
     : [];
-  try {
-    await cacheUrls([meta.url, ...assets]);
-    await setOffline(meta.id, true);
-    return (await getSaved(meta.id))!;
-  } catch (error) {
-    // Keep the save even if the network disappears half way through a
-    // download. The reader can retry from the library later.
-    throw error;
-  }
+  await cacheUrls([meta.url, ...assets]);
+  await setOffline(meta.id, true);
+  const saved = await getSaved(meta.id);
+  if (!saved) throw new Error('Saved paper disappeared during download');
+  return saved;
 }
 
 function articleMeta(article: HTMLElement): PaperMeta | null {
@@ -157,7 +157,9 @@ export function initializeLibraryControls() {
   if (!article || !meta) return;
 
   const saveButtons = [...document.querySelectorAll<HTMLButtonElement>('[data-library-save]')];
-  const offlineButtons = [...document.querySelectorAll<HTMLButtonElement>('[data-library-offline]')];
+  const offlineButtons = [
+    ...document.querySelectorAll<HTMLButtonElement>('[data-library-offline]'),
+  ];
   const status = document.querySelector<HTMLElement>('[data-library-status]');
   if (!saveButtons.length && !offlineButtons.length) return;
 
@@ -171,11 +173,17 @@ export function initializeLibraryControls() {
     for (const button of offlineButtons) {
       button.disabled = !saved;
       button.dataset.offline = String(Boolean(saved?.offline));
-      button.setAttribute('aria-label', saved?.offline ? 'Đã tải để đọc ngoại tuyến' : 'Tải để đọc ngoại tuyến');
+      button.setAttribute(
+        'aria-label',
+        saved?.offline ? 'Đã tải để đọc ngoại tuyến' : 'Tải để đọc ngoại tuyến',
+      );
     }
   };
 
-  const refresh = () => getSaved(meta.id).then(setState).catch(() => {});
+  const refresh = () =>
+    getSaved(meta.id)
+      .then(setState)
+      .catch(() => {});
   void refresh();
 
   for (const button of saveButtons)

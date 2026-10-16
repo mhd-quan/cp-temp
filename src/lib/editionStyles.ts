@@ -14,9 +14,10 @@
 // so nothing is drawn unstyled. Ordinary pages link the shell's later half
 // before the colophon; the homepage links its own after the cover, the reader
 // its own after the text.
+
+import app from '../styles/edition/app.css?inline';
 import cards from '../styles/edition/cards.css?inline';
 import door from '../styles/edition/door.css?inline';
-import app from '../styles/edition/app.css?inline';
 import fonts from '../styles/edition/fonts.css?inline';
 import foundation from '../styles/edition/foundation.css?inline';
 import home from '../styles/edition/home.css?inline';
