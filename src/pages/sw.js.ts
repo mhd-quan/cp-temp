@@ -7,7 +7,14 @@ import { LATER } from '../lib/editionStyles';
 import source from '../lib/serviceWorker.js?raw';
 
 export function GET() {
-  const precache = [LATER.shell];
+  const precache = [
+    LATER.shell,
+    '/manifest.webmanifest',
+    '/brand/mark.svg',
+    '/brand/apple-touch-icon.png',
+    '/brand/app/icon-192.png',
+    '/brand/app/icon-512.png',
+  ];
   const code = transformSync(source.replace('__PRECACHE__', JSON.stringify(precache)), {
     minify: true,
     target: 'es2022',

@@ -12,6 +12,7 @@ import pliegoRegular from '../assets/fonts/pliego/Pliego-Regular.woff2?url';
 import GoogleAnalytics from '../components/analytics/GoogleAnalytics.astro';
 import Appearance from '../components/edition/Appearance.astro';
 import AppSheet from '../components/edition/AppSheet.astro';
+import AppShell from '../components/edition/AppShell.astro';
 import EditionSearch from '../components/edition/EditionSearch.astro';
 import Glyph from '../components/edition/Glyph.astro';
 import Later from '../components/edition/Later.astro';
@@ -98,6 +99,8 @@ const drawn = nameplate();
   </head>
   <body>
     <a class="skip-link" href="#main">Đến nội dung chính</a>
+
+    <AppShell reader={reader} title={title} />
 
     {!reader && (
       <header class="masthead" data-masthead>
@@ -198,6 +201,14 @@ const drawn = nameplate();
       initLamps();
       initSpeculation();
       initInstall();
+      if (document.querySelector('[data-paper-id], [data-library-page]')) {
+        import('../lib/pwa/library').then(({ initializeLibraryControls, initializeLibraryPage }) => {
+          if (document.querySelector('[data-paper-id]')) initializeLibraryControls();
+          if (document.querySelector('[data-library-page]')) initializeLibraryPage();
+        });
+      }
+      if (document.querySelector('[data-share-article]'))
+        import('../lib/pwa/share').then(({ initializeArticleShare }) => initializeArticleShare());
 
       // What has been read stays readable without a connection (lib/serviceWorker.js).
       // Registered once the page has loaded and the browser is idle: the first

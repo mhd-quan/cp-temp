@@ -13,9 +13,10 @@
 const PRECACHE = __PRECACHE__;
 const OFFLINE = '/offline';
 const PAGES = 'pensees-pages';
+const PINNED = 'pensees-pinned';
 const FILES = 'pensees-files';
 /** The most pages and files kept; the oldest go first. */
-const KEEP = { [PAGES]: 80, [FILES]: 500 };
+const KEEP = { [PAGES]: 80, [PINNED]: 160, [FILES]: 500 };
 const IMMUTABLE = /^\/(?:_astro|images\/responsive|nameplate|discovery)\//;
 const REVALIDATE = /^\/(?:pagefind|brand)\//;
 
@@ -24,8 +25,13 @@ self.addEventListener('install', (event) => {
     (async () => {
       const pages = await caches.open(PAGES);
       await pages.add(new Request(OFFLINE, { cache: 'reload' }));
+      await Promise.allSettled([
+        pages.add(new Request('/', { cache: 'reload' })),
+        pages.add(new Request('/library', { cache: 'reload' })),
+      ]);
+      await caches.open(PINNED);
       const files = await caches.open(FILES);
-      await files.addAll(PRECACHE);
+      await files.addAll(PRECACHE.map((url) => new Request(url, { cache: 'reload' })));
       await self.skipWaiting();
     })(),
   );
@@ -36,7 +42,7 @@ self.addEventListener('activate', (event) => {
     (async () => {
       await self.registration.navigationPreload?.enable();
       for (const key of await caches.keys())
-        if (key !== PAGES && key !== FILES) await caches.delete(key);
+        if (key !== PAGES && key !== PINNED && key !== FILES) await caches.delete(key);
       await self.clients.claim();
     })(),
   );
@@ -45,7 +51,11 @@ self.addEventListener('activate', (event) => {
 const trim = async (name) => {
   const cache = await caches.open(name);
   const keys = await cache.keys();
-  for (const key of keys.slice(0, Math.max(0, keys.length - KEEP[name]))) await cache.delete(key);
+  const keep = KEEP[name] ?? 0;
+  const removable =
+    name === PAGES ? keys.filter((key) => new URL(key.url).pathname !== OFFLINE) : keys;
+  for (const key of removable.slice(0, Math.max(0, removable.length - keep)))
+    await cache.delete(key);
 };
 
 /** A page: the network's, kept for later; offline, what was kept, or the offline page. */
@@ -66,8 +76,14 @@ async function page(event) {
     }
     return response;
   } catch {
+    const pinned = await caches.open(PINNED);
     const cache = await caches.open(PAGES);
-    return (await cache.match(key)) ?? (await cache.match(OFFLINE)) ?? Response.error();
+    return (
+      (await pinned.match(key)) ??
+      (await cache.match(key)) ??
+      (await cache.match(OFFLINE)) ??
+      Response.error()
+    );
   }
 }
 
@@ -107,4 +123,25 @@ self.addEventListener('fetch', (event) => {
   if (request.mode === 'navigate') event.respondWith(page(event));
   else if (IMMUTABLE.test(url.pathname)) event.respondWith(immutable(event));
   else if (REVALIDATE.test(url.pathname)) event.respondWith(fresh(event));
+});
+
+// A page can ask the worker to pin a set of same-origin requests after the
+// reader has inspected its images. This keeps the worker useful for future
+// share-target and download flows without making it parse HTML itself.
+self.addEventListener('message', (event) => {
+  const data = event.data;
+  if (data?.type !== 'CACHE_URLS' || !Array.isArray(data.urls)) return;
+  event.waitUntil(
+    (async () => {
+      const cache = await caches.open(PINNED);
+      for (const value of data.urls) {
+        const url = new URL(value, self.location.origin);
+        if (url.origin !== self.location.origin) continue;
+        const response = await fetch(url.href, { cache: 'reload' });
+        if (response.ok) await cache.put(url.href, response.clone());
+      }
+      await trim(PINNED);
+      event.source?.postMessage({ type: 'CACHE_URLS_DONE', urls: data.urls });
+    })(),
+  );
 });

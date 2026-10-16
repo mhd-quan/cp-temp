@@ -14,6 +14,8 @@
 // so nothing is drawn unstyled. Ordinary pages link the shell's later half
 // before the colophon; the homepage links its own after the cover, the reader
 // its own after the text.
+
+import app from '../styles/edition/app.css?inline';
 import cards from '../styles/edition/cards.css?inline';
 import door from '../styles/edition/door.css?inline';
 import fonts from '../styles/edition/fonts.css?inline';
@@ -27,7 +29,7 @@ import palette from '../styles/edition/palette.css?inline';
 import reader from '../styles/edition/reader.css?inline';
 import readerFonts from '../styles/edition/reader-fonts.css?inline';
 
-const shell = fonts + palette + foundation;
+const shell = fonts + palette + foundation + app;
 
 /** The styles of each kind of page's first screen, inline in its head. */
 export const FIRST = {
