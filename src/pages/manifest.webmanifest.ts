@@ -19,6 +19,8 @@ export function GET() {
     start_url: '/',
     scope: '/',
     display: 'standalone',
+    display_override: ['standalone'],
+    launch_handler: { client_mode: 'navigate-existing' },
     orientation: 'any',
     background_color: PAPERS.light.paper,
     theme_color: PAPERS.light.paper,
@@ -51,6 +53,7 @@ export function GET() {
       { name: 'Pensées', url: '/pensees' },
       { name: 'La bàn Tư tưởng', url: COMPASS },
       { name: 'Tìm kiếm', url: '/search' },
+      { name: 'Thư viện', url: '/library' },
     ].map((shortcut) => ({
       ...shortcut,
       icons: [{ src: '/brand/app/icon-192.png', sizes: '192x192', type: 'image/png' }],

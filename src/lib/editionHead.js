@@ -4,6 +4,10 @@
 (() => {
   const root = document.documentElement;
   root.dataset.js = '';
+  // Standalone launches receive the app chrome before the first frame. The
+  // same document remains a normal publication page in a browser tab.
+  if (matchMedia('(display-mode: standalone)').matches || navigator.standalone === true)
+    root.dataset.app = '';
   // Safari on iPhone shows a control as pressed (:active) only where a touch
   // is listened for: without this, no button on a phone ever gave under the
   // finger. It listens and does nothing, and never holds up a scroll.

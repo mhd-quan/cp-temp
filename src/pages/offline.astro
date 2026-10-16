@@ -24,18 +24,22 @@ import EditionLayout from '~/layouts/EditionLayout.astro';
       document.querySelector('[data-retry]')?.addEventListener('click', () => location.reload());
       addEventListener('online', () => location.reload());
       if (!list || !row || !('caches' in window)) return;
-      const cache = await caches.open('pensees-pages');
-      const keys = (await cache.keys()).reverse();
-      for (const request of keys) {
-        const url = new URL(request.url);
-        if (!/^\/essays\/[^/]+$/.test(url.pathname) || /^\/essays\/\d+$/.test(url.pathname)) continue;
-        const html = await (await cache.match(request))?.text();
-        const title = html?.match(/<title>([^<]*)<\/title>/)?.[1]?.replace(/ — The Cochinchine Pensées$/, '');
-        if (!title) continue;
-        const item = row.content.firstElementChild.cloneNode(true);
-        item.querySelector('a').href = url.pathname;
-        item.querySelector('span').innerHTML = title;
-        list.append(item);
+      const seen = new Set();
+      for (const name of ['pensees-pinned', 'pensees-pages']) {
+        const cache = await caches.open(name);
+        const keys = (await cache.keys()).reverse();
+        for (const request of keys) {
+          const url = new URL(request.url);
+          if (seen.has(url.pathname) || !/^\/essays\/[^/]+$/.test(url.pathname) || /^\/essays\/\d+$/.test(url.pathname)) continue;
+          const html = await (await cache.match(request))?.text();
+          const title = html?.match(/<title>([^<]*)<\/title>/)?.[1]?.replace(/ — The Cochinchine Pensées$/, '');
+          if (!title) continue;
+          seen.add(url.pathname);
+          const item = row.content.firstElementChild.cloneNode(true);
+          item.querySelector('a').href = url.pathname;
+          item.querySelector('span').textContent = title;
+          list.append(item);
+        }
       }
       list.hidden = !list.children.length;
     })();

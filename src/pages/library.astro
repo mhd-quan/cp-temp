@@ -1,0 +1,23 @@
+---
+// The personal shelf exists only on the device. The page itself stays a
+// normal static publication page so a browser without IndexedDB still gets a
+// clear explanation and a way back to reading.
+import PageHead from '~/components/edition/PageHead.astro';
+import EditionLayout from '~/layouts/EditionLayout.astro';
+---
+
+<EditionLayout title="Thư viện" description="Những bài viết bạn đã lưu trên thiết bị này." noindex>
+  <PageHead title="Thư viện" dek="Những bài viết bạn đã lưu trên thiết bị này." />
+  <div class="page-body wrap library-page" data-library-page>
+    <div class="library-page__intro">
+      <p class="library-page__status" data-library-page-status></p>
+      <a class="caps-link" href="/essays">Tìm bài để lưu</a>
+    </div>
+    <ol class="library-list" role="list" data-library-list hidden></ol>
+    <div class="library-empty" data-library-empty hidden>
+      <p>Thư viện còn trống. Khi gặp một bài muốn giữ lại, chọn biểu tượng đánh dấu để nó ở đây.</p>
+      <p><a href="/essays">Mở danh sách tiểu luận</a></p>
+    </div>
+  </div>
+</EditionLayout>
+

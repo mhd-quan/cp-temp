@@ -1,0 +1,58 @@
+---
+// The installed publication has its own chrome. The browser version keeps the
+// masthead, floating bar and colophon; CSS reveals this shell only when the
+// document is running as a standalone app. The links remain ordinary anchors
+// so the app is still a useful website when JavaScript is unavailable.
+import Glyph from './Glyph.astro';
+import { COMPASS } from '../../lib/editionNav';
+
+interface Props {
+  reader?: boolean;
+  title?: string;
+}
+
+const { reader = false, title = 'The Cochinchine Pensées' } = Astro.props;
+const path = Astro.url.pathname.replace(/\/$/, '') || '/';
+const current = (href: string) => path === href || path.startsWith(`${href}/`) ? 'page' : undefined;
+const tabs = [
+  { href: '/', label: 'Ấn bản', glyph: 'mark' as const },
+  { href: '/essays', label: 'Đọc', glyph: 'contents' as const },
+  { href: '/search', label: 'Khám phá', glyph: 'search' as const },
+  { href: COMPASS, label: 'Thể nghiệm', glyph: 'forward' as const },
+  { href: '/library', label: 'Thư viện', glyph: 'bookmark' as const },
+];
+---
+
+<div class="app-shell" data-app-shell data-reader={reader ? 'true' : undefined}>
+  <header class="app-shell__top" aria-label="Thanh ứng dụng">
+    {reader ? (
+      <a class="app-shell__back icon-button" href="/" aria-label="Về Ấn bản"><Glyph name="back" size={21} /></a>
+    ) : (
+      <a class="app-shell__brand" href="/" aria-label="The Cochinchine Pensées">
+        <img src="/brand/mark.svg" width="28" height="28" alt="" />
+      </a>
+    )}
+    <p class="app-shell__title">{reader ? title : 'The Cochinchine Pensées'}</p>
+    <div class="app-shell__actions">
+      <button class="icon-button" type="button" data-search-open aria-label="Tìm kiếm"><Glyph name="search" size={20} /></button>
+      {reader ? (
+        <>
+          <button class="icon-button" type="button" data-library-save aria-pressed="false" aria-label="Lưu vào thư viện"><Glyph name="bookmark" size={20} /></button>
+          <button class="icon-button app-only-action" type="button" data-library-offline aria-label="Tải để đọc ngoại tuyến"><Glyph name="download" size={20} /></button>
+        </>
+      ) : <button class="icon-button" type="button" popovertarget="site-menu" aria-label="Mở menu"><Glyph name="menu" size={20} /></button>}
+    </div>
+    {reader && <span class="sr-only" role="status" data-library-status></span>}
+  </header>
+
+  {!reader && (
+    <nav class="app-shell__tabs" aria-label="Khu vực của ứng dụng">
+      {tabs.map((tab) => (
+        <a href={tab.href} aria-current={current(tab.href)}>
+          <Glyph name={tab.glyph} size={20} />
+          <span>{tab.label}</span>
+        </a>
+      ))}
+    </nav>
+  )}
+</div>

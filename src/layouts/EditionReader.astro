@@ -112,6 +112,7 @@ const neighbours = [
   </Fragment>
   <Fragment slot="bar-tools">
     <span class="reading-remaining caps" data-remaining data-minutes={minutes} data-pagefind-ignore>{minutes} phút đọc</span>
+    <button class="icon-button reader-save" type="button" data-library-save aria-pressed="false" aria-label="Lưu vào thư viện"><Glyph name="bookmark" size={20} /></button>
     <button class="icon-button reader-aa" type="button" popovertarget="reader-settings" aria-label="Trang đọc"><span aria-hidden="true">Aa</span></button>
   </Fragment>
 
@@ -124,6 +125,11 @@ const neighbours = [
     data-search-title-alias={foldSearchText(title)}
     data-search-description={excerpt ?? subtitle ?? ''}
     data-search-aliases={searchAliases}
+    data-paper-id={slug}
+    data-paper-title={text(title)}
+    data-paper-url={seo.url}
+    data-paper-excerpt={excerpt ?? subtitle ?? dek ?? ''}
+    data-paper-cover={image?.url}
   >
     <header class="article-head">
       <div class="article-head__text">
@@ -164,6 +170,8 @@ const neighbours = [
 
       <div class="article-end__actions">
         <button class="button button--line" type="button" data-copy-url={seo.url} hidden><Glyph name="link" size={18} />Chép liên kết</button>
+        <button class="button button--line app-only-action" type="button" data-library-offline aria-label="Tải để đọc ngoại tuyến"><Glyph name="download" size={18} />Tải để đọc ngoại tuyến</button>
+        <button class="button button--line" type="button" data-share-article><Glyph name="share" size={18} />Chia sẻ</button>
         <a class="button button--line" href={`mailto:?subject=${encodeURIComponent(title)}&body=${encodeURIComponent(seo.url)}`}><Glyph name="mail" size={18} />Gửi qua email</a>
         <a class="button button--line" href={`/downloads/essays/${slug}.pdf`} download data-astro-prefetch="false"><Glyph name="download" size={18} />Tải bản PDF</a>
         <span class="article-end__status caps" data-copy-status role="status"></span>
